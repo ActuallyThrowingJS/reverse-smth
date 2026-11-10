@@ -75,4 +75,6 @@ Ghidra exported 35 of 36 selected smaller native methods with named JNI calls. I
 
 The bytecode tools now use ASM 9.8 for Java 25 class-file support. See `recovery-project/README.md` for the standard Gradle scaffold, and `reports/extended` for checks and coverage. The full mod does not compile or launch yet.
 
-A further reference-table investigation recovered 2,341 encrypted member records without relying on known caller keys. Every recovered record was verified against the original decoder, covering all 64 selector cases. Using this catalog to infer additional missing method keys is still experimental; the catalog itself is in `evidence/extended/member-catalog.json`.
+A further reference-table investigation recovered 2,348 encrypted member records without relying on known caller keys. Every recovered record was verified against the original decoder, covering all 64 selector cases. Using this catalog to infer additional missing method keys is still experimental; the catalog itself is in `evidence/extended/member-catalog.json`.
+
+The conditional-key experiment now finds 4,114 method contexts and decodes additional strings and member references in analysis copies. It passes stack verification over 55,069 bodies, but caller reachability remains unproven. See [`reports/inferred-contexts`](reports/inferred-contexts) for the assumptions, results, interrupted frame-computation pass and replay instructions. These results do not replace the primary source tree.

@@ -1,0 +1,34 @@
+// CONDITIONAL ANALYSIS FRAGMENT; not a standalone compilation unit.
+// Original owner: me/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl
+// Original descriptor: (Lme/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl;FJFIILjava/lang/Object;)Z
+// Required local-slot bindings: {"arg:2":140233470220137}
+// Caller reachability, type checking and behavior remain unverified.
+public static boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$3cbeddfcfd6070ae(
+      llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl var0,
+      float var1,
+      long var2,
+      float var4,
+      int var5,
+      int var6,
+      Object var7
+   ) {
+      var2 = 140233470220137L;
+      var2 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII ^ var2;
+      long var8 = var2 ^ 136837527077309L;
+      String[] var10 = llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.lIIlIIIllIIIllIllIIlIIIIlllIllIIlIlIIlIllIlIllllllllIllIllllIlIIlIIIllIIllIIlllllIllI();
+
+      try {
+         if (var10 == null) {
+            return (boolean)var6;
+         }
+
+         if ((var6 & 4) == 0) {
+            return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var4, var8, var5);
+         }
+      } catch (MatchException var12) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var12);
+      }
+
+      byte var15 = 10;
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var4, var8, var15);
+   }

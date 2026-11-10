@@ -1,0 +1,12 @@
+{
+  "analysisOnly": true,
+  "runtimeCallerReachabilityEstablished": false,
+  "contextsGenerated": 4114,
+  "contextsWithJavaDeclarationsAndNoRecordedDecompilerFailure": 897,
+  "inferredMethodDecompilerFailures": 3152,
+  "allClassWriteFailureWarnings": 26,
+  "note": "Declaration inventory only; no claim of type checking, complete source recovery or application equivalence.",
+  "contextsInSyntaxValidSourceUnits": 15,
+  "exportedFragments": 15,
+  "wholeModBuildSuccessful": false
+}

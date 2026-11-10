@@ -1,0 +1,41 @@
+{
+  "analysisOnly": true,
+  "files": [
+    {
+      "path": "inputs/PoliSlop.jar",
+      "bytes": 32672216,
+      "sha256": "759904ab061cbbdea0db6305f951b2c72c59a2f4f6eeccc73b3f92fdb6685b42"
+    },
+    {
+      "path": "inputs/PolinexFabricLoader-26.1.2.jar",
+      "bytes": 2868748,
+      "sha256": "06d759fe879faa4120407e93ff00025c986dbb389a448fab63c65030881d8418"
+    },
+    {
+      "path": "build/round5/strings.jar",
+      "bytes": 32729860,
+      "sha256": "dba60daec24c6947eedd882241826abc6647a6311aea42a4a60c79093bc6995c"
+    },
+    {
+      "path": "build/round5/references.jar",
+      "bytes": 32751762,
+      "sha256": "6d9a16e2da879e1e1e936f3bca50160958f58c81b540a780a30940ccf005a2fc"
+    },
+    {
+      "path": "build/round5/crypto-expanded/crypto-state.json",
+      "bytes": 6410708,
+      "sha256": "e548a35eb6fc1296b3efd8067f4ea6f0abeaf174a3953ea798a00e3558067655"
+    },
+    {
+      "path": "evidence/extended/member-catalog.json",
+      "bytes": 2578870,
+      "sha256": "7976d7eac11d39d5b3940cb8689b6120def094c2a13021482a89858584c67317"
+    },
+    {
+      "path": "evidence/dispatcher-state.json",
+      "bytes": 3558596,
+      "sha256": "4c43607eaeee9a1ca0f23965599b9d40c0f1d26c77ed2ffd29ed0e522b0202f3"
+    }
+  ],
+  "note": "build paths identify the local incremental experiment. The replay script creates fresh artifacts from supplied analysis inputs; build artifacts are not committed."
+}

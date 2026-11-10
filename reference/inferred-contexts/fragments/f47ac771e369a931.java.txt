@@ -1,0 +1,28 @@
+// CONDITIONAL ANALYSIS FRAGMENT; not a standalone compilation unit.
+// Original owner: me/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl
+// Original descriptor: (Lme/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl;JLnet/minecraft/world/phys/Vec3;IILjava/lang/Object;)Z
+// Required local-slot bindings: {"arg:1":101607432911082}
+// Caller reachability, type checking and behavior remain unverified.
+public static boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$ea6e7cb54cf20c1b(
+      llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl var0, long var1, Vec3 var3, int var4, int var5, Object var6
+   ) {
+      var1 = 101607432911082L;
+      var1 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII ^ var1;
+      long var7 = var1 ^ 54602351243921L;
+      String[] var9 = llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.lIIlIIIllIIIllIllIIlIIIIlllIllIIlIlIIlIllIlIllllllllIllIllllIlIIlIIIllIIllIIlllllIllI();
+
+      try {
+         if (var9 == null) {
+            return (boolean)var5;
+         }
+
+         if ((var5 & 2) == 0) {
+            return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3, var7, var4);
+         }
+      } catch (MatchException var11) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11);
+      }
+
+      byte var14 = 5;
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3, var7, var14);
+   }

@@ -1,0 +1,3 @@
+build/round5/catalog/inferred.jar: methods checked=55069, failures=0
+build/round5/catalog/inferred-references.jar: methods checked=55069, failures=0
+PASS no new BasicVerifier failures

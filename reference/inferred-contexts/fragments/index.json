@@ -1,0 +1,227 @@
+[
+  {
+    "owner": "me/octo/client/failsafes/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+    "originalName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+    "originalDescriptor": "(Lnet/minecraft/world/phys/Vec3;JLnet/minecraft/world/phys/Vec3;)Z",
+    "variantName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$inferred$da31d87d63bd2ed3",
+    "variantDescriptor": "(Lnet/minecraft/world/phys/Vec3;JLnet/minecraft/world/phys/Vec3;)Z",
+    "requiredBindings": {
+      "arg:1": 92914106119278
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/failsafes/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII.java",
+    "fragment": "a49c096a194a9ab9.java.txt"
+  },
+  {
+    "owner": "me/octo/client/failsafes/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(JLnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Z",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$6e7ed7de2c4e4a10",
+    "variantDescriptor": "(JLnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Z",
+    "requiredBindings": {
+      "arg:0": 112578746641977
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/failsafes/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.java",
+    "fragment": "671c4dfc5d790bd8.java.txt"
+  },
+  {
+    "owner": "me/octo/client/failsafes/reactions_v2/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(JLme/octo/client/failsafes/reactions_v2/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;FIIDZZZDILjava/lang/Object;)Lme/octo/client/failsafes/reactions_v2/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$d7d1ca87a950176b",
+    "variantDescriptor": "(JLme/octo/client/failsafes/reactions_v2/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;FIIDZZZDILjava/lang/Object;)Lme/octo/client/failsafes/reactions_v2/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;",
+    "requiredBindings": {
+      "arg:0": 20049843900302
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/failsafes/reactions_v2/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.java",
+    "fragment": "78a82146bd690cbc.java.txt"
+  },
+  {
+    "owner": "me/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(Lme/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl;FJFIILjava/lang/Object;)Z",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$3cbeddfcfd6070ae",
+    "variantDescriptor": "(Lme/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl;FJFIILjava/lang/Object;)Z",
+    "requiredBindings": {
+      "arg:2": 140233470220137
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.java",
+    "fragment": "8f908086c6e4c795.java.txt"
+  },
+  {
+    "owner": "me/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(Lme/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl;JLnet/minecraft/world/phys/Vec3;IILjava/lang/Object;)Z",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$ea6e7cb54cf20c1b",
+    "variantDescriptor": "(Lme/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl;JLnet/minecraft/world/phys/Vec3;IILjava/lang/Object;)Z",
+    "requiredBindings": {
+      "arg:1": 101607432911082
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.java",
+    "fragment": "f47ac771e369a931.java.txt"
+  },
+  {
+    "owner": "me/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+    "originalName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+    "originalDescriptor": "(JLme/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl;Lnet/minecraft/world/phys/Vec3;IILjava/lang/Object;)I",
+    "variantName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$inferred$a4d018dedc54956a",
+    "variantDescriptor": "(JLme/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl;Lnet/minecraft/world/phys/Vec3;IILjava/lang/Object;)I",
+    "requiredBindings": {
+      "arg:0": 112438639883682
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/failsafes/reactions_v2/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.java",
+    "fragment": "28bace2d697d5f69.java.txt"
+  },
+  {
+    "owner": "me/octo/client/gui/IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(Lme/octo/client/gui/IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII;ZZLjava/lang/String;Ljava/lang/String;JILjava/lang/Object;)Lme/octo/client/gui/IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII;",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$4cf76984a01f465b",
+    "variantDescriptor": "(Lme/octo/client/gui/IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII;ZZLjava/lang/String;Ljava/lang/String;JILjava/lang/Object;)Lme/octo/client/gui/IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII;",
+    "requiredBindings": {
+      "arg:5": 109010483738281
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/gui/IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII.java",
+    "fragment": "efe27e557f6990e2.java.txt"
+  },
+  {
+    "owner": "me/octo/client/gui/lIIIlllIIlIlIllllIllIIIllIIlIllIlllIIllllIIlIlIIIIIIlllllllIlIlllllIlIIlIIlIIIIlIIlII",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(JLme/octo/client/gui/lIIIlllIIlIlIllllIllIIIllIIlIllIlllIIllllIIlIlIIIIIIlllllllIlIlllllIlIIlIIlIIIIlIIlII;ZZLjava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lme/octo/client/gui/lIIIlllIIlIlIllllIllIIIllIIlIllIlllIIllllIIlIlIIIIIIlllllllIlIlllllIlIIlIIlIIIIlIIlII;",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$20526f023876d522",
+    "variantDescriptor": "(JLme/octo/client/gui/lIIIlllIIlIlIllllIllIIIllIIlIllIlllIIllllIIlIlIIIIIIlllllllIlIlllllIlIIlIIlIIIIlIIlII;ZZLjava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lme/octo/client/gui/lIIIlllIIlIlIllllIllIIIllIIlIllIlllIIllllIIlIlIIIIIIlllllllIlIlllllIlIIlIIlIIIIlIIlII;",
+    "requiredBindings": {
+      "arg:0": 140449897602085
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/gui/lIIIlllIIlIlIllllIllIIIllIIlIllIlllIIllllIIlIlIIIIIIlllllllIlIlllllIlIIlIIlIIIIlIIlII.java",
+    "fragment": "1e246858a59d1882.java.txt"
+  },
+  {
+    "owner": "me/octo/client/gui/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(Lme/octo/client/gui/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;FFJFLjava/lang/String;ZFLme/octo/client/utils/render/colors/Color;ZILjava/lang/Object;)V",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$71e96419719d040f",
+    "variantDescriptor": "(Lme/octo/client/gui/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;FFJFLjava/lang/String;ZFLme/octo/client/utils/render/colors/Color;ZILjava/lang/Object;)V",
+    "requiredBindings": {
+      "arg:3": 43732073221450
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/gui/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII.java",
+    "fragment": "ebe8e1bf7c5fb815.java.txt"
+  },
+  {
+    "owner": "me/octo/client/gui/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(Lme/octo/client/gui/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI;ZZLjava/lang/String;Lme/octo/client/gui/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII;Ljava/lang/String;JILjava/lang/Object;)Lme/octo/client/gui/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI;",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$67e7f30f1f78f468",
+    "variantDescriptor": "(Lme/octo/client/gui/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI;ZZLjava/lang/String;Lme/octo/client/gui/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII;Ljava/lang/String;JILjava/lang/Object;)Lme/octo/client/gui/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI;",
+    "requiredBindings": {
+      "arg:6": 18354994888805
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/gui/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI.java",
+    "fragment": "955e75da115dc7dc.java.txt"
+  },
+  {
+    "owner": "me/octo/client/modules/IIIIIIIIIIllllIlIIllIlllllIIIlIlIlIllllIIIIllIlIIlllIlllllIlIIIIlIIIIIllllIIIlIlIlllI",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(JLme/octo/client/modules/IIIIIIIIIIllllIlIIllIlllllIIIlIlIlIllllIIIIllIlIIlllIlllllIlIIIIlIIIIIllllIIIlIlIlllI;Ljava/lang/String;Ljava/lang/String;JJIILjava/lang/Object;)Lme/octo/client/modules/IIIIIIIIIIllllIlIIllIlllllIIIlIlIlIllllIIIIllIlIIlllIlllllIlIIIIlIIIIIllllIIIlIlIlllI;",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$06972b0db77c86b7",
+    "variantDescriptor": "(JLme/octo/client/modules/IIIIIIIIIIllllIlIIllIlllllIIIlIlIlIllllIIIIllIlIIlllIlllllIlIIIIlIIIIIllllIIIlIlIlllI;Ljava/lang/String;Ljava/lang/String;JJIILjava/lang/Object;)Lme/octo/client/modules/IIIIIIIIIIllllIlIIllIlllllIIIlIlIlIllllIIIIllIlIIlllIlllllIlIIIIlIIIIIllllIIIlIlIlllI;",
+    "requiredBindings": {
+      "arg:0": 35147179823118
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/modules/IIIIIIIIIIllllIlIIllIlllllIIIlIlIlIllllIIIIllIlIIlllIlllllIlIIIIlIIIIIllllIIIlIlIlllI.java",
+    "fragment": "8758a2a0a1a77e13.java.txt"
+  },
+  {
+    "owner": "me/octo/client/modules/IllllIIIIIlllIIllIIIIIllIlIllllIIIIllIlIlIIllIIIlllllIIIIIIIIlIIlIlIIIIIlIllIIIlIlIlI",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(Lme/octo/client/modules/IllllIIIIIlllIIllIIIIIllIlIllllIIIIllIlIlIIllIIIlllllIIIIIIIIlIIlIlIIIIIlIllIIIlIlIlI;FFILjava/lang/Object;J)Lme/octo/client/modules/IllllIIIIIlllIIllIIIIIllIlIllllIIIIllIlIlIIllIIIlllllIIIIIIIIlIIlIlIIIIIlIllIIIlIlIlI;",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$d7c8c3a0826f514b",
+    "variantDescriptor": "(Lme/octo/client/modules/IllllIIIIIlllIIllIIIIIllIlIllllIIIIllIlIlIIllIIIlllllIIIIIIIIlIIlIlIIIIIlIllIIIlIlIlI;FFILjava/lang/Object;J)Lme/octo/client/modules/IllllIIIIIlllIIllIIIIIllIlIllllIIIIllIlIlIIllIIIlllllIIIIIIIIlIIlIlIIIIIlIllIIIlIlIlI;",
+    "requiredBindings": {
+      "arg:5": 132049621916368
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/modules/IllllIIIIIlllIIllIIIIIllIlIllllIIIIllIlIlIIllIIIlllllIIIIIIIIlIIlIlIIIIIlIllIIIlIlIlI.java",
+    "fragment": "139d024958132b19.java.txt"
+  },
+  {
+    "owner": "me/octo/client/modules/impl/features/hud/lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIllIllIllllIllIlIlIlIlIIIl",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(JLme/octo/client/modules/impl/features/hud/lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIllIllIllllIllIlIlIlIlIIIl;ZZZILjava/lang/Object;)V",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$b1d341e8f44b0a46",
+    "variantDescriptor": "(JLme/octo/client/modules/impl/features/hud/lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIllIllIllllIllIlIlIlIlIIIl;ZZZILjava/lang/Object;)V",
+    "requiredBindings": {
+      "arg:0": 94243074110366
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/modules/impl/features/hud/lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIllIllIllllIllIlIlIlIlIIIl.java",
+    "fragment": "aadd2c112acb9180.java.txt"
+  },
+  {
+    "owner": "me/octo/client/scripting/lIlIllIlllIlllIIllllllIIlIIlIllllIIlIIIIllIlIIIIlIIlIlllllIlIlllIIIlIIIlIlIlIlIllllII",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(Lme/octo/client/scripting/lIlIllIlllIlllIIllllllIIlIIlIllllIIlIIIIllIlIIIIlIIlIlllllIlIlllIIIlIIIlIlIlIlIllllII;Lorg/graalvm/polyglot/Value;Lorg/graalvm/polyglot/Value;Lorg/graalvm/polyglot/Value;Lorg/graalvm/polyglot/Value;Lkotlin/jvm/functions/Function2;JILjava/lang/Object;)Lme/octo/client/scripting/lIlIllIlllIlllIIllllllIIlIIlIllllIIlIIIIllIlIIIIlIIlIlllllIlIlllIIIlIIIlIlIlIlIllllII;",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$85f6608ce49ab31c",
+    "variantDescriptor": "(Lme/octo/client/scripting/lIlIllIlllIlllIIllllllIIlIIlIllllIIlIIIIllIlIIIIlIIlIlllllIlIlllIIIlIIIlIlIlIlIllllII;Lorg/graalvm/polyglot/Value;Lorg/graalvm/polyglot/Value;Lorg/graalvm/polyglot/Value;Lorg/graalvm/polyglot/Value;Lkotlin/jvm/functions/Function2;JILjava/lang/Object;)Lme/octo/client/scripting/lIlIllIlllIlllIIllllllIIlIIlIllllIIlIIIIllIlIIIIlIIlIlllllIlIlllIIIlIIIlIlIlIlIllllII;",
+    "requiredBindings": {
+      "arg:6": 17274080864600
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/scripting/lIlIllIlllIlllIIllllllIIlIIlIllllIIlIIIIllIlIIIIlIIlIlllllIlIlllIIIlIIIlIlIlIlIllllII.java",
+    "fragment": "1341154a0d3556fb.java.txt"
+  },
+  {
+    "owner": "me/octo/client/utils/skyblock/mining/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "originalDescriptor": "(Lme/octo/client/utils/skyblock/mining/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII;IIILjava/lang/Object;J)Lme/octo/client/utils/skyblock/mining/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII;",
+    "variantName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$b838064a2793f7a0",
+    "variantDescriptor": "(Lme/octo/client/utils/skyblock/mining/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII;IIILjava/lang/Object;J)Lme/octo/client/utils/skyblock/mining/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII;",
+    "requiredBindings": {
+      "arg:5": 117920072643133
+    },
+    "constructorMarkerParameters": 0,
+    "runtimeCallersRedirected": false,
+    "status": "Analysis context: requires the recorded arguments/final instance fields; caller reachability is unproven",
+    "source": "me/octo/client/utils/skyblock/mining/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.java",
+    "fragment": "a010b89928576a66.java.txt"
+  }
+]

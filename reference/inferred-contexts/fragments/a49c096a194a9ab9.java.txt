@@ -1,0 +1,38 @@
+// CONDITIONAL ANALYSIS FRAGMENT; not a standalone compilation unit.
+// Original owner: me/octo/client/failsafes/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII
+// Original descriptor: (Lnet/minecraft/world/phys/Vec3;JLnet/minecraft/world/phys/Vec3;)Z
+// Required local-slot bindings: {"arg:1":92914106119278}
+// Caller reachability, type checking and behavior remain unverified.
+private static boolean llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$inferred$da31d87d63bd2ed3(
+      Vec3 var0, long var1, Vec3 var3
+   ) {
+      var1 = 92914106119278L;
+      var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
+      long var4 = var1 ^ 101341228361576L;
+      String var6 = lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI.lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl();
+
+      try {
+         double var11;
+         int var10000 = (
+                  var11 = me.octo.client.utils.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                        .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                           new Vec3(var0.x(), var0.y(), var0.z()), var4, var3
+                        )
+                     - 1.0
+               )
+               == 0.0
+            ? 0
+            : (var11 < 0.0 ? -1 : 1);
+         if (var6 != null) {
+            return (boolean)var10000;
+         }
+
+         if (var10000 < 0) {
+            return (boolean)1;
+         }
+      } catch (MatchException var8) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8);
+      }
+
+      return (boolean)0;
+   }

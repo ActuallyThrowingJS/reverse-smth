@@ -1,0 +1,156 @@
+// CONDITIONAL ANALYSIS FRAGMENT; not a standalone compilation unit.
+// Original owner: me/octo/client/failsafes/reactions_v2/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll
+// Original descriptor: (JLme/octo/client/failsafes/reactions_v2/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;FIIDZZZDILjava/lang/Object;)Lme/octo/client/failsafes/reactions_v2/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;
+// Required local-slot bindings: {"arg:0":20049843900302}
+// Caller reachability, type checking and behavior remain unverified.
+public static IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$d7d1ca87a950176b(
+      long var0,
+      IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll var2,
+      float var3,
+      int var4,
+      int var5,
+      double var6,
+      boolean var8,
+      boolean var9,
+      boolean var10,
+      double var11,
+      int var13,
+      Object var14
+   ) {
+      var0 = 20049843900302L;
+      var0 = IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII ^ var0;
+      String[] var15 = llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.lIIlIIIllIIIllIllIIlIIIIlllIllIIlIlIIlIllIlIllllllllIllIllllIlIIlIIIllIIllIIlllllIllI();
+
+      int var37;
+      short var10001;
+      label113: {
+         label114: {
+            label115: {
+               label116: {
+                  label117: {
+                     label118: {
+                        label103: {
+                           label102: {
+                              try {
+                                 var37 = var13;
+                                 if (var15 == null) {
+                                    break label103;
+                                 }
+
+                                 if ((var13 & 1) == 0) {
+                                    break label102;
+                                 }
+                              } catch (MatchException var29) {
+                                 throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var29);
+                              }
+
+                              var3 = var2.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+                           }
+
+                           try {
+                              var37 = var13;
+                              if (var15 == null) {
+                                 break label118;
+                              }
+
+                              var37 = var13 & 2;
+                           } catch (MatchException var28) {
+                              throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var28);
+                           }
+                        }
+
+                        if (var37 != 0) {
+                           var4 = var2.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+                        }
+
+                        try {
+                           var37 = var13;
+                           if (var15 == null) {
+                              break label117;
+                           }
+
+                           var37 = var13 & 4;
+                        } catch (MatchException var27) {
+                           throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var27);
+                        }
+                     }
+
+                     if (var37 != 0) {
+                        var5 = var2.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+                     }
+
+                     try {
+                        var37 = var13;
+                        if (var15 == null) {
+                           break label116;
+                        }
+
+                        var37 = var13 & 8;
+                     } catch (MatchException var26) {
+                        throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var26);
+                     }
+                  }
+
+                  if (var37 != 0) {
+                     var6 = var2.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+                  }
+
+                  try {
+                     var37 = var13;
+                     if (var15 == null) {
+                        break label115;
+                     }
+
+                     var37 = var13 & 16;
+                  } catch (MatchException var25) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var25);
+                  }
+               }
+
+               if (var37 != 0) {
+                  var8 = var2.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+               }
+
+               try {
+                  var37 = var13;
+                  if (var15 == null) {
+                     break label114;
+                  }
+
+                  var37 = var13 & 32;
+               } catch (MatchException var24) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var24);
+               }
+            }
+
+            if (var37 != 0) {
+               var9 = var2.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI;
+            }
+
+            try {
+               var37 = var13;
+               var10001 = 64;
+               if (var15 == null) {
+                  break label113;
+               }
+
+               var37 = var13 & 64;
+            } catch (MatchException var23) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var23);
+            }
+         }
+
+         if (var37 != 0) {
+            var10 = var2.IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+         }
+
+         var37 = var13;
+         var10001 = 128;
+      }
+
+      if ((var37 & var10001) != 0) {
+         var11 = var2.lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+      }
+
+      return var2.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3, var4, var5, var6, var8, var9, var10, var11);
+   }

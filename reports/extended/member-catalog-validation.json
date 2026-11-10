@@ -1,7 +1,7 @@
 {
-  "note": "Every record verified against the original index decoder and supplied declarations",
-  "originalDecoderComparisons": 2401,
   "selectorsCovered": 64,
-  "inputClassesLoaded": false,
-  "recordsVerified": 2341
+  "originalDecoderComparisons": 2408,
+  "note": "Every record verified against the original index decoder and supplied declarations",
+  "recordsVerified": 2348,
+  "inputClassesLoaded": false
 }

@@ -1,0 +1,106 @@
+// CONDITIONAL ANALYSIS FRAGMENT; not a standalone compilation unit.
+// Original owner: me/octo/client/gui/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI
+// Original descriptor: (Lme/octo/client/gui/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI;ZZLjava/lang/String;Lme/octo/client/gui/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII;Ljava/lang/String;JILjava/lang/Object;)Lme/octo/client/gui/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI;
+// Required local-slot bindings: {"arg:6":18354994888805}
+// Caller reachability, type checking and behavior remain unverified.
+public static llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$67e7f30f1f78f468(
+      llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI var0,
+      boolean var1,
+      boolean var2,
+      String var3,
+      lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII var4,
+      String var5,
+      long var6,
+      int var8,
+      Object var9
+   ) {
+      var6 = 18354994888805L;
+      var6 = IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI ^ var6;
+      int[] var10 = lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII.lIlIIllIIlIIlIIlIlIllllllIlIlIlllIlIIIllIIIIlIlIllIllIIIlIIIIIIIlllIIllIIllIlIllIllIl();
+
+      int var22;
+      byte var10001;
+      label73: {
+         label74: {
+            label67: {
+               label66: {
+                  try {
+                     var22 = var8;
+                     if (var10 != null) {
+                        break label67;
+                     }
+
+                     if ((var8 & 1) == 0) {
+                        break label66;
+                     }
+                  } catch (MatchException var18) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var18);
+                  }
+
+                  var1 = var0.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+               }
+
+               try {
+                  var22 = var8;
+                  if (var10 != null) {
+                     break label74;
+                  }
+
+                  var22 = var8 & 2;
+               } catch (MatchException var17) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
+               }
+            }
+
+            if (var22 != 0) {
+               var2 = var0.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+            }
+
+            try {
+               var22 = var8;
+               var10001 = 4;
+               if (var10 != null) {
+                  break label73;
+               }
+
+               var22 = var8 & 4;
+            } catch (MatchException var16) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var16);
+            }
+         }
+
+         if (var22 != 0) {
+            var3 = var0.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+         }
+
+         var22 = var8;
+         var10001 = 8;
+      }
+
+      label49: {
+         label48: {
+            try {
+               if (var10 != null) {
+                  break label49;
+               }
+
+               if ((var22 & var10001) == 0) {
+                  break label48;
+               }
+            } catch (MatchException var15) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var15);
+            }
+
+            var4 = var0.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+         }
+
+         var22 = var8;
+         var10001 = 16;
+      }
+
+      if ((var22 & var10001) != 0) {
+         var5 = var0.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var2, var3, var4, var5);
+   }

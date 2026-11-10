@@ -1,0 +1,9 @@
+{
+  "inferredMethodContexts": 4114,
+  "knownConstantKeySites": 3157,
+  "keyModel": "48-bit second argument, validated against observed constant-key sites; profiles are analysis contexts",
+  "candidateSites": 39787,
+  "knownKeysMatchedCatalog": 3157,
+  "knownNon48BitKeys": 0,
+  "unknownWithoutAffineExpression": 13742
+}

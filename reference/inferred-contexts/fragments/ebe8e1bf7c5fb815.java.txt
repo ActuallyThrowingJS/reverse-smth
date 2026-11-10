@@ -1,0 +1,92 @@
+// CONDITIONAL ANALYSIS FRAGMENT; not a standalone compilation unit.
+// Original owner: me/octo/client/gui/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII
+// Original descriptor: (Lme/octo/client/gui/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;FFJFLjava/lang/String;ZFLme/octo/client/utils/render/colors/Color;ZILjava/lang/Object;)V
+// Required local-slot bindings: {"arg:3":43732073221450}
+// Caller reachability, type checking and behavior remain unverified.
+public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$inferred$71e96419719d040f(
+      llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII var0,
+      float var1,
+      float var2,
+      long var3,
+      float var5,
+      String var6,
+      boolean var7,
+      float var8,
+      Color var9,
+      boolean var10,
+      int var11,
+      Object var12
+   ) {
+      var3 = 43732073221450L;
+      var3 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII ^ var3;
+      long var10001 = var3 ^ 14495807155205L;
+      int var13 = (int)((var3 ^ 14495807155205L) >>> 32);
+      int var14 = (int)((var3 ^ 14495807155205L) << 32 >>> 48);
+      int var15 = (int)(var10001 << 48 >>> 48);
+      String[] var16 = lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllIIIIllIIIlIIIlIIIlIIlllIIl.lIlIIIIIIllIIllllIIIIlIIlIIlIIIIIIlIlIIIlIIIlIIlllIIlIIIlIlllIlIlIIIllIllIIIlIlIlllIl();
+
+      label51: {
+         int var25;
+         label55: {
+            label56: {
+               label48: {
+                  label47: {
+                     try {
+                        var25 = var11;
+                        var26 = 32;
+                        if (var16 == null) {
+                           break label48;
+                        }
+
+                        if ((var11 & 32) == 0) {
+                           break label47;
+                        }
+                     } catch (MatchException var22) {
+                        throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var22);
+                     }
+
+                     var8 = 12.0F;
+                  }
+
+                  try {
+                     var25 = var11;
+                     if (var16 == null) {
+                        break label56;
+                     }
+
+                     var26 = 64;
+                  } catch (MatchException var21) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var21);
+                  }
+               }
+
+               if ((var25 & var26) != 0) {
+                  var9 = null;
+               }
+
+               try {
+                  var25 = var11;
+                  if (var16 == null) {
+                     break label55;
+                  }
+
+                  var25 = var11 & 128;
+               } catch (MatchException var20) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var20);
+               }
+            }
+
+            if (var25 == 0) {
+               break label51;
+            }
+
+            var25 = 0;
+         }
+
+         var10 = var25;
+      }
+
+      var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         var1, var2, var13, (short)var14, var5, var6, var7, var8, var9, (char)var15, (boolean)var10
+      );
+   }
