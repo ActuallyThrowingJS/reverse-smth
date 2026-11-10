@@ -12,7 +12,8 @@
         "displayArgumentIndex": 0,
         "display": "Glacite Walker Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/IlIlIlllllIIlIIIIIllllIIIIlIlIlIIIlIlllIlIlllIIllIIIlIllIllIllIlllIlIllllIIlIlIlllIll",
@@ -27,7 +28,8 @@
         "displayArgumentIndex": 0,
         "display": "Beach Ball Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/IllIIIIIIIlIIlIIIIlIllIIIIlIlIlIlIIIlllllIIllIIIIlIIlIIlIIIlllIlIIIIllIIlIlllllllIIlI",
@@ -42,7 +44,8 @@
         "displayArgumentIndex": 0,
         "display": "Museum Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/IllIIlIlIlllIIIIllllIIllIlIIIIIllIllIIIllllIlllllIlIlIIlIIlIlIIIlIlIIIIIIlllIllllIIII",
@@ -57,7 +60,8 @@
         "displayArgumentIndex": 0,
         "display": "Dev Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl",
@@ -72,7 +76,8 @@
         "displayArgumentIndex": 0,
         "display": "Ghost Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/foraging/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
@@ -87,7 +92,8 @@
         "displayArgumentIndex": 0,
         "display": "Glowing Mushroom Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/foraging/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
@@ -102,7 +108,8 @@
         "displayArgumentIndex": 0,
         "display": "Berry Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/foraging/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
@@ -117,7 +124,8 @@
         "displayArgumentIndex": 0,
         "display": "Galatea Tree Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII",
@@ -132,7 +140,8 @@
         "displayArgumentIndex": 0,
         "display": "Goblin Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIllIllIllllIllIlIlIlIlIIIl",
@@ -147,7 +156,8 @@
         "displayArgumentIndex": 0,
         "display": "Zealot Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/lIIlllllIIIlllIIIllIIlllIllllllIIIIIlllllIIlIIIIIIIlllIlIlIIlIlllIIlIIlIIlIIlllIIlllI",
@@ -162,7 +172,8 @@
         "displayArgumentIndex": 0,
         "display": "Forge Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII",
@@ -177,7 +188,8 @@
         "displayArgumentIndex": 0,
         "display": "Berberis Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/IIIIIIIIIIllllIlIIllIlllllIIIlIlIlIllllIIIIllIlIIlllIlllllIlIIIIlIIIIIllllIIIlIlIlllI",
@@ -192,7 +204,8 @@
         "displayArgumentIndex": 0,
         "display": "Sand Mining Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl",
@@ -207,7 +220,8 @@
         "displayArgumentIndex": 0,
         "display": "Tunnel Miner"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl",
@@ -222,7 +236,8 @@
         "displayArgumentIndex": 0,
         "display": "Excavator Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII",
@@ -237,7 +252,8 @@
         "displayArgumentIndex": 0,
         "display": "Ore Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
@@ -252,7 +268,8 @@
         "displayArgumentIndex": 0,
         "display": "Cobblestone Mining Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl",
@@ -267,7 +284,8 @@
         "displayArgumentIndex": 0,
         "display": "End Stone Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/IllllIIIIIlllIIllIIIIIllIlIllllIIIIllIlIlIIllIIIlllllIIIIIIIIlIIlIlIIIIIlIllIIIlIlIlI",
@@ -282,7 +300,8 @@
         "displayArgumentIndex": 0,
         "display": "Mithril Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/farming/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
@@ -297,7 +316,8 @@
         "displayArgumentIndex": 0,
         "display": "S Shaped Crop"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/farming/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
@@ -312,7 +332,8 @@
         "displayArgumentIndex": 0,
         "display": "Vertical S Shaped Crop"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/farming/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
@@ -327,7 +348,8 @@
         "displayArgumentIndex": 0,
         "display": "Visitor Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlIIlllIIlIlllIIlIlIlI",
@@ -342,7 +364,8 @@
         "displayArgumentIndex": 0,
         "display": "Crimson Mining Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
@@ -357,7 +380,8 @@
         "displayArgumentIndex": 0,
         "display": "Obsidian Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/lIIllllIIlIIIIllIlIIIIIllIllllllIIIlIlIlIlIllIIlIlIllIlIIIIIIllIIIIlIlllIlIlllIlllIll",
@@ -372,7 +396,8 @@
         "displayArgumentIndex": 0,
         "display": "Glacite Commission Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
@@ -387,7 +412,8 @@
         "displayArgumentIndex": 0,
         "display": "Sludge Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
@@ -402,7 +428,8 @@
         "displayArgumentIndex": 0,
         "display": "Powder Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll",
@@ -417,7 +444,8 @@
         "displayArgumentIndex": 0,
         "display": "Fishing Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII",
@@ -432,7 +460,8 @@
         "displayArgumentIndex": 0,
         "display": "Dwarven Commission Macro V2"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI",
@@ -447,7 +476,8 @@
         "displayArgumentIndex": 0,
         "display": "Lobby Hopper"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII",
@@ -462,7 +492,8 @@
         "displayArgumentIndex": 0,
         "display": "Dwarven Commission Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   },
   {
     "owner": "me/octo/client/modules/impl/macros/lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI",
@@ -477,6 +508,7 @@
         "displayArgumentIndex": 0,
         "display": "Gemstone Macro"
       }
-    ]
+    ],
+    "appliedToPrimaryReference": true
   }
 ]

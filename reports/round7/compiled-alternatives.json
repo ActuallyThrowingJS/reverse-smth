@@ -1,0 +1,21 @@
+{
+  "check": "Complete alternative classes compile against the recovered binary plus Java 25 / Minecraft 26.1.2 / Fabric dependencies; application behavior not verified",
+  "approved": [
+    "me/octo/client/mixin/client/MinecraftMixin.java",
+    "me/octo/client/utils/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI.java",
+    "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.java",
+    "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.java",
+    "me/octo/client/utils/security/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI.java",
+    "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.java",
+    "me/octo/client/utils/client/GenericPools.java"
+  ],
+  "rounds": [
+    {
+      "globalErrors": [],
+      "candidates": 7,
+      "rejectedFiles": 0,
+      "successful": true
+    }
+  ],
+  "rejected": {}
+}

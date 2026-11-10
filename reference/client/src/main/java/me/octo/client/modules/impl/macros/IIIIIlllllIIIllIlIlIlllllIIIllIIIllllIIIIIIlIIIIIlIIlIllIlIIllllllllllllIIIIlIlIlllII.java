@@ -16,6 +16,7 @@ import javax.crypto.spec.DESKeySpec;
 import javax.crypto.spec.IvParameterSpec;
 import kotlin.Pair;
 import kotlin.jvm.internal.Intrinsics;
+import me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -30,7 +31,7 @@ public final class IIIIIlllllIIIllIlIlIlllllIIIllIIIllllIIIIIIlIIIIIlIIlIllIlIIl
    @NotNull
    private final Vec3 fishingSpot;
    @NotNull
-   private final List<me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl> route;
+   private final List<IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl> route;
    @NotNull
    private final llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll rodType;
    @NotNull
@@ -45,7 +46,7 @@ public final class IIIIIlllllIIIllIlIlIlllllIIIllIIIllllIIIIIIlIIIIIlIIlIllIlIIl
       @NotNull me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll locationArg,
       @NotNull me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll warpLocationArg,
       @NotNull Vec3 fishingSpotArg,
-      @NotNull List<me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl> routeArg,
+      @NotNull List<IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl> routeArg,
       @NotNull llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll rodTypeArg,
       @NotNull Pair<Float, Float> finalYawPitchArg
    ) {
@@ -88,7 +89,7 @@ public final class IIIIIlllllIIIllIlIlIlllllIIIllIIIllllIIIIIIlIIIIIlIIlIllIlIIl
    }
 
    @NotNull
-   public final List<me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl> getRoute() {
+   public final List<IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl> getRoute() {
       return this.route;
    }
 

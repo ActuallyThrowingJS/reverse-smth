@@ -1,0 +1,3 @@
+build/round6/final.jar: methods checked=50536, failures=0
+build/round7/final.jar: methods checked=50536, failures=0
+PASS no new BasicVerifier failures

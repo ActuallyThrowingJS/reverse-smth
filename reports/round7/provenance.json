@@ -1,0 +1,25 @@
+{
+  "analysisOnly": true,
+  "inputsAndOutputs": [
+    {
+      "path": "inputs/PoliSlop.jar",
+      "sha256": "759904ab061cbbdea0db6305f951b2c72c59a2f4f6eeccc73b3f92fdb6685b42",
+      "bytes": 32672216
+    },
+    {
+      "path": "build/round6/final.jar",
+      "sha256": "1846cf353e015c5ef5cd9e9fdb4a4abf6664903ee0148c6582e7190024716b87",
+      "bytes": 33096138
+    },
+    {
+      "path": "build/round7/final.jar",
+      "sha256": "25e6891a6a5fa7f4fa861f7da680a1e7e5321db8d6d058d6dcbe9581d635973e",
+      "bytes": 33114617
+    },
+    {
+      "path": "mappings/semantic-mappings-final.json",
+      "sha256": "06beb742be15368b8c6f57b0b83b412b2d07f22f51a7af2cd9904b7a505d8b2e",
+      "bytes": 1331385
+    }
+  ]
+}

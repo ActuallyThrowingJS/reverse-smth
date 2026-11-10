@@ -1,0 +1,28 @@
+{
+  "classes": 4,
+  "classMappings": 2,
+  "fieldDeclarationsRenamed": 0,
+  "methodDeclarationsRenamed": 0,
+  "fieldReferencesRewritten": 0,
+  "methodReferencesRewritten": 0,
+  "resourceFilesRewritten": 0,
+  "identicalGettersCoalesced": 0,
+  "overrideNamesUnified": 0,
+  "nativeBindingsRewritten": false,
+  "artifactPurpose": "source recovery analysis; not verified runnable"
+}
+Nested aliases expanded=1 delta class names=1 full aliases=3; class inventory and collisions checked
+{
+  "classes": 4,
+  "classMappings": 1,
+  "fieldDeclarationsRenamed": 0,
+  "methodDeclarationsRenamed": 0,
+  "fieldReferencesRewritten": 0,
+  "methodReferencesRewritten": 0,
+  "resourceFilesRewritten": 0,
+  "identicalGettersCoalesced": 0,
+  "overrideNamesUnified": 0,
+  "nativeBindingsRewritten": false,
+  "artifactPurpose": "source recovery analysis; not verified runnable"
+}
+PASS nested alias expansion, longest-owner match, partial archive renames, JVM references/reflection and collision rejection

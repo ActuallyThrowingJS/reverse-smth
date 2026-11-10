@@ -1,0 +1,26 @@
+[
+  {
+    "oldOwner": "me/octo/client/modules/impl/features/misc/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
+    "newOwner": "me/octo/client/modules/impl/features/misc/ChumBucketFiller$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
+    "oldClassSha256": "f15a1220c4f835b8da67893dcedfe32ed9fb4409509143d22a107948cc216782",
+    "reviewedClassFlags": "ACC_PUBLIC | ACC_FINAL | ACC_SUPER | ACC_SYNTHETIC",
+    "reviewedFields": 1,
+    "reviewedMethods": [
+      "<clinit>()V"
+    ],
+    "evidence": "Reviewed javap flags/API and previous source: generated enum ordinal switch table with NoSuchFieldError catches; no application methods",
+    "status": "Synthetic enum-switch helper omitted by decompiler after consistent nested names"
+  },
+  {
+    "oldOwner": "me/octo/client/modules/impl/features/visuals/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
+    "newOwner": "me/octo/client/modules/impl/features/visuals/CustomESP$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
+    "oldClassSha256": "56186fac82e10d7a61816bd5aac0c86ae26d472888931c0ef2ea75bc1fd00fb6",
+    "reviewedClassFlags": "ACC_PUBLIC | ACC_FINAL | ACC_SUPER | ACC_SYNTHETIC",
+    "reviewedFields": 1,
+    "reviewedMethods": [
+      "<clinit>()V"
+    ],
+    "evidence": "Reviewed javap flags/API and previous source: generated enum ordinal switch table with NoSuchFieldError catches; no application methods",
+    "status": "Synthetic enum-switch helper omitted by decompiler after consistent nested names"
+  }
+]

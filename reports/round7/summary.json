@@ -1,0 +1,19 @@
+{
+  "newTopLevelModuleAliases": 32,
+  "additionalNestedClassAliases": 362,
+  "currentTopLevelClassAliases": 111,
+  "currentNestedClassAliases": 364,
+  "currentExplicitClassAliases": 475,
+  "classNamesChangedThisPass": 394,
+  "sourceFiles": 1494,
+  "formerlyStandaloneNestedDeclarationsMerged": 87,
+  "syntheticEnumSwitchHelpersFolded": 2,
+  "newGenericDecompilerFailures": 0,
+  "additionalGenericMethodsRecovered": 0,
+  "remainingGenericMethodFailures": 5159,
+  "classWriteFailures": 24,
+  "compilerAndApiRecheckedAlternatives": 7,
+  "totalRegisteredNativeBodiesRecovered": 34,
+  "registeredNativeBodiesRemaining": 484,
+  "fullModBuildSuccessful": false
+}

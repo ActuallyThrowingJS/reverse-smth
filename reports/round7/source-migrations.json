@@ -1,0 +1,447 @@
+[
+  {
+    "oldSource": "me/octo/client/modules/impl/macros/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/macros/TickGliding.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/macros/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/macros/PrecisionMinerSupport.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/macros/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/macros/AutoPowderPumpkin.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/macros/lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/macros/FakeLook.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/macros/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/macros/AutoFiletOFortune.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/ObsidianDebugger.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/TreeNuker.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/AutoMaddox.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/DeveloperTest.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/Triggerbot.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/JumpPredTest.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/macros/farming/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/macros/farming/FarmingConfig.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/ChumBucketFiller.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/AutoResponder.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/GeneralMacroToggle.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/ChunkSaver.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/LennyModulation.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/AnnoyanceRemover.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/ChumBucketFiller.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/DisconnectYourOtherAccountsOnAccountBan.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/IRC.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/GUICapture.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/ChunkSaver.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/AutoAgaricus.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/ChumBucketFiller.java",
+    "status": "Synthetic enum-switch helper omitted by decompiler after consistent nested names"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/HideSensitiveInfo.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/EtherwarpChime.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/ChunkSaver.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/HarpMacro.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/misc/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/misc/ExperimentSolver.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/hud/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/hud/HUDConfiguration.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/TitaniumESP.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/TunnelEngine.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/StructureScanner.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/GemstoneRouteNuker.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/StructureScanner.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/AutoPassRenew.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/StructureScanner.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/PowderChestAura.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/MithrilEngine.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/TitaniumESP.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/FrozenCorpseESP.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/StructureScanner.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/StructureScanner.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/PinglessHardstone.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/RouteAssist.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/PinglessCHGold.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/StructureScanner.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/OreEngine.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/GemstoneRouteNuker.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/PinglessCHGold.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/HardstoneNuker.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/MonolithESP.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/JasperDrillBug.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/StructureScanner.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/mining/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/mining/PinglessHardstone.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/AutoConversation.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/Nuker.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/DebugMessages.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/ColorPickerTest.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/EscrowFix.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/CopyChat.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/Etherwarp.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/ToggleSprint.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/ReactionRecorder.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/TestModule.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/ReactionRecorder.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/qol/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/qol/RotationRecorderBlehhhh.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/RatESP.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/ShowGhosts.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/CustomESP.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/FairySoulESP.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/PlayerESP.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/CustomScoreboard.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/GemstoneESP.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/NoHyperionExplosion.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/SweepOverlay.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/RouteRendering.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/EtherwarpOverlay.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/NoArmorRender.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/PictureInPicture.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/CustomScoreboard.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/Antialiasing.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/CustomESP.java",
+    "status": "Synthetic enum-switch helper omitted by decompiler after consistent nested names"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/OptifineZoom.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/MotionBlur.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/Fullbright.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/HideVisuals.java",
+    "status": "Nested declaration merged into outer source"
+  },
+  {
+    "oldSource": "me/octo/client/modules/impl/features/visuals/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.java",
+    "outerSource": "me/octo/client/modules/impl/features/visuals/GemstoneESP.java",
+    "status": "Nested declaration merged into outer source"
+  }
+]

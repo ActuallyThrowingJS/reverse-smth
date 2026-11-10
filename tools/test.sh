@@ -16,3 +16,5 @@ python3 tools/extract_native.py inputs/PoliSlop.jar build/native-client
 
 "${JAVA_HOME:+$JAVA_HOME/bin/}java" AuditContextCallersTest
 "${JAVA_HOME:+$JAVA_HOME/bin/}java" InferModuleNamesTest
+
+"${JAVA_HOME:+$JAVA_HOME/bin/}java" ExpandClassAliasesTest
