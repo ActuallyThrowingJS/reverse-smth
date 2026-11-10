@@ -309,4 +309,22 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
    public final void IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$18136a56311a5308(long param1, byte param3) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$86f6f09fe6212969(
+      char var1, int var2, @NotNull String var3, short var4
+   ) {
+      byte var7 = 0;
+      var2 = 901066748;
+      var4 = -21970;
+      long var5 = ((long)var7 << 48 | (long)var2 << 32 >>> 16 | (long)var4 << 48 >>> 48)
+         ^ llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      this.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var3;
+   }
+
+   public final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$e432c9a29c9e0cb6(
+      @NotNull ArrayList blacklistedVeinsArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

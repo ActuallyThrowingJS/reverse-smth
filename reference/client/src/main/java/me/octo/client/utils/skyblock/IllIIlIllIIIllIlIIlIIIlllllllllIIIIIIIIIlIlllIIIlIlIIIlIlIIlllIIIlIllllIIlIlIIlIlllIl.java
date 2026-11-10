@@ -493,4 +493,174 @@ public final class IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIll
             + IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"a">(9402, 8879125825469874558L ^ var5)
       );
    }
+
+   @NotNull
+   public final String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2e7757aea0fa686d(
+      char argument1Arg, char argument2Arg, int argument3Arg, @NotNull String displayNameArg
+   ) {
+      byte var34 = 0;
+      short var35 = 24980;
+      argument3Arg = 1334559470;
+      long var5 = ((long)var34 << 48 | (long)var35 << 48 >>> 16 | (long)argument3Arg << 32 >>> 32)
+         ^ llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI;
+      long var7 = var5 ^ 25607177253606L;
+      long var10001 = var5 ^ 73080477251935L;
+      int var9 = (int)((var5 ^ 73080477251935L) >>> 48);
+      int var10 = (int)((var5 ^ 73080477251935L) << 16 >>> 48);
+      int var11 = (int)(var10001 << 32 >>> 32);
+      String var10000 = llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
+      Intrinsics.checkNotNullParameter(displayNameArg, "displayName");
+      String var12 = var10000;
+      String var13 = this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$0c93a9c0a28af9c4(
+         (char)var9, (char)var10, displayNameArg, var11
+      );
+
+      label86: {
+         label81: {
+            Map var24;
+            label80: {
+               try {
+                  var24 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+                  if (var12 != null) {
+                     break label80;
+                  }
+
+                  var10000 = (String)var24.get(var13);
+                  if (var10000 != null) {
+                     break label86;
+                  }
+               } catch (MatchException var33) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var33);
+               }
+
+               try {
+                  var10000 = IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII.get(var13);
+                  break label81;
+               } catch (MatchException var30) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var30);
+               }
+            }
+
+            var10000 = var24;
+         }
+
+         var10000 = var10000;
+         if (var10000 != null) {
+            String var39 = var10000;
+            boolean var42 = false;
+            return var39;
+         }
+
+         label87: {
+            byte var10002;
+            byte var10003;
+            label66: {
+               Regex var25;
+               CharSequence var26;
+               byte var27;
+               byte var28;
+               label65: {
+                  try {
+                     CharSequence var55 = var13;
+                     var28 = 2;
+                     var27 = 0;
+                     var26 = var55;
+                     var25 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+                     if (var12 != null) {
+                        break label65;
+                     }
+
+                     var48 = Regex.find$default(var25, var26, var27, var28, null);
+                     if (var48 != null) {
+                        break label87;
+                     }
+                  } catch (MatchException var32) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var32);
+                  }
+
+                  try {
+                     var49 = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+                     var56 = var13;
+                     var10002 = 0;
+                     var10003 = 2;
+                     break label66;
+                  } catch (MatchException var29) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var29);
+                  }
+               }
+
+               var49 = var25;
+               var56 = var26;
+               var10002 = var27;
+               var10003 = var28;
+            }
+
+            MatchResult var52 = Regex.find$default(var49, var56, var10002, var10003, null);
+            if (var52 != null) {
+               MatchResult var38 = var52;
+               var10000 = var12;
+               boolean var41 = false;
+               String var43 = StringsKt.trim((String & CharSequence)var38.getGroupValues().get(1)).toString();
+
+               label89: {
+                  try {
+                     if (var10000 == null) {
+                        var10000 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.get(var43 + " Shard");
+                        if (var10000 != null) {
+                           break label89;
+                        }
+                     }
+                  } catch (MatchException var31) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var31);
+                  }
+
+                  return "SHARD_"
+                     + IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$145d1e42c137ab40(
+                        var43, var7
+                     );
+               }
+
+               String var44 = var10000;
+               boolean var18 = false;
+               return var44;
+            }
+
+            return this.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$145d1e42c137ab40(var13, var7);
+         }
+
+         MatchResult var37 = var48;
+         boolean var40 = false;
+         var10000 = ((String)var37.getGroupValues().get(1)).toUpperCase(Locale.ROOT);
+         Intrinsics.checkNotNullExpressionValue(var10000, "toUpperCase(...)");
+         String var16 = var10000;
+         var10000 = ((String)var37.getGroupValues().get(2)).toUpperCase(Locale.ROOT);
+         Intrinsics.checkNotNullExpressionValue(var10000, "toUpperCase(...)");
+         String var17 = var10000;
+         return var16 + "_" + var17 + "_GEM";
+      }
+
+      String var14 = var10000;
+      boolean var15 = false;
+      return var14;
+   }
+
+   private final String IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$0c93a9c0a28af9c4(
+      char param1, char param2, String param3, int param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final String IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$145d1e42c137ab40(String var1, long var2) {
+      var2 = 21262851137699L;
+      var2 = llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI ^ var2;
+      String var10000 = var1.toUpperCase(Locale.ROOT);
+      Intrinsics.checkNotNullExpressionValue(var10000, "toUpperCase(...)");
+      CharSequence var4 = var10000;
+      Regex var5 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      String var6 = "_";
+      var4 = var5.replace(var4, var6);
+      var5 = new Regex("[^A-Z0-9_;:-]");
+      var6 = "";
+      return var5.replace(var4, var6);
+   }
 }

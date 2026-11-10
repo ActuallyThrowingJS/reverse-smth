@@ -237,6 +237,36 @@ public final class lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIl
       int var3 = (int)((var1 ^ 43118872771017L) >>> 32);
       int var4 = (int)((var1 ^ 43118872771017L) << 32 >>> 48);
       int var5 = (int)(var10001 << 48 >>> 48);
-      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI("polinex", var3, var0, var4, (short)var5);
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$679303b0ca5c3e23(
+         "polinex", var3, var0, var4, (short)var5
+      );
+   }
+
+   public static InputStream IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$679303b0ca5c3e23(
+      String var0, int var1, String var2, int var3, short var4
+   ) {
+      short var11 = 9675;
+      char var12 = 'ꝕ';
+      var4 = -29194;
+      long var5 = ((long)var11 << 32 | (long)var12 << 48 >>> 32 | (long)var4 << 48 >>> 48)
+         ^ lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+
+      try {
+         Identifier var7 = Identifier.fromNamespaceAndPath(var0, var2);
+         Optional var8 = ModUtils.mc.getResourceManager().getResource(var7);
+         if (var8.isPresent()) {
+            return ((Resource)var8.get()).open();
+         } else {
+            InputStream var9 = lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIllIllIllllIllIlIlIlIlIIIl.class
+               .getResourceAsStream("/assets/" + var0 + "/" + var2);
+            if (var9 != null) {
+               return var9;
+            } else {
+               throw new FileNotFoundException("Resource not found: " + var7);
+            }
+         }
+      } catch (Throwable var10) {
+         throw var10;
+      }
    }
 }

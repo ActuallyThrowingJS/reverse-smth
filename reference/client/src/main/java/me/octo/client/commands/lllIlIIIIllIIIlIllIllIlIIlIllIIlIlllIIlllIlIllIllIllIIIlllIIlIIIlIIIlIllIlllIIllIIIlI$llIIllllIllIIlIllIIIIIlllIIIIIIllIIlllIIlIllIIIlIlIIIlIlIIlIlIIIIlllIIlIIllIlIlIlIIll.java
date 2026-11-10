@@ -181,4 +181,19 @@ public final class lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIl
          );
       }
    }
+
+   public final Enum IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4043a84db99d98f6(
+      int argument1Arg, int argument2Arg, String itArg, char argument4Arg
+   ) {
+      short var7 = 25298;
+      short var8 = 30630;
+      short var9 = 13056;
+      long var5 = ((long)var7 << 32 | (long)var8 << 48 >>> 32 | (long)var9 << 48 >>> 48)
+         ^ lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      Intrinsics.checkNotNullParameter(itArg, "it");
+      Map var10000 = this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+      String var10001 = itArg.toLowerCase(Locale.ROOT);
+      Intrinsics.checkNotNullExpressionValue(var10001, "toLowerCase(...)");
+      return (Enum)var10000.get(var10001);
+   }
 }

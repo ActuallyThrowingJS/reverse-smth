@@ -256,4 +256,22 @@ public final class ForceRender {
          throw new RuntimeException("me/octo/client/render/ForceRender" + " : " + var1 + " : " + var2.toString(), var5);
       }
    }
+
+   // $VF: Extended synchronized range to monitorexit
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8a171864c1257bd0(
+      @NotNull Entity entityArg, short argument2Arg, int argument3Arg, short argument4Arg
+   ) {
+      byte var10 = 0;
+      argument3Arg = 2042926249;
+      argument4Arg = -1051;
+      long var4 = ((long)var10 << 48 | (long)argument3Arg << 32 >>> 16 | (long)argument4Arg << 48 >>> 48)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      Intrinsics.checkNotNullParameter(entityArg, "entity");
+      Object var6 = IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+      synchronized (var6) {
+         boolean var7 = false;
+         var7 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.add(entityArg.getId());
+      }
+   }
 }

@@ -1208,4 +1208,10 @@ public final class lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlll
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   public final boolean IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$7981f88772e8622d(
+      int param1, int param2, int param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

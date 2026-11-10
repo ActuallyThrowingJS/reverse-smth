@@ -224,7 +224,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596597797056421143L ^ var4)
       );
-      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$4f37ab96d9092a1a(
          (char)var8, var9, var1, var2, var6, Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl, true, var10
       );
    }
@@ -240,7 +240,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596699224980446830L ^ var2)
       );
-      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$4f37ab96d9092a1a(
          (char)var6, var7, var1, var4, var5, Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl, true, var8
       );
    }
@@ -256,7 +256,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596645114173660101L ^ var4)
       );
-      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$4f37ab96d9092a1a(
          (char)var6, var7, var1, var2, var3, Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl, true, var8
       );
    }
@@ -272,7 +272,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596647413626445140L ^ var4)
       );
-      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$5dd0fc129596eade(
          (char)var9, var10, var1, var2, var6, new Color(var8), false, var11
       );
    }
@@ -288,7 +288,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var3, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596594640716874163L ^ var1)
       );
-      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$5dd0fc129596eade(
          (char)var7, var8, var3, var4, var5, new Color(var6), false, var9
       );
    }
@@ -304,7 +304,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596638058949525117L ^ var4)
       );
-      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$5dd0fc129596eade(
          (char)var7, var8, var1, var2, var3, new Color(var6), false, var9
       );
    }
@@ -496,7 +496,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var2, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596628289950130238L ^ var9)
       );
-      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(
+      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$04d86e2e759aa25d(
          var2, var3, var11, var12, var5, Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl, (short)var13, false
       );
    }
@@ -512,7 +512,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596706096490195172L ^ var3)
       );
-      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(
+      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$04d86e2e759aa25d(
          var1, var2, var6, var7, var5, Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl, (short)var8, false
       );
    }
@@ -528,7 +528,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596630376724963370L ^ var3)
       );
-      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(
+      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$04d86e2e759aa25d(
          var1, var2, var6, var7, var5, Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl, (short)var8, false
       );
    }
@@ -545,7 +545,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596650682710726865L ^ var10)
       );
-      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(
+      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$04d86e2e759aa25d(
          var1, var2, var12, var13, var7, new Color(var9), (short)var14, false
       );
    }
@@ -561,7 +561,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(12293, 8517169977446216870L ^ var4)
       );
-      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(
+      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$04d86e2e759aa25d(
          var1, var2, var7, var8, var3, new Color(var6), (short)var9, false
       );
    }
@@ -578,7 +578,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var2, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596645299542202696L ^ var8)
       );
-      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(
+      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$04d86e2e759aa25d(
          var2, var5, var10, var11, var6, new Color(var7), (short)var12, false
       );
    }
@@ -598,7 +598,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var6, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(15922, 1767911581474272136L ^ var8)
       );
-      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(
+      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$04d86e2e759aa25d(
          var2, var4, var10, var11, var5, var6, (short)var12, false
       );
    }
@@ -617,7 +617,9 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var6, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(15922, 1767875682208997761L ^ var2)
       );
-      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(var1, var4, var7, var8, var5, var6, (short)var9, false);
+      return this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$04d86e2e759aa25d(
+         var1, var4, var7, var8, var5, var6, (short)var9, false
+      );
    }
 
    @JvmOverloads
@@ -723,7 +725,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       Intrinsics.checkNotNullParameter(
          var10, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(15922, 1767882956176172030L ^ var4)
       );
-      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$bd2fe007a84c679c(
          var1, var2, var6, var8 - var2, var11, (char)var12, var10, true, (char)var13
       );
    }
@@ -1563,6 +1565,173 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       }
 
       return var22 + 0.0;
+   }
+
+   @JvmOverloads
+   public final double llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$4f37ab96d9092a1a(
+      char var1, int var2, @NotNull String var3, double var4, double var6, @NotNull Color var8, boolean var9, int var10
+   ) {
+      var9 = 1;
+      long var11 = ((long)var1 << 48 | (long)var2 << 32 >>> 16 | (long)var10 << 48 >>> 48)
+         ^ llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl;
+      long var13 = var11 ^ 11872134525868L;
+      Intrinsics.checkNotNullParameter(
+         var3, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596661795074283816L ^ var11)
+      );
+      Intrinsics.checkNotNullParameter(
+         var8, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(15922, 1767851248253788008L ^ var11)
+      );
+      return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13, var3, var4, var6, var8, (boolean)var9);
+   }
+
+   @JvmOverloads
+   public final double llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$5dd0fc129596eade(
+      char var1, int var2, @NotNull String var3, double var4, double var6, @NotNull Color var8, boolean var9, int var10
+   ) {
+      var9 = 0;
+      long var11 = ((long)var1 << 48 | (long)var2 << 32 >>> 16 | (long)var10 << 48 >>> 48)
+         ^ llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl;
+      long var13 = var11 ^ 11872134525868L;
+      Intrinsics.checkNotNullParameter(
+         var3, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596661795074283816L ^ var11)
+      );
+      Intrinsics.checkNotNullParameter(
+         var8, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(15922, 1767851248253788008L ^ var11)
+      );
+      return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13, var3, var4, var6, var8, (boolean)var9);
+   }
+
+   @JvmOverloads
+   public final double lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$04d86e2e759aa25d(
+      @NotNull String var1, double var2, int var4, int var5, double var6, @NotNull Color var8, short var9, boolean var10
+   ) {
+      var10 = 0;
+      long var11 = ((long)var4 << 32 | (long)var5 << 48 >>> 32 | (long)var9 << 48 >>> 48)
+         ^ llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl;
+      long var13 = var11 ^ 124046397854214L;
+      long var10001 = var11 ^ 4644395788373L;
+      int var15 = (int)((var11 ^ 4644395788373L) >>> 48);
+      int var16 = (int)((var11 ^ 4644395788373L) << 16 >>> 32);
+      int var17 = (int)(var10001 << 48 >>> 48);
+      Intrinsics.checkNotNullParameter(
+         var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596610128463215298L ^ var11)
+      );
+      lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         1350739676970029270L, var11
+      );
+      Intrinsics.checkNotNullParameter(
+         var8, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(15922, 1767937894622035074L ^ var11)
+      );
+      double var19 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var1.length(), var13, (boolean)var10);
+      double var21 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((boolean)var10);
+
+      try {
+         double var10000 = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$5dd0fc129596eade(
+            (char)var15, var16, var1, var2 - var19 / 2, var6 - var21 / 2, var8, (boolean)var10, var17
+         );
+         if (lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               1155386888193978199L, var11
+            )
+            == null) {
+            lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               new int[4], 1381945519542567313L, var11
+            );
+         }
+
+         return var10000;
+      } catch (MatchException var23) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var23, 1406031180577874403L, var11
+         );
+      }
+   }
+
+   public final double llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$bd2fe007a84c679c(
+      @NotNull String var1, double var2, double var4, double var6, int var8, char var9, @NotNull Color var10, boolean var11, char var12
+   ) {
+      var11 = 1;
+      long var13 = ((long)var8 << 32 | (long)var9 << 48 >>> 32 | (long)var12 << 48 >>> 48)
+         ^ llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl;
+      long var15 = var13 ^ 116479691862498L;
+      long var17 = var13 ^ 98826325901173L;
+      Intrinsics.checkNotNullParameter(
+         var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(30835, 596612121255728625L ^ var13)
+      );
+      int[] var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         -176264064488177691L, var13
+      );
+      Intrinsics.checkNotNullParameter(
+         var10, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(15922, 1767936039394284465L ^ var13)
+      );
+      int[] var19 = var10000;
+
+      label50: {
+         label49: {
+            int var28;
+            label48: {
+               try {
+                  var28 = var1.length();
+                  if (var19 != null) {
+                     break label48;
+                  }
+
+                  if (var28 == 0) {
+                     break label49;
+                  }
+               } catch (MatchException var32) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var32, -238625115415818544L, var13
+                  );
+               }
+
+               var34 = 0;
+               break label50;
+            }
+
+            var34 = var28;
+            break label50;
+         }
+
+         var34 = 1;
+      }
+
+      try {
+         if (var34 != 0) {
+            return var4;
+         }
+      } catch (MatchException var31) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var31, -238625115415818544L, var13
+         );
+      }
+
+      String[] var20 = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var1, var15, var6);
+      double var21 = var4;
+      double var23 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((boolean)var11);
+      int var25 = 0;
+      int var26 = var20.length;
+
+      while (true) {
+         if (var25 < var26) {
+            String var27 = var20[var25];
+            this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17, var27, var2, var21, var10, (boolean)var11);
+            if (var19 != null) {
+               var35 = var21;
+               break;
+            }
+
+            var21 += var23;
+            var25++;
+            if (var19 == null) {
+               continue;
+            }
+         }
+
+         var35 = var21;
+         break;
+      }
+
+      return var35;
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

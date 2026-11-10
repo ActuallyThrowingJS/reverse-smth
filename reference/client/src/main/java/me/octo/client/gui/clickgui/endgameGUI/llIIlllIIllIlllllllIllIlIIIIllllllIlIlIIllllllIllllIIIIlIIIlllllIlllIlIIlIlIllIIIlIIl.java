@@ -917,7 +917,7 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
             Intrinsics.checkNotNullExpressionValue(StandardCharsets.UTF_8, "UTF_8");
             JsonObject var19 = JsonParser.parseString(FilesKt.readText(var18, var20)).getAsJsonObject();
             Intrinsics.checkNotNull(var19);
-            llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+            llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6355ac01cb1c1e4a(
                (char)var4, var5, var19, (short)var6, nameArg
             );
             IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl.put(nameArg, var11);
@@ -1020,7 +1020,9 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
 
          float var42 = var47;
          lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-            .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var9, (short)var10, var40, var42, (char)var11);
+            .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ec9afa7efb145f6c(
+               var9, (short)var10, var40, var42, (char)var11
+            );
       }
    }
 
@@ -1043,6 +1045,144 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
          return var3;
       } catch (MatchException var7) {
          throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var7);
+      }
+   }
+
+   @NotNull
+   public final List llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$158906fe97311f0c(
+      int var1, char var2, short var3
+   ) {
+      short var27 = 29809;
+      var2 = 'ﳙ';
+      var3 = -7879;
+      long var4 = ((long)var27 << 32 | (long)var2 << 48 >>> 32 | (long)var3 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var6 = var4 ^ 24433969406129L;
+      long var8 = var4 ^ 46263185021205L;
+
+      File[] var10000;
+      try {
+         var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2cd57a86ee384d75(var8)
+            .listFiles(
+               llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl::llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI
+            );
+         if (var10000 == null) {
+            var10000 = new File[0];
+         }
+      } catch (MatchException var26) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var26);
+      }
+
+      File[] var10 = var10000;
+      boolean var13 = false;
+      File[] var14 = var10;
+      var var15 = new ArrayList(var10.length);
+      boolean var16 = false;
+      int var17 = 0;
+
+      for (int var18 = var10.length; var17 < var18; var17++) {
+         File var19 = var14[var17];
+         boolean var21 = false;
+         Intrinsics.checkNotNull(var19);
+         var15.add(FilesKt.getNameWithoutExtension(var19));
+      }
+
+      var var12 = var15;
+      var13 = false;
+      List var11 = CollectionsKt.sortedWith(
+         var12,
+         new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI()
+      );
+
+      try {
+         if (!Intrinsics.areEqual(var11, lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI)) {
+            lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var11;
+         }
+
+         return var11;
+      } catch (MatchException var25) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var25);
+      }
+   }
+
+   @NotNull
+   public final llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$96d6da46cbdd12ca(
+      @NotNull String nameArg, int argument2Arg, short argument3Arg, char argument4Arg
+   ) {
+      short var17 = 26689;
+      argument3Arg = -28436;
+      short var19 = 25388;
+      long var5 = ((long)var17 << 32 | (long)argument3Arg << 48 >>> 32 | (long)var19 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      Intrinsics.checkNotNullParameter(nameArg, "name");
+      llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var7 = new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+         nameArg, null, null, null, 14, null
+      );
+      Map var8 = lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+         .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+      boolean var9 = false;
+
+      for (Entry var11 : var8.entrySet()) {
+         boolean var13 = false;
+         String var14 = (String)var11.getKey();
+         Function0 var15 = (Function0)var11.getValue();
+         Color var16 = (Color)var15.invoke();
+         var7.getColors().put(var14, var16.getColorAsInt());
+      }
+
+      var8 = lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+         .IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
+      var9 = false;
+
+      for (Entry var26 : var8.entrySet()) {
+         boolean var28 = false;
+         String var30 = (String)var26.getKey();
+         Function0 var32 = (Function0)var26.getValue();
+         Map var10000 = var7.getShaders();
+         float[] var10002 = (float[])var32.invoke();
+         var10002 = Arrays.copyOf(var10002, var10002.length);
+         Intrinsics.checkNotNullExpressionValue(var10002, "copyOf(...)");
+         var10000.put(var30, var10002);
+      }
+
+      var8 = lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+         .IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl();
+      var9 = false;
+
+      for (Entry var27 : var8.entrySet()) {
+         boolean var29 = false;
+         String var31 = (String)var27.getKey();
+         Function0 var33 = (Function0)var27.getValue();
+         var7.getNumbers().put(var31, (Float)var33.invoke());
+      }
+
+      return var7;
+   }
+
+   private final llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6355ac01cb1c1e4a(
+      char param1, int param2, JsonObject param3, short param4, String param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final int IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$2b373f541f3b58e5(String var1, long var2) {
+      var2 = 11396707325063L;
+      var2 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ var2;
+      String var4 = StringsKt.removePrefix(StringsKt.removePrefix(var1, "#"), "0x");
+
+      try {
+         switch (var4.length()) {
+            case 6:
+               return (int)IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII
+                  | (int)Long.parseLong(var4, CharsKt.checkRadix(16));
+            case 7:
+            default:
+               return -1;
+            case 8:
+               return (int)Long.parseLong(var4, CharsKt.checkRadix(16));
+         }
+      } catch (MatchException var6) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var6);
       }
    }
 

@@ -1045,6 +1045,113 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
+   @NotNull
+   public final BlockPos IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$64286e9f11993770(
+      byte var1, @NotNull BlockPos var2, @NotNull BlockPos var3, int var4, int var5, int var6
+   ) {
+      byte var14 = 10;
+      long var7 = ((long)var1 << 56 | (long)var5 << 32 >>> 8 | (long)var6 << 40 >>> 40)
+         ^ lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+      int[] var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         338575181407950516L, var7
+      );
+      Intrinsics.checkNotNullParameter(
+         var2, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"e">(20847, 9136946595936271233L ^ var7)
+      );
+      int[] var9 = var10000;
+      Intrinsics.checkNotNullParameter(
+         var3, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"e">(13847, 3316875676901022954L ^ var7)
+      );
+      BlockPos var10 = null;
+      var10 = var2;
+      int var11 = 0;
+
+      while (true) {
+         if (var11 < var14) {
+            boolean var13 = false;
+            var16 = var10.offset((Vec3i)var3);
+            if (var9 == null) {
+               break;
+            }
+
+            Intrinsics.checkNotNullExpressionValue(
+               var16, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"e">(28742, 6150944163092388511L ^ var7)
+            );
+            var10 = var16;
+            var11++;
+            if (var9 != null) {
+               continue;
+            }
+         }
+
+         var16 = var10;
+         break;
+      }
+
+      return var16;
+   }
+
+   @NotNull
+   public final BlockPos IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c7007041f485dc9b(
+      byte var1, @NotNull BlockPos var2, @NotNull BlockPos var3, int var4, int var5, int var6
+   ) {
+      byte var14 = 4;
+      long var7 = ((long)var1 << 56 | (long)var5 << 32 >>> 8 | (long)var6 << 40 >>> 40)
+         ^ lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+      int[] var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         338575181407950516L, var7
+      );
+      Intrinsics.checkNotNullParameter(
+         var2, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"e">(20847, 9136946595936271233L ^ var7)
+      );
+      int[] var9 = var10000;
+      Intrinsics.checkNotNullParameter(
+         var3, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"e">(13847, 3316875676901022954L ^ var7)
+      );
+      BlockPos var10 = null;
+      var10 = var2;
+      int var11 = 0;
+
+      while (true) {
+         if (var11 < var14) {
+            boolean var13 = false;
+            var16 = var10.offset((Vec3i)var3);
+            if (var9 == null) {
+               break;
+            }
+
+            Intrinsics.checkNotNullExpressionValue(
+               var16, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"e">(28742, 6150944163092388511L ^ var7)
+            );
+            var10 = var16;
+            var11++;
+            if (var9 != null) {
+               continue;
+            }
+         }
+
+         var16 = var10;
+         break;
+      }
+
+      return var16;
+   }
+
+   @NotNull
+   public final Vec3 lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$46cbc3f6cf0735fe(
+      short argument1Arg, @NotNull BlockPos posArg, char argument3Arg, int argument4Arg
+   ) {
+      byte var7 = 0;
+      short var8 = 31175;
+      argument4Arg = 1277337041;
+      long var5 = ((long)var7 << 48 | (long)var8 << 48 >>> 16 | (long)argument4Arg << 32 >>> 32)
+         ^ lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+      Intrinsics.checkNotNullParameter(posArg, "pos");
+      Vec3 var10000 = new Vec3((Vec3i)posArg).add(0.5, 0.0, 0.5);
+      Intrinsics.checkNotNullExpressionValue(var10000, "add(...)");
+      return var10000;
+   }
+
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
       private int IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
       private int lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;

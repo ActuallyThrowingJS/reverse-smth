@@ -385,4 +385,78 @@ public final class Pool<T> {
    private final Object llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$916964e223e150f2(long param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$48e176c2d80db384(
+      short argument1Arg, @NotNull Iterable itemsArg, int argument3Arg, char argument4Arg
+   ) {
+      byte var24 = 0;
+      argument3Arg = 1356186188;
+      short var26 = 10589;
+      long var5 = ((long)var24 << 48 | (long)argument3Arg << 32 >>> 16 | (long)var26 << 48 >>> 48)
+         ^ IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI;
+      String[] var7 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
+
+      Iterable var10000;
+      label77: {
+         label70: {
+            try {
+               var10000 = itemsArg;
+               if (var7 != null) {
+                  break label77;
+               }
+
+               Intrinsics.checkNotNullParameter(itemsArg, "items");
+               if (this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI) {
+                  break label70;
+               }
+            } catch (MatchException var23) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var23);
+            }
+
+            var10000 = itemsArg;
+            break label77;
+         }
+
+         synchronized (this) {
+            boolean var9 = false;
+            boolean var11 = false;
+
+            for (Object var13 : itemsArg) {
+               String[] var32 = var7;
+               Object var14 = var13;
+               boolean var15 = false;
+
+               try {
+                  this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((T)var14);
+                  if (var32 != null) {
+                     break;
+                  }
+               } catch (MatchException var21) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var21);
+               }
+            }
+
+            Unit var27 = Unit.INSTANCE;
+            return;
+         }
+      }
+
+      Iterable var8 = var10000;
+      boolean var28 = false;
+
+      for (Object var29 : var8) {
+         String[] var33 = var7;
+         Object var30 = var29;
+         boolean var31 = false;
+
+         try {
+            this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((T)var30);
+            if (var33 != null || var7 != null) {
+               break;
+            }
+         } catch (MatchException var20) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var20);
+         }
+      }
+   }
 }

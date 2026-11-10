@@ -1196,7 +1196,9 @@ public final class llIIlllIlIlllIIllIllIIIIIlIlIlIlIlIIlllIlllllIlIIlIIIlIlllllI
       int var6 = (int)((var4 ^ 135991465193383L) >>> 32);
       int var7 = (int)((var4 ^ 135991465193383L) << 32 >>> 48);
       int var8 = (int)(var10001 << 48 >>> 48);
-      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var0, var6, var1, var2, var7, (short)var8, var3);
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$538ced130f35154b(
+         var0, var6, var1, var2, var7, (short)var8, var3
+      );
    }
 
    public static final double IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$255357bdab780123(
@@ -1294,48 +1296,88 @@ public final class llIIlllIlIlllIIllIllIIIIIlIlIlIlIlIIlllIlllllIlIIlIIIlIlllllI
       };
       List var20 = CollectionsKt.listOf(var21);
       double var41 = 0.0;
+      Iterator var23 = var20.iterator();
 
-      for (Triple var24 : var20) {
-         Vec3 var25 = (Vec3)var24.component1();
-         Vec3 var26 = (Vec3)var24.component2();
-         var10000 = (ClientLevel)var24.component3();
-         Intrinsics.checkNotNullExpressionValue(var10000, "component3(...)");
-         BlockPos var27 = (BlockPos)var10000;
-         if (var10.getBlockState(var27).isAir()) {
-            Vec3 var43 = var26.subtract(var11);
-            Intrinsics.checkNotNullExpressionValue(var43, "subtract(...)");
-            Vec3 var28 = var43;
-            double var29 = var28.lengthSqr();
+      label45:
+      while (true) {
+         Iterator var42 = var23;
 
-            try {
-               if (var29 < 1.0E-6) {
-                  continue;
+         while (var42.hasNext()) {
+            var42 = var23;
+            if (var9 == null) {
+               Triple var24 = (Triple)var23.next();
+               Vec3 var25 = (Vec3)var24.component1();
+               Vec3 var26 = (Vec3)var24.component2();
+               var10000 = (ClientLevel)var24.component3();
+               Intrinsics.checkNotNullExpressionValue(var10000, "component3(...)");
+               BlockPos var27 = (BlockPos)var10000;
+               if (var10.getBlockState(var27).isAir()) {
+                  Vec3 var44 = var26.subtract(var11);
+                  Intrinsics.checkNotNullExpressionValue(var44, "subtract(...)");
+                  Vec3 var28 = var44;
+                  double var29 = var28.lengthSqr();
+
+                  try {
+                     if (var29 < 1.0E-6) {
+                        continue label45;
+                     }
+                  } catch (MatchException var37) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var37);
+                  }
+
+                  double var31 = Math.abs(var28.normalize().dot(var25)) / var29;
+
+                  try {
+                     if (!(var31 > var41)) {
+                        continue label45;
+                     }
+                  } catch (MatchException var36) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var36);
+                  }
+
+                  var41 = var31;
                }
-            } catch (MatchException var37) {
-               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var37);
+               continue label45;
             }
-
-            double var31 = Math.abs(var28.normalize().dot(var25)) / var29;
-
-            try {
-               if (!(var31 > var41)) {
-                  continue;
-               }
-            } catch (MatchException var36) {
-               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var36);
-            }
-
-            var41 = var31;
          }
-      }
 
-      return var41;
+         return var41;
+      }
    }
 
    private final double IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e38b0cce8ed8d0cc(
       double param1, long param3
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private static final int IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$538ced130f35154b(
+      HashMap var0, int var1, HashMap var2, ClientLevel var3, int var4, short var5, BlockPos var6
+   ) {
+      short var11 = 8661;
+      short var12 = 1330;
+      var5 = 22694;
+      long var7 = ((long)var11 << 32 | (long)var12 << 48 >>> 32 | (long)var5 << 48 >>> 48)
+         ^ IlllIllIlllIlIlIIlIlIIlIIlIlIIIlllIllllIIIIlllIlllllIIlIlIIIIlIllllllllIIlIlIIlllllII;
+      long var9 = var7 ^ 30401516286322L;
+      Object var10000 = var0.computeIfAbsent(
+         var6,
+         llIIlllIlIlllIIllIllIIIIIlIlIlIlIlIIlllIlllllIlIIlIIIlIlllllIIIIllIIIIllIIIlllIlllIIl::llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI
+      );
+      Intrinsics.checkNotNullExpressionValue(var10000, "computeIfAbsent(...)");
+      return ((Number)var10000).intValue();
+   }
+
+   public static final double IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d768fa419c120e4f(
+      int var0, llIIlllIlIlllIIllIllIIIIIlIlIlIlIlIIlllIlllllIlIIlIIIlIlllllIIIIllIIIIllIIIlllIlllIIl var1, short var2, char var3, Vec3 var4
+   ) {
+      short var9 = 10397;
+      var2 = -3536;
+      short var11 = 11726;
+      long var5 = ((long)var9 << 32 | (long)var2 << 48 >>> 32 | (long)var11 << 48 >>> 48)
+         ^ IlllIllIlllIlIlIIlIlIIlIIlIlIIIlllIllllIIIIlllIlllllIIlIlIIIIlIllllllllIIlIlIIlllllII;
+      long var7 = var5 ^ 79013448171726L;
+      return var1.IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl$recovered$4913ce796f2bf44a(var4, var7);
    }
 
    public static enum IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI {

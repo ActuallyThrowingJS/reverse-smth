@@ -213,4 +213,11 @@ public final class IIIlIllllIllllIllIlIIIlllllIlIlIIIllllIllIlllIlllIlIlIllIIlIl
          );
       }
    }
+
+   @Nullable
+   public final BlockPos IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5d22936d33567b4a(
+      @NotNull BlockPos startArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

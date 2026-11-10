@@ -6,3 +6,5 @@
 /.cache/
 *.class
 __pycache__/
+/recovery-project/build/
+/recovery-project/.gradle/

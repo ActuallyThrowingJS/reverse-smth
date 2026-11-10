@@ -1157,4 +1157,147 @@ public final class lIlllIlllllIIIIllIlIIlIlIllllIIIIllIIllIIlIlIIlIllIlIllIlIIII
          );
       }
    }
+
+   // $VF: Handled exception range with multiple entry points by splitting it
+   // $VF: Duplicated exception handlers to handle obfuscated exceptions
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$68917a077fb6e342(
+      int var1, int var2, byte var3
+   ) {
+      short var39 = 17246;
+      var2 = 2537023;
+      var3 = 44;
+      long var4 = ((long)var39 << 32 | (long)var2 << 40 >>> 32 | (long)var3 << 56 >>> 56)
+         ^ lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      long var6 = var4 ^ 86325859851941L;
+      int var8 = (int)((var4 ^ 28440643049821L) >>> 32);
+      int var9 = (int)((var4 ^ 28440643049821L) << 32 >>> 32);
+      long var10001 = var4 ^ 14268646311081L;
+      int var10 = (int)((var4 ^ 14268646311081L) >>> 48);
+      int var11 = (int)((var4 ^ 14268646311081L) << 16 >>> 48);
+      int var12 = (int)(var10001 << 32 >>> 32);
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = llllIlIIIlllIIlIIIlIIlIIllIlIlIlllIIIIIIIIlIlIIllIIlllIIIlIllIIIIllIllllIIIIIIIllIllI.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll();
+      this.ed
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$67c2193b7ad33771(
+            var6, this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$9405e4a4f8ebee8c(var8, var9)
+         );
+      File var14 = this.ed
+         .IlllllIllIlIlIlIllIIlllllIlIIIllIIlIIlIlllIlIIllllIllllIIIIIlIIIIllIlIlIlllIIlIIlIIIl()
+         .IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$7bd3ad8c58180c69((char)var10, (char)var11, var12);
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var13 = var10000;
+
+      label83: {
+         label78: {
+            label84: {
+               try {
+                  var48 = this.ed;
+                  if (var13 != null) {
+                     break label78;
+                  }
+
+                  var52 = var14;
+                  if (var14 == null) {
+                     break label84;
+                  }
+               } catch (MatchException var38) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var38);
+               }
+
+               File var15 = var52;
+               lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllIIIIllIIIlIIIlIIIlIIlllIIl var27 = var48;
+               boolean var16 = false;
+               String[] var17 = new String[]{"main.js", "index.js", var15.getName() + ".js"};
+               Iterable var42 = CollectionsKt.listOf(var17);
+               boolean var18 = false;
+               var var20 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var42, 10));
+               boolean var21 = false;
+
+               for (Object var23 : var42) {
+                  String var24 = (String)var23;
+                  ArrayList var25 = var20;
+                  boolean var26 = false;
+
+                  try {
+                     var25.add(new File(var15, var24));
+                  } catch (MatchException var34) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var34);
+                  }
+               }
+
+               var var43 = var20;
+               var18 = false;
+               Iterator var19 = var43.iterator();
+
+               while (true) {
+                  if (!var19.hasNext()) {
+                     var10000 = null;
+                     break;
+                  }
+
+                  var20 = (ArrayList)var19.next();
+                  File var46 = (File)var20;
+                  boolean var47 = false;
+                  if (var46.isFile()) {
+                     var10000 = var20;
+                     break;
+                  }
+               }
+
+               label58: {
+                  try {
+                     File var50 = (File)var10000;
+                     if ((File)var10000 != null) {
+                        var51 = var50.getAbsolutePath();
+                        break label58;
+                     }
+                  } catch (MatchException var37) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var37);
+                  }
+
+                  var51 = null;
+               }
+
+               try {
+                  var53 = var51;
+                  var48 = var27;
+                  if (var51 != null) {
+                     break label83;
+                  }
+               } catch (MatchException var36) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var36);
+               }
+            }
+
+            try {
+               ;
+            } catch (MatchException var33) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var33);
+            }
+         }
+
+         try {
+            File var54 = this.ed.IIIIIIlllIIlIIIIlllIIIlIIlIIlIllllIlllIlIIIllllIIlIIIIllIlIIIllllIllllIlIllIIllIIIIlI();
+            if (var54 != null) {
+               var53 = var54.getAbsolutePath();
+               break label83;
+            }
+         } catch (MatchException var35) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var35);
+         }
+
+         var53 = null;
+      }
+
+      var48.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var53);
+   }
+
+   @NotNull
+   public final List llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$9405e4a4f8ebee8c(int param1, int param2) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$3ed0084e1e265590(
+      long param0, ArrayList param2, lIlllIlllllIIIIllIlIIlIlIllllIIIIllIIllIIlIlIIlIllIlIllIlIIIIlIIIIlIlIIllIIllIIIlllII param3, File param4, int param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

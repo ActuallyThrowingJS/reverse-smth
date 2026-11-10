@@ -811,6 +811,24 @@ public final class IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIll
                      );
                   }
                }
+
+               public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4e0015f1abb21a1e(
+                  me.octo.client.modules.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII p0Arg,
+                  int argument2Arg,
+                  int argument3Arg,
+                  byte argument4Arg
+               ) {
+                  short var9 = 18485;
+                  argument3Arg = 16633708;
+                  argument4Arg = -102;
+                  long var5x = ((long)var9 << 32 | (long)argument3Arg << 40 >>> 32 | (long)argument4Arg << 56 >>> 56)
+                     ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+                  long var7 = var5x ^ 69277515020916L;
+                  Intrinsics.checkNotNullParameter(p0Arg, "p0");
+                  IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f90e102f36a866ea(
+                     (IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl)this.receiver, var7, p0Arg
+                  );
+               }
             }
          ),
          var8,
@@ -1004,6 +1022,24 @@ public final class IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIll
                         var5
                      );
                   }
+               }
+
+               public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$bc7d67ff3cc99b9b(
+                  me.octo.client.modules.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII p0Arg,
+                  short argument2Arg,
+                  int argument3Arg,
+                  char argument4Arg
+               ) {
+                  byte var9 = 0;
+                  argument3Arg = 1613440957;
+                  short var11 = 15959;
+                  long var5x = ((long)var9 << 48 | (long)argument3Arg << 32 >>> 16 | (long)var11 << 48 >>> 48)
+                     ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+                  long var7 = var5x ^ 97688525142873L;
+                  Intrinsics.checkNotNullParameter(p0Arg, "p0");
+                  IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f90e102f36a866ea(
+                     (IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl)this.receiver, var7, p0Arg
+                  );
                }
             }
          ),
@@ -3489,7 +3525,51 @@ public final class IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIll
       int var4 = (int)((var1 ^ 104321556733059L) >>> 48);
       int var5 = (int)((var1 ^ 104321556733059L) << 16 >>> 32);
       int var6 = (int)(var10001 << 48 >>> 48);
-      var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((short)var4, var5, var6, var3);
+      var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$07a7733128e337d5((short)var4, var5, var6, var3);
+   }
+
+   private final boolean IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$5e5d241c1b8f3b75(
+      short param1, int param2, int param3, char param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$07a7733128e337d5(
+      short var1, int var2, int var3, me.octo.client.modules.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII var4
+   ) {
+      byte var17 = 0;
+      var2 = 1218565680;
+      short var19 = 5604;
+      long var5 = ((long)var17 << 48 | (long)var2 << 32 >>> 16 | (long)var19 << 48 >>> 48)
+         ^ lIIIIlIllIlIlIllIllIlIIlIIIIlIIlllllIlIIIllIIIlIlIlIIIIlllIIlIllIIlIIlIllIlIlIlIIllIl;
+      long var10001 = var5 ^ 98183392276552L;
+      int var7 = (int)((var5 ^ 98183392276552L) >>> 48);
+      int var8 = (int)((var5 ^ 98183392276552L) << 16 >>> 32);
+      int var9 = (int)(var10001 << 48 >>> 48);
+      var10001 = var5 ^ 64586552993991L;
+      int var10 = (int)((var5 ^ 64586552993991L) >>> 32);
+      int var11 = (int)((var5 ^ 64586552993991L) << 32 >>> 48);
+      int var12 = (int)(var10001 << 48 >>> 48);
+      var10001 = var5 ^ 101250758749629L;
+      int var13 = (int)((var5 ^ 101250758749629L) >>> 32);
+      int var14 = (int)((var5 ^ 101250758749629L) << 32 >>> 48);
+      int var15 = (int)(var10001 << 48 >>> 48);
+      me.octo.client.modules.IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl var10000 = this.IlllIIlllIIIIIlllIllIIIIIIlIIIIIIllIllIlIlIlIIlIllIlIlllIIIlIIllIlIIlllIIIIlIIIIlllII();
+      me.octo.client.modules.IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var16 = new me.octo.client.modules.IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+         me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.DWARVEN_FORGE,
+         IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl::IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl,
+         var4.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(),
+         0,
+         0,
+         0L,
+         0,
+         IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl::IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll,
+         120,
+         null
+      );
+      var10000.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2dea6c7ec1619410(
+         var10, (short)var11, var16, (short)var12
+      );
    }
 
    private static final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI {
@@ -3852,6 +3932,12 @@ public final class IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIll
 
       private static MatchException IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(MatchException var0) {
          return var0;
+      }
+
+      public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c4daecdb29028e84(
+         int argument1Arg, @NotNull Creeper eArg, boolean argument3Arg, int argument4Arg
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
       }
    }
 

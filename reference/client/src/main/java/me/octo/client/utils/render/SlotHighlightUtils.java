@@ -413,6 +413,19 @@ public final class SlotHighlightUtils {
       contextArg.fill(var8, var9, var8 + 16, var9 + 16, argument5Arg);
    }
 
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d4e9c18744859b83(
+      @NotNull String keyArg, char argument2Arg, int argument3Arg, @NotNull List highlightsArg, char argument5Arg
+   ) {
+      byte var8 = 0;
+      argument3Arg = 1529089271;
+      argument5Arg = '鯺';
+      long var6 = ((long)var8 << 48 | (long)argument3Arg << 32 >>> 16 | (long)argument5Arg << 48 >>> 48)
+         ^ lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      Intrinsics.checkNotNullParameter(keyArg, "key");
+      Intrinsics.checkNotNullParameter(highlightsArg, "highlights");
+      IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.put(keyArg, highlightsArg);
+   }
+
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
       private final int IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
       private final int lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;

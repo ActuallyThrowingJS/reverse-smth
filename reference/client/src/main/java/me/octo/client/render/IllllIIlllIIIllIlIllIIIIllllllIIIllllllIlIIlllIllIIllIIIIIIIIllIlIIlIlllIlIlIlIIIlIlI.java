@@ -21,6 +21,7 @@ import kotlin.enums.EnumEntries;
 import kotlin.enums.EnumEntriesKt;
 import kotlin.jvm.JvmOverloads;
 import kotlin.jvm.internal.Intrinsics;
+import me.octo.client.modules.impl.macros.lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI;
 import net.minecraft.client.renderer.MappableRingBuffer;
 import org.jetbrains.annotations.NotNull;
 
@@ -109,7 +110,9 @@ public enum IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIl
       int var3 = (int)((var1 ^ 17709113248968L) >>> 32);
       int var4 = (int)((var1 ^ 17709113248968L) << 32 >>> 48);
       int var5 = (int)(var10001 << 48 >>> 48);
-      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, null, 1, var3, null, var4, (short)var5);
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$da76b8bfb4ba42f4(
+         this, null, 1, var3, null, var4, (short)var5
+      );
    }
 
    @JvmOverloads
@@ -372,5 +375,39 @@ public enum IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIl
             var5
          );
       }
+   }
+
+   public static GpuBufferSlice IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$da76b8bfb4ba42f4(
+      IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var0,
+      Supplier var1,
+      int var2,
+      int var3,
+      Object var4,
+      int var5,
+      short var6
+   ) {
+      byte var14 = 1;
+      long var7 = ((long)var3 << 32 | (long)var5 << 48 >>> 32 | (long)var6 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var9 = var7 ^ 111987896402371L;
+      long var11 = var7 ^ 12877366098485L;
+
+      try {
+         if (var4 != null) {
+            throw new UnsupportedOperationException(
+               IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"y">(23073, 6241637681753826343L ^ var7)
+            );
+         }
+      } catch (UnsupportedOperationException var13) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var13, 4032462485827613427L, var7
+         );
+      }
+
+      if ((var14 & 1) != 0) {
+         var1 = var0::IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII;
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var9, var1);
    }
 }

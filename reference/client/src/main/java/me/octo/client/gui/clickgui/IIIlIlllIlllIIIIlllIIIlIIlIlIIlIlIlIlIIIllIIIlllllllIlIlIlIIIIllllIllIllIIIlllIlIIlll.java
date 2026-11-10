@@ -244,6 +244,41 @@ public final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIII
       }
    }
 
+   public static String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$690d38d1b2381d97(
+      IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll var0,
+      String var1,
+      String var2,
+      int var3,
+      short var4,
+      Object var5,
+      short var6,
+      int var7
+   ) {
+      byte var13 = 2;
+      long var8 = ((long)var4 << 48 | (long)var6 << 48 >>> 16 | (long)var7 << 32 >>> 32)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      long var10001 = var8 ^ 128428775496841L;
+      int var10 = (int)((var8 ^ 128428775496841L) >>> 48);
+      int var11 = (int)((var8 ^ 128428775496841L) << 16 >>> 32);
+      int var12 = (int)(var10001 << 48 >>> 48);
+      if ((var13 & 2) != 0) {
+         var2 = "";
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var2, (char)var10, var11, (char)var12);
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$84f5da3a35a36649(
+      @NotNull String var1, long var2, byte var4, @Nullable Object var5
+   ) {
+      var2 = 537424542823L;
+      long var6 = (var2 << 8 | (long)var4 << 56 >>> 56) ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      Intrinsics.checkNotNullParameter(
+         var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"m">(21068, 4099850408625308908L ^ var6)
+      );
+      this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.put(var1, var5);
+   }
+
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
       private static long IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = 50010410775030L;
       private static String[] lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
@@ -416,6 +451,13 @@ public final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIII
                var5
             );
          }
+      }
+
+      @NotNull
+      public final IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c607eda6001b35d7(
+         long argument1Arg, @NotNull JsonElement jsonArg
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
       }
    }
 }

@@ -299,4 +299,16 @@ public final class IIlllllIIlllIllIIlllIIIlIllIIllllIIIlIIlIIIIIlIIIlIlllllIIlII
       Intrinsics.checkNotNullParameter(var1, "<set-?>");
       this.purse = var1;
    }
+
+   public final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$5bc530c7171e5999(
+      short var1, @NotNull BigDecimal var2, short var3, int var4
+   ) {
+      byte var7 = 0;
+      var3 = 26810;
+      var4 = 738519287;
+      long var5 = ((long)var7 << 48 | (long)var3 << 48 >>> 16 | (long)var4 << 32 >>> 32)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      Intrinsics.checkNotNullParameter(var2, "<set-?>");
+      this.sessionSpending = var2;
+   }
 }

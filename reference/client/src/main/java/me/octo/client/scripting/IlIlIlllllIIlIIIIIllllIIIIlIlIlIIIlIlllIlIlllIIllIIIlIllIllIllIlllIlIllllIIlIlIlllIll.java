@@ -67,7 +67,8 @@ public final class IlIlIlllllIIlIIIIIllllIIIIlIlIlIIIlIlllIlIlllIIllIIIlIllIllIl
       int var5 = (int)((var2 ^ 90206194187551L) << 32 >>> 48);
       int var6 = (int)(var10001 << 48 >>> 48);
       Intrinsics.checkNotNullParameter(fnArg, "fn");
-      this.module.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4, (char)var5, fnArg, var6);
+      this.module
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$66ea787267273a56(var4, (char)var5, fnArg, var6);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -97,7 +98,8 @@ public final class IlIlIlllllIIlIIIIIllllIIIIlIlIlIIIlIlllIlIlllIIllIIIlIllIllIl
       int var5 = (int)((var2 ^ 86209188922313L) << 16 >>> 32);
       int var6 = (int)(var10001 << 48 >>> 48);
       Intrinsics.checkNotNullParameter(fnArg, "fn");
-      this.module.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(fnArg, (short)var4, var5, var6);
+      this.module
+         .IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$ba9b7b40be2c6935(fnArg, (short)var4, var5, var6);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -117,7 +119,7 @@ public final class IlIlIlllllIIlIIIIIllllIIIIlIlIlIIIlIlllIlIlllIIllIIIlIllIllIl
       int var4 = (int)((var2 ^ 68522546632817L) >>> 32);
       int var5 = (int)((var2 ^ 68522546632817L) << 32 >>> 32);
       Intrinsics.checkNotNullParameter(fnArg, "fn");
-      this.module.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII(var4, fnArg, var5);
+      this.module.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$86642676b5758ff6(var4, fnArg, var5);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -129,7 +131,8 @@ public final class IlIlIlllllIIlIIIIIllllIIIIlIlIlIIIlIlllIlIlllIIllIIIlIllIllIl
       int var5 = (int)((var2 ^ 115503502945012L) << 16 >>> 32);
       int var6 = (int)(var10001 << 48 >>> 48);
       Intrinsics.checkNotNullParameter(fnArg, "fn");
-      this.module.IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI((char)var4, var5, (char)var6, fnArg);
+      this.module
+         .IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$84fc5840154eb145((char)var4, var5, (char)var6, fnArg);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -159,7 +162,8 @@ public final class IlIlIlllllIIlIIIIIllllIIIIlIlIlIIIlIlllIlIlllIIllIIIlIllIllIl
       int var3 = (int)((var1 ^ 123828793819627L) >>> 32);
       int var4 = (int)((var1 ^ 123828793819627L) << 32 >>> 48);
       int var5 = (int)(var10001 << 48 >>> 48);
-      return this.module.llllIlllIIIlIllIlIIIIIIlllIlIlIIIIIIIlllIlllIIllIlIIlIIlIIlIIllllIIllIIIlIlIlIlllllIl(var3, var4, (short)var5);
+      return this.module
+         .llllIlllIIIlIllIlIIIIIIlllIlIlIIIIIIIlllIlllIIllIlIIlIIlIIlIIllllIIllIIIlIlIlIlllllIl$recovered$a5169dca601cf078(var3, var4, (short)var5);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll

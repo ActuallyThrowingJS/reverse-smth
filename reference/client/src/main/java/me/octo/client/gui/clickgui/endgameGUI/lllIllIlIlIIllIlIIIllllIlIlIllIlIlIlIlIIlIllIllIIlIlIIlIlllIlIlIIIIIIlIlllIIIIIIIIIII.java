@@ -2152,6 +2152,26 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
       }
    }
 
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ec9afa7efb145f6c(
+      int argument1Arg, short argument2Arg, @NotNull String keyArg, float argument4Arg, char argument5Arg
+   ) {
+      short var10 = 742;
+      argument2Arg = -1407;
+      short var12 = 23957;
+      long var6 = ((long)var10 << 32 | (long)argument2Arg << 48 >>> 32 | (long)var12 << 48 >>> 48)
+         ^ IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII;
+
+      try {
+         Intrinsics.checkNotNullParameter(keyArg, "key");
+         Function1 var10000 = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll.get(keyArg);
+         if (var10000 != null) {
+            var10000.invoke(argument4Arg);
+         }
+      } catch (MatchException var9) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var9);
+      }
+   }
+
    public static final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI {
       @NotNull
       private final String title;

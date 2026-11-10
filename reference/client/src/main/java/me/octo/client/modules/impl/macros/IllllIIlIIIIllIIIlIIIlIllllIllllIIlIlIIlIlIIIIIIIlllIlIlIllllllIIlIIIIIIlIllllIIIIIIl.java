@@ -13,9 +13,14 @@ import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
 import javax.crypto.spec.IvParameterSpec;
+import kotlin.jvm.JvmStatic;
 import kotlin.jvm.internal.Intrinsics;
 import kotlinx.serialization.KSerializer;
 import kotlinx.serialization.Serializable;
+import kotlinx.serialization.SerializationStrategy;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.CompositeEncoder;
+import kotlinx.serialization.internal.StringSerializer;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -257,6 +262,75 @@ public final class IllllIIlIIIIllIIIlIIIlIllllIllllIIlIlIIlIlIIIIIIIlllIlIlIllll
                + var2.toString(),
             var5
          );
+      }
+   }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ea99dd0909b69f57(
+      IllllIIlIIIIllIIIlIIIlIllllIllllIIlIlIIlIlIIIIIIIlllIlIlIllllllIIlIIIIIIlIllllIIIIIIl var0,
+      CompositeEncoder var1,
+      int var2,
+      char var3,
+      SerialDescriptor var4,
+      char var5
+   ) {
+      short var15 = 32275;
+      var3 = '\ude86';
+      short var17 = 24773;
+      long var6 = ((long)var15 << 32 | (long)var3 << 48 >>> 32 | (long)var17 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      int var10000 = IllllIIllIlIlIllllIlIIlIIlllIllllIlIIllIIlllllIlllllIIlllIIIIllIlIIlIllllllIlllIllIll.IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll();
+      var1.encodeBooleanElement(var4, 0, var0.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII);
+      int var8 = var10000;
+
+      label40: {
+         label44: {
+            try {
+               var1.encodeSerializableElement(
+                  var4,
+                  1,
+                  (SerializationStrategy)IIIlllllIIllIlIllIIllIlIIllIIlIIlIIlllIlIIlIlIIIllllIllllllIIIIlIllIlllIIIIIIllIllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl,
+                  var0.data
+               );
+               var18 = var1.shouldEncodeElementDefault(var4, 2);
+               if (var8 == 0) {
+                  break label40;
+               }
+
+               if (var18) {
+                  break label44;
+               }
+            } catch (MatchException var14) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var14);
+            }
+
+            try {
+               if (var0.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI != null) {
+                  var18 = true;
+                  break label40;
+               }
+            } catch (MatchException var13) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13);
+            }
+
+            var18 = false;
+            break label40;
+         }
+
+         var18 = true;
+      }
+
+      try {
+         if (var18) {
+            var1.encodeNullableSerializableElement(
+               var4,
+               2,
+               (SerializationStrategy)StringSerializer.INSTANCE,
+               var0.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI
+            );
+         }
+      } catch (MatchException var12) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var12);
       }
    }
 

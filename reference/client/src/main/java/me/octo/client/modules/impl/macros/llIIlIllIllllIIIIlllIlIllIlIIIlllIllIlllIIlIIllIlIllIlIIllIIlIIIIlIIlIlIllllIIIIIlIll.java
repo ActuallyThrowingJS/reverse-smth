@@ -590,6 +590,27 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
                   );
                }
             }
+
+            public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c1faf56c3fdc4a66(
+               short argument1Arg,
+               int argument2Arg,
+               me.octo.client.modules.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII p0Arg,
+               char argument4Arg
+            ) {
+               byte var10 = 0;
+               argument2Arg = 379126058;
+               short var12 = 28338;
+               long var5x = ((long)var10 << 48 | (long)argument2Arg << 32 >>> 16 | (long)var12 << 48 >>> 48)
+                  ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+               long var10001x = var5x ^ 97162944957096L;
+               int var7x = (int)((var5x ^ 97162944957096L) >>> 32);
+               int var8 = (int)((var5x ^ 97162944957096L) << 32 >>> 48);
+               int var9x = (int)(var10001x << 48 >>> 48);
+               Intrinsics.checkNotNullParameter(p0Arg, "p0");
+               llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$61020744405478f2(
+                  var7x, (short)var8, (llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll)this.receiver, (short)var9x, p0Arg
+               );
+            }
          }
       );
       Object var31 = null;
@@ -956,7 +977,7 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
                   int var5x = (int)((argument2Arg ^ 87824319127719L) << 32 >>> 48);
                   int var6 = (int)(var10001x << 48 >>> 48);
                   Intrinsics.checkNotNullParameter(p0Arg, "p0");
-                  llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                  llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$61020744405478f2(
                      var4,
                      (short)var5x,
                      (llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll)this.receiver,
@@ -1319,6 +1340,31 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
                      );
                   }
                }
+
+               public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$830702331555906b(
+                  short argument1Arg,
+                  me.octo.client.modules.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII p0Arg,
+                  char argument3Arg,
+                  int argument4Arg
+               ) {
+                  byte var10 = 0;
+                  short var11x = 12402;
+                  argument4Arg = 515587415;
+                  long var5x = ((long)var10 << 48 | (long)var11x << 48 >>> 16 | (long)argument4Arg << 32 >>> 32)
+                     ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+                  long var10001x = var5x ^ 108927491245534L;
+                  int var7x = (int)((var5x ^ 108927491245534L) >>> 32);
+                  int var8 = (int)((var5x ^ 108927491245534L) << 32 >>> 48);
+                  int var9x = (int)(var10001x << 48 >>> 48);
+                  Intrinsics.checkNotNullParameter(p0Arg, "p0");
+                  llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$61020744405478f2(
+                     var7x,
+                     (short)var8,
+                     (llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll)this.receiver,
+                     (short)var9x,
+                     p0Arg
+                  );
+               }
             }
          ),
          var19,
@@ -1677,7 +1723,7 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
                   int var5x = (int)((argument2Arg ^ 27163171503265L) << 32 >>> 48);
                   int var6 = (int)(var10001x << 48 >>> 48);
                   Intrinsics.checkNotNullParameter(p0Arg, "p0");
-                  llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                  llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$61020744405478f2(
                      var4,
                      (short)var5x,
                      (llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll)this.receiver,
@@ -2035,7 +2081,7 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
                int var5x = (int)((argument1Arg ^ 98201087749626L) << 32 >>> 48);
                int var6 = (int)(var10001x << 48 >>> 48);
                Intrinsics.checkNotNullParameter(p0Arg, "p0");
-               llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$61020744405478f2(
                   var4, (short)var5x, (llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll)this.receiver, (short)var6, p0Arg
                );
             }
@@ -2238,7 +2284,7 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
                   int var5x = (int)((argument2Arg ^ 13516481722799L) << 32 >>> 48);
                   int var6 = (int)(var10001x << 48 >>> 48);
                   Intrinsics.checkNotNullParameter(p0Arg, "p0");
-                  llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                  llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$61020744405478f2(
                      var4,
                      (short)var5x,
                      (llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll)this.receiver,
@@ -2452,7 +2498,7 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
                   int var5x = (int)((argument1Arg ^ 134687394296124L) << 32 >>> 48);
                   int var6 = (int)(var10001x << 48 >>> 48);
                   Intrinsics.checkNotNullParameter(p0Arg, "p0");
-                  llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                  llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$61020744405478f2(
                      var4,
                      (short)var5x,
                      (llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll)this.receiver,
@@ -2669,7 +2715,7 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
                      int var5x = (int)((argument2Arg ^ 105518021870239L) << 32 >>> 48);
                      int var6 = (int)(var10001x << 48 >>> 48);
                      Intrinsics.checkNotNullParameter(p0Arg, "p0");
-                     llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                     llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$61020744405478f2(
                         var4,
                         (short)var5x,
                         (llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll)this.receiver,
@@ -3037,7 +3083,7 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
                      int var5x = (int)((argument2Arg ^ 40544706738491L) << 32 >>> 48);
                      int var6 = (int)(var10001x << 48 >>> 48);
                      Intrinsics.checkNotNullParameter(p0Arg, "p0");
-                     llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                     llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$61020744405478f2(
                         var4,
                         (short)var5x,
                         (llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll)this.receiver,
@@ -4366,6 +4412,88 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
       String param1, long param2
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$61020744405478f2(
+      int var0,
+      short var1,
+      llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll var2,
+      short var3,
+      me.octo.client.modules.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII var4
+   ) {
+      short var9 = 25587;
+      var1 = 10828;
+      var3 = 15368;
+      long var5 = ((long)var9 << 32 | (long)var1 << 48 >>> 32 | (long)var3 << 48 >>> 48)
+         ^ llllIIIIIIlIllIllIlIIllIlIlIlIIIlIIIIIIIIIlIIIllIIIIlIlIlllIlIllIIIIIlIlIllIIlIIllIIl;
+      long var7 = var5 ^ 45485194731350L;
+      var2.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$aee0d9a55835a50f(var7, var4);
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$aee0d9a55835a50f(
+      long var1, me.octo.client.modules.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII var3
+   ) {
+      var1 = 18797936758344L;
+      var1 = llllIIIIIIlIllIllIlIIllIlIlIlIIIlIIIIIIIIIlIIIllIIIIlIlIlllIlIllIIIIIlIlIllIIlIIllIIl ^ var1;
+      long var4 = var1 ^ 62021401662103L;
+      this.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$d5dfaa1ea967621c(
+         var4, var3.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl()
+      );
+   }
+
+   private final void IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$d5dfaa1ea967621c(long var1, String var3) {
+      var1 = 126190586081737L;
+      var1 = llllIIIIIIlIllIllIlIIllIlIlIlIIIlIIIIIIIIIlIIIllIIIIlIlIlllIlIllIIIIIlIlIllIIlIIllIIl ^ var1;
+      long var4 = var1 ^ 51596921342821L;
+      long var10001 = var1 ^ 129332304849502L;
+      int var6 = (int)((var1 ^ 129332304849502L) >>> 32);
+      int var7 = (int)((var1 ^ 129332304849502L) << 32 >>> 48);
+      int var8 = (int)(var10001 << 48 >>> 48);
+      long var9 = var1 ^ 28560377620554L;
+      String var12 = me.octo.client.modules.impl.macros.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
+
+      IIIIIlllllIIIllIlIlIlllllIIIllIIIllllIIIIIIlIIIIIlIIlIllIlIIllllllllllllIIIIlIlIlllII var10000;
+      try {
+         var10000 = this.IllIIlIlIlIlIIllIIllIIIIIIIIIlllIIlllIlIllIIlIlllIIIIIlIllllIIlIlIllllIllllllIIIIIllI;
+         if (this.IllIIlIlIlIlIIllIIllIIIIIIIIIlllIIlllIlIllIIlIlllIIIIIlIllllIIlIlIllllIllllllIIIIIllI == null) {
+            return;
+         }
+      } catch (MatchException var19) {
+         throw IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var19);
+      }
+
+      IIIIIlllllIIIllIlIlIlllllIIIllIIIllllIIIIIIlIIIIIlIIlIllIlIIllllllllllllIIIIlIlIlllII var13 = var10000;
+
+      try {
+         try {
+            if (IlllIIIlIlIIIIIIlIllIIlllllIIllIlIllIlllIIllllIlIllIIlllIIlIIlIIIIIIIllIlIlllIlIIlIII.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+               .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI()
+               .IIlIIllIlIIIIlIllIlIlllIllIIlIlIIlIlIIIlIlIIIlIIllIlIlIlllllIIlIlIIIlIllllIlIlIIIllll()) {
+               return;
+            }
+         } catch (MatchException var17) {
+            throw IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var17);
+         }
+      } catch (MatchException var18) {
+         throw IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var18);
+      }
+
+      me.octo.client.modules.IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl var22 = this.IlllIIlllIIIIIlllIllIIIIIIlIIIIIIllIllIlIlIlIIlIllIlIlllIIIlIIllIlIIlllIIIIlIIIIlllII();
+      me.octo.client.modules.IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = new me.octo.client.modules.IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+         var13.getWarpLocation(),
+         llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll::IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII,
+         var3,
+         0,
+         0,
+         0L,
+         0,
+         llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll::IIlllIlIlIllIIlIlIlIlllIllIIllllIIllllllIlllIlIlIIllIlIIllllllIlIIIlllIIIIlllIIllIlII,
+         120,
+         null
+      );
+      var22.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2dea6c7ec1619410(
+         var6, (short)var7, var11, (short)var8
+      );
    }
 
    private static final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI {

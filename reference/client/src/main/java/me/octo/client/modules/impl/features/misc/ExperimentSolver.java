@@ -543,4 +543,10 @@ public final class ExperimentSolver extends BooleanModule {
    private final void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$cec8236124eae9c6(long param1, List param3) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   private final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$2a0af0022d2d0718(
+      List param1, short param2, int param3, short param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

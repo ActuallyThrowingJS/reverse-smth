@@ -91,7 +91,7 @@ public final class ViewModel extends BooleanModule {
       long var3 = IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl ^ 53929010637437L;
       int var5 = (int)((var3 ^ 87576245117613L) >>> 32);
       int var6 = (int)((var3 ^ 87576245117613L) << 32 >>> 32);
-      lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5d3dcb2a51ae6937(
          var0, var5, var6, var1, var2
       );
    }
@@ -573,6 +573,37 @@ public final class ViewModel extends BooleanModule {
 
       @JvmStatic
       public final boolean IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$b5395aaca3b07643(long param1) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      @JvmStatic
+      public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5d3dcb2a51ae6937(
+         @NotNull PoseStack poseStackArg, int argument2Arg, int argument3Arg, @NotNull HumanoidArm armArg, boolean argument5Arg
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$18cebffa3ec7c712(
+         long param1, PoseStack param3, boolean param4, boolean param5
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      private final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$0b28a8d74d8bc262(
+         PoseStack param1, boolean param2, boolean param3, long param4
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      private final void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$15f2e9e75f6c379e(
+         int param1, PoseStack param2, boolean param3, char param4, boolean param5, char param6
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      private final void IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$08072e0b23aa807c(
+         PoseStack param1, boolean param2, long param3, boolean param5
+      ) {
          // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
       }
    }

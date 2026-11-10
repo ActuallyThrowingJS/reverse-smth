@@ -1,0 +1,30 @@
+{
+  "me/octo/client/mixin/client/MinecraftMixin.java": {
+    "tool": "CFR",
+    "compilerAndApiVerified": true
+  },
+  "me/octo/client/utils/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI.java": {
+    "tool": "CFR",
+    "compilerAndApiVerified": true
+  },
+  "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.java": {
+    "tool": "CFR",
+    "compilerAndApiVerified": true
+  },
+  "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.java": {
+    "tool": "CFR",
+    "compilerAndApiVerified": true
+  },
+  "me/octo/client/utils/security/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI.java": {
+    "tool": "CFR",
+    "compilerAndApiVerified": true
+  },
+  "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.java": {
+    "tool": "CFR",
+    "compilerAndApiVerified": true
+  },
+  "me/octo/client/utils/client/GenericPools.java": {
+    "tool": "Procyon",
+    "compilerAndApiVerified": true
+  }
+}

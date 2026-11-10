@@ -23,6 +23,7 @@ import javax.crypto.spec.DESKeySpec;
 import javax.crypto.spec.IvParameterSpec;
 import kotlin.Deprecated;
 import kotlin.Unit;
+import kotlin.collections.MapsKt;
 import kotlin.enums.EnumEntries;
 import kotlin.enums.EnumEntriesKt;
 import kotlin.jvm.JvmOverloads;
@@ -991,6 +992,67 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
       @NotNull String eventTypeArg, @NotNull Map dataArg, boolean argument3Arg, long argument4Arg, boolean argument5Arg
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$94598dd020c785cc(
+      String var0, long var1, Map var3, boolean var4, boolean var5, int var6, Object var7
+   ) {
+      var1 = 69500987823032L;
+      var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
+      long var8 = var1 ^ 56550103573729L;
+      String var10 = IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl();
+
+      int var10000;
+      label51: {
+         int var20;
+         label50: {
+            label49: {
+               try {
+                  var20 = var6;
+                  if (var10 != null) {
+                     break label50;
+                  }
+
+                  if ((var6 & 2) == 0) {
+                     break label49;
+                  }
+               } catch (RuntimeException var24) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var24);
+               }
+
+               var3 = MapsKt.emptyMap();
+            }
+
+            try {
+               var10000 = var6 & 4;
+               break label51;
+            } catch (RuntimeException var22) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var22);
+            }
+         }
+
+         var10000 = var20;
+      }
+
+      if (var10000 != 0) {
+         var4 = true;
+      }
+
+      try {
+         if (var10 != null) {
+            return (boolean)var6;
+         }
+
+         var10000 = var6 & 8;
+      } catch (RuntimeException var23) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var23);
+      }
+
+      if (var10000 != 0) {
+         var5 = true;
+      }
+
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var0, var3, var4, var8, var5);
    }
 
    public static enum IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {

@@ -1,0 +1,274 @@
+[
+  {
+    "rva": "0x2e47e0",
+    "original": {
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
+      "fnAddr": 271468512,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x2e47e0",
+      "unwindSize": "0xdb"
+    },
+    "file": "000-2e47e0.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x2f2c20",
+    "original": {
+      "name": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII",
+      "desc": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
+      "fnAddr": 271526944,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x2f2c20",
+      "unwindSize": "0xdb"
+    },
+    "file": "001-2f2c20.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x89550",
+    "original": {
+      "name": "llllIIIllIIlIlllllIlIIIIlIllllllllIllllIlIIllIlllIllIlIIlIIIllIIIlIllIIIIIllllIIllllI",
+      "desc": "()Ljava/lang/ClassLoader;",
+      "fnAddr": 268997968,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x89550",
+      "unwindSize": "0x1aa"
+    },
+    "file": "002-89550.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x1a4fc0",
+    "original": {
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "([ZLjavax/swing/JOptionPane;[Ljava/lang/String;Ljavax/swing/JDialog;Ljava/awt/event/ActionEvent;)V",
+      "fnAddr": 270159808,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x1a4fc0",
+      "unwindSize": "0x21f"
+    },
+    "file": "003-1a4fc0.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x34360",
+    "original": {
+      "name": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII",
+      "desc": "(J)Ljava/io/File;",
+      "fnAddr": 268649312,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x34360",
+      "unwindSize": "0x390"
+    },
+    "file": "004-34360.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x1a7f70",
+    "original": {
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(Lnet/fabricmc/loader/api/ModContainer;)Ljava/lang/String;",
+      "fnAddr": 270172016,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x1a7f70",
+      "unwindSize": "0x3af"
+    },
+    "file": "005-1a7f70.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x226260",
+    "original": {
+      "name": "$restoreCommVisit",
+      "desc": "(Lorg/objectweb/asm/ClassWriter;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V",
+      "fnAddr": 270688864,
+      "registrarSymbol": "Java_me_octo_client_IIlIlllIIlIIIIIlIlIlllIlIIIIlIlllIlllIlIIIlIllllIllIIIlIllIIlIIlIllllllIIIllIIIlIllll__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/IIlIlllIIlIIIIIlIlIlllIlIIIIlIlllIlllIlIIIlIllllIllIIIlIllIIlIIlIllllllIIIllIIIlIllll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x226260",
+      "unwindSize": "0x3c9"
+    },
+    "file": "006-226260.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x33c30",
+    "original": {
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(J)Ljava/lang/String;",
+      "fnAddr": 268647472,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x33c30",
+      "unwindSize": "0x3d1"
+    },
+    "file": "007-33c30.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x928c0",
+    "original": {
+      "name": "IllIIIIIllIllIlIIIllllIlIIIIIlIIlIIllllIIIIIllIlllIIllllllIllIIlllIllIIlllllIIIIIllll",
+      "desc": "(J)Ljava/lang/String;",
+      "fnAddr": 269035712,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x928c0",
+      "unwindSize": "0x3d1"
+    },
+    "file": "008-928c0.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x1dbb40",
+    "original": {
+      "name": "openConnection",
+      "desc": "(Ljava/net/URL;)Ljava/net/URLConnection;",
+      "fnAddr": 270383936,
+      "registrarSymbol": "Java_lol_polinexclient_loader_IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x1dbb40",
+      "unwindSize": "0x4ac"
+    },
+    "file": "009-1dbb40.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x157a70",
+    "original": {
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(JI)V",
+      "fnAddr": 269843056,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x157a70",
+      "unwindSize": "0x713"
+    },
+    "file": "010-157a70.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x371040",
+    "original": {
+      "name": "lllIIlIlIllIlIIlIlIIlIIIllIIIIIllllIlllIIlIllIlIlIIIllllIlIllllIIlIlIIIIIIlIIIIllIllI",
+      "desc": "(J)V",
+      "fnAddr": 272044096,
+      "registrarSymbol": "Java_lol_polinexclient_loader_IlIlIllIllIllIIlIlIlllllIllIIlIlllllIllIlllIIllIlIlllllIlIlIlIIllIIIlIIlIllllIIlIllll__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/IlIlIllIllIllIIlIlIlllllIllIIlIlllllIllIlllIIllIlIlllllIlIlIlIIllIIIlIIlIllllIIlIllll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x371040",
+      "unwindSize": "0x7e2"
+    },
+    "file": "011-371040.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x3177a0",
+    "original": {
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(IJ)J",
+      "fnAddr": 271677344,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x3177a0",
+      "unwindSize": "0x882"
+    },
+    "file": "012-3177a0.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x1d0060",
+    "original": {
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(IJ)I",
+      "fnAddr": 270336096,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x1d0060",
+      "unwindSize": "0x8ba"
+    },
+    "file": "013-1d0060.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x296c80",
+    "original": {
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(JLjava/lang/String;)V",
+      "fnAddr": 271150208,
+      "registrarSymbol": "Java_lol_polinexclient_loader_IIIIIllllllllIIIIlllIllIlIllIllllIllIIlIllIIIlllIlllIIlllIlllIlllllIlIlIIlllllIIllllI__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/IIIIIllllllllIIIIlllIllIlIllIllllIllIIlIllIIIlllIlllIIlllIlllIlllllIlIlIIlllllIIllllI",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x296c80",
+      "unwindSize": "0x8d5"
+    },
+    "file": "014-296c80.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x2e4ab0",
+    "original": {
+      "name": "lllIlIIIIIIIlllIllIlIllIlllIlIIlIlllllIIlllllIlllIlIlIlIIIIlIIlllIlIlIIIIlIIIIlIllIIl",
+      "desc": "(J)Ljava/lang/RuntimeException;",
+      "fnAddr": 271469232,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x2e4ab0",
+      "unwindSize": "0x96b"
+    },
+    "file": "015-2e4ab0.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  },
+  {
+    "rva": "0x2f2d00",
+    "original": {
+      "name": "lIlIIIIIIlIlllIIlIlIlllIIIlIlIIIllIlIlIlllIlllIlIllIllllIIIIlIllIllIllIIIlIllIlIIIIIl",
+      "desc": "(J)Ljava/lang/RuntimeException;",
+      "fnAddr": 271527168,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x2f2d00",
+      "unwindSize": "0x96b"
+    },
+    "file": "016-2f2d00.c",
+    "complete": true,
+    "unresolvedJumpTable": false
+  }
+]

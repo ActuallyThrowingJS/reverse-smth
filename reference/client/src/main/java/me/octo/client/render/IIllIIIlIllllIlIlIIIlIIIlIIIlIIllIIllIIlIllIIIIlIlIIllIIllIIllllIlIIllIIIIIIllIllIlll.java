@@ -302,6 +302,21 @@ public final class IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIl
       int var4 = (int)((var1 ^ 138371350523130L) >>> 32);
       int var5 = (int)((var1 ^ 138371350523130L) << 32 >>> 40);
       int var6 = (int)(var10001 << 56 >>> 56);
-      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4, var5, (byte)var6, var0, var3);
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d9550619e7b15e2a(var4, var5, (byte)var6, var0, var3);
+   }
+
+   private static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d9550619e7b15e2a(
+      int var0, int var1, byte var2, PoseStack var3, PoseStack var4
+   ) {
+      short var9 = 10519;
+      var1 = 11981191;
+      var2 = -80;
+      long var5 = ((long)var9 << 32 | (long)var1 << 40 >>> 32 | (long)var2 << 56 >>> 56)
+         ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+      long var7 = var5 ^ 118757458225580L;
+      me.octo.client.render.util.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e76324e9883cd0bc(
+         var7, var3
+      );
+      var3.mulPose((Matrix4fc)var4.last().pose());
    }
 }

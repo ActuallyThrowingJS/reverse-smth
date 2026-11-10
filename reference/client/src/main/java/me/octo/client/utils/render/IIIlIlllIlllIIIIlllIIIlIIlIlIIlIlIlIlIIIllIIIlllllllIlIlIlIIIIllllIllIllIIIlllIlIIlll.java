@@ -508,7 +508,9 @@ public final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIII
       Intrinsics.checkNotNullParameter(
          var4, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"o">(5221, 9222794921179251055L ^ var5)
       );
-      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var0, var4, (char)var7, false, 4, null, (short)var8, var9);
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$9a6346d189e965f6(
+         var0, var4, (char)var7, false, 4, null, (short)var8, var9
+      );
    }
 
    @JvmStatic
@@ -714,7 +716,9 @@ public final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIII
       Intrinsics.checkNotNullParameter(
          var1, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"o">(5221, 9222761461139522823L ^ var2)
       );
-      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var0, var1, var4, (short)var5, 0.0F, 4, (char)var6, null);
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5949f2d5d44ac7c3(
+         var0, var1, var4, (short)var5, 0.0F, 4, (char)var6, null
+      );
    }
 
    @JvmStatic
@@ -889,5 +893,25 @@ public final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIII
             var5
          );
       }
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$9a6346d189e965f6(
+      Entity param0, Color param1, char param2, boolean param3, int param4, Object param5, short param6, int param7
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5949f2d5d44ac7c3(
+      Entity var0, Color var1, int var2, short var3, float var4, int var5, char var6, Object var7
+   ) {
+      byte var12 = 4;
+      long var8 = ((long)var2 << 32 | (long)var3 << 48 >>> 32 | (long)var6 << 48 >>> 48)
+         ^ IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+      long var10 = var8 ^ 74306853156309L;
+      if ((var12 & 4) != 0) {
+         var4 = 2.0F;
+      }
+
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var0, var1, var4, var10);
    }
 }

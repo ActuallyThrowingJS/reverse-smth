@@ -224,4 +224,10 @@ public final class lIIIlIllllIIllIlIlIllIlIllllIIlIIlIIIllllIlIllIIllIIIlllIIIIl
    public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d071de42d3da131a(long param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$65666d8be3f4912a(
+      int argument1Arg, @NotNull BlockPos targetArg, @NotNull Function0 pointSupplierArg, int argument4Arg, char argument5Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

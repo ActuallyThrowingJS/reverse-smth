@@ -70,7 +70,7 @@ public final class IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIl
       long var3 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ 131961605764964L;
       Intrinsics.checkNotNullParameter(titleArg, "title");
       Intrinsics.checkNotNullParameter(descriptionArg, "description");
-      this.push(3000, titleArg, descriptionArg, 1);
+      this.push$recovered$4b388a3127451131(3000, titleArg, descriptionArg, 1);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -79,7 +79,7 @@ public final class IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIl
       long var3 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ 113676928426889L;
       Intrinsics.checkNotNullParameter(titleArg, "title");
       Intrinsics.checkNotNullParameter(descriptionArg, "description");
-      this.push(3000, titleArg, descriptionArg, 2);
+      this.push$recovered$2b3ee2741f9a6111(3000, titleArg, descriptionArg, 2);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -88,7 +88,7 @@ public final class IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIl
       long var3 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ 86431482848627L;
       Intrinsics.checkNotNullParameter(titleArg, "title");
       Intrinsics.checkNotNullParameter(descriptionArg, "description");
-      this.push(3000, titleArg, descriptionArg, 3);
+      this.push$recovered$b55bcf58c9c0079a(3000, titleArg, descriptionArg, 3);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -97,7 +97,7 @@ public final class IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIl
       long var3 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ 15184160553330L;
       Intrinsics.checkNotNullParameter(titleArg, "title");
       Intrinsics.checkNotNullParameter(descriptionArg, "description");
-      this.push(3000, titleArg, descriptionArg, 4);
+      this.push$recovered$0cc3fc514b79e220(3000, titleArg, descriptionArg, 4);
    }
 
    static {
@@ -294,5 +294,29 @@ public final class IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIl
       var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
       Pair[] var3 = new Pair[]{TuplesKt.to("SUCCESS", 1), TuplesKt.to("ERROR", 2), TuplesKt.to("WARNING", 3), TuplesKt.to("INFO", 4)};
       return MapsKt.linkedMapOf(var3);
+   }
+
+   @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
+   @Export
+   public final void push$recovered$4b388a3127451131(int argument1Arg, @NotNull String titleArg, @NotNull String descriptionArg, int argument4Arg) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
+   @Export
+   public final void push$recovered$2b3ee2741f9a6111(int argument1Arg, @NotNull String titleArg, @NotNull String descriptionArg, int argument4Arg) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
+   @Export
+   public final void push$recovered$b55bcf58c9c0079a(int argument1Arg, @NotNull String titleArg, @NotNull String descriptionArg, int argument4Arg) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
+   @Export
+   public final void push$recovered$0cc3fc514b79e220(int argument1Arg, @NotNull String titleArg, @NotNull String descriptionArg, int argument4Arg) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

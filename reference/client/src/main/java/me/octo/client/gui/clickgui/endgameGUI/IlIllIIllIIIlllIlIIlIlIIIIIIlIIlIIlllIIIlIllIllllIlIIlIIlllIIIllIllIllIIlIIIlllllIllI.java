@@ -973,7 +973,7 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       int var4 = (int)((var1 ^ 19077621572140L) << 16 >>> 32);
       int var5 = (int)(var10001 << 48 >>> 48);
       JsonObject var6 = new JsonObject();
-      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((char)var3, var6, var4, (char)var5);
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8193da8eaf2b547f((char)var3, var6, var4, (char)var5);
       return var6;
    }
 
@@ -1013,5 +1013,76 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       long param1, JsonObject param3
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8193da8eaf2b547f(
+      char param1, JsonObject param2, int param3, char param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$8fc9073e7a4798fb(
+      int var1, short var2, short var3
+   ) {
+      short var9 = 29277;
+      var2 = 27436;
+      var3 = 15891;
+      long var4 = ((long)var9 << 32 | (long)var2 << 48 >>> 32 | (long)var3 << 48 >>> 48)
+         ^ lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll;
+      long var10001 = var4 ^ 131586335821141L;
+      int var6 = (int)((var4 ^ 131586335821141L) >>> 32);
+      int var7 = (int)((var4 ^ 131586335821141L) << 32 >>> 56);
+      int var8 = (int)(var10001 << 40 >>> 40);
+      llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = true;
+      IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl.incrementAndGet();
+      this.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$4fdd2c3dbaf3c68c(var6, (byte)var7, var8);
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$51c75e8231a98710(
+      short argument1Arg, int argument2Arg, @NotNull Module moduleArg, short argument4Arg, @NotNull Collection settingsArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final Pair IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$97d431c2dbf2aabd(
+      Module param1, long param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5fcc1d5a6667d7fa(
+      JsonElement param1, short param2, int param3, short param4, Module param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final synchronized void IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$4fdd2c3dbaf3c68c(
+      int var1, byte var2, int var3
+   ) {
+      short var13 = 15223;
+      var2 = 36;
+      var3 = 2942492;
+      long var4 = ((long)var13 << 32 | (long)var2 << 56 >>> 32 | (long)var3 << 40 >>> 40)
+         ^ lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll;
+      long var10001 = var4 ^ 26125188563422L;
+      int var6 = (int)((var4 ^ 26125188563422L) >>> 48);
+      int var7 = (int)((var4 ^ 26125188563422L) << 16 >>> 32);
+      int var8 = (int)(var10001 << 48 >>> 48);
+      long var9 = var4 ^ 19915092920948L;
+
+      try {
+         if (IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll != null) {
+            IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll.cancel(false);
+         }
+      } catch (MatchException var12) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var12);
+      }
+
+      IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = me.octo.client.utils.IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0fbad9a301470d57(
+            llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"b">(1987, 4199157276364790958L ^ var4),
+            IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI::lIIlIIIllIIIllIllIIlIIIIlllIllIIlIlIIlIllIlIllllllllIllIllllIlIIlIIIllIIllIIlllllIllI,
+            var9
+         );
    }
 }

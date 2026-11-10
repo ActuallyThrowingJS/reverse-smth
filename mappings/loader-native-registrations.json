@@ -522,7 +522,9 @@
     "readableOwner": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
     "readableName": "llllIIIllIIlIlllllIlIIIIlIllllllllIllllIlIIllIlllIllIlIIlIIIllIIIlIllIIIIIllllIIllllI",
     "readableDescriptor": "()Ljava/lang/ClassLoader;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "contextClassLoader",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -1047,7 +1049,9 @@
     "readableOwner": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
     "readableName": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
     "readableDescriptor": "(Lnet/fabricmc/loader/api/ModContainer;)Ljava/lang/String;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "modVersion",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -1332,7 +1336,9 @@
     "readableOwner": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
     "readableName": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
     "readableDescriptor": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "halt",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -1407,7 +1413,9 @@
     "readableOwner": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
     "readableName": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII",
     "readableDescriptor": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "halt",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,

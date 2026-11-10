@@ -587,7 +587,7 @@ public final class lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllI
       int var4 = (int)((var1 ^ 52063157525672L) << 32 >>> 48);
       int var5 = (int)(var10001 << 48 >>> 48);
       me.octo.client.gui.clickgui.endgameGUI.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-         .lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(var3, (short)var4, (short)var5);
+         .lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$8fc9073e7a4798fb(var3, (short)var4, (short)var5);
       super.onClose();
    }
 

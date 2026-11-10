@@ -784,6 +784,112 @@ public final class CustomHotbar extends BooleanModule {
       }
    }
 
+   private final Pair IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0875d000230dd480(
+      ItemStack var1, int var2, short var3, short var4
+   ) {
+      short var16 = 27244;
+      var3 = 31256;
+      var4 = -2324;
+      long var5 = ((long)var16 << 32 | (long)var3 << 48 >>> 32 | (long)var4 << 48 >>> 48)
+         ^ lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+      long var10001 = var5 ^ 122596898700605L;
+      int var7 = (int)((var5 ^ 122596898700605L) >>> 32);
+      int var8 = (int)((var5 ^ 122596898700605L) << 32 >>> 48);
+      int var9 = (int)(var10001 << 48 >>> 48);
+      String var10000 = var1.getHoverName().getString();
+      Intrinsics.checkNotNullExpressionValue(var10000, "getString(...)");
+      String var10 = var10000;
+      Color var11 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6d762a789e5477ea(
+         var7, var8, var1, var9, var10
+      );
+      CharSequence var13 = var10;
+      Regex var14 = this.IIlllllIlIIlIllIllllIlIIlIIIlllllIIllIlIlIlIIIIlllIIlllIllIllIIIIIllllIIIIllllIIlIlII;
+      String var15 = "";
+      var13 = var14.replace(var13, var15);
+      var14 = this.IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll;
+      var15 = "";
+      var13 = var14.replace(var13, var15);
+      var14 = new Regex(" {2,}");
+      var15 = " ";
+      String var12 = StringsKt.trim(var14.replace(var13, var15)).toString();
+      return TuplesKt.to(var12, var11);
+   }
+
+   private final Color IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6d762a789e5477ea(
+      int var1, int var2, ItemStack var3, int var4, String var5
+   ) {
+      Color var28;
+      label60: {
+         short var19 = 25361;
+         char var20 = '颵';
+         char var21 = '궄';
+         long var6 = ((long)var19 << 32 | (long)var20 << 48 >>> 32 | (long)var21 << 48 >>> 48)
+            ^ lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+         String[] var8 = IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl();
+         MatchResult var10000 = Regex.find$default(this.llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI, var5, 0, 2, null);
+         if (var10000 != null) {
+            MatchResult var11 = var10000;
+            String[] var27 = var8;
+            boolean var12 = false;
+
+            try {
+               if (var27 == null) {
+                  var28 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                     ((String)var11.getGroupValues().get(1)).charAt(0)
+                  );
+                  if (var28 != null) {
+                     break label60;
+                  }
+               }
+            } catch (MatchException var18) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var18);
+            }
+         }
+
+         TextColor var9 = var3.getHoverName().getStyle().getColor();
+
+         label62: {
+            label41: {
+               try {
+                  var29 = var9;
+                  if (var8 != null) {
+                     break label62;
+                  }
+
+                  if (var9 == null) {
+                     break label41;
+                  }
+               } catch (MatchException var17) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
+               }
+
+               var29 = var9;
+               break label62;
+            }
+
+            for (Object var30 : var3.getHoverName().getSiblings()) {
+               Intrinsics.checkNotNullExpressionValue(var30, "next(...)");
+               Component var10 = (Component)var30;
+               TextColor var23 = var10.getStyle().getColor();
+               if (var23 != null) {
+                  boolean var14 = false;
+                  return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var23.getValue());
+               }
+            }
+
+            return ThemeColors.INSTANCE.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
+         }
+
+         TextColor var24 = var29;
+         boolean var25 = false;
+         return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var24.getValue());
+      }
+
+      Color var13 = var28;
+      boolean var26 = false;
+      return var13;
+   }
+
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
       private llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll() {
       }

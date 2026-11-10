@@ -388,8 +388,23 @@ public final class llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllII
       int var4 = (int)((argument1Arg ^ 21333642990370L) << 16 >>> 32);
       int var5 = (int)(var10001 << 48 >>> 48);
       Intrinsics.checkNotNullParameter(allocatorInUseArg, "allocatorInUse");
-      lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$48e176c2d80db384(
          (short)var3, allocatorInUseArg, var4, (char)var5
       );
+   }
+
+   @JvmStatic
+   @NotNull
+   public static final BufferBuilder IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7b412e604a3ce254(
+      @NotNull RenderPipeline pipelineArg, @NotNull Collection allocatorInUseArg, long argument3Arg
+   ) {
+      argument3Arg = 51532993084505L;
+      argument3Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument3Arg;
+      Intrinsics.checkNotNullParameter(pipelineArg, "pipeline");
+      Intrinsics.checkNotNullParameter(allocatorInUseArg, "allocatorInUse");
+      ByteBufferBuilder var4 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI.borrow();
+      allocatorInUseArg.add(var4);
+      boolean var7 = false;
+      return new BufferBuilder(var4, pipelineArg.getVertexFormatMode(), pipelineArg.getVertexFormat());
    }
 }

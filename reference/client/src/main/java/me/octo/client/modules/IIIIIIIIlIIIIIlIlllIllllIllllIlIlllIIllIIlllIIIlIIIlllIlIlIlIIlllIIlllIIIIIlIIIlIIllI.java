@@ -454,7 +454,9 @@ public class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllII
       int var3 = (int)((var1 ^ 2461588796669L) >>> 32);
       int var4 = (int)((var1 ^ 2461588796669L) << 32 >>> 48);
       int var5 = (int)(var10001 << 48 >>> 48);
-      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, var3, var4, "?", null, 2, null, (char)var5);
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$00d73afb26a4f5d7(
+         this, var3, var4, "?", null, 2, null, (char)var5
+      );
    }
 
    protected final boolean IlIIllIllIIIlIIIllIIllllIllIIlIIIIlllIlllIlIlIIlllllIlllIIllIIIIlllIlIlIIIllIllIIlIlI(long var1) {
@@ -1178,6 +1180,54 @@ public class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllII
             var5
          );
       }
+   }
+
+   static boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$00d73afb26a4f5d7(
+      IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI var0,
+      int var1,
+      int var2,
+      String var3,
+      String var4,
+      int var5,
+      Object var6,
+      char var7
+   ) {
+      byte var15 = 2;
+      long var8 = ((long)var1 << 32 | (long)var2 << 48 >>> 32 | (long)var7 << 48 >>> 48)
+         ^ llllllllllIIIIIlllllIIIlIlIlIlIlIIIlIlIlllIlIllIlIIIlIIIIllIIlIlIIlIIllIllllIIIIllIII;
+      long var10 = var8 ^ 113921023337862L;
+      boolean var12 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         7501507850413491524L, var8
+      );
+
+      try {
+         if (var6 != null) {
+            throw new UnsupportedOperationException(
+               IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl<"f">(15694, 5742062930458457885L ^ var8)
+            );
+         }
+      } catch (UnsupportedOperationException var13) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var13, 7521099670270558227L, var8
+         );
+      }
+
+      try {
+         if (!var12) {
+            return (boolean)var15;
+         }
+
+         if ((var15 & 2) == 0) {
+            return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10, var3, var4);
+         }
+      } catch (UnsupportedOperationException var14) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var14, 7521099670270558227L, var8
+         );
+      }
+
+      var4 = "";
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10, var3, var4);
    }
 
    public static final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {

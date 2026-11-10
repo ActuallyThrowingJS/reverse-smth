@@ -327,7 +327,9 @@
     "readableOwner": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
     "readableName": "IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI",
     "readableDescriptor": "()Ljava/util/List;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "staticGet",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -419,7 +421,9 @@
     "readableOwner": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "stringCallSite",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -631,7 +635,9 @@
     "readableOwner": "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "stringCallSite",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -1503,7 +1509,9 @@
     "readableOwner": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
     "readableName": "IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII",
     "readableDescriptor": "()I",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "intConstant",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -1533,7 +1541,9 @@
     "readableOwner": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
     "readableName": "IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI",
     "readableDescriptor": "()D",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "doubleConstant",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -1548,7 +1558,9 @@
     "readableOwner": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
     "readableName": "IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl",
     "readableDescriptor": "()I",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "intConstant",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -1578,7 +1590,9 @@
     "readableOwner": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
     "readableName": "lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl",
     "readableDescriptor": "()I",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "intConstant",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -2120,7 +2134,9 @@
     "readableOwner": "me/octo/client/utils/security/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "stringCallSite",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -2302,7 +2318,9 @@
     "readableOwner": "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "stringCallSite",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -4539,7 +4557,9 @@
     "readableOwner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/String;)Z",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "setContains",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -4794,7 +4814,9 @@
     "readableOwner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
     "readableName": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl",
     "readableDescriptor": "()Ljava/lang/String;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "staticGet",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -4809,7 +4831,9 @@
     "readableOwner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
     "readableName": "lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll",
     "readableDescriptor": "()V",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "staticClear",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -5321,7 +5345,9 @@
     "readableOwner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
     "readableName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
     "readableDescriptor": "()Ljava/lang/Integer;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "boxedInteger",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -5351,7 +5377,9 @@
     "readableOwner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
     "readableName": "llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl",
     "readableDescriptor": "(Ljava/lang/String;)V",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "staticSet",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -5366,7 +5394,9 @@
     "readableOwner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
     "readableName": "lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl",
     "readableDescriptor": "()Ljava/lang/String;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "staticGet",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -5593,7 +5623,9 @@
     "readableOwner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "halt",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -5638,7 +5670,9 @@
     "readableOwner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
     "readableName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
     "readableDescriptor": "(Lkotlin/Lazy;)Lsun/misc/Unsafe;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "lazyCast",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -5713,7 +5747,9 @@
     "readableOwner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
     "readableName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
     "readableDescriptor": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "halt",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,
@@ -5758,7 +5794,9 @@
     "readableOwner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
     "readableName": "lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll",
     "readableDescriptor": "(Lkotlin/Lazy;)Lsun/misc/Unsafe;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "lazyCast",
+    "bodyEvidence": "evidence/native-round5/recipes.json"
   },
   {
     "className": null,

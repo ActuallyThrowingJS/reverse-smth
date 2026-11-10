@@ -63,7 +63,7 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       long var3 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ 1355076429321L;
       Intrinsics.checkNotNullParameter(nameArg, "name");
       Intrinsics.checkNotNullParameter(whenFnArg, "whenFn");
-      this.useNative(nameArg, whenFnArg, false);
+      this.useNative$recovered$7a54da75a68fd870(nameArg, whenFnArg, false);
    }
 
    @Export
@@ -264,6 +264,24 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
    private final me.octo.client.modules.helpers.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2a88785286c26e8f(
       String param1, long param2
    ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final Value IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5f0e8baaab7c71c0(
+      int param1, Value param2, byte param3, String param4, int param5, String param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final Value IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$51feb26a546e0232(
+      Value param1, int param2, String param3, short param4, char param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @Export
+   @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
+   public final void useNative$recovered$7a54da75a68fd870(@NotNull String nameArg, @NotNull Value whenFnArg, boolean argument3Arg) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 

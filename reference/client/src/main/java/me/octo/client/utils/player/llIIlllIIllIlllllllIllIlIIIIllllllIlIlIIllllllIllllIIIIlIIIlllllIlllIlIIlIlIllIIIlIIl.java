@@ -1550,6 +1550,56 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
+   @NotNull
+   public final String llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$5150f0523e42ab31(
+      char var1, @NotNull ItemStack var2, int var3, short var4
+   ) {
+      byte var9 = 0;
+      var3 = 1311133569;
+      var4 = 13917;
+      long var5 = ((long)var9 << 48 | (long)var3 << 32 >>> 16 | (long)var4 << 48 >>> 48)
+         ^ IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl;
+      long var7 = var5 ^ 47239584848565L;
+      Intrinsics.checkNotNullParameter(var2, "<this>");
+      String var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$68dc604c0f772a6b(var2, var7)
+         .getStringOr("id", "");
+      Intrinsics.checkNotNullExpressionValue(var10000, "getStringOr(...)");
+      return var10000;
+   }
+
+   @NotNull
+   public final String IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$678867fdf499d6e0(
+      @NotNull ItemStack var1, int var2, byte var3, int var4
+   ) {
+      short var9 = 6941;
+      var3 = 94;
+      var4 = 12394520;
+      long var5 = ((long)var9 << 32 | (long)var3 << 56 >>> 32 | (long)var4 << 40 >>> 40)
+         ^ IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl;
+      long var7 = var5 ^ 140521726053616L;
+      Intrinsics.checkNotNullParameter(var1, "<this>");
+      String var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$68dc604c0f772a6b(var1, var7)
+         .getStringOr("uuid", "");
+      Intrinsics.checkNotNullExpressionValue(var10000, "getStringOr(...)");
+      return var10000;
+   }
+
+   @Nullable
+   public final llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll IIlllIlIlIllIIlIlIlIlllIllIIllllIIllllllIlllIlIlIIllIlIIllllllIlIIIlllIIIIlllIIllIlII$recovered$05f5a92d2ab84c77(
+      short var1, short var2, int var3
+   ) {
+      byte var9 = 0;
+      var2 = 7372;
+      var3 = -207232630;
+      long var4 = ((long)var9 << 48 | (long)var2 << 48 >>> 16 | (long)var3 << 32 >>> 32)
+         ^ IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl;
+      long var6 = var4 ^ 80458088947777L;
+      String[] var8 = new String[]{"Aspect of the Void", "Aspect of the End"};
+      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$6867e98997e1f5fe(
+         CollectionsKt.listOf(var8), var6
+      );
+   }
+
    public static enum IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {
       COMMON,
       UNCOMMON,

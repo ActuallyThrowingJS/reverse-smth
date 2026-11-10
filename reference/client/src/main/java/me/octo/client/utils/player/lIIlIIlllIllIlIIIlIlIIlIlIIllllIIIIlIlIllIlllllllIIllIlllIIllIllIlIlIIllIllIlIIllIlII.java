@@ -634,7 +634,9 @@ public final class lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIll
          var3 = 0.15F;
       }
 
-      var0.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI((char)var8, var1, var9, var2, (char)var10, var3);
+      var0.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$24ddce4e0d43f3fb(
+         (char)var8, var1, var9, var2, (char)var10, var3
+      );
    }
 
    private final void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$7ff565ba3defcd46(
@@ -725,7 +727,7 @@ public final class lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIll
       }
 
       float var11 = var20;
-      float var12 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(
+      float var12 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$b75150d23077ba90(
          var9, var3, (char)var4, var11, (char)var5, var10, var8
       );
       return IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var9, var11, var10, var12);
@@ -805,7 +807,7 @@ public final class lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIll
       int var5 = (int)((var2 ^ 111200290527656L) << 16 >>> 32);
       int var6 = (int)(var10001 << 48 >>> 48);
       return lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(
+         .IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$b83f09be701e7ce0(
             Mth.wrapDegrees(var0) - Mth.wrapDegrees(var1), (char)var4, var5, (char)var6
          );
    }
@@ -818,6 +820,18 @@ public final class lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIll
 
    public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6d1047ef661a4094(
       long param1, float param3, float param4, float param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$24ddce4e0d43f3fb(
+      char param1, float param2, int param3, float param4, char param5, float param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private static final float IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$b75150d23077ba90(
+      float param0, int param1, char param2, float param3, char param4, float param5, float param6
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }

@@ -461,4 +461,47 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
          );
       }
    }
+
+   @NotNull
+   public final llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a5afc6d59056dd7c(
+      long var1, int var3, int var4
+   ) {
+      var1 = 101930434597688L;
+      var1 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII ^ var1;
+      int[] var10000 = BlockUtils.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+      Iterable var6 = this.tiles;
+      int[] var5 = var10000;
+      boolean var7 = false;
+      Collection var9 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var6, 10));
+      boolean var10 = false;
+      Iterator var11 = var6.iterator();
+
+      while (true) {
+         if (var11.hasNext()) {
+            Object var12 = var11.next();
+            var19 = var9;
+            if (var5 != null) {
+               break;
+            }
+
+            llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII var13 = (llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII)var12;
+            boolean var14 = false;
+            var9.add(
+               new llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII(
+                  var13.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI() + var3,
+                  var13.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI() + var4
+               )
+            );
+            if (var5 == null) {
+               continue;
+            }
+         }
+
+         var19 = var9;
+         break;
+      }
+
+      List var16 = (List)var19;
+      return new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(var16);
+   }
 }

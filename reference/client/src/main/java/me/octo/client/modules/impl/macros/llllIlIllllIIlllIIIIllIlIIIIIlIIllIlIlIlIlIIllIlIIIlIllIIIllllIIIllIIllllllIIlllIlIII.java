@@ -689,20 +689,56 @@ public final class llllIlIllllIIlllIIIIllIlIIIIIlIIllIlIlIlIlIIllIlIIIlIllIIIlll
       Iterable var4 = this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
       boolean var5 = false;
       int[] var10000 = IlllIlllllIIIlIIllIIIlIlIIlIIIlIlIIIlIllIIIIllllIIIIlIllIllllIlllIlIIlIllIIIlIIIlIlIl.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
-      var var7 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var4, 10));
+      Collection var7 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var4, 10));
       boolean var8 = false;
       int[] var3 = var10000;
+      Iterator var9 = var4.iterator();
 
-      for (Object var10 : var4) {
-         llllIlIllllIIlllIIIIllIlIIIIIlIIllIlIlIlIlIIllIlIIIlIllIIIllllIIIllIIllllllIIlllIlIII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = (llllIlIllllIIlllIIIIllIlIIIIIlIIllIlIlIlIlIIllIlIIIlIllIIIllllIIIllIIllllllIIlllIlIII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var10;
-         boolean var12 = false;
-         var7.add(var11.getPos());
-         if (var3 != null) {
-            break;
+      while (true) {
+         if (var9.hasNext()) {
+            Object var10 = var9.next();
+            var16 = var7;
+            if (var3 != null) {
+               break;
+            }
+
+            llllIlIllllIIlllIIIIllIlIIIIIlIIllIlIlIlIlIIllIlIIIlIllIIIllllIIIllIIllllllIIlllIlIII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = (llllIlIllllIIlllIIIIllIlIIIIIlIIllIlIlIlIlIIllIlIIIlIllIIIllllIIIllIIllllllIIlllIlIII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var10;
+            boolean var12 = false;
+            var7.add(var11.getPos());
+            if (var3 == null) {
+               continue;
+            }
          }
+
+         var16 = var7;
+         break;
       }
 
-      return var7;
+      return (List)var16;
+   }
+
+   public final int IIIlllllIIIlIIllIllllIIllIIIlllllIlIlIllIIllIIllIlIIIlIlIIllIlIIlllIIIIlllIlIlllllllI$recovered$012be87c678e55d3(
+      short param1, char param2, int param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6217c19dbbfb407c(
+      int var0, llllIlIllllIIlllIIIIllIlIIIIIlIIllIlIlIlIlIIllIlIIIlIllIIIllllIIIllIIllllllIIlllIlIII var1, Vec3 var2, short var3, short var4
+   ) {
+      short var9 = 28292;
+      var3 = -26194;
+      var4 = -1049;
+      long var5 = ((long)var9 << 32 | (long)var3 << 48 >>> 32 | (long)var4 << 48 >>> 48)
+         ^ llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI;
+      long var7 = var5 ^ 72335543730522L;
+      return var1.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5fac9fccf71c8f8f(var7, var2);
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5fac9fccf71c8f8f(
+      long param1, Vec3 param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

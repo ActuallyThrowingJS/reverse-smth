@@ -457,7 +457,7 @@ public final class IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIl
       int var8 = (int)(var10001 << 48 >>> 48);
       Intrinsics.checkNotNullParameter(targetArg, "target");
       lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI var9 = lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var6, (char)var7, targetArg, var8);
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$be72b30755de3cf7(var6, (char)var7, targetArg, var8);
       IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
          (short)var3,
          var9.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(),
@@ -483,6 +483,44 @@ public final class IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIl
          (short)var4, var5, var6, callbackArg
       );
       return this;
+   }
+
+   @JvmStatic
+   @NotNull
+   public static final IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$69cdd4a634410c8d(
+      int argument1Arg, @NotNull Vec3 targetArg, short argument3Arg, int argument4Arg
+   ) {
+      short var8 = 410;
+      argument3Arg = 3824;
+      short var10 = 4717;
+      long var4 = ((long)var8 << 32 | (long)argument3Arg << 48 >>> 32 | (long)var10 << 48 >>> 48)
+         ^ lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+      long var6 = var4 ^ 15749653472189L;
+      Intrinsics.checkNotNullParameter(targetArg, "target");
+      IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+         targetArg, var6
+      );
+      return IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI;
+   }
+
+   @JvmStatic
+   @NotNull
+   public static final IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4401c822e60cb0f6(
+      int var0, float var1, float var2, short var3, short var4
+   ) {
+      short var10 = 6761;
+      var3 = -10341;
+      var4 = 8448;
+      long var5 = ((long)var10 << 32 | (long)var3 << 48 >>> 32 | (long)var4 << 48 >>> 48)
+         ^ lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+      long var10001 = var5 ^ 57164134517091L;
+      int var7 = (int)((var5 ^ 57164134517091L) >>> 48);
+      int var8 = (int)((var5 ^ 57164134517091L) << 16 >>> 48);
+      int var9 = (int)(var10001 << 32 >>> 32);
+      IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         (short)var7, var1, var2, (char)var8, var9
+      );
+      return IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI;
    }
 
    private static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll

@@ -546,7 +546,9 @@ public final class lIIllllIIlIIIIllIlIIIIIllIllllllIIIlIlIlIlIllIIlIlIllIlIIIIII
             try {
                PolinexAccessor.INSTANCE
                   .eventBus
-                  .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8, (short)var3, (short)var4, var5);
+                  .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$69d9afbece88b3cf(
+                     var8, (short)var3, (short)var4, var5
+                  );
                if (var6 == null) {
                   break;
                }
@@ -567,6 +569,39 @@ public final class lIIllllIIlIIIIllIlIIIIIllIllllllIIIlIlIlIlIllIIlIlIllIlIIIIII
 
    public final void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$673616749b19e633(
       boolean param1, long param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void IllIIlIIlIlIIlIllIllIIIllIIIllIlIIllIlllIlllIIIlIlIlIIlIIIllIlIlIIIIlIllIIIlIIIlIIlII$recovered$ca43222e7891ff2d(
+      char var1, char var2, int var3
+   ) {
+      byte var13 = 0;
+      short var14 = 26082;
+      var3 = -1630164214;
+      long var4 = ((long)var13 << 48 | (long)var14 << 48 >>> 16 | (long)var3 << 32 >>> 32)
+         ^ IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl;
+      long var6 = var4 ^ 83087046939433L;
+      long var8 = var4 ^ 87122250600268L;
+      me.octo.client.gui.clickgui.modules.impl.llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII var10 = me.octo.client.modules.manager.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$bb8ca6f225cb4d47(
+            var8,
+            me.octo.client.modules.manager.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.FAILSAFE
+         );
+
+      try {
+         if (var10 != null) {
+            me.octo.client.utils.player.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$8f5466ae1bb10fab(
+               "DISABLING CURRENT MACRO", var6
+            );
+         }
+      } catch (MatchException var12) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var12);
+      }
+   }
+
+   public final void IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$2f460e21e856652d(
+      @NotNull String reasonArg, byte argument2Arg, int argument3Arg, int argument4Arg
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }

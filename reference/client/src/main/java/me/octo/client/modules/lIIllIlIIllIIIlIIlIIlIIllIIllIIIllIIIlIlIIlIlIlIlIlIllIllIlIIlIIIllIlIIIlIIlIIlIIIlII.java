@@ -1664,7 +1664,7 @@ public class lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIll
             boolean var17 = false;
             var12.add(
                lIllIllIIlIIlllIIIIIlIIlIlIIIIlIIlIllIIIIIIIIIlIIIIlIIlIlllIIIIIlIIIlIIIIIllIllIlIIIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-                  .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                  .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0b8d0f6f313b7632(
                      var16.getPos(),
                      (short)var5,
                      (short)var6,
@@ -1732,6 +1732,78 @@ public class lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIll
       long argument1Arg, @NotNull File targetFileArg, @NotNull ArrayList routePointsArg, boolean argument4Arg
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final ArrayList IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e1ccf537707cd2ae(
+      int param1, int param2, int param3, byte param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$bc186c4b5c1dc2e4(
+      lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII var0,
+      me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var1,
+      char var2,
+      Integer var3,
+      BlockPos var4,
+      int var5,
+      int var6,
+      char var7,
+      Object var8
+   ) {
+      byte var17 = 4;
+      long var9 = ((long)var2 << 48 | (long)var6 << 32 >>> 16 | (long)var7 << 48 >>> 48)
+         ^ lIlllllIIIIlllllIlIIIIIIIllllIlIllIllIIlIIIIIIIIIlIlIIIlIIlIlIIIlIlllIllIIllIllIllllI;
+      long var10001 = var9 ^ 62259307254055L;
+      int var11 = (int)((var9 ^ 62259307254055L) >>> 32);
+      int var12 = (int)((var9 ^ 62259307254055L) << 32 >>> 48);
+      int var13 = (int)(var10001 << 48 >>> 48);
+      int var14 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         -7468388183519267266L, var9
+      );
+
+      try {
+         if (var8 != null) {
+            throw new UnsupportedOperationException(
+               IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"r">(24867, 5734821203761559281L ^ var9)
+            );
+         }
+      } catch (NoWhenBranchMatchedException var15) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var15, -7404901224741964718L, var9
+         );
+      }
+
+      int var10000;
+      label32: {
+         label31: {
+            try {
+               var10000 = var17;
+               if (var14 != 0) {
+                  break label32;
+               }
+
+               if ((var17 & 2) == 0) {
+                  break label31;
+               }
+            } catch (NoWhenBranchMatchedException var16) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var16, -7404901224741964718L, var9
+               );
+            }
+
+            var3 = null;
+         }
+
+         var10000 = var17 & 4;
+      }
+
+      if (var10000 != 0) {
+         var4 = null;
+      }
+
+      var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11, var1, (short)var12, (short)var13, var3, var4);
    }
 
    public static enum IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI {

@@ -312,4 +312,18 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
       String var9 = "";
       return var8.replace(var7, var9);
    }
+
+   public final void IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$b0cf692eb4252967(
+      char var1, int var2, int var3
+   ) {
+      byte var8 = 0;
+      var2 = 808186666;
+      char var10 = '敏';
+      long var4 = ((long)var8 << 48 | (long)var2 << 32 >>> 16 | (long)var10 << 48 >>> 48)
+         ^ IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI;
+      long var6 = var4 ^ 138776654003597L;
+      me.octo.client.utils.player.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$8f5466ae1bb10fab(
+         "§6Error Determining active slayer type, please report.", var6
+      );
+   }
 }

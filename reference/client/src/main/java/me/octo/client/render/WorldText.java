@@ -430,6 +430,135 @@ public final class WorldText {
       }
    }
 
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$854410c2997a5b64(
+      Vec3 var0, String var1, float var2, Color var3, Font var4, boolean var5, long var6, int var8, Object var9
+   ) {
+      var6 = 128226724373794L;
+      var6 = lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl ^ var6;
+      long var10 = var6 ^ 15776242126767L;
+      String var12 = WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      int var10000;
+      byte var10001;
+      label72: {
+         label71: {
+            int var17;
+            byte var18;
+            label70: {
+               try {
+                  var18 = 4;
+                  var17 = var8;
+                  if (var12 != null) {
+                     break label70;
+                  }
+
+                  if ((var8 & var18) == 0) {
+                     break label71;
+                  }
+               } catch (MatchException var25) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var25);
+               }
+
+               var2 = 14.0F;
+               break label71;
+            }
+
+            var10000 = var17;
+            var10001 = var18;
+            break label72;
+         }
+
+         var10000 = var8;
+         var10001 = 8;
+      }
+
+      label61: {
+         int var19;
+         byte var20;
+         label60: {
+            label59: {
+               try {
+                  var20 = var10001;
+                  var19 = var10000;
+                  if (var12 != null) {
+                     break label60;
+                  }
+
+                  if ((var19 & var20) == 0) {
+                     break label59;
+                  }
+               } catch (MatchException var24) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var24);
+               }
+
+               var3 = Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
+            }
+
+            try {
+               var10000 = var8;
+               var10001 = 16;
+               break label61;
+            } catch (MatchException var22) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var22);
+            }
+         }
+
+         var10000 = var19;
+         var10001 = var20;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var4 = NVGRenderer.defaultFont;
+      }
+
+      label49: {
+         label48: {
+            int var21;
+            label76: {
+               try {
+                  var21 = var8;
+                  if (var12 != null) {
+                     break label76;
+                  }
+
+                  var10000 = var8 & 32;
+               } catch (MatchException var23) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var23);
+               }
+
+               if (var10000 == 0) {
+                  break label49;
+               }
+
+               var10000 = 1;
+               break label48;
+            }
+
+            var10000 = var21;
+         }
+
+         var5 = var10000;
+      }
+
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2045231feac89716(
+         var0, var1, var10, var2, var3, var4, (boolean)var5
+      );
+   }
+
+   @JvmStatic
+   @JvmOverloads
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2045231feac89716(
+      @NotNull Vec3 posArg,
+      @NotNull String textArg,
+      long argument3Arg,
+      float argument4Arg,
+      @NotNull Color colorArg,
+      @NotNull Font fontArg,
+      boolean argument7Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
    private static final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI {
       private final float IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
       private final float lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;

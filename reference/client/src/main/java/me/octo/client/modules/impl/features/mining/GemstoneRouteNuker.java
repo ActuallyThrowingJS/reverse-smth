@@ -930,4 +930,22 @@ public final class GemstoneRouteNuker extends BooleanModule {
    private final BlockPos IlIlIIIIllllIlIIlIlllllllllIlllIllIlIIIIllIIlIIlIlIlIIlllIIlIlllllIIIlIIlIIlIIlIIlIII$recovered$ae93354c15ba3558(long param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   private final boolean IlIllllIIlIllIIllIIlIlIIIlllIlIIlIIIIIIlllIIIlIllIlIllIIIIIlllIIIlIllIlIIlIIllllIIIlI$recovered$d930d4c21b442f96(
+      int param1, int param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$8990d0f54ef79ff0(
+      short param1, char param2, int param3, BlockPos param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final BlockPos IllIIlIIlIlIIlIllIllIIIllIIIllIlIIllIlllIlllIIIlIlIlIIlIIIllIlIlIIIIlIllIIIlIIIlIIlII$recovered$124ed5e7ab499f8e(
+      char param1, int param2, short param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

@@ -704,7 +704,7 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
       int var7 = (int)((argument4Arg ^ 57141997746862L) << 32 >>> 48);
       int var8 = (int)(var10001 << 48 >>> 48);
       Intrinsics.checkNotNullParameter(vecArg, "vec");
-      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d8c5f7ac248450b6(
          vecArg.x, vecArg.y, var6, vecArg.z, argument2Arg, argument3Arg, (char)var7, (char)var8
       );
    }
@@ -723,9 +723,21 @@ public final class llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIl
       int var8 = (int)(var10001 << 48 >>> 48);
       Intrinsics.checkNotNullParameter(rotationArg, "rotation");
       lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = rotationArg;
-      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d8c5f7ac248450b6(
          999.0, 999.0, var6, 999.0, argument3Arg, argument2Arg, (char)var7, (char)var8
       );
+   }
+
+   private final lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$445f00869560c3c8(
+      char param1, short param2, float param3, int param4, float param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d8c5f7ac248450b6(
+      double param1, double param3, int param5, double param6, boolean param8, float param9, char param10, char param11
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    public static final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll

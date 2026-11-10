@@ -461,5 +461,48 @@ public enum IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIl
 
          return new String(var3, 0, var1);
       }
+
+      @NotNull
+      public final List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$79afd5e873c355fe(
+         @NotNull String percentageArg, long argument2Arg
+      ) {
+         argument2Arg = 86949606851301L;
+         argument2Arg = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ argument2Arg;
+         Intrinsics.checkNotNullParameter(percentageArg, "percentage");
+         Iterable var5 = (Iterable)IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII();
+         boolean var6 = false;
+         int[] var10000 = BlockUtils.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+         var var8 = new ArrayList();
+         int[] var4 = var10000;
+         boolean var9 = false;
+
+         for (Object var11 : var5) {
+            var10000 = var4;
+            IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var12 = (IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI)var11;
+            boolean var13 = false;
+
+            label25: {
+               try {
+                  if (var10000 != null) {
+                     break label25;
+                  }
+
+                  if (!Intrinsics.areEqual(var12.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(), percentageArg)) {
+                     continue;
+                  }
+               } catch (MatchException var15) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var15);
+               }
+
+               var8.add(var11);
+            }
+
+            if (var4 != null) {
+               break;
+            }
+         }
+
+         return CollectionsKt.toMutableList(var8);
+      }
    }
 }

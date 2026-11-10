@@ -16,6 +16,7 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
 import javax.crypto.spec.IvParameterSpec;
 import kotlin.jvm.internal.Intrinsics;
+import me.octo.client.modules.impl.macros.lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -276,5 +277,111 @@ public final class IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIl
             var5
          );
       }
+   }
+
+   public static IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$acc21f0cd231c436(
+      IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII var0,
+      short var1,
+      int var2,
+      char var3,
+      List var4,
+      String var5,
+      IllllIIIIIlllIIllIIIIIllIlIllllIIIIllIlIlIIllIIIlllllIIIIIIIIlIIlIlIIIIIlIllIIIlIlIlI var6,
+      IIIIIIIIIIllllIlIIllIlllllIIIlIlIlIllllIIIIllIlIIlllIlllllIlIIIIlIIIIIllllIIIlIlIlllI var7,
+      int var8,
+      Object var9
+   ) {
+      byte var22 = 13;
+      long var10 = ((long)var1 << 48 | (long)var2 << 32 >>> 16 | (long)var3 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var12 = var10 ^ 12084912593344L;
+      int var14 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         7120681392295524596L, var10
+      );
+
+      byte var10000;
+      byte var10001;
+      label55: {
+         label54: {
+            byte var15;
+            byte var16;
+            label53: {
+               try {
+                  var16 = 1;
+                  var15 = var22;
+                  if (var14 == 0) {
+                     break label53;
+                  }
+
+                  if ((var22 & var16) == 0) {
+                     break label54;
+                  }
+               } catch (MatchException var21) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var21, 7167806827378187238L, var10
+                  );
+               }
+
+               var4 = var0.waypoints;
+               break label54;
+            }
+
+            var10000 = var15;
+            var10001 = var16;
+            break label55;
+         }
+
+         var10000 = var22;
+         var10001 = 2;
+      }
+
+      label44: {
+         byte var17;
+         byte var18;
+         label43: {
+            label42: {
+               try {
+                  var18 = var10001;
+                  var17 = var10000;
+                  if (var14 == 0) {
+                     break label43;
+                  }
+
+                  if ((var17 & var18) == 0) {
+                     break label42;
+                  }
+               } catch (MatchException var20) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var20, 7167806827378187238L, var10
+                  );
+               }
+
+               var5 = var0.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+            }
+
+            try {
+               var10000 = var22;
+               var10001 = 4;
+               break label44;
+            } catch (MatchException var19) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var19, 7167806827378187238L, var10
+               );
+            }
+         }
+
+         var10000 = var17;
+         var10001 = var18;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var6 = var0.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+      }
+
+      if ((var22 & 8) != 0) {
+         var7 = var0.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4, var5, var12, var6, var7);
    }
 }

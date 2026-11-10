@@ -1341,4 +1341,27 @@ public final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIII
       var5.setPriority(10);
       var5.start();
    }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ad99c0693006cc86(
+      @NotNull String vendorArg,
+      int argument2Arg,
+      @NotNull String rendererArg,
+      @NotNull String versionArg,
+      int argument5Arg,
+      short argument6Arg,
+      short argument7Arg
+   ) {
+      short var10 = 3975;
+      argument6Arg = -17727;
+      argument7Arg = -2238;
+      long var8 = ((long)var10 << 32 | (long)argument6Arg << 48 >>> 32 | (long)argument7Arg << 48 >>> 48)
+         ^ IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl;
+      Intrinsics.checkNotNullParameter(vendorArg, "vendor");
+      Intrinsics.checkNotNullParameter(rendererArg, "renderer");
+      Intrinsics.checkNotNullParameter(versionArg, "version");
+      lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = vendorArg;
+      lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = rendererArg;
+      lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = versionArg;
+      lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = argument5Arg;
+   }
 }

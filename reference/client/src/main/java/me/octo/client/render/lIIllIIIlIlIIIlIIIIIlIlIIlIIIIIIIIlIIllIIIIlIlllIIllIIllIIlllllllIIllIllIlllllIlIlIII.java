@@ -475,7 +475,9 @@ public final class lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlll
       int var3 = (int)((var1 ^ 135923741854757L) >>> 32);
       int var4 = (int)((var1 ^ 135923741854757L) << 32 >>> 48);
       int var5 = (int)(var10001 << 48 >>> 48);
-      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3, (char)var4, var0, null, 2, var5, null);
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5e683719b86471ba(
+         var3, (char)var4, var0, null, 2, var5, null
+      );
    }
 
    @JvmOverloads
@@ -486,7 +488,9 @@ public final class lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlll
       int var2 = (int)((var0 ^ 51219607531821L) >>> 32);
       int var3 = (int)((var0 ^ 51219607531821L) << 32 >>> 48);
       int var4 = (int)(var10001 << 48 >>> 48);
-      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var2, (char)var3, null, null, 3, var4, null);
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$969eee593d85b0de(
+         var2, (char)var3, null, null, 3, var4, null
+      );
    }
 
    @JvmOverloads
@@ -954,6 +958,339 @@ public final class lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlll
       argument1Arg.setIndexBuffer(indexSliceArg.buffer(), indexTypeArg);
       argument1Arg.drawIndexed(
          (int)(vertexSliceArg.offset() / vertexFormatArg.getVertexSize()), (int)(indexSliceArg.offset() / indexTypeArg.bytes), argument7Arg, 1
+      );
+   }
+
+   public static GpuBufferSlice IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$969eee593d85b0de(
+      int var0,
+      char var1,
+      Matrix4fc var2,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var3,
+      int var4,
+      int var5,
+      Object var6
+   ) {
+      byte var14 = 3;
+      long var7 = ((long)var0 << 32 | (long)var1 << 48 >>> 32 | (long)var5 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var10001 = var7 ^ 50464051112332L;
+      int var9 = (int)((var7 ^ 50464051112332L) >>> 48);
+      int var10 = (int)((var7 ^ 50464051112332L) << 16 >>> 32);
+      int var11 = (int)(var10001 << 48 >>> 48);
+      String var12 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         7810920739825622011L, var7
+      );
+
+      byte var10000;
+      label25: {
+         label24: {
+            try {
+               var10000 = var14;
+               var15 = 1;
+               if (var12 != null) {
+                  break label25;
+               }
+
+               if ((var14 & 1) == 0) {
+                  break label24;
+               }
+            } catch (MatchException var13) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var13, 8006788099448114558L, var7
+               );
+            }
+
+            var2 = null;
+         }
+
+         var10000 = var14;
+         var15 = 2;
+      }
+
+      if ((var10000 & var15) != 0) {
+         var3 = me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      }
+
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((char)var9, var10, var2, (short)var11, var3);
+   }
+
+   public static GpuBufferSlice IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f77d12647c0b4234(
+      int var0,
+      char var1,
+      Matrix4fc var2,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var3,
+      int var4,
+      int var5,
+      Object var6
+   ) {
+      short var15 = 11474;
+      short var16 = 2790;
+      byte var17 = 3;
+      char var18 = '쾪';
+      long var7 = ((long)var15 << 32 | (long)var16 << 48 >>> 32 | (long)var18 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var10001 = var7 ^ 50464051112332L;
+      int var9 = (int)((var7 ^ 50464051112332L) >>> 48);
+      int var10 = (int)((var7 ^ 50464051112332L) << 16 >>> 32);
+      int var11 = (int)(var10001 << 48 >>> 48);
+      String var12 = WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      byte var10000;
+      label25: {
+         label24: {
+            try {
+               var10000 = var17;
+               var19 = 1;
+               if (var12 != null) {
+                  break label25;
+               }
+
+               if ((var17 & 1) == 0) {
+                  break label24;
+               }
+            } catch (MatchException var14) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var14);
+            }
+
+            var2 = null;
+         }
+
+         var10000 = var17;
+         var19 = 2;
+      }
+
+      if ((var10000 & var19) != 0) {
+         var3 = me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      }
+
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8c8d308bbe95adfc(
+         (char)var9, var10, var2, (short)var11, var3
+      );
+   }
+
+   public static GpuBufferSlice IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5e683719b86471ba(
+      int var0,
+      char var1,
+      Matrix4fc var2,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var3,
+      int var4,
+      int var5,
+      Object var6
+   ) {
+      byte var14 = 2;
+      long var7 = ((long)var0 << 32 | (long)var1 << 48 >>> 32 | (long)var5 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var10001 = var7 ^ 50464051112332L;
+      int var9 = (int)((var7 ^ 50464051112332L) >>> 48);
+      int var10 = (int)((var7 ^ 50464051112332L) << 16 >>> 32);
+      int var11 = (int)(var10001 << 48 >>> 48);
+      String var12 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         7810920739825622011L, var7
+      );
+
+      byte var10000;
+      label25: {
+         label24: {
+            try {
+               var10000 = var14;
+               var15 = 1;
+               if (var12 != null) {
+                  break label25;
+               }
+
+               if ((var14 & 1) == 0) {
+                  break label24;
+               }
+            } catch (MatchException var13) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var13, 8006788099448114558L, var7
+               );
+            }
+
+            var2 = null;
+         }
+
+         var10000 = var14;
+         var15 = 2;
+      }
+
+      if ((var10000 & var15) != 0) {
+         var3 = me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      }
+
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((char)var9, var10, var2, (short)var11, var3);
+   }
+
+   @JvmOverloads
+   @NotNull
+   public static final GpuBufferSlice IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8c8d308bbe95adfc(
+      char argument1Arg,
+      int argument2Arg,
+      @Nullable Matrix4fc argument3Arg,
+      short argument4Arg,
+      @NotNull me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll colorModulatorArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static GpuBufferSlice IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$747cc8509aeaf444(
+      int var0,
+      char var1,
+      Matrix4fc var2,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var3,
+      int var4,
+      int var5,
+      Object var6
+   ) {
+      byte var14 = 1;
+      long var7 = ((long)var0 << 32 | (long)var1 << 48 >>> 32 | (long)var5 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var10001 = var7 ^ 50464051112332L;
+      int var9 = (int)((var7 ^ 50464051112332L) >>> 48);
+      int var10 = (int)((var7 ^ 50464051112332L) << 16 >>> 32);
+      int var11 = (int)(var10001 << 48 >>> 48);
+      String var12 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         7810920739825622011L, var7
+      );
+
+      byte var10000;
+      label25: {
+         label24: {
+            try {
+               var10000 = var14;
+               var15 = 1;
+               if (var12 != null) {
+                  break label25;
+               }
+
+               if ((var14 & 1) == 0) {
+                  break label24;
+               }
+            } catch (MatchException var13) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var13, 8006788099448114558L, var7
+               );
+            }
+
+            var2 = null;
+         }
+
+         var10000 = var14;
+         var15 = 2;
+      }
+
+      if ((var10000 & var15) != 0) {
+         var3 = me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      }
+
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((char)var9, var10, var2, (short)var11, var3);
+   }
+
+   public static GpuBufferSlice IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c9f5afb49a4e1c98(
+      int var0,
+      char var1,
+      Matrix4fc var2,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var3,
+      int var4,
+      int var5,
+      Object var6
+   ) {
+      short var15 = 11474;
+      short var16 = 2790;
+      byte var17 = 2;
+      char var18 = '쾪';
+      long var7 = ((long)var15 << 32 | (long)var16 << 48 >>> 32 | (long)var18 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var10001 = var7 ^ 50464051112332L;
+      int var9 = (int)((var7 ^ 50464051112332L) >>> 48);
+      int var10 = (int)((var7 ^ 50464051112332L) << 16 >>> 32);
+      int var11 = (int)(var10001 << 48 >>> 48);
+      String var12 = WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      byte var10000;
+      label25: {
+         label24: {
+            try {
+               var10000 = var17;
+               var19 = 1;
+               if (var12 != null) {
+                  break label25;
+               }
+
+               if ((var17 & 1) == 0) {
+                  break label24;
+               }
+            } catch (MatchException var14) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var14);
+            }
+
+            var2 = null;
+         }
+
+         var10000 = var17;
+         var19 = 2;
+      }
+
+      if ((var10000 & var19) != 0) {
+         var3 = me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      }
+
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8c8d308bbe95adfc(
+         (char)var9, var10, var2, (short)var11, var3
+      );
+   }
+
+   public static GpuBufferSlice IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$72256ef4eb7005b7(
+      int var0,
+      char var1,
+      Matrix4fc var2,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var3,
+      int var4,
+      int var5,
+      Object var6
+   ) {
+      short var15 = 11474;
+      short var16 = 2790;
+      byte var17 = 1;
+      char var18 = '쾪';
+      long var7 = ((long)var15 << 32 | (long)var16 << 48 >>> 32 | (long)var18 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var10001 = var7 ^ 50464051112332L;
+      int var9 = (int)((var7 ^ 50464051112332L) >>> 48);
+      int var10 = (int)((var7 ^ 50464051112332L) << 16 >>> 32);
+      int var11 = (int)(var10001 << 48 >>> 48);
+      String var12 = WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      byte var10000;
+      label25: {
+         label24: {
+            try {
+               var10000 = var17;
+               var19 = 1;
+               if (var12 != null) {
+                  break label25;
+               }
+
+               if ((var17 & 1) == 0) {
+                  break label24;
+               }
+            } catch (MatchException var14) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var14);
+            }
+
+            var2 = null;
+         }
+
+         var10000 = var17;
+         var19 = 2;
+      }
+
+      if ((var10000 & var19) != 0) {
+         var3 = me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      }
+
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8c8d308bbe95adfc(
+         (char)var9, var10, var2, (short)var11, var3
       );
    }
 }

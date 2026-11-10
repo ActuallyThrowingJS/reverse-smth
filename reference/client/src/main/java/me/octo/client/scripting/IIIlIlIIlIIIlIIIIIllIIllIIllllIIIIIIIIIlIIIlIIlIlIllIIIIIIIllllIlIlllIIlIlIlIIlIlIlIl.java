@@ -220,7 +220,7 @@ public final class IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIll
             boolean var21 = false;
 
             try {
-               NVGRenderer.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+               NVGRenderer.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$d34bb6ba661a8913(
                   (char)var15, (float)var1, (float)var3, var16, (float)var5, var17, (float)var7, (float)var9, (int)var11, 0.0F
                );
                if (var18 == null) {
@@ -279,7 +279,7 @@ public final class IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIll
             boolean var23 = false;
 
             try {
-               NVGRenderer.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+               NVGRenderer.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$d34bb6ba661a8913(
                   (char)var17, (float)var1, (float)var3, var18, (float)var5, var19, (float)var7, (float)var9, (int)var11, (float)var13
                );
                if (var20 == null) {
@@ -452,7 +452,7 @@ public final class IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIll
             boolean var18 = false;
 
             try {
-               NVGRenderer.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               NVGRenderer.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$63a8a3abeb9712d9(
                   textArg, var12, (char)var13, (float)argument2Arg, (float)argument3Arg, (float)argument4Arg, (int)argument5Arg, null, 32, (char)var14, null
                );
                if (var15 == null) {
@@ -901,7 +901,9 @@ public final class IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIll
 
             try {
                NVGRenderer.INSTANCE
-                  .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var7, var8, (short)var9, (float)var1, (float)var3);
+                  .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$6d11498c3741d878(
+                     var7, var8, (short)var9, (float)var1, (float)var3
+                  );
                if (var10 == null) {
                   return;
                }
@@ -1230,5 +1232,11 @@ public final class IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIll
             var5
          );
       }
+   }
+
+   private final String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c868c9b65f1bd69b(
+      int param1, int param2, String param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

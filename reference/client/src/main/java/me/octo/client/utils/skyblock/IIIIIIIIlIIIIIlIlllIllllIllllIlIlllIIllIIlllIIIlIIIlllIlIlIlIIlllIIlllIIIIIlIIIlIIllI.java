@@ -592,6 +592,111 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
       int var5 = (int)((argument2Arg ^ 136058716491549L) << 16 >>> 32);
       int var6 = (int)(var10001 << 48 >>> 48);
       Intrinsics.checkNotNullParameter(locationArg, "location");
-      return this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(locationArg, (char)var4, var5, var6);
+      return this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$5ac7bcc071f1127b(
+         locationArg, (char)var4, var5, var6
+      );
+   }
+
+   public final boolean IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$75d82939b2efa1ee(
+      byte param1, int param2, int param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final lIIlllllIIIlllIIIllIIlllIllllllIIIIIlllllIIlIIIIIIIlllIlIlIIlIlllIIlIIlIIlIIlllIIlllI IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c98d0a2ec14d706a(
+      int argument1Arg,
+      @NotNull me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll locationArg,
+      int argument3Arg,
+      int argument4Arg,
+      int argument5Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final String IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$5ac7bcc071f1127b(
+      @NotNull me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll locationArg,
+      char argument2Arg,
+      int argument3Arg,
+      int argument4Arg
+   ) {
+      byte var9 = 0;
+      argument3Arg = 1542980365;
+      char var11 = '\uf81b';
+      long var5 = ((long)var9 << 48 | (long)argument3Arg << 32 >>> 16 | (long)var11 << 48 >>> 48)
+         ^ lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl;
+
+      try {
+         Intrinsics.checkNotNullParameter(locationArg, "location");
+         switch (IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl[locationArg.ordinal()]) {
+            case 1:
+               return "Unknown";
+            case 2:
+               return "Limbo";
+            case 3:
+               return "Lobby";
+            case 4:
+               return "Hub";
+            case 5:
+               return "Skyblock";
+            case 6:
+               return "Museum";
+            case 7:
+               return "Galatea";
+            case 8:
+               return "The Park";
+            case 9:
+               return "Private Island";
+            case 10:
+               return "Mines";
+            case 11:
+               return "Deep Caverns";
+            case 12:
+               return "Gold Mine";
+            case 13:
+               return "Crystal Hollows";
+            case 14:
+               return "Crystal Nucleus";
+            case 15:
+               return "Dwarven Mines";
+            case 16:
+               return "Dwarven Forge";
+            case 17:
+               return "Dwarven Camp";
+            case 18:
+               return "Mineshaft";
+            case 19:
+               return "Garden";
+            case 20:
+               return "Spider's Den";
+            case 21:
+               return "Crimson Isle";
+            case 22:
+               return "The End";
+            case 23:
+               return "Void";
+            case 24:
+               return "Mushroom Desert";
+            case 25:
+               return "Barn";
+            case 26:
+               return "Backwater Bayou";
+            case 27:
+               return "Jerry's Workshop";
+            case 28:
+               return "The Rift";
+            case 29:
+               return "Trapper Den";
+            case 30:
+               return "Lotus Atoll";
+            case 31:
+               return "Hub Crypt";
+            default:
+               throw new NoWhenBranchMatchedException();
+         }
+      } catch (NoWhenBranchMatchedException var8) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8);
+      }
    }
 }

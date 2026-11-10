@@ -485,7 +485,7 @@ public final class NVGRenderer {
       long var11 = var6 ^ 70500773009757L;
       Intrinsics.checkNotNullParameter(colorArg, "color");
       INSTANCE.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$4313892ab97faf76(var11);
-      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c66f6b8fde6e43c8(
          var8, argument1Arg, argument2Arg, argument3Arg, (byte)var9, argument4Arg, colorArg, var10, argument6Arg, argument6Arg, argument6Arg, argument6Arg
       );
    }
@@ -1438,7 +1438,10 @@ public final class NVGRenderer {
       if (var22 == null) {
          boolean var23 = false;
          NVGRenderer.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var24 = new NVGRenderer.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
-            0, INSTANCE.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII(var14, var15, svgContentArg)
+            0,
+            INSTANCE.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$0afa5315e0a620e9(
+               var14, var15, svgContentArg
+            )
          );
          var19.put(var20, var24);
          var10000 = var24;
@@ -1447,7 +1450,7 @@ public final class NVGRenderer {
       }
 
       NVGRenderer.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var18 = (NVGRenderer.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI)var10000;
-      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5fcea216957b965c(
          (short)var11,
          var18.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(),
          argument2Arg,
@@ -2740,7 +2743,9 @@ public final class NVGRenderer {
       Intrinsics.checkNotNullParameter(colorArg, "color");
       INSTANCE.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$4313892ab97faf76(var21);
       IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$12f2223740de1cfa(var17);
-      INSTANCE.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var9, var10, (short)var11, argument1Arg, argument2Arg);
+      INSTANCE.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$6d11498c3741d878(
+         var9, var10, (short)var11, argument1Arg, argument2Arg
+      );
       INSTANCE.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$17403fa1a57ae815(
          argument6Arg * (float) (Math.PI / 180.0), (short)var14, var15
       );
@@ -2876,7 +2881,7 @@ public final class NVGRenderer {
          var10000 = var10000.toLowerCase(Locale.ROOT);
          Intrinsics.checkNotNullExpressionValue(var10000, "toLowerCase(...)");
          if (StringsKt.contains$default(var10000, "mac", false, 2, null)) {
-            return this.IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI(var3, var4, (byte)var5);
+            return this.IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$b81d92e46ec93ddd(var3, var4, (byte)var5);
          }
       } catch (IllegalStateException var7) {
          throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var7);
@@ -2998,6 +3003,189 @@ public final class NVGRenderer {
       float argument10Arg,
       float argument11Arg,
       float argument12Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$63a8a3abeb9712d9(
+      String var0, int var1, char var2, float var3, float var4, float var5, int var6, Font var7, int var8, char var9, Object var10
+   ) {
+      short var16 = 18695;
+      var2 = 'ꢾ';
+      byte var18 = 32;
+      var9 = 'ꮱ';
+      long var11 = ((long)var16 << 32 | (long)var2 << 48 >>> 32 | (long)var9 << 48 >>> 48)
+         ^ IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll;
+      long var10001 = var11 ^ 53773933278800L;
+      int var13 = (int)((var11 ^ 53773933278800L) >>> 32);
+      int var14 = (int)((var11 ^ 53773933278800L) << 32 >>> 48);
+      int var15 = (int)(var10001 << 48 >>> 48);
+      if ((var18 & 32) != 0) {
+         var7 = defaultFont;
+      }
+
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d4abbc76cd2e06a5(
+         var0, var13, var3, var4, (char)var14, var5, var6, var7, var15
+      );
+   }
+
+   @JvmStatic
+   public static final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$d34bb6ba661a8913(
+      char var0, float var1, float var2, int var3, float var4, int var5, float var6, float var7, int var8, float var9
+   ) {
+      byte var14 = 0;
+      var3 = 1562521128;
+      char var16 = '\ue6d7';
+      long var10 = ((long)var14 << 48 | (long)var3 << 32 >>> 16 | (long)var16 << 48 >>> 48)
+         ^ IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll;
+      long var12 = var10 ^ 106594095846339L;
+      INSTANCE.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$4313892ab97faf76(var12);
+      hollowRect(var1, var2, var4, var6, var7, new Color(var8), var9);
+   }
+
+   public final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$6d11498c3741d878(
+      int var1, int var2, short var3, float var4, float var5
+   ) {
+      short var10 = 19306;
+      short var11 = 5940;
+      var3 = -20415;
+      long var6 = ((long)var10 << 32 | (long)var11 << 48 >>> 32 | (long)var3 << 48 >>> 48)
+         ^ IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll;
+      long var8 = var6 ^ 130542950122837L;
+      this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$4313892ab97faf76(var8);
+      NanoVG.nvgTranslate(lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl, var4, var5);
+   }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c66f6b8fde6e43c8(
+      int argument1Arg,
+      float argument2Arg,
+      float argument3Arg,
+      float argument4Arg,
+      byte argument5Arg,
+      float argument6Arg,
+      @NotNull Color colorArg,
+      int argument8Arg,
+      float argument9Arg,
+      float argument10Arg,
+      float argument11Arg,
+      float argument12Arg
+   ) {
+      short var23 = 11283;
+      argument5Arg = -86;
+      argument8Arg = 11073091;
+      long var12 = ((long)var23 << 32 | (long)argument5Arg << 56 >>> 32 | (long)argument8Arg << 40 >>> 40)
+         ^ IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll;
+      long var14 = var12 ^ 86851302682603L;
+      long var16 = var12 ^ 19532902548311L;
+      Intrinsics.checkNotNullParameter(colorArg, "color");
+      INSTANCE.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$4313892ab97faf76(var16);
+      float var18 = llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI;
+      float var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var18, argument2Arg);
+      float var20 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var18, argument3Arg);
+      float var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var18, argument2Arg + argument4Arg) - var19;
+      float var22 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var18, argument3Arg + argument6Arg) - var20;
+      NanoVG.nvgBeginPath(lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl);
+      NanoVG.nvgRoundedRectVarying(
+         lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl,
+         var19,
+         var20,
+         var21,
+         var22,
+         argument9Arg,
+         argument12Arg,
+         argument11Arg,
+         argument10Arg
+      );
+      INSTANCE.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fd12c73c5b0dfda8(var14, colorArg);
+      NanoVG.nvgFillColor(
+         lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl,
+         lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII
+      );
+      NanoVG.nvgFill(lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl);
+   }
+
+   private final int IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$0afa5315e0a620e9(
+      int param1, int param2, String param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5fcea216957b965c(
+      short param1, int param2, float param3, float param4, float param5, float param6, short param7, Color param8, int param9, float param10, float param11
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final me.octo.client.utils.render.shapes.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$f9dce654c265c7e8(
+      String param1, byte param2, int param3, int param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final float IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$b81d92e46ec93ddd(
+      int param1, int param2, byte param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d4abbc76cd2e06a5(
+      @NotNull String textArg,
+      int argument2Arg,
+      float argument3Arg,
+      float argument4Arg,
+      char argument5Arg,
+      float argument6Arg,
+      int argument7Arg,
+      @NotNull Font fontArg,
+      int argument9Arg
+   ) {
+      short var13 = 7276;
+      short var14 = 11181;
+      short var15 = 2424;
+      long var9 = ((long)var13 << 32 | (long)var14 << 48 >>> 32 | (long)var15 << 48 >>> 48)
+         ^ IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll;
+      long var11 = var9 ^ 37092859198572L;
+      Intrinsics.checkNotNullParameter(textArg, "text");
+      Intrinsics.checkNotNullParameter(fontArg, "font");
+      INSTANCE.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$4313892ab97faf76(var11);
+      text(textArg, argument3Arg, argument4Arg, argument6Arg, new Color(argument7Arg), fontArg);
+   }
+
+   private final int IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$a376f5168727f0a6(
+      long param1, me.octo.client.utils.render.shapes.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final int llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$08aff5b130f091a7(
+      me.octo.client.utils.render.shapes.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll param1, long param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final int IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$3e7d415f961b7167(
+      int param1, int param2, int param3, long param4, ByteBuffer param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$dc56b9cf72b8e178(
+      NVGRenderer var0, int var1, float var2, float var3, int[] var4, int var5, long var6, Object var8
+   ) {
+      var6 = 13359750935078L;
+      var6 = IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll ^ var6;
+      long var9 = var6 ^ 45431378279772L;
+      if ((var5 & 8) != 0) {
+         var4 = null;
+      }
+
+      var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f4586899bbbd54c5(var9, var1, var2, var3, var4);
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f4586899bbbd54c5(
+      long param1, int param3, float param4, float param5, @Nullable int[] param6
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }

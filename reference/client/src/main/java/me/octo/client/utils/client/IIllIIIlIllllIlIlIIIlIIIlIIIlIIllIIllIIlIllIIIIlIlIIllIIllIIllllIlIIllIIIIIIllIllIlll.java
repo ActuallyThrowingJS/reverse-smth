@@ -711,7 +711,7 @@ public final class IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIl
                         break label73;
                      }
 
-                     if (!this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                     if (!this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4a6728be3834c3f7(
                         (char)var5, var6, "notify-send", (short)var7
                      )) {
                         break label65;
@@ -746,7 +746,9 @@ public final class IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIl
          IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll var17 = var33;
          String var37;
          if (var9 == 0) {
-            if (var17.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((char)var5, var6, var18, (short)var7)) {
+            if (var17.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4a6728be3834c3f7(
+               (char)var5, var6, var18, (short)var7
+            )) {
                Runtime var34 = Runtime.getRuntime();
                String[] var29 = new String[]{"kdialog", "--passivepopup", var2, "5", "--title", var1};
                Process var26 = var34.exec(var29);
@@ -769,7 +771,9 @@ public final class IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIl
          }
 
          String var8 = var37;
-         if (var33.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((char)var5, var6, var8, (short)var7)) {
+         if (var33.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4a6728be3834c3f7(
+            (char)var5, var6, var8, (short)var7
+         )) {
             Runtime var36 = Runtime.getRuntime();
             String[] var31 = new String[]{"zenity", "--notification", "--text=" + var1 + ": " + var2};
             Process var27 = var36.exec(var31);
@@ -793,5 +797,103 @@ public final class IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIl
          var23.printStackTrace();
          System.out.println("Desktop Notification: " + var1 + " - " + var2);
       }
+   }
+
+   private final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$dfa1c224b04efef9(
+      String var1, String var2, int var3, int var4
+   ) {
+      short var15 = 29567;
+      var4 = 1606448832;
+      long var5 = ((long)var15 << 32 | (long)var4 << 32 >>> 32) ^ IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+      int var7 = llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      TrayIcon var10000;
+      label32: {
+         label27: {
+            try {
+               var10000 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+               if (var7 != 0) {
+                  break label32;
+               }
+
+               if (lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII == null) {
+                  break label27;
+               }
+            } catch (Exception var14) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var14);
+            }
+
+            var10000 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+            break label32;
+         }
+
+         try {
+            String var8 = StringsKt.replace$default(var1, "'", "\\'", false, 4, null);
+            String var9 = StringsKt.replace$default(var2, "'", "\\'", false, 4, null);
+            String var10 = StringsKt.trimIndent(
+               "\n                [Windows.UI.Notifications.ToastNotificationManager, Windows.UI.Notifications, ContentType = WindowsRuntime] | Out-Null\n                $template = [Windows.UI.Notifications.ToastNotificationManager]::GetTemplateContent([Windows.UI.Notifications.ToastTemplateType]::ToastText02)\n                $nodes = $template.GetElementsByTagName('text')\n                $nodes.Item(0).AppendChild($template.CreateTextNode('"
+                  + var8
+                  + "')) | Out-Null\n                $nodes.Item(1).AppendChild($template.CreateTextNode('"
+                  + var9
+                  + "')) | Out-Null\n                $toast = [Windows.UI.Notifications.ToastNotification]::new($template)\n                [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier('Polinex').Show($toast)\n            "
+            );
+            Runtime var17 = Runtime.getRuntime();
+            String[] var11 = new String[]{"powershell", "-NoProfile", "-NonInteractive", "-Command", var10};
+            var17.exec(var11);
+         } catch (Exception var13) {
+            var13.printStackTrace();
+         }
+
+         return;
+      }
+
+      var10000.displayMessage(var1, var2, MessageType.INFO);
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4a6728be3834c3f7(
+      char var1, int var2, String var3, short var4
+   ) {
+      byte var13 = 0;
+      var2 = 1519900336;
+      var4 = -31873;
+      long var5 = ((long)var13 << 48 | (long)var2 << 32 >>> 16 | (long)var4 << 48 >>> 48)
+         ^ IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+      int var7 = llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      int var8;
+      try {
+         Runtime var10000 = Runtime.getRuntime();
+         String[] var9 = new String[]{"sh", "-c", "command -v " + var3};
+         Process var16 = var10000.exec(var9);
+         int var17 = var16.waitFor();
+
+         label27: {
+            label26: {
+               try {
+                  var18 = var17;
+                  if (var7 != 0) {
+                     break label27;
+                  }
+
+                  if (var17 == 0) {
+                     break label26;
+                  }
+               } catch (Exception var11) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11);
+               }
+
+               var18 = 0;
+               break label27;
+            }
+
+            var18 = 1;
+         }
+
+         var8 = var18;
+      } catch (Exception var12) {
+         var8 = 0;
+      }
+
+      return (boolean)var8;
    }
 }

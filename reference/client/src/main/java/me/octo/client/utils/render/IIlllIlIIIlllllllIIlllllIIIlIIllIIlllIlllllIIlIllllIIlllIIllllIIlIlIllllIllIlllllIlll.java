@@ -408,4 +408,10 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4767294303a3933e(
+      short param1, int param2, short param3, LevelRenderContext param4, List param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

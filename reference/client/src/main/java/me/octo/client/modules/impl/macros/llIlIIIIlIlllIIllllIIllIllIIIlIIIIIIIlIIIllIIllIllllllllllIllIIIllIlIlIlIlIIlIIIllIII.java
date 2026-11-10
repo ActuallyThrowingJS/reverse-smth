@@ -1011,6 +1011,24 @@ public final class llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIll
                      );
                   }
                }
+
+               public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0835a1b0374bdde4(
+                  short argument1Arg,
+                  int argument2Arg,
+                  short argument3Arg,
+                  me.octo.client.modules.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII p0Arg
+               ) {
+                  byte var9x = 0;
+                  argument2Arg = 471649459;
+                  argument3Arg = -1620;
+                  long var5x = ((long)var9x << 48 | (long)argument2Arg << 32 >>> 16 | (long)argument3Arg << 48 >>> 48)
+                     ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+                  long var7x = var5x ^ 23678041173881L;
+                  Intrinsics.checkNotNullParameter(p0Arg, "p0");
+                  llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6978726d62833450(
+                     var7x, (llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII)this.receiver, p0Arg
+                  );
+               }
             }
          ),
          var5,

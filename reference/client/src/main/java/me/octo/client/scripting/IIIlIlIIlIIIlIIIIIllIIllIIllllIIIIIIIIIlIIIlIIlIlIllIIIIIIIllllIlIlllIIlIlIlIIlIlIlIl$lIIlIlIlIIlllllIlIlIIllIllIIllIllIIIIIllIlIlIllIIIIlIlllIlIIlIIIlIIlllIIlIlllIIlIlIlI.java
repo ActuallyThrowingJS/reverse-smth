@@ -22,7 +22,7 @@ public final class IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIll
       int var5 = (int)(var10001 << 48 >>> 48);
       boolean var6 = false;
       NVGRenderer.INSTANCE
-         .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+         .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$6d11498c3741d878(
             var3,
             var4,
             (short)var5,

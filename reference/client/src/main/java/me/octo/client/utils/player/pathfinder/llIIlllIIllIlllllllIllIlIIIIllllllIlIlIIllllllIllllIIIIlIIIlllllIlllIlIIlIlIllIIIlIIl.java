@@ -781,6 +781,33 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
+   private final long llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$e54a8a910b1446b0(
+      int var1, short var2, short var3, int var4, int var5, int var6
+   ) {
+      byte var9 = 0;
+      var3 = 8603;
+      var6 = -1174224119;
+      long var7 = ((long)var9 << 48 | (long)var3 << 48 >>> 16 | (long)var6 << 32 >>> 32)
+         ^ llllIIlIIIIlIIllIIIIIllIlIlIllIlIllllIlllIIlIllIIlIIIIllllllIllllIIllIIlIIlIlllIlllll;
+      return (var1 & IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"y">(1859, 5460520820016832889L ^ var7)) << 42
+         | (var4 & IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"y">(27006, 8507117077847379783L ^ var7)) << 21
+         | var5 & IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"y">(27006, 8507117077847379783L ^ var7);
+   }
+
+   private final long llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$ac66edad7ddc611e(
+      int var1, short var2, short var3, int var4, int var5, int var6
+   ) {
+      byte var9 = 0;
+      var3 = 8603;
+      byte var11 = 0;
+      var6 = -1174224119;
+      long var7 = ((long)var9 << 48 | (long)var3 << 48 >>> 16 | (long)var6 << 32 >>> 32)
+         ^ llllIIlIIIIlIIllIIIIIllIlIlIllIlIllllIlllIIlIllIIlIIIIllllllIllllIIllIIlIIlIlllIlllll;
+      return (var1 & IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"y">(1859, 5460520820016832889L ^ var7)) << 42
+         | (var11 & IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"y">(27006, 8507117077847379783L ^ var7)) << 21
+         | var5 & IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"y">(27006, 8507117077847379783L ^ var7);
+   }
+
    public static final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {
       private final int IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
       private final int lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;

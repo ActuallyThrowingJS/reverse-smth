@@ -895,6 +895,222 @@ public final class MacroPauseManager {
       }
    }
 
+   public final void IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$64c3fb27259340e8(
+      char param1, int param2, char param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl$recovered$3adc50f8da2193a8(
+      int param1, byte param2, int param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$5c3adacab2cb7463(
+      @NotNull llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII macroArg,
+      short argument2Arg,
+      char argument3Arg,
+      int argument4Arg
+   ) {
+      byte var9 = 0;
+      short var10 = 32338;
+      argument4Arg = -341359954;
+      long var5 = ((long)var9 << 48 | (long)var10 << 48 >>> 16 | (long)argument4Arg << 32 >>> 32)
+         ^ IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+      long var7 = var5 ^ 16072767090945L;
+      Intrinsics.checkNotNullParameter(macroArg, "macro");
+      return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fb7cd985759af9a8(
+         macroArg,
+         MacroPauseManager.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.MANUAL,
+         llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"a">(10329, 2687789173904102753L ^ var5),
+         false,
+         var7
+      );
+   }
+
+   // $VF: Could not create synchronized statement, marking monitor enters and exits
+   // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fb7cd985759af9a8(
+      llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII var1,
+      MacroPauseManager.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var2,
+      long var3,
+      boolean var5,
+      long var6
+   ) {
+      var6 = 79689108242560L;
+      var6 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var6;
+      long var10001 = var6 ^ 116121522745608L;
+      int var8 = (int)((var6 ^ 116121522745608L) >>> 32);
+      int var9 = (int)((var6 ^ 116121522745608L) << 32 >>> 40);
+      int var10 = (int)(var10001 << 56 >>> 56);
+      long var11 = var6 ^ 71932175255778L;
+      var10001 = var6 ^ 64235672607713L;
+      int var13 = (int)((var6 ^ 64235672607713L) >>> 32);
+      int var14 = (int)((var6 ^ 64235672607713L) << 32 >>> 48);
+      int var15 = (int)(var10001 << 48 >>> 48);
+      long var16 = var6 ^ 73289227495430L;
+      var10001 = var6 ^ 19334536651115L;
+      int var18 = (int)((var6 ^ 19334536651115L) >>> 48);
+      int var19 = (int)((var6 ^ 19334536651115L) << 16 >>> 48);
+      int var20 = (int)(var10001 << 32 >>> 32);
+      long var21 = var6 ^ 100209204220534L;
+      long var23 = var6 ^ 120099305186787L;
+      long var25 = var6 ^ 133309747726974L;
+      long var27 = var6 ^ 100834548302280L;
+      String var10000 = me.octo.client.modules.manager.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI();
+      Object var31 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      synchronized (var31){} // $VF: monitorenter
+      String var29 = var10000;
+
+      try {
+         boolean var32 = false;
+         if (IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI != null) {
+            return false;
+         }
+
+         label208: {
+            try {
+               var75 = me.octo.client.modules.manager.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                  .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$12ca96a1104aeeeb(
+                     var13, var1, var14, (char)var15
+                  );
+               if (var29 != null) {
+                  break label208;
+               }
+
+               if (!var75) {
+                  return false;
+               }
+            } catch (Throwable var68) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var68);
+            }
+
+            var75 = Scheduler.IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII
+               .IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII();
+         }
+
+         label250: {
+            try {
+               if (var29 != null) {
+                  return var75;
+               }
+
+               if (!var75) {
+                  break label250;
+               }
+            } catch (Throwable var69) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var69);
+            }
+
+            return false;
+         }
+
+         if (ModUtils.mc.player == null) {
+            return false;
+         }
+
+         LocalPlayer var33 = ModUtils.mc.player;
+         long var34 = System.currentTimeMillis();
+         var1.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(false);
+
+         try {
+            var1.lIlIIIlIllIlllllIIIllllllIllIIlIIlllIlIIlIIlllIlllIlIlIIlIIlllIlllIlllllIIlllIIIIIIll(var8, var9, (byte)var10);
+         } catch (Throwable var62) {
+         }
+
+         try {
+            MovementUtils.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+               .IlIllIIIIllllIIlIlIlIlIlIllIIlIIIIlIIIlIIIllllIIIIlIlIlllIlIlIIIllIIllIllIIIllIIlllll$recovered$6f3f573860f99461(var11);
+         } catch (Throwable var61) {
+         }
+
+         try {
+            MovementUtils.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+               .IIlIIIllllllIIIlllIlIIlIllIlIIllIlIIlIIIIIIIIlIIIlllIlllIIllllIIlIIIIlIlIIIllllIIlllI$recovered$c6b70b1b08a218cd(var16);
+         } catch (Throwable var60) {
+         }
+
+         try {
+            me.octo.client.modules.manager.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+               .IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$199c647d9bee4f6c(
+                  (short)var18, (short)var19, var20
+               );
+         } catch (Throwable var59) {
+         }
+
+         try {
+            label194: {
+               try {
+                  if (!(var1 instanceof me.octo.client.modules.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll)) {
+                     break label194;
+                  }
+               } catch (Throwable var66) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var66);
+               }
+
+               ((me.octo.client.modules.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll)var1)
+                  .lIIlIlIIllIlIIlllllIllIlIlIIllllIllIIIlIllIlIIlIlIlIllIlllIlIIIllIIlIlIIlIlIllllIIlll(var21);
+            }
+         } catch (Throwable var67) {
+         }
+
+         boolean var36 = MouseUngrab.lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll;
+
+         try {
+            label187: {
+               try {
+                  if (!var36) {
+                     break label187;
+                  }
+               } catch (Throwable var64) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var64);
+               }
+
+               ModUtils.mc.execute(MacroPauseManager::IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll);
+            }
+         } catch (Throwable var65) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var65);
+         }
+
+         IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new MacroPauseManager.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
+            var1, var2, var34, var3, var5, var33.position(), var36
+         );
+         Unit var73 = Unit.INSTANCE;
+      } finally {
+         // $VF: monitorexit
+      }
+
+      long var30 = var3 / llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"a">(13337, 640133198028098313L ^ var6);
+
+      label181: {
+         try {
+            if (var2 == MacroPauseManager.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.AUTO) {
+               var10000 = "re-enable within " + var30 + "s (stay within 5 blocks)";
+               break label181;
+            }
+         } catch (Throwable var63) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var63);
+         }
+
+         var10000 = "press your resume key within " + var30 + "s";
+      }
+
+      String var74 = var10000;
+      me.octo.client.utils.player.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$8f5466ae1bb10fab(
+         "§6[Pause] §e" + var1.getNameProperty() + " §7paused — " + var74 + " to resume.", var23
+      );
+      IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+         .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$0948101bb7ee21d2(
+            llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"a">(9626, 2728445900562586248L ^ var6),
+            "Macro Paused",
+            var1.getNameProperty() + " — resume within " + var30 + "s",
+            me.octo.client.utils.render.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.WARNING,
+            var25
+         );
+      return true;
+   }
+
    private static final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI {
       @NotNull
       private final llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII macro;

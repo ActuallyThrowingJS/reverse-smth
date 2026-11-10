@@ -1,0 +1,14 @@
+[
+  {
+    "owner": "me/octo/client/modules/impl/macros/IIllIlllIIIIIllllIlllIIllIIIlIIllIIllIIlIllIIllIIIlIllIIlIIIIIlIIIIlIlIIIIIIlIlllIllI$llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI",
+    "name": "compare",
+    "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;)I",
+    "reason": "New decompiler regression; preserve previously verified method"
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IlIIIlIlIIlIlllIlIIlIIllIllIlllllIIIlIllllIlIIIlIlIlllllIIIIIllIlllIlIlllllIlllIlIIll$llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+    "name": "compare",
+    "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;)I",
+    "reason": "New decompiler regression; preserve previously verified method"
+  }
+]

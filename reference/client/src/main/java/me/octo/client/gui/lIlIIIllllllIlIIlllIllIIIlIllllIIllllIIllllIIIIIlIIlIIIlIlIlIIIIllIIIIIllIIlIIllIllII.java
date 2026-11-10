@@ -438,4 +438,11 @@ public final class lIlIIIllllllIlIIlllIllIIIlIllllIIllllIIllllIIIIIlIIlIIIlIlIlI
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   @NotNull
+   public final Pair IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4be83f0aa537f5a6(
+      double param1, double param3, short param5, char param6, int param7
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

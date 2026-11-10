@@ -434,4 +434,18 @@ public final class MotionBlur extends BooleanModule {
       Intrinsics.checkNotNullExpressionValue(var10000, "getValue(...)");
       return (GpuSampler)var10000;
    }
+
+   private final GpuSampler IlIlIIIIllllIlIIlIlllllllllIlllIllIlIIIIllIIlIIlIlIlIIlllIIlIlllllIIIlIIlIIlIIlIIlIII$recovered$352146d65c66095e(
+      short var1, char var2, int var3
+   ) {
+      byte var7 = 0;
+      short var8 = 12865;
+      var3 = 1163350860;
+      long var4 = ((long)var7 << 48 | (long)var8 << 48 >>> 16 | (long)var3 << 32 >>> 32)
+         ^ lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI;
+      Lazy var6 = this.llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI;
+      Object var10000 = var6.getValue();
+      Intrinsics.checkNotNullExpressionValue(var10000, "getValue(...)");
+      return (GpuSampler)var10000;
+   }
 }

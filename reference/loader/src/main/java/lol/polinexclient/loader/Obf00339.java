@@ -42,7 +42,9 @@ public final class Obf00339 {
       byte var4
    );
 
-   private static native void Obf00099(Thread var0, Throwable var1);
+   private static void Obf00099(Thread var0, Throwable var1) {
+      Runtime.getRuntime().halt(1);
+   }
 
    private static native RuntimeException Obf00552(long var0);
 
@@ -64,7 +66,9 @@ public final class Obf00339 {
       Obf00339$Obf00564 var3
    );
 
-   private static native void Obf00116(Thread var0, Throwable var1);
+   private static void Obf00116(Thread var0, Throwable var1) {
+      Runtime.getRuntime().halt(1);
+   }
 
    private static native RuntimeException Obf00383(long var0);
 

@@ -413,7 +413,9 @@ public final class lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIl
       int var7 = (int)(var10001 << 32 >>> 32);
       Intrinsics.checkNotNullParameter(parentFolderArg, "parentFolder");
       Intrinsics.checkNotNullParameter(folderNameArg, "folderName");
-      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(parentFolderArg, (char)var5, (short)var6, var7)
+      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$937d6b4e61ee0321(
+            parentFolderArg, (char)var5, (short)var6, var7
+         )
          .resolve(folderNameArg);
       Intrinsics.checkNotNullExpressionValue(var10000, "resolve(...)");
       return var10000;
@@ -431,7 +433,9 @@ public final class lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIl
       int var7 = (int)(var10001 << 32 >>> 32);
       Intrinsics.checkNotNullParameter(parentFolderArg, "parentFolder");
       Intrinsics.checkNotNullParameter(fileNameArg, "fileName");
-      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(parentFolderArg, (char)var5, (short)var6, var7)
+      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$937d6b4e61ee0321(
+            parentFolderArg, (char)var5, (short)var6, var7
+         )
          .resolve(fileNameArg + ".json");
       Intrinsics.checkNotNullExpressionValue(var10000, "resolve(...)");
       return var10000;
@@ -450,7 +454,9 @@ public final class lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIl
       Intrinsics.checkNotNullParameter(parentFolderArg, "parentFolder");
       Intrinsics.checkNotNullParameter(folderArg, "folder");
       Intrinsics.checkNotNullParameter(fileNameArg, "fileName");
-      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(parentFolderArg, (char)var6, (short)var7, var8)
+      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$937d6b4e61ee0321(
+            parentFolderArg, (char)var6, (short)var7, var8
+         )
          .resolve(folderArg)
          .resolve(fileNameArg + ".json");
       Intrinsics.checkNotNullExpressionValue(var10000, "resolve(...)");
@@ -471,11 +477,29 @@ public final class lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIl
       Intrinsics.checkNotNullParameter(folderArg, "folder");
       Intrinsics.checkNotNullParameter(subFolderArg, "subFolder");
       Intrinsics.checkNotNullParameter(fileNameArg, "fileName");
-      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(parentFolderArg, (char)var7, (short)var8, var9)
+      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$937d6b4e61ee0321(
+            parentFolderArg, (char)var7, (short)var8, var9
+         )
          .resolve(folderArg)
          .resolve(subFolderArg)
          .resolve(fileNameArg + ".json");
       Intrinsics.checkNotNullExpressionValue(var10000, "resolve(...)");
       return var10000;
+   }
+
+   @NotNull
+   public final Path IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$937d6b4e61ee0321(
+      @NotNull String parentFolderArg, char argument2Arg, short argument3Arg, int argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final Path llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$90334794ac6788bb(long var1) {
+      var1 = 101157786645033L;
+      var1 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ var1;
+      Lazy var3 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      Object var10000 = var3.getValue();
+      Intrinsics.checkNotNullExpressionValue(var10000, "getValue(...)");
+      return (Path)var10000;
    }
 }

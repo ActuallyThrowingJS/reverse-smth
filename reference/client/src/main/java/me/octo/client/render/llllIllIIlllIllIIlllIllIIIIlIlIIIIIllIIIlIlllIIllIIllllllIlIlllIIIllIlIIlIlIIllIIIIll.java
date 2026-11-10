@@ -1175,6 +1175,22 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b139dbb2e6478446(
+      WorldRenderEvent param1, int param2, int param3, int param4, short param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final GpuSampler llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$84a3b14645c517b9(int var1, int var2) {
+      short var6 = 20986;
+      var2 = 849769368;
+      long var3 = ((long)var6 << 32 | (long)var2 << 32 >>> 32) ^ lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll;
+      Lazy var5 = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+      Object var10000 = var5.getValue();
+      Intrinsics.checkNotNullExpressionValue(var10000, "getValue(...)");
+      return (GpuSampler)var10000;
+   }
+
    private static final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {
       @NotNull
       private final MeshData meshData;

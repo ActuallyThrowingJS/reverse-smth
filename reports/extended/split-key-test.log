@@ -1,0 +1,2 @@
+constantFields=0 clones=5 rewrittenCalls=5 rounds=4 genericMethodsPreserved=true
+PASS 24 JVM cases; constant-key propagation, generic methods and overridden dispatch preserved

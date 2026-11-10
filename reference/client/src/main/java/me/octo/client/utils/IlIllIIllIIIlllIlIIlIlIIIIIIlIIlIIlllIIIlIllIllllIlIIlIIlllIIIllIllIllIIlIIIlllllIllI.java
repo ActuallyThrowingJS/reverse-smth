@@ -584,7 +584,7 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
             this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4fe8228dc18198bd(
                var10,
                this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$8c36ba2576524782(
-                  var8, this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var6, var7)
+                  var8, this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$d8de23f2fd92b1b7(var6, var7)
                ),
                var14,
                var15
@@ -743,6 +743,10 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       System.arraycopy(var9, 0, var15, 0, var9.length);
       System.arraycopy(var10, 0, var15, var9.length, var10.length);
       return "PNXA1:" + Base64.getEncoder().encodeToString(var15);
+   }
+
+   private final String IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$d8de23f2fd92b1b7(int param1, int param2) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    private static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

@@ -424,4 +424,10 @@ public final class Nuker extends BooleanModule {
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   private final BlockPos llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$435c3f7c739845aa(
+      int param1, char param2, int param3, int param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

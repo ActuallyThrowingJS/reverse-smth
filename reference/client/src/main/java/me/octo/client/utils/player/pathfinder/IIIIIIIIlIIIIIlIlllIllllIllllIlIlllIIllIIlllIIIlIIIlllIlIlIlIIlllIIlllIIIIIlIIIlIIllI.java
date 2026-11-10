@@ -98,7 +98,9 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
       Intrinsics.checkNotNullParameter(
          var1, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"n">(13794, 8871417657086649431L ^ var2)
       );
-      return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, (short)var5, (short)var6, var7, var4, false);
+      return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$09ea663f84cf58de(
+         var1, (short)var5, (short)var6, var7, var4, false
+      );
    }
 
    @Nullable
@@ -618,6 +620,19 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
             var5
          );
       }
+   }
+
+   @Nullable
+   public final ArrayList IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$09ea663f84cf58de(
+      @NotNull BlockPos param1, short param2, short param3, int param4, @Nullable BlockPos param5, boolean param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final ArrayList IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$54a2b3adc329c801(
+      int param1, int param2, List param3, byte param4, boolean param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    public static final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {

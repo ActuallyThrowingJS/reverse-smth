@@ -500,7 +500,7 @@ public final class EventBus implements me.octo.client.events.impl.base.llIIllllI
 
       for (EventBus.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var14 : var11) {
          try {
-            Consumer var15 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+            Consumer var15 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$318308625c3cc359(
                (short)var6, targetArg, var14.getMethod(), (char)var7, var14.getEventType(), var8
             );
             EventBus.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll var16 = new EventBus.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll(
@@ -566,6 +566,32 @@ public final class EventBus implements me.octo.client.events.impl.base.llIIllllI
       Intrinsics.checkNotNullParameter(eventArg, "event");
       Intrinsics.checkNotNullParameter(throwableArg, "throwable");
       this.exceptionHandler.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(busArg, var6, eventArg, throwableArg);
+   }
+
+   private final Consumer IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$318308625c3cc359(
+      short var1, Object var2, Method var3, char var4, Class var5, int var6
+   ) {
+      byte var11 = 0;
+      short var12 = 32733;
+      var6 = 415058807;
+      long var7 = ((long)var11 << 48 | (long)var12 << 48 >>> 16 | (long)var6 << 32 >>> 32)
+         ^ lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+      MethodHandle var9 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII.unreflect(var3);
+      CallSite var10 = LambdaMetafactory.metafactory(
+         IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII,
+         "accept",
+         MethodType.methodType(Consumer.class, var2.getClass()),
+         MethodType.methodType(void.class, Object.class),
+         var9,
+         MethodType.methodType(void.class, var5)
+      );
+      return (Consumer)var10.getTarget().bindTo(var2).invokeExact();
+   }
+
+   public final boolean llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$69d9afbece88b3cf(
+      @NotNull Object targetArg, short argument2Arg, short argument3Arg, int argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    private static final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {

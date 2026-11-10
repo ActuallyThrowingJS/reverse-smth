@@ -149,7 +149,9 @@ public final class IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllII
       int var3 = (int)((var1 ^ 80408718583323L) >>> 32);
       int var4 = (int)((var1 ^ 80408718583323L) << 32 >>> 48);
       int var5 = (int)(var10001 << 48 >>> 48);
-      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3, (short)var4, this, 0, 1, var5, null);
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d935c4912b65d471(
+         var3, (short)var4, this, 0, 1, var5, null
+      );
    }
 
    @Override
@@ -535,6 +537,18 @@ public final class IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllII
             var5
          );
       }
+   }
+
+   static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d935c4912b65d471(
+      int param0,
+      short param1,
+      IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl param2,
+      int param3,
+      int param4,
+      int param5,
+      Object param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

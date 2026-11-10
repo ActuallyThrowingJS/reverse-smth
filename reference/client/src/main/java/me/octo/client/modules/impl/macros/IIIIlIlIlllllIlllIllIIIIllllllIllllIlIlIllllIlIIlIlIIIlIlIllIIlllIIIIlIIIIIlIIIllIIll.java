@@ -600,19 +600,29 @@ public final class IIIIlIlIlllllIlllIllIIIIllllllIllllIlIlIllllIlIIlIlIIIlIlIllI
       try {
          Iterable var17 = CollectionsKt.toList(this.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI);
          boolean var5 = false;
-         var var7 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var17, 10));
+         Collection var7 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var17, 10));
          boolean var8 = false;
 
-         for (Object var10 : var17) {
-            IIIIlIlIlllllIlllIllIIIIllllllIllllIlIlIllllIlIIlIlIIIlIlIllIIlllIIIIlIIIIIlIIIllIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = (IIIIlIlIlllllIlllIllIIIIllllllIllllIlIlIllllIlIIlIlIIIlIlIllIIlllIIIIlIIIIIlIIIllIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var10;
-            boolean var12 = false;
-            var7.add(var11.getPos());
-            if (var3 != null) {
-               break;
+         Collection var10000;
+         label24: {
+            for (Object var10 : var17) {
+               var10000 = var7;
+               if (var3 != null) {
+                  break label24;
+               }
+
+               IIIIlIlIlllllIlllIllIIIIllllllIllllIlIlIllllIlIIlIlIIIlIlIllIIlllIIIIlIIIIIlIIIllIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = (IIIIlIlIlllllIlllIllIIIIllllllIllllIlIlIllllIlIIlIlIIIlIlIllIIlllIIIIlIIIIIlIIIllIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var10;
+               boolean var12 = false;
+               var7.add(var11.getPos());
+               if (var3 != null) {
+                  break;
+               }
             }
+
+            var10000 = var7;
          }
 
-         var4 = var7;
+         var4 = (List)var10000;
       } catch (Exception var14) {
          var4 = CollectionsKt.emptyList();
       }
@@ -621,6 +631,28 @@ public final class IIIIlIlIlllllIlllIllIIIIllllllIllllIlIlIllllIlIIlIlIIIlIlIllI
    }
 
    public final void IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$3a1133c3bfbf3019(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void lIIlIIIllIIIllIllIIlIIIIlllIllIIlIlIIlIllIlIllllllllIllIllllIlIIlIIIllIIllIIlllllIllI$recovered$64fd18cc0dc4d325(
+      int param1, short param2, int param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final int IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f47de7b51d54292f(
+      Vec3 param1, long param2, List param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final synchronized void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$e9fc999a9ccf13e2(
+      int param1, short param2, char param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final int lllIIllIIlIlIlIIIIIlIIIllIIlIlIIllIlIIIlIlIlIIIlIIlIlIlIllIllllIlllIIlIlIIllIlIlIllIl$recovered$83057818cce6dd3f(long param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 

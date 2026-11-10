@@ -396,4 +396,10 @@ public final class PlayerESP extends BooleanModule {
          );
       }
    }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8f7d76733f9b2b11(
+      short param1, Player param2, int param3, int param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

@@ -1219,6 +1219,47 @@ public final class lIlIlIlIIIlIIIIIllIlIIIIllllIIIlllIIlllIllIlllllIIIllIIlllIll
       }
    }
 
+   public static void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$823f95df9fc81922(
+      int var0,
+      lIlIlIlIIIlIIIIIllIlIIIIllllIIIlllIIlllIllIlllllIIIllIIlllIllIlIlllIllIlIIlIIllllIlll var1,
+      int var2,
+      Function1 var3,
+      int var4,
+      char var5,
+      Object var6
+   ) {
+      byte var11 = 1;
+      long var7 = ((long)var0 << 32 | (long)var2 << 48 >>> 32 | (long)var5 << 48 >>> 48)
+         ^ lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll;
+      long var9 = var7 ^ 97027592740529L;
+      if ((var11 & 1) != 0) {
+         var3 = null;
+      }
+
+      var1.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var3, var9);
+   }
+
+   public static void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$672f92f91aa8172c(
+      char var0,
+      lIlIlIlIIIlIIIIIllIlIIIIllllIIIlllIIlllIllIlllllIIIllIIlllIllIlIlllIllIlIIlIIllllIlll var1,
+      String var2,
+      Function1 var3,
+      int var4,
+      int var5,
+      Object var6,
+      int var7
+   ) {
+      byte var12 = 2;
+      long var8 = ((long)var0 << 48 | (long)var5 << 32 >>> 16 | (long)var7 << 48 >>> 48)
+         ^ lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll;
+      long var10 = var8 ^ 128905427045219L;
+      if ((var12 & 2) != 0) {
+         var3 = null;
+      }
+
+      var1.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var2, var3, var10);
+   }
+
    public static enum IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {
       UNKNOWN,
       NO_GIT,

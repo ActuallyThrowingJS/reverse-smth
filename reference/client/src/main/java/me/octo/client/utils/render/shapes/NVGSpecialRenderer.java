@@ -288,7 +288,7 @@ public final class NVGSpecialRenderer
          int var11 = (int)(var10001 << 56 >>> 56);
          Intrinsics.checkNotNullParameter(contextArg, "context");
          Intrinsics.checkNotNullParameter(renderContentArg, "renderContent");
-         return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ad6441c4e8f411c1(
             contextArg, argument2Arg, var9, var10, (byte)var11, argument3Arg, argument4Arg, argument5Arg, false, renderContentArg
          );
       }
@@ -499,6 +499,181 @@ public final class NVGSpecialRenderer
 
       private final DirectStateAccess IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f23b89595d848843(
          long param1
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$09d5c09c1eca9fa2(
+         @NotNull GuiGraphicsExtractor contextArg,
+         int argument2Arg,
+         int argument3Arg,
+         int argument4Arg,
+         byte argument5Arg,
+         int argument6Arg,
+         int argument7Arg,
+         int argument8Arg,
+         boolean argument9Arg,
+         @NotNull Function0 renderContentArg
+      ) {
+         byte var21 = 0;
+         short var22 = 18689;
+         argument4Arg = 9245250;
+         argument5Arg = 65;
+         byte var25 = 0;
+         long var11 = ((long)var22 << 32 | (long)argument4Arg << 40 >>> 32 | (long)argument5Arg << 56 >>> 56)
+            ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+         long var10001 = var11 ^ 96813920424333L;
+         int var13 = (int)((var11 ^ 96813920424333L) >>> 48);
+         int var14 = (int)((var11 ^ 96813920424333L) << 16 >>> 48);
+         int var15 = (int)(var10001 << 32 >>> 32);
+         Intrinsics.checkNotNullParameter(contextArg, "context");
+         Intrinsics.checkNotNullParameter(renderContentArg, "renderContent");
+
+         boolean var16;
+         try {
+            ScreenRectangle var26 = contextArg.scissorStack.peek();
+            Matrix3x2f var17 = new Matrix3x2f((Matrix3x2fc)contextArg.pose());
+            ScreenRectangle var18 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$14069a97b42f6e94(
+               var21, var25, var21 + argument7Arg, (short)var13, var25 + argument8Arg, var17, var26, (short)var14, var15
+            );
+            NVGSpecialRenderer.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var19 = new NVGSpecialRenderer.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+               var21, var25, argument7Arg, argument8Arg, var17, var26, var18, argument9Arg, renderContentArg
+            );
+            contextArg.guiRenderState.addPicturesInPictureState(var19);
+            var16 = true;
+         } catch (Throwable var20) {
+            PolinexLogger.error("[NVGSpecialRenderer] draw failed: " + var20.getMessage());
+            var20.printStackTrace();
+            var16 = false;
+         }
+
+         return var16;
+      }
+
+      public final boolean draw$recovered$c8dcd613be217912(
+         @NotNull GuiGraphicsExtractor contextArg,
+         int argument2Arg,
+         int argument3Arg,
+         int argument4Arg,
+         int argument5Arg,
+         @NotNull Function0<Unit> renderContentArg
+      ) {
+         byte var12 = 0;
+         byte var13 = 0;
+         long var7 = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ 126830433984178L;
+         long var10001 = var7 ^ 78780368670390L;
+         int var9 = (int)((var7 ^ 78780368670390L) >>> 32);
+         int var10 = (int)((var7 ^ 78780368670390L) << 32 >>> 40);
+         int var11 = (int)(var10001 << 56 >>> 56);
+         Intrinsics.checkNotNullParameter(contextArg, "context");
+         Intrinsics.checkNotNullParameter(renderContentArg, "renderContent");
+         return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d2485adae5c02807(
+            contextArg, var12, var9, var10, (byte)var11, var13, argument4Arg, argument5Arg, false, renderContentArg
+         );
+      }
+
+      public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ad6441c4e8f411c1(
+         @NotNull GuiGraphicsExtractor contextArg,
+         int argument2Arg,
+         int argument3Arg,
+         int argument4Arg,
+         byte argument5Arg,
+         int argument6Arg,
+         int argument7Arg,
+         int argument8Arg,
+         boolean argument9Arg,
+         @NotNull Function0 renderContentArg
+      ) {
+         short var21 = 18689;
+         argument4Arg = 9245250;
+         argument5Arg = 65;
+         argument9Arg = 0;
+         long var11 = ((long)var21 << 32 | (long)argument4Arg << 40 >>> 32 | (long)argument5Arg << 56 >>> 56)
+            ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+         long var10001 = var11 ^ 96813920424333L;
+         int var13 = (int)((var11 ^ 96813920424333L) >>> 48);
+         int var14 = (int)((var11 ^ 96813920424333L) << 16 >>> 48);
+         int var15 = (int)(var10001 << 32 >>> 32);
+         Intrinsics.checkNotNullParameter(contextArg, "context");
+         Intrinsics.checkNotNullParameter(renderContentArg, "renderContent");
+
+         boolean var16;
+         try {
+            ScreenRectangle var25 = contextArg.scissorStack.peek();
+            Matrix3x2f var17 = new Matrix3x2f((Matrix3x2fc)contextArg.pose());
+            ScreenRectangle var18 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c48c7483764f34e4(
+               argument2Arg, argument6Arg, argument2Arg + argument7Arg, (short)var13, argument6Arg + argument8Arg, var17, var25, (short)var14, var15
+            );
+            NVGSpecialRenderer.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var19 = new NVGSpecialRenderer.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+               argument2Arg, argument6Arg, argument7Arg, argument8Arg, var17, var25, var18, (boolean)argument9Arg, renderContentArg
+            );
+            contextArg.guiRenderState.addPicturesInPictureState(var19);
+            var16 = true;
+         } catch (Throwable var20) {
+            PolinexLogger.error("[NVGSpecialRenderer] draw failed: " + var20.getMessage());
+            var20.printStackTrace();
+            var16 = false;
+         }
+
+         return var16;
+      }
+
+      private final ScreenRectangle IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$14069a97b42f6e94(
+         int param1, int param2, int param3, short param4, int param5, Matrix3x2f param6, ScreenRectangle param7, short param8, int param9
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d2485adae5c02807(
+         @NotNull GuiGraphicsExtractor contextArg,
+         int argument2Arg,
+         int argument3Arg,
+         int argument4Arg,
+         byte argument5Arg,
+         int argument6Arg,
+         int argument7Arg,
+         int argument8Arg,
+         boolean argument9Arg,
+         @NotNull Function0 renderContentArg
+      ) {
+         byte var21 = 0;
+         short var22 = 18689;
+         argument4Arg = 9245250;
+         argument5Arg = 65;
+         byte var25 = 0;
+         argument9Arg = 0;
+         long var11 = ((long)var22 << 32 | (long)argument4Arg << 40 >>> 32 | (long)argument5Arg << 56 >>> 56)
+            ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+         long var10001 = var11 ^ 96813920424333L;
+         int var13 = (int)((var11 ^ 96813920424333L) >>> 48);
+         int var14 = (int)((var11 ^ 96813920424333L) << 16 >>> 48);
+         int var15 = (int)(var10001 << 32 >>> 32);
+         Intrinsics.checkNotNullParameter(contextArg, "context");
+         Intrinsics.checkNotNullParameter(renderContentArg, "renderContent");
+
+         boolean var16;
+         try {
+            ScreenRectangle var27 = contextArg.scissorStack.peek();
+            Matrix3x2f var17 = new Matrix3x2f((Matrix3x2fc)contextArg.pose());
+            ScreenRectangle var18 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$14069a97b42f6e94(
+               var21, var25, var21 + argument7Arg, (short)var13, var25 + argument8Arg, var17, var27, (short)var14, var15
+            );
+            NVGSpecialRenderer.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var19 = new NVGSpecialRenderer.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+               var21, var25, argument7Arg, argument8Arg, var17, var27, var18, (boolean)argument9Arg, renderContentArg
+            );
+            contextArg.guiRenderState.addPicturesInPictureState(var19);
+            var16 = true;
+         } catch (Throwable var20) {
+            PolinexLogger.error("[NVGSpecialRenderer] draw failed: " + var20.getMessage());
+            var20.printStackTrace();
+            var16 = false;
+         }
+
+         return var16;
+      }
+
+      private final ScreenRectangle IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c48c7483764f34e4(
+         int param1, int param2, int param3, short param4, int param5, Matrix3x2f param6, ScreenRectangle param7, short param8, int param9
       ) {
          // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
       }

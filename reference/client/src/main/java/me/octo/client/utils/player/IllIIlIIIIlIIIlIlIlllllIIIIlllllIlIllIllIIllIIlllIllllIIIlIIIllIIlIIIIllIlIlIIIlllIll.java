@@ -104,7 +104,7 @@ public final class IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIII
       Intrinsics.checkNotNullParameter(
          var7, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"z">(5913, 622566105735717631L ^ var3)
       );
-      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4adcf58aea64e664(
          (char)var8, this, var1, var5, false, var7, var9, false, false, (short)var10, 48, null
       );
    }
@@ -319,6 +319,219 @@ public final class IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIII
             var5
          );
       }
+   }
+
+   public static IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a97591b062dd6094(
+      short var0,
+      IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll var1,
+      IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var2,
+      int var3,
+      double var4,
+      double var6,
+      boolean var8,
+      boolean var9,
+      int var10,
+      boolean var11,
+      int var12,
+      Object var13,
+      int var14
+   ) {
+      var8 = 0;
+      var9 = 1;
+      byte var28 = 16;
+      long var15 = ((long)var0 << 48 | (long)var10 << 32 >>> 16 | (long)var14 << 48 >>> 48)
+         ^ lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
+      long var17 = var15 ^ 76830042677096L;
+      int var19 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         -7083323801766219943L, var15
+      );
+
+      int var10000;
+      label57: {
+         byte var20;
+         label56: {
+            label55: {
+               try {
+                  var20 = var28;
+                  if (var19 == 0) {
+                     break label56;
+                  }
+
+                  if ((var28 & 16) == 0) {
+                     break label55;
+                  }
+               } catch (MatchException var25) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var25, -7135517356239941290L, var15
+                  );
+               }
+
+               var8 = 0;
+            }
+
+            try {
+               var10000 = var28 & 32;
+               break label57;
+            } catch (MatchException var22) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var22, -7135517356239941290L, var15
+               );
+            }
+         }
+
+         var10000 = var20;
+      }
+
+      if (var10000 != 0) {
+         var9 = 0;
+      }
+
+      label44: {
+         byte var21;
+         label43: {
+            byte var10001;
+            try {
+               var21 = var28;
+               if (var19 == 0) {
+                  break label43;
+               }
+
+               var29 = var28;
+               var10001 = 64;
+            } catch (MatchException var24) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var24, -7135517356239941290L, var15
+               );
+            }
+
+            try {
+               if ((var29 & var10001) == 0) {
+                  return var1.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                     var2, var3, var4, var6, (boolean)var8, (boolean)var9, var17, (boolean)var11
+                  );
+               }
+
+               var30 = 0;
+               break label44;
+            } catch (MatchException var23) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var23, -7135517356239941290L, var15
+               );
+            }
+         }
+
+         var30 = var21;
+      }
+
+      var11 = var30;
+      return var1.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         var2, var3, var4, var6, (boolean)var8, (boolean)var9, var17, (boolean)var11
+      );
+   }
+
+   public static IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4adcf58aea64e664(
+      char var0,
+      IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll var1,
+      double var2,
+      double var4,
+      boolean var6,
+      IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var7,
+      int var8,
+      boolean var9,
+      boolean var10,
+      short var11,
+      int var12,
+      Object var13
+   ) {
+      var6 = 0;
+      var9 = 0;
+      var10 = 0;
+      byte var25 = 48;
+      long var14 = ((long)var0 << 48 | (long)var8 << 32 >>> 16 | (long)var11 << 48 >>> 48)
+         ^ lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
+      long var16 = var14 ^ 40008966404561L;
+      int var18 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         -820639722449877385L, var14
+      );
+
+      byte var10000;
+      byte var10001;
+      label37: {
+         label36: {
+            try {
+               var10000 = var25;
+               var10001 = 16;
+               if (var18 == 0) {
+                  break label37;
+               }
+
+               if ((var25 & 16) == 0) {
+                  break label36;
+               }
+            } catch (MatchException var21) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var21, -731845075222103944L, var14
+               );
+            }
+
+            var9 = 0;
+         }
+
+         try {
+            var10000 = var25;
+            var10001 = 32;
+         } catch (MatchException var19) {
+            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               var19, -731845075222103944L, var14
+            );
+         }
+      }
+
+      try {
+         if ((var10000 & var10001) == 0) {
+            return var1.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               var2, var4, (boolean)var6, var7, (boolean)var9, (boolean)var10, var16
+            );
+         }
+
+         var26 = false;
+      } catch (MatchException var20) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var20, -731845075222103944L, var14
+         );
+      }
+
+      boolean var27 = var26;
+      return var1.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         var2, var4, (boolean)var6, var7, (boolean)var9, var27, var16
+      );
+   }
+
+   @Nullable
+   public final IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$4b84e1e110696902(
+      long var1
+   ) {
+      var1 = 63653128856160L;
+      var1 = lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl ^ var1;
+
+      LocalPlayer var10000;
+      try {
+         var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI().player;
+         if (var10000 == null) {
+            return null;
+         }
+      } catch (MatchException var5) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5);
+      }
+
+      LocalPlayer var3 = var10000;
+      Vec3 var10002 = var3.position();
+      Intrinsics.checkNotNullExpressionValue(var10002, "position(...)");
+      Vec3 var10003 = var3.getDeltaMovement();
+      Intrinsics.checkNotNullExpressionValue(var10003, "getDeltaMovement(...)");
+      return new IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+         var10002, var10003, var3.getYRot(), var3.getXRot(), var3.onGround()
+      );
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

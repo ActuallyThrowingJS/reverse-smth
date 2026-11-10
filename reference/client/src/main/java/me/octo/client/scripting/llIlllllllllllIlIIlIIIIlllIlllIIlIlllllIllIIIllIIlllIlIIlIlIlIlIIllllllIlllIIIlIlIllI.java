@@ -152,7 +152,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       int var4 = (int)((var1 ^ 60182613476391L) << 16 >>> 48);
       int var5 = (int)(var10001 << 32 >>> 32);
       me.octo.client.utils.skyblock.mining.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl((short)var3, (short)var4, var5);
+         .IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl$recovered$2de9011974024ae6((short)var3, (short)var4, var5);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -505,7 +505,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
 
       try {
          Integer var10000 = me.octo.client.utils.skyblock.mining.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-            .IIIlIIlIllIlllIIIIlllIlIIIlIIIlIIlIIlIIllIIIlIlIlIlllIllIlIllIllIIlIlIllIIIIIllIlllll((byte)var3, var4, var5);
+            .IIIlIIlIllIlllIIIIlllIlIIIlIIIlIIlIIlIIllIIIlIlIlIlllIllIlIllIllIIlIlIllIIIIIllIlllll$recovered$7b5ba3c44743069f((byte)var3, var4, var5);
          if (var10000 != null) {
             return var10000;
          }
@@ -911,7 +911,12 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       int var6 = (int)((var1 ^ 19539923654812L) << 32 >>> 48);
       int var7 = (int)(var10001 << 48 >>> 48);
       return RangesKt.coerceIn(
-         this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var3, var5, var4, (short)var6, (char)var7) / 0.05, 0.0, 1.0
+         this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$5f8cedfca7250baf(
+               var3, var5, var4, (short)var6, (char)var7
+            )
+            / 0.05,
+         0.0,
+         1.0
       );
    }
 
@@ -1050,6 +1055,144 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
          this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII
             .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d071de42d3da131a(var3);
          break;
+      }
+   }
+
+   private final int IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a3882bf1c8380d28(
+      int var1, char var2, short var3, BlockPos var4
+   ) {
+      short var14 = 26916;
+      var2 = '\uf7d5';
+      var3 = -6011;
+      long var5 = ((long)var14 << 32 | (long)var2 << 48 >>> 32 | (long)var3 << 48 >>> 48)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var7 = lIllIllIIlIIlllIIIIIlIIlIlIIIIlIIlIllIIIIIIIIIlIIIIlIIlIlllIIIIIlIIIlIIIIIllIllIlIIIl.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll();
+
+      ClientLevel var10000;
+      try {
+         var10000 = this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.level;
+         if (this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.level == null) {
+            return 0;
+         }
+      } catch (MatchException var13) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13);
+      }
+
+      ClientLevel var8 = var10000;
+      int var9 = 0;
+      int var10 = -1;
+
+      while (true) {
+         if (var10 >= 2) {
+            var17 = var9;
+            break;
+         }
+
+         var17 = -1;
+         if (var7 != null) {
+            break;
+         }
+
+         for (int var11 = -1; var11 < 2; var11++) {
+            if (!var8.getBlockState(var4.offset(var10, 0, var11)).isAir()) {
+               var9++;
+            }
+         }
+
+         var10++;
+      }
+
+      return var17;
+   }
+
+   private final double llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$5f8cedfca7250baf(
+      BlockPos var1, int var2, BlockState var3, short var4, char var5
+   ) {
+      short var42 = 1514;
+      var4 = -26516;
+      short var44 = 23242;
+      long var6 = ((long)var42 << 32 | (long)var4 << 48 >>> 32 | (long)var44 << 48 >>> 48)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      int var8 = (int)((var6 ^ 55209243420921L) >>> 56);
+      long var9 = (var6 ^ 55209243420921L) << 8 >>> 8;
+      long var11 = var6 ^ 9041820137272L;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var13 = lIllIllIIlIIlllIIIIIlIIlIlIIIIlIIlIllIIIIIIIIIlIIIIlIIlIlllIIIIIlIIIlIIIIIllIllIlIIIl.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll();
+
+      ClientLevel var10000;
+      try {
+         var10000 = this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.level;
+         if (this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.level == null) {
+            return 0.0;
+         }
+      } catch (MatchException var41) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var41);
+      }
+
+      ClientLevel var14 = var10000;
+      Vec3 var15 = me.octo.client.utils.player.llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.lllIIllIIlIlIlIIIIIlIIIllIIlIlIIllIlIIIlIlIlIIIlIIlIlIlIllIllllIlllIIlIlIIllIlIlIllIl$recovered$14bfb7f54cf8f343(
+         var11
+      );
+      AABB var16 = me.octo.client.utils.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f82213220ef82775((byte)var8, var9, var1, var3);
+      double var17 = (var16.minX + var16.maxX) / 2.0;
+      double var19 = (var16.minY + var16.maxY) / 2.0;
+      double var21 = (var16.minZ + var16.maxZ) / 2.0;
+      Triple[] var24 = new Triple[]{
+         new Triple(new Vec3(0.0, 1.0, 0.0), new Vec3(var17, var16.maxY, var21), var1.above()),
+         new Triple(new Vec3(0.0, -1.0, 0.0), new Vec3(var17, var16.minY, var21), var1.below()),
+         new Triple(new Vec3(0.0, 0.0, -1.0), new Vec3(var17, var19, var16.minZ), var1.offset(0, 0, -1)),
+         new Triple(new Vec3(0.0, 0.0, 1.0), new Vec3(var17, var19, var16.maxZ), var1.offset(0, 0, 1)),
+         new Triple(new Vec3(-1.0, 0.0, 0.0), new Vec3(var16.minX, var19, var21), var1.offset(-1, 0, 0)),
+         new Triple(new Vec3(1.0, 0.0, 0.0), new Vec3(var16.maxX, var19, var21), var1.offset(1, 0, 0))
+      };
+      List var23 = CollectionsKt.listOf(var24);
+      double var45 = 0.0;
+      Iterator var26 = var23.iterator();
+
+      label45:
+      while (true) {
+         Iterator var46 = var26;
+
+         while (var46.hasNext()) {
+            var46 = var26;
+            if (var13 == null) {
+               Triple var27 = (Triple)var26.next();
+               Vec3 var28 = (Vec3)var27.component1();
+               Vec3 var29 = (Vec3)var27.component2();
+               var10000 = (ClientLevel)var27.component3();
+               Intrinsics.checkNotNullExpressionValue(var10000, "component3(...)");
+               BlockPos var30 = (BlockPos)var10000;
+               if (var14.getBlockState(var30).isAir()) {
+                  Vec3 var48 = var29.subtract(var15);
+                  Intrinsics.checkNotNullExpressionValue(var48, "subtract(...)");
+                  Vec3 var31 = var48;
+                  double var32 = var31.lengthSqr();
+
+                  try {
+                     if (var32 < 1.0E-6) {
+                        continue label45;
+                     }
+                  } catch (MatchException var40) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var40);
+                  }
+
+                  double var34 = Math.abs(var31.normalize().dot(var28)) / var32;
+
+                  try {
+                     if (!(var34 > var45)) {
+                        continue label45;
+                     }
+                  } catch (MatchException var39) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var39);
+                  }
+
+                  var45 = var34;
+               }
+               continue label45;
+            }
+         }
+
+         return var45;
       }
    }
 }

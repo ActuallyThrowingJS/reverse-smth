@@ -983,4 +983,73 @@ public final class llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllII
    public static final double IlIlIlIlIlIlIlIlIllIIlIlIlIlIlIIIllllIlIIIlIIIIIIlIlIlIIllllIlIIIIlllIIlIIIlllIIIIlII$recovered$9398b26145b71174(long param0) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   public final boolean IllIIlIlIlIlIIllIIllIlIlIIlllIIllllllIIIIlIlIllIIlllIlIIIIlllIIIllIIIIIlllllllIlIllIl$recovered$306aabe313aa666d(
+      short param1, char param2, int param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IllIlllllIIlIIIIIIIllIllIlIllIIlllIIIIIlIlIIllIlIlIllIlIIIlIIIlllIlIlIlIlllIIllIlIIlI$recovered$cfe0af7b662ca148(
+      int param1, byte param2, int param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean lIllIllIlIllIlIlIIIlllIlllIlllIIIIIIIlIllllIIlIIIlIllIllIlIlIIlIIIlIlIlllIlllIIIIlIII$recovered$4e5aeb3a62f14703(
+      int var1, short var2, short var3
+   ) {
+      short var12 = 17338;
+      var2 = -7705;
+      var3 = 26962;
+      long var4 = ((long)var12 << 32 | (long)var2 << 48 >>> 32 | (long)var3 << 48 >>> 48)
+         ^ lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll;
+      int var10000 = llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI();
+      HitResult var7 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI().hitResult;
+      int var6 = var10000;
+
+      label27: {
+         try {
+            var15 = var7;
+            if (var6 == 0) {
+               break label27;
+            }
+
+            if (var7 == null) {
+               return false;
+            }
+         } catch (MatchException var11) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11);
+         }
+
+         var15 = var7;
+      }
+
+      try {
+         if (var15.getType() == Type.MISS) {
+            return true;
+         }
+      } catch (MatchException var10) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10);
+      }
+
+      return false;
+   }
+
+   @NotNull
+   public final BlockPos IIlIIIllllllIIIlllIlIIlIllIlIIllIlIIlIIIIIIIIlIIIlllIlllIIllllIIlIIIIlIlIIIllllIIlllI$recovered$413172ac48c81fac(long var1) {
+      var1 = 41441835249983L;
+      var1 = lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll ^ var1;
+      LocalPlayer var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI().player;
+      Intrinsics.checkNotNull(var10000);
+      double var5 = var10000.getX();
+      LocalPlayer var10001 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI().player;
+      Intrinsics.checkNotNull(var10001);
+      double var7 = var10001.getY() - 0.5;
+      LocalPlayer var10002 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI().player;
+      Intrinsics.checkNotNull(var10002);
+      BlockPos var6 = BlockPos.containing(var5, var7, var10002.getZ());
+      Intrinsics.checkNotNullExpressionValue(var6, "containing(...)");
+      return var6;
+   }
 }

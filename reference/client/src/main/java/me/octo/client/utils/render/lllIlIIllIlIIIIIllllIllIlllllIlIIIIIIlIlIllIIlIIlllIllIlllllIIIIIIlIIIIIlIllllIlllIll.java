@@ -737,6 +737,175 @@ public final class lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllI
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
+   private final int IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e808b637c465894b(
+      int param1, char param2, int param3, char param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$7264f5c29ea7c112(
+      int var1, int var2, int var3, char var4, int var5
+   ) {
+      short var30 = 14667;
+      char var31 = '걫';
+      short var32 = 14765;
+      long var6 = ((long)var30 << 32 | (long)var31 << 48 >>> 32 | (long)var32 << 48 >>> 48)
+         ^ IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl;
+      long var8 = var6 ^ 69578677842836L;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = PictureInPictureManager.IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII();
+      int[] var11 = (int[])this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.clone();
+      long[] var12 = (long[])this.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl.clone();
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10 = var10000;
+      int var14 = 0;
+      int[] var15 = new int[3];
+
+      label131: {
+         while (var14 < 3) {
+            int var16 = var14;
+
+            int[] var20;
+            try {
+               var20 = var15;
+               if (var10 != null) {
+                  var15[var16] = this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$7382b3d2f19407c9(
+                     var1, var5, var8
+                  );
+                  var14++;
+                  if (var10 != null) {
+                     continue;
+                  }
+                  break;
+               }
+            } catch (MatchException var29) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var29);
+            }
+
+            var38 = var20;
+            break label131;
+         }
+
+         var38 = var15;
+      }
+
+      int[] var13 = var38;
+      var14 = 0;
+
+      label115: {
+         while (var14 < 3) {
+            int var21;
+            try {
+               GL30.glBindFramebuffer(
+                  llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(13445, 2390603985506144594L ^ var6),
+                  this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII[var14]
+               );
+               var21 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(13445, 2390603985506144594L ^ var6);
+               if (var10 != null) {
+                  GL30.glFramebufferTexture2D(
+                     var21,
+                     llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(26900, 5141730164100451521L ^ var6),
+                     3553,
+                     var13[var14],
+                     0
+                  );
+                  GL11.glClearColor(0.0F, 0.0F, 0.0F, 1.0F);
+                  GL11.glClear(16384);
+                  var14++;
+                  if (var10 != null) {
+                     continue;
+                  }
+                  break;
+               }
+            } catch (MatchException var28) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var28);
+            }
+
+            var39 = var21;
+            break label115;
+         }
+
+         var39 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(13445, 2390603985506144594L ^ var6);
+      }
+
+      GL30.glBindFramebuffer(var39, 0);
+      Lock var34 = this.lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll;
+      var34.lock();
+
+      try {
+         boolean var35 = false;
+         int var37 = 0;
+
+         while (true) {
+            if (var37 < 3) {
+               try {
+                  this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl[var37] = var13[var37];
+                  if (var10 == null) {
+                     break;
+                  }
+
+                  this.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl[var37] = 0L;
+                  var37++;
+                  if (var10 != null) {
+                     continue;
+                  }
+               } catch (MatchException var26) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var26);
+               }
+            }
+
+            this.llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = 0;
+            this.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = 1;
+            this.lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(
+               29668, 4870916873548715574L ^ var6
+            );
+            this.lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = false;
+            break;
+         }
+
+         Unit var36 = Unit.INSTANCE;
+      } finally {
+         var34.unlock();
+      }
+
+      this.llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI
+         .add(
+            new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+               var11, var12, 3
+            )
+         );
+      this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var1;
+      this.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var5;
+   }
+
+   private final int IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$7382b3d2f19407c9(
+      int var1, int var2, long var3
+   ) {
+      var3 = 123675779813899L;
+      var3 = IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl ^ var3;
+      int var5 = GL11.glGenTextures();
+      GL11.glBindTexture(3553, var5);
+      GL11.glTexImage2D(
+         3553,
+         0,
+         llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(6722, 4878777586129654844L ^ var3),
+         var1,
+         var2,
+         0,
+         6407,
+         5121,
+         0L
+      );
+      GL11.glTexParameteri(3553, 10241, 9729);
+      GL11.glTexParameteri(3553, 10240, 9729);
+      GL11.glTexParameteri(
+         3553, 10242, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(8026, 3634964358615879981L ^ var3)
+      );
+      GL11.glTexParameteri(
+         3553, 10243, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(4404, 6939209048121040708L ^ var3)
+      );
+      GL11.glBindTexture(3553, 0);
+      return var5;
+   }
+
    private static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
       @NotNull
       private final int[] textures;

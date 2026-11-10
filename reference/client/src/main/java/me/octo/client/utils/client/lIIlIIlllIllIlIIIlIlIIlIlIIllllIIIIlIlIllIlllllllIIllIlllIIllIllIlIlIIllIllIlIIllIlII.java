@@ -320,4 +320,30 @@ public final class lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIll
          );
       }
    }
+
+   private final Integer IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0e8b673e3fe8e286(
+      byte var1, int var2, String var3, int var4
+   ) {
+      var1 = 0;
+      var2 = 4131365;
+      var4 = 12039181;
+      long var5 = ((long)var1 << 56 | (long)var2 << 32 >>> 8 | (long)var4 << 40 >>> 40)
+         ^ IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+      long var7 = var5 ^ 46799850621417L;
+
+      try {
+         if (!me.octo.client.utils.player.llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.IIIlllllIIIlIIllIllllIIllIIIlllllIlIlIllIIllIIllIlIIIlIlIIllIlIIlllIIIIlllIlIlllllllI$recovered$cb45cbd332286064(
+            var7
+         )) {
+            return null;
+         }
+      } catch (MatchException var10) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10);
+      }
+
+      Map var10000 = IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI;
+      String var10001 = var3.toLowerCase(Locale.ROOT);
+      Intrinsics.checkNotNullExpressionValue(var10001, "toLowerCase(...)");
+      return (Integer)var10000.get(var10001);
+   }
 }

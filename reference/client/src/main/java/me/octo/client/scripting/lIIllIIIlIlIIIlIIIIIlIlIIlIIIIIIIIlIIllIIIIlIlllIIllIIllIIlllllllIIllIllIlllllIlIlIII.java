@@ -452,4 +452,28 @@ public final class lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlll
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   public final int IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$06f4d48682c81f20(
+      @NotNull String scriptNameArg, char argument2Arg, int argument3Arg, int argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$42fae990784b2ce6(
+      int argument1Arg,
+      @NotNull String scriptNameArg,
+      @NotNull me.octo.client.gui.clickgui.modules.impl.llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII macroArg,
+      int argument4Arg,
+      int argument5Arg
+   ) {
+      short var10 = 15972;
+      short var11 = 9886;
+      char var12 = 'ꐒ';
+      long var6 = ((long)var10 << 32 | (long)var11 << 48 >>> 32 | (long)var12 << 48 >>> 48)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      long var8 = var6 ^ 36937797371186L;
+      Intrinsics.checkNotNullParameter(scriptNameArg, "scriptName");
+      Intrinsics.checkNotNullParameter(macroArg, "macro");
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1cdf06f15a08d481(var8, scriptNameArg, macroArg);
+   }
 }

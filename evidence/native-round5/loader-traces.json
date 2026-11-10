@@ -1,0 +1,2456 @@
+[
+  {
+    "target": {
+      "className": null,
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
+      "fnAddr": 271468512,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x2e47e0",
+      "unwindSize": "0xdb"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/Runtime"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "java/lang/Runtime",
+        "name": "getRuntime",
+        "descriptor": "()Ljava/lang/Runtime;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Runtime",
+          "getRuntime",
+          "()Ljava/lang/Runtime;"
+        ],
+        "rawArg4": "0x2007bef98"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/Runtime",
+        "name": "halt",
+        "descriptor": "(I)V"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "java/lang/Runtime",
+          "halt",
+          "(I)V"
+        ],
+        "rawArg4": "0x1"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII",
+      "desc": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
+      "fnAddr": 271526944,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x2f2c20",
+      "unwindSize": "0xdb"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Runtime",
+          "getRuntime",
+          "()Ljava/lang/Runtime;"
+        ],
+        "rawArg4": "0x1"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "java/lang/Runtime",
+          "halt",
+          "(I)V"
+        ],
+        "rawArg4": "0x1"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "llllIIIllIIlIlllllIlIIIIlIllllllllIllllIlIIllIlllIllIlIIlIIIllIIIlIllIIIIIllllIIllllI",
+      "desc": "()Ljava/lang/ClassLoader;",
+      "fnAddr": 268997968,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x89550",
+      "unwindSize": "0x1aa"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "java/lang/Thread",
+          "getContextClassLoader",
+          "()Ljava/lang/ClassLoader;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/Thread"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "java/lang/Thread",
+        "name": "currentThread",
+        "descriptor": "()Ljava/lang/Thread;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Thread",
+          "currentThread",
+          "()Ljava/lang/Thread;"
+        ],
+        "rawArg4": "0x2007bdf68"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/Thread",
+        "name": "getContextClassLoader",
+        "descriptor": "()Ljava/lang/ClassLoader;"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/lang/Thread",
+          "getContextClassLoader",
+          "()Ljava/lang/ClassLoader;"
+        ],
+        "rawArg4": "0x2007bdf98"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "([ZLjavax/swing/JOptionPane;[Ljava/lang/String;Ljavax/swing/JDialog;Ljava/awt/event/ActionEvent;)V",
+      "fnAddr": 270159808,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x1a4fc0",
+      "unwindSize": "0x21f"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 208,
+        "jni": "SetByteArrayRegion"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "javax/swing/JOptionPane"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "javax/swing/JOptionPane",
+        "name": "setValue",
+        "descriptor": "(Ljava/lang/Object;)V"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "javax/swing/JOptionPane",
+          "setValue",
+          "(Ljava/lang/Object;)V"
+        ],
+        "rawArg4": "0x400030000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "javax/swing/JDialog"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "javax/swing/JDialog",
+        "name": "dispose",
+        "descriptor": "()V"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "javax/swing/JDialog",
+          "dispose",
+          "()V"
+        ],
+        "rawArg4": "0x2007bd798"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII",
+      "desc": "(J)Ljava/io/File;",
+      "fnAddr": 268649312,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x34360",
+      "unwindSize": "0x390"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      null
+    ],
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "net/fabricmc/loader/api/FabricLoader"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "net/fabricmc/loader/api/FabricLoader",
+        "name": "getInstance",
+        "descriptor": "()Lnet/fabricmc/loader/api/FabricLoader;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "net/fabricmc/loader/api/FabricLoader",
+          "getInstance",
+          "()Lnet/fabricmc/loader/api/FabricLoader;"
+        ],
+        "rawArg4": "0x2007bcf28"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "net/fabricmc/loader/api/FabricLoader",
+        "name": "getGameDir",
+        "descriptor": "()Ljava/nio/file/Path;"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "net/fabricmc/loader/api/FabricLoader",
+          "getGameDir",
+          "()Ljava/nio/file/Path;"
+        ],
+        "rawArg4": "0x2007bcf48"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/nio/file/Path"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/nio/file/Path",
+        "name": "toFile",
+        "descriptor": "()Ljava/io/File;"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/nio/file/Path",
+          "toFile",
+          "()Ljava/io/File;"
+        ],
+        "rawArg4": "0x2007bcf48"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/io/File"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+        "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+        "descriptor": "(III)Ljava/lang/String;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xe1306995"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/io/File",
+        "name": "<init>",
+        "descriptor": "(Ljava/io/File;Ljava/lang/String;)V"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xe130697d"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(Lnet/fabricmc/loader/api/ModContainer;)Ljava/lang/String;",
+      "fnAddr": 270172016,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x1a7f70",
+      "unwindSize": "0x3af"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "net/fabricmc/loader/api/Version",
+          "getFriendlyString",
+          "()Ljava/lang/String;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "net/fabricmc/loader/api/ModContainer"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "net/fabricmc/loader/api/ModContainer",
+        "name": "getMetadata",
+        "descriptor": "()Lnet/fabricmc/loader/api/metadata/ModMetadata;"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "net/fabricmc/loader/api/ModContainer",
+          "getMetadata",
+          "()Lnet/fabricmc/loader/api/metadata/ModMetadata;"
+        ],
+        "rawArg4": "0x2007bc7a8"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "net/fabricmc/loader/api/metadata/ModMetadata"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "net/fabricmc/loader/api/metadata/ModMetadata",
+        "name": "getVersion",
+        "descriptor": "()Lnet/fabricmc/loader/api/Version;"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "net/fabricmc/loader/api/metadata/ModMetadata",
+          "getVersion",
+          "()Lnet/fabricmc/loader/api/Version;"
+        ],
+        "rawArg4": "0x2007bc7a8"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "net/fabricmc/loader/api/Version"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "net/fabricmc/loader/api/Version",
+        "name": "getFriendlyString",
+        "descriptor": "()Ljava/lang/String;"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "net/fabricmc/loader/api/Version",
+          "getFriendlyString",
+          "()Ljava/lang/String;"
+        ],
+        "rawArg4": "0x2007bc7a8"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "$restoreCommVisit",
+      "desc": "(Lorg/objectweb/asm/ClassWriter;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V",
+      "fnAddr": 270688864,
+      "registrarSymbol": "Java_me_octo_client_IIlIlllIIlIIIIIlIlIlllIlIIIIlIlllIlllIlIIIlIllllIllIIIlIllIIlIIlIllllllIIIllIIIlIllll__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/IIlIlllIIlIIIIIlIlIlllIlIIIIlIlllIlllIlIIIlIllllIllIIIlIllIIlIIlIllllllIIIllIIIlIllll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x226260",
+      "unwindSize": "0x3c9"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 163,
+        "jni": "NewString"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 163,
+        "jni": "NewString"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/String"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/String",
+        "name": "replace",
+        "descriptor": "(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/lang/String",
+          "replace",
+          "(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;"
+        ],
+        "rawArg4": "0x8000295ba"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "org/objectweb/asm/ClassWriter"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "org/objectweb/asm/ClassWriter",
+        "name": "visit",
+        "descriptor": "(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "org/objectweb/asm/ClassWriter",
+          "visit",
+          "(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V"
+        ],
+        "rawArg4": "0x7bc7a8"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(J)Ljava/lang/String;",
+      "fnAddr": 268647472,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x33c30",
+      "unwindSize": "0x3d1"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xb0d297cd"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IllIIIIIllIllIlIIIllllIlIIIIIlIIlIIllllIIIIIllIlllIIllllllIllIIlllIllIIlllllIIIIIllll",
+      "desc": "(J)Ljava/lang/String;",
+      "fnAddr": 269035712,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x928c0",
+      "unwindSize": "0x3d1"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0x43166654"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "openConnection",
+      "desc": "(Ljava/net/URL;)Ljava/net/URLConnection;",
+      "fnAddr": 270383936,
+      "registrarSymbol": "Java_lol_polinexclient_loader_IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x1dbb40",
+      "unwindSize": "0x4ac"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      null
+    ],
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "lol/polinexclient/loader/IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI$lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "lol/polinexclient/loader/IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI$lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+        "name": "<init>",
+        "descriptor": "(Ljava/net/URL;)V"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(JI)V",
+      "fnAddr": 269843056,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x157a70",
+      "unwindSize": "0x713"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 144,
+        "jni": "GetStaticFieldID",
+        "owner": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+        "name": "IllIlIlIlIlIIIIIllIIllIIIIIIlIlllIlllIlIIIllllIIIllIIIlllIlIIIlIIIllIIIIllIIIIIIlIIII",
+        "descriptor": "J"
+      },
+      {
+        "slot": 151,
+        "jni": "GetStaticLongField"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "java/lang/Thread",
+        "name": "sleep",
+        "descriptor": "(J)V"
+      },
+      {
+        "slot": 141,
+        "jni": "CallStaticVoidMethod",
+        "member": [
+          "java/lang/Thread",
+          "sleep",
+          "(J)V"
+        ],
+        "rawArg4": "0xa5a6fc3ce0000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "lllIIlIlIllIlIIlIlIIlIIIllIIIIIllllIlllIIlIllIlIlIIIllllIlIllllIIlIlIIIIIIlIIIIllIllI",
+      "desc": "(J)V",
+      "fnAddr": 272044096,
+      "registrarSymbol": "Java_lol_polinexclient_loader_IlIlIllIllIllIIlIlIlllllIllIIlIlllllIllIlllIIllIlIlllllIlIlIlIIllIIIlIIlIllllIIlIllll__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/IlIlIllIllIllIIlIlIlllllIllIIlIlllllIllIlllIIllIlIlllllIlIlIlIIllIIIlIIlIllllIIlIllll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x371040",
+      "unwindSize": "0x7e2"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "lol/polinexclient/loader/IlIlIllIllIllIIlIlIlllllIllIIlIlllllIllIlllIIllIlIlllllIlIlIlIIllIIIlIIlIllllIIlIllll"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "lol/polinexclient/loader/IlIlIllIllIllIIlIlIlllllIllIIlIlllllIllIlllIIllIlIlllllIlIlIlIIllIIIlIIlIllllIIlIllll",
+        "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+        "descriptor": "(III)Ljava/lang/String;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/IlIlIllIllIllIIlIlIlllllIllIIlIlllllIllIlllIIllIlIlllllIlIlIlIIllIIIlIIlIllllIIlIllll",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xf2b7507e"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 163,
+        "jni": "NewString"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/invoke/MethodType"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI",
+        "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+        "descriptor": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "java/lang/invoke/MethodType",
+        "name": "fromMethodDescriptorString",
+        "descriptor": "(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/invoke/MethodType;"
+      },
+      {
+        "slot": 163,
+        "jni": "NewString"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/Class"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/Class",
+        "name": "getClassLoader",
+        "descriptor": "()Ljava/lang/ClassLoader;"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/lang/Class",
+          "getClassLoader",
+          "()Ljava/lang/ClassLoader;"
+        ],
+        "rawArg4": "0x2007b9668"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodType",
+          "fromMethodDescriptorString",
+          "(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/invoke/MethodType;"
+        ],
+        "rawArg4": "0x80002976a"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+        ],
+        "rawArg4": "0x0"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 23,
+        "jni": "DeleteLocalRef"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/invoke/CallSite"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/invoke/CallSite",
+        "name": "getTarget",
+        "descriptor": "()Ljava/lang/invoke/MethodHandle;"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/lang/invoke/CallSite",
+          "getTarget",
+          "()Ljava/lang/invoke/MethodHandle;"
+        ],
+        "rawArg4": "0x2007b9678"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/Object"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 172,
+        "jni": "NewObjectArray"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/Long"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "java/lang/Long",
+        "name": "valueOf",
+        "descriptor": "(J)Ljava/lang/Long;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Long",
+          "valueOf",
+          "(J)Ljava/lang/Long;"
+        ],
+        "rawArg4": "0x789a171e1d51"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Long",
+          "valueOf",
+          "(J)Ljava/lang/Long;"
+        ],
+        "rawArg4": "0x82d465dc7758f709"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Long",
+          "valueOf",
+          "(J)Ljava/lang/Long;"
+        ],
+        "rawArg4": "0x3"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/invoke/MethodHandle"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/invoke/MethodHandle",
+        "name": "invokeWithArguments",
+        "descriptor": "([Ljava/lang/Object;)Ljava/lang/Object;"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodHandle",
+          "invokeWithArguments",
+          "([Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        "rawArg4": "0x400030000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(IJ)J",
+      "fnAddr": 271677344,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x3177a0",
+      "unwindSize": "0x882"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 144,
+        "jni": "GetStaticFieldID",
+        "owner": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+        "name": "IIllIIIIIIIllIlIlIIIllllllIlIllIllIllIlIlIllIIlIIIllIlIIIlllIIlIIIlIIlllIlIIIllIIIIIl",
+        "descriptor": "[Ljava/lang/Long;"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIllIIIIIIIllIlIlIIIllllllIlIllIllIllIlIlIllIIlIIIllIlIIIlllIIlIIIlIIlllIlIIIllIIIIIl",
+          "[Ljava/lang/Long;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIllIIIIIIIllIlIlIIIllllllIlIllIllIllIlIlIllIIlIIIllIlIIIlllIIlIIIlIIlllIlIIIllIIIIIl",
+          "[Ljava/lang/Long;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/Long",
+        "name": "longValue",
+        "descriptor": "()J"
+      },
+      {
+        "slot": 52,
+        "jni": "CallLongMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(IJ)I",
+      "fnAddr": 270336096,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x1d0060",
+      "unwindSize": "0x8ba"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 144,
+        "jni": "GetStaticFieldID",
+        "owner": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+        "name": "IIlIllllIIIllIllIlllIIIllIIIlIIlllIlIIllllIIlIIlIlIlIIlIllIIllIlllIllIlllIIllllIIIIlI",
+        "descriptor": "[Ljava/lang/Integer;"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+          "IIlIllllIIIllIllIlllIIIllIIIlIIlllIlIIllllIIlIIlIlIlIIlIllIIllIlllIllIlllIIllllIIIIlI",
+          "[Ljava/lang/Integer;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+          "IIlIllllIIIllIllIlllIIIllIIIlIIlllIlIIllllIIlIIlIlIlIIlIllIIllIlllIllIlllIIllllIIIIlI",
+          "[Ljava/lang/Integer;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/Integer"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/Integer",
+        "name": "intValue",
+        "descriptor": "()I"
+      },
+      {
+        "slot": 49,
+        "jni": "CallIntMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+      "desc": "(JLjava/lang/String;)V",
+      "fnAddr": 271150208,
+      "registrarSymbol": "Java_lol_polinexclient_loader_IIIIIllllllllIIIIlllIllIlIllIllllIllIIlIllIIIlllIlllIIlllIlllIlllllIlIlIIlllllIIllllI__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/IIIIIllllllllIIIIlllIllIlIllIllllIllIIlIllIIIlllIlllIIlllIlllIlllllIlIlIIlllllIIllllI",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x296c80",
+      "unwindSize": "0x8d5"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 163,
+        "jni": "NewString"
+      },
+      {
+        "slot": 163,
+        "jni": "NewString"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "lol/polinexclient/loader/IIIIIllllllllIIIIlllIllIlIllIllllIllIIlIllIIIlllIlllIIlllIlllIlllllIlIlIIlllllIIllllI"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/lang/Class",
+          "getClassLoader",
+          "()Ljava/lang/ClassLoader;"
+        ],
+        "rawArg4": "0x400001000"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodType",
+          "fromMethodDescriptorString",
+          "(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/invoke/MethodType;"
+        ],
+        "rawArg4": "0x80002996a"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+        ],
+        "rawArg4": "0x0"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 23,
+        "jni": "DeleteLocalRef"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/lang/invoke/CallSite",
+          "getTarget",
+          "()Ljava/lang/invoke/MethodHandle;"
+        ],
+        "rawArg4": "0x0"
+      },
+      {
+        "slot": 172,
+        "jni": "NewObjectArray"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "java/lang/Integer",
+        "name": "valueOf",
+        "descriptor": "(I)Ljava/lang/Integer;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Integer",
+          "valueOf",
+          "(I)Ljava/lang/Integer;"
+        ],
+        "rawArg4": "0x480a"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Integer",
+          "valueOf",
+          "(I)Ljava/lang/Integer;"
+        ],
+        "rawArg4": "0x80e3"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/Character"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "java/lang/Character",
+        "name": "valueOf",
+        "descriptor": "(C)Ljava/lang/Character;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Character",
+          "valueOf",
+          "(C)Ljava/lang/Character;"
+        ],
+        "rawArg4": "0x4a2f"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Long",
+          "valueOf",
+          "(J)Ljava/lang/Long;"
+        ],
+        "rawArg4": "0xe352324092175dd5"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Long",
+          "valueOf",
+          "(J)Ljava/lang/Long;"
+        ],
+        "rawArg4": "0x80002993a"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodHandle",
+          "invokeWithArguments",
+          "([Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        "rawArg4": "0x400030000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 163,
+        "jni": "NewString"
+      },
+      {
+        "slot": 163,
+        "jni": "NewString"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/lang/Class",
+          "getClassLoader",
+          "()Ljava/lang/ClassLoader;"
+        ],
+        "rawArg4": "0x2007b7f78"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodType",
+          "fromMethodDescriptorString",
+          "(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/invoke/MethodType;"
+        ],
+        "rawArg4": "0x800029a6a"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+        ],
+        "rawArg4": "0x0"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 23,
+        "jni": "DeleteLocalRef"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/lang/invoke/CallSite",
+          "getTarget",
+          "()Ljava/lang/invoke/MethodHandle;"
+        ],
+        "rawArg4": "0x400001000"
+      },
+      {
+        "slot": 172,
+        "jni": "NewObjectArray"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Long",
+          "valueOf",
+          "(J)Ljava/lang/Long;"
+        ],
+        "rawArg4": "0x26ea5143d53b"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Long",
+          "valueOf",
+          "(J)Ljava/lang/Long;"
+        ],
+        "rawArg4": "0xe356003d94e5f7f6"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Long",
+          "valueOf",
+          "(J)Ljava/lang/Long;"
+        ],
+        "rawArg4": "0x80002993a"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodHandle",
+          "invokeWithArguments",
+          "([Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        "rawArg4": "0x400030000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "lol/polinexclient/loader/IIIlIlllIIllIlllIllIIIlIIIIlllllIIIIlllIllllllIlIlllIIlIlIIIllIIIllllIllllllIlIIIIIlI"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "lol/polinexclient/loader/IIIlIlllIIllIlllIllIIIlIIIIlllllIIIIlllIllllllIlIlllIIlIlIIIllIIIllllIllllllIlIIIIIlI",
+        "name": "<init>",
+        "descriptor": "(Ljava/lang/String;)V"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 13,
+        "jni": "Throw"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "lllIlIIIIIIIlllIllIlIllIlllIlIIlIlllllIIlllllIlllIlIlIlIIIIlIIlllIlIlIIIIlIIIIlIllIIl",
+      "desc": "(J)Ljava/lang/RuntimeException;",
+      "fnAddr": 271469232,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x2e4ab0",
+      "unwindSize": "0x96b"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      null
+    ],
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII$IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII$IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+        "name": "<init>",
+        "descriptor": "()V"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/StackTraceElement"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 172,
+        "jni": "NewObjectArray"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+        "name": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+        "descriptor": "(III)Ljava/lang/String;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xa8a77b64"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xa8a77b7c"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/StackTraceElement",
+        "name": "<init>",
+        "descriptor": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xa8a77b64"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xa8a77b75"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xa8a77b63"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xa8a77b6b"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xa8a77b68"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xa8a77b63"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/RuntimeException"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/RuntimeException",
+        "name": "setStackTrace",
+        "descriptor": "([Ljava/lang/StackTraceElement;)V"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "java/lang/RuntimeException",
+          "setStackTrace",
+          "([Ljava/lang/StackTraceElement;)V"
+        ],
+        "rawArg4": "0x400030000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "lIlIIIIIIlIlllIIlIlIlllIIIlIlIIIllIlIlIlllIlllIlIllIllllIIIIlIllIllIllIIIlIllIlIIIIIl",
+      "desc": "(J)Ljava/lang/RuntimeException;",
+      "fnAddr": 271527168,
+      "registrarSymbol": "Java_lol_polinexclient_loader_lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII__00024jnicLoader",
+      "classFromRegistrar": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x2f2d00",
+      "unwindSize": "0x96b"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      null
+    ],
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII$IIlIlllIIlIIIIIlIlIlllIlIIIIlIlllIlllIlIIIlIllllIllIIIlIllIIlIIlIllllllIIIllIIIlIllll"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII$IIlIlllIIlIIIIIlIlIlllIlIIIIlIlllIlllIlIIIlIllllIllIIIlIllIIlIIlIllllllIIIllIIIlIllll",
+        "name": "<init>",
+        "descriptor": "()V"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 172,
+        "jni": "NewObjectArray"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xcfb224b"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xcfb2253"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xcfb2241"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xcfb2251"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xcfb2242"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 27,
+        "jni": "AllocObject"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xcfb2245"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xcfb225a"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "lol/polinexclient/loader/lIIIlllIIIIIIlIIIlllIIlIIIIIllIIIlllIllIlIIlIllIllllIIIIlIIIIllllIlllllIIlIlIIlllIlII",
+          "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+          "(III)Ljava/lang/String;"
+        ],
+        "rawArg4": "0xcfb2246"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 91,
+        "jni": "CallNonvirtualVoidMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "java/lang/RuntimeException",
+          "setStackTrace",
+          "([Ljava/lang/StackTraceElement;)V"
+        ],
+        "rawArg4": "0x400030000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  }
+]

@@ -370,4 +370,22 @@ public final class PolinexGlow {
          var5 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.put(entityArg.getId(), argument3Arg);
       }
    }
+
+   // $VF: Extended synchronized range to monitorexit
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5f4341ba03f72086(
+      char argument1Arg, char argument2Arg, int argument3Arg, @NotNull Entity entityArg
+   ) {
+      byte var10 = 0;
+      short var11 = 23736;
+      argument3Arg = 1484616625;
+      long var4 = ((long)var10 << 48 | (long)var11 << 48 >>> 16 | (long)argument3Arg << 32 >>> 32)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      Intrinsics.checkNotNullParameter(entityArg, "entity");
+      Object var6 = IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+      synchronized (var6) {
+         int var7 = 0;
+         var7 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.remove(entityArg.getId());
+      }
+   }
 }

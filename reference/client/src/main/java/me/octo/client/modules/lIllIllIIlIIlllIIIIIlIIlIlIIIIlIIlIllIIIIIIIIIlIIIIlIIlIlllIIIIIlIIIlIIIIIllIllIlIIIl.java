@@ -450,5 +450,19 @@ public final class lIllIllIIlIIlllIIIIIlIIlIlIIIIlIIlIllIIIIIIIIIlIIIIlIIlIlllII
             );
          }
       }
+
+      @NotNull
+      public final lIllIllIIlIIlllIIIIIlIIlIlIIIIlIIlIllIIIIIIIIIlIIIIlIIlIlllIIIIIlIIIlIIIIIllIllIlIIIl IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0b8d0f6f313b7632(
+         @NotNull BlockPos posArg, short argument2Arg, short argument3Arg, @NotNull String typeArg, int argument5Arg
+      ) {
+         byte var8 = 0;
+         argument3Arg = 10028;
+         argument5Arg = -1360872801;
+         long var6 = ((long)var8 << 48 | (long)argument3Arg << 48 >>> 16 | (long)argument5Arg << 32 >>> 32)
+            ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+         Intrinsics.checkNotNullParameter(posArg, "pos");
+         Intrinsics.checkNotNullParameter(typeArg, "type");
+         return new lIllIllIIlIIlllIIIIIlIIlIlIIIIlIIlIllIIIIIIIIIlIIIIlIIlIlllIIIIIlIIIlIIIIIllIllIlIIIl(posArg.getX(), posArg.getY(), posArg.getZ(), typeArg);
+      }
    }
 }

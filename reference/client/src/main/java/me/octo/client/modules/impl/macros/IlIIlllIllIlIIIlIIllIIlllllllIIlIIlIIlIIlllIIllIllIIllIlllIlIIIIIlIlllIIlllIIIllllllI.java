@@ -887,22 +887,92 @@ public final class IlIIlllIllIlIIIlIIllIIlllllllIIlIIlIIlIIlllIIllIllIIllIlllIlI
       Iterable var4 = this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
       int[] var3 = var10000;
       boolean var5 = false;
-      var var7 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var4, 10));
+      Collection var7 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var4, 10));
       boolean var8 = false;
+      Iterator var9 = var4.iterator();
 
-      for (Object var10 : var4) {
-         IlIIlllIllIlIIIlIIllIIlllllllIIlIIlIIlIIlllIIllIllIIllIlllIlIIIIIlIlllIIlllIIIllllllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = (IlIIlllIllIlIIIlIIllIIlllllllIIlIIlIIlIIlllIIllIllIIllIlllIlIIIIIlIlllIIlllIIIllllllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var10;
-         boolean var12 = false;
-         var7.add(var11.getPos());
-         if (var3 != null) {
-            break;
+      while (true) {
+         if (var9.hasNext()) {
+            Object var10 = var9.next();
+            var16 = var7;
+            if (var3 != null) {
+               break;
+            }
+
+            IlIIlllIllIlIIIlIIllIIlllllllIIlIIlIIlIIlllIIllIllIIllIlllIlIIIIIlIlllIIlllIIIllllllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = (IlIIlllIllIlIIIlIIllIIlllllllIIlIIlIIlIIlllIIllIllIIllIlllIlIIIIIlIlllIIlllIIIllllllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var10;
+            boolean var12 = false;
+            var7.add(var11.getPos());
+            if (var3 == null) {
+               continue;
+            }
          }
+
+         var16 = var7;
+         break;
       }
 
-      return var7;
+      return (List)var16;
    }
 
    public final int IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII$recovered$fdfb6a7d676e2ffa(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2edbb8ea2b002c51(
+      int var1, int var2, int var3
+   ) {
+      byte var12 = 5;
+      long var4 = ((long)var2 << 32 | (long)var3 << 32 >>> 32) ^ IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI;
+      int[] var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         1168984909182666066L, var4
+      );
+      ArrayList var7 = new ArrayList();
+      int[] var6 = var10000;
+      int var8 = 0;
+      int var9 = RangesKt.coerceAtMost(var12, this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI.size());
+
+      while (true) {
+         if (var8 < var9) {
+            int var10 = (this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII + var8)
+               % this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI.size();
+
+            try {
+               var13 = var7;
+               if (var6 != null) {
+                  break;
+               }
+
+               var7.add(this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI.get(var10));
+               var8++;
+               if (var6 == null) {
+                  continue;
+               }
+            } catch (MatchException var11) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var11, 1221542479282755958L, var4
+               );
+            }
+         }
+
+         var13 = var7;
+         break;
+      }
+
+      return (List)var13;
+   }
+
+   public static final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$26c07363a747fda1(
+      IlIIlllIllIlIIIlIIllIIlllllllIIlIIlIIlIIlllIIllIllIIllIlllIlIIIIIlIlllIIlllIIIllllllI var0, Vec3 var1, long var2
+   ) {
+      var2 = 104018269742569L;
+      var2 = IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI ^ var2;
+      long var4 = var2 ^ 121010033923333L;
+      return var0.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$cd8f3462fce2c098(var1, var4);
+   }
+
+   private final boolean IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$cd8f3462fce2c098(
+      Vec3 param1, long param2
+   ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 

@@ -2,6 +2,8 @@ package me.octo.client.utils.security;
 
 import dev.jnic.bEZHZC.JNICLoader;
 import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.invoke.MutableCallSite;
 import java.lang.invoke.MethodHandles.Lookup;
@@ -45,9 +47,14 @@ public class llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIl
 
    private static native String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(int var0, long var1);
 
-   private static native Object IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+   private static Object IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
       Lookup var0, MutableCallSite var1, String var2, Object[] var3
-   );
+   ) {
+      String var4 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((Integer)var3[0], (Long)var3[1]);
+      MethodHandle var5 = MethodHandles.dropArguments(MethodHandles.constant(String.class, var4), 0, int.class, long.class);
+      var1.setTarget(var5);
+      return var4;
+   }
 
    private static native CallSite IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
       Lookup var0, String var1, MethodType var2

@@ -768,7 +768,7 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
       Intrinsics.checkNotNullParameter(
          var9, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(27382, 8257028102878597164L ^ var4)
       );
-      IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(
+      IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$0c93085fe3e3fcd0(
          this, var1, var2, var3, var6, var7, var10, var8, var9, (byte)var11, var12, 0.0F, 128, null
       );
    }
@@ -788,7 +788,7 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
       Intrinsics.checkNotNullParameter(
          var9, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(27382, 8256975067304059674L ^ var2)
       );
-      llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+      llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$1dd07dd8b13b6055(
          this, var1, var4, var5, var6, (short)var10, var7, var8, var11, var9, (char)var12, 0.0F, 128, null
       );
    }
@@ -967,5 +967,59 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
             var5
          );
       }
+   }
+
+   public static void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$0c93085fe3e3fcd0(
+      llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll var0,
+      GuiGraphicsExtractor var1,
+      float var2,
+      float var3,
+      float var4,
+      float var5,
+      int var6,
+      float var7,
+      Color var8,
+      byte var9,
+      int var10,
+      float var11,
+      int var12,
+      Object var13
+   ) {
+      short var18 = 128;
+      long var14 = ((long)var6 << 32 | (long)var9 << 56 >>> 32 | (long)var10 << 40 >>> 40)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      long var16 = var14 ^ 68176838330657L;
+      if ((var18 & 128) != 0) {
+         var11 = 1.0F;
+      }
+
+      var0.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var1, var2, var3, var4, var5, var7, var16, var8, var11);
+   }
+
+   public static void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$1dd07dd8b13b6055(
+      llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll var0,
+      GuiGraphicsExtractor var1,
+      int var2,
+      int var3,
+      int var4,
+      short var5,
+      int var6,
+      float var7,
+      int var8,
+      Color var9,
+      char var10,
+      float var11,
+      int var12,
+      Object var13
+   ) {
+      short var18 = 128;
+      long var14 = ((long)var5 << 48 | (long)var8 << 32 >>> 16 | (long)var10 << 48 >>> 48)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      long var16 = var14 ^ 98356421628982L;
+      if ((var18 & 128) != 0) {
+         var11 = 1.0F;
+      }
+
+      var0.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var1, var2, var3, var4, var16, var6, var7, var9, var11);
    }
 }

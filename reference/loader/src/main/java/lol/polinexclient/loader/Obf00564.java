@@ -86,7 +86,9 @@ public final class Obf00564 {
 
    private static native void Obf00381(long var0);
 
-   private static native ClassLoader Obf00575();
+   private static ClassLoader Obf00575() {
+      return Thread.currentThread().getContextClassLoader();
+   }
 
    private static native Map Obf00099(byte[] var0, long var1) throws IOException;
 
@@ -201,7 +203,9 @@ public final class Obf00564 {
 
    private static native boolean Obf00224(long var0, String var2);
 
-   private static native String Obf00099(ModContainer var0);
+   private static String Obf00099(ModContainer var0) {
+      return var0.getMetadata().getVersion().getFriendlyString();
+   }
 
    static native void $jnicClinit();
 

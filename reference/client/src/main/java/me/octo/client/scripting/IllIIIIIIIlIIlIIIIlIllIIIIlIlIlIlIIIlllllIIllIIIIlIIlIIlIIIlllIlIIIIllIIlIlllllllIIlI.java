@@ -115,7 +115,9 @@ public final class IllIIIIIIIlIIlIIIIlIllIIIIlIlIlIlIIIlllllIIllIIIIlIIlIIlIIIll
       int var6 = (int)(var10001 << 48 >>> 48);
       Intrinsics.checkNotNullParameter(idArg, "id");
       return me.octo.client.utils.skyblock.lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(idArg, (short)var4, var5, (short)var6);
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$06b7c21743cf748e(
+            idArg, (short)var4, var5, (short)var6
+         );
    }
 
    @Export

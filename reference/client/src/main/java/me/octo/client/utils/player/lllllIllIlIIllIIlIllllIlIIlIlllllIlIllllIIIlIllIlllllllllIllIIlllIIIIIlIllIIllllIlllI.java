@@ -309,4 +309,38 @@ public final class lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllI
       Intrinsics.checkNotNullExpressionValue(var10000, "directionFromRotation(...)");
       return var10000;
    }
+
+   @NotNull
+   public final Vec3 IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$34ad1bbc47400d42(
+      int var1, byte var2, int var3
+   ) {
+      short var6 = 9337;
+      var2 = 74;
+      var3 = 9314864;
+      long var4 = ((long)var6 << 32 | (long)var2 << 56 >>> 32 | (long)var3 << 40 >>> 40)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      Vec3 var10000 = Vec3.directionFromRotation(
+         this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII,
+         this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl + 90.0F
+      );
+      Intrinsics.checkNotNullExpressionValue(var10000, "directionFromRotation(...)");
+      return var10000;
+   }
+
+   @NotNull
+   public final Vec3 IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$172c5168ae6afe95(
+      short var1, char var2, int var3
+   ) {
+      byte var6 = 0;
+      short var7 = 10139;
+      var3 = 1883325571;
+      long var4 = ((long)var6 << 48 | (long)var7 << 48 >>> 16 | (long)var3 << 32 >>> 32)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      Vec3 var10000 = Vec3.directionFromRotation(
+         this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII,
+         this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+      );
+      Intrinsics.checkNotNullExpressionValue(var10000, "directionFromRotation(...)");
+      return var10000;
+   }
 }

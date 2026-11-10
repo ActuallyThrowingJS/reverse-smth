@@ -307,7 +307,9 @@ public final class WorldToScreen {
       Intrinsics.checkNotNullParameter(
          var0, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"y">(8917, 4710688172924007881L ^ var1)
       );
-      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var0, var3, null, (short)var4, (char)var5, 2, null);
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fc0147e853b8c530(
+         var0, var3, null, (short)var4, (char)var5, 2, null
+      );
    }
 
    @JvmStatic
@@ -514,6 +516,273 @@ public final class WorldToScreen {
          var2 = var10000;
       }
 
-      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((char)var7, var8, var0, var1, var9, var2);
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$356a8c73e26af7c9(
+         (char)var7, var8, var0, var1, var9, var2
+      );
+   }
+
+   public static Vector3f IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fc0147e853b8c530(
+      Vec3 var0, int var1, Vec3 var2, short var3, char var4, int var5, Object var6
+   ) {
+      byte var11 = 2;
+      long var7 = ((long)var1 << 32 | (long)var3 << 48 >>> 32 | (long)var4 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var9 = var7 ^ 126340148842993L;
+      if ((var11 & 2) != 0) {
+         Vec3 var10000 = ModUtils.mc.gameRenderer.getMainCamera().position();
+         Intrinsics.checkNotNullExpressionValue(
+            var10000, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"y">(4166, 8136049880667139611L ^ var7)
+         );
+         var2 = var10000;
+      }
+
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var0, var2, var9);
+   }
+
+   public static Vector3f IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7fd5661ea74e86e3(
+      Vec3 var0, int var1, Vec3 var2, short var3, char var4, int var5, Object var6
+   ) {
+      short var11 = 6025;
+      var3 = -31390;
+      var4 = '\uf0d1';
+      byte var14 = 2;
+      long var7 = ((long)var11 << 32 | (long)var3 << 48 >>> 32 | (long)var4 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var9 = var7 ^ 126340148842993L;
+      if ((var14 & 2) != 0) {
+         Vec3 var10000 = ModUtils.mc.gameRenderer.getMainCamera().position();
+         Intrinsics.checkNotNullExpressionValue(var10000, "position(...)");
+         var2 = var10000;
+      }
+
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7068a8b450085003(var0, var2, var9);
+   }
+
+   @JvmStatic
+   @JvmOverloads
+   @Nullable
+   public static final Pair IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$356a8c73e26af7c9(
+      char argument1Arg, int argument2Arg, @NotNull Vec3 fromArg, @NotNull Vec3 toArg, int argument5Arg, @NotNull Vec3 cameraPosArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @JvmStatic
+   @JvmOverloads
+   @Nullable
+   public static final Vector3f IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7068a8b450085003(
+      @NotNull Vec3 posArg, @NotNull Vec3 cameraPosArg, long argument3Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final Pair IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c7d5b7d9cd29e9fa(
+      long var1, Vector4f var3, Vector4f var4
+   ) {
+      var1 = 35961692772182L;
+      var1 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ var1;
+      long var5 = var1 ^ 90164689213858L;
+      FloatRef var13 = new FloatRef();
+      FloatRef var14 = new FloatRef();
+      String[] var10000 = IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+      var14.element = 1.0F;
+      String[] var12 = var10000;
+      float var15 = 1.0E-5F;
+      float var10003 = var3.x + var3.w;
+      float var28 = var4.x;
+      float var27 = var10003;
+      float var75;
+      FloatRef var10001;
+      FloatRef var10002;
+      float var10004;
+      Vector4f var10005;
+      if (var12 != null) {
+         float var7 = var28 + var4.w;
+         float var8 = var27;
+         FloatRef var9 = var14;
+         FloatRef var10 = var13;
+         float var11 = var15;
+
+         try {
+            if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6cb06621c37805ca(
+               var5, var11, var10, var9, var8, var7
+            )) {
+               return null;
+            }
+         } catch (MatchException var47) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var47);
+         }
+
+         try {
+            var75 = var15;
+            var10001 = var13;
+            var10002 = var14;
+            var10003 = -var3.x + var3.w;
+            var10004 = -var4.x;
+            var10005 = var4;
+         } catch (MatchException var41) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var41);
+         }
+      } else {
+         var75 = var15;
+         var10001 = var13;
+         var10002 = var14;
+         var10003 = var27;
+         var10004 = var28;
+         var10005 = var4;
+      }
+
+      float var50 = var10004 + var10005.w;
+      float var55 = var10003;
+      FloatRef var60 = var10002;
+      FloatRef var65 = var10001;
+      float var70 = var75;
+
+      try {
+         if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6cb06621c37805ca(
+            var5, var70, var65, var60, var55, var50
+         )) {
+            return null;
+         }
+      } catch (MatchException var40) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var40);
+      }
+
+      label104: {
+         float var30;
+         label120: {
+            try {
+               var30 = var15;
+               if (var12 == null) {
+                  break label120;
+               }
+
+               var76 = var15;
+               var10001 = var13;
+               var10002 = var14;
+               var10003 = var3.y + var3.w;
+            } catch (MatchException var46) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var46);
+            }
+
+            var50 = var4.y + var4.w;
+            var55 = var10003;
+            var60 = var10002;
+            var65 = var10001;
+            var70 = var76;
+
+            try {
+               if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6cb06621c37805ca(
+                  var5, var70, var65, var60, var55, var50
+               )) {
+                  return null;
+               }
+            } catch (MatchException var45) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var45);
+            }
+
+            var77 = var15;
+            break label104;
+         }
+
+         var77 = var30;
+      }
+
+      float var31 = var77;
+      float var78;
+      if (var12 != null) {
+         var10003 = -var3.y + var3.w;
+         var50 = -var4.y + var4.w;
+         var55 = var10003;
+         var60 = var14;
+         var65 = var13;
+         var70 = var31;
+
+         try {
+            if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6cb06621c37805ca(
+               var5, var70, var65, var60, var55, var50
+            )) {
+               return null;
+            }
+         } catch (MatchException var44) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var44);
+         }
+
+         var78 = var15;
+         var10001 = var13;
+         var10002 = var14;
+      } else {
+         var78 = var31;
+         var10001 = var13;
+         var10002 = var14;
+      }
+
+      var10003 = var3.z + var3.w;
+      float var39 = var4.w;
+      float var38 = var4.z;
+      float var37 = var10003;
+      FloatRef var36 = var10002;
+      FloatRef var35 = var10001;
+      float var34 = var78;
+      float var79;
+      float var92;
+      if (var12 != null) {
+         var50 = var38 + var39;
+         var55 = var37;
+         var60 = var36;
+         var65 = var35;
+         var70 = var34;
+
+         try {
+            if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6cb06621c37805ca(
+               var5, var70, var65, var60, var55, var50
+            )) {
+               return null;
+            }
+         } catch (MatchException var43) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var43);
+         }
+
+         var79 = var15;
+         var10001 = var13;
+         var10002 = var14;
+         var10003 = -var3.z + var3.w;
+         var10004 = -var4.z;
+         var92 = var4.w;
+      } else {
+         var79 = var34;
+         var10001 = var35;
+         var10002 = var36;
+         var10003 = var37;
+         var10004 = var38;
+         var92 = var39;
+      }
+
+      var50 = var10004 + var92;
+      var55 = var10003;
+      var60 = var10002;
+      var65 = var10001;
+      var70 = var79;
+
+      try {
+         if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6cb06621c37805ca(
+            var5, var70, var65, var60, var55, var50
+         )) {
+            return null;
+         }
+      } catch (MatchException var42) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var42);
+      }
+
+      return TuplesKt.to(
+         this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3, var4, var13.element),
+         this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3, var4, var14.element)
+      );
+   }
+
+   private static final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6cb06621c37805ca(
+      long param0, float param2, FloatRef param3, FloatRef param4, float param5, float param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

@@ -326,4 +326,131 @@ public final class IlllllIIlIllIIIlIlIllIIIIllIlIlIlllIIIIIlllIlIIIIllIIllIIlllI
          );
       }
    }
+
+   public static me.octo.client.utils.player.lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$bc07ed27d4a009de(
+      IlllllIIlIllIIIlIlIllIIIIllIlIlIlllIIIIIlllIlIIIIllIIllIIlllIlIlIllIIlIIllllIIllIIIII var0,
+      int var1,
+      AABB var2,
+      int var3,
+      boolean var4,
+      Vec3 var5,
+      boolean var6,
+      int var7,
+      byte var8,
+      Object var9
+   ) {
+      var6 = 0;
+      byte var24 = 12;
+      long var10 = ((long)var1 << 32 | (long)var3 << 40 >>> 32 | (long)var8 << 56 >>> 56)
+         ^ llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI;
+      long var12 = var10 ^ 5912714655367L;
+      String[] var14 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         -6585446418363658282L, var10
+      );
+
+      byte var10000;
+      byte var10001;
+      label59: {
+         label58: {
+            byte var15;
+            byte var16;
+            label57: {
+               try {
+                  var16 = 2;
+                  var15 = var24;
+                  if (var14 == null) {
+                     break label57;
+                  }
+
+                  if ((var24 & var16) == 0) {
+                     break label58;
+                  }
+               } catch (MatchException var22) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var22, -6517749730442715543L, var10
+                  );
+               }
+
+               var4 = true;
+               break label58;
+            }
+
+            var10000 = var15;
+            var10001 = var16;
+            break label59;
+         }
+
+         var10000 = var24;
+         var10001 = 4;
+      }
+
+      label48: {
+         byte var17;
+         byte var18;
+         label47: {
+            label46: {
+               try {
+                  var18 = var10001;
+                  var17 = var10000;
+                  if (var14 == null) {
+                     break label47;
+                  }
+
+                  if ((var17 & var18) == 0) {
+                     break label46;
+                  }
+               } catch (MatchException var21) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var21, -6517749730442715543L, var10
+                  );
+               }
+
+               var5 = null;
+            }
+
+            try {
+               var10000 = var24;
+               var10001 = 8;
+               break label48;
+            } catch (MatchException var19) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var19, -6517749730442715543L, var10
+               );
+            }
+         }
+
+         var10000 = var17;
+         var10001 = var18;
+      }
+
+      try {
+         if ((var10000 & var10001) == 0) {
+            return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var2, var4, var5, var12, (boolean)var6);
+         }
+
+         var26 = false;
+      } catch (MatchException var20) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var20, -6517749730442715543L, var10
+         );
+      }
+
+      boolean var28 = var26;
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var2, var4, var5, var12, var28);
+   }
+
+   static Vec3 IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6fb84c49c3b1b37c(
+      IlllllIIlIllIIIlIlIllIIIIllIlIlIlllIIIIIlllIlIIIIllIIllIIlllIlIlIllIIlIIllllIIllIIIII param0,
+      int param1,
+      int param2,
+      Vec3 param3,
+      double param4,
+      double param6,
+      int param8,
+      short param9,
+      int param10,
+      Object param11
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

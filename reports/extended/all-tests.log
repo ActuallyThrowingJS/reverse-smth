@@ -1,0 +1,28 @@
+Note: tools/vendor/com/zkmdeobf/MiniInterpreter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: tools/vendor/unlegit/zkm/ConstantResidualIslandCleaner.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+{
+  "classes": 3,
+  "classMappings": 1,
+  "fieldDeclarationsRenamed": 0,
+  "methodDeclarationsRenamed": 2,
+  "fieldReferencesRewritten": 0,
+  "methodReferencesRewritten": 0,
+  "resourceFilesRewritten": 1,
+  "identicalGettersCoalesced": 0,
+  "overrideNamesUnified": 0,
+  "nativeBindingsRewritten": false,
+  "artifactPurpose": "source recovery analysis; not verified runnable"
+}
+PASS owner isolation, override dispatch, class rename and Fabric entrypoint metadata
+PASS RFC 8439, full 641905-byte native pool, empty output and input validation
+constantFields=0 bindingContexts=5 newClones=5 reusedContexts=0 rewrittenCalls=5 rounds=4 genericMethodsPreserved=true
+PASS 24 JVM cases; constant-key propagation, generic methods and overridden dispatch preserved
+classes=1 changed=1 rounds=2 failures=0 mode=safe identity_rethrows=removed exception_ranges=normalized zkm_shared_tails=normalized residual_stacks=materialized binary_sentinel_tails=specialized reference_sentinel_tails=specialized constant_residual_islands=preserved report=/tmp/flow-test-6584425062610770360/flow.tsv
+PASS 81 JVM differential cases; ordered catches, synchronized/effectful helpers, unknown/null guards and wide stacks
+PoliSlop.jar 4 native images extracted
+Restored native Java bodies=9; exact ELF bytes verified; analysis artifact; original native registration must not run
+PASS 18 JVM cases across nine native bodies; static/instance locals, null/object identity, empty void and changed-image rejection
+Source alternatives preserving declared API=1 rejected=3
+PASS Java 25 class reading; missing-member, native-body and volatile-field regressions rejected

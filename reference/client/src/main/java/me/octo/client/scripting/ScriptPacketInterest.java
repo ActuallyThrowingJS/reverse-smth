@@ -287,4 +287,18 @@ public final class ScriptPacketInterest {
       Intrinsics.checkNotNullExpressionValue(var10000, "<get-values>(...)");
       IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = CollectionsKt.toHashSet(CollectionsKt.flatten(var10000));
    }
+
+   public final synchronized void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$22800da985f4e377(
+      @NotNull String keyArg, byte argument2Arg, int argument3Arg, int argument4Arg
+   ) {
+      argument2Arg = 0;
+      argument3Arg = 5568535;
+      argument4Arg = 15935794;
+      long var5 = ((long)argument2Arg << 56 | (long)argument3Arg << 32 >>> 8 | (long)argument4Arg << 40 >>> 40)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      long var7 = var5 ^ 67632264806659L;
+      Intrinsics.checkNotNullParameter(keyArg, "key");
+      lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.remove(keyArg);
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f378832f1c6c73ce(var7);
+   }
 }

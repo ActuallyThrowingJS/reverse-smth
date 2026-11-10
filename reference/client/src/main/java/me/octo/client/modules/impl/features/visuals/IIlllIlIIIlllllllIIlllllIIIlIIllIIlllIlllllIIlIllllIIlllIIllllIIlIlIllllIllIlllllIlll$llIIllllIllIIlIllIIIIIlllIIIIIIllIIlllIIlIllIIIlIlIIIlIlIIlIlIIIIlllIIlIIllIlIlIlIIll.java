@@ -229,6 +229,31 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
       return var8.replace(var7, var9);
    }
 
+   public static final String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$45b9834f1cc435f0(
+      char var0,
+      int var1,
+      IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var2,
+      short var3,
+      String var4
+   ) {
+      byte var10 = 0;
+      var1 = 1290785464;
+      var3 = -32073;
+      long var5 = ((long)var10 << 48 | (long)var1 << 32 >>> 16 | (long)var3 << 48 >>> 48)
+         ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+      long var10001 = var5 ^ 137063602133825L;
+      int var7 = (int)((var5 ^ 137063602133825L) >>> 32);
+      int var8 = (int)((var5 ^ 137063602133825L) << 32 >>> 40);
+      int var9 = (int)(var10001 << 56 >>> 56);
+      return var2.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$37f4cdf0ea21042f(var7, var4, var8, (byte)var9);
+   }
+
+   private final String llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$37f4cdf0ea21042f(
+      int param1, String param2, int param3, byte param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
    public static final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI {
       @NotNull
       private final String text;

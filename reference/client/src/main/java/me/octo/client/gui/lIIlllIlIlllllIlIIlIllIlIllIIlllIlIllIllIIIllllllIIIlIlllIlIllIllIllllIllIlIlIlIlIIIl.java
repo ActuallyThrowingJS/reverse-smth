@@ -1187,6 +1187,38 @@ public final class lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIl
       }
    }
 
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f3b8c3b6dde01cf3(
+      float param1,
+      byte param2,
+      float param3,
+      float param4,
+      float param5,
+      int param6,
+      String param7,
+      String param8,
+      boolean param9,
+      boolean param10,
+      int param11
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$31bce00892244393(
+      float param1,
+      byte param2,
+      float param3,
+      float param4,
+      float param5,
+      int param6,
+      String param7,
+      String param8,
+      boolean param9,
+      boolean param10,
+      int param11
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
    private static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
       @NotNull
       private final me.octo.client.gui.clickgui.modules.impl.llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII macro;

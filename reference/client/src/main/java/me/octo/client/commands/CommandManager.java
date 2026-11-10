@@ -94,7 +94,7 @@ public final class CommandManager {
          lIllIllIIlIIlllIIIIIlIIlIlIIIIlIIlIllIIIIIIIIIlIIIIlIIlIlllIIIIIlIIIlIIIIIllIllIlIIIl.class
       };
       this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = CollectionsKt.listOf(var8);
-      IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c06f0df9b184f5e9(
          var5, (byte)var6, var7, this
       );
       ClientCommandRegistrationCallback.EVENT.register(CommandManager::IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI);
@@ -786,7 +786,7 @@ public final class CommandManager {
       int var4 = (int)((var2 ^ 125051512450216L) >>> 56);
       int var5 = (int)((var2 ^ 125051512450216L) << 8 >>> 32);
       int var6 = (int)(var10001 << 40 >>> 40);
-      return IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      return IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$75acd27624f54286(
          var0, var1, (byte)var4, var5, var6
       );
    }
@@ -1174,6 +1174,21 @@ public final class CommandManager {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
+   public static final CompletableFuture IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7595df468fd99bfa(
+      CommandManager var0, long var1, String var3, int var4
+   ) {
+      var1 = 116215086918837L;
+      var1 = lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl ^ var1;
+      long var5 = var1 ^ 54735816577149L;
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$bdbbb880a49c585b(var3, var4, var5);
+   }
+
+   private final CompletableFuture IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$bdbbb880a49c585b(
+      String param1, int param2, long param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
       private static long IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = 94671900952844L;
       private static String[] lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
@@ -1416,6 +1431,39 @@ public final class CommandManager {
 
          Intrinsics.throwUninitializedPropertyAccessException("INSTANCE");
          return null;
+      }
+
+      public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c06f0df9b184f5e9(
+         int var1, byte var2, int var3, @NotNull CommandManager var4
+      ) {
+         short var7 = 24201;
+         var2 = 26;
+         var3 = 1773807;
+         long var5 = ((long)var7 << 32 | (long)var2 << 56 >>> 32 | (long)var3 << 40 >>> 40)
+            ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+         Intrinsics.checkNotNullParameter(var4, "<set-?>");
+         CommandManager.IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var4;
+      }
+
+      @JvmStatic
+      @NotNull
+      public final CompletableFuture IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$75acd27624f54286(
+         @NotNull String textArg, int argument2Arg, byte argument3Arg, int argument4Arg, int argument5Arg
+      ) {
+         argument3Arg = 0;
+         argument4Arg = 4312495;
+         argument5Arg = 9045655;
+         long var6 = ((long)argument3Arg << 56 | (long)argument4Arg << 32 >>> 8 | (long)argument5Arg << 40 >>> 40)
+            ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+         long var8 = var6 ^ 105260402792750L;
+         long var10 = var6 ^ 138973405373230L;
+         Intrinsics.checkNotNullParameter(textArg, "text");
+         return CommandManager.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7595df468fd99bfa(
+            this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ea0cc58e0046d03d(var8),
+            var10,
+            textArg,
+            argument2Arg
+         );
       }
    }
 }

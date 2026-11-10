@@ -1,0 +1,200 @@
+[
+  {
+    "className": null,
+    "name": "IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI",
+    "desc": "()D",
+    "fnAddr": 282735504,
+    "registrarSymbol": "Java_me_octo_client_utils_network_llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII_00024llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+    "matchesJarDeclaration": true,
+    "elfRva": "0xda3390",
+    "unwindSize": "0x1d"
+  },
+  {
+    "className": null,
+    "name": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
+    "desc": "()Ljava/lang/Integer;",
+    "fnAddr": 276127264,
+    "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x755e20",
+    "unwindSize": "0x5c"
+  },
+  {
+    "className": null,
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "desc": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
+    "fnAddr": 276488432,
+    "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x7ae0f0",
+    "unwindSize": "0xdb"
+  },
+  {
+    "className": null,
+    "name": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+    "desc": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
+    "fnAddr": 276633792,
+    "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x7d18c0",
+    "unwindSize": "0xdb"
+  },
+  {
+    "className": null,
+    "name": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+    "desc": "(Lkotlin/Lazy;)Lsun/misc/Unsafe;",
+    "fnAddr": 276499664,
+    "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x7b0cd0",
+    "unwindSize": "0x175"
+  },
+  {
+    "className": null,
+    "name": "lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll",
+    "desc": "(Lkotlin/Lazy;)Lsun/misc/Unsafe;",
+    "fnAddr": 276644944,
+    "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x7d4450",
+    "unwindSize": "0x175"
+  },
+  {
+    "className": null,
+    "name": "IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI",
+    "desc": "()Ljava/util/List;",
+    "fnAddr": 272804048,
+    "registrarSymbol": "Java_me_octo_client_utils_network_llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x42a8d0",
+    "unwindSize": "0x1ca"
+  },
+  {
+    "className": null,
+    "name": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl",
+    "desc": "()Ljava/lang/String;",
+    "fnAddr": 274172096,
+    "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x5788c0",
+    "unwindSize": "0x1ca"
+  },
+  {
+    "className": null,
+    "name": "lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl",
+    "desc": "()Ljava/lang/String;",
+    "fnAddr": 276180672,
+    "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x762ec0",
+    "unwindSize": "0x1ca"
+  },
+  {
+    "className": null,
+    "name": "llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl",
+    "desc": "(Ljava/lang/String;)V",
+    "fnAddr": 276179808,
+    "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x762b60",
+    "unwindSize": "0x1cc"
+  },
+  {
+    "className": null,
+    "name": "lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll",
+    "desc": "()V",
+    "fnAddr": 274172992,
+    "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x578c40",
+    "unwindSize": "0x1e3"
+  },
+  {
+    "className": null,
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "desc": "(Ljava/lang/String;)Z",
+    "fnAddr": 273311808,
+    "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x4a6840",
+    "unwindSize": "0x20d"
+  },
+  {
+    "className": null,
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "desc": "(Lkotlin/Lazy;)Lme/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;",
+    "fnAddr": 276488656,
+    "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x7ae1d0",
+    "unwindSize": "0x34a"
+  },
+  {
+    "className": null,
+    "name": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl",
+    "desc": "(Lkotlin/Lazy;)Lme/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI;",
+    "fnAddr": 276634016,
+    "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x7d19a0",
+    "unwindSize": "0x34a"
+  },
+  {
+    "className": null,
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "desc": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
+    "fnAddr": 272844496,
+    "registrarSymbol": "Java_me_octo_client_utils_network_llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x4346d0",
+    "unwindSize": "0x4b7"
+  },
+  {
+    "className": null,
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "desc": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
+    "fnAddr": 281347376,
+    "registrarSymbol": "Java_me_octo_client_utils_network_IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "matchesJarDeclaration": true,
+    "elfRva": "0xc50530",
+    "unwindSize": "0x4b7"
+  },
+  {
+    "className": null,
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "desc": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
+    "fnAddr": 283132368,
+    "registrarSymbol": "Java_me_octo_client_utils_security_llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/security/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+    "matchesJarDeclaration": true,
+    "elfRva": "0xe041d0",
+    "unwindSize": "0x4b7"
+  },
+  {
+    "className": null,
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "desc": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
+    "fnAddr": 271359232,
+    "registrarSymbol": "Java_me_octo_client_utils_security_llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll__00024jnicLoader",
+    "classFromRegistrar": "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+    "matchesJarDeclaration": true,
+    "elfRva": "0x2c9d00",
+    "unwindSize": "0x4b7"
+  }
+]

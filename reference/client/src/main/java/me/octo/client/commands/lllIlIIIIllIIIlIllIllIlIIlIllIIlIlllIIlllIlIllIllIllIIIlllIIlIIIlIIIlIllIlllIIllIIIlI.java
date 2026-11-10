@@ -599,4 +599,25 @@ public final class lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIl
          );
       }
    }
+
+   public static IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8d219435e976807d(
+      lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI var0,
+      String var1,
+      int var2,
+      short var3,
+      Boolean var4,
+      int var5,
+      char var6,
+      Object var7
+   ) {
+      byte var12 = 2;
+      long var8 = ((long)var2 << 32 | (long)var3 << 48 >>> 32 | (long)var6 << 48 >>> 48)
+         ^ lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+      long var10 = var8 ^ 29206355336509L;
+      if ((var12 & 2) != 0) {
+         var4 = null;
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var10, var4);
+   }
 }

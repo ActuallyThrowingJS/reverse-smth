@@ -481,7 +481,149 @@ public final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIII
       int var5 = (int)(var10001 << 32 >>> 32);
       PolinexAccessor.INSTANCE
          .eventBus
-         .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(this, (short)var3, (short)var4, var5);
+         .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$69d9afbece88b3cf(this, (short)var3, (short)var4, var5);
+   }
+
+   private final int lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$f605a05c8db02703(
+      int var1, List var2, int var3, int var4
+   ) {
+      short var35 = 10541;
+      char var36 = '듂';
+      char var37 = '요';
+      long var5 = ((long)var35 << 32 | (long)var36 << 48 >>> 32 | (long)var37 << 48 >>> 48)
+         ^ lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll;
+      long var7 = var5 ^ 86648951976929L;
+      int[] var10000 = BlockUtils.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+      Iterator var10 = var2.iterator();
+      int[] var9 = var10000;
+
+      label99:
+      while (true) {
+         char var39 = var10.hasNext();
+
+         while (var39 != 0) {
+            String var11 = (String)var10.next();
+            String var12 = me.octo.client.utils.client.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+               .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fbc714d445e347a7(var11, var7);
+
+            char var29;
+            label94:
+            while (true) {
+               String var40;
+               if (var9 == null) {
+                  if (!StringsKt.startsWith$default(var12, "Grants ", false, 2, null)) {
+                     continue label99;
+                  }
+
+                  var40 = "Grants ";
+               } else {
+                  var40 = var12;
+               }
+
+               String var13 = var40;
+               String var41 = var12.substring(var13.length());
+               Intrinsics.checkNotNullExpressionValue(var41, "substring(...)");
+               String var15 = var41;
+               boolean var16 = false;
+               CharSequence var17 = var15;
+               var var18 = new StringBuilder();
+               boolean var19 = false;
+               int var20 = 0;
+               int var21 = var17.length();
+
+               while (var20 < var21) {
+                  char var22 = var17.charAt(var20);
+                  var10000 = var9;
+                  char var23 = var22;
+                  boolean var24 = false;
+
+                  label106: {
+                     try {
+                        if (var10000 != null) {
+                           break label106;
+                        }
+
+                        var29 = var23;
+                        if (var9 != null) {
+                           break label94;
+                        }
+
+                        var43 = var23;
+                     } catch (NumberFormatException var33) {
+                        throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var33);
+                     }
+
+                     try {
+                        if (Character.isDigit(var43)) {
+                           var18.append(var22);
+                        }
+                     } catch (NumberFormatException var32) {
+                        throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var32);
+                     }
+
+                     var20++;
+                  }
+
+                  if (var9 != null) {
+                     break;
+                  }
+               }
+
+               String var14 = var18.toString();
+
+               label91: {
+                  label90: {
+                     int var30;
+                     label89: {
+                        try {
+                           var30 = var14.length();
+                           if (var9 != null) {
+                              break label89;
+                           }
+
+                           if (var30 > 0) {
+                              break label90;
+                           }
+                        } catch (NumberFormatException var34) {
+                           throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var34);
+                        }
+
+                        var44 = 0;
+                        break label91;
+                     }
+
+                     var44 = var30;
+                     break label91;
+                  }
+
+                  var44 = 1;
+               }
+
+               if (var44 == 0) {
+                  continue label99;
+               }
+
+               try {
+                  int var38 = Integer.parseInt(var14);
+                  if (var9 == null) {
+                     return var38;
+                  }
+               } catch (NumberFormatException var31) {
+                  return 0;
+               }
+            }
+
+            var39 = var29;
+         }
+
+         return 0;
+      }
+   }
+
+   private final void IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$e9a74a9a3f3e4d9e(
+      char param1, int param2, char param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    @Serializable

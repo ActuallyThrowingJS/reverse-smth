@@ -9,3 +9,5 @@ export CLASSPATH='build/classes:.cache/deps/*'
 "${JAVA_HOME:+$JAVA_HOME/bin/}java" ControlFlowTest
 python3 tools/extract_native.py inputs/PoliSlop.jar build/native-client
 "${JAVA_HOME:+$JAVA_HOME/bin/}java" TrivialNativeTest build/native-client/linux-machine-62-44061000.so evidence/trivial-native-proof.json
+
+"${JAVA_HOME:+$JAVA_HOME/bin/}java" CheckSourceApiTest

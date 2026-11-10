@@ -361,4 +361,87 @@ public final class RatESP extends BooleanModule {
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   static boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$9b4c70682d29380f(
+      RatESP var0, double var1, char var3, double var4, int var6, double var7, int var9, Object var10, int var11
+   ) {
+      byte var18 = 4;
+      long var12 = ((long)var3 << 48 | (long)var6 << 32 >>> 16 | (long)var11 << 48 >>> 48)
+         ^ lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll;
+      long var14 = var12 ^ 25504969276712L;
+      String[] var16 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         -2295550147155093737L, var12
+      );
+
+      try {
+         if (var16 != null) {
+            return (boolean)var18;
+         }
+
+         if ((var18 & 4) == 0) {
+            return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var4, var14, var7);
+         }
+      } catch (NoWhenBranchMatchedException var17) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var17, -2267157140852880097L, var12
+         );
+      }
+
+      var7 = 0.01;
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var4, var14, var7);
+   }
+
+   static boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a51990ad7449502a(
+      RatESP var0, double var1, char var3, double var4, int var6, double var7, int var9, Object var10, int var11
+   ) {
+      byte var19 = 0;
+      var6 = 1596823014;
+      byte var21 = 4;
+      short var22 = 697;
+      long var12 = ((long)var19 << 48 | (long)var6 << 32 >>> 16 | (long)var22 << 48 >>> 48)
+         ^ lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll;
+      long var14 = var12 ^ 25504969276712L;
+      String[] var16 = IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl();
+
+      try {
+         if (var16 != null) {
+            return (boolean)var21;
+         }
+
+         if ((var21 & 4) == 0) {
+            return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$aeba7fa0014cf8e1(
+               var1, var4, var14, var7
+            );
+         }
+      } catch (NoWhenBranchMatchedException var18) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var18);
+      }
+
+      var7 = 0.01;
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$aeba7fa0014cf8e1(var1, var4, var14, var7);
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$aeba7fa0014cf8e1(
+      double var1, double var3, long var5, double var7
+   ) {
+      var5 = 125485324361218L;
+      var5 = lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll ^ var5;
+      String[] var9 = IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl();
+
+      try {
+         double var14;
+         int var10000 = (var14 = Math.abs(var1 - var3) - var7) == 0.0 ? 0 : (var14 < 0.0 ? -1 : 1);
+         if (var9 != null) {
+            return (boolean)var10000;
+         }
+
+         if (var10000 <= 0) {
+            return (boolean)1;
+         }
+      } catch (NoWhenBranchMatchedException var11) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11);
+      }
+
+      return (boolean)0;
+   }
 }

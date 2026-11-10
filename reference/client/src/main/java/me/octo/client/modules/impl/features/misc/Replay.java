@@ -464,7 +464,9 @@ public final class Replay extends BooleanModule {
             } finally {
                if (var37) {
                   try {
-                     this.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl((char)var6, (short)var7, true, var8);
+                     this.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$2d0e4c17284a20ca(
+                        (char)var6, (short)var7, true, var8
+                     );
                   } catch (Exception var38) {
                      PolinexLogger.error(
                         IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"e">(8665, 5159623473275603445L ^ var4) + var38
@@ -477,7 +479,9 @@ public final class Replay extends BooleanModule {
             }
 
             try {
-               this.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl((char)var6, (short)var7, true, var8);
+               this.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$2d0e4c17284a20ca(
+                  (char)var6, (short)var7, true, var8
+               );
             } catch (Exception var40) {
                PolinexLogger.error(
                   IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"e">(17000, 3602616954949921318L ^ var4) + var40
@@ -502,7 +506,9 @@ public final class Replay extends BooleanModule {
       int var4 = (int)((var2 ^ 62125135452023L) >>> 32);
       int var5 = (int)((var2 ^ 62125135452023L) << 32 >>> 48);
       int var6 = (int)(var10001 << 48 >>> 48);
-      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, var1, false, null, 6, var4, null, (char)var5, (char)var6);
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0316a03f2eeb8ae2(
+         this, var1, false, null, 6, var4, null, (char)var5, (char)var6
+      );
    }
 
    @NotNull
@@ -1632,7 +1638,9 @@ public final class Replay extends BooleanModule {
       Object var7 = this.IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl;
       synchronized (var7) {
          boolean var8 = false;
-         this.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl((char)var4, (short)var5, var1, var6);
+         this.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$d1981d7522a92e33(
+            (char)var4, (short)var5, var1, var6
+         );
          Unit var13 = Unit.INSTANCE;
       }
    }
@@ -1677,6 +1685,129 @@ public final class Replay extends BooleanModule {
       }
 
       return "ffmpeg";
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$10d31e29d1730bae(
+      Replay param0, short param1, int param2, Replay.BanClipMode param3, char param4, boolean param5, int param6, Object param7
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$2d0e4c17284a20ca(
+      char param1, short param2, boolean param3, int param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static CompletableFuture IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0316a03f2eeb8ae2(
+      Replay var0, int var1, boolean var2, String var3, int var4, int var5, Object var6, char var7, char var8
+   ) {
+      var2 = 0;
+      byte var16 = 6;
+      long var9 = ((long)var5 << 32 | (long)var7 << 48 >>> 32 | (long)var8 << 48 >>> 48)
+         ^ lIIIIlllllIlIllIllllllllllllIIllIllIIlllllIlIIIlIlIIIIIIlIIllIIIIIlIIIllIIIIlIIlIIlII;
+      long var11 = var9 ^ 41940693854554L;
+      boolean var13 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         4487491826440175990L, var9
+      );
+
+      byte var10000;
+      byte var10001;
+      label25: {
+         label24: {
+            try {
+               var10000 = var16;
+               var10001 = 2;
+               if (var13) {
+                  break label25;
+               }
+
+               if ((var16 & 2) == 0) {
+                  break label24;
+               }
+            } catch (NoWhenBranchMatchedException var14) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var14, 4325368362265613228L, var9
+               );
+            }
+
+            var2 = 1;
+         }
+
+         var10000 = var16;
+         var10001 = 4;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var3 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"e">(4144, 8511225944884498881L ^ var9);
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, (boolean)var2, var11, var3);
+   }
+
+   public static void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$fca10a0312c4cf59(
+      int param0, Replay param1, int param2, boolean param3, short param4, int param5, Object param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$d1981d7522a92e33(
+      char param1, short param2, boolean param3, int param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void lIlIllIIIllllllIlIIlllIllIlIlllIlIlIlIllIIllllIIIlIIllIlllIlIlIIlIlllllIlIllIIlIIllIl$recovered$15a3cd8a7ba92d1a(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final File IlIlIIIIllllIlIIlIlllllllllIlllIllIlIIIIllIIlIIlIlIlIIlllIIlIlllllIIIlIIlIIlIIlIIlIII$recovered$cae3dd6d5e3099f0(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void lIllIIIIlllIllllIlIllIIlIllllIllIIllIllIIllIIIIllIllIIIlIllIllllIIIIllIIlllllllIlIIll$recovered$e219a57cf670cc40(
+      int var1, int var2, int var3
+   ) {
+      short var14 = 829;
+      char var15 = '\uf193';
+      char var16 = '腔';
+      long var4 = ((long)var14 << 32 | (long)var15 << 48 >>> 32 | (long)var16 << 48 >>> 48)
+         ^ lIIIIlllllIlIllIllllllllllllIIllIllIIlllllIlIIIlIlIIIIIIlIIllIIIIIlIIIllIIIIlIIlIIlII;
+      long var6 = var4 ^ 92590952383959L;
+      long var8 = IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII<"j">(150, 679080089293080379L ^ var4)
+         / lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI()
+            .IIllIllIIlIIIlIlllIlIlllIIIlllIIIlIIIIIIIIllIlIIlIIIIllllllIllIIlllIIlIIIIIlIllllllIl();
+      Thread var10 = new Thread(Replay::IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI, "Clipping-FrameWriter");
+      boolean var12 = false;
+      var10.setDaemon(true);
+      this.lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll = var10;
+      Thread var10000 = this.lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll;
+      Intrinsics.checkNotNull(this.lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll);
+      var10000.start();
+   }
+
+   private final String IllIlllllllllIlllIIllIIlIllIllllIlIIlIIllllIIllIlIIIlIlIlIlIlIllIIlIlIIlIIllIlIIIlIIl$recovered$9d75c8bb0aa52e0a(long var1) {
+      var1 = 68671375225265L;
+      var1 = lIIIIlllllIlIllIllllllllllllIIllIllIIlllllIlIIIlIlIIIIIIlIIllIIIIIlIIIllIIIIlIIlIIlII ^ var1;
+      long var3 = var1 ^ 33107951482000L;
+
+      try {
+         switch (Replay.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl[this.IlllIIlllIIIIIlllIllIIIIIIlIIIIIIllIllIlIlIlIIlIllIlIlllIIIlIIllIlIIlllIIIIlIIIIlllII$recovered$8b5943b722d300f8(
+               var3
+            )
+            .ordinal()]) {
+            case 1:
+               return "https://api.polinexclient.net/static/client/content/ffmpeg-windows.zip";
+            case 2:
+               return "https://api.polinexclient.net/static/client/content/ffmpeg-linux.tar.xz";
+            case 3:
+               return null;
+            default:
+               throw new NoWhenBranchMatchedException();
+         }
+      } catch (NoWhenBranchMatchedException var6) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((Throwable)var6);
+      }
    }
 
    public static enum BanClipMode {

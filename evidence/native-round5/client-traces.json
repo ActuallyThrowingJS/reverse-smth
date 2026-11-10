@@ -1,0 +1,1707 @@
+[
+  {
+    "target": {
+      "className": null,
+      "name": "IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI",
+      "desc": "()D",
+      "fnAddr": 282735504,
+      "registrarSymbol": "Java_me_octo_client_utils_network_llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII_00024llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0xda3390",
+      "unwindSize": "0x1d"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
+      "desc": "()Ljava/lang/Integer;",
+      "fnAddr": 276127264,
+      "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x755e20",
+      "unwindSize": "0x5c"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "java/lang/Integer",
+          "valueOf",
+          "(I)Ljava/lang/Integer;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/Integer"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "java/lang/Integer",
+        "name": "valueOf",
+        "descriptor": "(I)Ljava/lang/Integer;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Integer",
+          "valueOf",
+          "(I)Ljava/lang/Integer;"
+        ],
+        "rawArg4": "0x0"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "desc": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
+      "fnAddr": 276488432,
+      "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x7ae0f0",
+      "unwindSize": "0xdb"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/Runtime"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "java/lang/Runtime",
+        "name": "getRuntime",
+        "descriptor": "()Ljava/lang/Runtime;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Runtime",
+          "getRuntime",
+          "()Ljava/lang/Runtime;"
+        ],
+        "rawArg4": "0x2007bdf98"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/Runtime",
+        "name": "halt",
+        "descriptor": "(I)V"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "java/lang/Runtime",
+          "halt",
+          "(I)V"
+        ],
+        "rawArg4": "0x1"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+      "desc": "(Ljava/lang/Thread;Ljava/lang/Throwable;)V",
+      "fnAddr": 276633792,
+      "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x7d18c0",
+      "unwindSize": "0xdb"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/Runtime",
+          "getRuntime",
+          "()Ljava/lang/Runtime;"
+        ],
+        "rawArg4": "0x1"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "java/lang/Runtime",
+          "halt",
+          "(I)V"
+        ],
+        "rawArg4": "0x1"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+      "desc": "(Lkotlin/Lazy;)Lsun/misc/Unsafe;",
+      "fnAddr": 276499664,
+      "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x7b0cd0",
+      "unwindSize": "0x175"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "kotlin/Lazy",
+          "getValue",
+          "()Ljava/lang/Object;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "kotlin/Lazy"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "kotlin/Lazy",
+        "name": "getValue",
+        "descriptor": "()Ljava/lang/Object;"
+      },
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "kotlin/Lazy",
+          "getValue",
+          "()Ljava/lang/Object;"
+        ],
+        "rawArg4": "0x2007bcf88"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "sun/misc/Unsafe"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/ClassCastException"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll",
+      "desc": "(Lkotlin/Lazy;)Lsun/misc/Unsafe;",
+      "fnAddr": 276644944,
+      "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x7d4450",
+      "unwindSize": "0x175"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "kotlin/Lazy",
+          "getValue",
+          "()Ljava/lang/Object;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "kotlin/Lazy",
+          "getValue",
+          "()Ljava/lang/Object;"
+        ],
+        "rawArg4": "0x400001000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI",
+      "desc": "()Ljava/util/List;",
+      "fnAddr": 272804048,
+      "registrarSymbol": "Java_me_octo_client_utils_network_llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x42a8d0",
+      "unwindSize": "0x1ca"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "field",
+        [
+          "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+          "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+          "Ljava/util/List;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 144,
+        "jni": "GetStaticFieldID",
+        "owner": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+        "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+        "descriptor": "Ljava/util/List;"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+          "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+          "Ljava/util/List;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl",
+      "desc": "()Ljava/lang/String;",
+      "fnAddr": 274172096,
+      "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x5788c0",
+      "unwindSize": "0x1ca"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "field",
+        [
+          "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+          "lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI",
+          "Ljava/lang/String;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 144,
+        "jni": "GetStaticFieldID",
+        "owner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+        "name": "lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI",
+        "descriptor": "Ljava/lang/String;"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+          "lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI",
+          "Ljava/lang/String;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl",
+      "desc": "()Ljava/lang/String;",
+      "fnAddr": 276180672,
+      "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x762ec0",
+      "unwindSize": "0x1ca"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "field",
+        [
+          "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+          "lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl",
+          "Ljava/lang/String;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 144,
+        "jni": "GetStaticFieldID",
+        "owner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+        "name": "lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl",
+        "descriptor": "Ljava/lang/String;"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+          "lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl",
+          "Ljava/lang/String;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl",
+      "desc": "(Ljava/lang/String;)V",
+      "fnAddr": 276179808,
+      "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x762b60",
+      "unwindSize": "0x1cc"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 154,
+        "jni": "SetStaticObjectField",
+        "member": [
+          "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+          "lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl",
+          "Ljava/lang/String;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll",
+      "desc": "()V",
+      "fnAddr": 274172992,
+      "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x578c40",
+      "unwindSize": "0x1e3"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+          "lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI",
+          "Ljava/lang/String;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 154,
+        "jni": "SetStaticObjectField",
+        "member": [
+          "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+          "lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI",
+          "Ljava/lang/String;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "desc": "(Ljava/lang/String;)Z",
+      "fnAddr": 273311808,
+      "registrarSymbol": "Java_me_octo_client_utils_network_IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x4a6840",
+      "unwindSize": "0x20d"
+    },
+    "returned": true,
+    "returnHandle": null,
+    "calls": [
+      {
+        "slot": 144,
+        "jni": "GetStaticFieldID",
+        "owner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+        "name": "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+        "descriptor": "Ljava/util/Set;"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+          "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+          "Ljava/util/Set;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/util/Set"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/util/Set",
+        "name": "contains",
+        "descriptor": "(Ljava/lang/Object;)Z"
+      },
+      {
+        "slot": 37,
+        "jni": "CallBooleanMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "desc": "(Lkotlin/Lazy;)Lme/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;",
+      "fnAddr": 276488656,
+      "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x7ae1d0",
+      "unwindSize": "0x34a"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "kotlin/Lazy",
+          "getValue",
+          "()Ljava/lang/Object;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "kotlin/Lazy",
+          "getValue",
+          "()Ljava/lang/Object;"
+        ],
+        "rawArg4": "0x80009ce61"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl",
+      "desc": "(Lkotlin/Lazy;)Lme/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI;",
+      "fnAddr": 276634016,
+      "registrarSymbol": "Java_me_octo_client_utils_security_IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x7d19a0",
+      "unwindSize": "0x34a"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "kotlin/Lazy",
+          "getValue",
+          "()Ljava/lang/Object;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 34,
+        "jni": "CallObjectMethod",
+        "member": [
+          "kotlin/Lazy",
+          "getValue",
+          "()Ljava/lang/Object;"
+        ],
+        "rawArg4": "0x400001000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "desc": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "fnAddr": 272844496,
+      "registrarSymbol": "Java_me_octo_client_utils_network_llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x4346d0",
+      "unwindSize": "0x4b7"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+          "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+          "(IJ)Ljava/lang/String;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/Integer",
+        "name": "intValue",
+        "descriptor": "()I"
+      },
+      {
+        "slot": 49,
+        "jni": "CallIntMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/Long"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/Long",
+        "name": "longValue",
+        "descriptor": "()J"
+      },
+      {
+        "slot": 52,
+        "jni": "CallLongMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+        "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+        "descriptor": "(IJ)Ljava/lang/String;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+          "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+          "(IJ)Ljava/lang/String;"
+        ],
+        "rawArg4": "0x30000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/String"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/invoke/MethodHandles"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "java/lang/invoke/MethodHandles",
+        "name": "constant",
+        "descriptor": "(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodHandles",
+          "constant",
+          "(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;"
+        ],
+        "rawArg4": "0x80009cff1"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/Class"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 172,
+        "jni": "NewObjectArray"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 144,
+        "jni": "GetStaticFieldID",
+        "owner": "java/lang/Integer",
+        "name": "TYPE",
+        "descriptor": "Ljava/lang/Class;"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "java/lang/Integer",
+          "TYPE",
+          "Ljava/lang/Class;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 144,
+        "jni": "GetStaticFieldID",
+        "owner": "java/lang/Long",
+        "name": "TYPE",
+        "descriptor": "Ljava/lang/Class;"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "java/lang/Long",
+          "TYPE",
+          "Ljava/lang/Class;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "java/lang/invoke/MethodHandles",
+        "name": "dropArguments",
+        "descriptor": "(Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodHandles",
+          "dropArguments",
+          "(Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;"
+        ],
+        "rawArg4": "0x80009d021"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "java/lang/invoke/MutableCallSite"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 33,
+        "jni": "GetMethodID",
+        "owner": "java/lang/invoke/MutableCallSite",
+        "name": "setTarget",
+        "descriptor": "(Ljava/lang/invoke/MethodHandle;)V"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "java/lang/invoke/MutableCallSite",
+          "setTarget",
+          "(Ljava/lang/invoke/MethodHandle;)V"
+        ],
+        "rawArg4": "0x80009d091"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "desc": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "fnAddr": 281347376,
+      "registrarSymbol": "Java_me_octo_client_utils_network_IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0xc50530",
+      "unwindSize": "0x4b7"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+          "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+          "(IJ)Ljava/lang/String;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 49,
+        "jni": "CallIntMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 52,
+        "jni": "CallLongMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+        "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+        "descriptor": "(IJ)Ljava/lang/String;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+          "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+          "(IJ)Ljava/lang/String;"
+        ],
+        "rawArg4": "0x30000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodHandles",
+          "constant",
+          "(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;"
+        ],
+        "rawArg4": "0x80009cff1"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 172,
+        "jni": "NewObjectArray"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "java/lang/Integer",
+          "TYPE",
+          "Ljava/lang/Class;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "java/lang/Long",
+          "TYPE",
+          "Ljava/lang/Class;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodHandles",
+          "dropArguments",
+          "(Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;"
+        ],
+        "rawArg4": "0x80009d101"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "java/lang/invoke/MutableCallSite",
+          "setTarget",
+          "(Ljava/lang/invoke/MethodHandle;)V"
+        ],
+        "rawArg4": "0x80009d131"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "desc": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "fnAddr": 283132368,
+      "registrarSymbol": "Java_me_octo_client_utils_security_llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/security/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+      "matchesJarDeclaration": true,
+      "elfRva": "0xe041d0",
+      "unwindSize": "0x4b7"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "me/octo/client/utils/security/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+          "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+          "(IJ)Ljava/lang/String;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 49,
+        "jni": "CallIntMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 52,
+        "jni": "CallLongMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "me/octo/client/utils/security/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "me/octo/client/utils/security/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+        "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+        "descriptor": "(IJ)Ljava/lang/String;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "me/octo/client/utils/security/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+          "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+          "(IJ)Ljava/lang/String;"
+        ],
+        "rawArg4": "0x30000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodHandles",
+          "constant",
+          "(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;"
+        ],
+        "rawArg4": "0x80009cff1"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 172,
+        "jni": "NewObjectArray"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "java/lang/Integer",
+          "TYPE",
+          "Ljava/lang/Class;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "java/lang/Long",
+          "TYPE",
+          "Ljava/lang/Class;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodHandles",
+          "dropArguments",
+          "(Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;"
+        ],
+        "rawArg4": "0x80009d181"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "java/lang/invoke/MutableCallSite",
+          "setTarget",
+          "(Ljava/lang/invoke/MethodHandle;)V"
+        ],
+        "rawArg4": "0x80009d1b1"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  },
+  {
+    "target": {
+      "className": null,
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "desc": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MutableCallSite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;",
+      "fnAddr": 271359232,
+      "registrarSymbol": "Java_me_octo_client_utils_security_llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "matchesJarDeclaration": true,
+      "elfRva": "0x2c9d00",
+      "unwindSize": "0x4b7"
+    },
+    "returned": true,
+    "returnHandle": [
+      "obj",
+      {
+        "bytes": ""
+      },
+      [
+        "result",
+        [
+          "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+          "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+          "(IJ)Ljava/lang/String;"
+        ]
+      ]
+    ],
+    "calls": [
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 49,
+        "jni": "CallIntMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 173,
+        "jni": "GetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 32,
+        "jni": "IsInstanceOf"
+      },
+      {
+        "slot": 14,
+        "jni": "ThrowNew"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 52,
+        "jni": "CallLongMethod"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 6,
+        "jni": "FindClass",
+        "class": "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll"
+      },
+      {
+        "slot": 21,
+        "jni": "NewGlobalRef"
+      },
+      {
+        "slot": 113,
+        "jni": "GetStaticMethodID",
+        "owner": "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+        "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+        "descriptor": "(IJ)Ljava/lang/String;"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+          "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+          "(IJ)Ljava/lang/String;"
+        ],
+        "rawArg4": "0x30000"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodHandles",
+          "constant",
+          "(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;"
+        ],
+        "rawArg4": "0x80009cff1"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 172,
+        "jni": "NewObjectArray"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "java/lang/Integer",
+          "TYPE",
+          "Ljava/lang/Class;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 145,
+        "jni": "GetStaticObjectField",
+        "member": [
+          "java/lang/Long",
+          "TYPE",
+          "Ljava/lang/Class;"
+        ]
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 174,
+        "jni": "SetObjectArrayElement"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 114,
+        "jni": "CallStaticObjectMethod",
+        "member": [
+          "java/lang/invoke/MethodHandles",
+          "dropArguments",
+          "(Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;"
+        ],
+        "rawArg4": "0x80009d201"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      },
+      {
+        "slot": 61,
+        "jni": "CallVoidMethod",
+        "member": [
+          "java/lang/invoke/MutableCallSite",
+          "setTarget",
+          "(Ljava/lang/invoke/MethodHandle;)V"
+        ],
+        "rawArg4": "0x80009d231"
+      },
+      {
+        "slot": 228,
+        "jni": "ExceptionCheck"
+      }
+    ]
+  }
+]

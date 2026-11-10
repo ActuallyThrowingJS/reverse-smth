@@ -25,6 +25,7 @@ import javax.crypto.spec.IvParameterSpec;
 import kotlin.jvm.JvmName;
 import kotlin.jvm.JvmStatic;
 import kotlin.jvm.internal.Intrinsics;
+import me.octo.client.modules.impl.macros.lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -623,6 +624,115 @@ public record IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllll
             meshDrawArg.IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII(),
             meshDrawArg.getIndexType(),
             meshDrawArg.IIIIIIlllIIlIIIIlllIIIlIIlIIlIllllIlllIlIIIllllIIlIIIIllIlIIIllllIllllIlIllIIllIIIIlI()
+         );
+      }
+
+      public static IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b73d47fdbe25c28a(
+         IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var0,
+         int var1,
+         MeshData var2,
+         RenderPipeline var3,
+         short var4,
+         Function var5,
+         Function var6,
+         char var7,
+         int var8,
+         Object var9
+      ) {
+         byte var16 = 6;
+         long var10 = ((long)var1 << 32 | (long)var4 << 48 >>> 32 | (long)var7 << 48 >>> 48)
+            ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+         long var12 = var10 ^ 57369743690672L;
+         String var14 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            -5132108039490511949L, var10
+         );
+
+         byte var10000;
+         byte var10001;
+         label25: {
+            label24: {
+               try {
+                  var10000 = var16;
+                  var10001 = 2;
+                  if (var14 != null) {
+                     break label25;
+                  }
+
+                  if ((var16 & 2) == 0) {
+                     break label24;
+                  }
+               } catch (MatchException var15) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var15, -5151209869731190290L, var10
+                  );
+               }
+
+               var5 = IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+            }
+
+            var10000 = var16;
+            var10001 = 4;
+         }
+
+         if ((var10000 & var10001) != 0) {
+            var6 = IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+         }
+
+         return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var2, var3, var12, var5, var6);
+      }
+
+      public static IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4fb2fa637ca00a50(
+         IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var0,
+         int var1,
+         MeshData var2,
+         RenderPipeline var3,
+         short var4,
+         Function var5,
+         Function var6,
+         char var7,
+         int var8,
+         Object var9
+      ) {
+         short var17 = 17790;
+         var4 = 8862;
+         var7 = '賖';
+         byte var20 = 6;
+         long var10 = ((long)var17 << 32 | (long)var4 << 48 >>> 32 | (long)var7 << 48 >>> 48)
+            ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+         long var12 = var10 ^ 57369743690672L;
+         String var14 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+         byte var10000;
+         byte var10001;
+         label25: {
+            label24: {
+               try {
+                  var10000 = var20;
+                  var10001 = 2;
+                  if (var14 != null) {
+                     break label25;
+                  }
+
+                  if ((var20 & 2) == 0) {
+                     break label24;
+                  }
+               } catch (MatchException var16) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var16);
+               }
+
+               var5 = IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+            }
+
+            var10000 = var20;
+            var10001 = 4;
+         }
+
+         if ((var10000 & var10001) != 0) {
+            var6 = IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+         }
+
+         return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$eb02f6570fa9881d(
+            var2, var3, var12, var5, var6
          );
       }
    }

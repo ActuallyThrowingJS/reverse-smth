@@ -241,4 +241,23 @@ public final class IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIl
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   private final String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$88f6888d1aa0e8e1(
+      FormattedCharSequence var1, char var2, int var3, int var4
+   ) {
+      byte var11 = 0;
+      var3 = 1308426581;
+      char var13 = '쯷';
+      long var5 = ((long)var11 << 48 | (long)var3 << 32 >>> 16 | (long)var13 << 48 >>> 48)
+         ^ lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      long var7 = (var5 ^ 46117890160485L) >>> 32;
+      int var9 = (int)((var5 ^ 46117890160485L) << 32 >>> 32);
+      StringBuilder var10 = new StringBuilder();
+      var1.accept(
+         IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll::IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI
+      );
+      String var10000 = var10.toString();
+      Intrinsics.checkNotNullExpressionValue(var10000, "toString(...)");
+      return var10000;
+   }
 }

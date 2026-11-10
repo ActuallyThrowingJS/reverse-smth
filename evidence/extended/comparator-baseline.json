@@ -1,0 +1,19 @@
+{
+  "sha256": "84af71eff096fa5d9557be6e816843107cdf202f3d422580806e017a1262508e",
+  "sourcePass": "978f49c",
+  "scope": "Two compiler-generated comparator bridge methods; only listed methods are copied",
+  "preservedMethods": [
+    {
+      "owner": "me/octo/client/modules/impl/macros/IIllIlllIIIIIllllIlllIIllIIIlIIllIIllIIlIllIIllIIIlIllIIlIIIIIlIIIIlIlIIIIIIlIlllIllI$llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI",
+      "name": "compare",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;)I",
+      "reason": "New decompiler regression; preserve previously verified method"
+    },
+    {
+      "owner": "me/octo/client/modules/impl/macros/IlIIIlIlIIlIlllIlIIlIIllIllIlllllIIIlIllllIlIIIlIlIlllllIIIIIllIlllIlIlllllIlllIlIIll$llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+      "name": "compare",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;)I",
+      "reason": "New decompiler regression; preserve previously verified method"
+    }
+  ]
+}

@@ -356,7 +356,7 @@ public class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllI
       try {
          if (var10000) {
             this.lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll
-               .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI((byte)var10, var11, var12);
+               .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$e1743d4d3e60efce((byte)var10, var11, var12);
             return;
          }
       } catch (UnsupportedOperationException var23) {
@@ -1619,7 +1619,7 @@ public class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllI
          .execute(
             IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll::IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII
          );
-      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d7db5712561a0fad(
          (short)var9,
          var10,
          "Detected a warp to the lobby",
@@ -2272,6 +2272,44 @@ public class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllI
 
    public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ac73e11f70239837(
       long param0, IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll param2, boolean param3, int param4, Object param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d7db5712561a0fad(
+      short argument1Arg,
+      int argument2Arg,
+      @NotNull String msgArg,
+      short argument4Arg,
+      @NotNull me.octo.client.utils.render.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll styleArg
+   ) {
+      byte var10 = 0;
+      argument2Arg = 1932779773;
+      argument4Arg = 25323;
+      long var6 = ((long)var10 << 48 | (long)argument2Arg << 32 >>> 16 | (long)argument4Arg << 48 >>> 48)
+         ^ lIIlIllIlllIllllIIlIllIIlIIIIllIIlIIlIIllIIllIllllIIIIIIIIllllIIIIlIIIIllIlIlIIllIIII;
+      long var8 = var6 ^ 303290362530L;
+      Intrinsics.checkNotNullParameter(msgArg, "msg");
+      Intrinsics.checkNotNullParameter(styleArg, "style");
+      me.octo.client.utils.render.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+         .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$0948101bb7ee21d2(
+            IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI<"x">(25555, 4376523687479535510L ^ var6),
+            this.getNameProperty(),
+            msgArg,
+            styleArg,
+            var8
+         );
+   }
+
+   static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$199c244b28002025(
+      IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll param0,
+      String param1,
+      short param2,
+      int param3,
+      int param4,
+      boolean param5,
+      int param6,
+      Object param7
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }

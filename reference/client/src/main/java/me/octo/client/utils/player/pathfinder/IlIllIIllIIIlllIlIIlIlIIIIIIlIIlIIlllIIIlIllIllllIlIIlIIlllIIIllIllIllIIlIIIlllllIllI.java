@@ -1098,6 +1098,115 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       return (boolean)0;
    }
 
+   @Nullable
+   public final List llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$5ba3e6faf66de4bc(
+      @NotNull BlockPos param1, boolean param2, int param3, short param4, int param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static List llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$f578f569e685dac5(
+      IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI param0,
+      BlockPos param1,
+      boolean param2,
+      int param3,
+      Object param4,
+      long param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @Nullable
+   public final List llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$a1661d5ddeb4492a(
+      @NotNull BlockPos goalArg, boolean argument2Arg, int argument3Arg, short argument4Arg, int argument5Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @Nullable
+   public final List llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$b94461e4f94d69aa(
+      long argument1Arg, @NotNull BlockPos startArg, @NotNull BlockPos argument3Arg, boolean argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5ab8ec5b75b8a39f(
+      long var1, long var3, long var5
+   ) {
+      var5 = 72612920793948L;
+      var5 = lIllllIlllIIllIllllllIIIIIIIIIIllIIlllIIIlllIIlIIIIllIIllIIllIIllIIIIlllIIIlIlllIlIlI ^ var5;
+      long var7 = var5 ^ 90040598678525L;
+      String var10000 = me.octo.client.utils.player.pathfinder.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll();
+      List var10 = new ArrayList();
+      long var11 = var3;
+      String var9 = var10000;
+
+      while (true) {
+         long var13;
+         label43: {
+            if (var11 != var1) {
+               var10.add(var11);
+               if (var9 != null) {
+                  break;
+               }
+
+               var13 = lIIIIlllllIlIllIllllllllllllIIllIllIIlllllIlIIIlIlIIIIIIlIIllIIIIIlIIIllIIIIlIIlIIlII.get(var11);
+
+               try {
+                  try {
+                     if (var13 != IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl<"d">(2725, 4110452894358542300L ^ var5)
+                        )
+                      {
+                        break label43;
+                     }
+                  } catch (MatchException var26) {
+                     throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var26);
+                  }
+               } catch (MatchException var27) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var27);
+               }
+            }
+
+            var10.add(var1);
+            CollectionsKt.reverse(var10);
+            break;
+         }
+
+         var11 = var13;
+      }
+
+      Iterable var30 = var10;
+      boolean var14 = false;
+      Collection var16 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var30, 10));
+      boolean var17 = false;
+      Iterator var18 = var30.iterator();
+
+      while (true) {
+         if (var18.hasNext()) {
+            Object var19 = var18.next();
+            var31 = var16;
+            if (var9 != null) {
+               break;
+            }
+
+            long var20 = ((Number)var19).longValue();
+            boolean var22 = false;
+            var16.add(
+               me.octo.client.utils.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+                  .lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$b32f55c541dd9309(var20, var7)
+            );
+            if (var9 == null) {
+               continue;
+            }
+         }
+
+         var31 = var16;
+         break;
+      }
+
+      return (List)var31;
+   }
+
    public static final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {
       private final long IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
       private final byte lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
@@ -1747,6 +1856,13 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
 
       private final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$770e9eb87e2fc81a(
          int param1, long param2, short param4
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      @NotNull
+      public final IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e0b588cb24585407(
+         short param1, int param2, int param3
       ) {
          // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
       }

@@ -115,4 +115,23 @@ public final class IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlI
    private static final float IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5244014fb0260637(long param0) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   public static final float IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$e4d0a84b6901492a(
+      int var0, int var1
+   ) {
+      short var7 = 31177;
+      var1 = 1444128747;
+      long var2 = ((long)var7 << 32 | (long)var1 << 32 >>> 32) ^ lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      long var10001 = var2 ^ 129669654209221L;
+      int var4 = (int)((var2 ^ 129669654209221L) >>> 56);
+      int var5 = (int)((var2 ^ 129669654209221L) << 8 >>> 32);
+      int var6 = (int)(var10001 << 40 >>> 40);
+      return llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$b6323f95ba4a9589((byte)var4, var5, var6);
+   }
+
+   private static final float llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$b6323f95ba4a9589(
+      byte param0, int param1, int param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

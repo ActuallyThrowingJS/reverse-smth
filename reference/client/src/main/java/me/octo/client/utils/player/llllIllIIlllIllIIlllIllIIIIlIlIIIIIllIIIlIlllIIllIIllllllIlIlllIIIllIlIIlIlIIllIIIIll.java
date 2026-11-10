@@ -817,7 +817,7 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
          boolean var10 = false;
 
          try {
-            llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI var14 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+            llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI var14 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ff5661b730162676(
                IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI,
                var9.getYRot(),
                var9.getXRot(),
@@ -1524,7 +1524,7 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
          boolean var10 = false;
 
          try {
-            llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI var16 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+            llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI var16 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1f60cfd636115211(
                IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI,
                var9.getYRot(),
                var9.getXRot(),
@@ -1858,7 +1858,7 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
       int var10 = (int)((var1 ^ 111281333333548L) << 32 >>> 48);
       int var11 = (int)(var10001 << 48 >>> 48);
       ArrayList var12 = new ArrayList();
-      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d982ed6080f2e59a(
          var9,
          var3,
          var10,
@@ -1939,6 +1939,195 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
       short param1, @NotNull BlockPos param2, long param3, @NotNull Vec3 param5, @Nullable BlockPos param6
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$794ddd3150c94e79(
+      llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll param0,
+      int param1,
+      int param2,
+      int param3,
+      Object param4,
+      short param5,
+      short param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ff5661b730162676(
+      llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll param0,
+      float param1,
+      float param2,
+      double param3,
+      short param5,
+      int param6,
+      boolean param7,
+      int param8,
+      Object param9,
+      int param10
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1f60cfd636115211(
+      llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll param0,
+      float param1,
+      float param2,
+      double param3,
+      short param5,
+      int param6,
+      boolean param7,
+      int param8,
+      Object param9,
+      int param10
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d982ed6080f2e59a(
+      int param1, BlockPos param2, int param3, Vec3 param4, double param5, int param7, Function1 param8
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1f9d9f3f7eb4d86e(
+      BlockPos var1, int var2, Vec3 var3, double var4, short var6, double var7, short var9
+   ) {
+      short var18 = 4692;
+      var6 = -19110;
+      var9 = 14440;
+      long var10 = ((long)var18 << 32 | (long)var6 << 48 >>> 32 | (long)var9 << 48 >>> 48)
+         ^ llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl;
+      long var10001 = var10 ^ 97981020320427L;
+      int var12 = (int)((var10 ^ 97981020320427L) >>> 32);
+      int var13 = (int)((var10 ^ 97981020320427L) << 32 >>> 48);
+      int var14 = (int)(var10001 << 48 >>> 48);
+      long var15 = var10 ^ 49898848860470L;
+      BooleanRef var17 = new BooleanRef();
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d982ed6080f2e59a(
+         var12,
+         var1,
+         var13,
+         var3,
+         var7,
+         var14,
+         llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll::IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI
+      );
+      return var17.element;
+   }
+
+   private static final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8f53f2d0b70aaf28(
+      HashSet param0, Function1 param1, long param2, Vec3 param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final List IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$8a68674839176d4d(
+      BlockPos var1, Vec3 var2, long var3
+   ) {
+      var3 = 49704044557883L;
+      var3 = llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl ^ var3;
+      int var10000 = llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI();
+      Vec3 var10001 = Vec3.atCenterOf((Vec3i)var1);
+      Intrinsics.checkNotNullExpressionValue(var10001, "atCenterOf(...)");
+      Vec3 var6 = var10001;
+      int var5 = var10000;
+      Iterable var7 = (Iterable)llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+      boolean var8 = false;
+      var var10 = new ArrayList();
+      boolean var11 = false;
+
+      for (Object var13 : var7) {
+         Direction var14 = (Direction)var13;
+         boolean var15 = false;
+
+         label32: {
+            label31: {
+               try {
+                  double var21;
+                  var10000 = (var21 = var2.subtract(var6).dot(new Vec3(var14.getStepX(), var14.getStepY(), var14.getStepZ())) - -0.05) == 0.0
+                     ? 0
+                     : (var21 < 0.0 ? -1 : 1);
+                  if (var5 == 0) {
+                     break label32;
+                  }
+
+                  if (var10000 > 0) {
+                     break label31;
+                  }
+               } catch (NoWhenBranchMatchedException var17) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((Throwable)var17);
+               }
+
+               var10000 = 0;
+               break label32;
+            }
+
+            var10000 = 1;
+         }
+
+         if (var10000 != 0) {
+            var10.add(var13);
+            if (var5 == 0) {
+               break;
+            }
+         }
+      }
+
+      return var10;
+   }
+
+   private final Vec3 IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$74974a1fad9d3dec(
+      BlockPos var1, Direction var2, double var3, double var5, double var7, long var9
+   ) {
+      var9 = 20348088211400L;
+      var9 = llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl ^ var9;
+
+      double var10000;
+      label40: {
+         try {
+            if (var2.getAxisDirection() == AxisDirection.POSITIVE) {
+               var10000 = 1.0 - var7;
+               break label40;
+            }
+         } catch (NoWhenBranchMatchedException var17) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((Throwable)var17);
+         }
+
+         var10000 = var7;
+      }
+
+      double var11 = var10000;
+
+      label31: {
+         label30: {
+            try {
+               switch (llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl[var2.getAxis()
+                  .ordinal()]) {
+                  case 1:
+                     var20 = new Vec3(var11, var3, var5);
+                     break label31;
+                  case 2:
+                     break label30;
+                  case 3:
+                     break;
+                  default:
+                     throw new NoWhenBranchMatchedException();
+               }
+            } catch (NoWhenBranchMatchedException var16) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((Throwable)var16);
+            }
+
+            var20 = new Vec3(var3, var5, var11);
+            break label31;
+         }
+
+         var20 = new Vec3(var3, var11, var5);
+      }
+
+      Vec3 var13 = var20;
+      Vec3 var21 = var13.add(var1.getX(), var1.getY(), var1.getZ());
+      Intrinsics.checkNotNullExpressionValue(var21, "add(...)");
+      return var21;
    }
 
    public static final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI {

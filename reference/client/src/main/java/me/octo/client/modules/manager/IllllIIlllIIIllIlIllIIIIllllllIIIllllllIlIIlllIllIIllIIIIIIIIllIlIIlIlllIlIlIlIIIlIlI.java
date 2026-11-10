@@ -512,6 +512,45 @@ public final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIII
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$12ca96a1104aeeeb(
+      int var1, @Nullable llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII var2, int var3, char var4
+   ) {
+      short var12 = 19104;
+      char var13 = '\ud847';
+      short var14 = 26702;
+      long var5 = ((long)var12 << 32 | (long)var13 << 48 >>> 32 | (long)var14 << 48 >>> 48)
+         ^ IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+      String var7 = IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI();
+
+      llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII var10000;
+      label27: {
+         try {
+            var10000 = var2;
+            if (var7 != null) {
+               break label27;
+            }
+
+            if (var2 == null) {
+               return false;
+            }
+         } catch (MatchException var11) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11);
+         }
+
+         var10000 = IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+      }
+
+      try {
+         if (var10000 == var2) {
+            return true;
+         }
+      } catch (MatchException var10) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10);
+      }
+
+      return false;
+   }
+
    public static enum IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {
       USER,
       RESTART,

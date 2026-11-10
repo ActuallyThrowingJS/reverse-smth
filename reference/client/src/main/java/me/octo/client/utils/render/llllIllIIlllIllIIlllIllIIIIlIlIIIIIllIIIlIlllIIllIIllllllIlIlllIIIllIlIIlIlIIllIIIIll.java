@@ -541,7 +541,7 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
          var7 = null;
       }
 
-      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$64c080d526891bab(
          var0, var1, var2, var3, var4, var5, var12, var6, (short)var13, var7, (char)var14
       );
    }
@@ -593,5 +593,60 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
                3.0F
             )
          );
+   }
+
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$485352eaf0d068a2(
+      char var0, @NotNull Collection var1, char var2, @NotNull Color var3, boolean var4, int var5, float var6
+   ) {
+      var4 = 0;
+      long var7 = ((long)var0 << 48 | (long)var2 << 48 >>> 16 | (long)var5 << 32 >>> 32)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      long var9 = var7 ^ 24584803192989L;
+      Intrinsics.checkNotNullParameter(
+         var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"i">(25262, 4118059737233345607L ^ var7)
+      );
+      Intrinsics.checkNotNullParameter(
+         var3, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"i">(16868, 4626591812124765956L ^ var7)
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var9, var1, var3, var3, (boolean)var4, var6);
+   }
+
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$97bfec12f3f281d3(
+      char argument1Arg, @NotNull Collection pointsArg, char argument3Arg, @NotNull Color colorArg, boolean argument5Arg, int argument6Arg, float argument7Arg
+   ) {
+      byte var11 = 0;
+      short var12 = 25001;
+      argument5Arg = 0;
+      argument6Arg = 1495916185;
+      long var7 = ((long)var11 << 48 | (long)var12 << 48 >>> 16 | (long)argument6Arg << 32 >>> 32)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      long var9 = var7 ^ 24584803192989L;
+      Intrinsics.checkNotNullParameter(pointsArg, "points");
+      Intrinsics.checkNotNullParameter(colorArg, "color");
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c0cd6ba5b3a9d399(
+         var9, pointsArg, colorArg, colorArg, (boolean)argument5Arg, argument7Arg
+      );
+   }
+
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$64c080d526891bab(
+      @NotNull String textArg,
+      @NotNull Vec3 posArg,
+      float argument3Arg,
+      boolean argument4Arg,
+      @NotNull Color colorArg,
+      @NotNull Font fontArg,
+      int argument7Arg,
+      float argument8Arg,
+      short argument9Arg,
+      @Nullable Float argument10Arg,
+      char argument11Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c0cd6ba5b3a9d399(
+      long argument1Arg, @NotNull Collection pointsArg, @NotNull Color argument3Arg, @NotNull Color color2Arg, boolean argument5Arg, float argument6Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

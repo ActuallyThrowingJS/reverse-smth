@@ -205,4 +205,16 @@ public final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIl
          );
       }
    }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2d00869b25b4ddea(
+      int argument1Arg, int argument2Arg, @NotNull String textArg, char argument4Arg
+   ) {
+      short var7 = 19825;
+      short var8 = 4111;
+      argument4Arg = '誱';
+      long var5 = ((long)var7 << 32 | (long)var8 << 48 >>> 32 | (long)argument4Arg << 48 >>> 48)
+         ^ IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+      Intrinsics.checkNotNullParameter(textArg, "text");
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI().keyboardHandler.setClipboard(textArg);
+   }
 }

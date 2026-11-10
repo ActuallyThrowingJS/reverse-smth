@@ -1,0 +1,5002 @@
+[
+  {
+    "slot": 4,
+    "name": "GetVersion",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      }
+    ]
+  },
+  {
+    "slot": 5,
+    "name": "DefineClass",
+    "returnType": "jclass",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "const char *",
+        "name": "name"
+      },
+      {
+        "type": "jobject",
+        "name": "loader"
+      },
+      {
+        "type": "const jbyte *",
+        "name": "buf"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      }
+    ]
+  },
+  {
+    "slot": 6,
+    "name": "FindClass",
+    "returnType": "jclass",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "const char *",
+        "name": "name"
+      }
+    ]
+  },
+  {
+    "slot": 7,
+    "name": "FromReflectedMethod",
+    "returnType": "jmethodID",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "method"
+      }
+    ]
+  },
+  {
+    "slot": 8,
+    "name": "FromReflectedField",
+    "returnType": "jfieldID",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "field"
+      }
+    ]
+  },
+  {
+    "slot": 9,
+    "name": "ToReflectedMethod",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "cls"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "jboolean",
+        "name": "isStatic"
+      }
+    ]
+  },
+  {
+    "slot": 10,
+    "name": "GetSuperclass",
+    "returnType": "jclass",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "sub"
+      }
+    ]
+  },
+  {
+    "slot": 11,
+    "name": "IsAssignableFrom",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "sub"
+      },
+      {
+        "type": "jclass",
+        "name": "sup"
+      }
+    ]
+  },
+  {
+    "slot": 12,
+    "name": "ToReflectedField",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "cls"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jboolean",
+        "name": "isStatic"
+      }
+    ]
+  },
+  {
+    "slot": 13,
+    "name": "Throw",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jthrowable",
+        "name": "obj"
+      }
+    ]
+  },
+  {
+    "slot": 14,
+    "name": "ThrowNew",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "const char *",
+        "name": "msg"
+      }
+    ]
+  },
+  {
+    "slot": 15,
+    "name": "ExceptionOccurred",
+    "returnType": "jthrowable",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      }
+    ]
+  },
+  {
+    "slot": 16,
+    "name": "ExceptionDescribe",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      }
+    ]
+  },
+  {
+    "slot": 17,
+    "name": "ExceptionClear",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      }
+    ]
+  },
+  {
+    "slot": 18,
+    "name": "FatalError",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "const char *",
+        "name": "msg"
+      }
+    ]
+  },
+  {
+    "slot": 19,
+    "name": "PushLocalFrame",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jint",
+        "name": "capacity"
+      }
+    ]
+  },
+  {
+    "slot": 20,
+    "name": "PopLocalFrame",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "result"
+      }
+    ]
+  },
+  {
+    "slot": 21,
+    "name": "NewGlobalRef",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "lobj"
+      }
+    ]
+  },
+  {
+    "slot": 22,
+    "name": "DeleteGlobalRef",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "gref"
+      }
+    ]
+  },
+  {
+    "slot": 23,
+    "name": "DeleteLocalRef",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      }
+    ]
+  },
+  {
+    "slot": 24,
+    "name": "IsSameObject",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj1"
+      },
+      {
+        "type": "jobject",
+        "name": "obj2"
+      }
+    ]
+  },
+  {
+    "slot": 25,
+    "name": "NewLocalRef",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "ref"
+      }
+    ]
+  },
+  {
+    "slot": 26,
+    "name": "EnsureLocalCapacity",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jint",
+        "name": "capacity"
+      }
+    ]
+  },
+  {
+    "slot": 27,
+    "name": "AllocObject",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      }
+    ]
+  },
+  {
+    "slot": 28,
+    "name": "NewObject",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 29,
+    "name": "NewObjectV",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 30,
+    "name": "NewObjectA",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 31,
+    "name": "GetObjectClass",
+    "returnType": "jclass",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      }
+    ]
+  },
+  {
+    "slot": 32,
+    "name": "IsInstanceOf",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      }
+    ]
+  },
+  {
+    "slot": 33,
+    "name": "GetMethodID",
+    "returnType": "jmethodID",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "const char *",
+        "name": "name"
+      },
+      {
+        "type": "const char *",
+        "name": "sig"
+      }
+    ]
+  },
+  {
+    "slot": 34,
+    "name": "CallObjectMethod",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 35,
+    "name": "CallObjectMethodV",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 36,
+    "name": "CallObjectMethodA",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 37,
+    "name": "CallBooleanMethod",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 38,
+    "name": "CallBooleanMethodV",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 39,
+    "name": "CallBooleanMethodA",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 40,
+    "name": "CallByteMethod",
+    "returnType": "jbyte",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 41,
+    "name": "CallByteMethodV",
+    "returnType": "jbyte",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 42,
+    "name": "CallByteMethodA",
+    "returnType": "jbyte",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 43,
+    "name": "CallCharMethod",
+    "returnType": "jchar",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 44,
+    "name": "CallCharMethodV",
+    "returnType": "jchar",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 45,
+    "name": "CallCharMethodA",
+    "returnType": "jchar",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 46,
+    "name": "CallShortMethod",
+    "returnType": "jshort",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 47,
+    "name": "CallShortMethodV",
+    "returnType": "jshort",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 48,
+    "name": "CallShortMethodA",
+    "returnType": "jshort",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 49,
+    "name": "CallIntMethod",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "name": "CallIntMethodV",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 51,
+    "name": "CallIntMethodA",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 52,
+    "name": "CallLongMethod",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 53,
+    "name": "CallLongMethodV",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 54,
+    "name": "CallLongMethodA",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 55,
+    "name": "CallFloatMethod",
+    "returnType": "jfloat",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 56,
+    "name": "CallFloatMethodV",
+    "returnType": "jfloat",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 57,
+    "name": "CallFloatMethodA",
+    "returnType": "jfloat",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 58,
+    "name": "CallDoubleMethod",
+    "returnType": "jdouble",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 59,
+    "name": "CallDoubleMethodV",
+    "returnType": "jdouble",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 60,
+    "name": "CallDoubleMethodA",
+    "returnType": "jdouble",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 61,
+    "name": "CallVoidMethod",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 62,
+    "name": "CallVoidMethodV",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 63,
+    "name": "CallVoidMethodA",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 64,
+    "name": "CallNonvirtualObjectMethod",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 65,
+    "name": "CallNonvirtualObjectMethodV",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 66,
+    "name": "CallNonvirtualObjectMethodA",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 67,
+    "name": "CallNonvirtualBooleanMethod",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 68,
+    "name": "CallNonvirtualBooleanMethodV",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 69,
+    "name": "CallNonvirtualBooleanMethodA",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 70,
+    "name": "CallNonvirtualByteMethod",
+    "returnType": "jbyte",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 71,
+    "name": "CallNonvirtualByteMethodV",
+    "returnType": "jbyte",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 72,
+    "name": "CallNonvirtualByteMethodA",
+    "returnType": "jbyte",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 73,
+    "name": "CallNonvirtualCharMethod",
+    "returnType": "jchar",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 74,
+    "name": "CallNonvirtualCharMethodV",
+    "returnType": "jchar",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 75,
+    "name": "CallNonvirtualCharMethodA",
+    "returnType": "jchar",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 76,
+    "name": "CallNonvirtualShortMethod",
+    "returnType": "jshort",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 77,
+    "name": "CallNonvirtualShortMethodV",
+    "returnType": "jshort",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 78,
+    "name": "CallNonvirtualShortMethodA",
+    "returnType": "jshort",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 79,
+    "name": "CallNonvirtualIntMethod",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 80,
+    "name": "CallNonvirtualIntMethodV",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 81,
+    "name": "CallNonvirtualIntMethodA",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 82,
+    "name": "CallNonvirtualLongMethod",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 83,
+    "name": "CallNonvirtualLongMethodV",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 84,
+    "name": "CallNonvirtualLongMethodA",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 85,
+    "name": "CallNonvirtualFloatMethod",
+    "returnType": "jfloat",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 86,
+    "name": "CallNonvirtualFloatMethodV",
+    "returnType": "jfloat",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 87,
+    "name": "CallNonvirtualFloatMethodA",
+    "returnType": "jfloat",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 88,
+    "name": "CallNonvirtualDoubleMethod",
+    "returnType": "jdouble",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 89,
+    "name": "CallNonvirtualDoubleMethodV",
+    "returnType": "jdouble",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 90,
+    "name": "CallNonvirtualDoubleMethodA",
+    "returnType": "jdouble",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 91,
+    "name": "CallNonvirtualVoidMethod",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 92,
+    "name": "CallNonvirtualVoidMethodV",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 93,
+    "name": "CallNonvirtualVoidMethodA",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 94,
+    "name": "GetFieldID",
+    "returnType": "jfieldID",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "const char *",
+        "name": "name"
+      },
+      {
+        "type": "const char *",
+        "name": "sig"
+      }
+    ]
+  },
+  {
+    "slot": 95,
+    "name": "GetObjectField",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 96,
+    "name": "GetBooleanField",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 97,
+    "name": "GetByteField",
+    "returnType": "jbyte",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 98,
+    "name": "GetCharField",
+    "returnType": "jchar",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 99,
+    "name": "GetShortField",
+    "returnType": "jshort",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "name": "GetIntField",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 101,
+    "name": "GetLongField",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 102,
+    "name": "GetFloatField",
+    "returnType": "jfloat",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 103,
+    "name": "GetDoubleField",
+    "returnType": "jdouble",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 104,
+    "name": "SetObjectField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jobject",
+        "name": "val"
+      }
+    ]
+  },
+  {
+    "slot": 105,
+    "name": "SetBooleanField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jboolean",
+        "name": "val"
+      }
+    ]
+  },
+  {
+    "slot": 106,
+    "name": "SetByteField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jbyte",
+        "name": "val"
+      }
+    ]
+  },
+  {
+    "slot": 107,
+    "name": "SetCharField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jchar",
+        "name": "val"
+      }
+    ]
+  },
+  {
+    "slot": 108,
+    "name": "SetShortField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jshort",
+        "name": "val"
+      }
+    ]
+  },
+  {
+    "slot": 109,
+    "name": "SetIntField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jint",
+        "name": "val"
+      }
+    ]
+  },
+  {
+    "slot": 110,
+    "name": "SetLongField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jlong",
+        "name": "val"
+      }
+    ]
+  },
+  {
+    "slot": 111,
+    "name": "SetFloatField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jfloat",
+        "name": "val"
+      }
+    ]
+  },
+  {
+    "slot": 112,
+    "name": "SetDoubleField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jdouble",
+        "name": "val"
+      }
+    ]
+  },
+  {
+    "slot": 113,
+    "name": "GetStaticMethodID",
+    "returnType": "jmethodID",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "const char *",
+        "name": "name"
+      },
+      {
+        "type": "const char *",
+        "name": "sig"
+      }
+    ]
+  },
+  {
+    "slot": 114,
+    "name": "CallStaticObjectMethod",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 115,
+    "name": "CallStaticObjectMethodV",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 116,
+    "name": "CallStaticObjectMethodA",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 117,
+    "name": "CallStaticBooleanMethod",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 118,
+    "name": "CallStaticBooleanMethodV",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 119,
+    "name": "CallStaticBooleanMethodA",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 120,
+    "name": "CallStaticByteMethod",
+    "returnType": "jbyte",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 121,
+    "name": "CallStaticByteMethodV",
+    "returnType": "jbyte",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 122,
+    "name": "CallStaticByteMethodA",
+    "returnType": "jbyte",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 123,
+    "name": "CallStaticCharMethod",
+    "returnType": "jchar",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 124,
+    "name": "CallStaticCharMethodV",
+    "returnType": "jchar",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 125,
+    "name": "CallStaticCharMethodA",
+    "returnType": "jchar",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 126,
+    "name": "CallStaticShortMethod",
+    "returnType": "jshort",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 127,
+    "name": "CallStaticShortMethodV",
+    "returnType": "jshort",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 128,
+    "name": "CallStaticShortMethodA",
+    "returnType": "jshort",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 129,
+    "name": "CallStaticIntMethod",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 130,
+    "name": "CallStaticIntMethodV",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 131,
+    "name": "CallStaticIntMethodA",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 132,
+    "name": "CallStaticLongMethod",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 133,
+    "name": "CallStaticLongMethodV",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 134,
+    "name": "CallStaticLongMethodA",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 135,
+    "name": "CallStaticFloatMethod",
+    "returnType": "jfloat",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 136,
+    "name": "CallStaticFloatMethodV",
+    "returnType": "jfloat",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 137,
+    "name": "CallStaticFloatMethodA",
+    "returnType": "jfloat",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 138,
+    "name": "CallStaticDoubleMethod",
+    "returnType": "jdouble",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 139,
+    "name": "CallStaticDoubleMethodV",
+    "returnType": "jdouble",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 140,
+    "name": "CallStaticDoubleMethodA",
+    "returnType": "jdouble",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 141,
+    "name": "CallStaticVoidMethod",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "cls"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "...",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 142,
+    "name": "CallStaticVoidMethodV",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "cls"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "va_list",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 143,
+    "name": "CallStaticVoidMethodA",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "cls"
+      },
+      {
+        "type": "jmethodID",
+        "name": "methodID"
+      },
+      {
+        "type": "const jvalue *",
+        "name": "args"
+      }
+    ]
+  },
+  {
+    "slot": 144,
+    "name": "GetStaticFieldID",
+    "returnType": "jfieldID",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "const char *",
+        "name": "name"
+      },
+      {
+        "type": "const char *",
+        "name": "sig"
+      }
+    ]
+  },
+  {
+    "slot": 145,
+    "name": "GetStaticObjectField",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 146,
+    "name": "GetStaticBooleanField",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 147,
+    "name": "GetStaticByteField",
+    "returnType": "jbyte",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 148,
+    "name": "GetStaticCharField",
+    "returnType": "jchar",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 149,
+    "name": "GetStaticShortField",
+    "returnType": "jshort",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 150,
+    "name": "GetStaticIntField",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 151,
+    "name": "GetStaticLongField",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 152,
+    "name": "GetStaticFloatField",
+    "returnType": "jfloat",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 153,
+    "name": "GetStaticDoubleField",
+    "returnType": "jdouble",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      }
+    ]
+  },
+  {
+    "slot": 154,
+    "name": "SetStaticObjectField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jobject",
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "slot": 155,
+    "name": "SetStaticBooleanField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jboolean",
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "slot": 156,
+    "name": "SetStaticByteField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jbyte",
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "slot": 157,
+    "name": "SetStaticCharField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jchar",
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "slot": 158,
+    "name": "SetStaticShortField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jshort",
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "slot": 159,
+    "name": "SetStaticIntField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jint",
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "slot": 160,
+    "name": "SetStaticLongField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jlong",
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "slot": 161,
+    "name": "SetStaticFloatField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jfloat",
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "slot": 162,
+    "name": "SetStaticDoubleField",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jfieldID",
+        "name": "fieldID"
+      },
+      {
+        "type": "jdouble",
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "slot": 163,
+    "name": "NewString",
+    "returnType": "jstring",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "const jchar *",
+        "name": "unicode"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      }
+    ]
+  },
+  {
+    "slot": 164,
+    "name": "GetStringLength",
+    "returnType": "jsize",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jstring",
+        "name": "str"
+      }
+    ]
+  },
+  {
+    "slot": 165,
+    "name": "GetStringChars",
+    "returnType": "const jchar *",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jstring",
+        "name": "str"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 166,
+    "name": "ReleaseStringChars",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jstring",
+        "name": "str"
+      },
+      {
+        "type": "const jchar *",
+        "name": "chars"
+      }
+    ]
+  },
+  {
+    "slot": 167,
+    "name": "NewStringUTF",
+    "returnType": "jstring",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "const char *",
+        "name": "utf"
+      }
+    ]
+  },
+  {
+    "slot": 168,
+    "name": "GetStringUTFLength",
+    "returnType": "jsize",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jstring",
+        "name": "str"
+      }
+    ]
+  },
+  {
+    "slot": 169,
+    "name": "GetStringUTFChars",
+    "returnType": "const char*",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jstring",
+        "name": "str"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 170,
+    "name": "ReleaseStringUTFChars",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jstring",
+        "name": "str"
+      },
+      {
+        "type": "const char*",
+        "name": "chars"
+      }
+    ]
+  },
+  {
+    "slot": 171,
+    "name": "GetArrayLength",
+    "returnType": "jsize",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jarray",
+        "name": "array"
+      }
+    ]
+  },
+  {
+    "slot": 172,
+    "name": "NewObjectArray",
+    "returnType": "jobjectArray",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "jobject",
+        "name": "init"
+      }
+    ]
+  },
+  {
+    "slot": 173,
+    "name": "GetObjectArrayElement",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobjectArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "index"
+      }
+    ]
+  },
+  {
+    "slot": 174,
+    "name": "SetObjectArrayElement",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobjectArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "index"
+      },
+      {
+        "type": "jobject",
+        "name": "val"
+      }
+    ]
+  },
+  {
+    "slot": 175,
+    "name": "NewBooleanArray",
+    "returnType": "jbooleanArray",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      }
+    ]
+  },
+  {
+    "slot": 176,
+    "name": "NewByteArray",
+    "returnType": "jbyteArray",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      }
+    ]
+  },
+  {
+    "slot": 177,
+    "name": "NewCharArray",
+    "returnType": "jcharArray",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      }
+    ]
+  },
+  {
+    "slot": 178,
+    "name": "NewShortArray",
+    "returnType": "jshortArray",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      }
+    ]
+  },
+  {
+    "slot": 179,
+    "name": "NewIntArray",
+    "returnType": "jintArray",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      }
+    ]
+  },
+  {
+    "slot": 180,
+    "name": "NewLongArray",
+    "returnType": "jlongArray",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      }
+    ]
+  },
+  {
+    "slot": 181,
+    "name": "NewFloatArray",
+    "returnType": "jfloatArray",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      }
+    ]
+  },
+  {
+    "slot": 182,
+    "name": "NewDoubleArray",
+    "returnType": "jdoubleArray",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      }
+    ]
+  },
+  {
+    "slot": 183,
+    "name": "GetBooleanArrayElements",
+    "returnType": "jboolean *",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jbooleanArray",
+        "name": "array"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 184,
+    "name": "GetByteArrayElements",
+    "returnType": "jbyte *",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jbyteArray",
+        "name": "array"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 185,
+    "name": "GetCharArrayElements",
+    "returnType": "jchar *",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jcharArray",
+        "name": "array"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 186,
+    "name": "GetShortArrayElements",
+    "returnType": "jshort *",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jshortArray",
+        "name": "array"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 187,
+    "name": "GetIntArrayElements",
+    "returnType": "jint *",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jintArray",
+        "name": "array"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 188,
+    "name": "GetLongArrayElements",
+    "returnType": "jlong *",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jlongArray",
+        "name": "array"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 189,
+    "name": "GetFloatArrayElements",
+    "returnType": "jfloat *",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jfloatArray",
+        "name": "array"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 190,
+    "name": "GetDoubleArrayElements",
+    "returnType": "jdouble *",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jdoubleArray",
+        "name": "array"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 191,
+    "name": "ReleaseBooleanArrayElements",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jbooleanArray",
+        "name": "array"
+      },
+      {
+        "type": "jboolean *",
+        "name": "elems"
+      },
+      {
+        "type": "jint",
+        "name": "mode"
+      }
+    ]
+  },
+  {
+    "slot": 192,
+    "name": "ReleaseByteArrayElements",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jbyteArray",
+        "name": "array"
+      },
+      {
+        "type": "jbyte *",
+        "name": "elems"
+      },
+      {
+        "type": "jint",
+        "name": "mode"
+      }
+    ]
+  },
+  {
+    "slot": 193,
+    "name": "ReleaseCharArrayElements",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jcharArray",
+        "name": "array"
+      },
+      {
+        "type": "jchar *",
+        "name": "elems"
+      },
+      {
+        "type": "jint",
+        "name": "mode"
+      }
+    ]
+  },
+  {
+    "slot": 194,
+    "name": "ReleaseShortArrayElements",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jshortArray",
+        "name": "array"
+      },
+      {
+        "type": "jshort *",
+        "name": "elems"
+      },
+      {
+        "type": "jint",
+        "name": "mode"
+      }
+    ]
+  },
+  {
+    "slot": 195,
+    "name": "ReleaseIntArrayElements",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jintArray",
+        "name": "array"
+      },
+      {
+        "type": "jint *",
+        "name": "elems"
+      },
+      {
+        "type": "jint",
+        "name": "mode"
+      }
+    ]
+  },
+  {
+    "slot": 196,
+    "name": "ReleaseLongArrayElements",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jlongArray",
+        "name": "array"
+      },
+      {
+        "type": "jlong *",
+        "name": "elems"
+      },
+      {
+        "type": "jint",
+        "name": "mode"
+      }
+    ]
+  },
+  {
+    "slot": 197,
+    "name": "ReleaseFloatArrayElements",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jfloatArray",
+        "name": "array"
+      },
+      {
+        "type": "jfloat *",
+        "name": "elems"
+      },
+      {
+        "type": "jint",
+        "name": "mode"
+      }
+    ]
+  },
+  {
+    "slot": 198,
+    "name": "ReleaseDoubleArrayElements",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jdoubleArray",
+        "name": "array"
+      },
+      {
+        "type": "jdouble *",
+        "name": "elems"
+      },
+      {
+        "type": "jint",
+        "name": "mode"
+      }
+    ]
+  },
+  {
+    "slot": 199,
+    "name": "GetBooleanArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jbooleanArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "l"
+      },
+      {
+        "type": "jboolean *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 200,
+    "name": "GetByteArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jbyteArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "jbyte *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 201,
+    "name": "GetCharArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jcharArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "jchar *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 202,
+    "name": "GetShortArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jshortArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "jshort *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 203,
+    "name": "GetIntArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jintArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "jint *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 204,
+    "name": "GetLongArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jlongArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "jlong *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 205,
+    "name": "GetFloatArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jfloatArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "jfloat *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 206,
+    "name": "GetDoubleArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jdoubleArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "jdouble *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 207,
+    "name": "SetBooleanArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jbooleanArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "l"
+      },
+      {
+        "type": "const jboolean *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 208,
+    "name": "SetByteArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jbyteArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "const jbyte *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 209,
+    "name": "SetCharArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jcharArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "const jchar *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 210,
+    "name": "SetShortArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jshortArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "const jshort *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 211,
+    "name": "SetIntArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jintArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "const jint *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 212,
+    "name": "SetLongArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jlongArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "const jlong *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 213,
+    "name": "SetFloatArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jfloatArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "const jfloat *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 214,
+    "name": "SetDoubleArrayRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jdoubleArray",
+        "name": "array"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "const jdouble *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 215,
+    "name": "RegisterNatives",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      },
+      {
+        "type": "const JNINativeMethod *",
+        "name": "methods"
+      },
+      {
+        "type": "jint",
+        "name": "nMethods"
+      }
+    ]
+  },
+  {
+    "slot": 216,
+    "name": "UnregisterNatives",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      }
+    ]
+  },
+  {
+    "slot": 217,
+    "name": "MonitorEnter",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      }
+    ]
+  },
+  {
+    "slot": 218,
+    "name": "MonitorExit",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      }
+    ]
+  },
+  {
+    "slot": 219,
+    "name": "GetJavaVM",
+    "returnType": "jint",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "JavaVM **",
+        "name": "vm"
+      }
+    ]
+  },
+  {
+    "slot": 220,
+    "name": "GetStringRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jstring",
+        "name": "str"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "jchar *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 221,
+    "name": "GetStringUTFRegion",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jstring",
+        "name": "str"
+      },
+      {
+        "type": "jsize",
+        "name": "start"
+      },
+      {
+        "type": "jsize",
+        "name": "len"
+      },
+      {
+        "type": "char *",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 222,
+    "name": "GetPrimitiveArrayCritical",
+    "returnType": "void *",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jarray",
+        "name": "array"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 223,
+    "name": "ReleasePrimitiveArrayCritical",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jarray",
+        "name": "array"
+      },
+      {
+        "type": "void *",
+        "name": "carray"
+      },
+      {
+        "type": "jint",
+        "name": "mode"
+      }
+    ]
+  },
+  {
+    "slot": 224,
+    "name": "GetStringCritical",
+    "returnType": "const jchar *",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jstring",
+        "name": "string"
+      },
+      {
+        "type": "jboolean *",
+        "name": "isCopy"
+      }
+    ]
+  },
+  {
+    "slot": 225,
+    "name": "ReleaseStringCritical",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jstring",
+        "name": "string"
+      },
+      {
+        "type": "const jchar *",
+        "name": "cstring"
+      }
+    ]
+  },
+  {
+    "slot": 226,
+    "name": "NewWeakGlobalRef",
+    "returnType": "jweak",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      }
+    ]
+  },
+  {
+    "slot": 227,
+    "name": "DeleteWeakGlobalRef",
+    "returnType": "void",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jweak",
+        "name": "ref"
+      }
+    ]
+  },
+  {
+    "slot": 228,
+    "name": "ExceptionCheck",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      }
+    ]
+  },
+  {
+    "slot": 229,
+    "name": "NewDirectByteBuffer",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv*",
+        "name": "env"
+      },
+      {
+        "type": "void*",
+        "name": "address"
+      },
+      {
+        "type": "jlong",
+        "name": "capacity"
+      }
+    ]
+  },
+  {
+    "slot": 230,
+    "name": "GetDirectBufferAddress",
+    "returnType": "void*",
+    "parameters": [
+      {
+        "type": "JNIEnv*",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 231,
+    "name": "GetDirectBufferCapacity",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv*",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "buf"
+      }
+    ]
+  },
+  {
+    "slot": 232,
+    "name": "GetObjectRefType",
+    "returnType": "jobjectRefType",
+    "parameters": [
+      {
+        "type": "JNIEnv*",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      }
+    ]
+  },
+  {
+    "slot": 233,
+    "name": "GetModule",
+    "returnType": "jobject",
+    "parameters": [
+      {
+        "type": "JNIEnv*",
+        "name": "env"
+      },
+      {
+        "type": "jclass",
+        "name": "clazz"
+      }
+    ]
+  },
+  {
+    "slot": 234,
+    "name": "IsVirtualThread",
+    "returnType": "jboolean",
+    "parameters": [
+      {
+        "type": "JNIEnv*",
+        "name": "env"
+      },
+      {
+        "type": "jobject",
+        "name": "obj"
+      }
+    ]
+  },
+  {
+    "slot": 235,
+    "name": "GetStringUTFLengthAsLong",
+    "returnType": "jlong",
+    "parameters": [
+      {
+        "type": "JNIEnv *",
+        "name": "env"
+      },
+      {
+        "type": "jstring",
+        "name": "str"
+      }
+    ]
+  }
+]

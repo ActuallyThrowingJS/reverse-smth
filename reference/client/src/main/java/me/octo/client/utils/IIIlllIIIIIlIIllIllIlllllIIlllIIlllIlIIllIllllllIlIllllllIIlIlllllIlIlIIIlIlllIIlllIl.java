@@ -325,7 +325,7 @@ public final class IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlI
       Object var14 = null;
       Vec3 var15 = var10004;
       Vec3 var16 = var18;
-      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$be39c220de2f9b35(
          this, var3, var7, (char)var9, var16, var10, var11, var15, (Entity)var14, var13, var12
       );
    }
@@ -1361,7 +1361,7 @@ public final class IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlI
       for (Vec3 var13 : this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$cf488fc37ef40d83(
          var8, new AABB(toArg), fromArg
       )) {
-         IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll var14 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll var14 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e4e86f3a8c0aebb3(
             var5, var13, fromArg, (char)var6, var7
          );
 
@@ -1434,7 +1434,7 @@ public final class IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlI
          for (Vec3 var17 : this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$cf488fc37ef40d83(
             var8, new AABB(toArg), fromArg
          )) {
-            IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll var18 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+            IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll var18 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e4e86f3a8c0aebb3(
                var5, var17, fromArg, (char)var6, var7
             );
             if (var18.getType()
@@ -1450,7 +1450,7 @@ public final class IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlI
          for (Vec3 var12 : this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$cf488fc37ef40d83(
             var8, new AABB(toArg), fromArg
          )) {
-            IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll var13 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+            IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll var13 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e4e86f3a8c0aebb3(
                var5, var12, fromArg, (char)var6, var7
             );
 
@@ -1461,6 +1461,315 @@ public final class IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlI
          return IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
             .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
       }
+   }
+
+   public static IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7312f1cc708e57bc(
+      IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl var0,
+      Vec3 var1,
+      char var2,
+      List var3,
+      int var4,
+      int var5,
+      Vec3 var6,
+      int var7,
+      Object var8
+   ) {
+      byte var17 = 4;
+      long var9 = ((long)var2 << 48 | (long)var4 << 32 >>> 16 | (long)var5 << 48 >>> 48)
+         ^ llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI;
+      long var11 = var9 ^ 72918705325983L;
+      long var13 = var9 ^ 44743976313469L;
+      int[] var15 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         8091272962445402703L, var9
+      );
+
+      byte var10000;
+      byte var10001;
+      label25: {
+         label24: {
+            try {
+               var10000 = var17;
+               var10001 = 2;
+               if (var15 == null) {
+                  break label25;
+               }
+
+               if ((var17 & 2) == 0) {
+                  break label24;
+               }
+            } catch (NoWhenBranchMatchedException var16) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var16, 8175369959776089325L, var9
+               );
+            }
+
+            var3 = CollectionsKt.emptyList();
+         }
+
+         var10000 = var17;
+         var10001 = 4;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var6 = var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13);
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11, var1, var3, var6);
+   }
+
+   public static IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$47d669c099785041(
+      IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl var0,
+      Vec3 var1,
+      char var2,
+      List var3,
+      int var4,
+      int var5,
+      Vec3 var6,
+      int var7,
+      Object var8
+   ) {
+      byte var18 = 0;
+      var4 = 380303449;
+      short var20 = 13626;
+      byte var21 = 4;
+      long var9 = ((long)var18 << 48 | (long)var4 << 32 >>> 16 | (long)var20 << 48 >>> 48)
+         ^ llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI;
+      long var11 = var9 ^ 72918705325983L;
+      long var13 = var9 ^ 44743976313469L;
+      int[] var15 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
+
+      byte var10000;
+      byte var10001;
+      label25: {
+         label24: {
+            try {
+               var10000 = var21;
+               var10001 = 2;
+               if (var15 == null) {
+                  break label25;
+               }
+
+               if ((var21 & 2) == 0) {
+                  break label24;
+               }
+            } catch (NoWhenBranchMatchedException var17) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
+            }
+
+            var3 = CollectionsKt.emptyList();
+         }
+
+         var10000 = var21;
+         var10001 = 4;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var6 = var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$974d2a3425e3891d(var13);
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fe5762d9f71ac3fc(var11, var1, var3, var6);
+   }
+
+   public static IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b44a5ff28ef91510(
+      IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl var0,
+      Vec3 var1,
+      char var2,
+      List var3,
+      int var4,
+      int var5,
+      Vec3 var6,
+      int var7,
+      Object var8
+   ) {
+      byte var17 = 6;
+      long var9 = ((long)var2 << 48 | (long)var4 << 32 >>> 16 | (long)var5 << 48 >>> 48)
+         ^ llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI;
+      long var11 = var9 ^ 72918705325983L;
+      long var13 = var9 ^ 44743976313469L;
+      int[] var15 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         8091272962445402703L, var9
+      );
+
+      byte var10000;
+      byte var10001;
+      label25: {
+         label24: {
+            try {
+               var10000 = var17;
+               var10001 = 2;
+               if (var15 == null) {
+                  break label25;
+               }
+
+               if ((var17 & 2) == 0) {
+                  break label24;
+               }
+            } catch (NoWhenBranchMatchedException var16) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var16, 8175369959776089325L, var9
+               );
+            }
+
+            var3 = CollectionsKt.emptyList();
+         }
+
+         var10000 = var17;
+         var10001 = 4;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var6 = var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13);
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11, var1, var3, var6);
+   }
+
+   public static IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fc95f0d04dc705c6(
+      IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl var0,
+      Vec3 var1,
+      char var2,
+      List var3,
+      int var4,
+      int var5,
+      Vec3 var6,
+      int var7,
+      Object var8
+   ) {
+      byte var18 = 0;
+      var4 = 380303449;
+      short var20 = 13626;
+      byte var21 = 6;
+      long var9 = ((long)var18 << 48 | (long)var4 << 32 >>> 16 | (long)var20 << 48 >>> 48)
+         ^ llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI;
+      long var11 = var9 ^ 72918705325983L;
+      long var13 = var9 ^ 44743976313469L;
+      int[] var15 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
+
+      byte var10000;
+      byte var10001;
+      label25: {
+         label24: {
+            try {
+               var10000 = var21;
+               var10001 = 2;
+               if (var15 == null) {
+                  break label25;
+               }
+
+               if ((var21 & 2) == 0) {
+                  break label24;
+               }
+            } catch (NoWhenBranchMatchedException var17) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
+            }
+
+            var3 = CollectionsKt.emptyList();
+         }
+
+         var10000 = var21;
+         var10001 = 4;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var6 = var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$974d2a3425e3891d(var13);
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fe5762d9f71ac3fc(var11, var1, var3, var6);
+   }
+
+   static BlockHitResult IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$be39c220de2f9b35(
+      IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl var0,
+      double var1,
+      boolean var3,
+      char var4,
+      Vec3 var5,
+      int var6,
+      int var7,
+      Vec3 var8,
+      Entity var9,
+      int var10,
+      Object var11
+   ) {
+      byte var20 = 16;
+      long var12 = ((long)var4 << 48 | (long)var6 << 32 >>> 16 | (long)var7 << 48 >>> 48)
+         ^ llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI;
+      long var10001 = var12 ^ 45996883606526L;
+      int var14 = (int)((var12 ^ 45996883606526L) >>> 48);
+      int var15 = (int)((var12 ^ 45996883606526L) << 16 >>> 32);
+      int var16 = (int)(var10001 << 48 >>> 48);
+      int[] var17 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         4948571677762705066L, var12
+      );
+
+      byte var10000;
+      label33: {
+         label32: {
+            try {
+               var10000 = var20;
+               var24 = 1;
+               if (var17 == null) {
+                  break label33;
+               }
+
+               if ((var20 & 1) == 0) {
+                  break label32;
+               }
+            } catch (NoWhenBranchMatchedException var19) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var19, 5012961526739845128L, var12
+               );
+            }
+
+            LocalPlayer var21 = me.octo.client.utils.client.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+               .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI()
+               .player;
+            Intrinsics.checkNotNull(var21);
+            double var22 = var21.blockInteractionRange();
+            LocalPlayer var25 = me.octo.client.utils.client.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+               .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI()
+               .player;
+            Intrinsics.checkNotNull(var25);
+            var1 = Math.max(var22, var25.entityInteractionRange());
+         }
+
+         try {
+            var10000 = var20;
+            var24 = 2;
+         } catch (NoWhenBranchMatchedException var18) {
+            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               var18, 5012961526739845128L, var12
+            );
+         }
+      }
+
+      if ((var10000 & var24) != 0) {
+         var3 = false;
+      }
+
+      if ((var20 & 16) != 0) {
+         Entity var23 = me.octo.client.utils.client.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+            .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI()
+            .getCameraEntity();
+         Intrinsics.checkNotNull(var23);
+         var9 = var23;
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         var1, (short)var14, var3, var15, var5, var8, var9, (short)var16
+      );
+   }
+
+   @NotNull
+   public final IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e4e86f3a8c0aebb3(
+      int argument1Arg, @NotNull Vec3 toArg, @NotNull Vec3 fromArg, char argument4Arg, int argument5Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final Double IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$453bd0ee97601a3d(
+      Vec3 param1, double param2, double param4, double param6, int param8, int param9, int param10, short param11, int param12, double param13, int param15
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    public static enum IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI {

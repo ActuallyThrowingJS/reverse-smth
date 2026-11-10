@@ -1418,7 +1418,9 @@ public final class lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlll
       Vec3 var14 = IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
          .IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$43450947e2688741(var12, toArg);
       Vec3 var15 = var20;
-      return var10000.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI((char)var5, (short)var6, var15, var14, var7);
+      return var10000.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$935831e136441356(
+         (char)var5, (short)var6, var15, var14, var7
+      );
    }
 
    public final double IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5039a117ac2b0837(
@@ -1513,6 +1515,227 @@ public final class lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlll
       }
 
       Vec3 var13 = var18;
-      return var10000.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI((char)var5, (short)var6, var13, toArg, var7);
+      return var10000.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$935831e136441356(
+         (char)var5, (short)var6, var13, toArg, var7
+      );
+   }
+
+   public final double llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$935831e136441356(
+      char argument1Arg, short argument2Arg, @NotNull Vec3 fromArg, @NotNull Vec3 toArg, int argument5Arg
+   ) {
+      byte var14 = 0;
+      argument2Arg = 383;
+      argument5Arg = 1443673186;
+      long var6 = ((long)var14 << 48 | (long)argument2Arg << 48 >>> 16 | (long)argument5Arg << 32 >>> 32)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      Intrinsics.checkNotNullParameter(fromArg, "from");
+      Intrinsics.checkNotNullParameter(toArg, "to");
+      double var8 = toArg.x - fromArg.x;
+      double var10 = toArg.y - fromArg.y;
+      double var12 = toArg.z - fromArg.z;
+      return var8 * var8 + var10 * var10 + var12 * var12;
+   }
+
+   @NotNull
+   public final AABB IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$40170ddd05843b79(
+      @NotNull Vec3 centerArg, short argument2Arg, double argument3Arg, short argument4Arg, int argument5Arg
+   ) {
+      byte var25 = 0;
+      argument4Arg = 29006;
+      argument5Arg = 1536126520;
+      long var7 = ((long)var25 << 48 | (long)argument4Arg << 48 >>> 16 | (long)argument5Arg << 32 >>> 32)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      Intrinsics.checkNotNullParameter(centerArg, "center");
+      double var9 = centerArg.x;
+      double var11 = centerArg.y;
+      double var13 = centerArg.z;
+      double var15 = argument3Arg / Math.sqrt(2.0);
+      double var17 = var9 - var15;
+      double var19 = var13 - var15;
+      double var21 = var9 + var15;
+      double var23 = var13 + var15;
+      return new AABB(var17, var11 - 0.5, var19, var21, var11 + 0.5, var23);
+   }
+
+   public final double llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$3b184e9973a34950(
+      int var1, @NotNull BlockPos var2, short var3, int var4, boolean var5
+   ) {
+      var5 = 0;
+      long var6 = ((long)var1 << 32 | (long)var3 << 48 >>> 32 | (long)var4 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var8 = var6 ^ 138301444813113L;
+      long var10 = var6 ^ 38254439201399L;
+      long var12 = var6 ^ 119699778507911L;
+      long var14 = var6 ^ 41436059719738L;
+
+      lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII var10000;
+      try {
+         Intrinsics.checkNotNullParameter(
+            var2, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"g">(27725, 3698902426817980594L ^ var6)
+         );
+         var10000 = this;
+      } catch (MatchException var16) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var16, 5269415160227852034L, var6
+         );
+      }
+
+      return var10000.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         me.octo.client.utils.player.llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.IIlllIlllIlIIIlIIIlllIlllIlIIllIlIlIIIIIlIIIllIIlIllllllIlIllIIIlllIlllllIlIlllllllll(
+            var10
+         ),
+         var12,
+         IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+            .IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var14, var2)
+      );
+   }
+
+   @JvmStatic
+   @NotNull
+   public static final String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$31258b8a46febbfb(
+      char argument1Arg, short argument2Arg, @NotNull Object numberArg, int argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final double llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$60904bb4e9d2c6b0(
+      int var1, @NotNull BlockPos var2, short var3, int var4, boolean var5
+   ) {
+      var5 = 1;
+      long var6 = ((long)var1 << 32 | (long)var3 << 48 >>> 32 | (long)var4 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var8 = var6 ^ 138301444813113L;
+      long var10 = var6 ^ 38254439201399L;
+      long var12 = var6 ^ 119699778507911L;
+      long var14 = var6 ^ 41436059719738L;
+
+      lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII var10000;
+      Vec3 var10001;
+      try {
+         Intrinsics.checkNotNullParameter(
+            var2, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"g">(27725, 3698902426817980594L ^ var6)
+         );
+         var10000 = this;
+         var10001 = me.octo.client.utils.player.llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.lllIIllIIlIlIlIIIIIlIIIllIIlIlIIllIlIIIlIlIlIIIlIIlIlIlIllIllllIlllIIlIlIIllIlIlIllIl(
+            var8
+         );
+      } catch (MatchException var16) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var16, 5269415160227852034L, var6
+         );
+      }
+
+      return var10000.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         var10001,
+         var12,
+         IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+            .IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var14, var2)
+      );
+   }
+
+   public static List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$def61c24e8350d2f(
+      List var0, double var1, int var3, Function1 var4, int var5, long var6, Object var8
+   ) {
+      var6 = 37925196350730L;
+      var6 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ var6;
+      long var9 = var6 ^ 67260138015828L;
+      IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var11 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      int var10000;
+      label33: {
+         label32: {
+            try {
+               var10000 = var5;
+               if (var11 != null) {
+                  break label33;
+               }
+
+               if ((var5 & 2) == 0) {
+                  break label32;
+               }
+            } catch (MatchException var15) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var15);
+            }
+
+            var1 = 0.4;
+         }
+
+         try {
+            var10000 = var5 & 4;
+         } catch (MatchException var14) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var14);
+         }
+      }
+
+      if (var10000 != 0) {
+         var3 = 5;
+      }
+
+      if ((var5 & 8) != 0) {
+         var4 = null;
+      }
+
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f9d8bee57019a37c(var0, var1, var3, var9, var4);
+   }
+
+   @JvmStatic
+   @NotNull
+   public static final List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f9d8bee57019a37c(
+      @NotNull List waypointsArg, double argument2Arg, int argument3Arg, long argument4Arg, @Nullable Function1 argument5Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @JvmStatic
+   @NotNull
+   public static final Vec3 IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1c14f56114fc2705(
+      @NotNull Vec3 p0Arg, @NotNull Vec3 p1Arg, @NotNull Vec3 p2Arg, @NotNull Vec3 p3Arg, double argument5Arg, long argument6Arg
+   ) {
+      argument6Arg = 27682592857647L;
+      argument6Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument6Arg;
+      IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+      Intrinsics.checkNotNullParameter(p0Arg, "p0");
+      Intrinsics.checkNotNullParameter(p1Arg, "p1");
+      IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var8 = var10000;
+      Intrinsics.checkNotNullParameter(p2Arg, "p2");
+      Intrinsics.checkNotNullParameter(p3Arg, "p3");
+      double var9 = argument5Arg * argument5Arg;
+      double var11 = var9 * argument5Arg;
+
+      try {
+         Vec3 var18 = new Vec3(
+            0.5
+               * (
+                  2.0 * p1Arg.x
+                     + (-p0Arg.x + p2Arg.x) * argument5Arg
+                     + (2.0 * p0Arg.x - 5.0 * p1Arg.x + 4.0 * p2Arg.x - p3Arg.x) * var9
+                     + (-p0Arg.x + 3.0 * p1Arg.x - 3.0 * p2Arg.x + p3Arg.x) * var11
+               ),
+            0.5
+               * (
+                  2.0 * p1Arg.y
+                     + (-p0Arg.y + p2Arg.y) * argument5Arg
+                     + (2.0 * p0Arg.y - 5.0 * p1Arg.y + 4.0 * p2Arg.y - p3Arg.y) * var9
+                     + (-p0Arg.y + 3.0 * p1Arg.y - 3.0 * p2Arg.y + p3Arg.y) * var11
+               ),
+            0.5
+               * (
+                  2.0 * p1Arg.z
+                     + (-p0Arg.z + p2Arg.z) * argument5Arg
+                     + (2.0 * p0Arg.z - 5.0 * p1Arg.z + 4.0 * p2Arg.z - p3Arg.z) * var9
+                     + (-p0Arg.z + 3.0 * p1Arg.z - 3.0 * p2Arg.z + p3Arg.z) * var11
+               )
+         );
+         if (var8 != null) {
+            int[] var13 = new int[3];
+            IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+               var13
+            );
+         }
+
+         return var18;
+      } catch (MatchException var15) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var15);
+      }
    }
 }

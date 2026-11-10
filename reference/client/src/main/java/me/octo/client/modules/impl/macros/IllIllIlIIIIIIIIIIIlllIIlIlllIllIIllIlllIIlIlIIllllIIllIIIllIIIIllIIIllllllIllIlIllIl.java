@@ -624,19 +624,31 @@ public final class IllIllIlIIIIIIIIIIIlllIIlIlllIllIIllIlllIIlIlIIllllIIllIIIllI
       Iterable var4 = this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
       boolean var5 = false;
       int[] var3 = var10000;
-      var var7 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var4, 10));
+      Collection var7 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var4, 10));
       boolean var8 = false;
+      Iterator var9 = var4.iterator();
 
-      for (Object var10 : var4) {
-         IllIllIlIIIIIIIIIIIlllIIlIlllIllIIllIlllIIlIlIIllllIIllIIIllIIIIllIIIllllllIllIlIllIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = (IllIllIlIIIIIIIIIIIlllIIlIlllIllIIllIlllIIlIlIIllllIIllIIIllIIIIllIIIllllllIllIlIllIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var10;
-         boolean var12 = false;
-         var7.add(var11.getPos());
-         if (var3 != null) {
-            break;
+      while (true) {
+         if (var9.hasNext()) {
+            Object var10 = var9.next();
+            var16 = var7;
+            if (var3 != null) {
+               break;
+            }
+
+            IllIllIlIIIIIIIIIIIlllIIlIlllIllIIllIlllIIlIlIIllllIIllIIIllIIIIllIIIllllllIllIlIllIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = (IllIllIlIIIIIIIIIIIlllIIlIlllIllIIllIlllIIlIlIIllllIIllIIIllIIIIllIIIllllllIllIlIllIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var10;
+            boolean var12 = false;
+            var7.add(var11.getPos());
+            if (var3 == null) {
+               continue;
+            }
          }
+
+         var16 = var7;
+         break;
       }
 
-      return var7;
+      return (List)var16;
    }
 
    public final int IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$7236df15a5acdc6a(long param1) {

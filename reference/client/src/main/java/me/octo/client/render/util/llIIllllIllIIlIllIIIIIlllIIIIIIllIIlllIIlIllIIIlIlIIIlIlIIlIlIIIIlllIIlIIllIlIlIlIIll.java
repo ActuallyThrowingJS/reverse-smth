@@ -122,7 +122,7 @@ public final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIl
       int var3 = (int)((var1 ^ 56655532046369L) >>> 48);
       int var4 = (int)((var1 ^ 56655532046369L) << 16 >>> 32);
       int var5 = (int)(var10001 << 48 >>> 48);
-      return IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll(
+      return IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$89ff70b6719bb096(
          (char)var3, this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl, var4, (char)var5
       );
    }
@@ -151,7 +151,7 @@ public final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIl
       int var4 = (int)((var2 ^ 129201218205892L) >>> 32);
       int var5 = (int)((var2 ^ 129201218205892L) << 32 >>> 56);
       int var6 = (int)(var10001 << 40 >>> 40);
-      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4bfac3b615755f14(
          var4, (byte)var5, var6, this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl, var1
       );
    }
@@ -308,5 +308,22 @@ public final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIl
             var5
          );
       }
+   }
+
+   public static String IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$89ff70b6719bb096(
+      char var0, Std140SizeCalculator var1, int var2, char var3
+   ) {
+      byte var6 = 0;
+      var2 = 1383050400;
+      var3 = '\ue824';
+      long var4 = ((long)var6 << 48 | (long)var2 << 32 >>> 16 | (long)var3 << 48 >>> 48)
+         ^ lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+      return "KStd140SizeCalculator(j=" + var1 + ")";
+   }
+
+   public static boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4bfac3b615755f14(
+      int param0, byte param1, int param2, Std140SizeCalculator param3, Object param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

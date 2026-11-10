@@ -612,4 +612,44 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   @NotNull
+   public final BlockPos IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$02816dd0d3f34d50(
+      @NotNull Vec3 var1, int var2, short var3, short var4
+   ) {
+      short var7 = 11417;
+      var3 = 4579;
+      var4 = 18458;
+      long var5 = ((long)var7 << 32 | (long)var3 << 48 >>> 32 | (long)var4 << 48 >>> 48)
+         ^ IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+      Intrinsics.checkNotNullParameter(var1, "<this>");
+      return new BlockPos((int)Math.floor(var1.x), (int)Math.floor(var1.y), (int)Math.floor(var1.z));
+   }
+
+   @NotNull
+   public final Vec3 IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1c8b6b07452c086b(
+      char var1, @NotNull Vec3 var2, int var3, double var4, char var6
+   ) {
+      byte var9 = 0;
+      var3 = 442322889;
+      short var11 = 19777;
+      long var7 = ((long)var9 << 48 | (long)var3 << 32 >>> 16 | (long)var11 << 48 >>> 48)
+         ^ IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+      Intrinsics.checkNotNullParameter(var2, "<this>");
+      return new Vec3(var2.x, var4, var2.z);
+   }
+
+   @NotNull
+   public final Vec3 IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0c05bc4b41b0ac3c(
+      char param1, @NotNull Vec3 param2, @NotNull Vec3 param3, int param4, @NotNull Vec3 param5, boolean param6, char param7
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final Vec3 IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$267a62db84cc1781(
+      char argument1Arg, @NotNull Vec3 vec1Arg, @NotNull Vec3 vec2Arg, int argument4Arg, @NotNull Vec3 fromArg, boolean argument6Arg, char argument7Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

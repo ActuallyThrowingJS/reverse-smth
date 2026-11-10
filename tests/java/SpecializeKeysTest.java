@@ -15,6 +15,8 @@ public class SpecializeKeysTest {
      private static long helper(long n){return n^12L;}
      public static long chain(long n){return helper(n^4L);}
      public static long known(){return chain(123L);}
+     public static long knownSplit(){return split(123,(short)7,'x');}
+     public static long split(int a,short b,char c){long key=((long)a<<32)^((long)b<<16)^c;return chain(key);}
      public static long unknown(long n){return chain(n);}
      public static class Base {public long work(long n){return n^7L;}}
      public static class Child extends Base {public long work(long n){return n^19L;}}
@@ -29,8 +31,9 @@ public class SpecializeKeysTest {
   int checked=0;
   try(URLClassLoader before=new URLClassLoader(new URL[]{input.toUri().toURL()},ClassLoader.getPlatformClassLoader());URLClassLoader after=new URLClassLoader(new URL[]{output.toUri().toURL()},ClassLoader.getPlatformClassLoader())){
    Class<?> a=before.loadClass("fixture.KeyFixture"),b=after.loadClass("fixture.KeyFixture");
-   for(String name:List.of("known","dispatch")){if(!a.getMethod(name).invoke(null).equals(b.getMethod(name).invoke(null)))throw new AssertionError(name);checked++;}
+   for(String name:List.of("known","dispatch","knownSplit")){if(!a.getMethod(name).invoke(null).equals(b.getMethod(name).invoke(null)))throw new AssertionError(name);checked++;}
    for(String name:List.of("unknown","chain"))for(long n:new long[]{Long.MIN_VALUE,-99,-1,0,1,123,Long.MAX_VALUE}){if(!a.getMethod(name,long.class).invoke(null,n).equals(b.getMethod(name,long.class).invoke(null,n)))throw new AssertionError(name+"("+n+")");checked++;}
+   for(int n:new int[]{Integer.MIN_VALUE,-99,-1,0,1,123,Integer.MAX_VALUE}){Object[] parameters={n,(short)n,(char)n};if(!a.getMethod("split",int.class,short.class,char.class).invoke(null,parameters).equals(b.getMethod("split",int.class,short.class,char.class).invoke(null,parameters)))throw new AssertionError("split key");checked++;}
   }
   System.out.println("PASS "+checked+" JVM cases; constant-key propagation, generic methods and overridden dispatch preserved");
  }

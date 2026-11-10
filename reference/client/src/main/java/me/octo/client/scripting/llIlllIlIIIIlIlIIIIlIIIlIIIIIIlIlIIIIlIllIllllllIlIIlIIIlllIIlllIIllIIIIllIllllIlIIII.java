@@ -641,5 +641,53 @@ public final class llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllII
       ) {
          // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
       }
+
+      private final List llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$3646cf97c4746b6b(
+         Value param1, short param2, int param3, short param4
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      private final Class IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4bdc6e7feb6301b4(
+         String var1, long var2
+      ) {
+         var2 = 104797094380854L;
+         var2 = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ var2;
+         long var4 = var2 ^ 69345855324879L;
+         Map var10000 = llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.lIIIIIlIlIIIIIIlIIlIIIlIlIIIllIlIIlIlIlllIllIllIIIlIlIllIlIlIlIIIIIIIIIllIIIlIIIIllII;
+         String var10001 = var1.toLowerCase(Locale.ROOT);
+         Intrinsics.checkNotNullExpressionValue(var10001, "toLowerCase(...)");
+         Class var10 = (Class)var10000.get(var10001);
+         if (var10 == null) {
+            llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var6 = this;
+            boolean var7 = false;
+            IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+               .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0ccb27bfc4952b7e(
+                  "combatBot",
+                  var4,
+                  IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.ERROR,
+                  "combatBot entityTypes: unknown type '"
+                     + var1
+                     + "'; valid options: "
+                     + CollectionsKt.joinToString$default(
+                        CollectionsKt.sorted(
+                           llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.lIIIIIlIlIIIIIIlIIlIIIlIlIIIllIlIIlIlIlllIllIllIIIlIlIllIlIlIlIIIIIIIIIllIIIlIIIIllII
+                              .keySet()
+                        ),
+                        ", ",
+                        null,
+                        null,
+                        0,
+                        null,
+                        null,
+                        62,
+                        null
+                     )
+               );
+            var10 = null;
+         }
+
+         return var10;
+      }
    }
 }

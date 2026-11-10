@@ -1324,7 +1324,7 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       int var5 = (int)((argument1Arg ^ 125362045452569L) << 16 >>> 32);
       int var6 = (int)(var10001 << 48 >>> 48);
       Intrinsics.checkNotNullParameter(fnArg, "fn");
-      this.lIlIIIIIlIlIIIllIIIIlIlIllllllllllIIIIIIIIIIllIIlIlIIIlllIllIIlIIIlllIlIlIlIlllllIlII = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+      this.lIlIIIIIlIlIIIllIIIIlIlIllllllllllIIIIIIIIIIllIIlIlIIIlllIllIIlIIIlllIlIlIlIlllllIlII = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$89906c35c5ac314e(
          "onDisable", (char)var4, var5, var6, fnArg
       );
    }
@@ -1339,7 +1339,7 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       int var5 = (int)((argument2Arg ^ 18262973330405L) << 16 >>> 32);
       int var6 = (int)(var10001 << 48 >>> 48);
       Intrinsics.checkNotNullParameter(fnArg, "fn");
-      this.llIlllIlIIllIlIllIIIIIIlllllIlIlIllIlIllIIIlIIIIIlIllIlIllIIIlllIllIlIIIllIllIIlIlllI = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+      this.llIlllIlIIllIlIllIIIIIIlllllIlIlIllIlIllIIIlIIIIIlIllIlIllIIIlllIllIlIIIllIllIIlIlllI = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$89906c35c5ac314e(
          "onResume", (char)var4, var5, var6, fnArg
       );
    }
@@ -1466,6 +1466,115 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       long param1, String param3
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$66ea787267273a56(
+      int argument1Arg, char argument2Arg, @NotNull Value fnArg, int argument4Arg
+   ) {
+      short var10 = 11292;
+      argument2Arg = '膅';
+      short var12 = 23066;
+      long var5 = ((long)var10 << 32 | (long)argument2Arg << 48 >>> 32 | (long)var12 << 48 >>> 48)
+         ^ llIlllIlIlllllllIlllIIlllIlIIIllllIIlIlIIIIIIIIlIIIIIIIIlIIllIIIIIIIIlIllllIlllIlllIl;
+      long var10001 = var5 ^ 114608917238645L;
+      int var7 = (int)((var5 ^ 114608917238645L) >>> 48);
+      int var8 = (int)((var5 ^ 114608917238645L) << 16 >>> 32);
+      int var9 = (int)(var10001 << 48 >>> 48);
+      Intrinsics.checkNotNullParameter(fnArg, "fn");
+      this.IllIllIIllIIIIlIIlIlIIlIllIIIlIIlllIlIllIIlIlIIlllllIIIlIlIlIllIIIIIIlIlIIIIlllIllllI = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$89906c35c5ac314e(
+         "onEnable", (char)var7, var8, var9, fnArg
+      );
+   }
+
+   public final void IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$ba9b7b40be2c6935(
+      @NotNull Value fnArg, short argument2Arg, int argument3Arg, int argument4Arg
+   ) {
+      byte var10 = 0;
+      argument3Arg = 1705477844;
+      short var12 = 3868;
+      long var5 = ((long)var10 << 48 | (long)argument3Arg << 32 >>> 16 | (long)var12 << 48 >>> 48)
+         ^ llIlllIlIlllllllIlllIIlllIlIIIllllIIlIlIIIIIIIIlIIIIIIIIlIIllIIIIIIIIlIllllIlllIlllIl;
+      long var10001 = var5 ^ 36865593673331L;
+      int var7 = (int)((var5 ^ 36865593673331L) >>> 48);
+      int var8 = (int)((var5 ^ 36865593673331L) << 16 >>> 32);
+      int var9 = (int)(var10001 << 48 >>> 48);
+      Intrinsics.checkNotNullParameter(fnArg, "fn");
+      this.lIIIIIlIlIIIIIIlIIlIIIlIlIIIllIlIIlIlIlllIllIllIIIlIlIllIlIlIlIIIIIIIIIllIIIlIIIIllII = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$89906c35c5ac314e(
+         "onHelperEnd", (char)var7, var8, var9, fnArg
+      );
+   }
+
+   public final void IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$86642676b5758ff6(
+      int argument1Arg, @NotNull Value fnArg, int argument3Arg
+   ) {
+      short var9 = 18857;
+      argument3Arg = 83376462;
+      long var4 = ((long)var9 << 32 | (long)argument3Arg << 32 >>> 32) ^ llIlllIlIlllllllIlllIIlllIlIIIllllIIlIlIIIIIIIIlIIIIIIIIlIIllIIIIIIIIlIllllIlllIlllIl;
+      long var10001 = var4 ^ 14886133411873L;
+      int var6 = (int)((var4 ^ 14886133411873L) >>> 48);
+      int var7 = (int)((var4 ^ 14886133411873L) << 16 >>> 32);
+      int var8 = (int)(var10001 << 48 >>> 48);
+      Intrinsics.checkNotNullParameter(fnArg, "fn");
+      this.IIIllIIlIIlllllIlIlIIIIllIIIIlIlIlllIlIlIlIlIIlIIIlIIllIllIIIIIllllllIlIlIIIIIIIlllll = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$89906c35c5ac314e(
+         "onDeath", (char)var6, var7, var8, fnArg
+      );
+   }
+
+   public final void IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$84fc5840154eb145(
+      char argument1Arg, int argument2Arg, char argument3Arg, @NotNull Value fnArg
+   ) {
+      byte var7 = 0;
+      argument2Arg = 930828178;
+      short var9 = 21731;
+      long var5 = ((long)var7 << 48 | (long)argument2Arg << 32 >>> 16 | (long)var9 << 48 >>> 48)
+         ^ llIlllIlIlllllllIlllIIlllIlIIIllllIIlIlIIIIIIIIlIIIIIIIIlIIllIIIIIIIIlIllllIlllIlllIl;
+      Intrinsics.checkNotNullParameter(fnArg, "fn");
+      this.IIIlllIIlIIIIlIIIIIllIIIIlllIllIlIIIlllIlIlllllllllIlIIIllIIlIIlllIlIlllIllIllIIIIIII.add(fnArg);
+   }
+
+   @NotNull
+   public final String llllIlllIIIlIllIlIIIIIIlllIlIlIIIIIIIlllIlllIIllIlIIlIIlIIlIIllllIIllIIIlIlIlIlllllIl$recovered$a5169dca601cf078(
+      int param1, int param2, short param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final Value llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$89906c35c5ac314e(
+      String var1, char var2, int var3, int var4, Value var5
+   ) {
+      byte var14 = 0;
+      var3 = 1624543000;
+      char var16 = '\ude8c';
+      long var6 = ((long)var14 << 48 | (long)var3 << 32 >>> 16 | (long)var16 << 48 >>> 48)
+         ^ llIlllIlIlllllllIlllIIlllIlIIIllllIIlIlIIIIIIIIlIIIIIIIIlIIllIIIIIIIIlIllllIlllIlllIl;
+      long var8 = var6 ^ 103975499663357L;
+      String var10 = lIlIlIlIIIlIIIIIllIlIIIIllllIIIlllIIlllIllIlllllIIIllIIlllIllIlIlllIllIlIIlIIllllIlll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      label27: {
+         try {
+            if (var10 != null) {
+               return var5;
+            }
+
+            if (!var5.canExecute()) {
+               break label27;
+            }
+         } catch (IllegalArgumentException var13) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13);
+         }
+
+         return var5;
+      }
+
+      String var11 = "macro '" + var1 + "' callback must be a function";
+      IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0ccb27bfc4952b7e(
+            this.getOwnerScriptName(),
+            var8,
+            IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.ERROR,
+            var11
+         );
+      throw new IllegalArgumentException(var11);
    }
 
    private static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

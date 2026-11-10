@@ -697,6 +697,32 @@ public final class lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllI
       }
    }
 
+   static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$13458230ae2f20dd(
+      char var0,
+      lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI var1,
+      float var2,
+      float var3,
+      float var4,
+      float var5,
+      float[][] var6,
+      float var7,
+      short var8,
+      float var9,
+      int var10,
+      int var11,
+      Object var12
+   ) {
+      byte var17 = 64;
+      long var13 = ((long)var0 << 48 | (long)var8 << 48 >>> 16 | (long)var11 << 32 >>> 32)
+         ^ IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl;
+      long var15 = var13 ^ 22226436976680L;
+      if ((var17 & 64) != 0) {
+         var9 = 1.0F;
+      }
+
+      var1.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var2, var3, var4, var15, var5, var6, var7, var9);
+   }
+
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
       private llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll() {
       }

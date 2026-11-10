@@ -860,5 +860,29 @@ public final class GeneralModules {
             this.IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl().isToggled(), var3
          );
       }
+
+      public final boolean IIIlllllIIIlIIllIllllIIllIIIlllllIlIlIllIIllIIllIlIIIlIlIIllIlIIlllIIIIlllIlIlllllllI$recovered$f289c745667676e6(int var1, int var2) {
+         short var7 = 31379;
+         var2 = -953283611;
+         long var3 = ((long)var7 << 32 | (long)var2 << 32 >>> 32) ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+         long var5 = var3 ^ 48739059610571L;
+         return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f127a4177fc4e66b(
+            this.IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI().isToggled(), var5
+         );
+      }
+
+      public final boolean IIIIIIlllIIlIIIIlllIIIlIIlIIlIllllIlllIlIIIllllIIlIIIIllIlIIIllllIllllIlIllIIllIIIIlI$recovered$51e189123693a56d(
+         int var1, short var2, int var3
+      ) {
+         short var8 = 2646;
+         var2 = -12361;
+         short var10 = 24096;
+         long var4 = ((long)var8 << 32 | (long)var2 << 48 >>> 32 | (long)var10 << 48 >>> 48)
+            ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+         long var6 = var4 ^ 101803522582030L;
+         return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f127a4177fc4e66b(
+            this.IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll().isToggled(), var6
+         );
+      }
    }
 }

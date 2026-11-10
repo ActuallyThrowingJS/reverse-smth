@@ -1,0 +1,3 @@
+Reconstructed reviewed native bodies=19 label=client; source-analysis artifact, original JNI registration not usable
+Reconstructed reviewed native bodies=4 label=loader; source-analysis artifact, original JNI registration not usable
+PASS 48 fixture cases across all 23 reviewed native bodies; halts confined to child JVMs

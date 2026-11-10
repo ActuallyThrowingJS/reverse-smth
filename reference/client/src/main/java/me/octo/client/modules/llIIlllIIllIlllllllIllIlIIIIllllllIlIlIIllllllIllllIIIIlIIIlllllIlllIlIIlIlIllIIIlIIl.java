@@ -21,6 +21,7 @@ import me.octo.client.gui.clickgui.ModuleCategory;
 import me.octo.client.gui.clickgui.settings.Setting;
 import me.octo.client.modules.impl.macros.IlllIlllllIIIlIIllIIIlIlIIlIIIlIlIIIlIllIIIIllllIIIIlIllIllllIlllIlIIlIllIIIlIIIlIlIl;
 import me.octo.client.modules.impl.macros.lIIIlIllllIIllIlIlIllIlIllllIIlIIlIIIllllIlIllIIllIIIlllIIIIllIlIIllIlllIIIIllIIlIIlI;
+import me.octo.client.modules.impl.macros.lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI;
 import me.octo.client.modules.impl.macros.llIIlllIlIlllIIllIllIIIIIlIlIlIlIlIIlllIlllllIlIIlIIIlIlllllIIIIllIIIIllIIIlllIlllIIl;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
@@ -522,6 +523,39 @@ public class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIll
             var5
          );
       }
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c3d4250730385118(
+      llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl var0,
+      double var1,
+      int var3,
+      char var4,
+      Object var5,
+      char var6,
+      int var7
+   ) {
+      byte var13 = 1;
+      long var8 = ((long)var4 << 48 | (long)var6 << 48 >>> 16 | (long)var7 << 32 >>> 32)
+         ^ IlIIlIlIllIlIlIIlIIIlllIlIIIlIlIllllIllIIlIIIlIIlllIIIIlllIIlllIllIIlIIlIlIIllIlIllII;
+      long var10 = var8 ^ 66671157361574L;
+
+      try {
+         if (var5 != null) {
+            throw new UnsupportedOperationException(
+               IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl<"z">(20682, 8073006926879748345L ^ var8)
+            );
+         }
+      } catch (UnsupportedOperationException var12) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var12, 8654858410541111699L, var8
+         );
+      }
+
+      if ((var13 & 1) != 0) {
+         var1 = 1.0;
+      }
+
+      var0.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var1, var10);
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

@@ -750,4 +750,48 @@ public class llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIl
 
       lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = (boolean)var10000;
    }
+
+   public static void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$41e5b7c8f51d717e(
+      int var0, int var1, char var2
+   ) {
+      short var8 = 16362;
+      short var9 = 14368;
+      var2 = '\ud864';
+      long var3 = ((long)var8 << 32 | (long)var9 << 48 >>> 32 | (long)var2 << 48 >>> 48)
+         ^ lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl;
+      int var5 = llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      int var10000;
+      label22: {
+         label21: {
+            try {
+               long var11;
+               var10000 = (
+                        var11 = System.currentTimeMillis()
+                           - lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI
+                           - IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"v">(11986, 2933869839217863773L ^ var3)
+                     )
+                     == 0L
+                  ? 0
+                  : (var11 < 0L ? -1 : 1);
+               if (var5 != 0) {
+                  break label22;
+               }
+
+               if (var10000 <= 0) {
+                  break label21;
+               }
+            } catch (MatchException var7) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var7);
+            }
+
+            var10000 = 0;
+            break label22;
+         }
+
+         var10000 = 1;
+      }
+
+      IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = (boolean)var10000;
+   }
 }

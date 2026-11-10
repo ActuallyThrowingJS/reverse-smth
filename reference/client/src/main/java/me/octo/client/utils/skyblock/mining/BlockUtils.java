@@ -665,4 +665,82 @@ public final class BlockUtils {
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   public final boolean lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl$recovered$157bed86b9c77dc8(
+      @NotNull BlockState stateArg, int argument2Arg, int argument3Arg, byte argument4Arg
+   ) {
+      short var7 = 19122;
+      argument3Arg = 15015762;
+      argument4Arg = 99;
+      long var5 = ((long)var7 << 32 | (long)argument3Arg << 40 >>> 32 | (long)argument4Arg << 56 >>> 56)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      Intrinsics.checkNotNullParameter(stateArg, "state");
+      return stateArg.is(Blocks.POLISHED_DIORITE);
+   }
+
+   public final boolean IIlIIIllllllIIIlllIlIIlIllIlIIllIlIIlIIIIIIIIlIIIlllIlllIIllllIIlIIIIlIlIIIllllIIlllI$recovered$6d1ab16eb4f9aec4(
+      @NotNull BlockState stateArg, short argument2Arg, int argument3Arg, short argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean lIlIIllIIlIIlIIlIlIllllllIlIlIlllIlIIIllIIIIlIlIllIllIIIlIIIIIIIlllIIllIIllIlIllIllIl$recovered$ffc50bee5ea45c2b(
+      int argument1Arg, byte argument2Arg, @NotNull BlockState stateArg, int argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IlIlIlIlIlIlIlIlIllIIlIlIlIlIlIIIllllIlIIIlIIIIIIlIlIlIIllllIlIIIIlllIIlIIIlllIIIIlII$recovered$e6b01accd88c1e72(
+      short argument1Arg, char argument2Arg, int argument3Arg, @NotNull BlockState stateArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl$recovered$d2221242099d99f4(
+      int argument1Arg, char argument2Arg, short argument3Arg, @NotNull BlockState stateArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$6a2beb4ee2201414(
+      int argument1Arg, byte argument2Arg, @NotNull BlockState stateArg, int argument4Arg
+   ) {
+      short var7 = 32001;
+      argument2Arg = -35;
+      argument4Arg = 5495791;
+      long var5 = ((long)var7 << 32 | (long)argument2Arg << 56 >>> 32 | (long)argument4Arg << 40 >>> 40)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      Intrinsics.checkNotNullParameter(stateArg, "state");
+      return stateArg.is(Blocks.MYCELIUM);
+   }
+
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7426056e281650a9(
+      byte argument1Arg, @NotNull BlockState stateArg, int argument3Arg, int argument4Arg
+   ) {
+      argument1Arg = 0;
+      argument3Arg = 5992140;
+      argument4Arg = 4813928;
+      long var5 = ((long)argument1Arg << 56 | (long)argument3Arg << 32 >>> 8 | (long)argument4Arg << 40 >>> 40)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      Intrinsics.checkNotNullParameter(stateArg, "state");
+      return stateArg.is(Blocks.OBSIDIAN);
+   }
+
+   public final boolean IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$a80d966df59613d2(
+      int argument1Arg, short argument2Arg, int argument3Arg, @NotNull BlockState stateArg
+   ) {
+      short var7 = 2942;
+      argument2Arg = -18431;
+      short var9 = 29204;
+      long var5 = ((long)var7 << 32 | (long)argument2Arg << 48 >>> 32 | (long)var9 << 48 >>> 48)
+         ^ IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      Intrinsics.checkNotNullParameter(stateArg, "state");
+      return stateArg.is(Blocks.STONE);
+   }
+
+   public final boolean IlllIllIIIIIlIIlIlIIIIlIIlIIIIIlIlIlIlIllIIIlIIlllllIIllIIlIlllIlIIIllIIlIlIIllllllll$recovered$f3258ec48320c99b(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

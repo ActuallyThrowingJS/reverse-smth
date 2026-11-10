@@ -290,6 +290,34 @@ public final class lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIl
       }
    }
 
+   public final void IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$2c8ccd763a7b4e63(
+      short var1, int var2, short var3
+   ) {
+      byte var9 = 0;
+      var2 = 935088540;
+      var3 = -32450;
+      long var4 = ((long)var9 << 48 | (long)var2 << 32 >>> 16 | (long)var3 << 48 >>> 48)
+         ^ lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+      long var6 = (var4 ^ 84523074284644L) >>> 16;
+      int var8 = (int)((var4 ^ 84523074284644L) << 48 >>> 48);
+      IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll.IllIlllllIIlIIIIIIIllIllIlIllIIlllIIIIIlIlIIllIlIlIllIlIIIlIIIlllIlIlIlIlllIIllIlIIlI(
+         var6, (short)var8
+      );
+   }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2067b8ab25f6f61a(
+      long argument1Arg, @NotNull Vec3 targetArg
+   ) {
+      argument1Arg = 97631694479581L;
+      argument1Arg = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll ^ argument1Arg;
+      long var3 = argument1Arg ^ 14908013961358L;
+      Intrinsics.checkNotNullParameter(targetArg, "target");
+      IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$338f547fc76cd998(
+         targetArg, var3
+      );
+   }
+
    private static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll
       extends lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII {
       private static String IIlIllIIlllllIlIlllllllIllllIIlIIIllIIllIIllIlIIIllllIIIlllIllIIIIlIlIIIllIllllIlIlll;
@@ -378,6 +406,27 @@ public final class lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIl
          }
 
          return new String(var3, 0, var1);
+      }
+
+      public void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$338f547fc76cd998(
+         @NotNull Vec3 pointArg, long argument2Arg
+      ) {
+         argument2Arg = 39581835087560L;
+         long var10001 = argument2Arg ^ 42182317021619L;
+         int var4 = (int)((argument2Arg ^ 42182317021619L) >>> 48);
+         int var5 = (int)((argument2Arg ^ 42182317021619L) << 16 >>> 48);
+         int var6 = (int)(var10001 << 32 >>> 32);
+         long var7 = argument2Arg ^ 11105511937082L;
+         Intrinsics.checkNotNullParameter(pointArg, "point");
+         lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI var9 = lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+            .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1ca02529b2ac9728(var7, pointArg);
+         this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+            (short)var4,
+            var9.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(),
+            var9.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(),
+            (char)var5,
+            var6
+         );
       }
    }
 }

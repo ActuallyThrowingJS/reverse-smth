@@ -1226,5 +1226,11 @@ public final class PictureInPictureManager {
 
          return (boolean)0;
       }
+
+      public final int IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b9913df730868a64(
+         int param1, short param2, char param3
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
    }
 }

@@ -978,6 +978,26 @@ public final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIII
                         );
                      }
                   }
+
+                  public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$509b432ce50f310d(
+                     int argument1Arg,
+                     byte argument2Arg,
+                     lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII p0Arg,
+                     int argument4Arg
+                  ) {
+                     short var9 = 24117;
+                     argument2Arg = -88;
+                     argument4Arg = 15867632;
+                     long var5x = ((long)var9 << 32 | (long)argument2Arg << 56 >>> 32 | (long)argument4Arg << 40 >>> 40)
+                        ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+                     long var7 = var5x ^ 61333056438860L;
+                     Intrinsics.checkNotNullParameter(p0Arg, "p0");
+                     me.octo.client.modules.impl.macros.foraging.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c0a3b07fdcab0248(
+                        (me.octo.client.modules.impl.macros.foraging.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI)this.receiver,
+                        p0Arg,
+                        var7
+                     );
+                  }
                }
             ),
             var8,
@@ -1929,7 +1949,21 @@ public final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIII
          120,
          null
       );
-      var10000.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var6, (short)var7, var12, (short)var8);
+      var10000.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2dea6c7ec1619410(
+         var6, (short)var7, var12, (short)var8
+      );
+   }
+
+   private final long IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$992dc44365619562(
+      char var1, int var2, int var3, int var4, int var5
+   ) {
+      byte var8 = 0;
+      var4 = 1235033657;
+      short var10 = 21786;
+      long var6 = ((long)var8 << 48 | (long)var4 << 32 >>> 16 | (long)var10 << 48 >>> 48)
+         ^ IIllIIllIllIIlIlIlIllIlIIlIIlIIlIIIIIlIIIIIllIllIIIIIllllIIIlIIllllIIIIllIIllIllIllll;
+      return (long)var2 << 32
+         | var3 & IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI<"w">(18161, 1273854729383321033L ^ var6);
    }
 
    private static final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {

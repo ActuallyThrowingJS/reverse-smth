@@ -452,4 +452,38 @@ public final class llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllII
          );
       }
    }
+
+   @JvmStatic
+   @NotNull
+   public static final RenderType llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$e4a0012a381369f1(
+      long argument1Arg, @NotNull Identifier textureArg
+   ) {
+      argument1Arg = 32044248411265L;
+      argument1Arg = IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl ^ argument1Arg;
+      long var3 = argument1Arg ^ 136382496948015L;
+      Intrinsics.checkNotNullParameter(textureArg, "texture");
+      Object var10000 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII.computeIfAbsent(
+         textureArg,
+         llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI::IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl
+      );
+      Intrinsics.checkNotNullExpressionValue(var10000, "computeIfAbsent(...)");
+      return (RenderType)var10000;
+   }
+
+   @JvmStatic
+   @NotNull
+   public static final RenderType IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$71d08ebf74af38ca(
+      long argument1Arg, @NotNull Identifier textureArg
+   ) {
+      argument1Arg = 99096934209841L;
+      argument1Arg = IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl ^ argument1Arg;
+      long var3 = argument1Arg ^ 118081969238065L;
+      Intrinsics.checkNotNullParameter(textureArg, "texture");
+      Object var10000 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI.computeIfAbsent(
+         textureArg,
+         llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI::IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII
+      );
+      Intrinsics.checkNotNullExpressionValue(var10000, "computeIfAbsent(...)");
+      return (RenderType)var10000;
+   }
 }

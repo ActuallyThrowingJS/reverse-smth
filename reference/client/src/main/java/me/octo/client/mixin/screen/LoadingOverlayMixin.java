@@ -50,7 +50,7 @@ public class LoadingOverlayMixin {
 
       float var9 = this.reload.getActualProgress();
       boolean var10 = NVGSpecialRenderer.Companion
-         .draw(
+         .draw$recovered$c8dcd613be217912(
             var1,
             0,
             0,

@@ -1,0 +1,16 @@
+{
+  "newGenericDecompilerFailures": 0,
+  "additionalOriginalMethodFailuresRemoved": 5,
+  "sourceFiles": 1583,
+  "compilerAndApiCheckedAlternativeClasses": 7,
+  "newKeyVariantRecords": 741,
+  "newStringRestorations": 1061,
+  "newReferenceDecodings": 3157,
+  "newNativeBodies": 23,
+  "totalRegisteredNativeBodiesRecovered": 32,
+  "registeredNativeBodiesRemaining": 486,
+  "remainingGenericMethodFailures": 5159,
+  "classWriteFailures": 24,
+  "fullModBuildSuccessful": false,
+  "mainNativeInitializerRecovered": false
+}

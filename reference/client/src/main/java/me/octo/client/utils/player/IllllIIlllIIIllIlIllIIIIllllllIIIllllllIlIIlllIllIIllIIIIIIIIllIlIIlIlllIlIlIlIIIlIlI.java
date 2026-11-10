@@ -814,7 +814,7 @@ public final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIII
       boolean var7 = true;
       Map var6 = var10001;
       String var5 = "failsafe_triggered";
-      me.octo.client.utils.network.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      me.octo.client.utils.network.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$03d84c65ba3538a4(
          var5, var6, var7, var3, var10
       );
    }
@@ -1044,5 +1044,48 @@ public final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIII
       IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6d1ba10a607d9e2c(
          var3, var6
       );
+   }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$12a8c68724d4bcb3(
+      @NotNull Object messageArg, int argument2Arg, byte argument3Arg, int argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @JvmStatic
+   public static final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$f7525f68e2f5ebb4(
+      @NotNull String commandArg, int argument2Arg, int argument3Arg, char argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @JvmStatic
+   @NotNull
+   public static final net.minecraft.network.chat.Component IIIlllllIIIlIIllIllllIIllIIIlllllIlIlIllIIllIIllIlIIIlIlIIllIlIIlllIIIIlllIlIlllllllI$recovered$280f26980910cb65(
+      char argument1Arg, int argument2Arg, short argument3Arg, @NotNull String messageArg
+   ) {
+      byte var10 = 0;
+      argument2Arg = 849329224;
+      argument3Arg = -18606;
+      long var4 = ((long)var10 << 48 | (long)argument2Arg << 32 >>> 16 | (long)argument3Arg << 48 >>> 48)
+         ^ llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI;
+      long var10001 = var4 ^ 61491203658498L;
+      int var6 = (int)((var4 ^ 61491203658498L) >>> 48);
+      int var7 = (int)((var4 ^ 61491203658498L) << 16 >>> 32);
+      int var8 = (int)(var10001 << 48 >>> 48);
+      Intrinsics.checkNotNullParameter(messageArg, "message");
+      Component var10000 = lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl.deserialize(messageArg);
+      Intrinsics.checkNotNullExpressionValue(var10000, "deserialize(...)");
+      Component var9 = var10000;
+      return IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$fe6eedd05c645e87(
+         var9, (char)var6, var7, var8
+      );
+   }
+
+   private final net.minecraft.network.chat.Component llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$fe6eedd05c645e87(
+      Component param1, char param2, int param3, int param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

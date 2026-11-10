@@ -1,0 +1,17 @@
+[
+  {
+    "rva": "0xc53c80",
+    "original": {
+      "name": "onInitialize",
+      "desc": "()V",
+      "fnAddr": 281361536,
+      "registrarSymbol": "Java_me_octo_client_Polinex__00024jnicLoader",
+      "classFromRegistrar": "me/octo/client/Polinex",
+      "matchesJarDeclaration": true,
+      "elfRva": "0xc53c80",
+      "unwindSize": "0x2e6c5"
+    },
+    "complete": false,
+    "error": "java.lang.IllegalStateException: Exception while decompiling 00d53c80: process: timeout\n"
+  }
+]

@@ -341,6 +341,46 @@ public abstract class Event {
       }
    }
 
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$105ca5b13da5b963(
+      int var1, char var2, short var3, boolean var4
+   ) {
+      var4 = 1;
+      long var5 = ((long)var1 << 32 | (long)var2 << 48 >>> 32 | (long)var3 << 48 >>> 48)
+         ^ IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl;
+      int var7 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         -6358040370906289714L, var5
+      );
+
+      label22: {
+         Event var10000;
+         label21: {
+            try {
+               var10000 = this;
+               if (var7 == 0) {
+                  break label21;
+               }
+
+               if (!this.isCancelable()) {
+                  break label22;
+               }
+            } catch (IllegalArgumentException var9) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var9, -6443905226654381493L, var5
+               );
+            }
+
+            var10000 = this;
+         }
+
+         var10000.canceled = (boolean)var4;
+         return;
+      }
+
+      boolean var8 = false;
+      String var11 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"p">(28234, 9056365738281584866L ^ var5);
+      throw new IllegalArgumentException(var11.toString());
+   }
+
    @Retention(AnnotationRetention.RUNTIME)
    @Target(allowedTargets = AnnotationTarget.CLASS)
    @java.lang.annotation.Retention(RetentionPolicy.RUNTIME)

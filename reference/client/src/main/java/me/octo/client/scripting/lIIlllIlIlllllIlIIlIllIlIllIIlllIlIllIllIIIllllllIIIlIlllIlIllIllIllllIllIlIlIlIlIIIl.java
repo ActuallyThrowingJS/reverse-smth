@@ -209,4 +209,39 @@ public final class lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIl
          );
       }
    }
+
+   @NotNull
+   public final ProxyObject IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$53804a6411bba06d(
+      short var1, short var2, int var3
+   ) {
+      byte var7 = 0;
+      var2 = 31794;
+      var3 = -514500974;
+      long var4 = ((long)var7 << 48 | (long)var2 << 48 >>> 16 | (long)var3 << 32 >>> 32)
+         ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+      Pair[] var6 = new Pair[]{
+         TuplesKt.to("START_SNEAKING", 0),
+         TuplesKt.to("STOP_SNEAKING", 1),
+         TuplesKt.to("STOP_SLEEPING", 2),
+         TuplesKt.to("START_SPRINTING", 3),
+         TuplesKt.to("STOP_SPRINTING", 4),
+         TuplesKt.to("RIDING_JUMP", 5),
+         TuplesKt.to("OPEN_INVENTORY", 6),
+         TuplesKt.to("INTERACT", 0),
+         TuplesKt.to("ATTACK", 1),
+         TuplesKt.to("INTERACT_AT", 2),
+         TuplesKt.to("START_DESTROY_BLOCK", 0),
+         TuplesKt.to("ABORT_DESTROY_BLOCK", 1),
+         TuplesKt.to("STOP_DESTROY_BLOCK", 2),
+         TuplesKt.to("DROP_ALL_ITEMS", 3),
+         TuplesKt.to("DROP_ITEM", 4),
+         TuplesKt.to("RELEASE_USE_ITEM", 5),
+         TuplesKt.to("PERFORM_RESPAWN", 0),
+         TuplesKt.to("REQUEST_STATS", 1),
+         TuplesKt.to("OPEN_INVENTORY_ACHIEVEMENT", 2)
+      };
+      ProxyObject var10000 = ProxyObject.fromMap(MapsKt.linkedMapOf(var6));
+      Intrinsics.checkNotNullExpressionValue(var10000, "fromMap(...)");
+      return var10000;
+   }
 }

@@ -153,4 +153,97 @@ public final class IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIl
    private static MatchException IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(MatchException var0) {
       return var0;
    }
+
+   public final void IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$9152812c8c04f6bf(
+      short var1, char var2, int var3
+   ) {
+      byte var17 = 0;
+      short var18 = 4925;
+      var3 = 1208490749;
+      long var4 = ((long)var17 << 48 | (long)var18 << 48 >>> 16 | (long)var3 << 32 >>> 32)
+         ^ IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI;
+      Iterable var7 = this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = PictureInPictureManager.IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII();
+      boolean var8 = false;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var6 = var10000;
+      Iterator var9 = var7.iterator();
+
+      while (true) {
+         if (var9.hasNext()) {
+            Object var10 = var9.next();
+            var30 = (List)var10;
+            if (var6 == null) {
+               break;
+            }
+
+            Object var11 = var30;
+            boolean var12 = false;
+            var11.clear();
+            if (var6 != null) {
+               continue;
+            }
+         }
+
+         var7 = this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+         var8 = false;
+         var30 = var7;
+         break;
+      }
+
+      var9 = var30.iterator();
+
+      while (true) {
+         if (var9.hasNext()) {
+            Object var24 = var9.next();
+            var10000 = var6;
+            List var26 = (List)var24;
+            boolean var28 = false;
+
+            try {
+               var26.clear();
+               if (var10000 == null) {
+                  break;
+               }
+
+               if (var6 != null) {
+                  continue;
+               }
+            } catch (MatchException var16) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var16);
+            }
+         }
+
+         var7 = this.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+         var8 = false;
+         break;
+      }
+
+      var9 = var7.iterator();
+
+      while (true) {
+         if (var9.hasNext()) {
+            Object var25 = var9.next();
+            var10000 = var6;
+            List var27 = (List)var25;
+            boolean var29 = false;
+
+            try {
+               var27.clear();
+               if (var10000 == null) {
+                  break;
+               }
+
+               if (var6 != null) {
+                  continue;
+               }
+            } catch (MatchException var15) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var15);
+            }
+         }
+
+         this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI.clear();
+         this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII.clear();
+         break;
+      }
+   }
 }

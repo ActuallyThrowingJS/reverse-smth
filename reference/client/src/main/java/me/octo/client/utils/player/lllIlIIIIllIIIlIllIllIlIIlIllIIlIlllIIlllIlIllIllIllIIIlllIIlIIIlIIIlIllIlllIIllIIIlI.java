@@ -806,7 +806,7 @@ public final class lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIl
       int var5 = (int)((var1 ^ 26497059458308L) >>> 48);
       int var6 = (int)((var1 ^ 26497059458308L) << 16 >>> 32);
       int var7 = (int)(var10001 << 48 >>> 48);
-      return this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(
+      return this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$b83f09be701e7ce0(
          Mth.wrapDegrees(var3) - Mth.wrapDegrees(var4), (char)var5, var6, (char)var7
       );
    }
@@ -974,7 +974,7 @@ public final class lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIl
       Intrinsics.checkNotNullParameter(
          var4, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"d">(12158, 2012259512466116992L ^ var2)
       );
-      float var8 = this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(
+      float var8 = this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$b83f09be701e7ce0(
          Mth.wrapDegrees(var4.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI())
             - Mth.wrapDegrees(var1.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI()),
          (char)var5,
@@ -1029,6 +1029,75 @@ public final class lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIl
       return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$554b8c419d137305(
          this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b3b5f19cecca6bf7(var10002, var4, var10003), var6
       );
+   }
+
+   // $VF: Irreducible bytecode was duplicated to produce valid code
+   public final float IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$b83f09be701e7ce0(
+      float var1, char var2, int var3, char var4
+   ) {
+      byte var14 = 0;
+      var3 = 98286779;
+      var4 = '눴';
+      long var5 = ((long)var14 << 48 | (long)var3 << 32 >>> 16 | (long)var4 << 48 >>> 48)
+         ^ lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI();
+      float var8 = var1;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var7 = var10000;
+
+      while (true) {
+         float var17;
+         float var10001;
+         if (var8 > 180.0F) {
+            float var11 = 360.0F;
+            if (var7 == null) {
+               var8 -= var11;
+               continue;
+            }
+
+            var17 = var8;
+            var10001 = var11;
+         } else {
+            var17 = var8;
+            var10001 = -180.0F;
+         }
+
+         while (true) {
+            try {
+               if (!(var17 < var10001)) {
+                  return var8;
+               }
+
+               if (var7 != null) {
+                  return var8;
+               }
+
+               var18 = var8;
+            } catch (MatchException var13) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13);
+            }
+
+            var8 = var18 + 360.0F;
+            var17 = var8;
+            var10001 = -180.0F;
+         }
+      }
+   }
+
+   @NotNull
+   public final lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$be72b30755de3cf7(
+      int var1, char var2, @NotNull BlockPos var3, int var4
+   ) {
+      short var10 = 23119;
+      short var11 = 12814;
+      short var12 = 24916;
+      long var5 = ((long)var10 << 32 | (long)var11 << 48 >>> 32 | (long)var12 << 48 >>> 48)
+         ^ lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI;
+      long var7 = var5 ^ 50765353820121L;
+      Intrinsics.checkNotNullParameter(
+         var3, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"d">(7139, 1701134768914499655L ^ var5)
+      );
+      Vec3 var9 = new Vec3(var3.getX() + 0.5, var3.getY() + 0.5, var3.getZ() + 0.5);
+      return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1ca02529b2ac9728(var7, var9);
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

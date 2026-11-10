@@ -18,7 +18,7 @@ The client pass solved 2,255 ZKM key sites, including seven recovered from nativ
 
 The mapping pass provides 81 class aliases, 1,059 field names and 1,434 renamed method declarations. Names come from decrypted Kotlin parameter checks, constructor assignments, event producers, type information and display strings. **Aliases inferred from behavior or display names are proposed readable names, not recovered original identifiers.** The parameter report retains 2,132 original Kotlin parameter names. Decompiled parameters use an `Arg` suffix to avoid a Vineflower naming inconsistency.
 
-The original JARs contain 122 loader and 396 client JNIC implementation bodies. All 518 native registration records were matched to supplied declarations and executable ELF ranges. Their addresses are mapped; nine simple client bodies have now been reconstructed, while the others remain unresolved. Eleven additional `NativePathFinder` native declarations are outside these JNIC registration sets.
+The original JARs contain 122 loader and 396 client JNIC implementation bodies. All 518 native registration records were matched to supplied declarations and executable ELF ranges. Their addresses are mapped; 32 bodies have now been reconstructed, while the others remain unresolved. Eleven additional `NativePathFinder` native declarations are outside these JNIC registration sets.
 
 ## Native code and Ghidra
 
@@ -43,7 +43,7 @@ Validation covers a synthetic JVM remapping fixture, the native constant-stream 
 
 Diagnostic bytecode comment dumps are removed from the reference Java. Failed methods remain explicitly marked `UNRECOVERED`, with Vineflower's failure bodies preserved; removing those comments does not recover their implementations. Some methods that decompile still contain unresolved invokedynamic expressions in Vineflower's diagnostic syntax. A successful decompilation count does not mean that every remaining expression is valid or fully recovered Java.
 
-No Fabric build is supplied because missing native bodies, unresolved control flow and remaining identifiers make a working source build unavailable. The next substantial tasks are control-flow reconstruction, translating native application methods, and resolving remaining reflection names before testing a full Java 25/Fabric build.
+A Java 25/Fabric build scaffold is now supplied in `recovery-project`. Dependencies resolve successfully, but missing native bodies, unresolved control flow and remaining expressions still prevent a complete source build. The next substantial tasks are control-flow reconstruction, translating native application methods, and resolving remaining reflection names before testing a full Java 25/Fabric build.
 
 See [THIRD_PARTY.md](THIRD_PARTY.md) for tool provenance and licenses. The source inputs and recovered application code retain their existing ownership.
 
@@ -53,7 +53,7 @@ The second pass recovers Java output for **41 methods that previously failed to 
 
 Key propagation produced 1,658 analysis variants, of which 805 have Java declarations without decompiler failures. Original generic methods remain available for unknown keys. Each `$recovered$…` name identifies an analysis variant, not an original identifier. The added contexts unlocked 2,708 further string restorations and 8,006 further member-reference decodings, including sites within these variants.
 
-Nine simple client native bodies are now reconstructed exactly from the Linux x86-64 image: seven object-identity helpers and two empty void methods. Their complete instructions, executable addresses and image hash are recorded in `evidence/trivial-native-proof.json`. The other 509 registered native implementations still need reconstruction. The original native registration code must not run against these analysis replacements.
+Nine simple client native bodies are now reconstructed exactly from the Linux x86-64 image: seven object-identity helpers and two empty void methods. Their complete instructions, executable addresses and image hash are recorded in `evidence/trivial-native-proof.json`. After the extended pass, 486 registered native implementations still need reconstruction. The original native registration code must not run against these analysis replacements.
 
 The control-flow engine preserves unknown branch values, checks exception ordering, and rolls back rejected method transactions. Proposed changes in 37 methods were rejected. The three ZKM key-runtime classes retain their baseline versions. Final analysis bytecode passes BasicVerifier across 49,698 method bodies after getter coalescing and native-body restoration. JVM fixtures cover 81 control-flow cases, 16 key-specialization cases and 18 native-reconstruction cases; optional Unicorn checks cover 27 native instruction cases.
 
@@ -64,3 +64,15 @@ bash tools/recover-flow.sh > control-flow-run.log 2>&1
 ```
 
 Results are under `build/flow`. See `reports/control-flow-summary.json`, `reports/recovered-generic-methods.json` and `reports/readable-key-variants.json` for exact coverage. Thousands of generic methods remain unresolved. The source tree continues to be an incomplete analysis reference, rather than a working Fabric project.
+
+## Extended recovery update
+
+The extended pass reconstructs **23 additional native bodies**, bringing the total to **32 of 518** registered implementations: 28 client bodies and four loader bodies. These include field access, lazy casts, process-exit handlers, context-class-loader access, mod-version lookup, constants and string-call-site linking. Their original machine bodies are hash-checked; 48 isolated JVM fixture cases cover the added reconstructions. Generated JNI caches are omitted, and normal Java exception propagation is retained. Native declarations still present in the sources remain unrecovered.
+
+Split integer keys produced 741 additional analysis variants, enabling another 1,061 string restorations and 3,157 member-reference decodings. Seven complete-class alternatives from CFR and Procyon passed compilation against the real dependencies and declared-member checks, including `MinecraftMixin` and `GenericPools`. Another five previously failed original methods now have decompiled bodies. There are no new generic-method decompiler failures; 5,159 original methods and 24 class-writing failures remain in the failure inventory. Type-checking an alternative does not prove application behavior.
+
+Ghidra exported 35 of 36 selected smaller native methods with named JNI calls. Its output in `evidence/native-round5` is pseudocode evidence, not recovered Java or buildable C. The large `Polinex.onInitialize` still timed out with a five-minute decompilation budget and remains unreconstructed.
+
+The bytecode tools now use ASM 9.8 for Java 25 class-file support. See `recovery-project/README.md` for the standard Gradle scaffold, and `reports/extended` for checks and coverage. The full mod does not compile or launch yet.
+
+A further reference-table investigation recovered 2,341 encrypted member records without relying on known caller keys. Every recovered record was verified against the original decoder, covering all 64 selector cases. Using this catalog to infer additional missing method keys is still experimental; the catalog itself is in `evidence/extended/member-catalog.json`.
