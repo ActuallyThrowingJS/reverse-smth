@@ -1,0 +1,227 @@
+package me.octo.client.modules.impl.features.qol;
+
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.lang.invoke.MutableCallSite;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.regex.Pattern;
+import javax.crypto.Cipher;
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.DESKeySpec;
+import javax.crypto.spec.IvParameterSpec;
+import kotlin.Pair;
+import kotlin.TuplesKt;
+import kotlin.collections.MapsKt;
+import me.octo.client.events.impl.base.annotations.SubscribeEvent;
+import me.octo.client.events.impl.packet.PacketReceivedEvent;
+import me.octo.client.gui.clickgui.ModuleCategory;
+import me.octo.client.gui.clickgui.modules.impl.BooleanModule;
+import org.jetbrains.annotations.NotNull;
+
+public final class EscrowFix extends BooleanModule {
+   @NotNull
+   public static llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI;
+   @NotNull
+   private final Map<String, String> lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl;
+   private final Pattern lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll;
+   @NotNull
+   private static EscrowFix IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl;
+   private static long llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = 129452408413763L;
+   private static String[] IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl;
+   private static String[] IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl;
+   private static Map IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new HashMap(13);
+
+   private EscrowFix() {
+      long var1 = llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI ^ 65617369989398L;
+      super("Escrow Fix", "Reopens AH and BZ automatically when escrow fails", ModuleCategory.QOL, "Fixes");
+      Pair[] var3 = new Pair[]{
+         TuplesKt.to("There was an error with the auction house! (AUCTION_EXPIRED_OR_NOT_FOUND)", "ah"),
+         TuplesKt.to("There was an error with the auction house! (INVALID_BID)", "ah"),
+         TuplesKt.to("Claiming BIN auction...", "ah"),
+         TuplesKt.to("Visit the Auction House to collect your item!", "ah")
+      };
+      this.lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = MapsKt.mapOf(var3);
+      this.lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = Pattern.compile(
+         "Escrow refunded (\\d+) coins for Bazaar Instant Buy Submit!"
+      );
+   }
+
+   @SubscribeEvent
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketReceivedEvent eventArg) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   static {
+      long var0 = llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI ^ 81990226143095L;
+      Cipher var2;
+      Cipher var10000 = var2 = Cipher.getInstance("DES/CBC/PKCS5Padding");
+      SecretKeyFactory var10002 = SecretKeyFactory.getInstance("DES");
+      byte[] var10003 = new byte[]{(byte)(var0 >>> 56), 0, 0, 0, 0, 0, 0, 0};
+
+      for (int var3 = 1; var3 < 8; var3++) {
+         var10003[var3] = (byte)(var0 << var3 * 8 >>> 56);
+      }
+
+      var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+      String[] var9 = new String[12];
+      int var7 = 0;
+      String var6 = "\u0005\"\"à\u009d#^Æ[\u0013¿\u0003\u0012\u001e\u0017ªP[§YQ_hd\u001aý-n\u0001A\u0094>\u001cßi+Ç\tÑD\u008f\u001c\u0081©Ü+BiÝêßZ\u009cªLk_ËäÜÀ×\u0012\u00adL7É¥BÛn\u008dý2OÓ¥Fp6x<ç\u009f\u0014êñG\u0012\u0082ür+r\u001ci_\u0010ï\u0007\u0002câ\u001bÐ¥D\u001fþ¢%û{\u0092\u0010M#ã\u0086\u001cêkÏ\fÍ\u0092\u001eVÎ\u008cö`{§N\u0087F1_Æoä¹þÃhRÛ>RØA\u001aeí`\u0093|ü¡\u0018oméýç¸¥MX\u000eèy°ÑoËY@\u0000Õy\u000f\u008cð\u008bÓ\tJeÀ\u001d\u0013F(¡Z¬X\u0013Bì\u0098;\b\u008f\u009e\u009bÀ%tG'$\u0000\u001b\u0001¸=ÿÂil\n\u00adsj4`\u009eü,\u0013BPû®\nÍV÷N\u00049õ\u0014«\u0014¨ø\u0010\u0018¯áO\\\u001c\t\u0091\u0097&5g:gð\u008a¬¹\u000f\u0084&®¾Ô2¯¦!Z.,\u0096\u000b¥P `\u0011\u0006cý\u0098õ<A\tÅ\u0083º\u009d\u008a,¼Í&Q|ß¯Àç\u0084D\u0015_þ|\u000eh\u009c\u009fË\u008b½\u0080?Kä¿Ùkw¢,Å\u0001í;<sïãsÏk\u0081 \u00065ÃãmÒÿÉ#Yâ¤mÌi,\u000b\u0089Üd{\n0DU<\u000fÿ\u009f&A\b\u008bÊý\u008f®\u000f9\u0007&\n\u001fÙ0ñÃÙî\bHÑ\u0000Z,\u0081\u0007\r\u0005\u008c+úæì½F3¼\u0097mr\u009c\u0007\u0005\\GÙ´¶{\u0002\u009d\u009a-¢ØÓ#±ùÎòËEQÍhiê5¬\u0082\tN\u000f\u008d\u0010ò¦\u0013eÎ|4êp\b¦\u0000b¾\u0096°\u0010\n±³ \u0006\u0007±1h\b\bý2Ýã\u009c`3\u001bä¸q+\u0003æÖ\u0010òÁ$\u00861ð-\u001e\u0093w&¡_°\u0093F\u0084\u009còâ\u009c+\u001e©ÙÂ\u0004\u0017ïÏn\u00adºU\u0083Ô\u0017©\u0082\u0097\u00020\u009cÛ\u0094Eq«\u009cç:ÁÕ\u0096Ñ\u0005ût¾öi1c\u0006ÏêÐ\u0091\u0083Ó\u0090\b[z\u0007àBÐ'\u001aÆÄðçz*";
+      int var8 = "\u0005\"\"à\u009d#^Æ[\u0013¿\u0003\u0012\u001e\u0017ªP[§YQ_hd\u001aý-n\u0001A\u0094>\u001cßi+Ç\tÑD\u008f\u001c\u0081©Ü+BiÝêßZ\u009cªLk_ËäÜÀ×\u0012\u00adL7É¥BÛn\u008dý2OÓ¥Fp6x<ç\u009f\u0014êñG\u0012\u0082ür+r\u001ci_\u0010ï\u0007\u0002câ\u001bÐ¥D\u001fþ¢%û{\u0092\u0010M#ã\u0086\u001cêkÏ\fÍ\u0092\u001eVÎ\u008cö`{§N\u0087F1_Æoä¹þÃhRÛ>RØA\u001aeí`\u0093|ü¡\u0018oméýç¸¥MX\u000eèy°ÑoËY@\u0000Õy\u000f\u008cð\u008bÓ\tJeÀ\u001d\u0013F(¡Z¬X\u0013Bì\u0098;\b\u008f\u009e\u009bÀ%tG'$\u0000\u001b\u0001¸=ÿÂil\n\u00adsj4`\u009eü,\u0013BPû®\nÍV÷N\u00049õ\u0014«\u0014¨ø\u0010\u0018¯áO\\\u001c\t\u0091\u0097&5g:gð\u008a¬¹\u000f\u0084&®¾Ô2¯¦!Z.,\u0096\u000b¥P `\u0011\u0006cý\u0098õ<A\tÅ\u0083º\u009d\u008a,¼Í&Q|ß¯Àç\u0084D\u0015_þ|\u000eh\u009c\u009fË\u008b½\u0080?Kä¿Ùkw¢,Å\u0001í;<sïãsÏk\u0081 \u00065ÃãmÒÿÉ#Yâ¤mÌi,\u000b\u0089Üd{\n0DU<\u000fÿ\u009f&A\b\u008bÊý\u008f®\u000f9\u0007&\n\u001fÙ0ñÃÙî\bHÑ\u0000Z,\u0081\u0007\r\u0005\u008c+úæì½F3¼\u0097mr\u009c\u0007\u0005\\GÙ´¶{\u0002\u009d\u009a-¢ØÓ#±ùÎòËEQÍhiê5¬\u0082\tN\u000f\u008d\u0010ò¦\u0013eÎ|4êp\b¦\u0000b¾\u0096°\u0010\n±³ \u0006\u0007±1h\b\bý2Ýã\u009c`3\u001bä¸q+\u0003æÖ\u0010òÁ$\u00861ð-\u001e\u0093w&¡_°\u0093F\u0084\u009còâ\u009c+\u001e©ÙÂ\u0004\u0017ïÏn\u00adºU\u0083Ô\u0017©\u0082\u0097\u00020\u009cÛ\u0094Eq«\u009cç:ÁÕ\u0096Ñ\u0005ût¾öi1c\u0006ÏêÐ\u0091\u0083Ó\u0090\b[z\u0007àBÐ'\u001aÆÄðçz*"
+         .length();
+      char var5 = 16;
+      int var12 = -1;
+
+      label27:
+      while (true) {
+         String var13 = var6.substring(++var12, var12 + var5);
+         byte var10001 = -1;
+
+         while (true) {
+            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
+            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+            switch (var10001) {
+               case 0:
+                  var9[var7++] = var19;
+                  if ((var12 += var5) >= var8) {
+                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var9;
+                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new String[12];
+                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                        null
+                     );
+                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new EscrowFix();
+                     return;
+                  }
+
+                  var5 = var6.charAt(var12);
+                  break;
+               default:
+                  var9[var7++] = var19;
+                  if ((var12 += var5) < var8) {
+                     var5 = var6.charAt(var12);
+                     continue label27;
+                  }
+
+                  var6 = "×$ºáÄ\u009c\u0018`\u009a\bÂc4kJýý;ÅF¬1¸D(¢\u0093&@G\u001f¹äW®$Ðåý¥Kºå¶+ô\u0016\u0082\u008aÔµm0ks\u0082\u001fµL¢Îq`E[";
+                  var8 = "×$ºáÄ\u009c\u0018`\u009a\bÂc4kJýý;ÅF¬1¸D(¢\u0093&@G\u001f¹äW®$Ðåý¥Kºå¶+ô\u0016\u0082\u008aÔµm0ks\u0082\u001fµL¢Îq`E[".length();
+                  var5 = 24;
+                  var12 = -1;
+            }
+
+            var13 = var6.substring(++var12, var12 + var5);
+            var10001 = 0;
+         }
+      }
+   }
+
+   private static MatchException IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(MatchException var0) {
+      return var0;
+   }
+
+   private static String IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(byte[] var0) {
+      int var1 = 0;
+      int var2;
+      char[] var3 = new char[var2 = var0.length];
+
+      for (int var4 = 0; var4 < var2; var4++) {
+         int var5;
+         if ((var5 = 255 & var0[var4]) < 192) {
+            var3[var1++] = (char)var5;
+         } else if (var5 < 224) {
+            char var6 = (char)((char)(var5 & 31) << 6);
+            byte var8 = var0[++var4];
+            var6 = (char)(var6 | (char)(var8 & 63));
+            var3[var1++] = var6;
+         } else if (var4 < var2 - 2) {
+            char var12 = (char)((char)(var5 & 15) << '\f');
+            byte var9 = var0[++var4];
+            var12 = (char)(var12 | (char)(var9 & 63) << 6);
+            var9 = var0[++var4];
+            var12 = (char)(var12 | (char)(var9 & 63));
+            var3[var1++] = var12;
+         }
+      }
+
+      return new String(var3, 0, var1);
+   }
+
+   private static String llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(int var0, long var1) {
+      int var5 = var0 ^ (int)(var1 & 32767L) ^ 20706;
+      if (IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl[var5] == null) {
+         Object[] var4;
+         try {
+            Long var3 = Thread.currentThread().threadId();
+            var4 = (Object[])IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll.get(var3);
+            if (var4 == null) {
+               var4 = new Object[]{Cipher.getInstance("DES/CBC/PKCS5Padding"), SecretKeyFactory.getInstance("DES"), new IvParameterSpec(new byte[8])};
+               IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll.put(var3, var4);
+            }
+         } catch (Exception var10) {
+            throw new RuntimeException(
+               "me/octo/client/modules/impl/features/qol/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll", var10
+            );
+         }
+
+         byte[] var6 = new byte[8];
+         var6[0] = (byte)(var1 >>> 56);
+
+         for (int var7 = 1; var7 < 8; var7++) {
+            var6[var7] = (byte)(var1 << var7 * 8 >>> 56);
+         }
+
+         DESKeySpec var11 = new DESKeySpec(var6);
+         SecretKey var8 = ((SecretKeyFactory)var4[1]).generateSecret(var11);
+         ((Cipher)var4[0]).init(2, var8, (IvParameterSpec)var4[2]);
+         byte[] var9 = IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl[var5].getBytes("ISO-8859-1");
+         IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl[var5] = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(
+            ((Cipher)var4[0]).doFinal(var9)
+         );
+      }
+
+      return IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl[var5];
+   }
+
+   private static Object IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(
+      Lookup var0, MutableCallSite var1, String var2, Object[] var3
+   ) {
+      int var4 = (Integer)var3[0];
+      long var5 = (Long)var3[1];
+      String var7 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var4, var5);
+      MethodHandle var8 = MethodHandles.constant(String.class, var7);
+      var1.setTarget(MethodHandles.dropArguments(var8, 0, int.class, long.class));
+      return var7;
+   }
+
+   private static CallSite IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(Lookup var0, String var1, MethodType var2) {
+      MutableCallSite var3 = new MutableCallSite(var2);
+
+      try {
+         var3.setTarget(
+            MethodHandles.explicitCastArguments(
+               MethodHandles.insertArguments(
+                  "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII".asCollector(Object[].class, var2.parameterCount()),
+                  0,
+                  var0,
+                  var3,
+                  var1
+               ),
+               var2
+            )
+         );
+         return var3;
+      } catch (Exception var5) {
+         throw new RuntimeException(
+            "me/octo/client/modules/impl/features/qol/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll"
+               + " : "
+               + var1
+               + " : "
+               + var2.toString(),
+            var5
+         );
+      }
+   }
+}

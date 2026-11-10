@@ -1,0 +1,3 @@
+client-strings.jar: methods checked=48556, failures=0
+client-references.jar: methods checked=48556, failures=0
+PASS no new BasicVerifier failures

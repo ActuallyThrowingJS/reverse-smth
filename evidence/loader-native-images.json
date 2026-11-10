@@ -1,0 +1,50 @@
+[
+  {
+    "file": "linux-machine-62-13531024.so",
+    "offset": 13531024,
+    "size": 3951736,
+    "kind": "elf",
+    "machine": 62,
+    "sha256": "c3c88d515c736edd06ae1473eaf18cccea7f9ac4cfc59a813e3aaf5ca3eb324a"
+  },
+  {
+    "file": "linux-machine-183-17482760.so",
+    "offset": 17482760,
+    "size": 2615264,
+    "kind": "elf",
+    "machine": 183,
+    "sha256": "6f6185f0483d4d57676625c75aca2604bb434c895e6ee9034b33a5a7a050c9e2"
+  },
+  {
+    "file": "windows-machine-34404-0.dll",
+    "offset": 0,
+    "size": 3915776,
+    "kind": "pe",
+    "machine": 34404,
+    "sha256": "b2818f31f26558bc021f1a2c0003b10ad6c7289074291a6d5015bba0ebdc2029"
+  },
+  {
+    "file": "windows-machine-43620-3915776.dll",
+    "offset": 3915776,
+    "size": 2617344,
+    "kind": "pe",
+    "machine": 43620,
+    "sha256": "26dd7f263576bbf341f743e8bf7943eb13849c46d0b9a42e2b57809a887a2a37"
+  },
+  {
+    "file": "macos-machine-16777223-6533120.dylib",
+    "offset": 6533120,
+    "size": 4147608,
+    "kind": "macho",
+    "machine": 16777223,
+    "sha256": "5ad66d7da64a712b0294a8bee08fb529fdffb2b57499899dd462bed142852c97"
+  },
+  {
+    "file": "macos-machine-16777228-10680728.dylib",
+    "offset": 10680728,
+    "size": 2850296,
+    "kind": "macho",
+    "machine": 16777228,
+    "sha256": "6f8cc1102d50d167c69716b175925df26120d6e99dfeb394ef9168a66a2c5dfc"
+  }
+]

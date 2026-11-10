@@ -1,0 +1,44 @@
+[
+  {
+    "owner": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+    "masterSeed": 941550958866675756,
+    "fallbackSeed": 1044283762663413430,
+    "decryptSeed": 145468966514757
+  },
+  {
+    "owner": "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "masterSeed": 7191679569217237571,
+    "fallbackSeed": 7159657496842015024,
+    "decryptSeed": 86160325983571
+  },
+  {
+    "owner": "me/octo/client/utils/security/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+    "masterSeed": -6744061185498019544,
+    "fallbackSeed": -6380737776421084941,
+    "decryptSeed": 17364019862608
+  },
+  {
+    "owner": "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+    "masterSeed": 208278073732676780,
+    "fallbackSeed": 2529347860320996576,
+    "decryptSeed": 109965590202017
+  },
+  {
+    "owner": "me/octo/client/utils/security/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+    "masterSeed": 4732611649035484180,
+    "fallbackSeed": -1413681660530094626,
+    "decryptSeed": 250567783618592
+  },
+  {
+    "owner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+    "masterSeed": 592445508979053886,
+    "fallbackSeed": 41915711113149821,
+    "decryptSeed": 96065892605860
+  },
+  {
+    "owner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "masterSeed": -8231093171150383581,
+    "fallbackSeed": -3678689554557194111,
+    "decryptSeed": 201774890654910
+  }
+]

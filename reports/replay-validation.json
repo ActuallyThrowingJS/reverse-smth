@@ -1,0 +1,14 @@
+{
+  "pipelineReplay": "All presentation JAR entries match the investigation artifact byte-for-byte",
+  "inputHashesChecked": true,
+  "knownEnumLiteralsVerified": 115,
+  "referenceRestorations": 12893,
+  "unprovenAccessSitesLeftUnchanged": 5,
+  "basicVerifierMethodsBefore": 48556,
+  "basicVerifierMethodsAfter": 48556,
+  "basicVerifierFailuresBefore": 0,
+  "basicVerifierFailuresAfter": 0,
+  "nativeImplementationRegistrations": 518,
+  "fullApplicationBuildOrLaunchTested": false,
+  "unrecoveredMethodsRemain": true
+}

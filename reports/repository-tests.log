@@ -1,0 +1,17 @@
+Note: tools/vendor/com/zkmdeobf/MiniInterpreter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+{
+  "classes": 3,
+  "classMappings": 1,
+  "fieldDeclarationsRenamed": 0,
+  "methodDeclarationsRenamed": 2,
+  "fieldReferencesRewritten": 0,
+  "methodReferencesRewritten": 0,
+  "resourceFilesRewritten": 1,
+  "identicalGettersCoalesced": 0,
+  "overrideNamesUnified": 0,
+  "nativeBindingsRewritten": false,
+  "artifactPurpose": "source recovery analysis; not verified runnable"
+}
+PASS owner isolation, override dispatch, class rename and Fabric entrypoint metadata
+PASS RFC 8439, full 641905-byte native pool, empty output and input validation

@@ -1,0 +1,836 @@
+{
+  "classes": {
+    "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl": "me/octo/client/utils/player/ZkmMasterKeyFactory",
+    "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll": "me/octo/client/utils/player/ZkmFallbackKeyFactory",
+    "me/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII": "me/octo/client/utils/player/ZkmKeyFactory",
+    "me/octo/client/events/impl/base/annotations/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll": "me/octo/client/events/impl/base/annotations/Cancelable",
+    "me/octo/client/events/Event$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll": "me/octo/client/events/Event$Result",
+    "me/octo/client/Polinex$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll": "me/octo/client/Polinex$Companion",
+    "me/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI": "me/octo/client/gui/clickgui/modules/Module",
+    "me/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll": "me/octo/client/gui/clickgui/ModuleCategory",
+    "me/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll": "me/octo/client/gui/clickgui/settings/Setting"
+  },
+  "fields": [
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "a",
+      "descriptor": "J",
+      "newName": "seed",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "b",
+      "descriptor": "[I",
+      "newName": "permutation",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "c",
+      "descriptor": "Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;",
+      "newName": "child",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "d",
+      "descriptor": "J",
+      "newName": "xorKey",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "j",
+      "descriptor": "[J",
+      "newName": "bitMasks",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "k",
+      "descriptor": "[J",
+      "newName": "BIT_MASKS",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "e",
+      "descriptor": "[I",
+      "newName": "activePermutation",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "f",
+      "descriptor": "Ljava/util/ArrayList;",
+      "newName": "factories",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "m",
+      "descriptor": "Ljava/util/Vector;",
+      "newName": "initializedClasses",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "i",
+      "descriptor": "I",
+      "newName": "initialFactoryCount",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "h",
+      "descriptor": "I",
+      "newName": "hashStartBit",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "l",
+      "descriptor": "I",
+      "newName": "cacheCloneInterval",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "n",
+      "descriptor": "I",
+      "newName": "antiDebugSentinel",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "o",
+      "descriptor": "Ljava/lang/Object;",
+      "newName": "context",
+      "evidence": "Key-runtime field assignments and uses inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll",
+      "name": "a",
+      "descriptor": "Lme/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll;",
+      "newName": "INSTANCE",
+      "evidence": "Fallback registry, child and seed fields inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll",
+      "name": "b",
+      "descriptor": "Ljava/util/concurrent/ConcurrentHashMap;",
+      "newName": "registry",
+      "evidence": "Fallback registry, child and seed fields inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll",
+      "name": "c",
+      "descriptor": "Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;",
+      "newName": "child",
+      "evidence": "Fallback registry, child and seed fields inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll",
+      "name": "g",
+      "descriptor": "[I",
+      "newName": "permutation",
+      "evidence": "Fallback registry, child and seed fields inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll",
+      "name": "f",
+      "descriptor": "J",
+      "newName": "xorKey",
+      "evidence": "Fallback registry, child and seed fields inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll",
+      "name": "e",
+      "descriptor": "Z",
+      "newName": "seedFlag",
+      "evidence": "Fallback registry, child and seed fields inspected"
+    },
+    {
+      "owner": "me/octo/client/events/impl/entity/EntityDataUpdateEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/world/entity/Entity;",
+      "newName": "entity",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/entity/EntityDataUpdateEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "I",
+      "newName": "dataId",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/entity/GetFovEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "F",
+      "newName": "fov",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/entity/LivingDeathEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/world/entity/LivingEntity;",
+      "newName": "entity",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/entity/LivingDeathEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "Lnet/minecraft/world/damagesource/DamageSource;",
+      "newName": "damageSource",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/entity/RenderEntityEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/world/entity/LivingEntity;",
+      "newName": "entity",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/game/MenuRender2DEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/client/gui/GuiGraphicsExtractor;",
+      "newName": "graphics",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/game/MenuRender2DEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "Ljava/lang/Integer;",
+      "newName": "mouseX",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/game/MenuRender2DEvent",
+      "name": "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+      "descriptor": "Ljava/lang/Integer;",
+      "newName": "mouseY",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/game/MenuRender2DEvent",
+      "name": "IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII",
+      "descriptor": "Ljava/lang/Float;",
+      "newName": "tickDelta",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/game/SafeHudRenderEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/client/gui/GuiGraphicsExtractor;",
+      "newName": "graphics",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/game/SafeHudRenderEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "F",
+      "newName": "tickDelta",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/game/WindowResizeEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "I",
+      "newName": "width",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/game/WindowResizeEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "I",
+      "newName": "height",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/input/MouseButtonEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "I",
+      "newName": "button",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/input/MouseButtonEvent",
+      "name": "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+      "descriptor": "I",
+      "newName": "action",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/input/MouseButtonEvent",
+      "name": "IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII",
+      "descriptor": "I",
+      "newName": "modifiers",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/input/MouseScrollEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "D",
+      "newName": "horizontal",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/input/MouseScrollEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "D",
+      "newName": "vertical",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/other/BlockChangeEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/core/BlockPos;",
+      "newName": "position",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/other/BlockChangeEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "Lnet/minecraft/world/level/block/state/BlockState;",
+      "newName": "previousState",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/other/BlockChangeEvent",
+      "name": "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+      "descriptor": "Lnet/minecraft/world/level/block/state/BlockState;",
+      "newName": "state",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/other/PacketTeamsEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket;",
+      "newName": "packet",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/other/ParticleEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/network/protocol/game/ClientboundLevelParticlesPacket;",
+      "newName": "packet",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/packet/ChatCommandSendEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Ljava/lang/String;",
+      "newName": "command",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/packet/PacketReceivedEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/network/protocol/Packet;",
+      "newName": "packet",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/packet/PacketSendEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/network/protocol/Packet;",
+      "newName": "packet",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/packet/ServerRotationEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/network/protocol/Packet;",
+      "newName": "packet",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/packet/ServerRotationEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "F",
+      "newName": "previousYaw",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/packet/ServerRotationEvent",
+      "name": "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+      "descriptor": "F",
+      "newName": "previousPitch",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/packet/ServerRotationEvent",
+      "name": "IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII",
+      "descriptor": "F",
+      "newName": "yaw",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/packet/ServerRotationEvent",
+      "name": "llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI",
+      "descriptor": "F",
+      "newName": "pitch",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawNameTagEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/world/entity/Entity;",
+      "newName": "entity",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOutlinesEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lcom/mojang/blaze3d/pipeline/RenderTarget;",
+      "newName": "renderTarget",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOutlinesEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "Lcom/mojang/blaze3d/vertex/PoseStack;",
+      "newName": "poseStack",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOutlinesEvent",
+      "name": "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+      "descriptor": "Lnet/minecraft/client/renderer/state/level/CameraRenderState;",
+      "newName": "cameraState",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOutlinesEvent",
+      "name": "IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII",
+      "descriptor": "F",
+      "newName": "tickDelta",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOutlinesEvent",
+      "name": "llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI",
+      "descriptor": "Lme/octo/client/events/impl/render/DrawOutlinesEvent$OutlineType;",
+      "newName": "outlineType",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOutlinesEvent",
+      "name": "lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl",
+      "descriptor": "Z",
+      "newName": "dirty",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOverlayEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/client/gui/GuiGraphicsExtractor;",
+      "newName": "graphics",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOverlayEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "Lcom/mojang/blaze3d/platform/Window;",
+      "newName": "window",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOverlayEvent",
+      "name": "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+      "descriptor": "Lnet/minecraft/client/DeltaTracker;",
+      "newName": "deltaTracker",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOverlayEvent",
+      "name": "IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII",
+      "descriptor": "F",
+      "newName": "tickDelta",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOverlayEvent",
+      "name": "llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI",
+      "descriptor": "Lorg/joml/Vector2f;",
+      "newName": "mousePosition",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawOverlayEvent",
+      "name": "lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl",
+      "descriptor": "Lorg/joml/Matrix4f;",
+      "newName": "matrix",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawPreWorldEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lcom/mojang/blaze3d/platform/Window;",
+      "newName": "window",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawPreWorldEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "Lnet/minecraft/client/DeltaTracker;",
+      "newName": "deltaTracker",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawPreWorldEvent",
+      "name": "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+      "descriptor": "F",
+      "newName": "tickDelta",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawPreWorldEvent",
+      "name": "IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII",
+      "descriptor": "Lorg/joml/Matrix4f;",
+      "newName": "matrix",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawScreenEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lorg/joml/Vector2f;",
+      "newName": "mousePosition",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawScreenEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "Lcom/mojang/blaze3d/platform/Window;",
+      "newName": "window",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawScreenEvent",
+      "name": "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+      "descriptor": "Lnet/minecraft/client/DeltaTracker;",
+      "newName": "deltaTracker",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawScreenEvent",
+      "name": "IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII",
+      "descriptor": "F",
+      "newName": "tickDelta",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawScreenEvent",
+      "name": "llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI",
+      "descriptor": "Lorg/joml/Matrix4f;",
+      "newName": "matrix",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawWorldEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lcom/mojang/blaze3d/platform/Window;",
+      "newName": "window",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawWorldEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "Lnet/minecraft/client/DeltaTracker;",
+      "newName": "deltaTracker",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawWorldEvent",
+      "name": "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+      "descriptor": "F",
+      "newName": "tickDelta",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/DrawWorldEvent",
+      "name": "IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII",
+      "descriptor": "Lorg/joml/Matrix4f;",
+      "newName": "matrix",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/HudElementDrawnEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/client/gui/GuiGraphicsExtractor;",
+      "newName": "graphics",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/OverlayMessageEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Ljava/lang/String;",
+      "newName": "message",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/OverlayMessageEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "Lnet/minecraft/network/chat/Component;",
+      "newName": "component",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/ScoreboardEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lnet/minecraft/client/gui/GuiGraphicsExtractor;",
+      "newName": "graphics",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/ScoreboardEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "Lnet/minecraft/world/scores/Objective;",
+      "newName": "objective",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/WorldRenderEvent",
+      "name": "IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI",
+      "descriptor": "Lcom/mojang/blaze3d/vertex/PoseStack;",
+      "newName": "poseStack",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/WorldRenderEvent",
+      "name": "IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll",
+      "descriptor": "Lnet/minecraft/client/Camera;",
+      "newName": "camera",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/impl/render/WorldRenderEvent",
+      "name": "lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll",
+      "descriptor": "F",
+      "newName": "tickDelta",
+      "evidence": "Retained event role plus constructor order and mixin producer; inferred descriptive name"
+    },
+    {
+      "owner": "me/octo/client/events/Event",
+      "name": "IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl",
+      "descriptor": "Z",
+      "newName": "canceled",
+      "evidence": "Event getters, setters and state comparisons inspected"
+    },
+    {
+      "owner": "me/octo/client/events/Event",
+      "name": "lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII",
+      "descriptor": "Lme/octo/client/events/Event$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;",
+      "newName": "result",
+      "evidence": "Event getters, setters and state comparisons inspected"
+    },
+    {
+      "owner": "me/octo/client/events/Event",
+      "name": "IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl",
+      "descriptor": "Lme/octo/client/events/impl/base/EventPriority;",
+      "newName": "priority",
+      "evidence": "Event getters, setters and state comparisons inspected"
+    },
+    {
+      "owner": "me/octo/client/events/Event",
+      "name": "lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI",
+      "descriptor": "Lme/octo/client/events/impl/base/EventState;",
+      "newName": "state",
+      "evidence": "Event getters, setters and state comparisons inspected"
+    }
+  ],
+  "methods": [
+    {
+      "owner": "me/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII",
+      "name": "a",
+      "descriptor": "(Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;)V",
+      "newName": "addChild",
+      "evidence": "Interface implementations and concrete bodies inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII",
+      "name": "b",
+      "descriptor": "()[I",
+      "newName": "permutation",
+      "evidence": "Interface implementations and concrete bodies inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII",
+      "name": "a",
+      "descriptor": "(J)J",
+      "newName": "decrypt",
+      "evidence": "Interface implementations and concrete bodies inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII",
+      "name": "b",
+      "descriptor": "(J)V",
+      "newName": "setXorKey",
+      "evidence": "Interface implementations and concrete bodies inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII",
+      "name": "b",
+      "descriptor": "(Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;)Z",
+      "newName": "precedes",
+      "evidence": "Interface implementations and concrete bodies inspected"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "a",
+      "descriptor": "(JJLjava/lang/Object;)Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;",
+      "newName": "forClass",
+      "evidence": "Inspected factory algorithm; descriptor distinguishes overloaded methods"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "d",
+      "descriptor": "(J)Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;",
+      "newName": "newFactory",
+      "evidence": "Inspected factory algorithm; descriptor distinguishes overloaded methods"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "c",
+      "descriptor": "(J)Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;",
+      "newName": "cachedFactory",
+      "evidence": "Inspected factory algorithm; descriptor distinguishes overloaded methods"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "a",
+      "descriptor": "(JII[I[J)J",
+      "newName": "permute",
+      "evidence": "Inspected factory algorithm; descriptor distinguishes overloaded methods"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "a",
+      "descriptor": "(II)J",
+      "newName": "extractBits",
+      "evidence": "Inspected factory algorithm; descriptor distinguishes overloaded methods"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "a",
+      "descriptor": "(I)J",
+      "newName": "extractBitsFrom",
+      "evidence": "Inspected factory algorithm; descriptor distinguishes overloaded methods"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "g",
+      "descriptor": "()Ljava/lang/Object;",
+      "newName": "context",
+      "evidence": "Inspected factory algorithm; descriptor distinguishes overloaded methods"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "a",
+      "descriptor": "(Lme/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll;)V",
+      "newName": "initializeChildOrder",
+      "evidence": "Inspected factory algorithm; descriptor distinguishes overloaded methods"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl",
+      "name": "b",
+      "descriptor": "(Lme/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll;)V",
+      "newName": "initializePermutation",
+      "evidence": "Inspected factory algorithm; descriptor distinguishes overloaded methods"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll",
+      "name": "a",
+      "descriptor": "(Z)V",
+      "newName": "setSeedFlag",
+      "evidence": "Inspected registry or initialization body"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll",
+      "name": "a",
+      "descriptor": "(Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;)Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;",
+      "newName": "selectFactory",
+      "evidence": "Inspected registry or initialization body"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll",
+      "name": "b",
+      "descriptor": "(Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;)Lme/octo/client/utils/player/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII;",
+      "newName": "selectAndRegisterFactory",
+      "evidence": "Inspected registry or initialization body"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll",
+      "name": "d",
+      "descriptor": "()V",
+      "newName": "initializeChildOrder",
+      "evidence": "Inspected registry or initialization body"
+    },
+    {
+      "owner": "me/octo/client/utils/player/IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll",
+      "name": "c",
+      "descriptor": "()V",
+      "newName": "initializeXorKeys",
+      "evidence": "Inspected registry or initialization body"
+    },
+    {
+      "owner": "me/octo/client/Polinex",
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "descriptor": "(Lme/octo/client/events/impl/other/ClientInitializeEvent;)V",
+      "newName": "onClientInitialized",
+      "evidence": "SubscribeEvent annotation and parameter event type establish callback role"
+    },
+    {
+      "owner": "me/octo/client/Polinex",
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "descriptor": "(Lme/octo/client/events/impl/other/ClientShutdownEvent;)V",
+      "newName": "onClientShutdown",
+      "evidence": "SubscribeEvent annotation and parameter event type establish callback role"
+    },
+    {
+      "owner": "me/octo/client/Polinex",
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "descriptor": "(Lme/octo/client/events/impl/client/ClientJoinServerEvent;)V",
+      "newName": "onServerJoined",
+      "evidence": "SubscribeEvent annotation and parameter event type establish callback role"
+    },
+    {
+      "owner": "me/octo/client/events/Event",
+      "name": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+      "descriptor": "()Z",
+      "newName": "isPre",
+      "evidence": "Direct comparison to EventState.PRE"
+    },
+    {
+      "owner": "me/octo/client/events/Event",
+      "name": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl",
+      "descriptor": "()Z",
+      "newName": "isCancelable",
+      "evidence": "Direct runtime annotation check"
+    },
+    {
+      "owner": "me/octo/client/events/Event",
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "descriptor": "(ICSZ)V",
+      "newName": "setCanceled",
+      "evidence": "Cancellation assignment and cancelable check; injected key arguments preserved for now"
+    },
+    {
+      "owner": "me/octo/client/events/Event",
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "descriptor": "(Lme/octo/client/events/Event$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;J)V",
+      "newName": "setResult",
+      "evidence": "Result field assignment; injected key argument preserved"
+    },
+    {
+      "owner": "me/octo/client/events/Event",
+      "name": "IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI",
+      "descriptor": "()V",
+      "newName": "initialize",
+      "evidence": "Protected hook called by Event constructor"
+    }
+  ]
+}

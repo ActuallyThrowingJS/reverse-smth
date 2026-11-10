@@ -1,0 +1,309 @@
+package me.octo.client.modules.impl.macros;
+
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.lang.invoke.MutableCallSite;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import javax.crypto.Cipher;
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.DESKeySpec;
+import javax.crypto.spec.IvParameterSpec;
+import kotlin.jvm.functions.Function2;
+import kotlin.jvm.internal.Intrinsics;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.phys.Vec3;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+public final class IIIllIIlllIlIlllllllIlIllIIIlIllllIIIllllllIlllllIIlIlIIllIlIIIIlllIIllllIlllIlIIlIIl {
+   @NotNull
+   private final Vec3 center;
+   private final int lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+   private double IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+   private boolean lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+   @Nullable
+   private AABB IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+   @NotNull
+   private final Map<Double, Integer> IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI;
+   private static long IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = 140460584827850L;
+   private static String[] lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+   private static String[] IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII;
+   private static Map llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new HashMap(13);
+
+   public IIIllIIlllIlIlllllllIlIllIIIlIllllIIIllllllIlllllIIlIlIIllIlIIIIlllIIllllIlllIlIIlIIl(@NotNull Vec3 centerArg, int argument2Arg) {
+      long var3 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ 73778867926272L;
+      Intrinsics.checkNotNullParameter(centerArg, "center");
+      super();
+      this.center = centerArg;
+      this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = argument2Arg;
+      this.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = Double.NaN;
+      IIlllllllIlIlllIIIIllIllIlIIIIIlllIlIIlllllllllIIllIIIlIIlllIIIlIlIllIllllIIIIIllIlll.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII();
+      this.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new LinkedHashMap<>();
+
+      try {
+         if (me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII()
+            == null) {
+            String[] var6 = new String[3];
+            IIlllllllIlIlllIIIIllIllIlIIIIIlllIlIIlllllllllIIllIIIlIIlllIIIlIlIllIllllIIIIIllIlll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+               var6
+            );
+         }
+      } catch (MatchException var8) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8);
+      }
+   }
+
+   @NotNull
+   public final Vec3 getCenter() {
+      return this.center;
+   }
+
+   public final int llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI() {
+      return this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+   }
+
+   public final double IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII() {
+      return this.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(double var1) {
+      this.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var1;
+   }
+
+   public final boolean IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl() {
+      return this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(boolean var1) {
+      this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var1;
+   }
+
+   @Nullable
+   public final AABB lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll() {
+      return this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@Nullable AABB var1) {
+      this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var1;
+   }
+
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(long param1, @NotNull Vec3 param3) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @Nullable
+   public final me.octo.client.utils.player.lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      int param1, boolean param2, @Nullable Vec3 param3, short param4, int param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final int IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI() {
+      return this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
+   }
+
+   @NotNull
+   public final IIIllIIlllIlIlllllllIlIllIIIlIllllIIIllllllIlllllIIlIlIIllIlIIIIlllIIllllIlllIlIIlIIl IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      short var1, @NotNull Vec3 var2, short var3, int var4, int var5
+   ) {
+      long var6 = ((long)var1 << 48 | (long)var3 << 48 >>> 16 | (long)var5 << 32 >>> 32)
+         ^ IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+      Intrinsics.checkNotNullParameter(
+         var2, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"p">(16151, 601605528148342644L ^ var6)
+      );
+      return new IIIllIIlllIlIlllllllIlIllIIIlIllllIIIllllllIlllllIIlIlIIllIlIIIIlllIIllllIlllIlIIlIIl(var2, var4);
+   }
+
+   @NotNull
+   @Override
+   public String toString() {
+      long var1 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ 116232176253479L;
+      return "Hotspot(center=" + this.center + ", id=" + this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII + ")";
+   }
+
+   @Override
+   public int hashCode() {
+      int var1 = this.center.hashCode();
+      return var1 * 31 + Integer.hashCode(this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII);
+   }
+
+   @Override
+   public boolean equals(@Nullable Object param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private static final Integer IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(Function2 var0, Object var1, Object var2) {
+      return (Integer)var0.invoke(var1, var2);
+   }
+
+   static {
+      long var0 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ 51247732572114L;
+      Cipher var2;
+      Cipher var10000 = var2 = Cipher.getInstance("DES/CBC/PKCS5Padding");
+      SecretKeyFactory var10002 = SecretKeyFactory.getInstance("DES");
+      byte[] var10003 = new byte[]{(byte)(var0 >>> 56), 0, 0, 0, 0, 0, 0, 0};
+
+      for (int var3 = 1; var3 < 8; var3++) {
+         var10003[var3] = (byte)(var0 << var3 * 8 >>> 56);
+      }
+
+      var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+      String[] var9 = new String[5];
+      int var7 = 0;
+      String var6 = "ó\u0017OøÂªÓ\u0085\u00adÞ.\u008d]k¿\u000f \u0006\u008c;<4\u0003\u008cê\u0095\u0083ið½Ém\u0015;@\u001f¯ÈM,\u0093Úýö^R%0c\u0010Ç}á´\u007f¸e5Ðÿ\u0016Ã«\u0083e²";
+      int var8 = "ó\u0017OøÂªÓ\u0085\u00adÞ.\u008d]k¿\u000f \u0006\u008c;<4\u0003\u008cê\u0095\u0083ið½Ém\u0015;@\u001f¯ÈM,\u0093Úýö^R%0c\u0010Ç}á´\u007f¸e5Ðÿ\u0016Ã«\u0083e²"
+         .length();
+      char var5 = 16;
+      int var12 = -1;
+
+      label27:
+      while (true) {
+         String var13 = var6.substring(++var12, var12 + var5);
+         byte var10001 = -1;
+
+         while (true) {
+            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
+            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+            switch (var10001) {
+               case 0:
+                  var9[var7++] = var19;
+                  if ((var12 += var5) >= var8) {
+                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var9;
+                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new String[5];
+                     return;
+                  }
+
+                  var5 = var6.charAt(var12);
+                  break;
+               default:
+                  var9[var7++] = var19;
+                  if ((var12 += var5) < var8) {
+                     var5 = var6.charAt(var12);
+                     continue label27;
+                  }
+
+                  var6 = "@W·!\u0007©ú\u0017û¯Ü4èª\f\u0092\u0010y \"»Z\u008aßy,ö)Ìü\bæ\u001b";
+                  var8 = "@W·!\u0007©ú\u0017û¯Ü4èª\f\u0092\u0010y \"»Z\u008aßy,ö)Ìü\bæ\u001b".length();
+                  var5 = 16;
+                  var12 = -1;
+            }
+
+            var13 = var6.substring(++var12, var12 + var5);
+            var10001 = 0;
+         }
+      }
+   }
+
+   private static MatchException IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(MatchException var0) {
+      return var0;
+   }
+
+   private static String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(byte[] var0) {
+      int var1 = 0;
+      int var2;
+      char[] var3 = new char[var2 = var0.length];
+
+      for (int var4 = 0; var4 < var2; var4++) {
+         int var5;
+         if ((var5 = 255 & var0[var4]) < 192) {
+            var3[var1++] = (char)var5;
+         } else if (var5 < 224) {
+            char var6 = (char)((char)(var5 & 31) << 6);
+            byte var8 = var0[++var4];
+            var6 = (char)(var6 | (char)(var8 & 63));
+            var3[var1++] = var6;
+         } else if (var4 < var2 - 2) {
+            char var12 = (char)((char)(var5 & 15) << '\f');
+            byte var9 = var0[++var4];
+            var12 = (char)(var12 | (char)(var9 & 63) << 6);
+            var9 = var0[++var4];
+            var12 = (char)(var12 | (char)(var9 & 63));
+            var3[var1++] = var12;
+         }
+      }
+
+      return new String(var3, 0, var1);
+   }
+
+   private static String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(int var0, long var1) {
+      int var5 = var0 ^ (int)(var1 & 32767L) ^ 19673;
+      if (IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII[var5] == null) {
+         Object[] var4;
+         try {
+            Long var3 = Thread.currentThread().threadId();
+            var4 = (Object[])llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI.get(var3);
+            if (var4 == null) {
+               var4 = new Object[]{Cipher.getInstance("DES/CBC/PKCS5Padding"), SecretKeyFactory.getInstance("DES"), new IvParameterSpec(new byte[8])};
+               llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI.put(var3, var4);
+            }
+         } catch (Exception var10) {
+            throw new RuntimeException(
+               "me/octo/client/modules/impl/macros/IIIllIIlllIlIlllllllIlIllIIIlIllllIIIllllllIlllllIIlIlIIllIlIIIIlllIIllllIlllIlIIlIIl", var10
+            );
+         }
+
+         byte[] var6 = new byte[8];
+         var6[0] = (byte)(var1 >>> 56);
+
+         for (int var7 = 1; var7 < 8; var7++) {
+            var6[var7] = (byte)(var1 << var7 * 8 >>> 56);
+         }
+
+         DESKeySpec var11 = new DESKeySpec(var6);
+         SecretKey var8 = ((SecretKeyFactory)var4[1]).generateSecret(var11);
+         ((Cipher)var4[0]).init(2, var8, (IvParameterSpec)var4[2]);
+         byte[] var9 = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll[var5].getBytes("ISO-8859-1");
+         IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII[var5] = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+            ((Cipher)var4[0]).doFinal(var9)
+         );
+      }
+
+      return IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII[var5];
+   }
+
+   private static Object IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      Lookup var0, MutableCallSite var1, String var2, Object[] var3
+   ) {
+      int var4 = (Integer)var3[0];
+      long var5 = (Long)var3[1];
+      String var7 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4, var5);
+      MethodHandle var8 = MethodHandles.constant(String.class, var7);
+      var1.setTarget(MethodHandles.dropArguments(var8, 0, int.class, long.class));
+      return var7;
+   }
+
+   private static CallSite IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(Lookup var0, String var1, MethodType var2) {
+      MutableCallSite var3 = new MutableCallSite(var2);
+
+      try {
+         var3.setTarget(
+            MethodHandles.explicitCastArguments(
+               MethodHandles.insertArguments(
+                  "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI".asCollector(Object[].class, var2.parameterCount()),
+                  0,
+                  var0,
+                  var3,
+                  var1
+               ),
+               var2
+            )
+         );
+         return var3;
+      } catch (Exception var5) {
+         throw new RuntimeException(
+            "me/octo/client/modules/impl/macros/IIIllIIlllIlIlllllllIlIllIIIlIllllIIIllllllIlllllIIlIlIIllIlIIIIlllIIllllIlllIlIIlIIl"
+               + " : "
+               + var1
+               + " : "
+               + var2.toString(),
+            var5
+         );
+      }
+   }
+}

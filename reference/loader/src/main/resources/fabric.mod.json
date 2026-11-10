@@ -1,0 +1,28 @@
+
+{
+  "schemaVersion": 1,
+  "id": "polinex-loader",
+  "version": "1.0.0",
+  "name": "Polinex Loader",
+  "description": "The Not SO official 26.x loader for Polinex",
+  "authors": [
+    "Claude, Codex And The Prompter Who made this slop"
+  ],
+  "icon": "assets/polinex/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "preLaunch": [
+      "lol.polinexclient.loader.llllIIlllIlIIIIIlIIIlIIlllIIllIIIlIlllllIIIlIlIIllllllIIIllllIllIIllIIIlllIlIlllIlIIl::IlIllIIIlllIIIlIIllIlllllIIIlIllIIlIIlIllIIIlIIIIlllIIlllIllllllllIlIlIIlIlIlIIlllllI"
+    ],
+    "main": [
+      "lol.polinexclient.loader.llllIIlllIlIIIIIlIIIlIIlllIIllIIIlIlllllIIIlIlIIllllllIIIllllIllIIllIIIlllIlIlllIlIIl::llIIIllIIIllIlllIIlllIIIIIlIIlIIIlllIllIlIlIIllllllIlIIIIIIlIIIIllIlIlIlIllIlIIllIIII"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "fabric-language-kotlin": ">=1.13.10",
+    "minecraft": ">=26.1 <26.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

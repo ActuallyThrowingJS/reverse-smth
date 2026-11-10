@@ -1,0 +1,329 @@
+package me.octo.client.utils;
+
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.lang.invoke.MutableCallSite;
+import java.lang.invoke.MethodHandles.Lookup;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+import javax.crypto.Cipher;
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.DESKeySpec;
+import javax.crypto.spec.IvParameterSpec;
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+public final class lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII {
+   @NotNull
+   private final UUID uuid;
+   @NotNull
+   private final String name;
+   @NotNull
+   private final String minecraftAccessToken;
+   private final long lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+   @Nullable
+   private final String IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+   private static long IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = 62088368164930L;
+   private static String[] IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+   private static String[] lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+   private static Map IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new HashMap(13);
+
+   public lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
+      @NotNull UUID uuidArg, @NotNull String nameArg, @NotNull String minecraftAccessTokenArg, long argument4Arg, @Nullable String argument5Arg
+   ) {
+      long var7 = IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI ^ 18798630860116L;
+      Intrinsics.checkNotNullParameter(uuidArg, "uuid");
+      Intrinsics.checkNotNullParameter(nameArg, "name");
+      Intrinsics.checkNotNullParameter(minecraftAccessTokenArg, "minecraftAccessToken");
+      super();
+      this.uuid = uuidArg;
+      this.name = nameArg;
+      this.minecraftAccessToken = minecraftAccessTokenArg;
+      this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = argument4Arg;
+      this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = argument5Arg;
+   }
+
+   @NotNull
+   public final UUID getUuid() {
+      return this.uuid;
+   }
+
+   @NotNull
+   public final String getName() {
+      return this.name;
+   }
+
+   @NotNull
+   public final String getMinecraftAccessToken() {
+      return this.minecraftAccessToken;
+   }
+
+   public final long IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl() {
+      return this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+   }
+
+   @Nullable
+   public final String lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll() {
+      return this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+   }
+
+   public final long IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl() {
+      return this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+   }
+
+   @Nullable
+   public final String IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll() {
+      return this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+   }
+
+   @NotNull
+   public final lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      long var1, @NotNull UUID var3, @NotNull String var4, @NotNull String var5, long var6, @Nullable String var8
+   ) {
+      var1 = IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI ^ var1;
+      Intrinsics.checkNotNullParameter(
+         var3, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"k">(119, 3520414867495571470L ^ var1)
+      );
+      Intrinsics.checkNotNullParameter(
+         var4, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"k">(15429, 7999576565147888697L ^ var1)
+      );
+      Intrinsics.checkNotNullParameter(
+         var5, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"k">(13415, 5400819397275903002L ^ var1)
+      );
+      return new lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(var3, var4, var5, var6, var8);
+   }
+
+   @NotNull
+   @Override
+   public String toString() {
+      long var1 = IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI ^ 52355701690703L;
+      String var3 = this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+      long var4 = this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      String var6 = this.minecraftAccessToken;
+      String var7 = this.name;
+      UUID var8 = this.uuid;
+      return "PolinexSession(uuid=" + var8 + ", name=" + var7 + ", minecraftAccessToken=" + var6 + ", accessTokenExpiresAt=" + var4 + ", xuid=" + var3 + ")";
+   }
+
+   @Override
+   public int hashCode() {
+      int var14;
+      int var15;
+      label40: {
+         long var1 = IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI ^ 2879228520351L;
+         int[] var10000 = llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI();
+         int var4 = this.uuid.hashCode();
+         int[] var3 = var10000;
+         var14 = var4 * 31;
+         String var10001 = this.name;
+         if (var3 == null) {
+            var4 = var14 + this.name.hashCode();
+            var4 = var4 * 31 + this.minecraftAccessToken.hashCode();
+            var4 = var4 * 31 + Long.hashCode(this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI);
+
+            try {
+               var14 = var4 * 31;
+               if (this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII == null) {
+                  var15 = 0;
+                  break label40;
+               }
+            } catch (MatchException var9) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var9);
+            }
+
+            var10001 = this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+         }
+
+         var15 = var10001.hashCode();
+      }
+
+      int var13 = var14 + var15;
+
+      try {
+         if (IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII()
+            == null) {
+            int[] var6 = new int[2];
+            llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+               var6
+            );
+         }
+
+         return var13;
+      } catch (MatchException var8) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8);
+      }
+   }
+
+   @Override
+   public boolean equals(@Nullable Object param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   static {
+      long var0 = IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI ^ 115446782968885L;
+      Cipher var2;
+      Cipher var10000 = var2 = Cipher.getInstance("DES/CBC/PKCS5Padding");
+      SecretKeyFactory var10002 = SecretKeyFactory.getInstance("DES");
+      byte[] var10003 = new byte[]{(byte)(var0 >>> 56), 0, 0, 0, 0, 0, 0, 0};
+
+      for (int var3 = 1; var3 < 8; var3++) {
+         var10003[var3] = (byte)(var0 << var3 * 8 >>> 56);
+      }
+
+      var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+      String[] var9 = new String[11];
+      int var7 = 0;
+      String var6 = "m\u009fÜ\u008e;{ÈÊ\u0096v«À\u009f\u001cçQ(ê½\u000eC*¤=Þ·î\u0083ùØ\u009bz9cé«ñì\u0003 ¼Þî\u001c_\u000em 8G\u0089+\u009e#e¨\u0003(º\u001cÍtS\f^º{«]\u008ft0ÅDaÜµO°7?2\u0089\u0015\n'ñzËú:³üA)#\u0093Ú\u0010ï#¶\u009fXR¨ÞØ(í\u0001¡væE(3êT²Î\u0006Åx7¯L\u008b\u00ad.ð£OÛL!]Ì\u001d\u007f\fÊ,ÈB&AÁ\u0096R=µ\ròôê\u0010\u001e,}\u0098\u001aêÂøAã²\u0013ýï-k(Xæ[\ný´ë ÍÛ}\u001a\u0012oþÄÐ\u001aøßù×Pw\u0013XWP\u008cÂp\u009b(ÿ,\u001at«¸E(w\u001b£\u0085\u000bÂz\u008eüÙX\u0093¾~õOwZ\u0016\u001dÆ9\u0098cô¨ÛlëåÎ¨\u009f:Ìw¥\u0090IÐ\u0010`y;~i\u0093Þ`\\\t\u0094\u0099\u008a¨\u0012u";
+      int var8 = "m\u009fÜ\u008e;{ÈÊ\u0096v«À\u009f\u001cçQ(ê½\u000eC*¤=Þ·î\u0083ùØ\u009bz9cé«ñì\u0003 ¼Þî\u001c_\u000em 8G\u0089+\u009e#e¨\u0003(º\u001cÍtS\f^º{«]\u008ft0ÅDaÜµO°7?2\u0089\u0015\n'ñzËú:³üA)#\u0093Ú\u0010ï#¶\u009fXR¨ÞØ(í\u0001¡væE(3êT²Î\u0006Åx7¯L\u008b\u00ad.ð£OÛL!]Ì\u001d\u007f\fÊ,ÈB&AÁ\u0096R=µ\ròôê\u0010\u001e,}\u0098\u001aêÂøAã²\u0013ýï-k(Xæ[\ný´ë ÍÛ}\u001a\u0012oþÄÐ\u001aøßù×Pw\u0013XWP\u008cÂp\u009b(ÿ,\u001at«¸E(w\u001b£\u0085\u000bÂz\u008eüÙX\u0093¾~õOwZ\u0016\u001dÆ9\u0098cô¨ÛlëåÎ¨\u009f:Ìw¥\u0090IÐ\u0010`y;~i\u0093Þ`\\\t\u0094\u0099\u008a¨\u0012u"
+         .length();
+      char var5 = 16;
+      int var12 = -1;
+
+      label27:
+      while (true) {
+         String var13 = var6.substring(++var12, var12 + var5);
+         byte var10001 = -1;
+
+         while (true) {
+            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
+            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+            switch (var10001) {
+               case 0:
+                  var9[var7++] = var19;
+                  if ((var12 += var5) >= var8) {
+                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var9;
+                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new String[11];
+                     return;
+                  }
+
+                  var5 = var6.charAt(var12);
+                  break;
+               default:
+                  var9[var7++] = var19;
+                  if ((var12 += var5) < var8) {
+                     var5 = var6.charAt(var12);
+                     continue label27;
+                  }
+
+                  var6 = "\u001c\u0087û®QDÓÿ\u001e?ä\u000e\u001e\u0087?,\u0010v\u0093\u0010ð oµÅyN\u008bÉ°&\u0083\u0086";
+                  var8 = "\u001c\u0087û®QDÓÿ\u001e?ä\u000e\u001e\u0087?,\u0010v\u0093\u0010ð oµÅyN\u008bÉ°&\u0083\u0086".length();
+                  var5 = 16;
+                  var12 = -1;
+            }
+
+            var13 = var6.substring(++var12, var12 + var5);
+            var10001 = 0;
+         }
+      }
+   }
+
+   private static MatchException IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(MatchException var0) {
+      return var0;
+   }
+
+   private static String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(byte[] var0) {
+      int var1 = 0;
+      int var2;
+      char[] var3 = new char[var2 = var0.length];
+
+      for (int var4 = 0; var4 < var2; var4++) {
+         int var5;
+         if ((var5 = 255 & var0[var4]) < 192) {
+            var3[var1++] = (char)var5;
+         } else if (var5 < 224) {
+            char var6 = (char)((char)(var5 & 31) << 6);
+            byte var8 = var0[++var4];
+            var6 = (char)(var6 | (char)(var8 & 63));
+            var3[var1++] = var6;
+         } else if (var4 < var2 - 2) {
+            char var12 = (char)((char)(var5 & 15) << '\f');
+            byte var9 = var0[++var4];
+            var12 = (char)(var12 | (char)(var9 & 63) << 6);
+            var9 = var0[++var4];
+            var12 = (char)(var12 | (char)(var9 & 63));
+            var3[var1++] = var12;
+         }
+      }
+
+      return new String(var3, 0, var1);
+   }
+
+   private static String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(int var0, long var1) {
+      int var5 = var0 ^ (int)(var1 & 32767L) ^ 3527;
+      if (lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll[var5] == null) {
+         Object[] var4;
+         try {
+            Long var3 = Thread.currentThread().threadId();
+            var4 = (Object[])IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII.get(var3);
+            if (var4 == null) {
+               var4 = new Object[]{Cipher.getInstance("DES/CBC/PKCS5Padding"), SecretKeyFactory.getInstance("DES"), new IvParameterSpec(new byte[8])};
+               IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII.put(var3, var4);
+            }
+         } catch (Exception var10) {
+            throw new RuntimeException("me/octo/client/utils/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII", var10);
+         }
+
+         byte[] var6 = new byte[8];
+         var6[0] = (byte)(var1 >>> 56);
+
+         for (int var7 = 1; var7 < 8; var7++) {
+            var6[var7] = (byte)(var1 << var7 * 8 >>> 56);
+         }
+
+         DESKeySpec var11 = new DESKeySpec(var6);
+         SecretKey var8 = ((SecretKeyFactory)var4[1]).generateSecret(var11);
+         ((Cipher)var4[0]).init(2, var8, (IvParameterSpec)var4[2]);
+         byte[] var9 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll[var5].getBytes("ISO-8859-1");
+         lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll[var5] = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+            ((Cipher)var4[0]).doFinal(var9)
+         );
+      }
+
+      return lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll[var5];
+   }
+
+   private static Object IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      Lookup var0, MutableCallSite var1, String var2, Object[] var3
+   ) {
+      int var4 = (Integer)var3[0];
+      long var5 = (Long)var3[1];
+      String var7 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4, var5);
+      MethodHandle var8 = MethodHandles.constant(String.class, var7);
+      var1.setTarget(MethodHandles.dropArguments(var8, 0, int.class, long.class));
+      return var7;
+   }
+
+   private static CallSite IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(Lookup var0, String var1, MethodType var2) {
+      MutableCallSite var3 = new MutableCallSite(var2);
+
+      try {
+         var3.setTarget(
+            MethodHandles.explicitCastArguments(
+               MethodHandles.insertArguments(
+                  "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI".asCollector(Object[].class, var2.parameterCount()),
+                  0,
+                  var0,
+                  var3,
+                  var1
+               ),
+               var2
+            )
+         );
+         return var3;
+      } catch (Exception var5) {
+         throw new RuntimeException(
+            "me/octo/client/utils/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII"
+               + " : "
+               + var1
+               + " : "
+               + var2.toString(),
+            var5
+         );
+      }
+   }
+}
