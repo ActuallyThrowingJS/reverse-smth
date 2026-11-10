@@ -1,0 +1,76 @@
+Note: tools/vendor/com/zkmdeobf/MiniInterpreter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: tools/vendor/unlegit/zkm/ConstantResidualIslandCleaner.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+{
+  "classes": 3,
+  "classMappings": 1,
+  "fieldDeclarationsRenamed": 0,
+  "methodDeclarationsRenamed": 2,
+  "fieldReferencesRewritten": 0,
+  "methodReferencesRewritten": 0,
+  "resourceFilesRewritten": 1,
+  "identicalGettersCoalesced": 0,
+  "overrideNamesUnified": 0,
+  "nativeBindingsRewritten": false,
+  "artifactPurpose": "source recovery analysis; not verified runnable"
+}
+PASS owner isolation, override dispatch, class rename and Fabric entrypoint metadata
+PASS RFC 8439, full 641905-byte native pool, empty output and input validation
+constantFields=0 bindingContexts=2 newClones=2 reusedContexts=0 rewrittenCalls=2 rounds=3 genericMethodsPreserved=true
+constantFields=0 bindingContexts=8 newClones=8 reusedContexts=0 rewrittenCalls=8 rounds=4 genericMethodsPreserved=true
+PASS 26 JVM cases; constant-key propagation, generic methods and overridden dispatch preserved
+classes=1 changed=1 rounds=2 failures=0 mode=safe identity_rethrows=removed exception_ranges=normalized zkm_shared_tails=normalized residual_stacks=materialized binary_sentinel_tails=specialized reference_sentinel_tails=specialized constant_residual_islands=preserved report=/tmp/flow-test-16257129456713522003/flow.tsv
+PASS 81 JVM differential cases; ordered catches, synchronized/effectful helpers, unknown/null guards and wide stacks
+PoliSlop.jar 4 native images extracted
+Restored native Java bodies=9; exact ELF bytes verified; analysis artifact; original native registration must not run
+PASS 18 JVM cases across nine native bodies; static/instance locals, null/object identity, empty void and changed-image rejection
+Source alternatives preserving declared API=1 rejected=3
+PASS Java 25 class reading; missing-member, native-body and volatile-field regressions rejected
+Added inferred methods=2 constructor contexts=1 final-key field loads specialized=1 large methods skipped=0; runtime callers unchanged
+PASS 24 context cases; constructor frames, final-field snapshots, parameter bindings and original methods preserved
+{"profileCount":3,"profilesWithExactDispatchConstantArgumentCallers":2,"matchingCallSites":4,"unknownArgumentCallSites":3,"differentConstantArgumentCallSites":1,"unanalyzedMethods":0,"applicationEntryReachabilityEstablished":false}
+PASS inherited callers, exact/final dispatch, ambiguous virtual dispatch, differing/unknown arguments, volatile/mutable fields and control-flow merge
+New display-name aliases=1 constructorRoles=2 rounds=2 unanalyzedConstructors=0; inferred aliases, not original identifiers
+PASS transitive/reordered name arguments, ambiguous constructors, unrelated bases, duplicate aliases and explicit inference provenance
+{
+  "classes": 4,
+  "classMappings": 2,
+  "fieldDeclarationsRenamed": 0,
+  "methodDeclarationsRenamed": 0,
+  "fieldReferencesRewritten": 0,
+  "methodReferencesRewritten": 0,
+  "resourceFilesRewritten": 0,
+  "identicalGettersCoalesced": 0,
+  "overrideNamesUnified": 0,
+  "nativeBindingsRewritten": false,
+  "artifactPurpose": "source recovery analysis; not verified runnable"
+}
+Nested aliases expanded=1 delta class names=1 full aliases=3; class inventory and collisions checked
+{
+  "classes": 4,
+  "classMappings": 1,
+  "fieldDeclarationsRenamed": 0,
+  "methodDeclarationsRenamed": 0,
+  "fieldReferencesRewritten": 0,
+  "methodReferencesRewritten": 0,
+  "resourceFilesRewritten": 0,
+  "identicalGettersCoalesced": 0,
+  "overrideNamesUnified": 0,
+  "nativeBindingsRewritten": false,
+  "artifactPurpose": "source recovery analysis; not verified runnable"
+}
+PASS nested alias expansion, longest-owner match, partial archive renames, JVM references/reflection and collision rejection
+constantFields=0 bindingContexts=0 newClones=0 reusedContexts=0 rewrittenCalls=0 rounds=1 genericMethodsPreserved=true
+constantFields=0 bindingContexts=1 newClones=1 reusedContexts=0 rewrittenCalls=1 rounds=2 genericMethodsPreserved=true
+PASS 16 JVM cases for direct invokedynamic keys; generic/unknown inputs and unrelated business arguments preserved
+constantFields=0 bindingContexts=0 newClones=0 reusedContexts=0 rewrittenCalls=0 rounds=1 genericMethodsPreserved=true
+constantFields=0 bindingContexts=2 newClones=2 reusedContexts=0 rewrittenCalls=2 rounds=2 genericMethodsPreserved=true
+PASS 27 JVM cases; direct/inherited superclass targets, receiver overrides and unknown keys preserved
+Restored interpreted literal sites=2 rejected evaluations=0; decoding evidence, not full application initialization
+PASS bounded extraction, larger finite loops, typed boxed caches, numeric/string JVM equivalence and side-effect rejection
+Proven numeric branches=4 changed classes=1 skipped analyses=0; INTERMEDIATE: run control-flow/frame normalization before JVM loading
+classes=1 changed=1 rounds=2 failures=0 mode=safe identity_rethrows=removed exception_ranges=normalized zkm_shared_tails=normalized residual_stacks=materialized binary_sentinel_tails=specialized reference_sentinel_tails=specialized constant_residual_islands=preserved report=/tmp/proven-branch-test-13656452746687215933/flow.tsv
+PASS 26 JVM cases; long comparisons, integer overflow, two-int branches, unknown/effectful conditions, exceptions and frame normalization
+PASS 72 isolated JVM cases: guard, payload, loader, callback exceptions, output, key, byte zeroization and field clearing; no application initialization/native execution
+PASS literal/comment preservation, method identity, parameter parsing and cleanup references

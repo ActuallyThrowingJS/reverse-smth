@@ -11,19 +11,22 @@ import com.zkmdeobf.MiniInterpreter;
 public class ResolveReferences {
  static final Map<String,String> PRIMITIVES=Map.of("boolean","Z","byte","B","char","C","short","S","int","I","long","J","float","F","double","D","void","V");
  static class Target {String owner,name,descriptor;boolean field,isStatic,isInterface;int access,classAccess;}
+ static Map<String,Object> snapshotValues(ClassNode c,JsonObject state){
+  Map<String,Object> statics=new HashMap<>();for(FieldNode f:c.fields)if(state.has(f.name)){
+    JsonElement e=state.get(f.name);Object value=null;
+    if(e.isJsonArray()){
+     if(f.desc.equals("[J")){long[] values=new long[e.getAsJsonArray().size()];for(int i=0;i<values.length;i++)values[i]=e.getAsJsonArray().get(i).getAsLong();value=new MiniInterpreter.Arr(values);}
+     else {Object[] values=new Object[e.getAsJsonArray().size()];for(int i=0;i<values.length;i++){JsonElement x=e.getAsJsonArray().get(i);if(x.isJsonNull())values[i]=null;else if(x.isJsonObject()&&x.getAsJsonObject().has("class")){String name=x.getAsJsonObject().get("class").getAsString();values[i]=switch(name){case "boolean"->boolean.class;case "byte"->byte.class;case "char"->char.class;case "short"->short.class;case "int"->int.class;case "long"->long.class;case "float"->float.class;case "double"->double.class;case "void"->void.class;default->null;};}else if(x.isJsonPrimitive()){if(f.desc.equals("[Ljava/lang/Long;"))values[i]=Long.valueOf(x.getAsLong());else if(f.desc.equals("[Ljava/lang/Integer;"))values[i]=Integer.valueOf(x.getAsInt());else values[i]=x.getAsString();}}value=new MiniInterpreter.Arr(values);}
+    }else if(e.isJsonPrimitive()){if(f.desc.equals("J"))value=e.getAsLong();else if(f.desc.equals("I"))value=e.getAsInt();else if(f.desc.equals("Ljava/lang/String;"))value=e.getAsString();}
+    if(value!=null)statics.put(c.name+'.'+f.name,value);
+   }
+  return statics;
+ }
  static class Decoder {
   ClassNode owner;MethodNode index;Map<String,Object> statics;MiniInterpreter.Ctx context;String objectField,stringField;Map<String,String> classCache=new HashMap<>();
   Decoder(ClassNode c,JsonObject state,Map<String,ClassNode> classes){owner=c;
    for(MethodNode m:c.methods)if(m.desc.equals("(JJ)I")&&(m.access&Opcodes.ACC_STATIC)!=0){if(index!=null)throw new IllegalStateException("Ambiguous index decoder");index=m;}
-   statics=new HashMap<>();for(FieldNode f:c.fields)if(state.has(f.name)){
-    JsonElement e=state.get(f.name);Object value=null;
-    if(e.isJsonArray()){
-     if(f.desc.equals("[J")){long[] values=new long[e.getAsJsonArray().size()];for(int i=0;i<values.length;i++)values[i]=e.getAsJsonArray().get(i).getAsLong();value=new MiniInterpreter.Arr(values);}
-     else {Object[] values=new Object[e.getAsJsonArray().size()];for(int i=0;i<values.length;i++){JsonElement x=e.getAsJsonArray().get(i);if(x.isJsonNull())values[i]=null;else if(x.isJsonObject()&&x.getAsJsonObject().has("class")){String name=x.getAsJsonObject().get("class").getAsString();values[i]=switch(name){case "boolean"->boolean.class;case "byte"->byte.class;case "char"->char.class;case "short"->short.class;case "int"->int.class;case "long"->long.class;case "float"->float.class;case "double"->double.class;case "void"->void.class;default->null;};}else if(x.isJsonPrimitive())values[i]=x.getAsString();}value=new MiniInterpreter.Arr(values);}
-    }else if(e.isJsonPrimitive()){if(f.desc.equals("J"))value=e.getAsLong();else if(f.desc.equals("I"))value=e.getAsInt();else if(f.desc.equals("Ljava/lang/String;"))value=e.getAsString();}
-    if(value!=null)statics.put(c.name+'.'+f.name,value);
-    if(f.desc.equals("[Ljava/lang/Object;"))objectField=f.name;
-   }
+   statics=snapshotValues(c,state);for(FieldNode f:c.fields)if(state.has(f.name)&&f.desc.equals("[Ljava/lang/Object;"))objectField=f.name;
    // The index decoder writes the decrypted member record to one String[] cache.
    for(AbstractInsnNode n:index.instructions)if(n instanceof FieldInsnNode){FieldInsnNode f=(FieldInsnNode)n;if(f.getOpcode()==Opcodes.GETSTATIC&&f.owner.equals(c.name)&&f.desc.equals("[Ljava/lang/String;")){stringField=f.name;break;}}
    context=new MiniInterpreter.Ctx(classes,ClassLoader.getPlatformClassLoader(),0,new HashSet<>(),statics);
@@ -65,11 +68,11 @@ public class ResolveReferences {
    for(int at=0;at<ns.length;at++)if(ns[at] instanceof InvokeDynamicInsnNode){InvokeDynamicInsnNode indy=(InvokeDynamicInsnNode)ns[at];Decoder decoder=decoders.get(indy.bsm.getOwner());if(decoder==null)continue;Type[] inputs=Type.getArgumentTypes(indy.desc);if(inputs.length<2||!inputs[inputs.length-2].equals(Type.LONG_TYPE)||!inputs[inputs.length-1].equals(Type.LONG_TYPE))continue;
     Frame<RestoreStrings.V> frame=frames[at];if(frame==null||frame.getStackSize()<2){unknown++;continue;}Object a=frame.getStack(frame.getStackSize()-2).value,b=frame.getStack(frame.getStackSize()-1).value;if(!(a instanceof Long)||!(b instanceof Long)){unknown++;continue;}
     try{
-     char operation=indy.name.charAt(0);boolean field=operation=='e'||operation==214||operation=='R'||operation=='Z';Target target=decoder.target((Long)a,(Long)b,field,classes);
+     char operation=indy.name.charAt(0);boolean loader=Boolean.getBoolean("recovery.loaderDispatcher");boolean field=loader?(operation==220||operation==236||operation==192||operation=='m'):(operation=='e'||operation==214||operation=='R'||operation=='Z');Target target=decoder.target((Long)a,(Long)b,field,classes);
      if(!accessible(target,c.name))throw new IllegalArgumentException("Access requires further proof");
      List<Type> wanted=new ArrayList<>();Type returned;int opcode;
-     if(field){boolean setter=operation==214||operation=='Z',statik=operation=='R'||operation=='Z';if(statik!=target.isStatic)throw new IllegalArgumentException("Static field mismatch");if(setter&&(target.access&Opcodes.ACC_FINAL)!=0&&(!c.name.equals(target.owner)||!m.name.equals(statik?"<clinit>":"<init>")))throw new IllegalArgumentException("Final field write requires initializer");if(!statik)wanted.add(Type.getObjectType(target.owner));if(setter)wanted.add(Type.getType(target.descriptor));returned=setter?Type.VOID_TYPE:Type.getType(target.descriptor);opcode=statik?(setter?Opcodes.PUTSTATIC:Opcodes.GETSTATIC):(setter?Opcodes.PUTFIELD:Opcodes.GETFIELD);}
-     else{boolean statik=operation==206;if(statik!=target.isStatic)throw new IllegalArgumentException("Static method mismatch");if(!statik)wanted.add(Type.getObjectType(target.owner));wanted.addAll(Arrays.asList(Type.getArgumentTypes(target.descriptor)));returned=Type.getReturnType(target.descriptor);opcode=statik?Opcodes.INVOKESTATIC:operation=='P'?(target.isInterface?Opcodes.INVOKEINTERFACE:Opcodes.INVOKEVIRTUAL):Opcodes.INVOKESPECIAL;if(opcode==Opcodes.INVOKESPECIAL&&!c.name.equals(target.owner))throw new IllegalArgumentException("Special dispatch requires further access proof");}
+     if(field){boolean setter=loader?(operation==236||operation=='m'):(operation==214||operation=='Z'),statik=loader?(operation==192||operation=='m'):(operation=='R'||operation=='Z');if(statik!=target.isStatic)throw new IllegalArgumentException("Static field mismatch");if(setter&&(target.access&Opcodes.ACC_FINAL)!=0&&(!c.name.equals(target.owner)||!m.name.equals(statik?"<clinit>":"<init>")))throw new IllegalArgumentException("Final field write requires initializer");if(!statik)wanted.add(Type.getObjectType(target.owner));if(setter)wanted.add(Type.getType(target.descriptor));returned=setter?Type.VOID_TYPE:Type.getType(target.descriptor);opcode=statik?(setter?Opcodes.PUTSTATIC:Opcodes.GETSTATIC):(setter?Opcodes.PUTFIELD:Opcodes.GETFIELD);}
+     else{boolean statik=operation==(loader?'D':206);if(statik!=target.isStatic)throw new IllegalArgumentException("Static method mismatch");if(!statik)wanted.add(Type.getObjectType(target.owner));wanted.addAll(Arrays.asList(Type.getArgumentTypes(target.descriptor)));returned=Type.getReturnType(target.descriptor);opcode=statik?Opcodes.INVOKESTATIC:operation==(loader?224:'P')?(target.isInterface?Opcodes.INVOKEINTERFACE:Opcodes.INVOKEVIRTUAL):Opcodes.INVOKESPECIAL;if(opcode==Opcodes.INVOKESPECIAL&&!c.name.equals(target.owner))throw new IllegalArgumentException("Special dispatch requires further access proof");}
      if(wanted.size()!=inputs.length-2||!compatible(returned,Type.getReturnType(indy.desc)))throw new IllegalArgumentException("Descriptor adaptation unsupported");
      int slots=0;for(int i=0;i<wanted.size();i++){if(!compatible(inputs[i],wanted.get(i)))throw new IllegalArgumentException("Primitive adaptation unsupported");slots+=inputs[i].getSize();}if(m.maxLocals+slots>60000)throw new IllegalArgumentException("Local limit");
      boolean removed=RestoreStrings.removePureArguments(m,ns,frames,at,c.name,constants);InsnList replacement=new InsnList();if(!removed){replacement.add(new InsnNode(Opcodes.POP2));replacement.add(new InsnNode(Opcodes.POP2));}int[] locals=new int[wanted.size()];for(int i=0;i<locals.length;i++){locals[i]=m.maxLocals;m.maxLocals+=inputs[i].getSize();}for(int i=locals.length-1;i>=0;i--)replacement.add(new VarInsnNode(inputs[i].getOpcode(Opcodes.ISTORE),locals[i]));for(int i=0;i<locals.length;i++){replacement.add(new VarInsnNode(inputs[i].getOpcode(Opcodes.ILOAD),locals[i]));cast(replacement,inputs[i],wanted.get(i));}

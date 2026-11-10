@@ -81,44 +81,47 @@ public class Obf00091 {
    // $VF: Irreducible bytecode was duplicated to produce valid code
    static void $jnicClinit() {
       long var13 = 62273239640092L;
+      int var10000 = 8108;
       String[] var11 = new String[24];
+      short var10001 = -15449;
       int var9 = 0;
-      String var8;
-      int var10 = (var8 = a(8108, -15449)).length();
+      String var8 = ";\u000býb;b\u008a\nÏô<\u0080}\u0088¾;¹\u001e)W9\u001c¯É\u000b\u0083ÙÈó\u008dÔÿÌÛ\t±ü°¡äg8Û*¦ç^ÊUòúÍ{µy\u001d\u0083q\u000bÏ\u000eà\"êÌ\u0017\u007fY\u0000óN\u008eVv\u0013\u0014\u0012\u008e´YÜÕ!WÅÚ\u0011FÁ\u00873LA¾á\f\u0005\u0087Ç¸R\u0011Ɩ⣟⣴⡈⢺⠗⣄⣈⢁⠝⠇⠃⡺⡷⠡⣳⢘⢽⢯⢵⡺⣀⡊⡨⡆⢱⣊·⠯⠱⢨⡿⣈⢗⣩⡛⡦⡤⢝⡊⡪⡝⣁⢸⠖⡧⠁⢘⣙⠻⡒⣿⢝⢏⢱p⡀⣄⡜⡬⡤⣰⡵⠗⣔⣭⣪⡾⠠⠿⠍⢝⢾⣃⠆⠅⠰⢩⡼⠃⠄⡆\u008c⡇⠨⣱⡪⢱⠒⣗⠾⡋⣟⢾⢂⢔⠭⢲⡌⢄⢚⣘⢨⠺⢹⡎⡍⡹⠢Q⡆⣮⢾⣌⢧⢖⡈⣐⢆⡬⡊⠆⣯⣸⢂⢆⠠⠁⢲⣫⠞⣘⣝⠒⣁⣲½⠮⡷⡕⠊⣡⠻⢥⡑⢊⡂⠋⢶⡃⠞⡐⢔⡿⢯⢵⣛⣧⢸⢁⣥⠹⢄Ý⠛⣈⡡⢖⡚⣈⠾⣪⣞⡟⣐⡦⣰⣛⣑⡘⣉⡿⠮⢕⣊⣂⠚⠥⠧⢭ï⡁⠽⢔⢥⠝⣂⢦⠨⣛⢹⡹⢵⡆⠄⡇⡳⢃⢃⠦⡹⢎⣖⣗⠳⢏⡤E⢫⠗⡺⡞⡍⡄⣟⢍⢋⢾⣍⣱⠖⠈⠓⡷⡸⠌⡳⡱⡆⡍⠼⢥⡀⢼\u009d⣡⡹⡌⠠⠵⠆⠩⢶⠶⡑⣯⡿⢳⡜⠸⢒⡧⣅⠐⡣⠽⣣⡗⣍⠺⠃¬⣯⠬⣸⣵⠐⠂⠀⣏⡶⠈⡅⢻⡯⠪⢙⣜⡉⢔⡙⡑⡖⣚⣃⢱⢌⠿#⣥⠤⣊⢁⠩⠿⢙⣥⢼⠢⡫⠺⡛⢄⢒⡠⡛⡶⡤⢾⡏⢪⠙⢢⢢⢁U⢌⡧⠞⢚⣆⠣⣗⣘⣸⠈⢒⣰⡙⡊⡬⠔⡝⠟⣵⡨⣎⣎⠄⣒⣆⡟¦⣤⢧⢞⡻⢥⡪⣄⡂⠤⡊⠋⠠⣻⠳⣧⣭⢁⡍⠹⣓⠠⢊⠰⡇⠬⢞\u008e⢣⠑⣈⠠⢖⡲⣗⠾⣵⡻⢼⣠⣡⠙⡌⠡⠸⢇⠩⠦⢌⠹⢞⢛⣑⣼B\u0007-p8Ù\n\u0015l\u0003\u0085.È\u000bè\u0014¡ì\u0086b¨\u0082z\u0082×\u0014L\u001b\u007fë¥\u0083\u000e\u009d \u0083\u00admVâÁà\u001f+*¾\u000e!ÆÒP\u0010ì¹rï\u0000\r\u009f\u0006*\u001c\u008cPD\u008awìP% \u000b}7\u0084\u00950Þ\u00adr\u001dã\u0090¼!99 Û:\u000eÝ|P×²´\"úÞ®ZRßó\u0013$Ã\u0019¯.Ûè\u001añ-h\u000fÎ\u0082¼(\u0018d,\u0007½\u0096\u0094\u009d\u009ar\u008d\u0003´éÂ\u0003º÷\u0003\u0003Ô\t  ¢d\u008a\u009cD¿Ñ¥,\u0089\u0007\u0086e\u0089\u0005rtØIø\u0019Zn¢dü/©ç«áw\u0003>pë#¦\u001e\"K\u000e\u0080g\u000f\u00871ä\u008bwÔÃÞ½O±\u0080FØ\u009cu´Ûì\u009d<\u0083dj\u00183\u008e";
+      int var10 = ";\u000býb;b\u008a\nÏô<\u0080}\u0088¾;¹\u001e)W9\u001c¯É\u000b\u0083ÙÈó\u008dÔÿÌÛ\t±ü°¡äg8Û*¦ç^ÊUòúÍ{µy\u001d\u0083q\u000bÏ\u000eà\"êÌ\u0017\u007fY\u0000óN\u008eVv\u0013\u0014\u0012\u008e´YÜÕ!WÅÚ\u0011FÁ\u00873LA¾á\f\u0005\u0087Ç¸R\u0011Ɩ⣟⣴⡈⢺⠗⣄⣈⢁⠝⠇⠃⡺⡷⠡⣳⢘⢽⢯⢵⡺⣀⡊⡨⡆⢱⣊·⠯⠱⢨⡿⣈⢗⣩⡛⡦⡤⢝⡊⡪⡝⣁⢸⠖⡧⠁⢘⣙⠻⡒⣿⢝⢏⢱p⡀⣄⡜⡬⡤⣰⡵⠗⣔⣭⣪⡾⠠⠿⠍⢝⢾⣃⠆⠅⠰⢩⡼⠃⠄⡆\u008c⡇⠨⣱⡪⢱⠒⣗⠾⡋⣟⢾⢂⢔⠭⢲⡌⢄⢚⣘⢨⠺⢹⡎⡍⡹⠢Q⡆⣮⢾⣌⢧⢖⡈⣐⢆⡬⡊⠆⣯⣸⢂⢆⠠⠁⢲⣫⠞⣘⣝⠒⣁⣲½⠮⡷⡕⠊⣡⠻⢥⡑⢊⡂⠋⢶⡃⠞⡐⢔⡿⢯⢵⣛⣧⢸⢁⣥⠹⢄Ý⠛⣈⡡⢖⡚⣈⠾⣪⣞⡟⣐⡦⣰⣛⣑⡘⣉⡿⠮⢕⣊⣂⠚⠥⠧⢭ï⡁⠽⢔⢥⠝⣂⢦⠨⣛⢹⡹⢵⡆⠄⡇⡳⢃⢃⠦⡹⢎⣖⣗⠳⢏⡤E⢫⠗⡺⡞⡍⡄⣟⢍⢋⢾⣍⣱⠖⠈⠓⡷⡸⠌⡳⡱⡆⡍⠼⢥⡀⢼\u009d⣡⡹⡌⠠⠵⠆⠩⢶⠶⡑⣯⡿⢳⡜⠸⢒⡧⣅⠐⡣⠽⣣⡗⣍⠺⠃¬⣯⠬⣸⣵⠐⠂⠀⣏⡶⠈⡅⢻⡯⠪⢙⣜⡉⢔⡙⡑⡖⣚⣃⢱⢌⠿#⣥⠤⣊⢁⠩⠿⢙⣥⢼⠢⡫⠺⡛⢄⢒⡠⡛⡶⡤⢾⡏⢪⠙⢢⢢⢁U⢌⡧⠞⢚⣆⠣⣗⣘⣸⠈⢒⣰⡙⡊⡬⠔⡝⠟⣵⡨⣎⣎⠄⣒⣆⡟¦⣤⢧⢞⡻⢥⡪⣄⡂⠤⡊⠋⠠⣻⠳⣧⣭⢁⡍⠹⣓⠠⢊⠰⡇⠬⢞\u008e⢣⠑⣈⠠⢖⡲⣗⠾⣵⡻⢼⣠⣡⠙⡌⠡⠸⢇⠩⠦⢌⠹⢞⢛⣑⣼B\u0007-p8Ù\n\u0015l\u0003\u0085.È\u000bè\u0014¡ì\u0086b¨\u0082z\u0082×\u0014L\u001b\u007fë¥\u0083\u000e\u009d \u0083\u00admVâÁà\u001f+*¾\u000e!ÆÒP\u0010ì¹rï\u0000\r\u009f\u0006*\u001c\u008cPD\u008awìP% \u000b}7\u0084\u00950Þ\u00adr\u001dã\u0090¼!99 Û:\u000eÝ|P×²´\"úÞ®ZRßó\u0013$Ã\u0019¯.Ûè\u001añ-h\u000fÎ\u0082¼(\u0018d,\u0007½\u0096\u0094\u009d\u009ar\u008d\u0003´éÂ\u0003º÷\u0003\u0003Ô\t  ¢d\u008a\u009cD¿Ñ¥,\u0089\u0007\u0086e\u0089\u0005rtØIø\u0019Zn¢dü/©ç«áw\u0003>pë#¦\u001e\"K\u000e\u0080g\u000f\u00871ä\u008bwÔÃÞ½O±\u0080FØ\u009cu´Ûì\u009d<\u0083dj\u00183\u008e"
+         .length();
       char var7 = 7;
-      int var16 = -1;
+      int var17 = -1;
 
       label64:
       while (true) {
-         String var10000 = var8.substring(++var16, var16 + var7);
-         int var10001 = -1;
+         String var18 = var8.substring(++var17, var17 + var7);
+         int var22 = -1;
 
          while (true) {
-            char[] var31;
+            char[] var38;
             label59: {
-               char[] var19 = var10000.toCharArray();
-               int var10003 = var19.length;
+               char[] var24 = var18.toCharArray();
+               int var10003 = var24.length;
                int var12 = 0;
-               var31 = var19;
-               var10001 = var10003;
-               char[] var40;
+               var38 = var24;
+               var22 = var10003;
+               char[] var48;
                int var10004;
                if (var10003 <= 1) {
-                  var40 = var19;
+                  var48 = var24;
                   var10004 = var12;
                } else {
-                  var31 = var19;
-                  var10001 = var10003;
+                  var38 = var24;
+                  var22 = var10003;
                   if (var10003 <= var12) {
                      break label59;
                   }
 
-                  var40 = var19;
+                  var48 = var24;
                   var10004 = var12;
                }
 
                while (true) {
-                  var40[var10004] = (char)(var40[var10004] ^ switch (var12 % 7) {
+                  var48[var10004] = (char)(var48[var10004] ^ switch (var12 % 7) {
                      case 0 -> 13;
                      case 1 -> 51;
                      case 2 -> 46;
@@ -128,42 +131,44 @@ public class Obf00091 {
                      default -> 30;
                   });
                   var12++;
-                  if (var10001 == 0) {
-                     var10004 = var10001;
-                     var40 = var31;
+                  if (var22 == 0) {
+                     var10004 = var22;
+                     var48 = var38;
                   } else {
-                     if (var10001 <= var12) {
+                     if (var22 <= var12) {
                         break;
                      }
 
-                     var40 = var31;
+                     var48 = var38;
                      var10004 = var12;
                   }
                }
             }
 
-            String var47 = new String(var31).intern();
-            switch (var10001) {
+            String var55 = new String(var38).intern();
+            switch (var22) {
                case 0:
-                  var11[var9++] = var47;
-                  if ((var16 += var7) >= var10) {
+                  var11[var9++] = var55;
+                  if ((var17 += var7) >= var10) {
                      Obf00013 = var11;
                      Obf00025 = new String[24];
-                     long var37 = 8608659557431785137L ^ var13;
-                     int var26 = -1;
-                     Obf00112 = var37;
+                     long var44 = 8608659557431785137L ^ var13;
+                     int var31 = -1;
+                     Obf00112 = var44;
                      long[] var4 = new long[2];
+                     var10000 = (short)8109;
                      int var1 = 0;
-                     String var2;
-                     int var3 = (var2 = a(8109, 8526)).length();
+                     var31 = (short)8526;
+                     String var2 = "k\u009c\u0086Fãñ\u0006\u009am\u0004\u0015\u009asê\u001eµ";
+                     int var3 = "k\u009c\u0086Fãñ\u0006\u009am\u0004\u0015\u009asê\u001eµ".length();
                      byte var0 = 0;
 
                      do {
-                        var26 = var0;
+                        int var33 = var0;
                         var0 += 8;
-                        byte[] var5 = var2.substring(var26, var0).getBytes(a(8111, -9142));
-                        var26 = var1++;
-                        long var49 = (
+                        byte[] var5 = var2.substring(var33, var0).getBytes("ISO-8859-1");
+                        var33 = var1++;
+                        long var57 = (
                               (var5[0] & 255L) << 56
                                  | (var5[1] & 255L) << 48
                                  | (var5[2] & 255L) << 40
@@ -174,41 +179,37 @@ public class Obf00091 {
                                  | var5[7] & 255L
                            )
                            ^ var13;
-                        byte var48 = -1;
-                        var4[var26] = var49;
+                        byte var56 = -1;
+                        var4[var33] = var57;
                      } while (var0 < var3);
 
                      Obf00123 = var4;
                      Obf00233 = new Long[2];
-                     Obf00453.Obf00099<"m">(
-                        System.getProperty(
-                              Obf00099(
-                                 -508813740 - -21444, -508813740 - -24623, (int)var13
-                              )
-                           )
-                           .toLowerCase(),
-                        -1711675391242026070L,
-                        var13
-                     );
+                     var10000 = -508813740 - -21444;
+                     var31 = -508813740 - -24623;
+                     int var45 = (int)var13;
+                     String var15 = System.getProperty("os.name").toLowerCase();
+                     Obf00487 = var15;
                      return;
                   }
 
-                  var7 = var8.charAt(var16);
+                  var7 = var8.charAt(var17);
                   break;
                default:
-                  var11[var9++] = var47;
-                  if ((var16 += var7) < var10) {
-                     var7 = var8.charAt(var16);
+                  var11[var9++] = var55;
+                  if ((var17 += var7) < var10) {
+                     var7 = var8.charAt(var17);
                      continue label64;
                   }
 
-                  var10 = (var8 = a(8110, -31250)).length();
+                  var8 = "mØ\u0090k\u0082h\"\u0002\bp©\u0090\u0083\u0019;ç°";
+                  var10 = "mØ\u0090k\u0082h\"\u0002\bp©\u0090\u0083\u0019;ç°".length();
                   var7 = '\b';
-                  var16 = -1;
+                  var17 = -1;
             }
 
-            var10000 = var8.substring(++var16, var16 + var7);
-            var10001 = 0;
+            var18 = var8.substring(++var17, var17 + var7);
+            var22 = 0;
          }
       }
    }

@@ -1,0 +1,68 @@
+[
+  {
+    "evidence": "Constant primitive dataflow; all operand evaluation retained; unknown branches unchanged",
+    "descriptor": "(J)V",
+    "taken": false,
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "right": 0,
+    "method": "IllIIllllIllllIllIlIIlIlIIlIlllllIlIIlIIIIIIIIIIIllllIIIIllIlIIlIIIlIlIIIlllllllIlIlI$recovered$a35241ef3c05d2d9",
+    "left": 1,
+    "opcode": 158,
+    "instruction": 65
+  },
+  {
+    "evidence": "Constant primitive dataflow; all operand evaluation retained; unknown branches unchanged",
+    "descriptor": "([BJ)V",
+    "taken": false,
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "right": 0,
+    "method": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII$recovered$8eae88b1c14cdf6b",
+    "left": 1,
+    "opcode": 155,
+    "instruction": 171
+  },
+  {
+    "evidence": "Constant primitive dataflow; all operand evaluation retained; unknown branches unchanged",
+    "descriptor": "([BJ)V",
+    "taken": false,
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "right": 0,
+    "method": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII$recovered$8eae88b1c14cdf6b",
+    "left": 1,
+    "opcode": 158,
+    "instruction": 207
+  },
+  {
+    "evidence": "Constant primitive dataflow; all operand evaluation retained; unknown branches unchanged",
+    "descriptor": "([BJ)V",
+    "taken": false,
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "right": 0,
+    "method": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII$recovered$8eae88b1c14cdf6b",
+    "left": 1,
+    "opcode": 155,
+    "instruction": 221
+  },
+  {
+    "evidence": "Constant primitive dataflow; all operand evaluation retained; unknown branches unchanged",
+    "descriptor": "([BJ)V",
+    "taken": false,
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "right": 0,
+    "method": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII$recovered$8eae88b1c14cdf6b",
+    "left": 1,
+    "opcode": 158,
+    "instruction": 234
+  },
+  {
+    "evidence": "Constant primitive dataflow; all operand evaluation retained; unknown branches unchanged",
+    "descriptor": "([BJ)V",
+    "taken": false,
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "right": 0,
+    "method": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII$recovered$8eae88b1c14cdf6b",
+    "left": 1,
+    "opcode": 158,
+    "instruction": 271
+  }
+]

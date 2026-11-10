@@ -1,0 +1,19 @@
+{
+  "loaderSourceFiles": 38,
+  "newCallerProvenVariants": 21,
+  "newVariantsWithJavaAndNoRecordedMethodFailure": 21,
+  "newInterpretedLiteralSites": 504,
+  "newMemberReferences": 39,
+  "provenPrimitiveBranches": 6,
+  "genericLoaderDecompilerFailures": 4,
+  "newGenericDecompilerFailures": 0,
+  "verifiedLoaderBytecodeBodies": 199,
+  "newNativeBodies": 0,
+  "totalRegisteredNativeBodiesRecovered": 36,
+  "registeredNativeBodiesRemaining": 482,
+  "isolatedCleanupJvmComparisons": 72,
+  "fullModBuildSuccessful": false,
+  "clientMemberRecordsRevalidated": 2348,
+  "clientDecoderSelectorsCovered": 64,
+  "gradleCompileResult": "Failed on existing unresolved source expressions; no runnable mod"
+}

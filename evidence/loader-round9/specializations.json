@@ -1,0 +1,254 @@
+[
+  {
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "originalName": "b",
+    "descriptor": "(IJ)J",
+    "cloneName": "b$recovered$54c83bf8bf11ae56",
+    "constantPrimitiveLocalSlots": {
+      "1": 5621855732952709108
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "originalName": "b",
+    "descriptor": "(IJ)J",
+    "cloneName": "b$recovered$4ec88d842c49e34a",
+    "constantPrimitiveLocalSlots": {
+      "1": 2825750514197489749
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "originalName": "b",
+    "descriptor": "(IJ)J",
+    "cloneName": "b$recovered$498106d49590f2ca",
+    "constantPrimitiveLocalSlots": {
+      "1": 9130363396725711995
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "originalName": "b",
+    "descriptor": "(IJ)J",
+    "cloneName": "b$recovered$944b6c10069506ad",
+    "constantPrimitiveLocalSlots": {
+      "1": 7099864004259342886
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "originalName": "b",
+    "descriptor": "(IJ)J",
+    "cloneName": "b$recovered$690398c8204f7909",
+    "constantPrimitiveLocalSlots": {
+      "1": 7080293637105287151
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI$lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+    "originalName": "a",
+    "descriptor": "(IJ)J",
+    "cloneName": "a$recovered$b621f8b67ea70bfc",
+    "constantPrimitiveLocalSlots": {
+      "1": 4824675996600030735
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI$lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+    "originalName": "a",
+    "descriptor": "(IJ)J",
+    "cloneName": "a$recovered$d4d444569f7343cb",
+    "constantPrimitiveLocalSlots": {
+      "1": 7796837029525030035
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI$lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+    "originalName": "a",
+    "descriptor": "(IJ)J",
+    "cloneName": "a$recovered$22ed724ef86116f8",
+    "constantPrimitiveLocalSlots": {
+      "1": 5118234882042651372
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IllIllIIlIIlIIlIlIIllIIIlIIIIllIllIIIIlllllIIIIlIIlIIlllIlllllIIlllIIIlIllIIIlIllIlll",
+    "originalName": "b",
+    "descriptor": "(IJ)J",
+    "cloneName": "b$recovered$45caf0cd9c2a38a6",
+    "constantPrimitiveLocalSlots": {
+      "1": 3105769368835140165
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IllIllIIlIIlIIlIlIIllIIIlIIIIllIllIIIIlllllIIIIlIIlIIlllIlllllIIlllIIIlIllIIIlIllIlll",
+    "originalName": "b",
+    "descriptor": "(IJ)J",
+    "cloneName": "b$recovered$7101d710cc05c82d",
+    "constantPrimitiveLocalSlots": {
+      "1": 4232400239803829753
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IllIllIIlIIlIIlIlIIllIIIlIIIIllIllIIIIlllllIIIIlIIlIIlllIlllllIIlllIIIlIllIIIlIllIlll",
+    "originalName": "a",
+    "descriptor": "(IJ)I",
+    "cloneName": "a$recovered$a6b37cc53565135c",
+    "constantPrimitiveLocalSlots": {
+      "1": 4552010069260469522
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IllIllIIlIIlIIlIlIIllIIIlIIIIllIllIIIIlllllIIIIlIIlIIlllIlllllIIlllIIIlIllIIIlIllIlll",
+    "originalName": "a",
+    "descriptor": "(IJ)I",
+    "cloneName": "a$recovered$c373f00f8027e859",
+    "constantPrimitiveLocalSlots": {
+      "1": 7550854169631348195
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IllIllIIlIIlIIlIlIIllIIIlIIIIllIllIIIIlllllIIIIlIIlIIlllIlllllIIlllIIIlIllIIIlIllIlll",
+    "originalName": "a",
+    "descriptor": "(IJ)I",
+    "cloneName": "a$recovered$0f8a560d4e3e9d95",
+    "constantPrimitiveLocalSlots": {
+      "1": 9211721831468421036
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IllIllIIlIIlIIlIlIIllIIIlIIIIllIllIIIIlllllIIIIlIIlIIlllIlllllIIlllIIIlIllIIIlIllIlll",
+    "originalName": "a",
+    "descriptor": "(IJ)I",
+    "cloneName": "a$recovered$b3b6d19a92e3d932",
+    "constantPrimitiveLocalSlots": {
+      "1": 8276012813483409341
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl$IIlIIIllllIlllllllllIIllIllllIlIIIIllIlIlllllIIIllIllIIllIlIlllllllllllllIIIIlIllIllI",
+    "originalName": "a",
+    "descriptor": "(IJ)J",
+    "cloneName": "a$recovered$ae615e86004b2f46",
+    "constantPrimitiveLocalSlots": {
+      "1": 4193004471619301531
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl$IIlIIIllllIlllllllllIIllIllllIlIIIIllIlIlllllIIIllIllIIllIlIlllllllllllllIIIIlIllIllI",
+    "originalName": "a",
+    "descriptor": "(IJ)J",
+    "cloneName": "a$recovered$230d95463c05a36f",
+    "constantPrimitiveLocalSlots": {
+      "1": 724743240594865180
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl$IIlIIIllllIlllllllllIIllIllllIlIIIIllIlIlllllIIIllIllIIllIlIlllllllllllllIIIIlIllIllI",
+    "originalName": "a",
+    "descriptor": "(IJ)J",
+    "cloneName": "a$recovered$83cbd2f88db9c240",
+    "constantPrimitiveLocalSlots": {
+      "1": 2652822250292616602
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "originalName": "IllIIlIlIIlIlIIlIlIllIllIlllIIlIIlIlIllIIlIllllIIIlIIllIllIlIlIlIlIIIlIIlIlIlIIlIllll",
+    "descriptor": "(J)V",
+    "cloneName": "IllIIlIlIIlIlIIlIlIllIllIlllIIlIIlIlIllIIlIllllIIIlIIllIllIlIlIlIlIIIlIIlIlIlIIlIllll$recovered$05513473cae59a3a",
+    "constantPrimitiveLocalSlots": {
+      "0": 21851946675329
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "originalName": "IllIIllllIllllIllIlIIlIlIIlIlllllIlIIlIIIIIIIIIIIllllIIIIllIlIIlIIIlIlIIIlllllllIlIlI",
+    "descriptor": "(J)V",
+    "cloneName": "IllIIllllIllllIllIlIIlIlIIlIlllllIlIIlIIIIIIIIIIIllllIIIIllIlIIlIIIlIlIIIlllllllIlIlI$recovered$a35241ef3c05d2d9",
+    "constantPrimitiveLocalSlots": {
+      "0": 19090507889300
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "originalName": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII",
+    "descriptor": "([BJ)V",
+    "cloneName": "IIllIIIIllIIllIIllIIIIIIIllIlllllIlIIlIIllIlIIllIlllIIIlIIlIIIIlIIllIIIlIIlIlIlIllIII$recovered$8eae88b1c14cdf6b",
+    "constantPrimitiveLocalSlots": {
+      "1": 34797773497226
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI",
+    "originalName": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII",
+    "descriptor": "(Ljava/lang/String;J)V",
+    "cloneName": "IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII$recovered$92d90af80af8c11c",
+    "constantPrimitiveLocalSlots": {
+      "1": 131121829456339
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  }
+]

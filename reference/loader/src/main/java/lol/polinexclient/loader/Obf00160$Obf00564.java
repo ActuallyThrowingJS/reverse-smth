@@ -1,15 +1,16 @@
 // Recovery view; aliases are not original names. Not verified to compile.
 package lol.polinexclient.loader;
 
-import java.io.ByteArrayInputStream;
 import java.io.FileNotFoundException;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
+import java.util.Map;
+
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
-import java.net.URLDecoder;
-import java.nio.charset.StandardCharsets;
-import java.util.Map;
 
 final class Obf00160$Obf00564
    extends URLConnection {
@@ -68,14 +69,8 @@ final class Obf00160$Obf00564
    @Override
    public InputStream getInputStream() throws IOException {
       long var1 = 78770358427215L;
-      Obf00453.Obf00099<"à">(
-         this, -7034227106934726314L, var1
-      );
-      return new ByteArrayInputStream(
-         Obf00453.Obf00099<"Ü">(
-            this, -7032551932694519475L, var1
-         )
-      );
+      this.connect();
+      return new ByteArrayInputStream(this.Obf00487);
    }
 
    @Override
@@ -109,16 +104,12 @@ final class Obf00160$Obf00564
       long var1 = 22549169434903L;
 
       try {
-         Obf00453.Obf00099<"à">(
-            this, -1064762039224037874L, var1
-         );
-      } catch (IOException var4) {
-         return Obf00099(3467, 6964278848080604839L ^ var1);
+         this.connect();
+      } catch (IOException var6) {
+         return -1L;
       }
 
-      return Obf00453.Obf00099<"Ü">(
-         this, -1063121774343762411L, var1
-      ).length;
+      return this.Obf00487.length;
    }
 
    // $VF: Irreducible bytecode was duplicated to produce valid code
@@ -237,7 +228,7 @@ final class Obf00160$Obf00564
 
             a = var6;
             b = new Long[22];
-            long var15 = 130155647931948L;
+            long var15 = a$recovered$b621f8b67ea70bfc(4415, 4824675996600030735L);
             long[] var21 = new long[2];
             int var18 = 0;
             String var19;
@@ -250,14 +241,14 @@ final class Obf00160$Obf00564
                byte[] var22 = var19.substring(var39, var17).getBytes(var8[1]);
                var39 = var18++;
                long var62 = (
-                     (var22[0] & 255L) << 56
-                        | (var22[1] & 255L) << 48
-                        | (var22[2] & 255L) << 40
-                        | (var22[3] & 255L) << 32
-                        | (var22[4] & 255L) << 24
-                        | (var22[5] & 255L) << 16
-                        | (var22[6] & 255L) << 8
-                        | var22[7] & 255L
+                     (var22[0] & a$recovered$d4d444569f7343cb(17321, 7796837029525030035L)) << 56
+                        | (var22[1] & a$recovered$22ed724ef86116f8(9685, 5118234882042651372L)) << 48
+                        | (var22[2] & a$recovered$22ed724ef86116f8(9685, 5118234882042651372L)) << 40
+                        | (var22[3] & a$recovered$22ed724ef86116f8(9685, 5118234882042651372L)) << 32
+                        | (var22[4] & a$recovered$22ed724ef86116f8(9685, 5118234882042651372L)) << 24
+                        | (var22[5] & a$recovered$22ed724ef86116f8(9685, 5118234882042651372L)) << 16
+                        | (var22[6] & a$recovered$22ed724ef86116f8(9685, 5118234882042651372L)) << 8
+                        | var22[7] & a$recovered$22ed724ef86116f8(9685, 5118234882042651372L)
                   )
                   ^ var15;
                byte var59 = -1;
@@ -284,6 +275,36 @@ final class Obf00160$Obf00564
    }
 
    private static long a(int var0, long var1) {
+      int var3 = (var0 ^ (int)var1 ^ 18229) & 32767;
+      if (b[var3] == null) {
+         b[var3] = a[var3] ^ var1;
+      }
+
+      return b[var3];
+   }
+
+   private static long a$recovered$b621f8b67ea70bfc(int var0, long var1) {
+      var1 = 4824675996600030735L;
+      int var3 = (var0 ^ (int)var1 ^ 18229) & 32767;
+      if (b[var3] == null) {
+         b[var3] = a[var3] ^ var1;
+      }
+
+      return b[var3];
+   }
+
+   private static long a$recovered$d4d444569f7343cb(int var0, long var1) {
+      var1 = 7796837029525030035L;
+      int var3 = (var0 ^ (int)var1 ^ 18229) & 32767;
+      if (b[var3] == null) {
+         b[var3] = a[var3] ^ var1;
+      }
+
+      return b[var3];
+   }
+
+   private static long a$recovered$22ed724ef86116f8(int var0, long var1) {
+      var1 = 5118234882042651372L;
       int var3 = (var0 ^ (int)var1 ^ 18229) & 32767;
       if (b[var3] == null) {
          b[var3] = a[var3] ^ var1;

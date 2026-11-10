@@ -8,7 +8,7 @@ Do not describe the output as pristine or buildable. Do not replace missing logi
 
 ## Current verified results
 
-- Primary client reference: `reference/client/src/main/java`, 1,494 Java files. Loader reference remains an older recovery with global `ObfNNNNN` display names: `reference/loader/src/main/java`.
+- Primary client reference: `reference/client/src/main/java`, 1,494 Java files. Loader reference now includes the round-9 caller pass and retains global `ObfNNNNN` display names: `reference/loader/src/main/java`.
 - **36 of 518 registered native bodies recovered:** 30 client and six loader. **482 remain.** Eleven other `NativePathFinder` declarations are outside these registration records. The main native initializer is unresolved.
 - Latest superclass-call pass adds 12 caller-proven variants; six have Java declarations without recorded method failures. It restores 33 string call sites and 41 member references. The earlier caller pass added 76 variants (40 readable). Counts include analysis variants.
 - **5,159 generic Java methods still fail decompilation; 24 class-write warnings remain.** The latest assembly adds no generic decompiler failures and recovers no additional complete generic methods.
@@ -17,6 +17,8 @@ Do not describe the output as pristine or buildable. Do not replace missing logi
 - Earlier conditional-key research found 4,114 profiles. Only 15 syntax-gated fragments were exported. They remain separate in `reference/inferred-contexts` and must not replace generic methods.
 - Native initializer tracing now decodes 21 strings and seven member invocations under mocked application calls. It stops at an unknown concatenation argument. This is partial, conditional evidence, not a recovered initializer.
 - Java 25 / Minecraft 26.1.2 / Fabric Gradle dependency setup works. The full source build **still fails**, including unresolved dynamic/decompiler expressions. See `reports/round6` and `recovery-project/README.md`.
+
+- Loader round 9: 21 caller-proven variants, 504 interpreted literal sites and 39 member references. All 21 variants have Java bodies without recorded decompiler failures; some still contain unresolved callees or dynamic expressions. Four generic loader methods remain explicitly failed, with no new generic failures. The recovered main initialization cleanup matches its context bytecode in 72 isolated JVM cases. Native count is unchanged.
 
 ## Where the evidence lives
 
@@ -63,7 +65,17 @@ build/round8/                                superclass/native-loader intermedia
 
 All `build/` artifacts are ignored and may disappear. Source, evidence, tests and this handoff must remain sufficient to understand the result. Regenerate the expanded snapshot with `ExtractCrypto` from `build/recovery/keyed.jar`; extraction is a bounded model with stubs, not actual mod initialization.
 
+## Latest loader checkpoint
+
+`reports/round9/README.md` explains the exact scope. `evidence/loader-round9` contains captured tables, extraction outcomes, caller/literal/member proofs and cleanup-fixture hashes. `tools/recover-loader-callers.sh` replays from an original-name analysis JAR with the six earlier native reconstructions. `tools/assemble_loader.py` preserves earlier successful methods, all 38 source paths, external packages and literal contents; do not copy raw decompiler output over the tree.
+
+The actual Fabric main entry in `Obf00581.Obf00467` now reaches a known-key variant in `Obf00066`. Its cleanup calls the decoded payload initialization variant and zeroes/clears prepared bytes even on exceptions. That callback loads `me.octo.client.Polinex` and invokes `onInitialize`; other generic payload/archive handlers are still failed. The preLaunch entry `Obf00581.Obf00196` calls the still-native `Obf00564.Obf00369(J)V`, loader RVA **0x6d5c0**. Follow this path next.
+
+Ghidra/structural tracing identified two ASM fallback/error class generators at loader RVAs 0x299ab0 and 0x373d80. Their strings still come from native `(III)String` decoders. They are not proof that the genuine reflected bootstrap class has been reconstructed. Warm artifacts are under `build/round9/generator-c`, `definition-c`, `string-c` and `*-trace.json`. The first reflected target remains absent in both supplied JARs.
+
 ## Next steps, in priority order
+
+0. Prioritize the now-resolved native preLaunch target at loader RVA 0x6d5c0, then the three failed generic payload/archive handlers in Obf00066. Use the recovered main context to constrain those handlers. The generic private finish-init body is preserved from the earlier source; only its caller-proven variant received the tested CFR reconstruction. Do not assume guard-field values or replace the missing bootstrap with fallback classes.
 
 1. Extend caller propagation beyond the current heuristic fixed point. A follow-up pass found zero new variants and zero new member decodings (it reused one existing context for two calls); its analysis output is not a further primary-source update. Newly decoded member calls expose more direct constant arguments. `tools/recover-callers.sh` runs the opt-in passes with decoding between them and writes each stage separately. Continue distinguishing static/private/final or final-receiver dispatch from overridable virtual calls. Direct-key consumers without `LXOR` are now supported with `-Drecovery.directKeyConsumers=true` (no client bodies unlocked in this pass). Immediate-superclass `INVOKESPECIAL` calls are supported with `-Drecovery.superCalls=true` and produced the new variants. Both are fixture-tested; ambiguous virtual calls and arbitrary ancestor special calls remain excluded.
 2. Infer additional meaningful method/field aliases from decoded behavior and Kotlin metadata. The 32 constructor-based module aliases and nested-class expansion are applied, and all seven alternatives were recompiled/API-checked. Continue canonical owner/descriptor comparisons across renames; never globally replace repeated `I/l` tokens across unrelated packages.

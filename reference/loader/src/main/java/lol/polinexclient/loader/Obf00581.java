@@ -11,8 +11,8 @@ public class Obf00581 {
       Class<Obf00160$Obf00564> var10000 = Obf00160$Obf00564.class;
       long var1 = 128396821800434L;
       long var3 = var1 ^ 22124284493776L;
-      Obf00453.Obf00099<"D">(
-         var3, 2728264677661433781L, var1
+      Obf00564.Obf00369(
+         var3
       );
    }
 
@@ -20,8 +20,8 @@ public class Obf00581 {
    public void Obf00467() {
       long var1 = 87247207987664L;
       long var3 = var1 ^ 101731120846161L;
-      Obf00453.Obf00099<"D">(
-         var3, -433239800030131808L, var1
+      Obf00066.Obf00224$recovered$05513473cae59a3a(
+         var3
       );
    }
 

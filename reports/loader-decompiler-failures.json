@@ -1,0 +1,83 @@
+{
+  "sourceFiles": 38,
+  "methodFailures": 4,
+  "failures": [
+    {
+      "file": "lol/polinexclient/loader/Obf00339$Obf00564.java",
+      "method": "Obf00099",
+      "parameters": [
+        "long"
+      ]
+    },
+    {
+      "file": "lol/polinexclient/loader/Obf00066.java",
+      "method": "Obf00116",
+      "parameters": [
+        "byte[]",
+        "long"
+      ]
+    },
+    {
+      "file": "lol/polinexclient/loader/Obf00066.java",
+      "method": "Obf00099",
+      "parameters": [
+        "byte[]",
+        "long",
+        "Map"
+      ]
+    },
+    {
+      "file": "lol/polinexclient/loader/Obf00066.java",
+      "method": "Obf00552",
+      "parameters": [
+        "byte[]",
+        "short",
+        "long"
+      ]
+    }
+  ],
+  "preservedEarlierDecompiledBodies": [
+    {
+      "file": "lol/polinexclient/loader/Obf00160$Obf00564.java",
+      "method": "connect",
+      "parameters": []
+    },
+    {
+      "file": "lol/polinexclient/loader/Obf00160$Obf00564.java",
+      "method": "getContentLength",
+      "parameters": []
+    },
+    {
+      "file": "lol/polinexclient/loader/Obf00564$Obf00066.java",
+      "method": "Obf00564$Obf00066",
+      "parameters": [
+        "boolean",
+        "int",
+        "boolean",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "file": "lol/polinexclient/loader/Obf00244.java",
+      "method": "Obf00099",
+      "parameters": [
+        "String",
+        "HostnameVerifier",
+        "long",
+        "String",
+        "SSLSession"
+      ]
+    },
+    {
+      "file": "lol/polinexclient/loader/Obf00066.java",
+      "method": "Obf00236",
+      "parameters": [
+        "long"
+      ]
+    }
+  ],
+  "newGenericDecompilerFailures": 0,
+  "recoveredCleanup": "Caller-proven variant only; 72 isolated JVM comparisons; generic body preserved",
+  "fullModBuildSuccessful": false
+}

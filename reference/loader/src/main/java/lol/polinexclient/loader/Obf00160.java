@@ -18,7 +18,9 @@ public class Obf00160 extends URLStreamHandler {
 
    @Override
    protected URLConnection openConnection(URL var1) {
-      return new lol.polinexclient.loader.Obf00160$Obf00564(var1);
+      return new Obf00160$Obf00564(
+         var1
+      );
    }
 
    static native void $jnicClinit();

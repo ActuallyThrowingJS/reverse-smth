@@ -9,6 +9,7 @@ import com.google.gson.*;
 
 /** Analysis clones for proven constant primitive key arguments; generic methods remain intact. */
 public class SpecializeKeys {
+ static boolean owned(String name){return name.startsWith(System.getProperty("recovery.specializationPrefix","me/octo/client/"))||name.startsWith("fixture/");}
  static String key(String o,String n,String d){return o+'\t'+n+'\t'+d;}
  static MethodNode copy(MethodNode m){MethodNode result=new MethodNode(m.access,m.name,m.desc,m.signature,m.exceptions.toArray(String[]::new));m.accept(result);return result;}
  static String hash(String text)throws Exception{return HexFormat.of().formatHex(MessageDigest.getInstance("SHA-256").digest(text.getBytes(java.nio.charset.StandardCharsets.UTF_8))).substring(0,16);}
@@ -32,11 +33,11 @@ public class SpecializeKeys {
   try(JarFile jar=new JarFile(args[0])){for(JarEntry e:Collections.list(jar.entries()))if(!e.isDirectory()){byte[] b=jar.getInputStream(e).readAllBytes();entries.put(e.getName(),b);if(e.getName().endsWith(".class")){ClassNode c=new ClassNode();new ClassReader(b).accept(c,0);classes.put(c.name,c);for(MethodNode m:c.methods)methods.put(key(c.name,m.name,m.desc),m);}}}
   Map<String,Object> values=constants(classes);Map<String,Boolean> directConsumers=new HashMap<>();Map<String,String> clones=new LinkedHashMap<>();Set<String> generated=new HashSet<>();List<Map<String,Object>> evidence=new ArrayList<>();Map<String,Integer> counts=new HashMap<>();int rewritten=0,rounds=0;int limit=args.length>3?Integer.parseInt(args[3]):3000;
   for(int round=0;round<12;round++){int changes=0;rounds++;
-   for(ClassNode c:classes.values())if(c.name.startsWith("me/octo/client/")||c.name.startsWith("fixture/"))for(MethodNode m:new ArrayList<>(c.methods))if(m.instructions.size()>0){
+   for(ClassNode c:classes.values())if(owned(c.name))for(MethodNode m:new ArrayList<>(c.methods))if(m.instructions.size()>0){
     Frame<RestoreStrings.V>[] frames;try{frames=new Analyzer<>(new RestoreStrings.Constants(values)).analyze(c.name,m);}catch(AnalyzerException e){continue;}AbstractInsnNode[] code=m.instructions.toArray();
     for(int i=0;i<code.length;i++)if(code[i] instanceof MethodInsnNode&&frames[i]!=null){MethodInsnNode call=(MethodInsnNode)code[i];String targetKey=key(call.owner,call.name,call.desc);MethodNode target=methods.get(targetKey);ClassNode owner=classes.get(call.owner);ClassNode invocationOwner=owner;
      if(target==null&&owner!=null&&Boolean.getBoolean("recovery.inheritedMethods")){ResolveReferences.Target inherited=ResolveReferences.find(call.owner,call.name,call.desc,false,classes,new HashSet<>());if(inherited!=null){targetKey=key(inherited.owner,inherited.name,inherited.descriptor);target=methods.get(targetKey);owner=classes.get(inherited.owner);}}
-     if(target==null||owner==null||(generated.contains(targetKey)||call.name.contains("$recovered$"))||!(owner.name.startsWith("me/octo/client/")||owner.name.startsWith("fixture/"))||(owner.access&Opcodes.ACC_INTERFACE)!=0||target.name.startsWith("<")||(target.access&(Opcodes.ACC_NATIVE|Opcodes.ACC_ABSTRACT))!=0||target.instructions.size()>10000)continue;
+     if(target==null||owner==null||(generated.contains(targetKey)||call.name.contains("$recovered$"))||!owned(owner.name)||(owner.access&Opcodes.ACC_INTERFACE)!=0||target.name.startsWith("<")||(target.access&(Opcodes.ACC_NATIVE|Opcodes.ACC_ABSTRACT))!=0||target.instructions.size()>10000)continue;
      boolean superCall=Boolean.getBoolean("recovery.superCalls")&&call.getOpcode()==Opcodes.INVOKESPECIAL&&call.owner.equals(c.superName)&&(invocationOwner.access&Opcodes.ACC_INTERFACE)==0&&(target.access&Opcodes.ACC_PRIVATE)==0;
      if(call.getOpcode()!=Opcodes.INVOKESTATIC&&(target.access&(Opcodes.ACC_PRIVATE|Opcodes.ACC_FINAL))==0&&(owner.access&Opcodes.ACC_FINAL)==0&&(invocationOwner.access&Opcodes.ACC_FINAL)==0&&!superCall)continue;
      if(call.getOpcode()==Opcodes.INVOKESPECIAL&&!superCall&&((target.access&Opcodes.ACC_PRIVATE)==0||!c.name.equals(owner.name)))continue;

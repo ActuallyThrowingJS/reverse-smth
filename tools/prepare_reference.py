@@ -4,6 +4,7 @@ from pathlib import Path
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("source_root", type=Path)
+parser.add_argument("--report", default="reports/decompiler-failures.json")
 args = parser.parse_args()
 count = 0
 for path in args.source_root.rglob("*.java"):
@@ -13,7 +14,7 @@ for path in args.source_root.rglob("*.java"):
     while index < len(lines):
         if lines[index].lstrip().startswith("// $VF: Couldn't be decompiled"):
             indent = lines[index][:len(lines[index]) - len(lines[index].lstrip())]
-            result.append(indent + "// UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.\n")
+            result.append(indent + f"// UNRECOVERED: ZKM control flow; see {args.report}.\n")
             count += 1
             index += 1
             while index < len(lines) and (not lines[index].strip() or lines[index].lstrip().startswith("//")):

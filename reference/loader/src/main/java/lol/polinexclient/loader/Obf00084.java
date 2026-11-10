@@ -124,44 +124,47 @@ public class Obf00084 {
    // $VF: Irreducible bytecode was duplicated to produce valid code
    static void $jnicClinit() {
       long var19 = 109981690169313L;
+      short var10000 = -10189;
       String[] var17 = new String[31];
+      short var10001 = 15206;
       int var15 = 0;
-      String var14;
-      int var16 = (var14 = a(-10189, 15206)).length();
+      String var14 = "0Ê\u007fnñÚ\u008a\u008eï\fvõ\u0083*ÑvÂÕüTøùpREíIò\u0098\u0018\u000bX\u0006\u009aRþX\u0019\u0084nC!ÿëx\u008fk½\u0088h\u0095µ+\u001f\u0004\u0016%\u0011tÚ\u0095ÿK\u0083à?ÓºK\f(\u0087Æ÷@C/\u007f\u0000É¿\u0016³å£\rÞÖèI\u008c\u0087W\"%!%ß¿<\u0004åF\"Ï¢H©\u0082£J¹\u008fl⇎¿H4T±\u009aia\u0086ç\u0095À\u0094B\u0018e\f\u0007KÔ+ÿ\u001f\u0081ý\u00054rÑ«|%¼:o\\IrUÇå7á×$\u009d¸\u0089nÄ\u0089\f\u009eà6·L.ã[3Ì\u000b\u0013ÜE\u008cgÜ\u001eJÓµÎ«\"\u0099°à\u008b?\u00025+CÉË¸¨G\u0085§\u009cîÈþ\u0089%«ÛC=4v\u0010\u0084\u009a\u009bêª\r~ì34&±o95<6Ö¯$O³°ÁYÒ\u001f\u00070 ËO¡FiÉa`ÀÑ \u008e¾*'®ä\u00ad(¨ù¼,µV\u001aj\u008bñÎô ÿ)L\"\fï\rÅ®¡Ø\u0091.2\u008e+\u0091\rôWÆ\u0018×Éü>Óz\u0018T\u001f'\u008e\u0000j\u0093\u008b\u008c·2w\u0097°\u001cÔ«fÁÑÃÖ\u008c\t\f\u0002ò\u00925·\nUÀ{HÿFÓÉ!b¥¡\u0005ñ\u008b_VÀ\u001c\u0097Ô\u000e.Ü>w3=û\u0084\fBê\u00adñ\u0016¿\u0013§ò»rW\u001d¹\u0011]\u0003¶³\u009b\u0011Î\u0010}6'á;\u00ad¤è£\rNÛ\u0082ó\u001c Ì2fÚµ¯²¢e\u0007T§ÄFy£/\u008cÚ\u008bé\u0016\u001e\u009fz\u007fD÷Ù@Áû&Ç§\u0006ï¢\u0004(\u001b]â\u0003°`k*\u0013P<· á«\u0014Àsk~\f®qpE\u000eA¨\u0090\u009e\f3¾k\u008emEcÛ\b\u0098.D;\u0092\u0014-2õ)§\u001f\u009fèE²i\u0018\bÞíI:i\u0015ÇÙ%\u0094\u0001,%\u0014S\u000f³8\b\u008f\u0019 1k-ùÄÖ~Ñ0Qm\u0086;Q~.´W9ä\u00998¾*Ípi\u0004´{z\u008a\u0080± \u0097R?Ú+\u0017ªO\u0096êZÖD@\u0091XA·\u0093<ª=\u001aÏ\u001eÞÑa~h\u0081Aý\u0012¦\fy\u009fÂLµÑ\u0091ÌKf-1\u0004\u0002î\u0012\u009c\u0000P\u0015\u008cÈ5á\u009c\u0003\u0084æ£\u007fõ>îK\u0099\u0088b^vÁê*\u0007\u0083X=\u001f\u000bÏd\u000fT@ó?`ù¾Þ¼ÛoD÷:\u0099\u0013a\tU\u0016´Ø'~þÇt\u008cõ4\u0093\u001a6ÑT\u0016l¹t,\u000bi\u0001\u0017á¶\u0017\u0019%\nöú³(Ía/º2\u001f\u0095\u0018©ÄÆú\u001eÁÄÞ5!²YO,l4p\r\u0098»Þ±\u0080℉\"£\u008b[ËJa/D℘b\u0091ù:!\u0098Eù\b\u0082\u0002G\u008f\t°\r+\u0097YÝì\u001d\u0004\u0007heH\u008b\" \u000f\u0003\u0014\u0081\u009b\u0015\u008dïJæ\u008e/³#ècÉ\u0098°d\u009b¦ÈlÌòè";
+      int var16 = "0Ê\u007fnñÚ\u008a\u008eï\fvõ\u0083*ÑvÂÕüTøùpREíIò\u0098\u0018\u000bX\u0006\u009aRþX\u0019\u0084nC!ÿëx\u008fk½\u0088h\u0095µ+\u001f\u0004\u0016%\u0011tÚ\u0095ÿK\u0083à?ÓºK\f(\u0087Æ÷@C/\u007f\u0000É¿\u0016³å£\rÞÖèI\u008c\u0087W\"%!%ß¿<\u0004åF\"Ï¢H©\u0082£J¹\u008fl⇎¿H4T±\u009aia\u0086ç\u0095À\u0094B\u0018e\f\u0007KÔ+ÿ\u001f\u0081ý\u00054rÑ«|%¼:o\\IrUÇå7á×$\u009d¸\u0089nÄ\u0089\f\u009eà6·L.ã[3Ì\u000b\u0013ÜE\u008cgÜ\u001eJÓµÎ«\"\u0099°à\u008b?\u00025+CÉË¸¨G\u0085§\u009cîÈþ\u0089%«ÛC=4v\u0010\u0084\u009a\u009bêª\r~ì34&±o95<6Ö¯$O³°ÁYÒ\u001f\u00070 ËO¡FiÉa`ÀÑ \u008e¾*'®ä\u00ad(¨ù¼,µV\u001aj\u008bñÎô ÿ)L\"\fï\rÅ®¡Ø\u0091.2\u008e+\u0091\rôWÆ\u0018×Éü>Óz\u0018T\u001f'\u008e\u0000j\u0093\u008b\u008c·2w\u0097°\u001cÔ«fÁÑÃÖ\u008c\t\f\u0002ò\u00925·\nUÀ{HÿFÓÉ!b¥¡\u0005ñ\u008b_VÀ\u001c\u0097Ô\u000e.Ü>w3=û\u0084\fBê\u00adñ\u0016¿\u0013§ò»rW\u001d¹\u0011]\u0003¶³\u009b\u0011Î\u0010}6'á;\u00ad¤è£\rNÛ\u0082ó\u001c Ì2fÚµ¯²¢e\u0007T§ÄFy£/\u008cÚ\u008bé\u0016\u001e\u009fz\u007fD÷Ù@Áû&Ç§\u0006ï¢\u0004(\u001b]â\u0003°`k*\u0013P<· á«\u0014Àsk~\f®qpE\u000eA¨\u0090\u009e\f3¾k\u008emEcÛ\b\u0098.D;\u0092\u0014-2õ)§\u001f\u009fèE²i\u0018\bÞíI:i\u0015ÇÙ%\u0094\u0001,%\u0014S\u000f³8\b\u008f\u0019 1k-ùÄÖ~Ñ0Qm\u0086;Q~.´W9ä\u00998¾*Ípi\u0004´{z\u008a\u0080± \u0097R?Ú+\u0017ªO\u0096êZÖD@\u0091XA·\u0093<ª=\u001aÏ\u001eÞÑa~h\u0081Aý\u0012¦\fy\u009fÂLµÑ\u0091ÌKf-1\u0004\u0002î\u0012\u009c\u0000P\u0015\u008cÈ5á\u009c\u0003\u0084æ£\u007fõ>îK\u0099\u0088b^vÁê*\u0007\u0083X=\u001f\u000bÏd\u000fT@ó?`ù¾Þ¼ÛoD÷:\u0099\u0013a\tU\u0016´Ø'~þÇt\u008cõ4\u0093\u001a6ÑT\u0016l¹t,\u000bi\u0001\u0017á¶\u0017\u0019%\nöú³(Ía/º2\u001f\u0095\u0018©ÄÆú\u001eÁÄÞ5!²YO,l4p\r\u0098»Þ±\u0080℉\"£\u008b[ËJa/D℘b\u0091ù:!\u0098Eù\b\u0082\u0002G\u008f\t°\r+\u0097YÝì\u001d\u0004\u0007heH\u008b\" \u000f\u0003\u0014\u0081\u009b\u0015\u008dïJæ\u008e/³#ècÉ\u0098°d\u009b¦ÈlÌòè"
+         .length();
       char var13 = '\r';
-      int var26 = -1;
+      int var32 = -1;
 
       label77:
       while (true) {
-         String var10000 = var14.substring(++var26, var26 + var13);
-         int var10001 = -1;
+         String var33 = var14.substring(++var32, var32 + var13);
+         int var39 = -1;
 
          while (true) {
-            char[] var45;
+            char[] var59;
             label72: {
-               char[] var29 = var10000.toCharArray();
-               int var10003 = var29.length;
+               char[] var41 = var33.toCharArray();
+               int var10003 = var41.length;
                int var18 = 0;
-               var45 = var29;
-               var10001 = var10003;
-               char[] var53;
+               var59 = var41;
+               var39 = var10003;
+               char[] var67;
                int var10004;
                if (var10003 <= 1) {
-                  var53 = var29;
+                  var67 = var41;
                   var10004 = var18;
                } else {
-                  var45 = var29;
-                  var10001 = var10003;
+                  var59 = var41;
+                  var39 = var10003;
                   if (var10003 <= var18) {
                      break label72;
                   }
 
-                  var53 = var29;
+                  var67 = var41;
                   var10004 = var18;
                }
 
                while (true) {
-                  var53[var10004] = (char)(var53[var10004] ^ switch (var18 % 7) {
+                  var67[var10004] = (char)(var67[var10004] ^ switch (var18 % 7) {
                      case 0 -> 79;
                      case 1 -> 8;
                      case 2 -> 7;
@@ -171,39 +174,41 @@ public class Obf00084 {
                      default -> 52;
                   });
                   var18++;
-                  if (var10001 == 0) {
-                     var10004 = var10001;
-                     var53 = var45;
+                  if (var39 == 0) {
+                     var10004 = var39;
+                     var67 = var59;
                   } else {
-                     if (var10001 <= var18) {
+                     if (var39 <= var18) {
                         break;
                      }
 
-                     var53 = var45;
+                     var67 = var59;
                      var10004 = var18;
                   }
                }
             }
 
-            String var60 = new String(var45).intern();
-            switch (var10001) {
+            String var74 = new String(var59).intern();
+            switch (var39) {
                case 0:
-                  var17[var15++] = var60;
-                  if ((var26 += var13) >= var16) {
+                  var17[var15++] = var74;
+                  if ((var32 += var13) >= var16) {
                      Obf00123 = var17;
                      Obf00233 = new String[31];
                      long[] var6 = new long[3];
+                     var10000 = -10188;
                      int var8 = 0;
-                     String var9;
-                     int var10 = (var9 = a(-10188, 11568)).length();
+                     short var48 = 11568;
+                     String var9 = "ÒÒ\u0090\u0011\u001b\u0093\u0007Ýrwx:\u001b\u0093\u0007Ñp³\fî\u001b\u0093\u0007\u009a";
+                     int var10 = "ÒÒ\u0090\u0011\u001b\u0093\u0007Ýrwx:\u001b\u0093\u0007Ñp³\fî\u001b\u0093\u0007\u009a".length();
                      byte var7 = 0;
 
                      do {
-                        int var36 = var7;
+                        int var49 = var7;
                         var7 += 8;
-                        byte[] var11 = var9.substring(var36, var7).getBytes(a(-10191, 3475));
-                        var36 = var8++;
-                        long var64 = (
+                        byte[] var11 = var9.substring(var49, var7).getBytes("ISO-8859-1");
+                        var49 = var8++;
+                        long var82 = (
                               (var11[0] & 255L) << 56
                                  | (var11[1] & 255L) << 48
                                  | (var11[2] & 255L) << 40
@@ -214,22 +219,24 @@ public class Obf00084 {
                                  | var11[7] & 255L
                            )
                            ^ var19;
-                        byte var61 = -1;
-                        var6[var36] = var64;
+                        byte var75 = -1;
+                        var6[var49] = var82;
                      } while (var7 < var10);
 
                      long[] var4 = new long[7];
+                     var10000 = -10192;
                      int var1 = 0;
-                     String var2;
-                     int var3 = (var2 = a(-10192, -24235)).length();
+                     var48 = -24235;
+                     String var2 = "@JËJG«\"Á]p\u0010\r¡ä0ëpÈYÅ\u0090\u009cðÈ\u007fø#\t\u001e\u0090ah2\\\u0091³)u\u000fc";
+                     int var3 = "@JËJG«\"Á]p\u0010\r¡ä0ëpÈYÅ\u0090\u009cðÈ\u007fø#\t\u001e\u0090ah2\\\u0091³)u\u000fc".length();
                      byte var0 = 0;
 
                      do {
-                        int var38 = var0;
+                        int var52 = var0;
                         var0 += 8;
-                        byte[] var5 = var2.substring(var38, var0).getBytes(a(-10185, 6609));
-                        var38 = var1++;
-                        long var65 = (
+                        byte[] var5 = var2.substring(var52, var0).getBytes("ISO-8859-1");
+                        var52 = var1++;
+                        long var83 = (
                               (var5[0] & 255L) << 56
                                  | (var5[1] & 255L) << 48
                                  | (var5[2] & 255L) << 40
@@ -240,85 +247,85 @@ public class Obf00084 {
                                  | var5[7] & 255L
                            )
                            ^ var19;
-                        byte var62 = -1;
-                        var4[var38] = var65;
+                        byte var76 = -1;
+                        var4[var52] = var83;
                      } while (var0 < var3);
 
-                     var3 = (var2 = a(-10187, -19869)).length();
+                     var2 = "bÞ+Ý=²ã\u008b1K\u0012ÁÝAvÀ";
+                     var3 = "bÞ+Ý=²ã\u008b1K\u0012ÁÝAvÀ".length();
                      var0 = 0;
 
                      do {
-                        int var40 = var0;
+                        int var54 = var0;
                         var0 += 8;
-                        byte[] var24 = var2.substring(var40, var0).getBytes(a(-10185, 6609));
-                        var40 = var1++;
-                        long var66 = (
-                              (var24[0] & 255L) << 56
-                                 | (var24[1] & 255L) << 48
-                                 | (var24[2] & 255L) << 40
-                                 | (var24[3] & 255L) << 32
-                                 | (var24[4] & 255L) << 24
-                                 | (var24[5] & 255L) << 16
-                                 | (var24[6] & 255L) << 8
-                                 | var24[7] & 255L
+                        byte[] var30 = var2.substring(var54, var0).getBytes("ISO-8859-1");
+                        var54 = var1++;
+                        long var84 = (
+                              (var30[0] & 255L) << 56
+                                 | (var30[1] & 255L) << 48
+                                 | (var30[2] & 255L) << 40
+                                 | (var30[3] & 255L) << 32
+                                 | (var30[4] & 255L) << 24
+                                 | (var30[5] & 255L) << 16
+                                 | (var30[6] & 255L) << 8
+                                 | var30[7] & 255L
                            )
                            ^ var19;
-                        boolean var63 = false;
-                        var4[var40] = var66;
+                        boolean var77 = false;
+                        var4[var54] = var84;
                      } while (var0 < var3);
 
                      Obf00229 = var4;
                      Obf00576 = new Long[7];
-                     Obf00453.Obf00099<"m">(
-                        new String[]{
-                           Obf00099(
-                              -462677100 - -((char)-14070), 462677100 - (char)-17713, (int)var19
-                           ),
-                           Obf00099(
-                              -462677100 - -((char)-14071), 462677100 - 26845, (int)var19
-                           ),
-                           Obf00099(
-                              -462677100 - -((char)-14078), 462677100 - (char)-17751, (int)var19
-                           ),
-                           Obf00099(
-                              -462677100 - -((char)-14089), -462677100 - -((char)-28073), (int)var19
-                           )
-                        },
-                        560098719824897216L,
-                        var19
-                     );
-                     Obf00453.Obf00099<"m">(
-                        (int)var6[2], 574457485100619363L, var19
-                     );
-                     long var42 = 3628935600605721059L ^ var19;
-                     Obf00453.Obf00099<"m">(
-                        (int)var6[1], 575697968940811929L, var19
-                     );
-                     Obf00453.Obf00099<"m">(
-                        Obf00099(16947, var42), 560743611785209005L, var19
-                     );
-                     Obf00453.Obf00099<"m">(
-                        (int)var6[0], 575386985832094196L, var19
-                     );
+                     String[] var37 = new String[4];
+                     int var78 = -462677100 - -((char)-14070);
+                     int var85 = 462677100 - (char)-17713;
+                     int var89 = (int)var19;
+                     var37[0] = "time.google.com";
+                     int var79 = -462677100 - -((char)-14071);
+                     var85 = 462677100 - 26845;
+                     var89 = (int)var19;
+                     var37[1] = "time.cloudflare.com";
+                     int var80 = -462677100 - -((char)-14078);
+                     var85 = 462677100 - (char)-17751;
+                     var89 = (int)var19;
+                     var37[2] = "pool.ntp.org";
+                     int var81 = -462677100 - -((char)-14089);
+                     var85 = -462677100 - -((char)-28073);
+                     var89 = (int)var19;
+                     var37[3] = "time.nist.gov";
+                     String[] var21 = var37;
+                     Obf00487 = var21;
+                     var10000 = 16947;
+                     int var22 = (int)var6[2];
+                     Obf00120 = var22;
+                     long var56 = 3628935600605721059L ^ var19;
+                     int var23 = (int)var6[1];
+                     Obf00013 = var23;
+                     long var24 = 2208988800L;
+                     Obf00025 = var24;
+                     int var26 = (int)var6[0];
+                     Obf00112 = var26;
                      return;
                   }
 
-                  var13 = var14.charAt(var26);
+                  var13 = var14.charAt(var32);
                   break;
                default:
-                  var17[var15++] = var60;
-                  if ((var26 += var13) < var16) {
-                     var13 = var14.charAt(var26);
+                  var17[var15++] = var74;
+                  if ((var32 += var13) < var16) {
+                     var13 = var14.charAt(var32);
                      continue label77;
                   }
 
-                  var16 = (var14 = a(-10186, 26742)).length();
+                  var14 = "\"N»1+\u0019ÌõÃA÷=\u001a|Øs¯s\u000e\u00825\u0083;S\u0014¸éò\u0096íªo\u009dL_³H÷Ø";
+                  var16 = "\"N»1+\u0019ÌõÃA÷=\u001a|Øs¯s\u000e\u00825\u0083;S\u0014¸éò\u0096íªo\u009dL_³H÷Ø".length();
                   var13 = '\f';
-                  var26 = -1;
+                  var32 = -1;
             }
 
-            var10000 = var14.substring(++var26, var26 + var13);
-            var10001 = 0;
+            var33 = var14.substring(++var32, var32 + var13);
+            var39 = 0;
          }
       }
    }

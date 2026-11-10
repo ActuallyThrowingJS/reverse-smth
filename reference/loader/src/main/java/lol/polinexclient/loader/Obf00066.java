@@ -1,7 +1,10 @@
 // Recovery view; aliases are not original names. Not verified to compile.
 package lol.polinexclient.loader;
 
+import java.io.PrintStream;
+import java.lang.reflect.Method;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -149,400 +152,15 @@ public final class Obf00066 {
    }
 
    private static void Obf00116(byte[] param0, long param1) {
-      // $VF: Couldn't be decompiled
-      // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
-      // java.lang.RuntimeException: parsing failure!
-      //   at org.jetbrains.java.decompiler.modules.decompiler.decompose.DomHelper.parseGraph(DomHelper.java:211)
-      //   at org.jetbrains.java.decompiler.main.rels.MethodProcessor.codeToJava(MethodProcessor.java:166)
-      //
-      // Bytecode:
-      // 000: lload 1
-      // 001: dup2
-      // 002: ldc2_w 135032200923953
-      // 005: lxor
-      // 006: lstore 3
-      // 007: dup2
-      // 008: ldc2_w 130058706107545
-      // 00b: lxor
-      // 00c: dup2
-      // 00d: bipush 48
-      // 00f: lushr
-      // 010: l2i
-      // 011: istore 5
-      // 013: dup2
-      // 014: bipush 16
-      // 016: lshl
-      // 017: bipush 16
-      // 019: lushr
-      // 01a: lstore 6
-      // 01c: pop2
-      // 01d: dup2
-      // 01e: ldc2_w 115332001598041
-      // 021: lxor
-      // 022: lstore 8
-      // 024: pop2
-      // 025: ldc2_w -6656529932156655778
-      // 028: lload 1
-      // 029: invokedynamic À (JJ)Z bsm=lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; args=[  ]
-      // 02e: istore 10
-      // 030: ldc2_w -6653009226860592485
-      // 033: lload 1
-      // 034: invokedynamic À (JJ)Ljava/lang/ClassLoader; bsm=lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; args=[  ]
-      // 039: ldc -51510510
-      // 03b: sipush -26707
-      // 03e: iadd
-      // 03f: ldc 51510510
-      // 041: sipush 8752
-      // 044: iadd
-      // 045: lload 1
-      // 046: l2i
-      // 047: invokestatic lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (III)Ljava/lang/String;
-      // 04a: invokevirtual java/lang/ClassLoader.loadClass (Ljava/lang/String;)Ljava/lang/Class;
-      // 04d: astore 11
-      // 04f: aload 11
-      // 051: bipush 0
-      // 052: anewarray 166
-      // 055: invokevirtual java/lang/Class.getDeclaredConstructor ([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
-      // 058: bipush 0
-      // 059: anewarray 4
-      // 05c: invokevirtual java/lang/reflect/Constructor.newInstance ([Ljava/lang/Object;)Ljava/lang/Object;
-      // 05f: astore 12
-      // 061: aload 11
-      // 063: ldc -51510510
-      // 065: sipush -26720
-      // 068: iadd
-      // 069: ldc -51510510
-      // 06b: sipush -12088
-      // 06e: iadd
-      // 06f: lload 1
-      // 070: l2i
-      // 071: invokestatic lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (III)Ljava/lang/String;
-      // 074: bipush 0
-      // 075: anewarray 166
-      // 078: invokevirtual java/lang/Class.getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
-      // 07b: astore 13
-      // 07d: aload 13
-      // 07f: aload 12
-      // 081: bipush 0
-      // 082: anewarray 4
-      // 085: invokevirtual java/lang/reflect/Method.invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
-      // 088: pop
-      // 089: goto 0e0
-      // 08c: astore 11
-      // 08e: aload 0
-      // 08f: bipush 0
-      // 090: invokestatic java/util/Arrays.fill ([BB)V
-      // 093: aconst_null
-      // 094: ldc2_w -6655252894640617140
-      // 097: lload 1
-      // 098: invokedynamic m ([BJJ)V bsm=lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; args=[  ]
-      // 09d: getstatic java/lang/System.out Ljava/io/PrintStream;
-      // 0a0: aload 11
-      // 0a2: invokevirtual java/lang/Exception.getMessage ()Ljava/lang/String;
-      // 0a5: ldc -51510510
-      // 0a7: sipush -26721
-      // 0aa: iadd
-      // 0ab: ldc 51510510
-      // 0ad: sipush 18659
-      // 0b0: iadd
-      // 0b1: lload 1
-      // 0b2: l2i
-      // 0b3: invokestatic lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (III)Ljava/lang/String;
-      // 0b6: swap
-      // 0b7: invokedynamic makeConcatWithConstants (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; bsm=java/lang/invoke/StringConcatFactory.makeConcatWithConstants (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite; args=[ "\u0001\u0001" ]
-      // 0bc: invokevirtual java/io/PrintStream.println (Ljava/lang/String;)V
-      // 0bf: ldc -51510510
-      // 0c1: sipush -26719
-      // 0c4: iadd
-      // 0c5: aload 11
-      // 0c7: invokevirtual java/lang/Exception.printStackTrace ()V
-      // 0ca: ldc 51510510
-      // 0cc: sipush 27402
-      // 0cf: iadd
-      // 0d0: lload 1
-      // 0d1: l2i
-      // 0d2: invokestatic lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (III)Ljava/lang/String;
-      // 0d5: lload 8
-      // 0d7: ldc2_w -6656020862256051728
-      // 0da: lload 1
-      // 0db: invokedynamic D (Ljava/lang/Object;JJJ)V bsm=lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; args=[  ]
-      // 0e0: new java/util/LinkedHashMap
-      // 0e3: dup
-      // 0e4: invokespecial java/util/LinkedHashMap.<init> ()V
-      // 0e7: astore 11
-      // 0e9: aload 0
-      // 0ea: lload 3
-      // 0eb: aload 11
-      // 0ed: ldc2_w -6654880350576307835
-      // 0f0: lload 1
-      // 0f1: invokedynamic D (Ljava/lang/Object;JLjava/lang/Object;JJ)V bsm=lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; args=[  ]
-      // 0f6: aload 0
-      // 0f7: iload 5
-      // 0f9: i2s
-      // 0fa: lload 6
-      // 0fc: ldc2_w -6652591975726744860
-      // 0ff: lload 1
-      // 100: invokedynamic D (Ljava/lang/Object;SJJJ)Ljava/util/List; bsm=lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; args=[  ]
-      // 105: astore 12
-      // 107: aload 12
-      // 109: invokeinterface java/util/List.iterator ()Ljava/util/Iterator; 1
-      // 10e: astore 13
-      // 110: aload 13
-      // 112: invokeinterface java/util/Iterator.hasNext ()Z 1
-      // 117: ifeq 142
-      // 11a: aload 13
-      // 11c: lload 1
-      // 11d: lconst_1
-      // 11e: lcmp
-      // 11f: iflt 14d
-      // 122: invokeinterface java/util/Iterator.next ()Ljava/lang/Object; 1
-      // 127: checkcast [B
-      // 12a: astore 14
-      // 12c: iload 10
-      // 12e: ifne 14b
-      // 131: aload 14
-      // 133: lload 3
-      // 134: aload 11
-      // 136: ldc2_w -6654880350576307835
-      // 139: lload 1
-      // 13a: invokedynamic D (Ljava/lang/Object;JLjava/lang/Object;JJ)V bsm=lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; args=[  ]
-      // 13f: goto 110
-      // 142: aload 12
-      // 144: invokeinterface java/util/List.iterator ()Ljava/util/Iterator; 1
-      // 149: astore 13
-      // 14b: aload 13
-      // 14d: lload 1
-      // 14e: lconst_1
-      // 14f: lcmp
-      // 150: ifle 162
-      // 153: invokeinterface java/util/Iterator.hasNext ()Z 1
-      // 158: ifeq 183
-      // 15b: aload 13
-      // 15d: invokeinterface java/util/Iterator.next ()Ljava/lang/Object; 1
-      // 162: checkcast [B
-      // 165: astore 14
-      // 167: iload 10
-      // 169: lload 1
-      // 16a: lconst_0
-      // 16b: lcmp
-      // 16c: iflt 17a
-      // 16f: aload 14
-      // 171: bipush 0
-      // 172: invokestatic java/util/Arrays.fill ([BB)V
-      // 175: ifne 1c6
-      // 178: iload 10
-      // 17a: ifeq 14b
-      // 17d: lload 1
-      // 17e: lconst_1
-      // 17f: lcmp
-      // 180: ifle 183
-      // 183: goto 1bb
-      // 186: astore 15
-      // 188: aload 12
-      // 18a: invokeinterface java/util/List.iterator ()Ljava/util/Iterator; 1
-      // 18f: astore 16
-      // 191: aload 16
-      // 193: invokeinterface java/util/Iterator.hasNext ()Z 1
-      // 198: ifeq 1b2
-      // 19b: aload 16
-      // 19d: invokeinterface java/util/Iterator.next ()Ljava/lang/Object; 1
-      // 1a2: checkcast [B
-      // 1a5: astore 17
-      // 1a7: iload 10
-      // 1a9: aload 17
-      // 1ab: bipush 0
-      // 1ac: invokestatic java/util/Arrays.fill ([BB)V
-      // 1af: ifeq 191
-      // 1b2: aload 15
-      // 1b4: lload 1
-      // 1b5: lconst_0
-      // 1b6: lcmp
-      // 1b7: ifle 1a2
-      // 1ba: athrow
-      // 1bb: aload 11
-      // 1bd: ldc2_w -6653264313383321093
-      // 1c0: lload 1
-      // 1c1: invokedynamic m (Ljava/util/Map;JJ)V bsm=lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; args=[  ]
-      // 1c6: return
+      // UNRECOVERED: ZKM control flow; see reports/loader-decompiler-failures.json.
    }
 
    private static void Obf00099(byte[] param0, long param1, Map param3) {
-      // $VF: Couldn't be decompiled
-      // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
-      // java.lang.NullPointerException: Cannot invoke "org.jetbrains.java.decompiler.code.cfg.ExceptionRangeCFG.isCircular()" because "range" is null
-      //   at org.jetbrains.java.decompiler.modules.decompiler.decompose.DomHelper.graphToStatement(DomHelper.java:84)
-      //   at org.jetbrains.java.decompiler.modules.decompiler.decompose.DomHelper.parseGraph(DomHelper.java:203)
-      //   at org.jetbrains.java.decompiler.main.rels.MethodProcessor.codeToJava(MethodProcessor.java:166)
-      //
-      // Bytecode:
-      // 00: ldc2_w 2931345848930577519
-      // 03: lload 1
-      // 04: invokedynamic À (JJ)Z bsm=lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; args=[  ]
-      // 09: istore 4
-      // 0b: new java/util/zip/ZipInputStream
-      // 0e: dup
-      // 0f: new java/io/ByteArrayInputStream
-      // 12: dup
-      // 13: aload 0
-      // 14: invokespecial java/io/ByteArrayInputStream.<init> ([B)V
-      // 17: invokespecial java/util/zip/ZipInputStream.<init> (Ljava/io/InputStream;)V
-      // 1a: astore 5
-      // 1c: aload 5
-      // 1e: invokevirtual java/util/zip/ZipInputStream.getNextEntry ()Ljava/util/zip/ZipEntry;
-      // 21: astore 6
-      // 23: aload 6
-      // 25: ifnull 6f
-      // 28: iload 4
-      // 2a: ifne 7a
-      // 2d: aload 6
-      // 2f: invokevirtual java/util/zip/ZipEntry.isDirectory ()Z
-      // 32: ifne 65
-      // 35: aload 6
-      // 37: invokevirtual java/util/zip/ZipEntry.getName ()Ljava/lang/String;
-      // 3a: ldc_w 1588830540
-      // 3d: sipush -28739
-      // 40: i2c
-      // 41: isub
-      // 42: ldc_w 1588830540
-      // 45: sipush 14836
-      // 48: isub
-      // 49: lload 1
-      // 4a: l2i
-      // 4b: invokestatic lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (III)Ljava/lang/String;
-      // 4e: invokevirtual java/lang/String.endsWith (Ljava/lang/String;)Z
-      // 51: ifne 65
-      // 54: aload 3
-      // 55: aload 6
-      // 57: invokevirtual java/util/zip/ZipEntry.getName ()Ljava/lang/String;
-      // 5a: aload 5
-      // 5c: invokevirtual java/util/zip/ZipInputStream.readAllBytes ()[B
-      // 5f: invokeinterface java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 3
-      // 64: pop
-      // 65: aload 5
-      // 67: invokevirtual java/util/zip/ZipInputStream.getNextEntry ()Ljava/util/zip/ZipEntry;
-      // 6a: astore 6
-      // 6c: goto 23
-      // 6f: lload 1
-      // 70: lconst_0
-      // 71: lcmp
-      // 72: ifle 28
-      // 75: aload 5
-      // 77: invokevirtual java/util/zip/ZipInputStream.close ()V
-      // 7a: goto 93
-      // 7d: astore 6
-      // 7f: aload 5
-      // 81: invokevirtual java/util/zip/ZipInputStream.close ()V
-      // 84: goto 90
-      // 87: astore 7
-      // 89: aload 6
-      // 8b: aload 7
-      // 8d: invokevirtual java/lang/Throwable.addSuppressed (Ljava/lang/Throwable;)V
-      // 90: aload 6
-      // 92: athrow
-      // 93: goto a2
-      // 96: astore 5
-      // 98: new java/lang/RuntimeException
-      // 9b: dup
-      // 9c: aload 5
-      // 9e: invokespecial java/lang/RuntimeException.<init> (Ljava/lang/Throwable;)V
-      // a1: athrow
-      // a2: return
+      // UNRECOVERED: ZKM control flow; see reports/loader-decompiler-failures.json.
    }
 
    private static List Obf00552(byte[] param0, short param1, long param2) {
-      // $VF: Couldn't be decompiled
-      // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
-      // java.lang.NullPointerException: Cannot invoke "org.jetbrains.java.decompiler.code.cfg.ExceptionRangeCFG.isCircular()" because "range" is null
-      //   at org.jetbrains.java.decompiler.modules.decompiler.decompose.DomHelper.graphToStatement(DomHelper.java:84)
-      //   at org.jetbrains.java.decompiler.modules.decompiler.decompose.DomHelper.parseGraph(DomHelper.java:203)
-      //   at org.jetbrains.java.decompiler.main.rels.MethodProcessor.codeToJava(MethodProcessor.java:166)
-      //
-      // Bytecode:
-      // 00: iload 1
-      // 01: i2l
-      // 02: bipush 48
-      // 04: lshl
-      // 05: lload 2
-      // 06: bipush 16
-      // 08: lshl
-      // 09: bipush 16
-      // 0b: lushr
-      // 0c: lor
-      // 0d: lstore 4
-      // 0f: ldc2_w -6987837286801597497
-      // 12: lload 4
-      // 14: invokedynamic À (JJ)Z bsm=lol/polinexclient/loader/lIlllllIIIIlIlIIIIIlIIlIlllllIlIlIlIlllllllIllllIIllllIllIIIlllIlIllIlIIIlIIlIIlIIllI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; args=[  ]
-      // 19: new java/util/ArrayList
-      // 1c: dup
-      // 1d: invokespecial java/util/ArrayList.<init> ()V
-      // 20: astore 7
-      // 22: istore 6
-      // 24: new java/util/zip/ZipInputStream
-      // 27: dup
-      // 28: new java/io/ByteArrayInputStream
-      // 2b: dup
-      // 2c: aload 0
-      // 2d: invokespecial java/io/ByteArrayInputStream.<init> ([B)V
-      // 30: invokespecial java/util/zip/ZipInputStream.<init> (Ljava/io/InputStream;)V
-      // 33: astore 8
-      // 35: aload 8
-      // 37: invokevirtual java/util/zip/ZipInputStream.getNextEntry ()Ljava/util/zip/ZipEntry;
-      // 3a: astore 9
-      // 3c: aload 9
-      // 3e: ifnull 83
-      // 41: iload 6
-      // 43: ifne 8e
-      // 46: aload 9
-      // 48: invokevirtual java/util/zip/ZipEntry.isDirectory ()Z
-      // 4b: ifne 79
-      // 4e: aload 9
-      // 50: invokevirtual java/util/zip/ZipEntry.getName ()Ljava/lang/String;
-      // 53: ldc_w 1511499240
-      // 56: bipush 59
-      // 58: iadd
-      // 59: ldc_w 1511499240
-      // 5c: sipush 22996
-      // 5f: iadd
-      // 60: lload 4
-      // 62: l2i
-      // 63: invokestatic lol/polinexclient/loader/IIIlIlllllIllIIIlIIIlIIIlIlIIIlIIlIlIlllIlIIlIlIlllIIllllIlIlIIlIIlIlIlIllIlIIllIlIlI.IIlIlIllIIIlIIlIlllllIIlIIllIIIllIIlIIIIIlIIllllIIlllIlIIIIIlIlllIIlIlIlIIllIlIIIllII (III)Ljava/lang/String;
-      // 66: invokevirtual java/lang/String.endsWith (Ljava/lang/String;)Z
-      // 69: ifeq 79
-      // 6c: aload 7
-      // 6e: aload 8
-      // 70: invokevirtual java/util/zip/ZipInputStream.readAllBytes ()[B
-      // 73: invokeinterface java/util/List.add (Ljava/lang/Object;)Z 2
-      // 78: pop
-      // 79: aload 8
-      // 7b: invokevirtual java/util/zip/ZipInputStream.getNextEntry ()Ljava/util/zip/ZipEntry;
-      // 7e: astore 9
-      // 80: goto 3c
-      // 83: lload 2
-      // 84: lconst_1
-      // 85: lcmp
-      // 86: iflt 41
-      // 89: aload 8
-      // 8b: invokevirtual java/util/zip/ZipInputStream.close ()V
-      // 8e: goto a7
-      // 91: astore 9
-      // 93: aload 8
-      // 95: invokevirtual java/util/zip/ZipInputStream.close ()V
-      // 98: goto a4
-      // 9b: astore 10
-      // 9d: aload 9
-      // 9f: aload 10
-      // a1: invokevirtual java/lang/Throwable.addSuppressed (Ljava/lang/Throwable;)V
-      // a4: aload 9
-      // a6: athrow
-      // a7: goto b6
-      // aa: astore 8
-      // ac: new java/lang/RuntimeException
-      // af: dup
-      // b0: aload 8
-      // b2: invokespecial java/lang/RuntimeException.<init> (Ljava/lang/Throwable;)V
-      // b5: athrow
-      // b6: aload 7
-      // b8: areturn
+      // UNRECOVERED: ZKM control flow; see reports/loader-decompiler-failures.json.
    }
 
    public static void Obf00099(String var0, long var1) {
@@ -753,7 +371,7 @@ public final class Obf00066 {
 
             c = var6;
             d = new Long[40];
-            long var30 = 129412603073000L;
+            long var30 = b$recovered$54c83bf8bf11ae56(28424, 5621855732952709108L);
             String[] var28 = new String[11];
             int var26 = 0;
             String var25;
@@ -823,16 +441,16 @@ public final class Obf00066 {
                            Obf00229 = new String[11];
                            Obf00487 = new LinkedHashSet<>();
                            Obf00453.Obf00099<"m">(
-                              new LinkedHashMap(), 5893155057772327833L, var30
+                              new LinkedHashMap(), b$recovered$4ec88d842c49e34a(12416, 2825750514197489749L), var30
                            );
                            Obf00453.Obf00099<"m">(
-                              null, 5891166628969691950L, var30
+                              null, b$recovered$498106d49590f2ca(31887, 9130363396725711995L), var30
                            );
                            Obf00453.Obf00099<"m">(
-                              new LinkedHashMap(), 5898717341977572116L, var30
+                              new LinkedHashMap(), b$recovered$944b6c10069506ad(13004, 7099864004259342886L), var30
                            );
                            Obf00453.Obf00099<"m">(
-                              null, 5893427738744058105L, var30
+                              null, b$recovered$690398c8204f7909(9990, 7080293637105287151L), var30
                            );
                            return;
                         }
@@ -1169,5 +787,234 @@ public final class Obf00066 {
       }
 
       return d[var3];
+   }
+
+   private static long b$recovered$54c83bf8bf11ae56(int var0, long var1) {
+      var1 = 5621855732952709108L;
+      int var3 = (var0 ^ (int)var1 ^ 22769) & 32767;
+      if (d[var3] == null) {
+         d[var3] = c[var3] ^ var1;
+      }
+
+      return d[var3];
+   }
+
+   private static long b$recovered$4ec88d842c49e34a(int var0, long var1) {
+      var1 = 2825750514197489749L;
+      int var3 = (var0 ^ (int)var1 ^ 22769) & 32767;
+      if (d[var3] == null) {
+         d[var3] = c[var3] ^ var1;
+      }
+
+      return d[var3];
+   }
+
+   private static long b$recovered$498106d49590f2ca(int var0, long var1) {
+      var1 = 9130363396725711995L;
+      int var3 = (var0 ^ (int)var1 ^ 22769) & 32767;
+      if (d[var3] == null) {
+         d[var3] = c[var3] ^ var1;
+      }
+
+      return d[var3];
+   }
+
+   private static long b$recovered$944b6c10069506ad(int var0, long var1) {
+      var1 = 7099864004259342886L;
+      int var3 = (var0 ^ (int)var1 ^ 22769) & 32767;
+      if (d[var3] == null) {
+         d[var3] = c[var3] ^ var1;
+      }
+
+      return d[var3];
+   }
+
+   private static long b$recovered$690398c8204f7909(int var0, long var1) {
+      var1 = 7080293637105287151L;
+      int var3 = (var0 ^ (int)var1 ^ 22769) & 32767;
+      if (d[var3] == null) {
+         d[var3] = c[var3] ^ var1;
+      }
+
+      return d[var3];
+   }
+
+   public static void Obf00224$recovered$05513473cae59a3a(long var0) {
+      var0 = 21851946675329L;
+      long var2 = var0 ^ 2762057455125L;
+      Obf00236$recovered$a35241ef3c05d2d9(var2);
+   }
+
+   // Caller-proven context: incoming key is 19090507889300L.
+   // CFR recovery, normalized and compared against bytecode in isolated JVM fixtures.
+   private static void Obf00236$recovered$a35241ef3c05d2d9(long ignoredIncomingKey) {
+       long loadKey = 19090507889300L ^ 16463249103134L;
+       boolean skip = lol.polinexclient.loader.Obf00091.Obf00120;
+       byte[] prepared = Obf00013;
+       if (!skip && prepared != null && Obf00112 != null) {
+           try {
+               Obf00116$recovered$8eae88b1c14cdf6b(prepared, loadKey);
+           } finally {
+               java.util.Arrays.fill(prepared, (byte) 0);
+               Obf00013 = null;
+           }
+           return;
+       }
+       if (!skip) {
+           System.out.println("Mod not properly prepared, cannot initialize");
+       }
+       if (prepared != null) {
+           java.util.Arrays.fill(prepared, (byte) 0);
+       }
+       Obf00013 = null;
+   }
+
+   // $VF: Could not inline inconsistent finally blocks
+   // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
+   private static void Obf00116$recovered$8eae88b1c14cdf6b(byte[] var0, long var1) {
+      var1 = 34797773497226L;
+      long var3 = var1 ^ 135032200923953L;
+      int var5 = (int)((var1 ^ 130058706107545L) >>> 48);
+      long var6 = (var1 ^ 130058706107545L) << 16 >>> 16;
+      long var8 = var1 ^ 115332001598041L;
+      boolean var10 = Obf00091.Obf00120;
+
+      try {
+         int var51 = -51510510 + -26707;
+         int var58 = 51510510 + 8752;
+         int var60 = (int)var1;
+         Class var11 = Obf00112.loadClass("me.octo.client.Polinex");
+         Object var12 = var11.getDeclaredConstructor().newInstance();
+         var51 = -51510510 + -26720;
+         var58 = -51510510 + -12088;
+         var60 = (int)var1;
+         Method var13 = var11.getMethod("onInitialize");
+         var13.invoke(var12);
+      } catch (Exception var39) {
+         Arrays.fill(var0, (byte)0);
+         Object var18 = null;
+         Obf00013 = (byte[])var18;
+         PrintStream var10000 = System.out;
+         String var10001 = var39.getMessage();
+         int var10002 = -51510510 + -26721;
+         int var10003 = 51510510 + 18659;
+         int var10004 = (int)var1;
+         var10000.println("Loader error loading polinex: " + var10001);
+         int var48 = -51510510 + -26719;
+         var39.printStackTrace();
+         int var50 = 51510510 + 27402;
+         var10002 = (int)var1;
+         String var19 = "KE-LOADER-INIT-LOAD";
+         Obf00099$recovered$92d90af80af8c11c(var19, var8);
+      }
+
+      LinkedHashMap var44 = new LinkedHashMap();
+      Obf00099(var0, var3, var44);
+      short var27 = (short)var5;
+      List var45 = Obf00552(var0, var27, var6);
+
+      Iterator var46;
+      label109: {
+         try {
+            var46 = var45.iterator();
+
+            while (var46.hasNext()) {
+               long var62;
+               int var54 = (var62 = var1 - 1L) == 0L ? 0 : (var62 < 0L ? -1 : 1);
+               byte[] var14 = (byte[])var46.next();
+
+               try {
+                  if (var10) {
+                     break label109;
+                  }
+
+                  Obf00099(var14, var3, var44);
+               } catch (Exception var41) {
+                  throw var41;
+               }
+            }
+         } catch (Throwable var42) {
+            for (byte[] var17 : var45) {
+               Arrays.fill(var17, (byte)0);
+               if (var10) {
+                  break;
+               }
+            }
+
+            long var63;
+            int var53 = (var63 = var1 - 0L) == 0L ? 0 : (var63 < 0L ? -1 : 1);
+            throw var42;
+         }
+
+         var46 = var45.iterator();
+      }
+
+      while (true) {
+         long var64;
+         int var55 = (var64 = var1 - 1L) == 0L ? 0 : (var64 < 0L ? -1 : 1);
+         if (var46.hasNext()) {
+            byte[] var47 = (byte[])var46.next();
+
+            try {
+               long var65;
+               var55 = (var65 = var1 - 0L) == 0L ? 0 : (var65 < 0L ? -1 : 1);
+               Arrays.fill(var47, (byte)0);
+               if (var10) {
+                  break;
+               }
+
+               if (!var10) {
+                  continue;
+               }
+            } catch (Exception var40) {
+               throw var40;
+            }
+
+            long var66;
+            int var49 = (var66 = var1 - 1L) == 0L ? 0 : (var66 < 0L ? -1 : 1);
+         }
+
+         Obf00120 = var44;
+         break;
+      }
+   }
+
+   public static void Obf00099$recovered$92d90af80af8c11c(String var0, long var1) {
+      var1 = 131121829456339L;
+      long var10001 = var1 ^ 38402314541451L;
+      int var3 = (int)((var1 ^ 38402314541451L) >>> 32);
+      int var4 = (int)((var1 ^ 38402314541451L) << 32 >>> 48);
+      int var5 = (int)(var10001 << 48 >>> 48);
+      long var6 = var1 ^ 109598747335760L;
+      int var17 = 772919790 - (char)-16118;
+      int var10002 = 772919790 - (char)-16013;
+      int var10003 = (int)var1;
+      System.out.println("Loader Error: There is an error, try redownloading it and then contact support with your log if issue still persists.");
+      var10002 = 772919790 - (char)-16114;
+      var10003 = -772919790 - -26239;
+      int var10004 = (int)var1;
+      System.out.println("Error Code: " + var0);
+      Obf00339.Obf00099(
+         var6
+      );
+      Runtime.getRuntime().halt(-1);
+      System.exit(-1);
+      int var18 = 772919790 - (char)-16115;
+      var10002 = -772919790 - -30165;
+      var10003 = (int)var1;
+      String var10000 = "Loader Error: " + var0;
+      char var13 = (char)var5;
+      String var10 = var10000;
+      Obf00091.Obf00099(
+         var10, var3, var4, var13
+      );
+      System.exit(-1);
+      Obf00339.Obf00099(
+         var6
+      );
+      var10003 = 772919790 - (char)-16116;
+      var10004 = 772919790 - 28043;
+      int var10005 = (int)var1;
+      throw new SecurityException("Loader Error: " + var0);
    }
 }

@@ -1,0 +1,14 @@
+# Loader entry points and initialization cleanup
+
+Updated the actual loader Java under `reference/loader/src/main/java`, preserving the 38-file inventory and all earlier successful method bodies. The client source tree is unchanged.
+
+- 21 new caller-proven key variants, including table helpers; all have Java bodies without recorded method failures. This does not establish that all their callees or expressions compile.
+- 504 interpreted literal sites and 39 decoded member references. The expanded interpreter budget lets the loader dispatcher complete its 21,692-character loop. Boxed Long/Integer caches retain numeric types. Captured state is a bounded model, with application calls stubbed; extraction outcomes include partial classes and must remain attached to this evidence.
+- Six primitive branches resolved from constant dataflow; mutable guards and unknown branches remain.
+- CFR recovered the main initialization cleanup after Vineflower failed. The readable fragment is in `reconstruction/loader-java`. Its isolated original-body fixture is 1,409 bytes, contains synthetic fields and a recording/throwing callback, and executes no original application initializer/native library. All 72 combinations matched: guard, null/empty/nonempty payload, class loader presence, callback failure, arbitrary incoming argument, output, callback key, byte zeroization and clearing. This tests the cleanup context, not the definition callback or complete loader.
+- Four generic loader methods remain explicit failures, matching the previous failure set. Five earlier successful bodies were retained when fresh decompilation failed. Literal/comment contents are protected from display-name substitution.
+- All 199 analysis method bodies passed ASM BasicVerifier. This is not JVM linkage validation. The complete mod build still fails. Registered native recovery remains 36/518.
+
+The main Fabric entry now calls the known-key initialization context. The payload callback loads `me.octo.client.Polinex`, constructs it and calls `onInitialize`. PreLaunch resolves to native loader RVA `0x6d5c0` and is still missing. Two traced ASM class generators appear to generate fallback/error classes; they do not recover the genuine bootstrap class.
+
+Replay with Java 21 using `tools/recover-loader-callers.sh build/round8/loader-native.jar`. This input is the previous analysis JAR with six reviewed native loader reconstructions, not an arbitrary input JAR. Its hash is recorded in `evidence/loader-round9/cleanup-proof.json`. Captured-state regeneration uses `ExtractCrypto` on the original loader with `recovery.ownerPrefix=lol/polinexclient/loader/`, `recovery.interpreterTripCap=200000`, `recovery.interpreterStepCap=16000000`. Next assemble into a separate directory using `tools/assemble_loader.py`, then run `prepare_reference.py --report reports/loader-decompiler-failures.json`. Tests run through `tools/test.sh`.

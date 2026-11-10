@@ -10,8 +10,8 @@ import java.util.*;
 public final class MiniInterpreter {
     private MiniInterpreter() {}
 
-    public static final int TRIP_CAP = 20000;
-    public static final int STEP_CAP = 4000000;
+    public static final int TRIP_CAP = Math.max(1, Math.min(1_000_000, Integer.getInteger("recovery.interpreterTripCap", 20000)));
+    public static final int STEP_CAP = Math.max(1, Math.min(64_000_000, Integer.getInteger("recovery.interpreterStepCap", 4000000)));
     // Single-array allocation ceiling for the emulator. ZKM decrypt tables
     // are tiny; anything bigger is either hostile input or a bug, and must
     // Bail instead of OOMing the host.

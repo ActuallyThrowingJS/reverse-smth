@@ -21,3 +21,8 @@ python3 tools/extract_native.py inputs/PoliSlop.jar build/native-client
 
 "${JAVA_HOME:+$JAVA_HOME/bin/}java" DirectKeyConsumerTest
 "${JAVA_HOME:+$JAVA_HOME/bin/}java" SuperKeySpecializationTest
+
+"${JAVA_HOME:+$JAVA_HOME/bin/}java" LoaderLiteralRecoveryTest
+"${JAVA_HOME:+$JAVA_HOME/bin/}java" FoldProvenBranchesTest
+"${JAVA_HOME:+$JAVA_HOME/bin/}java" LoaderCleanupRecoveryTest
+python3 tests/test_loader_assembly.py

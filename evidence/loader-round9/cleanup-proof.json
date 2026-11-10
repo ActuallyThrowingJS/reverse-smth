@@ -1,0 +1,11 @@
+{
+  "originalJarSha256": "06d759fe879faa4120407e93ff00025c986dbb389a448fab63c65030881d8418",
+  "analysisInputSha256": "1365de17e3fd1259dc158d02b5d6ca9c6c050f7ea91c00a73c8714ec44943e7f",
+  "cleanupContextJarSha256": "7a7355322aad4d7622aad75008e56c15b02fe64f248a40cedd28e49d2fedb647",
+  "isolatedOriginalBodyFixtureSha256": "0a271315a63f812c28dacc7884995c402c25a1cede5b7921d6e6923330c1ef44",
+  "fragmentSha256": "dad539300ce151026070255a4dcb8a6234fc69488f3ba23517fbc313ea7e7831",
+  "fixtureBytes": 1409,
+  "scope": "One caller-proven variant. Original application fields remapped into synthetic fields; definition callback replaced by recording/throwing fixture. No original class initializer or native payload execution. Does not validate the callback implementation.",
+  "jvmComparisons": 72,
+  "unrecoveredNativeInitializer": true
+}

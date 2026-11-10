@@ -28,16 +28,20 @@ public final class Obf00244 {
       HttpsURLConnection var8 = (HttpsURLConnection)var2.openConnection();
 
       try {
-         if (!Obf00453.Obf00099<"À">(
-               2574344179627641438L, var0
-            )
-            .containsKey(var7)) {
-            Obf00453.Obf00099<"D">(
-               Obf00099(-1412148180 + -19208, 1412148180 + 6539, (int)var0),
-               var5,
-               2560948502181579227L,
-               var0
-            );
+         try {
+            if (!Obf00453.Obf00099<"À">(
+                  2574344179627641438L, var0
+               )
+               .containsKey(var7)) {
+               Obf00453.Obf00099<"D">(
+                  Obf00099(-1412148180 + -19208, 1412148180 + 6539, (int)var0),
+                  var5,
+                  2560948502181579227L,
+                  var0
+               );
+            }
+         } catch (Exception var10) {
+            throw var10;
          }
 
          HostnameVerifier var9 = HttpsURLConnection.getDefaultHostnameVerifier();
@@ -47,7 +51,7 @@ public final class Obf00244 {
          var8.setConnectTimeout(30000);
          var8.setReadTimeout((int)Obf00025);
          return var8;
-      } catch (Exception var10) {
+      } catch (Exception var11) {
          return null;
       }
    }
@@ -250,7 +254,7 @@ public final class Obf00244 {
 
             c = var6;
             d = new Long[7];
-            long var30 = 139669115450983L;
+            long var30 = b$recovered$45caf0cd9c2a38a6(10798, 3105769368835140165L);
             String[] var28 = new String[17];
             int var26 = 0;
             String var25;
@@ -318,72 +322,104 @@ public final class Obf00244 {
                         if ((var43 += var24) >= var27) {
                            Obf00120 = var28;
                            Obf00013 = new String[17];
-                           long var85 = -9019892780402222073L ^ var30;
+                           long var85 = b$recovered$7101d710cc05c82d(3478, 4232400239803829753L) ^ var30;
                            byte var69 = -1;
                            Obf00025 = var85;
                            LinkedHashMap var32 = new LinkedHashMap();
                            var32.put(
                               Obf00099(
-                                 1073987580 - (char)-23783, 1073987580 - 20760, (int)var30
+                                 a$recovered$a6b37cc53565135c(3585, 4552010069260469522L) - (char)-23783,
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - 20760,
+                                 (int)var30
                               ),
                               Obf00099(
-                                 1073987580 - (char)-23791, 1073987580 - 31283, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23791,
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - 31283,
+                                 (int)var30
                               )
                            );
                            var32.put(
                               Obf00099(
-                                 1073987580 - (char)-23788, -1073987580 - -30152, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23788,
+                                 a$recovered$0f8a560d4e3e9d95(17594, 9211721831468421036L) - -30152,
+                                 (int)var30
                               ),
                               Obf00099(
-                                 1073987580 - (char)-23789, -1073987580 - -((char)-19377), (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23789,
+                                 a$recovered$b3b6d19a92e3d932(29864, 8276012813483409341L) - -((char)-19377),
+                                 (int)var30
                               )
                            );
                            var32.put(
                               Obf00099(
-                                 1073987580 - (char)-23786, -1073987580 - -26879, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23786,
+                                 a$recovered$b3b6d19a92e3d932(29864, 8276012813483409341L) - -26879,
+                                 (int)var30
                               ),
                               Obf00099(
-                                 1073987580 - (char)-23784, -1073987580 - -((char)-18612), (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23784,
+                                 a$recovered$b3b6d19a92e3d932(29864, 8276012813483409341L) - -((char)-18612),
+                                 (int)var30
                               )
                            );
                            var32.put(
                               Obf00099(
-                                 1073987580 - (char)-23796, 1073987580 - (char)-32045, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23796,
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-32045,
+                                 (int)var30
                               ),
                               Obf00099(
-                                 1073987580 - (char)-23795, 1073987580 - (char)-22816, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23795,
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-22816,
+                                 (int)var30
                               )
                            );
                            var32.put(
                               Obf00099(
-                                 1073987580 - (char)-23793, 1073987580 - 31831, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23793,
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - 31831,
+                                 (int)var30
                               ),
                               Obf00099(
-                                 1073987580 - (char)-23785, 1073987580 - 31061, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23785,
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - 31061,
+                                 (int)var30
                               )
                            );
                            var32.put(
                               Obf00099(
-                                 1073987580 - (char)-23790, 1073987580 - 19577, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23790,
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - 19577,
+                                 (int)var30
                               ),
                               Obf00099(
-                                 1073987580 - (char)-23781, -1073987580 - -30773, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23781,
+                                 a$recovered$b3b6d19a92e3d932(29864, 8276012813483409341L) - -30773,
+                                 (int)var30
                               )
                            );
                            var32.put(
                               Obf00099(
-                                 1073987580 - (char)-23787, 1073987580 - (char)-32514, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23787,
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-32514,
+                                 (int)var30
                               ),
                               Obf00099(
-                                 1073987580 - (char)-23792, 1073987580 - 25520, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23792,
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - 25520,
+                                 (int)var30
                               )
                            );
                            var32.put(
                               Obf00099(
-                                 1073987580 - (char)-23780, -1073987580 - -((char)-29942), (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23780,
+                                 a$recovered$b3b6d19a92e3d932(29864, 8276012813483409341L) - -((char)-29942),
+                                 (int)var30
                               ),
                               Obf00099(
-                                 1073987580 - (char)-23794, -1073987580 - -28714, (int)var30
+                                 a$recovered$c373f00f8027e859(24308, 7550854169631348195L) - (char)-23794,
+                                 a$recovered$b3b6d19a92e3d932(29864, 8276012813483409341L) - -28714,
+                                 (int)var30
                               )
                            );
                            Obf00487 = var32;
@@ -722,5 +758,65 @@ public final class Obf00244 {
       }
 
       return d[var3];
+   }
+
+   private static long b$recovered$45caf0cd9c2a38a6(int var0, long var1) {
+      var1 = 3105769368835140165L;
+      int var3 = (var0 ^ (int)var1 ^ 110) & 32767;
+      if (d[var3] == null) {
+         d[var3] = c[var3] ^ var1;
+      }
+
+      return d[var3];
+   }
+
+   private static long b$recovered$7101d710cc05c82d(int var0, long var1) {
+      var1 = 4232400239803829753L;
+      int var3 = (var0 ^ (int)var1 ^ 110) & 32767;
+      if (d[var3] == null) {
+         d[var3] = c[var3] ^ var1;
+      }
+
+      return d[var3];
+   }
+
+   private static int a$recovered$a6b37cc53565135c(int var0, long var1) {
+      var1 = 4552010069260469522L;
+      int var3 = var0 ^ (int)(var1 & 32767L) ^ 2838;
+      if (b[var3] == null) {
+         b[var3] = (int)(a[var3] ^ var1);
+      }
+
+      return b[var3];
+   }
+
+   private static int a$recovered$c373f00f8027e859(int var0, long var1) {
+      var1 = 7550854169631348195L;
+      int var3 = var0 ^ (int)(var1 & 32767L) ^ 2838;
+      if (b[var3] == null) {
+         b[var3] = (int)(a[var3] ^ var1);
+      }
+
+      return b[var3];
+   }
+
+   private static int a$recovered$0f8a560d4e3e9d95(int var0, long var1) {
+      var1 = 9211721831468421036L;
+      int var3 = var0 ^ (int)(var1 & 32767L) ^ 2838;
+      if (b[var3] == null) {
+         b[var3] = (int)(a[var3] ^ var1);
+      }
+
+      return b[var3];
+   }
+
+   private static int a$recovered$b3b6d19a92e3d932(int var0, long var1) {
+      var1 = 8276012813483409341L;
+      int var3 = var0 ^ (int)(var1 & 32767L) ^ 2838;
+      if (b[var3] == null) {
+         b[var3] = (int)(a[var3] ^ var1);
+      }
+
+      return b[var3];
    }
 }

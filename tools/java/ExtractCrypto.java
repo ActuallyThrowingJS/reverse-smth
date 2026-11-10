@@ -36,14 +36,14 @@ public class ExtractCrypto {
   }
   Map<String,Object> result=new LinkedHashMap<>();Map<String,String> outcomes=new LinkedHashMap<>();int completed=0,partial=0;
   Path output=Path.of(args[1]);Files.createDirectories(output);
-  for(ClassNode c:model.values())if(c.name.startsWith("me/octo/client/")&&(args.length<3||c.name.matches(args[2]))) {
+  for(ClassNode c:model.values())if(c.name.startsWith(System.getProperty("recovery.ownerPrefix","me/octo/client/"))&&(args.length<3||c.name.matches(args[2]))) {
    MethodNode cl=null;for(MethodNode m:c.methods)if(m.name.equals("<clinit>"))cl=m;if(cl==null)continue;
    MiniInterpreter.Ctx context=new MiniInterpreter.Ctx(model,ClassLoader.getPlatformClassLoader(),0);String outcome="completed";
    try{MiniInterpreter.run(context,c,cl,new Object[0]);completed++;}catch(Throwable e){outcome=e.getClass().getSimpleName()+": "+e.getMessage();partial++;}
    Map<String,Object> values=new LinkedHashMap<>();
    for(FieldNode field:c.fields){Object value=context.statics.get(c.name+'.'+field.name);
     if(value instanceof MiniInterpreter.Arr){Object data=((MiniInterpreter.Arr)value).data;
-     if((field.desc.equals("[Ljava/lang/String;")||field.desc.equals("[Ljava/lang/Object;"))&&data instanceof Object[]){List<Object> strings=new ArrayList<>();boolean valid=true;for(Object s:(Object[])data){if(s==null||s==MiniInterpreter.NULL)strings.add(null);else if(s instanceof String)strings.add((String)s);else if(s instanceof Class)strings.add(Map.of("class",((Class<?>)s).getName()));else if(s instanceof Type)strings.add(Map.of("descriptor",((Type)s).getDescriptor()));else{valid=false;break;}}if(valid)values.put(field.name,strings);}
+     if(Set.of("[Ljava/lang/String;","[Ljava/lang/Object;","[Ljava/lang/Long;","[Ljava/lang/Integer;").contains(field.desc)&&data instanceof Object[]){List<Object> strings=new ArrayList<>();boolean valid=true;for(Object s:(Object[])data){if(s==null||s==MiniInterpreter.NULL)strings.add(null);else if(s instanceof String||s instanceof Long||s instanceof Integer)strings.add(s);else if(s instanceof Class)strings.add(Map.of("class",((Class<?>)s).getName()));else if(s instanceof Type)strings.add(Map.of("descriptor",((Type)s).getDescriptor()));else{valid=false;break;}}if(valid)values.put(field.name,strings);}
      else if(field.desc.equals("[J")&&data instanceof long[])values.put(field.name,data);
     }else if(value instanceof Long||value instanceof Integer||value instanceof String)values.put(field.name,value);
    }

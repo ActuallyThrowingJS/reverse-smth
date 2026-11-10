@@ -135,10 +135,10 @@ enum Obf00564$Obf00091 {
 
             a = var33;
             b = new Long[7];
-            long var47 = 52814124258985L;
-            long var76 = var47 ^ 88861973792886L;
-            int var48 = (int)((var47 ^ 88861973792886L) >>> 48);
-            int var49 = (int)((var47 ^ 88861973792886L) << 16 >>> 48);
+            long var47 = a$recovered$ae615e86004b2f46(13729, 4193004471619301531L);
+            long var76 = var47 ^ a$recovered$230d95463c05a36f(14631, 724743240594865180L);
+            int var48 = (int)(var76 >>> 48);
+            int var49 = (int)(var76 << 16 >>> 48);
             int var50 = (int)(var76 << 32 >>> 32);
             String[] var38 = new String[3];
             int var44 = 0;
@@ -208,7 +208,7 @@ enum Obf00564$Obf00091 {
 
                   );
                   Obf00487 = Obf00453.Obf00099<"D">(
-                     (char)var48, (char)var49, var50, -7587261846292812056L, var47
+                     (char)var48, (char)var49, var50, a$recovered$83cbd2f88db9c240(6306, 2652822250292616602L), var47
                   );
                   return;
                }
@@ -331,10 +331,10 @@ enum Obf00564$Obf00091 {
 
                a = var6;
                b = new Long[7];
-               long var17 = 52814124258985L;
-               long var62 = var17 ^ 88861973792886L;
-               int var19 = (int)((var17 ^ 88861973792886L) >>> 48);
-               int var20 = (int)((var17 ^ 88861973792886L) << 16 >>> 48);
+               long var17 = a$recovered$ae615e86004b2f46(13729, 4193004471619301531L);
+               long var62 = var17 ^ a$recovered$230d95463c05a36f(14631, 724743240594865180L);
+               int var19 = (int)(var62 >>> 48);
+               int var20 = (int)(var62 << 16 >>> 48);
                int var21 = (int)(var62 << 32 >>> 32);
                String[] var10 = new String[3];
                int var14 = 0;
@@ -404,7 +404,7 @@ enum Obf00564$Obf00091 {
 
                      );
                      Obf00487 = Obf00453.Obf00099<"D">(
-                        (char)var19, (char)var20, var21, -7587261846292812056L, var17
+                        (char)var19, (char)var20, var21, a$recovered$83cbd2f88db9c240(6306, 2652822250292616602L), var17
                      );
                      return;
                   }
@@ -443,6 +443,36 @@ enum Obf00564$Obf00091 {
    }
 
    private static long a(int var0, long var1) {
+      int var3 = (var0 ^ (int)var1 ^ 1342) & 32767;
+      if (b[var3] == null) {
+         b[var3] = a[var3] ^ var1;
+      }
+
+      return b[var3];
+   }
+
+   private static long a$recovered$ae615e86004b2f46(int var0, long var1) {
+      var1 = 4193004471619301531L;
+      int var3 = (var0 ^ (int)var1 ^ 1342) & 32767;
+      if (b[var3] == null) {
+         b[var3] = a[var3] ^ var1;
+      }
+
+      return b[var3];
+   }
+
+   private static long a$recovered$230d95463c05a36f(int var0, long var1) {
+      var1 = 724743240594865180L;
+      int var3 = (var0 ^ (int)var1 ^ 1342) & 32767;
+      if (b[var3] == null) {
+         b[var3] = a[var3] ^ var1;
+      }
+
+      return b[var3];
+   }
+
+   private static long a$recovered$83cbd2f88db9c240(int var0, long var1) {
+      var1 = 2652822250292616602L;
       int var3 = (var0 ^ (int)var1 ^ 1342) & 32767;
       if (b[var3] == null) {
          b[var3] = a[var3] ^ var1;

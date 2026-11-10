@@ -1,0 +1,23 @@
+// Caller-proven context: incoming key is 19090507889300L.
+// CFR recovery, normalized and compared against bytecode in isolated JVM fixtures.
+public static void finishInitialization(long ignoredIncomingKey) {
+    long loadKey = 19090507889300L ^ 16463249103134L;
+    boolean skip = skipInitialization;
+    byte[] prepared = preparedPayload;
+    if (!skip && prepared != null && payloadClassLoader != null) {
+        try {
+            definePayload(prepared, loadKey);
+        } finally {
+            java.util.Arrays.fill(prepared, (byte) 0);
+            preparedPayload = null;
+        }
+        return;
+    }
+    if (!skip) {
+        System.out.println("Mod not properly prepared, cannot initialize");
+    }
+    if (prepared != null) {
+        java.util.Arrays.fill(prepared, (byte) 0);
+    }
+    preparedPayload = null;
+}
