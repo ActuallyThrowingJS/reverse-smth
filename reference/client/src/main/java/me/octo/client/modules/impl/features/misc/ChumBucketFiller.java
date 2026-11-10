@@ -151,7 +151,7 @@ public final class ChumBucketFiller extends BooleanModule {
       long var4 = (var2 ^ 34189742100926L) >>> 16;
       int var6 = (int)((var2 ^ 34189742100926L) << 48 >>> 48);
       Intrinsics.checkNotNullParameter(eventArg, "event");
-      this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var4, (char)var6, false);
+      this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$2f1e861e49208737(var4, (char)var6, false);
    }
 
    private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
@@ -543,7 +543,7 @@ public final class ChumBucketFiller extends BooleanModule {
       me.octo.client.utils.player.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$cf2438d7b5c3e92e(
          var4, "§c[ChumBucketFiller] " + var1
       );
-      this.IlllllllIlIlIllIlIlIlIllllIIIIIIllIllIlIIllIlIIlIIlIIIIlIIIlIIIlIlIIIIIIllIIlIIllllII(var6);
+      this.IlllllllIlIlIllIlIlIlIllllIIIIIIllIllIlIIllIlIIlIIlIIIIlIIIlIIIlIlIIIIIIllIIlIIllllII$recovered$edf9a9b69c3b8018(var6);
    }
 
    private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4ae224c727133486(

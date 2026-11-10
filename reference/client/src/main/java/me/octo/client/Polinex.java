@@ -820,5 +820,71 @@ public final class Polinex implements ModInitializer {
          Intrinsics.checkNotNullExpressionValue(var10000, "fromNamespaceAndPath(...)");
          return var10000;
       }
+
+      @JvmStatic
+      @NotNull
+      public final String llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$6be03dedd1d4b0c8(
+         byte var1, long var2, @NotNull String var4
+      ) {
+         var2 = 93763646744265L;
+         long var5 = ((long)var1 << 56 | var2 << 8 >>> 8) ^ IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+         Intrinsics.checkNotNullParameter(
+            var4, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"o">(24305, 3619469468897672610L ^ var5)
+         );
+         ClassLoader var7 = Polinex.class.getClassLoader();
+
+         String var10000;
+         label65: {
+            try {
+               if (StringsKt.startsWith$default(var4, "/", false, 2, null)) {
+                  var10000 = var4.substring(1);
+                  Intrinsics.checkNotNullExpressionValue(
+                     var10000, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"o">(23305, 503481921830418521L ^ var5)
+                  );
+                  break label65;
+               }
+            } catch (Throwable var21) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var21, -2163098123883847252L, var5
+               );
+            }
+
+            var10000 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"o">(22836, 4188291862506044006L ^ var5) + var4;
+         }
+
+         String var8 = var10000;
+
+         try {
+            var24 = var7.getResourceAsStream(var8);
+            if (var24 == null) {
+               throw new IllegalStateException(
+                  (IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"o">(12076, 8245817609953315962L ^ var5) + var8)
+                     .toString()
+               );
+            }
+         } catch (Throwable var20) {
+            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               var20, -2163098123883847252L, var5
+            );
+         }
+
+         InputStream var9 = var24;
+         var var10 = var9;
+         Throwable var11 = null;
+
+         String var23;
+         try {
+            InputStream var12 = var10;
+            boolean var13 = false;
+            var23 = new String(ByteStreamsKt.readBytes(var12), Charsets.UTF_8);
+         } catch (Throwable var18) {
+            var11 = var18;
+            throw var18;
+         } finally {
+            CloseableKt.closeFinally(var10, var11);
+         }
+
+         return var23;
+      }
    }
 }

@@ -1015,7 +1015,7 @@ public final class MacroPauseManager {
          var1.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(false);
 
          try {
-            var1.lIlIIIlIllIlllllIIIllllllIllIIlIIlllIlIIlIIlllIlllIlIlIIlIIlllIlllIlllllIIlllIIIIIIll(var8, var9, (byte)var10);
+            var1.lIlIIIlIllIlllllIIIllllllIllIIlIIlllIlIIlIIlllIlllIlIlIIlIIlllIlllIlllllIIlllIIIIIIll$recovered$59bd323cf3b0840c(var8, var9, (byte)var10);
          } catch (Throwable var62) {
          }
 
@@ -1109,6 +1109,22 @@ public final class MacroPauseManager {
             var25
          );
       return true;
+   }
+
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$00c9ba3226b6e214(
+      @NotNull llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII macroArg, long argument2Arg
+   ) {
+      argument2Arg = 19466187018659L;
+      argument2Arg = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ argument2Arg;
+      long var4 = argument2Arg ^ 107170223645196L;
+      Intrinsics.checkNotNullParameter(macroArg, "macro");
+      return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fb7cd985759af9a8(
+         macroArg,
+         MacroPauseManager.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.AUTO,
+         llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"a">(19870, 2831346467490325416L ^ argument2Arg),
+         true,
+         var4
+      );
    }
 
    private static final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI {

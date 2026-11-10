@@ -1,0 +1,424 @@
+[
+  {
+    "owner": "me/octo/client/utils/client/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(JLjava/lang/String;Ljava/lang/String;)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$219d3557e8b7d651",
+    "constantPrimitiveLocalSlots": {
+      "0": 11156059342263
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/utils/network/proxy/ProxyType$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Ljava/lang/String;J)Lme/octo/client/utils/network/proxy/ProxyType;",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$565366bd41cc8b49",
+    "constantPrimitiveLocalSlots": {
+      "2": 58156562275347
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/utils/security/ExploitPreventerSupport",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Ljava/nio/file/Path;JLcom/google/common/hash/HashFunction;)Lcom/google/common/hash/HashCode;",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c5a47076c63f5977",
+    "constantPrimitiveLocalSlots": {
+      "1": 81182091261141
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/events/Event",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(ICSZ)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$12c9882b98b7c200",
+    "constantPrimitiveLocalSlots": {
+      "1": 17147,
+      "2": 18380,
+      "3": 21433,
+      "4": 1
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/events/Event",
+    "originalName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+    "descriptor": "(JS)Z",
+    "cloneName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$6593e104a4254b2a",
+    "constantPrimitiveLocalSlots": {
+      "1": 1954990049
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+    "originalName": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl",
+    "descriptor": "(JLjava/lang/String;)V",
+    "cloneName": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$21c595e174b5fe07",
+    "constantPrimitiveLocalSlots": {
+      "1": 44977615150653
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/helpers/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(CILme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;CI)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5f5a3077a934af64",
+    "constantPrimitiveLocalSlots": {
+      "5": 2000
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/helpers/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(CILme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;CI)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$600ffa4821bfa967",
+    "constantPrimitiveLocalSlots": {
+      "5": 5000
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/helpers/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(CILme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;CI)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$74680d8436c8a6a6",
+    "constantPrimitiveLocalSlots": {
+      "1": 0,
+      "2": 813024280,
+      "4": 39721,
+      "5": 10000
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/events/Event",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(ICSZ)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$012e4972b4ccc9dc",
+    "constantPrimitiveLocalSlots": {
+      "1": 17147,
+      "2": 18380,
+      "3": 21433
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+    "originalName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+    "descriptor": "(J[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+    "cloneName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$02f93d1d77667843",
+    "constantPrimitiveLocalSlots": {
+      "1": 78021787274347
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Ljava/lang/String;Ljava/util/ArrayList;IJ)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$423d03d38a0301e9",
+    "constantPrimitiveLocalSlots": {
+      "4": 2675390427
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+    "originalName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+    "descriptor": "(SISI)V",
+    "cloneName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$97f60617c82f9277",
+    "constantPrimitiveLocalSlots": {
+      "4": 4
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+    "originalName": "IlllIIIllIIlllIlllIlIIIlllIlIlllIllIlIIllIlIllIllllllIIIlIIIlIlllIIIlIlllIIlIIIlIIlIl",
+    "descriptor": "(J)V",
+    "cloneName": "IlllIIIllIIlllIlllIlIIIlllIlIlllIllIlIIllIlIllIllllllIIIlIIIlIlllIIIlIlllIIlIIIlIIlIl$recovered$7ea50d27b73759e6",
+    "constantPrimitiveLocalSlots": {
+      "1": 66526709680881
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(JLjava/lang/String;Ljava/util/List;I)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$602bb8b76bac7ecc",
+    "constantPrimitiveLocalSlots": {
+      "1": 10390
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
+    "originalName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+    "descriptor": "(ISCI)V",
+    "cloneName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$1764e2e12b5f8e8d",
+    "constantPrimitiveLocalSlots": {
+      "1": 0
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
+    "originalName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+    "descriptor": "(ISCI)V",
+    "cloneName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$0a48228a336373e9",
+    "constantPrimitiveLocalSlots": {
+      "1": 1
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(JLnet/minecraft/world/phys/Vec3;DD)D",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f84e5abdd714fa54",
+    "constantPrimitiveLocalSlots": {
+      "1": 56914771418452
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(JLme/octo/client/modules/lIIlllllIIIlllIIIllIIlllIllllllIIIIIlllllIIlIIIIIIIlllIlIlIIlIlllIIlIIlIIlIIlllIIlllI;)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$24ccd6ddf449e1d9",
+    "constantPrimitiveLocalSlots": {
+      "1": 32476375149244
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+    "originalName": "lIIlIIIllIIIllIllIIlIIIIlllIllIIlIlIIlIllIlIllllllllIllIllllIlIIlIIIllIIllIIlllllIllI",
+    "descriptor": "(J)V",
+    "cloneName": "lIIlIIIllIIIllIllIIlIIIIlllIllIIlIlIIlIllIlIllllllllIllIllllIlIIlIIIllIIllIIlllllIllI$recovered$a3633deeb771d454",
+    "constantPrimitiveLocalSlots": {
+      "1": 91498079937486
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+    "originalName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+    "descriptor": "(SISI)V",
+    "cloneName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$c8a0022d269d58be",
+    "constantPrimitiveLocalSlots": {
+      "4": 8
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+    "originalName": "IIlllIlIlIllIIlIlIlIlllIllIIllllIIllllllIlllIlIlIIllIlIIllllllIlIIIlllIIIIlllIIllIlII",
+    "descriptor": "(J)V",
+    "cloneName": "IIlllIlIlIllIIlIlIlIlllIllIIllllIIllllllIlllIlIlIIllIlIIllllllIlIIIlllIIIIlllIIllIlII$recovered$28c47028010e8cec",
+    "constantPrimitiveLocalSlots": {
+      "1": 94700833976379
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/utils/player/pathfinder/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Lme/octo/client/utils/player/pathfinder/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;J)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$766c94c252562279",
+    "constantPrimitiveLocalSlots": {
+      "2": 61366396041096
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/utils/player/pathfinder/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Lme/octo/client/utils/player/pathfinder/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;IIC)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c2a57523d324c848",
+    "constantPrimitiveLocalSlots": {
+      "2": 27519,
+      "3": 39505,
+      "4": 53882
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII",
+    "originalName": "IIlllIlIlIllIIlIlIlIlllIllIIllllIIllllllIlllIlIlIIllIlIIllllllIlIIIlllIIIIlllIIllIlII",
+    "descriptor": "(J)V",
+    "cloneName": "IIlllIlIlIllIIlIlIlIlllIllIIllllIIllllllIlllIlIlIIllIlIIllllllIlIIIlllIIIIlllIIllIlII$recovered$0b58899a59f7cbbc",
+    "constantPrimitiveLocalSlots": {
+      "1": 40177313885083
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+    "originalName": "IllllIIIIIIIlIlIllIIIlIIIIIIlIIIlIIllllIIIlIIIlIllllIIIlIllIllIlIIlllIlllIlIIIlIIlIII",
+    "descriptor": "(CSI)V",
+    "cloneName": "IllllIIIIIIIlIlIllIIIlIIIIIIlIIIlIIllllIIIlIIIlIllllIIIlIllIllIlIIlllIlllIlIIIlIIlIII$recovered$389d25916c3c13db",
+    "constantPrimitiveLocalSlots": {
+      "1": 0,
+      "2": 9317,
+      "3": 1957994912
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+    "originalName": "lIlIIIlIllIlllllIIIllllllIllIIlIIlllIlIIlIIlllIlllIlIlIIlIIlllIlllIlllllIIlllIIIIIIll",
+    "descriptor": "(IIB)V",
+    "cloneName": "lIlIIIlIllIlllllIIIllllllIllIIlIIlllIlIIlIIlllIlllIlIlIIlIIlllIlllIlllllIIlllIIIIIIll$recovered$59bd323cf3b0840c",
+    "constantPrimitiveLocalSlots": {
+      "1": 6480,
+      "2": 7743682,
+      "3": -89
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/render/ClientShaders",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(SLjava/lang/String;Ljava/lang/String;IC)Lnet/minecraft/resources/Identifier;",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8ce348aa15c13929",
+    "constantPrimitiveLocalSlots": {
+      "1": 0,
+      "4": 733748680,
+      "5": 37438
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/helpers/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(CILme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;CI)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$784143ce09cb0dad",
+    "constantPrimitiveLocalSlots": {
+      "1": 0,
+      "2": 813024280,
+      "4": 39721
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/utils/player/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(SFFCI)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ff9f6959ff04b590",
+    "constantPrimitiveLocalSlots": {
+      "1": 0,
+      "4": 1442,
+      "5": -1958881413
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/utils/player/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(SIILjava/lang/Runnable;)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d723373998ab6ed6",
+    "constantPrimitiveLocalSlots": {
+      "1": 0,
+      "2": 1511491152,
+      "3": 48980
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/utils/player/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+    "originalName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+    "descriptor": "(Lnet/minecraft/world/phys/Vec3;J)V",
+    "cloneName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$d9581b534ffcca28",
+    "constantPrimitiveLocalSlots": {
+      "2": 39581835087560
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/utils/player/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+    "originalName": "IllIlllllIIlIIIIIIIllIllIlIllIIlllIIIIIlIlIIllIlIlIllIlIIIlIIIlllIlIlIlIlllIIllIlIIlI",
+    "descriptor": "(JS)V",
+    "cloneName": "IllIlllllIIlIIIIIIIllIllIlIllIIlllIIIIIlIlIIllIlIlIllIlIIIlIIIlllIlIlIlIlllIIllIlIIlI$recovered$3be198928f1974b8",
+    "constantPrimitiveLocalSlots": {
+      "1": 232304610
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/utils/player/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(JLme/octo/client/utils/player/lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI;)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f8494fe39a5b3c0a",
+    "constantPrimitiveLocalSlots": {
+      "1": 63517232383841
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/utils/player/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+    "originalName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+    "descriptor": "(Lnet/minecraft/world/phys/Vec3;J)V",
+    "cloneName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$444f3768e0801909",
+    "constantPrimitiveLocalSlots": {
+      "2": 1028036731325
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/manager/MacroPauseManager",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Lme/octo/client/gui/clickgui/modules/impl/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII;J)Z",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$00c9ba3226b6e214",
+    "constantPrimitiveLocalSlots": {
+      "2": 19466187018659
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+    "originalName": "llIIIllIIIIllllllIIIlIIIIIIIlllIIllllIlllIlIlIIlIIIIlIIIlllllIIllIllllllIlIIlIIlIlIII",
+    "descriptor": "(J)V",
+    "cloneName": "llIIIllIIIIllllllIIIlIIIIIIIlllIIllllIlllIlIlIIlIIIIlIIIlllllIIllIllllllIlIIlIIlIlIII$recovered$1a238a83554043ce",
+    "constantPrimitiveLocalSlots": {
+      "1": 21323850445992
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/gui/clickgui/modules/impl/BooleanModule",
+    "originalName": "lIlIllIllIIIlllIIIIIlIllIIIIIlllllIIIIIIllIIllIIIIllIlIIlIlIIIIllIIllIIIIIIIlIlIIIIII",
+    "descriptor": "(JB)V",
+    "cloneName": "lIlIllIllIIIlllIIIIIlIllIIIIIlllllIIIIIIllIIllIIIIllIlIIlIlIIIIllIIllIIIIIIIlIlIIIIII$recovered$c2bbd42a86d8d53e",
+    "constantPrimitiveLocalSlots": {
+      "1": 153161343352
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/render/ClientShaders",
+    "originalName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+    "descriptor": "(Ljava/lang/String;Ljava/lang/String;J)Lnet/minecraft/resources/Identifier;",
+    "cloneName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$075bf5be0a51d1cb",
+    "constantPrimitiveLocalSlots": {
+      "3": 80370633610555
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/Polinex$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+    "originalName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+    "descriptor": "(BJLjava/lang/String;)Ljava/lang/String;",
+    "cloneName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$6be03dedd1d4b0c8",
+    "constantPrimitiveLocalSlots": {
+      "2": 93763646744265
+    },
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  }
+]

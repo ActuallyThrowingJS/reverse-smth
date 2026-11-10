@@ -224,5 +224,36 @@ public enum ProxyType {
 
          return new String(var3, 0, var1);
       }
+
+      @Nullable
+      public final ProxyType IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$565366bd41cc8b49(
+         @NotNull String valueArg, long argument2Arg
+      ) {
+         argument2Arg = 58156562275347L;
+         argument2Arg = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ argument2Arg;
+         Intrinsics.checkNotNullParameter(valueArg, "value");
+         Iterable var4 = (Iterable)ProxyType.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+         Iterator var5 = var4.iterator();
+
+         Object var10000;
+         while (true) {
+            if (var5.hasNext()) {
+               Object var6 = var5.next();
+               ProxyType var7 = (ProxyType)var6;
+               boolean var8 = false;
+               if (!Intrinsics.areEqual(var7.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(), valueArg)) {
+                  continue;
+               }
+
+               var10000 = var6;
+               break;
+            }
+
+            var10000 = null;
+            break;
+         }
+
+         return (ProxyType)var10000;
+      }
    }
 }

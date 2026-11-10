@@ -562,4 +562,18 @@ public class BooleanModule
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   public void IlllllllIlIlIllIlIlIlIllllIIIIIIllIllIlIIllIlIIlIIlIIIIlIIIlIIIlIlIIIIIIllIIlIIllllII$recovered$edf9a9b69c3b8018(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public void lIlIllIllIIIlllIIIIIlIllIIIIIlllllIIIIIIllIIllIIIIllIlIIlIlIIIIllIIllIIIIIIIlIlIIIIII$recovered$c2bbd42a86d8d53e(long var1, byte var3) {
+      var1 = 153161343352L;
+      long var4 = var1 << 8 | (long)var3 << 56 >>> 56;
+      long var10001 = var4 ^ 64842573134489L;
+      int var6 = (int)((var4 ^ 64842573134489L) >>> 32);
+      int var7 = (int)((var4 ^ 64842573134489L) << 32 >>> 40);
+      int var8 = (int)(var10001 << 56 >>> 56);
+      this.lIlIIIlIllIlllllIIIllllllIllIIlIIlllIlIIlIIlllIlllIlIlIIlIIlllIlllIlllllIIlllIIIIIIll(var6, var7, (byte)var8);
+   }
 }

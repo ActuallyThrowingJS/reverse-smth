@@ -18,7 +18,7 @@ The client pass solved 2,255 ZKM key sites, including seven recovered from nativ
 
 The mapping pass provides 81 class aliases, 1,059 field names and 1,434 renamed method declarations. Names come from decrypted Kotlin parameter checks, constructor assignments, event producers, type information and display strings. **Aliases inferred from behavior or display names are proposed readable names, not recovered original identifiers.** The parameter report retains 2,132 original Kotlin parameter names. Decompiled parameters use an `Arg` suffix to avoid a Vineflower naming inconsistency.
 
-The original JARs contain 122 loader and 396 client JNIC implementation bodies. All 518 native registration records were matched to supplied declarations and executable ELF ranges. Their addresses are mapped; 32 bodies have now been reconstructed, while the others remain unresolved. Eleven additional `NativePathFinder` native declarations are outside these JNIC registration sets.
+The original JARs contain 122 loader and 396 client JNIC implementation bodies. All 518 native registration records were matched to supplied declarations and executable ELF ranges. Their addresses are mapped; 34 bodies have now been reconstructed, while the others remain unresolved. Eleven additional `NativePathFinder` native declarations are outside these JNIC registration sets.
 
 ## Native code and Ghidra
 
@@ -78,3 +78,9 @@ The bytecode tools now use ASM 9.8 for Java 25 class-file support. See `recovery
 A further reference-table investigation recovered 2,348 encrypted member records without relying on known caller keys. Every recovered record was verified against the original decoder, covering all 64 selector cases. Using this catalog to infer additional missing method keys is still experimental; the catalog itself is in `evidence/extended/member-catalog.json`.
 
 The conditional-key experiment now finds 4,114 method contexts and decodes additional strings and member references in analysis copies. It passes stack verification over 55,069 bodies, but caller reachability remains unproven. See [`reports/inferred-contexts`](reports/inferred-contexts) for the assumptions, results, interrupted frame-computation pass and replay instructions. These results do not replace the primary source tree.
+
+## Current handoff and caller pass
+
+Start with [`HANDOFF.md`](HANDOFF.md) for current context, reproduction details, known limits and prioritized next steps. The latest caller pass adds 76 proven constant-argument variants; 40 decompile without recorded method failures. Two additional native lazy-cast methods bring the total to 34 of 518, with 484 remaining. The assembly preserves the existing 5,159 generic failures and 24 class-write warnings; it does not recover another complete generic method.
+
+There are also 32 constructor-derived module-name proposals in [`mappings/module-name-proposals.json`](mappings/module-name-proposals.json), not yet applied to the source tree, and a partial native initializer trace that decodes 21 strings under explicitly mocked application calls. See [`reports/round6`](reports/round6) for measured coverage. The full Gradle build still fails.

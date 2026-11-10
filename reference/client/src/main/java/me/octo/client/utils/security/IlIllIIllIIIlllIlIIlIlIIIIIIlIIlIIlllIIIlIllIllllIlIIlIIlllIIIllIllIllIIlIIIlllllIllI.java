@@ -52,9 +52,9 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       Runtime.getRuntime().halt(1);
    }
 
-   private static final native <unrepresentable> IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-      Lazy<<unrepresentable>> var0
-   );
+   private static final <unrepresentable> IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(Lazy<<unrepresentable>> var0) {
+      return (<unrepresentable>)var0.getValue();
+   }
 
    private static final native <unrepresentable> llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(long var0);
 
@@ -76,9 +76,9 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       Runtime.getRuntime().halt(1);
    }
 
-   private static final native <unrepresentable> IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(
-      Lazy<<unrepresentable>> var0
-   );
+   private static final <unrepresentable> IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(Lazy<<unrepresentable>> var0) {
+      return (<unrepresentable>)var0.getValue();
+   }
 
    private static final native <unrepresentable> IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(long var0);
 

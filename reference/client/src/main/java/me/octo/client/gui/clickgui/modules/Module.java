@@ -705,4 +705,76 @@ public abstract class Module
          );
       }
    }
+
+   public final void IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$21c595e174b5fe07(
+      long argument1Arg, @NotNull String msgArg
+   ) {
+      argument1Arg = 44977615150653L;
+      argument1Arg = IllllIlllllIIllIlIIIllllIllIllIllllIIIllIllIllIIIIIIIIlllllIIIlIIlllIIIIIllIIllIllIll ^ argument1Arg;
+      long var4 = argument1Arg ^ 75367660679011L;
+      Intrinsics.checkNotNullParameter(msgArg, "msg");
+      me.octo.client.utils.player.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$8f5466ae1bb10fab(
+         this.name + ": " + msgArg, var4
+      );
+   }
+
+   @NotNull
+   public final Setting[] llIIIIIlIIllIllIIIlllIllIlllIIlllIIlllIlIIIIlIlIlllIIIIlIIlIllIIIIIllIllIIIlIIlIlllll$recovered$95669e4bd9b55b15(
+      short param1, int param2, int param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$02f93d1d77667843(
+      long argument1Arg, @NotNull Setting... newSettingsArg
+   ) {
+      argument1Arg = 78021787274347L;
+      argument1Arg = IllllIlllllIIllIlIIIllllIllIllIllllIIIllIllIllIIIIIIIIlllllIIIlIIlllIIIIIllIIllIllIll ^ argument1Arg;
+      Intrinsics.checkNotNullParameter(newSettingsArg, "newSettings");
+      int var4 = 0;
+
+      for (int var5 = newSettingsArg.length; var4 < var5; var4++) {
+         Setting var6 = newSettingsArg[var4];
+         var6.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this);
+      }
+
+      me.octo.client.utils.client.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var11 = me.octo.client.utils.client.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+      Setting[] var12 = this.settings;
+      boolean var7 = false;
+      SpreadBuilder var8 = new SpreadBuilder(2);
+      var8.addSpread(var12);
+      var8.addSpread(newSettingsArg);
+      this.settings = (Setting[])var8.toArray(new Setting[var8.size()]);
+   }
+
+   public final void IllllIIIIIIIlIlIllIIIlIIIIIIlIIIlIIllllIIIlIIIlIllllIIIlIllIllIlIIlllIlllIlIIIlIIlIII$recovered$389d25916c3c13db(
+      char var1, short var2, int var3
+   ) {
+      byte var8 = 0;
+      var2 = 9317;
+      var3 = 1957994912;
+      long var4 = ((long)var8 << 48 | (long)var2 << 48 >>> 16 | (long)var3 << 32 >>> 32)
+         ^ IllllIlllllIIllIlIIIllllIllIllIllllIIIllIllIllIIIIIIIIlllllIIIlIIlllIIIIIllIIllIllIll;
+      long var6 = var4 ^ 19197158446922L;
+      PolinexAccessor.INSTANCE
+         .eventBus
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$864ed80a9d741ba9(this, var6);
+   }
+
+   public final void lIlIIIlIllIlllllIIIllllllIllIIlIIlllIlIIlIIlllIlllIlIlIIlIIlllIlllIlllllIIlllIIIIIIll$recovered$59bd323cf3b0840c(
+      int var1, int var2, byte var3
+   ) {
+      short var9 = 6480;
+      var2 = 7743682;
+      var3 = -89;
+      long var4 = ((long)var9 << 32 | (long)var2 << 40 >>> 32 | (long)var3 << 56 >>> 56)
+         ^ IllllIlllllIIllIlIIIllllIllIllIllllIIIllIllIllIIIIIIIIlllllIIIlIIlllIIIIIllIIllIllIll;
+      long var10001 = var4 ^ 87150648666995L;
+      int var6 = (int)((var4 ^ 87150648666995L) >>> 48);
+      int var7 = (int)((var4 ^ 87150648666995L) << 16 >>> 48);
+      int var8 = (int)(var10001 << 32 >>> 32);
+      PolinexAccessor.INSTANCE
+         .eventBus
+         .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$69d9afbece88b3cf(this, (short)var6, (short)var7, var8);
+   }
 }

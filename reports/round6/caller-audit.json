@@ -1,0 +1,1747 @@
+{
+  "profileCount": 4114,
+  "profilesWithExactDispatchConstantArgumentCallers": 20,
+  "matchingCallSites": 124,
+  "unknownArgumentCallSites": 9669,
+  "differentConstantArgumentCallSites": 0,
+  "unanalyzedMethods": 0,
+  "applicationEntryReachabilityEstablished": false,
+  "calls": [
+    {
+      "callerOwner": "me/octo/client/failsafes/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 445,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/other/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;)V",
+      "instruction": 13,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/other/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;)V",
+      "instruction": 13,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/MotionUpdateEvent;)V",
+      "instruction": 126,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 1049,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c226b17686b0126d",
+      "callerDescriptor": "(JI)V",
+      "instruction": 20,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI;)V",
+      "instruction": 199,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI;)V",
+      "instruction": 252,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 897,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 1335,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 2006,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 2368,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 2494,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 2692,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 3003,
+      "targetOwner": "me/octo/client/failsafes/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/lang/String;)V",
+      "observedBindings": {
+        "arg:1": 42964687512342
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll;)V",
+      "instruction": 65,
+      "targetOwner": "me/octo/client/utils/client/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JZJ)Z",
+      "observedBindings": {
+        "arg:4": 59099628631034
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/failsafes/reactions_v2/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7a1e5c05a4d5989b",
+      "callerDescriptor": "(JJ)Ljava/util/List;",
+      "instruction": 272,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "targetName": "IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 49974431611720
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/gui/clickgui/modules/impl/IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e5e9e3e4d91080c9",
+      "callerDescriptor": "(JLme/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI;)[Lme/octo/client/gui/clickgui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll;",
+      "instruction": 11,
+      "targetOwner": "me/octo/client/gui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI;)[Lme/octo/client/gui/clickgui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll;",
+      "observedBindings": {
+        "arg:1": 17311287811504
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/gui/clickgui/modules/impl/lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$eff5f72add17a0ec",
+      "callerDescriptor": "(JLme/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI;)[Lme/octo/client/gui/clickgui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll;",
+      "instruction": 11,
+      "targetOwner": "me/octo/client/gui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI;)[Lme/octo/client/gui/clickgui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll;",
+      "observedBindings": {
+        "arg:1": 17311287811504
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/gui/clickgui/modules/impl/lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2f4a7e3c5edd1db9",
+      "callerDescriptor": "(JLme/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI;)[Lme/octo/client/gui/clickgui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll;",
+      "instruction": 11,
+      "targetOwner": "me/octo/client/gui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI;)[Lme/octo/client/gui/clickgui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll;",
+      "observedBindings": {
+        "arg:1": 17311287811504
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/gui/clickgui/modules/impl/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII",
+      "callerName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$90378be02580a3a6",
+      "callerDescriptor": "(JLme/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI;)[Lme/octo/client/gui/clickgui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll;",
+      "instruction": 11,
+      "targetOwner": "me/octo/client/gui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll",
+      "targetName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+      "targetDescriptor": "(JLme/octo/client/gui/clickgui/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI;)[Lme/octo/client/gui/clickgui/IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll;",
+      "observedBindings": {
+        "arg:1": 1182076739696
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/gui/clickgui/settings/impl/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "callerName": "IlIIIIIIlIIllIIIIlIllllIllIIlIlIllIIIllIIIIIllllIlllllllIIIlIllllIIlIIlIlIlIlIIIIllll$recovered$3090fe6fc4754881",
+      "callerDescriptor": "(CSI)Ljava/lang/String;",
+      "instruction": 35,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+      "targetName": "IIlIIIIllIlIIlIIIlllIlIlIIllllIlIIIllIIlIlllIlIlllIIlIIIIllIIllllIlIlllIlIlIIlllllIII",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 54402642269997
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/gui/clickgui/settings/impl/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$4105ae1d1ddb79d7",
+      "callerDescriptor": "(Ljava/lang/String;J)Z",
+      "instruction": 17,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "targetName": "IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 49974431611720
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+      "callerName": "\u003cinit\u003e",
+      "callerDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+      "instruction": 155,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/util/List;)V",
+      "observedBindings": {
+        "arg:1": 83979704977058
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "callerName": "lIlllIIlIlIlllIIIIIlIIlIlllIlIIlIIIIlllIlIlIIlIlIIlIllIIIllIIllIIIlIIlIIIlllIIllIIlll$recovered$e8b10d9197485c56",
+      "callerDescriptor": "(J)V",
+      "instruction": 56,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "lIIlIlIIllIlIIlllllIllIlIlIIllllIllIIIlIllIlIIlIlIlIllIlllIlIIIllIIlIlIIlIlIllllIIlll",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 48305869464025
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ac73e11f70239837",
+      "callerDescriptor": "(JLme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;ZILjava/lang/Object;)V",
+      "instruction": 67,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl",
+      "targetDescriptor": "(JZ)V",
+      "observedBindings": {
+        "arg:1": 111539605284887
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;)V",
+      "instruction": 2025,
+      "targetOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "targetName": "IlIlIlIlIlIlIlIlIllIIlIlIlIlIlIIIllllIlIIIlIIIIIIlIlIlIIllllIlIIIIlllIIlIIIlllIIIIlII",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 90359100407630
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;)V",
+      "instruction": 2139,
+      "targetOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "targetName": "lIlIlIlIIIlIlIIIIIIIIIIIlIllIIIIIIIllIIIIlIIIIIlIllIIIIlIIIIlIIlIllIllIlIlIllIIIlIlll",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 99327912772199
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl",
+      "callerName": "IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$591714f24521a3d8",
+      "callerDescriptor": "(ZJ)V",
+      "instruction": 91,
+      "targetOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "targetName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
+      "targetDescriptor": "(JZ)V",
+      "observedBindings": {
+        "arg:1": 7843461308284
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$ed311f114fc12f62",
+      "callerDescriptor": "(JLme/octo/client/modules/IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+      "instruction": 27,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl",
+      "callerName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$4ff2de7ab7e7b485",
+      "callerDescriptor": "(Lme/octo/client/modules/IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;J)V",
+      "instruction": 24,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/features/misc/Freecam",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/entity/UpdateCameraEvent$Position;)V",
+      "instruction": 55,
+      "targetOwner": "me/octo/client/events/impl/entity/UpdateCameraEvent$Position",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(DJDD)V",
+      "observedBindings": {
+        "arg:3": 121342996240798
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/features/misc/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+      "callerName": "IlllIIlllIIIIIlllIllIIIIIIlIIIIIIllIllIlIlIlIIlIllIlIlllIIIlIIllIlIIlllIIIIlIIIIlllII$recovered$b0b325f1e18db5cd",
+      "callerDescriptor": "(SSI)V",
+      "instruction": 61,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "targetName": "IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 49974431611720
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/features/misc/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "callerName": "IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$8943e154317528cb",
+      "callerDescriptor": "(Ljava/lang/String;J)V",
+      "instruction": 26,
+      "targetOwner": "me/octo/client/gui/clickgui/modules/impl/BooleanModule",
+      "targetName": "IlllllllIlIlIllIlIlIlIllllIIIIIIllIllIlIIllIlIIlIIlIIIIlIIIlIIIlIlIIIIIIllIIlIIllllII",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 118027445868373
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/features/misc/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 194,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "targetName": "IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 49974431611720
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/ChestBackgroundDrawnEvent;)V",
+      "instruction": 156,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl",
+      "callerName": "IIlIllIllIllIlIIIlIIllIllllIIlIIlIIIIIIllllIlIllIIIIIlllIIIlIIIlIIIlIIlIlllIlIIIlllll$recovered$193d80de58963431",
+      "callerDescriptor": "(J)V",
+      "instruction": 15,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IIllIlllIIIIIllllIlllIIllIIIlIIllIIllIIlIllIIllIIIlIllIIlIIIIIlIIIIlIlIIIIIIlIlllIllI",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$9ff107e3af7094d4",
+      "callerDescriptor": "(SLme/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI;ILnet/minecraft/world/phys/Vec3;S)D",
+      "instruction": 412,
+      "targetOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLnet/minecraft/world/phys/Vec3;DD)D",
+      "observedBindings": {
+        "arg:1": 56914771418452
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IIllIlllIIIIIllllIlllIIllIIIlIIllIIllIIlIllIIllIIIlIllIIlIIIIIlIIIIlIlIIIIIIlIlllIllI",
+      "callerName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$384bfb78343eff03",
+      "callerDescriptor": "(JZ)V",
+      "instruction": 18,
+      "targetOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "targetName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
+      "targetDescriptor": "(JZ)V",
+      "observedBindings": {
+        "arg:1": 7843461308284
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IlIIIlIlIIlIlllIlIIlIIllIllIlllllIIIlIllllIlIIIlIlIlllllIIIIIllIlllIlIlllllIlllIlIIll",
+      "callerName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$a497c8e93508b2bd",
+      "callerDescriptor": "(JZ)V",
+      "instruction": 18,
+      "targetOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "targetName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
+      "targetDescriptor": "(JZ)V",
+      "observedBindings": {
+        "arg:1": 7843461308284
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IlIlIlllllIIlIIIIIllllIIIIlIlIlIIIlIlllIlIlllIIllIIIlIllIllIllIlllIlIllllIIlIlIlllIll",
+      "callerName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/other/llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI;)V",
+      "instruction": 156,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IllIIIIIIIlIIlIIIIlIllIIIIlIlIlIlIIIlllllIIllIIIIlIIlIIlIIIlllIlIIIIllIIlIlllllllIIlI",
+      "callerName": "IlllIIIllIIlllIlllIlIIIlllIlIlllIllIlIIllIlIllIllllllIIIlIIIlIlllIIIlIlllIIlIIIlIIlIl$recovered$3d4100d31c71c94b",
+      "callerDescriptor": "(J)V",
+      "instruction": 171,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IllIIIIIIIlIIlIIIIlIllIIIIlIlIlIlIIIlllllIIllIIIIlIIlIIlIIIlllIlIIIIllIIlIlllllllIIlI",
+      "callerName": "IlllIIIllIIlllIlllIlIIIlllIlIlllIllIlIIllIlIllIllllllIIIlIIIlIlllIIIlIlllIIlIIIlIIlIl$recovered$3d4100d31c71c94b",
+      "callerDescriptor": "(J)V",
+      "instruction": 221,
+      "targetOwner": "me/octo/client/gui/clickgui/modules/impl/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+      "targetName": "IlllIIIllIIlllIlllIlIIIlllIlIlllIllIlIIllIlIllIllllllIIIlIIIlIlllIIIlIlllIIlIIIlIIlIl",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 66526709680881
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IllIIlIlIlllIIIIllllIIllIlIIIIIllIllIIIllllIlllllIlIlIIlIIlIlIIIlIlIIIIIIlllIllllIIII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/ChestBackgroundDrawnEvent;)V",
+      "instruction": 429,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IllIIlIlIlllIIIIllllIIllIlIIIIIllIllIIIllllIlllllIlIlIIlIIlIlIIIlIlIIIIIIlllIllllIIII",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 277,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IllIIlIlIlllIIIIllllIIllIlIIIIIllIllIIIllllIlllllIlIlIIlIIlIlIIIlIlIIIIIIlllIllllIIII",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 294,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl",
+      "callerName": "lllIIllIIIlIlIIIlIIlIlIlIIIIIIIIlIlllllIIIIlllIIllIllllIllIIIlIIIIIlIllIIllllIIIlllll$recovered$1796e49eaf1ca7df",
+      "callerDescriptor": "(J)V",
+      "instruction": 34,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "targetName": "IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 49974431611720
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b8694060aa37d1cf",
+      "callerDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "instruction": 27,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/IlllllllIIIlIlllllIIIllIlIIIlIlIlIIllllIlIlIlIlllIIIIlIIlIlllIllllIlIlIIlIIIlIIIIIIll",
+      "callerName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$43ca96b5e8f8fe65",
+      "callerDescriptor": "(JZ)V",
+      "instruction": 41,
+      "targetOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "targetName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
+      "targetDescriptor": "(JZ)V",
+      "observedBindings": {
+        "arg:1": 7843461308284
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/farming/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/ChestBackgroundDrawnEvent;)V",
+      "instruction": 462,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/farming/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/ChestBackgroundDrawnEvent;)V",
+      "instruction": 883,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/farming/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/ChestBackgroundDrawnEvent;)V",
+      "instruction": 985,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/farming/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/ChestBackgroundDrawnEvent;)V",
+      "instruction": 1103,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/farming/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/ChestBackgroundDrawnEvent;)V",
+      "instruction": 1572,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/farming/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/ChestBackgroundDrawnEvent;)V",
+      "instruction": 1975,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/foraging/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 65,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIIllllIIlIIIIllIlIIIIIllIllllllIIIlIlIlIlIllIIlIlIllIlIIIIIIllIIIIlIlllIlIlllIlllIll",
+      "callerName": "llIllIIlllIlIlIIllIlllIlIllIIllllllIllllIllIIIllIllllIIIIlIIllIIIIIlIllIllIlIIIIIllIl$recovered$25b285d8ddc8bdd5",
+      "callerDescriptor": "(J)V",
+      "instruction": 449,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIIllllIIlIIIIllIlIIIIIllIllllllIIIlIlIlIlIllIIlIlIllIlIIIIIIllIIIIlIlllIlIlllIlllIll",
+      "callerName": "llIllIIlllIlIlIIllIlllIlIllIIllllllIllllIllIIIllIllllIIIIlIIllIIIIIlIllIllIlIIIIIllIl$recovered$25b285d8ddc8bdd5",
+      "callerDescriptor": "(J)V",
+      "instruction": 1101,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIIllllIIlIIIIllIlIIIIIllIllllllIIIlIlIlIlIllIIlIlIllIlIIIIIIllIIIIlIlllIlIlllIlllIll",
+      "callerName": "lIIllllIIlllIIllllllIIIIlIIIIlIIIllIIlIIIllllIlIllIIllIlllIlIIIllIlIllIIlIIIlIIIIIIII$recovered$ec986848d0fe4853",
+      "callerDescriptor": "(J)V",
+      "instruction": 137,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$4d6cad85dd3b9789",
+      "callerDescriptor": "(J)V",
+      "instruction": 59,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$4d6cad85dd3b9789",
+      "callerDescriptor": "(J)V",
+      "instruction": 77,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$4d6cad85dd3b9789",
+      "callerDescriptor": "(J)V",
+      "instruction": 210,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$4d6cad85dd3b9789",
+      "callerDescriptor": "(J)V",
+      "instruction": 262,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$4d6cad85dd3b9789",
+      "callerDescriptor": "(J)V",
+      "instruction": 352,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$4d6cad85dd3b9789",
+      "callerDescriptor": "(J)V",
+      "instruction": 370,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
+      "callerName": "llIlllIlIlIlIIIIIIllIIIIIlIIllllIIIllllIIllIIIllllIlIIIIIIllIlIllllIlIIIIlIIllllIlIll$recovered$2a77ef27570d7e0c",
+      "callerDescriptor": "(J)V",
+      "instruction": 19,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
+      "callerName": "llIlllIlIlIlIIIIIIllIIIIIlIIllllIIIllllIIllIIIllllIlIIIIIIllIlIllllIlIIIIlIIllllIlIll$recovered$2a77ef27570d7e0c",
+      "callerDescriptor": "(J)V",
+      "instruction": 22,
+      "targetOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+      "targetName": "lIIlIlIIllIlIIlllllIllIlIlIIllllIllIIIlIllIlIIlIlIlIllIlllIlIIIllIIlIlIIlIlIllllIIlll",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 48305869464025
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2b5494b013e2acc4",
+      "callerDescriptor": "(CILnet/minecraft/core/BlockPos;S)V",
+      "instruction": 48,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2b5494b013e2acc4",
+      "callerDescriptor": "(CILnet/minecraft/core/BlockPos;S)V",
+      "instruction": 75,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$ac34299a6f366a26",
+      "callerDescriptor": "(J)V",
+      "instruction": 84,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$ac34299a6f366a26",
+      "callerDescriptor": "(J)V",
+      "instruction": 151,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$ac34299a6f366a26",
+      "callerDescriptor": "(J)V",
+      "instruction": 274,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$ac34299a6f366a26",
+      "callerDescriptor": "(J)V",
+      "instruction": 326,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$ac34299a6f366a26",
+      "callerDescriptor": "(J)V",
+      "instruction": 358,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+      "targetName": "IIlIIIIllIlIIlIIIlllIlIlIIllllIlIIIllIIlIlllIlIlllIIlIIIIllIIllllIlIlllIlIlIIlllllIII",
+      "targetDescriptor": "(J)Ljava/util/List;",
+      "observedBindings": {
+        "arg:1": 113593473927080
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$ac34299a6f366a26",
+      "callerDescriptor": "(J)V",
+      "instruction": 398,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+      "callerName": "lIllIIIllIlIIlIlIlIlIlIllIlIIlIIlIlllIIIllllllIIllIlIllIllIlllIIIIlIIIlllIlllllllIIlI$recovered$ac34299a6f366a26",
+      "callerDescriptor": "(J)V",
+      "instruction": 432,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+      "callerName": "llIlllIlIlIlIIIIIIllIIIIIlIIllllIIIllllIIllIIIllllIlIIIIIIllIlIllllIlIIIIlIIllllIlIll$recovered$f0813f1da0d47146",
+      "callerDescriptor": "(J)V",
+      "instruction": 19,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+      "callerName": "llIlllIlIlIlIIIIIIllIIIIIlIIllllIIIllllIIllIIIllllIlIIIIIIllIlIllllIlIIIIlIIllllIlIll$recovered$f0813f1da0d47146",
+      "callerDescriptor": "(J)V",
+      "instruction": 22,
+      "targetOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+      "targetName": "lIIlIlIIllIlIIlllllIllIlIlIIllllIllIIIlIllIlIIlIlIlIllIlllIlIIIllIIlIlIIlIlIllllIIlll",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 48305869464025
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$df7b6410b521cba8",
+      "callerDescriptor": "(SLjava/util/List;IS)V",
+      "instruction": 45,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$df7b6410b521cba8",
+      "callerDescriptor": "(SLjava/util/List;IS)V",
+      "instruction": 107,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 228,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 784,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "targetName": "IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 49974431611720
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 823,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 959,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 1028,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 1119,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/ChestBackgroundDrawnEvent;)V",
+      "instruction": 563,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$eb7354f57d9e90d0",
+      "callerDescriptor": "(Lme/octo/client/modules/impl/macros/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII$IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;J)V",
+      "instruction": 22,
+      "targetOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+      "targetName": "lIIlIlIIllIlIIlllllIllIlIlIIllllIllIIIlIllIlIIlIlIlIllIlllIlIIIllIIlIlIIlIlIllllIIlll",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 48305869464025
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$eb7354f57d9e90d0",
+      "callerDescriptor": "(Lme/octo/client/modules/impl/macros/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII$IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;J)V",
+      "instruction": 37,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI",
+      "callerName": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+      "callerDescriptor": "(Lme/octo/client/events/impl/packet/PacketReceivedEvent;)V",
+      "instruction": 181,
+      "targetOwner": "me/octo/client/gui/clickgui/modules/impl/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+      "targetName": "lIlllIIIIIIIIIIllIlIllIlIllIIlIIlIIIIlIllIllIlIIIllIlllIlIIlllIIlIIIllIllIlIIIIllIlll",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 124171435034510
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lllIIIIlIlIlllllIlIIllIIllIllllIlIIIllIIllIIllIIlIIlIlIIIIlllIIllIlllIIlIIlIlIlIIllll",
+      "callerName": "IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl$recovered$ed64e194124e1afb",
+      "callerDescriptor": "(J)V",
+      "instruction": 34,
+      "targetOwner": "me/octo/client/modules/helpers/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 46159058804680
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/ChestBackgroundDrawnEvent;)V",
+      "instruction": 621,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII",
+      "callerName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$a1b0a7eb21920260",
+      "callerDescriptor": "(Lme/octo/client/utils/skyblock/mining/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI;SIC)V",
+      "instruction": 47,
+      "targetOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+      "targetName": "lIIlIlIIllIlIIlllllIllIlIlIIllllIllIIIlIllIlIIlIlIlIllIlllIlIIIllIIlIlIIlIlIllllIIlll",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 48305869464025
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII",
+      "callerName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$a1b0a7eb21920260",
+      "callerDescriptor": "(Lme/octo/client/utils/skyblock/mining/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI;SIC)V",
+      "instruction": 58,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI",
+      "callerName": "IlIllIlIIIIlIlllIllllIIIlIllIIlllllIIIlIIlIlllIIIIlIlIlllIlIIIIIlIlIIlIlIlIlIIIIlllll$recovered$98c35bc0249eee08",
+      "callerDescriptor": "(J)V",
+      "instruction": 15,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/impl/macros/llllllIIIllllIIlllIIIlIlIIlIIIIlIIllllIlllIllIIIIllIIIlllIIlllIlIllllllIlIlllllllIIII",
+      "callerName": "IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl$recovered$fc1670d2a5cb01c9",
+      "callerDescriptor": "(J)V",
+      "instruction": 31,
+      "targetOwner": "me/octo/client/modules/helpers/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 46159058804680
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlIIlllIIlIlllIIlIlIlI",
+      "callerName": "IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$72ea4b26df285501",
+      "callerDescriptor": "(JZ)V",
+      "instruction": 87,
+      "targetOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "targetName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
+      "targetDescriptor": "(JZ)V",
+      "observedBindings": {
+        "arg:1": 7843461308284
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;)V",
+      "instruction": 276,
+      "targetOwner": "me/octo/client/modules/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
+      "targetName": "lIIIlIIlIllIlIIIIIllIlIllllIIlIlIIIlIlIIIIIlIlllllIllllIIIIlllIlIlIlIlIIllIlIIIIIIIII",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 54094670890612
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;)V",
+      "instruction": 347,
+      "targetOwner": "me/octo/client/modules/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
+      "targetName": "lIIIlIIlIllIlIIIIIllIlIllllIIlIlIIIlIlIIIIIlIlllllIllllIIIIlllIlIlIlIlIIllIlIIIIIIIII",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 54094670890612
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e1ccf537707cd2ae",
+      "callerDescriptor": "(IIIB)Ljava/util/ArrayList;",
+      "instruction": 128,
+      "targetOwner": "me/octo/client/modules/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
+      "targetName": "lIIIlIIlIllIlIIIIIllIlIllllIIlIlIIIlIlIIIIIlIlllllIllllIIIIlllIlIlIlIlIIllIlIIIIIIIII",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 54094670890612
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII",
+      "callerName": "IIIlllllIIIlIIllIllllIIllIIIlllllIlIlIllIIllIIllIlIIIlIlIIllIlIIlllIIIIlllIlIlllllllI$recovered$0612e3718ff644ce",
+      "callerDescriptor": "(J)Lme/octo/client/modules/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;",
+      "instruction": 606,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+      "targetName": "IIlIIIIllIlIIlIIIlllIlIlIIllllIlIIIllIIlIlllIlIlllIIlIIIIllIIllllIlIlllIlIlIIlllllIII",
+      "targetDescriptor": "(J)Ljava/util/List;",
+      "observedBindings": {
+        "arg:1": 113593473927080
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII",
+      "callerName": "IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$637f005a6893e09a",
+      "callerDescriptor": "(JZ)V",
+      "instruction": 91,
+      "targetOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "targetName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
+      "targetDescriptor": "(JZ)V",
+      "observedBindings": {
+        "arg:1": 7843461308284
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/manager/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1d98b4d49897d908",
+      "callerDescriptor": "(JLme/octo/client/gui/clickgui/modules/impl/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII;Lme/octo/client/modules/manager/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI$IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll;)Z",
+      "instruction": 183,
+      "targetOwner": "me/octo/client/gui/clickgui/modules/impl/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+      "targetName": "IlIIIlIlIIIIllllllllIIllIIIlIIIIIIIlIllIIIllIIlIIIllllllllIllllIIllIlIllIIIIllIlIlIlI",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 32380621805453
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/manager/MacroPauseManager",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fb7cd985759af9a8",
+      "callerDescriptor": "(Lme/octo/client/gui/clickgui/modules/impl/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII;Lme/octo/client/modules/manager/MacroPauseManager$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;JZJ)Z",
+      "instruction": 273,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "lIIlIlIIllIlIIlllllIllIlIlIIllllIllIIIlIllIlIIlIlIlIllIlllIlIIIllIIlIlIIlIlIllllIIlll",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 48305869464025
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/modules/manager/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+      "callerName": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$199c647d9bee4f6c",
+      "callerDescriptor": "(SSI)V",
+      "instruction": 51,
+      "targetOwner": "me/octo/client/modules/helpers/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 46159058804680
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/scripting/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "callerName": "IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl$recovered$b807b185cd1f352d",
+      "callerDescriptor": "(JLjava/lang/String;)V",
+      "instruction": 80,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/scripting/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "callerName": "IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl$recovered$b807b185cd1f352d",
+      "callerDescriptor": "(JLjava/lang/String;)V",
+      "instruction": 118,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Lme/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll$IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll;J)V",
+      "observedBindings": {
+        "arg:2": 83239375307055
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/scripting/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$afbecb44de70eb68",
+      "callerDescriptor": "(Ljava/lang/String;JI)V",
+      "instruction": 71,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLme/octo/client/modules/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;I)V",
+      "observedBindings": {
+        "arg:1": 78730267773082
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/scripting/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "callerName": "IlIlIIIlllIlIIlIlllIllIllIIlIllIIllIlIIlIIlIllllllIlIIlIllIllllIIlIIIlIIIllIlIIIIlIIl$recovered$a5fd2d5de63c2b62",
+      "callerDescriptor": "(J)Z",
+      "instruction": 14,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "lllIllIIllIIIllllllIIIlIIlIlIlIIlllllIllllIIIllIllllllllIIlIIlIlIlIIIIIIlIIIlllllllIl",
+      "targetDescriptor": "(J)Z",
+      "observedBindings": {
+        "arg:1": 64889866210598
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/scripting/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f08d63e6980693c2",
+      "callerDescriptor": "(Lorg/graalvm/polyglot/Value;JLorg/graalvm/polyglot/Value;Z)V",
+      "instruction": 149,
+      "targetOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(JLjava/util/List;)V",
+      "observedBindings": {
+        "arg:1": 83979704977058
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/scripting/lIlIlIlIIIlIIIIIllIlIIIIllllIIIlllIIlllIllIlllllIIIllIIlllIllIlIlllIllIlIIlIIllllIlll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$29d650cf92429236",
+      "callerDescriptor": "(Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;J)Ljava/lang/Object;",
+      "instruction": 373,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+      "targetName": "IIlIIIIllIlIIlIIIlllIlIlIIllllIlIIIllIIlIlllIlIlllIIlIIIIllIIllllIlIlllIlIlIIlllllIII",
+      "targetDescriptor": "(J)Ljava/util/List;",
+      "observedBindings": {
+        "arg:1": 113593473927080
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/scripting/lIlIlIlIIIlIIIIIllIlIIIIllllIIIlllIIlllIllIlllllIIIllIIlllIllIlIlllIllIlIIlIIllllIlll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$145dfa6bc12b1dfb",
+      "callerDescriptor": "(JLme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/Object;)Z",
+      "instruction": 305,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/BooleanSetting",
+      "targetName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+      "targetDescriptor": "(JZ)V",
+      "observedBindings": {
+        "arg:1": 59667221453312
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/scripting/lIlIlIlIIIlIIIIIllIlIIIIllllIIIlllIIlllIllIlllllIIIllIIlllIllIlIlllIllIlIIlIIllllIlll",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f22b0ccc92d8ed46",
+      "callerDescriptor": "(JLme/octo/client/gui/clickgui/settings/impl/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII;Ljava/lang/String;Z)V",
+      "instruction": 25,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+      "targetName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+      "targetDescriptor": "(JLjava/lang/String;)Z",
+      "observedBindings": {
+        "arg:1": 33300225605972
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/scripting/llIIlllIlIlllIIllIllIIIIIlIlIlIlIlIIlllIlllllIlIIlIIIlIlllllIIIIllIIIIllIIIlllIlllIIl",
+      "callerName": "reachedLocation",
+      "callerDescriptor": "()Z",
+      "instruction": 13,
+      "targetOwner": "me/octo/client/modules/helpers/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+      "targetName": "IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI",
+      "targetDescriptor": "(J)Z",
+      "observedBindings": {
+        "arg:1": 37057948408956
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/utils/client/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+      "callerName": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$7b7975271c796047",
+      "callerDescriptor": "(J)F",
+      "instruction": 16,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "targetName": "IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 49974431611720
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/utils/client/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+      "callerName": "lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$eb3c6a986725eb48",
+      "callerDescriptor": "(J)F",
+      "instruction": 16,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "targetName": "IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 49974431611720
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/utils/client/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+      "callerName": "IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$8eb2ffd56057fc26",
+      "callerDescriptor": "(J)I",
+      "instruction": 15,
+      "targetOwner": "me/octo/client/gui/clickgui/settings/impl/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+      "targetName": "IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl",
+      "targetDescriptor": "(J)Ljava/lang/String;",
+      "observedBindings": {
+        "arg:1": 49974431611720
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/utils/network/proxy/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+      "callerName": "IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$9062559f69a59e42",
+      "callerDescriptor": "(ISC)V",
+      "instruction": 162,
+      "targetOwner": "me/octo/client/utils/network/proxy/ProxyType$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Ljava/lang/String;J)Lme/octo/client/utils/network/proxy/ProxyType;",
+      "observedBindings": {
+        "arg:2": 58156562275347
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/utils/player/MovementUtils",
+      "callerName": "IIlIIIllllllIIIlllIlIIlIllIlIIllIlIIlIIIIIIIIlIIIlllIlllIIllllIIlIIIIlIlIIIllllIIlllI$recovered$c6b70b1b08a218cd",
+      "callerDescriptor": "(J)V",
+      "instruction": 58,
+      "targetOwner": "me/octo/client/modules/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+      "targetName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
+      "targetDescriptor": "(JZ)V",
+      "observedBindings": {
+        "arg:1": 7843461308284
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/utils/player/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/RenderTickEvent;)V",
+      "instruction": 110,
+      "targetOwner": "me/octo/client/utils/player/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+      "targetName": "lIIIlIIlIllIlIIIIIllIlIllllIIlIlIIIlIlIIIIIlIlllllIllllIIIIlllIlIlIlIlIIllIlIIIIIIIII",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 30827809267391
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/utils/player/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "callerDescriptor": "(Lme/octo/client/events/impl/game/RenderTickEvent;)V",
+      "instruction": 149,
+      "targetOwner": "me/octo/client/utils/player/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+      "targetName": "lIIIlIIlIllIlIIIIIllIlIllllIIlIlIIIlIlIIIIIlIlllllIllllIIIIlllIlIlIlIlIIllIlIIIIIIIII",
+      "targetDescriptor": "(J)V",
+      "observedBindings": {
+        "arg:1": 30827809267391
+      },
+      "exactDispatch": false,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/utils/player/lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll",
+      "callerName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$832055b056193755",
+      "callerDescriptor": "(J)Z",
+      "instruction": 14,
+      "targetOwner": "me/octo/client/utils/player/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII",
+      "targetName": "IIlIIIIllIlIIlIIIlllIlIlIIllllIlIIIllIIlIlllIlIlllIIlIIIIllIIllllIlIlllIlIlIIlllllIII",
+      "targetDescriptor": "(J)Z",
+      "observedBindings": {
+        "arg:1": 10806092283994
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/utils/security/ExploitPreventerSupport",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$814e934b260298d0",
+      "callerDescriptor": "(Ljava/nio/file/Path;Lcom/google/common/hash/HashFunction;CCILcom/google/common/hash/HashCode;)Z",
+      "instruction": 79,
+      "targetOwner": "me/octo/client/utils/security/ExploitPreventerSupport",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Ljava/nio/file/Path;JLcom/google/common/hash/HashFunction;)Lcom/google/common/hash/HashCode;",
+      "observedBindings": {
+        "arg:1": 81182091261141
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    },
+    {
+      "callerOwner": "me/octo/client/utils/security/ExploitPreventerSupport",
+      "callerName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b39406aaf9f5cc23",
+      "callerDescriptor": "(Ljava/net/URL;J)V",
+      "instruction": 114,
+      "targetOwner": "me/octo/client/utils/security/ExploitPreventerSupport",
+      "targetName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "targetDescriptor": "(Ljava/lang/String;J)Z",
+      "observedBindings": {
+        "arg:1": 95500858832719
+      },
+      "exactDispatch": true,
+      "runtimeEntryReachabilityEstablished": false
+    }
+  ]
+}

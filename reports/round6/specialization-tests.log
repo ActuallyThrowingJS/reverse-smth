@@ -1,0 +1,3 @@
+constantFields=0 bindingContexts=2 newClones=2 reusedContexts=0 rewrittenCalls=2 rounds=3 genericMethodsPreserved=true
+constantFields=0 bindingContexts=8 newClones=8 reusedContexts=0 rewrittenCalls=8 rounds=4 genericMethodsPreserved=true
+PASS 26 JVM cases; constant-key propagation, generic methods and overridden dispatch preserved

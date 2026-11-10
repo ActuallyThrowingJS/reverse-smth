@@ -1,0 +1,8 @@
+Note: tools/vendor/com/zkmdeobf/MiniInterpreter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: tools/vendor/unlegit/zkm/ConstantResidualIslandCleaner.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+PoliSlop.jar: OK
+PolinexFabricLoader-26.1.2.jar: OK
+Caller pass 1: new variants and reference decodings: 0 0
+Converged; final analysis archive: build/round6/followups/stage-1/references.jar

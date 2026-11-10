@@ -373,5 +373,35 @@
     "traceEvidence": "evidence/native-round5/client-traces.json",
     "ghidraEvidence": "evidence/native-round5/client-c/017-2c9d00.c",
     "semanticScope": "Java invocation semantics; the underlying string decryptor remains a separate dependency"
+  },
+  {
+    "label": "client",
+    "owner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Lkotlin/Lazy;)Lme/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;",
+    "elfRva": "0x7ae1d0",
+    "fileOffset": 8049104,
+    "size": 842,
+    "elfSha256": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "bodySha256": "3aad6a4d6aa30c65bc56a9baec8ac4de7e7ce51d241c81acfcbb97d95c7076d4",
+    "recipe": "lazyCast",
+    "castType": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+    "semanticScope": "Lazy.getValue followed by checked reference cast; normal Java exceptions propagate; generated JNI caches omitted",
+    "evidence": "Ghidra client-c/012-7ae1d0.c and client-traces.json"
+  },
+  {
+    "label": "client",
+    "owner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "name": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl",
+    "descriptor": "(Lkotlin/Lazy;)Lme/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI;",
+    "elfRva": "0x7d19a0",
+    "fileOffset": 8194464,
+    "size": 842,
+    "elfSha256": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "bodySha256": "6c5a6356397d49d76a316303c96e3a44380590b0bf44364831c586cd37d23f6a",
+    "recipe": "lazyCast",
+    "castType": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
+    "semanticScope": "Lazy.getValue followed by checked reference cast; normal Java exceptions propagate; generated JNI caches omitted",
+    "evidence": "Ghidra client-c/013-7d19a0.c and client-traces.json"
   }
 ]

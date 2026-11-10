@@ -1,0 +1,3808 @@
+{
+  "analysisOnly": true,
+  "scope": "Conditional JNI models; unmodeled Java calls mocked; no application classes loaded in JVM; not behavioral reconstruction",
+  "returned": false,
+  "stopReason": {
+    "reason": "Emulator model exception",
+    "type": "ValueError",
+    "message": "Unknown string concat argument"
+  },
+  "instructionLimit": 20000000,
+  "nativeRva": "0xc53c80",
+  "resolvedStrings": [
+    "me.octo.client.IlIIllllIIIlllIlIIIllIIllllIIlllIIIllIIIlIIllllIIIlIIIIllllllllllIlIllIIlIIIllllllIlIIIIIllIlIIlIlll",
+    "llIIlIIIIlIIlllllIlIlllIlllIIlllIIllIIlllIIllIllllIllIIIllIlIIllIllIlllIIlllIIIlIIlIlIlIlIllllIIlllI",
+    "null cannot be cast to non-null type kotlin.Long",
+    "IlIIIIllIlIIlIIllIlIlIlIlIIlIIIIlIIIIllIlIIllIlllIlllllIlIlIllIIlIIIlIIIIllIIIlIlllIlIIllIlIIlllIIIl",
+    "null cannot be cast to non-null type kotlin.String",
+    "Please, use the genuine Polinex loader.",
+    "java.lang.System",
+    "exit",
+    "Non genuine loader detected.",
+    "SHA-256",
+    "G*+=*<;\u00a35ag)I4/}6NSJT3%DYTw/?eHE1",
+    "getBytes(...)",
+    "digest(...)",
+    "Please, use the genuine Polinex loader.",
+    "java.lang.System",
+    "exit",
+    "Non genuine loader detected.",
+    "packcore",
+    "\n             .S_sSSs      sSSs_sSSs    S.       .S   .S_sSSs      sSSs   .S S.  \n            .SS~YS%%b    d%%SP~YS%%b   SS.     .SS  .SS~YS%%b    d%%SP  .SS SS. \n            S%S   `S%b  d%S'     `S%b  S%S     S%S  S%S   `S%b  d%S'    S%S S%S \n            S%S    S%S  S%S       S%S  S%S     S%S  S%S    S%S  S%S     S%S S%S \n            S%S    d*S  S&S       S&S  S&S     S&S  S%S    S&S  S&S     S%S S%S \n            S&S   .S*S  S&S       S&S  S&S     S&S  S&S    S&S  S&S_Ss   SS SS  \n            S&S_sdSSS   S&S       S&S  S&S     S&S  S&S    S&S  S&S~SP    S_S   \n            S&S~YSSY    S&S       S&S  S&S     S&S  S&S    S&S  S&S      SS~SS  \n            S*S         S*b       d*S  S*b     S*S  S*S    S*S  S*b     S*S S*S \n            S*S         S*S.     .S*S  S*S.    S*S  S*S    S*S  S*S.    S*S S*S \n            S*S          SSSbs_sdSSS    SSSbs  S*S  S*S    S*S   SSSbs  S*S S*S \n            S*S           YSSP~YSSY      YSSP  S*S  S*S    SSS    YSSP  S*S S*S \n            SP                                 SP   SP                  SP      \n            Y                                  Y    Y                   Y       \n",
+    "yyyy-MM-dd HH:mm:ss",
+    "Client local time: "
+  ],
+  "calls": [
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "me/octo/client/Polinex"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 144,
+      "jni": "GetStaticFieldID",
+      "owner": "me/octo/client/Polinex",
+      "name": "IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII",
+      "descriptor": "J"
+    },
+    {
+      "jni": "GetStaticLongField",
+      "member": [
+        "me/octo/client/Polinex",
+        "IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII",
+        "J"
+      ],
+      "value": 11693869390867
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "me/octo/client/modules/impl/macros/lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "me/octo/client/modules/impl/macros/lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI",
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "descriptor": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+    },
+    {
+      "jni": "NewString",
+      "value": "\u00ce"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/invoke/MethodType"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "java/lang/invoke/MethodType",
+      "name": "fromMethodDescriptorString",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/invoke/MethodType;"
+    },
+    {
+      "jni": "NewString",
+      "value": "(JJ)[Ljava/lang/String;"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/Class"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/Class",
+      "name": "getClassLoader",
+      "descriptor": "()Ljava/lang/ClassLoader;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x2007bcea8"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(JJ)[Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/modules/impl/macros/lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI",
+      "indy": "\u00ce",
+      "descriptor": "(JJ)[Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/invoke/CallSite"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/invoke/CallSite",
+      "name": "getTarget",
+      "descriptor": "()Ljava/lang/invoke/MethodHandle;"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/Object"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/Long"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "java/lang/Long",
+      "name": "valueOf",
+      "descriptor": "(J)Ljava/lang/Long;"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/invoke/MethodHandle"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/invoke/MethodHandle",
+      "name": "invokeWithArguments",
+      "descriptor": "([Ljava/lang/Object;)Ljava/lang/Object;"
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "member-indy",
+      "first": 3662292798947939839,
+      "key": 106453822288656,
+      "indy": "\u00ce",
+      "descriptor": "(JJ)[Ljava/lang/String;",
+      "answer": {
+        "owner": "me/octo/client/Polinex$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+        "name": "IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII",
+        "descriptor": "()[Ljava/lang/String;",
+        "field": false,
+        "static": true
+      }
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/invoke/MethodHandle",
+        "invokeWithArguments",
+        "([Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x80009cde1"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": ""
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "me/octo/client/Polinex",
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "descriptor": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/Integer"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "java/lang/Integer",
+      "name": "valueOf",
+      "descriptor": "(I)Ljava/lang/Integer;"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 4460,
+      "key": 4738460389809503574,
+      "answer": {
+        "plaintext": "me.octo.client.IlIIllllIIIlllIlIIIllIIllllIIlllIIIllIIIlIIllllIIIlIIIIllllllllllIlIllIIlIIIllllllIlIIIIIllIlIIlIlll"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/Thread"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "java/lang/Thread",
+      "name": "currentThread",
+      "descriptor": "()Ljava/lang/Thread;"
+    },
+    {
+      "slot": 114,
+      "jni": "CallStaticObjectMethod",
+      "member": [
+        "java/lang/Thread",
+        "currentThread",
+        "()Ljava/lang/Thread;"
+      ],
+      "rawArg4": "0x2007bcec8"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/Thread",
+      "name": "getContextClassLoader",
+      "descriptor": "()Ljava/lang/ClassLoader;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Thread",
+        "getContextClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x2007bcea8"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "java/lang/Class",
+      "name": "forName",
+      "descriptor": "(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;"
+    },
+    {
+      "slot": 114,
+      "jni": "CallStaticObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "forName",
+        "(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;"
+      ],
+      "rawArg4": "0x80009cf31"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x2c"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 26081,
+      "key": 3829539715957672443,
+      "answer": {
+        "plaintext": "llIIlIIIIlIIlllllIlIlllIlllIIlllIIllIIlllIIllIllllIllIIIllIlIIllIllIlllIIlllIIIlIIlIlIlIlIllllIIlllI"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/Class",
+      "name": "getDeclaredField",
+      "descriptor": "(Ljava/lang/String;)Ljava/lang/reflect/Field;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getDeclaredField",
+        "(Ljava/lang/String;)Ljava/lang/reflect/Field;"
+      ],
+      "rawArg4": "0x80009d041"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/reflect/Field"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/reflect/Field",
+      "name": "setAccessible",
+      "descriptor": "(Z)V"
+    },
+    {
+      "slot": 61,
+      "jni": "CallVoidMethod",
+      "member": [
+        "java/lang/reflect/Field",
+        "setAccessible",
+        "(Z)V"
+      ],
+      "rawArg4": "0x1"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/reflect/Field",
+      "name": "get",
+      "descriptor": "(Ljava/lang/Object;)Ljava/lang/Object;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/reflect/Field",
+        "get",
+        "(Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x0"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x2c"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 1003,
+      "key": 3788390340540575694,
+      "answer": {
+        "plaintext": "null cannot be cast to non-null type kotlin.Long"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "kotlin/jvm/internal/Intrinsics"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "kotlin/jvm/internal/Intrinsics",
+      "name": "checkNotNull",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/String;)V"
+    },
+    {
+      "slot": 141,
+      "jni": "CallStaticVoidMethod",
+      "member": [
+        "kotlin/jvm/internal/Intrinsics",
+        "checkNotNull",
+        "(Ljava/lang/Object;Ljava/lang/String;)V"
+      ],
+      "rawArg4": "0x80009d0a1"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 32,
+      "jni": "IsInstanceOf"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/ClassCastException"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 14,
+      "jni": "ThrowNew"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/Long",
+      "name": "longValue",
+      "descriptor": "()J"
+    },
+    {
+      "slot": 52,
+      "jni": "CallLongMethod"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x2c"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 28706,
+      "key": 3678745080735063058,
+      "answer": {
+        "plaintext": "IlIIIIllIlIIlIIllIlIlIlIlIIlIIIIlIIIIllIlIIllIlllIlllllIlIlIllIIlIIIlIIIIllIIIlIlllIlIIllIlIIlllIIIl"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getDeclaredField",
+        "(Ljava/lang/String;)Ljava/lang/reflect/Field;"
+      ],
+      "rawArg4": "0x80009d221"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 61,
+      "jni": "CallVoidMethod",
+      "member": [
+        "java/lang/reflect/Field",
+        "setAccessible",
+        "(Z)V"
+      ],
+      "rawArg4": "0x1"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/reflect/Field",
+        "get",
+        "(Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x0"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x2c"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 23633,
+      "key": 3249069751977373781,
+      "answer": {
+        "plaintext": "null cannot be cast to non-null type kotlin.String"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 141,
+      "jni": "CallStaticVoidMethod",
+      "member": [
+        "kotlin/jvm/internal/Intrinsics",
+        "checkNotNull",
+        "(Ljava/lang/Object;Ljava/lang/String;)V"
+      ],
+      "rawArg4": "0x80009d241"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/String"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 32,
+      "jni": "IsInstanceOf"
+    },
+    {
+      "slot": 14,
+      "jni": "ThrowNew"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/CharSequence"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 32,
+      "jni": "IsInstanceOf"
+    },
+    {
+      "slot": 14,
+      "jni": "ThrowNew"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 1
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": ":"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "kotlin/text/StringsKt"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "kotlin/text/StringsKt",
+      "name": "split$default",
+      "descriptor": "(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;"
+    },
+    {
+      "slot": 114,
+      "jni": "CallStaticObjectMethod",
+      "member": [
+        "kotlin/text/StringsKt",
+        "split$default",
+        "(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;"
+      ],
+      "rawArg4": "0x80009d241"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/util/List"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/util/List",
+      "name": "size",
+      "descriptor": "()I"
+    },
+    {
+      "slot": 49,
+      "jni": "CallIntMethod"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 23789,
+      "key": 5837143026263748818,
+      "answer": {
+        "plaintext": "Please, use the genuine Polinex loader."
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/System"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 144,
+      "jni": "GetStaticFieldID",
+      "owner": "java/lang/System",
+      "name": "out",
+      "descriptor": "Ljava/io/PrintStream;"
+    },
+    {
+      "slot": 145,
+      "jni": "GetStaticObjectField",
+      "member": [
+        "java/lang/System",
+        "out",
+        "Ljava/io/PrintStream;"
+      ]
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/io/PrintStream"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/io/PrintStream",
+      "name": "println",
+      "descriptor": "(Ljava/lang/Object;)V"
+    },
+    {
+      "slot": 61,
+      "jni": "CallVoidMethod",
+      "member": [
+        "java/io/PrintStream",
+        "println",
+        "(Ljava/lang/Object;)V"
+      ],
+      "rawArg4": "0x80009d411"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 22696,
+      "key": 2704444180335948964,
+      "answer": {
+        "plaintext": "java.lang.System"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "java/lang/Class",
+      "name": "forName",
+      "descriptor": "(Ljava/lang/String;)Ljava/lang/Class;"
+    },
+    {
+      "slot": 114,
+      "jni": "CallStaticObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "forName",
+        "(Ljava/lang/String;)Ljava/lang/Class;"
+      ],
+      "rawArg4": "0x80009d501"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 15188,
+      "key": 4153499553407637360,
+      "answer": {
+        "plaintext": "exit"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 1
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 144,
+      "jni": "GetStaticFieldID",
+      "owner": "java/lang/Integer",
+      "name": "TYPE",
+      "descriptor": "Ljava/lang/Class;"
+    },
+    {
+      "slot": 145,
+      "jni": "GetStaticObjectField",
+      "member": [
+        "java/lang/Integer",
+        "TYPE",
+        "Ljava/lang/Class;"
+      ]
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/Class",
+      "name": "getMethod",
+      "descriptor": "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getMethod",
+        "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+      ],
+      "rawArg4": "0x80009d5c1"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 1
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/reflect/Method"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/reflect/Method",
+      "name": "invoke",
+      "descriptor": "(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/reflect/Method",
+        "invoke",
+        "(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x0"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 144,
+      "jni": "GetStaticFieldID",
+      "owner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+      "name": "IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl",
+      "descriptor": "Lme/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI;"
+    },
+    {
+      "slot": 145,
+      "jni": "GetStaticObjectField",
+      "member": [
+        "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+        "IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl",
+        "Lme/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI;"
+      ]
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 14889,
+      "key": 271827602815358526,
+      "answer": {
+        "plaintext": "Non genuine loader detected."
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "P"
+    },
+    {
+      "jni": "NewString",
+      "value": "(Ljava/lang/Object;Ljava/lang/Object;JJ)V"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;JJ)V"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/modules/impl/macros/lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI",
+      "indy": "P",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;JJ)V"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 4
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 3
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "member-indy",
+      "first": 3540730732632871185,
+      "key": 106453822288656,
+      "indy": "P",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;JJ)V",
+      "answer": {
+        "owner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+        "name": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+        "descriptor": "(Ljava/lang/String;)V",
+        "field": false,
+        "static": false
+      }
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/invoke/MethodHandle",
+        "invokeWithArguments",
+        "([Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x80009d7a1"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "\u00ce"
+    },
+    {
+      "jni": "NewString",
+      "value": "(JJ)V"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x0"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(JJ)V"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/modules/impl/macros/lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI",
+      "indy": "\u00ce",
+      "descriptor": "(JJ)V"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "member-indy",
+      "first": 3576799863945244387,
+      "key": 106453822288656,
+      "indy": "\u00ce",
+      "descriptor": "(JJ)V",
+      "answer": {
+        "owner": "me/octo/client/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
+        "name": "IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI",
+        "descriptor": "()V",
+        "field": false,
+        "static": true
+      }
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/invoke/MethodHandle",
+        "invokeWithArguments",
+        "([Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x80009d841"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 9725,
+      "key": 3034414902280358387,
+      "answer": {
+        "plaintext": "SHA-256"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/security/MessageDigest"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "java/security/MessageDigest",
+      "name": "getInstance",
+      "descriptor": "(Ljava/lang/String;)Ljava/security/MessageDigest;"
+    },
+    {
+      "slot": 114,
+      "jni": "CallStaticObjectMethod",
+      "member": [
+        "java/security/MessageDigest",
+        "getInstance",
+        "(Ljava/lang/String;)Ljava/security/MessageDigest;"
+      ],
+      "rawArg4": "0x80009d911"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 9516,
+      "key": 7262519822849313037,
+      "answer": {
+        "plaintext": "G*+=*<;\u00a35ag)I4/}6NSJT3%DYTw/?eHE1"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 4
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "NewString",
+      "value": "makeConcatWithConstants"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "NewString",
+      "value": "(JLjava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(JLjava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 2
+    },
+    {
+      "jni": "NewString",
+      "value": "\u0001\u0001"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 3
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/invoke/MethodHandles$Lookup"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/invoke/MethodHandles$Lookup",
+      "name": "findStatic",
+      "descriptor": "(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/invoke/StringConcatFactory"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "jni": "NewString",
+      "value": "makeConcatWithConstants"
+    },
+    {
+      "jni": "NewString",
+      "value": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x400001000"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "kotlin/text/Charsets"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 144,
+      "jni": "GetStaticFieldID",
+      "owner": "kotlin/text/Charsets",
+      "name": "UTF_8",
+      "descriptor": "Ljava/nio/charset/Charset;"
+    },
+    {
+      "slot": 145,
+      "jni": "GetStaticObjectField",
+      "member": [
+        "kotlin/text/Charsets",
+        "UTF_8",
+        "Ljava/nio/charset/Charset;"
+      ]
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/String",
+      "name": "getBytes",
+      "descriptor": "(Ljava/nio/charset/Charset;)[B"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/String",
+        "getBytes",
+        "(Ljava/nio/charset/Charset;)[B"
+      ],
+      "rawArg4": "0x80009db41"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 32621,
+      "key": 3652422427124847449,
+      "answer": {
+        "plaintext": "getBytes(...)"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "kotlin/jvm/internal/Intrinsics",
+      "name": "checkNotNullExpressionValue",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/String;)V"
+    },
+    {
+      "slot": 141,
+      "jni": "CallStaticVoidMethod",
+      "member": [
+        "kotlin/jvm/internal/Intrinsics",
+        "checkNotNullExpressionValue",
+        "(Ljava/lang/Object;Ljava/lang/String;)V"
+      ],
+      "rawArg4": "0x80009db61"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/security/MessageDigest",
+      "name": "digest",
+      "descriptor": "([B)[B"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/security/MessageDigest",
+        "digest",
+        "([B)[B"
+      ],
+      "rawArg4": "0x80009db61"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 18326,
+      "key": 4733668198321449886,
+      "answer": {
+        "plaintext": "digest(...)"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 141,
+      "jni": "CallStaticVoidMethod",
+      "member": [
+        "kotlin/jvm/internal/Intrinsics",
+        "checkNotNullExpressionValue",
+        "(Ljava/lang/Object;Ljava/lang/String;)V"
+      ],
+      "rawArg4": "0x80009dc31"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": ""
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 171,
+      "jni": "GetArrayLength"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/util/List",
+      "name": "get",
+      "descriptor": "(I)Ljava/lang/Object;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/util/List",
+        "get",
+        "(I)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x2"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 32,
+      "jni": "IsInstanceOf"
+    },
+    {
+      "slot": 14,
+      "jni": "ThrowNew"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "me/octo/client/utils/client/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 144,
+      "jni": "GetStaticFieldID",
+      "owner": "me/octo/client/utils/client/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+      "name": "IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl",
+      "descriptor": "Ljava/lang/String;"
+    },
+    {
+      "slot": 154,
+      "jni": "SetStaticObjectField",
+      "member": [
+        "me/octo/client/utils/client/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+        "IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl",
+        "Ljava/lang/String;"
+      ]
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "java/lang/System",
+      "name": "currentTimeMillis",
+      "descriptor": "()J"
+    },
+    {
+      "slot": 132,
+      "jni": "CallStaticLongMethod"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "j"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "me/octo/client/Polinex",
+      "name": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+      "descriptor": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)J"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x2007bce68"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)J"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "j",
+      "descriptor": "(IJ)J"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/invoke/MethodHandle",
+        "invokeWithArguments",
+        "([Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x80009ddb1"
+    },
+    {
+      "slot": 52,
+      "jni": "CallLongMethod"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/util/List",
+        "get",
+        "(I)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x0"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "kotlin/jvm/internal/Intrinsics",
+      "name": "areEqual",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;)Z"
+    },
+    {
+      "slot": 117,
+      "jni": "CallStaticBooleanMethod"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 23789,
+      "key": 5837143026263748818,
+      "answer": {
+        "plaintext": "Please, use the genuine Polinex loader."
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 145,
+      "jni": "GetStaticObjectField",
+      "member": [
+        "java/lang/System",
+        "out",
+        "Ljava/io/PrintStream;"
+      ]
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 61,
+      "jni": "CallVoidMethod",
+      "member": [
+        "java/io/PrintStream",
+        "println",
+        "(Ljava/lang/Object;)V"
+      ],
+      "rawArg4": "0x80009dea1"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 22696,
+      "key": 2704444180335948964,
+      "answer": {
+        "plaintext": "java.lang.System"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 114,
+      "jni": "CallStaticObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "forName",
+        "(Ljava/lang/String;)Ljava/lang/Class;"
+      ],
+      "rawArg4": "0x80009df51"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 15188,
+      "key": 4153499553407637360,
+      "answer": {
+        "plaintext": "exit"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 1
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 145,
+      "jni": "GetStaticObjectField",
+      "member": [
+        "java/lang/Integer",
+        "TYPE",
+        "Ljava/lang/Class;"
+      ]
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getMethod",
+        "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+      ],
+      "rawArg4": "0x80009e001"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 1
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/reflect/Method",
+        "invoke",
+        "(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x0"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 145,
+      "jni": "GetStaticObjectField",
+      "member": [
+        "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+        "IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl",
+        "Lme/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI;"
+      ]
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 5754,
+      "key": 4135728490320771691,
+      "answer": {
+        "plaintext": "Non genuine loader detected."
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "P"
+    },
+    {
+      "jni": "NewString",
+      "value": "(Ljava/lang/Object;Ljava/lang/Object;JJ)V"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;JJ)V"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/modules/impl/macros/lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI",
+      "indy": "P",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;JJ)V"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 4
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 3
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "member-indy",
+      "first": 3540730732632871185,
+      "key": 106453822288656,
+      "indy": "P",
+      "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;JJ)V",
+      "answer": {
+        "owner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+        "name": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+        "descriptor": "(Ljava/lang/String;)V",
+        "field": false,
+        "static": false
+      }
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/invoke/MethodHandle",
+        "invokeWithArguments",
+        "([Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x80009e181"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "\u00ce"
+    },
+    {
+      "jni": "NewString",
+      "value": "(JJ)V"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x0"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(JJ)V"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/modules/impl/macros/lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI",
+      "indy": "\u00ce",
+      "descriptor": "(JJ)V"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "member-indy",
+      "first": 3576799863945244387,
+      "key": 106453822288656,
+      "indy": "\u00ce",
+      "descriptor": "(JJ)V",
+      "answer": {
+        "owner": "me/octo/client/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
+        "name": "IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI",
+        "descriptor": "()V",
+        "field": false,
+        "static": true
+      }
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/invoke/MethodHandle",
+        "invokeWithArguments",
+        "([Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x80009e221"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "\u00ce"
+    },
+    {
+      "jni": "NewString",
+      "value": "(JJ)V"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x0"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(JJ)V"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/modules/impl/macros/lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI",
+      "indy": "\u00ce",
+      "descriptor": "(JJ)V"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "member-indy",
+      "first": 3556526020714384198,
+      "key": 106453822288656,
+      "indy": "\u00ce",
+      "descriptor": "(JJ)V",
+      "answer": {
+        "owner": "me/octo/client/utils/security/lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll",
+        "name": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl",
+        "descriptor": "()V",
+        "field": false,
+        "static": true
+      }
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/invoke/MethodHandle",
+        "invokeWithArguments",
+        "([Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x80009e2c1"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "net/fabricmc/loader/api/FabricLoader"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "net/fabricmc/loader/api/FabricLoader",
+      "name": "getInstance",
+      "descriptor": "()Lnet/fabricmc/loader/api/FabricLoader;"
+    },
+    {
+      "slot": 114,
+      "jni": "CallStaticObjectMethod",
+      "member": [
+        "net/fabricmc/loader/api/FabricLoader",
+        "getInstance",
+        "()Lnet/fabricmc/loader/api/FabricLoader;"
+      ],
+      "rawArg4": "0x2007bcf38"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 7178,
+      "key": 9007164231918759948,
+      "answer": {
+        "plaintext": "packcore"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "net/fabricmc/loader/api/FabricLoader",
+      "name": "isModLoaded",
+      "descriptor": "(Ljava/lang/String;)Z"
+    },
+    {
+      "slot": 37,
+      "jni": "CallBooleanMethod"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "\u00ce"
+    },
+    {
+      "jni": "NewString",
+      "value": "(JJ)V"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x0"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(JJ)V"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/modules/impl/macros/lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI",
+      "indy": "\u00ce",
+      "descriptor": "(JJ)V"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "member-indy",
+      "first": 3556526020714384198,
+      "key": 106453822288656,
+      "indy": "\u00ce",
+      "descriptor": "(JJ)V",
+      "answer": {
+        "owner": "me/octo/client/utils/security/lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll",
+        "name": "IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl",
+        "descriptor": "()V",
+        "field": false,
+        "static": true
+      }
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/invoke/MethodHandle",
+        "invokeWithArguments",
+        "([Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "rawArg4": "0x80009e441"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800000130"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 17828,
+      "key": 2073561571997673884,
+      "answer": {
+        "plaintext": "\n             .S_sSSs      sSSs_sSSs    S.       .S   .S_sSSs      sSSs   .S S.  \n            .SS~YS%%b    d%%SP~YS%%b   SS.     .SS  .SS~YS%%b    d%%SP  .SS SS. \n            S%S   `S%b  d%S'     `S%b  S%S     S%S  S%S   `S%b  d%S'    S%S S%S \n            S%S    S%S  S%S       S%S  S%S     S%S  S%S    S%S  S%S     S%S S%S \n            S%S    d*S  S&S       S&S  S&S     S&S  S%S    S&S  S&S     S%S S%S \n            S&S   .S*S  S&S       S&S  S&S     S&S  S&S    S&S  S&S_Ss   SS SS  \n            S&S_sdSSS   S&S       S&S  S&S     S&S  S&S    S&S  S&S~SP    S_S   \n            S&S~YSSY    S&S       S&S  S&S     S&S  S&S    S&S  S&S      SS~SS  \n            S*S         S*b       d*S  S*b     S*S  S*S    S*S  S*b     S*S S*S \n            S*S         S*S.     .S*S  S*S.    S*S  S*S    S*S  S*S.    S*S S*S \n            S*S          SSSbs_sdSSS    SSSbs  S*S  S*S    S*S   SSSbs  S*S S*S \n            S*S           YSSP~YSSY      YSSP  S*S  S*S    SSS    YSSP  S*S S*S \n            SP                                 SP   SP                  SP      \n            Y                                  Y    Y                   Y       \n"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "me/octo/client/utils/PolinexLogger"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "me/octo/client/utils/PolinexLogger",
+      "name": "info",
+      "descriptor": "(Ljava/lang/String;)V"
+    },
+    {
+      "slot": 141,
+      "jni": "CallStaticVoidMethod",
+      "member": [
+        "me/octo/client/utils/PolinexLogger",
+        "info",
+        "(Ljava/lang/String;)V"
+      ],
+      "rawArg4": "0x80009e511"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "me/octo/client/PolinexAccessor"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 144,
+      "jni": "GetStaticFieldID",
+      "owner": "me/octo/client/PolinexAccessor",
+      "name": "INSTANCE",
+      "descriptor": "Lme/octo/client/PolinexAccessor;"
+    },
+    {
+      "slot": 145,
+      "jni": "GetStaticObjectField",
+      "member": [
+        "me/octo/client/PolinexAccessor",
+        "INSTANCE",
+        "Lme/octo/client/PolinexAccessor;"
+      ]
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 94,
+      "jni": "GetFieldID",
+      "owner": "me/octo/client/PolinexAccessor",
+      "name": "eventBus",
+      "descriptor": "Lme/octo/client/events/impl/base/EventBus;"
+    },
+    {
+      "slot": 95,
+      "jni": "GetObjectField",
+      "member": [
+        "me/octo/client/PolinexAccessor",
+        "eventBus",
+        "Lme/octo/client/events/impl/base/EventBus;"
+      ]
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "me/octo/client/events/impl/base/EventBus"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "me/octo/client/events/impl/base/EventBus",
+      "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+      "descriptor": "(Ljava/lang/Object;J)V"
+    },
+    {
+      "slot": 61,
+      "jni": "CallVoidMethod",
+      "member": [
+        "me/octo/client/events/impl/base/EventBus",
+        "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+        "(Ljava/lang/Object;J)V"
+      ],
+      "rawArg4": "0x80009ccc1"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/time/LocalDateTime"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "java/time/LocalDateTime",
+      "name": "now",
+      "descriptor": "()Ljava/time/LocalDateTime;"
+    },
+    {
+      "slot": 114,
+      "jni": "CallStaticObjectMethod",
+      "member": [
+        "java/time/LocalDateTime",
+        "now",
+        "()Ljava/time/LocalDateTime;"
+      ],
+      "rawArg4": "0x2007bcf38"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x2c"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 32459,
+      "key": 6586208821630358214,
+      "answer": {
+        "plaintext": "yyyy-MM-dd HH:mm:ss"
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/time/format/DateTimeFormatter"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 113,
+      "jni": "GetStaticMethodID",
+      "owner": "java/time/format/DateTimeFormatter",
+      "name": "ofPattern",
+      "descriptor": "(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;"
+    },
+    {
+      "slot": 114,
+      "jni": "CallStaticObjectMethod",
+      "member": [
+        "java/time/format/DateTimeFormatter",
+        "ofPattern",
+        "(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;"
+      ],
+      "rawArg4": "0x80009e671"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/time/LocalDateTime",
+      "name": "format",
+      "descriptor": "(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/time/LocalDateTime",
+        "format",
+        "(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;"
+      ],
+      "rawArg4": "0x80009e6a1"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "z"
+    },
+    {
+      "jni": "NewString",
+      "value": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x2c"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "bootstrap",
+      "owner": "me/octo/client/Polinex",
+      "indy": "z",
+      "descriptor": "(IJ)Ljava/lang/String;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "CallObjectMethod",
+      "model": "string-indy",
+      "owner": "me/octo/client/Polinex",
+      "index": 7238,
+      "key": 3371118041117864018,
+      "answer": {
+        "plaintext": "Client local time: "
+      }
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 4
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "NewString",
+      "value": "makeConcatWithConstants"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    },
+    {
+      "jni": "NewString",
+      "value": "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x800075ae8"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 2
+    },
+    {
+      "jni": "NewString",
+      "value": "\u0001\u0001"
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 3
+    },
+    {
+      "jni": "NewString",
+      "value": "makeConcatWithConstants"
+    },
+    {
+      "jni": "NewString",
+      "value": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/Class",
+        "getClassLoader",
+        "()Ljava/lang/ClassLoader;"
+      ],
+      "rawArg4": "0x400001000"
+    },
+    {
+      "jni": "CallStaticObjectMethod",
+      "model": "MethodType",
+      "descriptor": "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 23,
+      "jni": "DeleteLocalRef"
+    },
+    {
+      "jni": "NewObjectArray",
+      "length": 2
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 0
+    },
+    {
+      "jni": "SetObjectArrayElement",
+      "index": 1
+    }
+  ],
+  "inputs": {
+    "image": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "buffer": "fea9101867914f01170e0cff66c0aca8d0c466465c96cc784c76064d94283bcb",
+    "input_jar": "759904ab061cbbdea0db6305f951b2c72c59a2f4f6eeccc73b3f92fdb6685b42",
+    "crypto_state": "597c01c6787b4f33bdddd2eb1eb66c6c632613bb4d94cf551e6424d05c26c29c",
+    "dispatcher_state": "4c43607eaeee9a1ca0f23965599b9d40c0f1d26c77ed2ffd29ed0e522b0202f3"
+  }
+}

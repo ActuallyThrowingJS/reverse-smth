@@ -1,0 +1,2 @@
+New display-name aliases=1 constructorRoles=2 rounds=2 unanalyzedConstructors=0; inferred aliases, not original identifiers
+PASS transitive/reordered name arguments, ambiguous constructors, unrelated bases, duplicate aliases and explicit inference provenance

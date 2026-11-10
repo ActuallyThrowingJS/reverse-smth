@@ -381,6 +381,108 @@ public abstract class Event {
       throw new IllegalArgumentException(var11.toString());
    }
 
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$12c9882b98b7c200(
+      int var1, char var2, short var3, boolean var4
+   ) {
+      short var11 = 17147;
+      short var12 = 18380;
+      var3 = 21433;
+      var4 = 1;
+      long var5 = ((long)var11 << 32 | (long)var12 << 48 >>> 32 | (long)var3 << 48 >>> 48)
+         ^ IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl;
+      int var7 = IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll();
+
+      label22: {
+         Event var10000;
+         label21: {
+            try {
+               var10000 = this;
+               if (var7 == 0) {
+                  break label21;
+               }
+
+               if (!this.isCancelable()) {
+                  break label22;
+               }
+            } catch (IllegalArgumentException var10) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10);
+            }
+
+            var10000 = this;
+         }
+
+         var10000.canceled = (boolean)var4;
+         return;
+      }
+
+      boolean var8 = false;
+      String var15 = "Attempted to cancel a uncancelable event";
+      throw new IllegalArgumentException(var15.toString());
+   }
+
+   public final boolean IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$6593e104a4254b2a(long var1, short var3) {
+      var1 = 1954990049L;
+      long var4 = (var1 << 16 | (long)var3 << 48 >>> 48) ^ IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl;
+      int var6 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         -8139470946017694510L, var4
+      );
+
+      try {
+         boolean var10000 = this.isPre();
+         if (var6 != 0) {
+            return var10000;
+         }
+
+         if (!var10000) {
+            return true;
+         }
+      } catch (IllegalArgumentException var7) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var7, -8140660758060555297L, var4
+         );
+      }
+
+      return false;
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$012e4972b4ccc9dc(
+      int var1, char var2, short var3, boolean var4
+   ) {
+      short var11 = 17147;
+      short var12 = 18380;
+      var3 = 21433;
+      long var5 = ((long)var11 << 32 | (long)var12 << 48 >>> 32 | (long)var3 << 48 >>> 48)
+         ^ IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl;
+      int var7 = IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll();
+
+      label22: {
+         Event var10000;
+         label21: {
+            try {
+               var10000 = this;
+               if (var7 == 0) {
+                  break label21;
+               }
+
+               if (!this.isCancelable()) {
+                  break label22;
+               }
+            } catch (IllegalArgumentException var10) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10);
+            }
+
+            var10000 = this;
+         }
+
+         var10000.canceled = var4;
+         return;
+      }
+
+      boolean var8 = false;
+      String var14 = "Attempted to cancel a uncancelable event";
+      throw new IllegalArgumentException(var14.toString());
+   }
+
    @Retention(AnnotationRetention.RUNTIME)
    @Target(allowedTargets = AnnotationTarget.CLASS)
    @java.lang.annotation.Retention(RetentionPolicy.RUNTIME)

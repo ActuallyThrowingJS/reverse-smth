@@ -1,0 +1,482 @@
+[
+  {
+    "owner": "me/octo/client/modules/impl/macros/IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll",
+    "proposedAlias": "me/octo/client/modules/impl/macros/GlaciteWalkerMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Glacite Walker Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IlIlIlllllIIlIIIIIllllIIIIlIlIlIIIlIlllIlIlllIIllIIIlIllIllIllIlllIlIllllIIlIlIlllIll",
+    "proposedAlias": "me/octo/client/modules/impl/macros/BeachBallMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Beach Ball Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IllIIIIIIIlIIlIIIIlIllIIIIlIlIlIlIIIlllllIIllIIIIlIIlIIlIIIlllIlIIIIllIIlIlllllllIIlI",
+    "proposedAlias": "me/octo/client/modules/impl/macros/MuseumMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Museum Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IllIIlIlIlllIIIIllllIIllIlIIIIIllIllIIIllllIlllllIlIlIIlIIlIlIIIlIlIIIIIIlllIllllIIII",
+    "proposedAlias": "me/octo/client/modules/impl/macros/DevMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Dev Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl",
+    "proposedAlias": "me/octo/client/modules/impl/macros/GhostMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Ghost Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/foraging/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "proposedAlias": "me/octo/client/modules/impl/macros/foraging/GlowingMushroomMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Glowing Mushroom Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/foraging/IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
+    "proposedAlias": "me/octo/client/modules/impl/macros/foraging/BerryMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Berry Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/foraging/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+    "proposedAlias": "me/octo/client/modules/impl/macros/foraging/GalateaTreeMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Galatea Tree Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII",
+    "proposedAlias": "me/octo/client/modules/impl/macros/GoblinMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Goblin Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIllIllIllllIllIlIlIlIlIIIl",
+    "proposedAlias": "me/octo/client/modules/impl/macros/ZealotMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Zealot Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/lIIlllllIIIlllIIIllIIlllIllllllIIIIIlllllIIlIIIIIIIlllIlIlIIlIlllIIlIIlIIlIIlllIIlllI",
+    "proposedAlias": "me/octo/client/modules/impl/macros/ForgeMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Forge Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/llIllIllIlllllIIlIlllIlIllIllIIlllllIlIlIIlIIlllIlIIlIllIlIIIIIIlllIlIIllIIlIIllllIII",
+    "proposedAlias": "me/octo/client/modules/impl/macros/BerberisMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Berberis Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IIIIIIIIIIllllIlIIllIlllllIIIlIlIlIllllIIIIllIlIIlllIlllllIlIIIIlIIIIIllllIIIlIlIlllI",
+    "proposedAlias": "me/octo/client/modules/impl/macros/SandMiningMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Sand Mining Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl",
+    "proposedAlias": "me/octo/client/modules/impl/macros/TunnelMiner",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Tunnel Miner"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl",
+    "proposedAlias": "me/octo/client/modules/impl/macros/ExcavatorMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Excavator Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII",
+    "proposedAlias": "me/octo/client/modules/impl/macros/OreMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Ore Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl",
+    "proposedAlias": "me/octo/client/modules/impl/macros/CobblestoneMiningMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Cobblestone Mining Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl",
+    "proposedAlias": "me/octo/client/modules/impl/macros/EndStoneMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "End Stone Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IllllIIIIIlllIIllIIIIIllIlIllllIIIIllIlIlIIllIIIlllllIIIIIIIIlIIlIlIIIIIlIllIIIlIlIlI",
+    "proposedAlias": "me/octo/client/modules/impl/macros/MithrilMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Mithril Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/farming/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "proposedAlias": "me/octo/client/modules/impl/macros/farming/SShapedCrop",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "S Shaped Crop"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/farming/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+    "proposedAlias": "me/octo/client/modules/impl/macros/farming/VerticalSShapedCrop",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Vertical S Shaped Crop"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/farming/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+    "proposedAlias": "me/octo/client/modules/impl/macros/farming/VisitorMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Visitor Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlIIlllIIlIlllIIlIlIlI",
+    "proposedAlias": "me/octo/client/modules/impl/macros/CrimsonMiningMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Crimson Mining Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII",
+    "proposedAlias": "me/octo/client/modules/impl/macros/ObsidianMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Obsidian Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/lIIllllIIlIIIIllIlIIIIIllIllllllIIIlIlIlIlIllIIlIlIllIlIIIIIIllIIIIlIlllIlIlllIlllIll",
+    "proposedAlias": "me/octo/client/modules/impl/macros/GlaciteCommissionMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Glacite Commission Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll",
+    "proposedAlias": "me/octo/client/modules/impl/macros/SludgeMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Sludge Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllllIlIlIlllIlIIIIllIlIIIllI",
+    "proposedAlias": "me/octo/client/modules/impl/macros/PowderMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Powder Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll",
+    "proposedAlias": "me/octo/client/modules/impl/macros/FishingMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;)V",
+        "displayArgumentIndex": 0,
+        "display": "Fishing Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIllIIIllIlIlIlIlIIlIIIllIII",
+    "proposedAlias": "me/octo/client/modules/impl/macros/DwarvenCommissionMacroV2",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Dwarven Commission Macro V2"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI",
+    "proposedAlias": "me/octo/client/modules/impl/macros/LobbyHopper",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Lobby Hopper"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII",
+    "proposedAlias": "me/octo/client/modules/impl/macros/DwarvenCommissionMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Dwarven Commission Macro"
+      }
+    ]
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI",
+    "proposedAlias": "me/octo/client/modules/impl/macros/GemstoneMacro",
+    "originalIdentifierRecovered": false,
+    "evidence": "Display-name argument traced through constructors to the GUI module-base naming convention; proposal, not original source identifier",
+    "constructorEvidence": [
+      {
+        "calledOwner": "me/octo/client/modules/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+        "constructorDescriptor": "()V",
+        "calledConstructorDescriptor": "(Ljava/lang/String;Ljava/lang/String;Lme/octo/client/gui/clickgui/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Z[Lme/octo/client/gui/clickgui/settings/llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "displayArgumentIndex": 0,
+        "display": "Gemstone Macro"
+      }
+    ]
+  }
+]

@@ -71,7 +71,7 @@ public final class JasperDrillBug extends BooleanModule {
       long var4 = (var2 ^ 71251083817109L) >>> 16;
       int var6 = (int)((var2 ^ 71251083817109L) << 48 >>> 48);
       Intrinsics.checkNotNullParameter(eArg, "e");
-      this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var4, (char)var6, false);
+      this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$2f1e861e49208737(var4, (char)var6, false);
    }
 
    private final BlockPos IlllIIlllIIIIIlllIllIIIIIIlIIIIIIllIllIlIlIlIIlIllIlIlllIIIlIIllIlIIlllIIIIlIIIIlllII(long var1) {

@@ -82,6 +82,8 @@ public class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIll
       var1 = 94711704291452L;
       var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
       long var4 = var1 ^ 7595757682464L;
-      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4, "POSSIBLE SERVER-FORCED ITEM SWAP DETECTED: " + var3);
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8022b4c6316980ec(
+         var4, "POSSIBLE SERVER-FORCED ITEM SWAP DETECTED: " + var3
+      );
    }
 }

@@ -53,7 +53,7 @@ public final class ColorPickerTest
             false
          )
       };
-      this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var3, var5);
+      this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$02f93d1d77667843(var3, var5);
    }
 
    static {

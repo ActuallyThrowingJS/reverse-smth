@@ -1,0 +1,12 @@
+{
+  "newCallerProvenVariants": 76,
+  "newVariantsWithJavaAndNoRecordedMethodFailure": 40,
+  "newGenericDecompilerFailures": 0,
+  "additionalGenericMethodsRecovered": 0,
+  "remainingGenericMethodFailures": 5159,
+  "classWriteFailures": 24,
+  "sourceFiles": 1583,
+  "totalRegisteredNativeBodiesRecovered": 34,
+  "registeredNativeBodiesRemaining": 484,
+  "fullModBuildSuccessful": false
+}

@@ -181,6 +181,9 @@ public final class ControlFlowDeobfuscator {
             int failuresBeforeRound = summary.failures;
             for (EntryBytes entry : entries) {
                 if (!entry.name.endsWith(".class") || !entry.name.startsWith(System.getProperty("recovery.ownerPrefix", ""))) continue;
+                String ownerName = entry.name.substring(0, entry.name.length() - 6);
+                if (Arrays.asList(System.getProperty("recovery.excludedOwners", "").split(",")).contains(ownerName)) continue;
+                if (Boolean.getBoolean("recovery.progress")) System.err.println("FLOW round=" + round + " owner=" + ownerName);
                 Result result = processClass(entry.bytes, rows, provenance, hierarchy,
                         assumeZkmSentinels, removeIdentityRethrows,
                         normalizeExceptionRanges, normalizeZkmSharedTails,

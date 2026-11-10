@@ -79,7 +79,9 @@ public final class NoHyperionExplosion extends BooleanModule {
 
       try {
          if (Intrinsics.areEqual(var9, ParticleTypes.EXPLOSION)) {
-            eventArg.setCanceled(var4, (char)var5, (short)var6, true);
+            eventArg.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$12c9882b98b7c200(
+               var4, (char)var5, (short)var6, true
+            );
          }
       } catch (MatchException var13) {
          throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13);

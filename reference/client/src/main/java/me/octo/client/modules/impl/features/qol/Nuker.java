@@ -113,7 +113,9 @@ public final class Nuker extends BooleanModule {
 
             try {
                if (this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$e0790aa46bdfa217(var4, var12)) {
-                  eArg.setCanceled(var6, (char)var7, (short)var8, true);
+                  eArg.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$12c9882b98b7c200(
+                     var6, (char)var7, (short)var8, true
+                  );
                }
             } catch (MatchException var16) {
                throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var16);
