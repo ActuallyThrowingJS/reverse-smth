@@ -17,7 +17,9 @@ public class Obf00107 {
 
    private static native String Obf00099(int var0, int var1, int var2);
 
-   private static native void $restoreCommVisit(ClassWriter var0, int var1, int var2, String var3, String var4, String var5, String[] var6);
+   private static void $restoreCommVisit(ClassWriter var0, int var1, int var2, String var3, String var4, String var5, String[] var6) {
+      var0.visit(var1, var2, var3.replace("lol/polinexclient/loader/", "me/octo/client/"), var4, var5, var6);
+   }
 
    public static native void $jnicLoader();
 

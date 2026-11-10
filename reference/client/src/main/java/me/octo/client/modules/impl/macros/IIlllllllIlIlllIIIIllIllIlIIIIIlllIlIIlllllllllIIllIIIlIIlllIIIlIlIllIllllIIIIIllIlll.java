@@ -274,4 +274,16 @@ public final class IIlllllllIlIlllIIIIllIllIlIIIIIlllIlIIlllllllllIIllIIIlIIlllI
    ) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   public final void lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$2cb9bc0c711407f4(long var1) {
+      var1 = 102000552734850L;
+      var1 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ var1;
+      long var10001 = var1 ^ 1787606471016L;
+      int var3 = (int)((var1 ^ 1787606471016L) >>> 48);
+      int var4 = (int)((var1 ^ 1787606471016L) << 16 >>> 48);
+      int var5 = (int)(var10001 << 32 >>> 32);
+      PolinexAccessor.INSTANCE
+         .eventBus
+         .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$69d9afbece88b3cf(this, (short)var3, (short)var4, var5);
+   }
 }

@@ -18,7 +18,7 @@ mkdir -p "$out"
 for round in {1..8}; do
   stage="$out/stage-$round"
   mkdir -p "$stage"
-  run -Drecovery.inheritedMethods=true -Drecovery.splitIntegerKeys=true SpecializeKeys "$input" "$stage/specialized.jar" "$stage/specializations.json" > "$stage/specialize.log" 2>&1
+  run -Drecovery.superCalls=true -Drecovery.directKeyConsumers=true -Drecovery.inheritedMethods=true -Drecovery.splitIntegerKeys=true SpecializeKeys "$input" "$stage/specialized.jar" "$stage/specializations.json" > "$stage/specialize.log" 2>&1
   run RestoreStrings "$stage/specialized.jar" "$crypto" "$stage/strings.jar" "$stage/strings.json" > "$stage/strings.log" 2>&1
   run ResolveReferences "$stage/strings.jar" evidence/dispatcher-state.json "$crypto" "$stage/references.jar" "$stage/references.json" > "$stage/references.log" 2>&1
   run VerifyBytecode "$input" "$stage/references.jar" "$stage/verification.json" > "$stage/verification.log" 2>&1

@@ -1,0 +1,74 @@
+[
+  {
+    "owner": "me/octo/client/gui/clickgui/settings/impl/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+    "originalName": "IIlllIlllIlIIIlIIIlllIlllIlIIllIlIlIIIIIlIIIllIIlIllllllIlIllIIIlllIlllllIlIlllllllll",
+    "descriptor": "(JC)[Ljava/lang/String;",
+    "cloneName": "IIlllIlllIlIIIlIIIlllIlllIlIIllIlIlIIIIIlIIIllIIlIllllllIlIllIIIlllIlllllIlIlllllllll$recovered$366c7f85410e57ae",
+    "constantPrimitiveLocalSlots": {
+      "1": 1783464227
+    },
+    "superclassDispatch": true,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+    "originalName": "IlllIIIllIIlllIlllIlIIIlllIlIlllIllIlIIllIlIllIllllllIIIlIIIlIlllIIIlIlllIIlIIIlIIlIl",
+    "descriptor": "(J)V",
+    "cloneName": "IlllIIIllIIlllIlllIlIIIlllIlIlllIllIlIIllIlIllIllllllIIIlIIIlIlllIIIlIlllIIlIIIlIIlIl$recovered$a108f95350d1ed49",
+    "constantPrimitiveLocalSlots": {
+      "1": 66526709680881
+    },
+    "superclassDispatch": true,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/impl/macros/IIlllllllIlIlllIIIIllIllIlIIIIIlllIlIIlllllllllIIllIIIlIIlllIIIlIlIllIllllIIIIIllIlll",
+    "originalName": "lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll",
+    "descriptor": "(J)V",
+    "cloneName": "lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$2cb9bc0c711407f4",
+    "constantPrimitiveLocalSlots": {
+      "1": 102000552734850
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/helpers/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(CLjava/lang/String;J)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2190fb4100301e0c",
+    "constantPrimitiveLocalSlots": {
+      "3": 95920395721797
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/modules/impl/features/hud/lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll",
+    "originalName": "IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl",
+    "descriptor": "(J)Ljava/lang/String;",
+    "cloneName": "IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl$recovered$0f65ce693f83a78f",
+    "constantPrimitiveLocalSlots": {
+      "1": 27454436343877
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  },
+  {
+    "owner": "me/octo/client/utils/network/llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl",
+    "originalName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Ljava/lang/String;Ljava/lang/String;J)V",
+    "cloneName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$070597a907e96230",
+    "constantPrimitiveLocalSlots": {
+      "2": 38547981590191
+    },
+    "superclassDispatch": false,
+    "keyConsumerKind": "XOR arithmetic",
+    "evidence": "Constant argument dataflow (including split integer keys); static/private/final dispatch; argument evaluation retained; generic method preserved"
+  }
+]

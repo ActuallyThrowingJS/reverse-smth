@@ -1,0 +1,85 @@
+{
+  "analysisOnly": true,
+  "nativeRva": "0x226260",
+  "elfSha256": "c3c88d515c736edd06ae1473eaf18cccea7f9ac4cfc59a813e3aaf5ca3eb324a",
+  "bodySha256": "42db35d1feec6330dbc2cc9a29d62ababc889f9e94db46db68ee0dfd66726134",
+  "scope": "UTF-16-aware string construction captured from the supplied loader native helper; unrelated JNI method returns mocked; not an application behavior trace",
+  "calls": [
+    {
+      "jni": "NewString",
+      "value": "lol/polinexclient/loader/"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "jni": "NewString",
+      "value": "me/octo/client/"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "java/lang/String"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "java/lang/String",
+      "name": "replace",
+      "descriptor": "(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;"
+    },
+    {
+      "slot": 34,
+      "jni": "CallObjectMethod",
+      "member": [
+        "java/lang/String",
+        "replace",
+        "(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;"
+      ],
+      "rawArg4": "0x8000292ea"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    },
+    {
+      "slot": 6,
+      "jni": "FindClass",
+      "class": "org/objectweb/asm/ClassWriter"
+    },
+    {
+      "slot": 21,
+      "jni": "NewGlobalRef"
+    },
+    {
+      "slot": 33,
+      "jni": "GetMethodID",
+      "owner": "org/objectweb/asm/ClassWriter",
+      "name": "visit",
+      "descriptor": "(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V"
+    },
+    {
+      "slot": 61,
+      "jni": "CallVoidMethod",
+      "member": [
+        "org/objectweb/asm/ClassWriter",
+        "visit",
+        "(IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V"
+      ],
+      "rawArg4": "0xa47"
+    },
+    {
+      "slot": 228,
+      "jni": "ExceptionCheck"
+    }
+  ]
+}

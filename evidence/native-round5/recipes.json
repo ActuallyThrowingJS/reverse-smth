@@ -403,5 +403,36 @@
     "castType": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI",
     "semanticScope": "Lazy.getValue followed by checked reference cast; normal Java exceptions propagate; generated JNI caches omitted",
     "evidence": "Ghidra client-c/013-7d19a0.c and client-traces.json"
+  },
+  {
+    "label": "loader",
+    "owner": "me/octo/client/IIlIlllIIlIIIIIlIlIlllIlIIIIlIlllIlllIlIIIlIllllIllIIIlIllIIlIIlIllllllIIIllIIIlIllll",
+    "name": "$restoreCommVisit",
+    "descriptor": "(Lorg/objectweb/asm/ClassWriter;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V",
+    "elfRva": "0x226260",
+    "fileOffset": 2249312,
+    "size": 969,
+    "elfSha256": "c3c88d515c736edd06ae1473eaf18cccea7f9ac4cfc59a813e3aaf5ca3eb324a",
+    "bodySha256": "42db35d1feec6330dbc2cc9a29d62ababc889f9e94db46db68ee0dfd66726134",
+    "recipe": "classWriterVisit",
+    "replaceFrom": "lol/polinexclient/loader/",
+    "replaceTo": "me/octo/client/",
+    "semanticScope": "String.replace(CharSequence,CharSequence) then ClassWriter.visit with original remaining arguments; Java exception propagation; generated JNI caches omitted",
+    "evidence": "loader-c/006-226260.c and UTF-16-aware loader visitor JNI trace"
+  },
+  {
+    "label": "loader",
+    "owner": "lol/polinexclient/loader/IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI",
+    "name": "openConnection",
+    "descriptor": "(Ljava/net/URL;)Ljava/net/URLConnection;",
+    "elfRva": "0x1dbb40",
+    "fileOffset": 1944384,
+    "size": 1196,
+    "elfSha256": "c3c88d515c736edd06ae1473eaf18cccea7f9ac4cfc59a813e3aaf5ca3eb324a",
+    "bodySha256": "909b1b3aae2521d3f29404406d60da542e8df5db37bf600f2ba5b19b791ed6f3",
+    "recipe": "newUrlConnection",
+    "constructedType": "lol/polinexclient/loader/IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI$lllIlIllllIlIlIIllIlIIlIIIlIIllIIlllIIlllIlllllIlllIlllllllllIllIlIIlIIIIllIlIlIlIIIl",
+    "semanticScope": "Allocate the supplied URLConnection subclass and invoke its URL constructor; normal Java exceptions; JNI caches omitted",
+    "evidence": "loader-c/009-1dbb40.c and loader-traces.json; supplied target superclass/constructor checked"
   }
 ]

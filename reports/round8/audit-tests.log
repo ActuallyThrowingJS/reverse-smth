@@ -1,0 +1,2 @@
+{"profileCount":3,"profilesWithExactDispatchConstantArgumentCallers":2,"matchingCallSites":4,"unknownArgumentCallSites":3,"differentConstantArgumentCallSites":1,"unanalyzedMethods":0,"applicationEntryReachabilityEstablished":false}
+PASS inherited callers, exact/final dispatch, ambiguous virtual dispatch, differing/unknown arguments, volatile/mutable fields and control-flow merge

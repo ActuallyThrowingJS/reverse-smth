@@ -18,3 +18,6 @@ python3 tools/extract_native.py inputs/PoliSlop.jar build/native-client
 "${JAVA_HOME:+$JAVA_HOME/bin/}java" InferModuleNamesTest
 
 "${JAVA_HOME:+$JAVA_HOME/bin/}java" ExpandClassAliasesTest
+
+"${JAVA_HOME:+$JAVA_HOME/bin/}java" DirectKeyConsumerTest
+"${JAVA_HOME:+$JAVA_HOME/bin/}java" SuperKeySpecializationTest

@@ -1,0 +1,3 @@
+build/round8/native.jar: methods checked=50548, failures=0
+build/round8/final.jar: methods checked=50548, failures=0
+PASS no new BasicVerifier failures

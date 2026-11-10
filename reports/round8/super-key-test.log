@@ -1,0 +1,3 @@
+constantFields=0 bindingContexts=0 newClones=0 reusedContexts=0 rewrittenCalls=0 rounds=1 genericMethodsPreserved=true
+constantFields=0 bindingContexts=2 newClones=2 reusedContexts=0 rewrittenCalls=2 rounds=2 genericMethodsPreserved=true
+PASS 27 JVM cases; direct/inherited superclass targets, receiver overrides and unknown keys preserved

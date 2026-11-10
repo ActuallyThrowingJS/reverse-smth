@@ -447,4 +447,30 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
          );
       }
    }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$070597a907e96230(
+      @NotNull String macroArg, @NotNull String typeArg, long argument3Arg
+   ) {
+      argument3Arg = 38547981590191L;
+      argument3Arg = IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI ^ argument3Arg;
+      long var10001 = argument3Arg ^ 35395119987952L;
+      int var4 = (int)((argument3Arg ^ 35395119987952L) >>> 48);
+      int var5 = (int)((argument3Arg ^ 35395119987952L) << 16 >>> 32);
+      int var6 = (int)(var10001 << 48 >>> 48);
+      long var7 = argument3Arg ^ 88016354311326L;
+      Intrinsics.checkNotNullParameter(macroArg, "macro");
+      Intrinsics.checkNotNullParameter(typeArg, "type");
+      String var9 = StringsKt.trim(macroArg).toString();
+      String var10000 = UUID.randomUUID().toString();
+      Intrinsics.checkNotNullExpressionValue(var10000, "toString(...)");
+      String var10 = var10000;
+      IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+         .IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$19bebe6dc58197cf(
+            llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl::IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII,
+            (short)var4,
+            var5,
+            (char)var6
+         );
+   }
 }

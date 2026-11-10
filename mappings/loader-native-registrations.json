@@ -1126,7 +1126,7 @@
     "readableOwner": "lol/polinexclient/loader/IlIIIlllIlIIlllIlIIllllIIlIIIlIllllIllllIIIlllIlIIlIIlllIlIIIlIlIllIIIllIlIlIIlIlIllI",
     "readableName": "openConnection",
     "readableDescriptor": "(Ljava/net/URL;)Ljava/net/URLConnection;",
-    "bodyRecovered": false
+    "bodyRecovered": true
   },
   {
     "className": null,
@@ -1216,7 +1216,7 @@
     "readableOwner": "me/octo/client/IIlIlllIIlIIIIIlIlIlllIlIIIIlIlllIlllIlIIIlIllllIllIIIlIllIIlIIlIllllllIIIllIIIlIllll",
     "readableName": "$restoreCommVisit",
     "readableDescriptor": "(Lorg/objectweb/asm/ClassWriter;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V",
-    "bodyRecovered": false
+    "bodyRecovered": true
   },
   {
     "className": null,

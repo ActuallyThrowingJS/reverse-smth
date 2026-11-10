@@ -425,4 +425,69 @@ public class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIl
    public final String IIIIIlIIlIlIlllIlIIlllIIIlIlllIllIllIllIllIlIIIIIIIIIlIlIlIllIlIlIlIllIlIIlIlIllIIIIl$recovered$af320795f798a9fb(long param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
+
+   @NotNull
+   public String[] IIlllIlllIlIIIlIIIlllIlllIlIIllIlIlIIIIIlIIIllIIlIllllllIlIllIIIlllIlllllIlIlllllllll$recovered$366c7f85410e57ae(long var1, char var3) {
+      var1 = 1783464227L;
+      long var4 = var1 << 16 | (long)var3 << 48 >>> 48;
+      long var6 = var4 ^ 54133501847660L;
+      String[] var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         6011994536963741950L, var4
+      );
+      String[] var9 = this.options;
+      boolean var10 = false;
+      String[] var11 = var9;
+      var var12 = new ArrayList(var9.length);
+      String[] var8 = var10000;
+      boolean var13 = false;
+      int var14 = 0;
+      int var15 = var9.length;
+
+      while (true) {
+         if (var14 < var15) {
+            String var16 = var11[var14];
+            var10000 = var12;
+            if (var8 != null) {
+               break;
+            }
+
+            boolean var18 = false;
+            var12.add(this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var16, var6));
+            var14++;
+            if (var8 == null) {
+               continue;
+            }
+         }
+
+         var10000 = var12;
+         break;
+      }
+
+      var9 = var10000;
+      var10 = false;
+      Object var24 = var9;
+
+      try {
+         var10000 = var24.toArray(new String[0]);
+         if (lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               5871783285468524067L, var4
+            )
+            == null) {
+            lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               new String[4], 6046754547293157056L, var4
+            );
+         }
+
+         return var10000;
+      } catch (MatchException var20) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var20, 5931364170101284838L, var4
+         );
+      }
+   }
+
+   @NotNull
+   public String IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl$recovered$ff5651208d9d7fcf(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

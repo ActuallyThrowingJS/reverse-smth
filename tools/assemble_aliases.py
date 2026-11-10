@@ -1,6 +1,7 @@
 """Assemble class aliases with canonical failure comparison and nested-source accounting."""
 from pathlib import Path
 import hashlib
+import argparse
 from collections import Counter
 import json
 import re
@@ -8,7 +9,14 @@ import shutil
 import zipfile
 
 root = Path(__file__).resolve().parent.parent
-work = root / 'build/round7'
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--work', type=Path, default=Path('build/round7'))
+parser.add_argument('--base-binary', type=Path, default=Path('build/round6/final.jar'))
+parser.add_argument('--new-module-aliases', type=int, default=32)
+parser.add_argument('--new-nested-aliases', type=int, default=362)
+args = parser.parse_args()
+work = root / args.work
+base_binary = root / args.base_binary
 baseline_root = work / 'baseline'
 if not (baseline_root / 'reports/decompiler-failures.json').exists():
     shutil.copytree(root / 'reference/client/src/main/java', baseline_root / 'reference/client/src/main/java')
@@ -24,7 +32,7 @@ runtime = {v for v in json.loads((root / 'mappings/semantic-mappings.json').read
 alternatives = set(json.loads((root / 'reports/extended/source-choices.json').read_text()))
 approved = set(json.loads((work / 'approved-alternatives.json').read_text())['approved'])
 assert alternatives == approved, 'Regenerate or recheck affected alternatives before assembling.'
-with zipfile.ZipFile(root / 'build/round6/final.jar') as binary:
+with zipfile.ZipFile(base_binary) as binary:
     for owner in runtime:
         assert not any(name.encode() in binary.read(owner + '.class') for name in delta), 'Runtime source needs remapping.'
         shutil.copy2(previous / (owner + '.java'), target / (owner + '.java'))
@@ -54,7 +62,7 @@ assert not after - before, sorted(after - before)[:10]
 assert not (Counter(x for x in lines if "couldn't be written" in x) - Counter(x for x in baseline['failures'] if "couldn't be written" in x)), "New class-write warnings"
 reviewed = {r['oldOwner']: r for r in json.loads((root / 'evidence/nested-alias-switch-helpers.json').read_text())}
 migrations = []
-with zipfile.ZipFile(root / 'build/round6/final.jar') as binary:
+with zipfile.ZipFile(base_binary) as binary:
     for path in previous.rglob('*.java'):
         name = str(path.relative_to(previous))[:-5]
         mapped = delta.get(name, name)
@@ -74,6 +82,7 @@ sources = list((target / 'me/octo/client').rglob('*.java'))
 report = dict(tool='Vineflower 1.11.2 with rechecked CFR/Procyon alternatives and consistent nested aliases', sourceFiles=len(sources), methodFailures=sum("couldn't be decompiled" in x for x in lines), classWriteFailures=sum("couldn't be written" in x for x in lines), failures=lines)
 (work / 'assembled-failures.json').write_text(json.dumps(report, indent=2) + '\n')
 (work / 'source-migrations.json').write_text(json.dumps(migrations, indent=2) + '\n')
-summary = dict(newTopLevelModuleAliases=32, additionalNestedClassAliases=362, currentTopLevelClassAliases=111, currentNestedClassAliases=364, currentExplicitClassAliases=475, classNamesChangedThisPass=len(delta), sourceFiles=len(sources), formerlyStandaloneNestedDeclarationsMerged=sum(x['status'].startswith('Nested declaration') for x in migrations), syntheticEnumSwitchHelpersFolded=sum(x['status'].startswith('Synthetic enum-switch') for x in migrations), newGenericDecompilerFailures=len(after - before), additionalGenericMethodsRecovered=len(before - after), remainingGenericMethodFailures=len(after), classWriteFailures=report['classWriteFailures'], compilerAndApiRecheckedAlternatives=len(approved), totalRegisteredNativeBodiesRecovered=34, registeredNativeBodiesRemaining=484, fullModBuildSuccessful=False)
+full_aliases = json.loads((work / 'full-mappings.json').read_text())['classes']
+summary = dict(newTopLevelModuleAliases=args.new_module_aliases, additionalNestedClassAliases=args.new_nested_aliases, currentTopLevelClassAliases=sum('$' not in x for x in full_aliases), currentNestedClassAliases=sum('$' in x for x in full_aliases), currentExplicitClassAliases=len(full_aliases), classNamesChangedThisPass=len(delta), sourceFiles=len(sources), formerlyStandaloneNestedDeclarationsMerged=sum(x['status'].startswith('Nested declaration') for x in migrations), syntheticEnumSwitchHelpersFolded=sum(x['status'].startswith('Synthetic enum-switch') for x in migrations), newGenericDecompilerFailures=len(after - before), additionalGenericMethodsRecovered=len(before - after), remainingGenericMethodFailures=len(after), classWriteFailures=report['classWriteFailures'], compilerAndApiRecheckedAlternatives=len(approved), totalRegisteredNativeBodiesRecovered=9 + len(json.loads((root / 'evidence/native-round5/recipes.json').read_text())), registeredNativeBodiesRemaining=518 - 9 - len(json.loads((root / 'evidence/native-round5/recipes.json').read_text())), fullModBuildSuccessful=False)
 (work / 'summary.json').write_text(json.dumps(summary, indent=2) + '\n')
 print(json.dumps(summary, indent=2))

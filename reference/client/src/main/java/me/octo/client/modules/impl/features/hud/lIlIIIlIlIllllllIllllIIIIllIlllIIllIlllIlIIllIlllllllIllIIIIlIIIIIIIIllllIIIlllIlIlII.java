@@ -1814,5 +1814,52 @@ public final class lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIl
             );
          }
       }
+
+      @NotNull
+      public final String IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$5344baabe32a3bac(long param1) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      @NotNull
+      public final String IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl$recovered$0f65ce693f83a78f(long var1) {
+         var1 = 27454436343877L;
+         var1 = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ var1;
+         long var4 = MacroPauseManager.INSTANCE.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII()
+            - this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll();
+         String var10000 = lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlIIlllIIlIlllIIlIlIlI.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll();
+         long var6 = var4 / llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(24814, 7132832556859340597L ^ var1);
+         long var8 = var4
+            / llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(1674, 5353085967743603026L ^ var1)
+            % llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(31637, 3937339542970707018L ^ var1);
+         long var10 = var4
+            / llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(24317, 5537649207860463905L ^ var1)
+            % llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(26019, 964042733136491129L ^ var1);
+         String var3 = var10000;
+         long var12 = var4
+            / llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(19513, 3869836804683733991L ^ var1)
+            % llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"m">(25739, 2653762552563479378L ^ var1);
+
+         try {
+            if (var3 != null) {
+               return var6 > 0L ? var8 + "h " + var10 + "m " + var12 + "s" : var10 + "m " + var12 + "s";
+            }
+
+            if (var6 > 0L) {
+               return var6 + "d " + var8 + "h " + var10 + "m";
+            }
+         } catch (MatchException var25) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var25);
+         }
+
+         long var10001;
+         try {
+            var28 = var8;
+            var10001 = 0L;
+         } catch (MatchException var24) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var24);
+         }
+
+         return var28 > var10001 ? var8 + "h " + var10 + "m " + var12 + "s" : var10 + "m " + var12 + "s";
+      }
    }
 }

@@ -18,7 +18,7 @@ The client pass solved 2,255 ZKM key sites, including seven recovered from nativ
 
 The current mapping provides 111 top-level class aliases, 364 explicit nested-class aliases, 1,059 field names and 1,434 renamed method declarations. Names come from decrypted Kotlin parameter checks, constructor assignments, event producers, type information and display strings. **Aliases inferred from behavior or display names are proposed readable names, not recovered original identifiers.** The parameter report retains 2,132 original Kotlin parameter names. Decompiled parameters use an `Arg` suffix to avoid a Vineflower naming inconsistency.
 
-The original JARs contain 122 loader and 396 client JNIC implementation bodies. All 518 native registration records were matched to supplied declarations and executable ELF ranges. Their addresses are mapped; 34 bodies have now been reconstructed, while the others remain unresolved. Eleven additional `NativePathFinder` native declarations are outside these JNIC registration sets.
+The original JARs contain 122 loader and 396 client JNIC implementation bodies. All 518 native registration records were matched to supplied declarations and executable ELF ranges. Their addresses are mapped; 36 bodies have now been reconstructed, while the others remain unresolved. Eleven additional `NativePathFinder` native declarations are outside these JNIC registration sets.
 
 ## Native code and Ghidra
 
@@ -88,3 +88,5 @@ The 32 constructor-derived module aliases in [`mappings/module-name-proposals.js
 ## Applied class aliases
 
 The alias pass applies 32 additional module names and explicitly maps 362 nested classes to their aliased outer names. This changes 394 binary class names, with complete class-inventory and collision checks. Eighty-seven formerly standalone nested source files are now merged into their outer classes; two reviewed synthetic enum-switch helpers are folded by the decompiler. The current tree contains 1,494 Java source files. All seven complete-class alternatives were recompiled and API-checked against the renamed archive. Failure counts remain unchanged; see [`reports/round7`](reports/round7) for source migrations and canonical failure comparison.
+
+The superclass-call recovery pass adds 12 caller-proven variants, six with Java declarations and no recorded method failure. It restores 33 string sites and 41 member references. Two native loader helpers are now Java: the class-header package rewrite and the URLConnection factory. Total native recovery is 36/518; see [`reports/round8`](reports/round8). Generic failure counts and the full-build limitation remain unchanged.
