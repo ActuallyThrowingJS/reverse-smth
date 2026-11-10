@@ -85,4 +85,15 @@ public final class IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIII
 
       return new String(var3, 0, var1);
    }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$da6e9b4dde11f8fe(
+      long argument1Arg, @NotNull ModuleCategory categoryArg, float argument3Arg, int argument4Arg
+   ) {
+      argument1Arg = 25767L;
+      long var6 = (argument1Arg << 32 | (long)argument4Arg << 32 >>> 32)
+         ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      Intrinsics.checkNotNullParameter(categoryArg, "category");
+      lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = categoryArg;
+      IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = argument3Arg;
+   }
 }

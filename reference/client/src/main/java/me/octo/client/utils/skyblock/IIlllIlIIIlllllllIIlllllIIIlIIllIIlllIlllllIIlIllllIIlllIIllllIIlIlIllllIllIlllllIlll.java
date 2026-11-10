@@ -166,45 +166,37 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
       String var6 = "bÒâ¢¸\u0088rº¯Ñ#¤Oþ\u0098ûJL\u0098\u008a\u008fÎå*\u0010aÂr\u008fÍºÁ=§\u0000d±½jiI\u0010HXuçI³6\u0014µ8%=ã<Å(\u0010Ó±ÿ\u001bèx\\í¹\u0090aHb8!\u0003\u00109\u0093[±\u0015ó;ì_\u008bÞ\u0010ZS á\u0010oÙ4\u0082\u009f[~]ñG9QÚó\\q z\u0005\rcÉB\u001d×× F\u0002{Q4àC¼\u009dÍeFf(¨Ç\u009e-Ðo\u009a\u0084\u0010%°,Túêàã\u009cÎ\u0081\u0080uNtU\u0010\u009f\u001b4rà\u0087\u0015ý²4\u008e\u0014³Î\u008dØ\u0010\u009f\u0017\u0081\u0084XKÆa~ÀËeu'º±\u00101ÄeºFå\u0089và×>©é¶Kâ0aúi\u0096¬\u0098Ø÷h\u008d/\rèf\u0096òåÜk×E\ró\u0005¶Ó\u0099\u0093È¦5M\n*/G\u0090éR-\bùTì\nÏ\fá\u0010É^]8\u0099\u008ac\u0083{KR\u0015\u008d\u001fîy\u0010\u0082ÿcÙ@aR\u0086Ø>ùzl[\u009fõP/\u0085ã|ÁýPI\u008d[ÿÃæ\u000e¶ÖIlÖê\u008a\u000fÄ;³\tîÇùÑ\u008b$G^\u008d®o'\u0086~\u0083§ó©ï~W~8Ñ\u0004k¤õðü±GÚW¸\u000f¦¥îâ\u0088ÏfÔ¥\u0097\u0018ä\u0081´û\u0015õ×P\u0018ìÕ\u008a$d\u00899×Ý\u0019û\u0087\u0017Á³\u001bÆ^C\u0094k\u008dÚ°ØßZú©>9¹Ü\u0018ñæÃ2Jÿä«Ô-ý*SÒ?)Ù\u0095À¬ð=,è¡Q\böÈÄ\u009e§'dêD\u0003\u008eáy\u0014cÞoÈ@Xe÷\u0089é÷¼Á\u0003w37w -\u0011n¾G¢´\u0010gqx¢þïÞP$¼GÌü\f\u009fR2\u008aVÍ\\\u0099Ö «\u0014I\u008c2\u0095yEtÊL\u0099\u0086$\u0016Dß\u0018";
       int var8 = "bÒâ¢¸\u0088rº¯Ñ#¤Oþ\u0098ûJL\u0098\u008a\u008fÎå*\u0010aÂr\u008fÍºÁ=§\u0000d±½jiI\u0010HXuçI³6\u0014µ8%=ã<Å(\u0010Ó±ÿ\u001bèx\\í¹\u0090aHb8!\u0003\u00109\u0093[±\u0015ó;ì_\u008bÞ\u0010ZS á\u0010oÙ4\u0082\u009f[~]ñG9QÚó\\q z\u0005\rcÉB\u001d×× F\u0002{Q4àC¼\u009dÍeFf(¨Ç\u009e-Ðo\u009a\u0084\u0010%°,Túêàã\u009cÎ\u0081\u0080uNtU\u0010\u009f\u001b4rà\u0087\u0015ý²4\u008e\u0014³Î\u008dØ\u0010\u009f\u0017\u0081\u0084XKÆa~ÀËeu'º±\u00101ÄeºFå\u0089và×>©é¶Kâ0aúi\u0096¬\u0098Ø÷h\u008d/\rèf\u0096òåÜk×E\ró\u0005¶Ó\u0099\u0093È¦5M\n*/G\u0090éR-\bùTì\nÏ\fá\u0010É^]8\u0099\u008ac\u0083{KR\u0015\u008d\u001fîy\u0010\u0082ÿcÙ@aR\u0086Ø>ùzl[\u009fõP/\u0085ã|ÁýPI\u008d[ÿÃæ\u000e¶ÖIlÖê\u008a\u000fÄ;³\tîÇùÑ\u008b$G^\u008d®o'\u0086~\u0083§ó©ï~W~8Ñ\u0004k¤õðü±GÚW¸\u000f¦¥îâ\u0088ÏfÔ¥\u0097\u0018ä\u0081´û\u0015õ×P\u0018ìÕ\u008a$d\u00899×Ý\u0019û\u0087\u0017Á³\u001bÆ^C\u0094k\u008dÚ°ØßZú©>9¹Ü\u0018ñæÃ2Jÿä«Ô-ý*SÒ?)Ù\u0095À¬ð=,è¡Q\böÈÄ\u009e§'dêD\u0003\u008eáy\u0014cÞoÈ@Xe÷\u0089é÷¼Á\u0003w37w -\u0011n¾G¢´\u0010gqx¢þïÞP$¼GÌü\f\u009fR2\u008aVÍ\\\u0099Ö «\u0014I\u008c2\u0095yEtÊL\u0099\u0086$\u0016Dß\u0018"
          .length();
-      char var5 = 24;
-      int var12 = -1;
+      char var5 = '\u0018';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "4a4Í8¯¹ùpLÉë\u001c\u008eDï\u0018/\u00ad¬9o\u0090È5jÑ\u008fkù\"¸\u0080¬\u009c±Î\u0085)è\u001e";
+            var8 = "4a4Í8¯¹ùpLÉë\u001c\u008eDï\u0018/\u00ad¬9o\u0090È5jÑ\u008fkù\"¸\u0080¬\u009c±Î\u0085)è\u001e".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var9;
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new String[19];
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var9;
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new String[19];
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "4a4Í8¯¹ùpLÉë\u001c\u008eDï\u0018/\u00ad¬9o\u0090È5jÑ\u008fkù\"¸\u0080¬\u009c±Î\u0085)è\u001e";
-                  var8 = "4a4Í8¯¹ùpLÉë\u001c\u008eDï\u0018/\u00ad¬9o\u0090È5jÑ\u008fkù\"¸\u0080¬\u009c±Î\u0085)è\u001e".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -313,5 +305,95 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
             var5
          );
       }
+   }
+
+   @NotNull
+   public final BigDecimal IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$8ee6351dc6f4a414(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final BigDecimal IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$80f32497fdaad53a(long var1) {
+      var1 = 130619445636816L;
+      var1 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var1;
+      long var3 = var1 ^ 573121325323L;
+      long var5 = var1 ^ 109823679226461L;
+      int var7 = (int)((var1 ^ 124349774772499L) >>> 48);
+      long var8 = (var1 ^ 124349774772499L) << 16 >>> 16;
+      String var10000 = llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
+      Iterable var11 = CollectionsKt.asReversed(
+         TabListUtils.INSTANCE
+            .IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$883d03eb4821035b((char)var7, var8)
+      );
+      String var10 = var10000;
+      boolean var12 = false;
+      Iterator var13 = var11.iterator();
+
+      String var15;
+      label44: {
+         while (true) {
+            if (var13.hasNext()) {
+               Object var14 = var13.next();
+               var15 = (String)var14;
+               if (var10 != null) {
+                  break;
+               }
+
+               boolean var16 = false;
+
+               try {
+                  if (var10 == null && StringsKt.contains$default(var15, "Bank:", false, 2, null)) {
+                     break label44;
+                  }
+               } catch (NumberFormatException var25) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var25);
+               }
+
+               if (var10 == null) {
+                  continue;
+               }
+            }
+
+            me.octo.client.utils.player.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$cf2438d7b5c3e92e(
+               var5, "Failed to get bank balance from tablist"
+            );
+            break;
+         }
+
+         try {
+            BigDecimal var32 = BigDecimal.ZERO;
+            Intrinsics.checkNotNullExpressionValue(BigDecimal.ZERO, "ZERO");
+            if (me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII()
+               == null) {
+               String var22 = "sRCW3b";
+               llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+                  var22
+               );
+            }
+
+            return var32;
+         } catch (NumberFormatException var24) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var24);
+         }
+      }
+
+      CharSequence var17 = StringsKt.replace$default(var15, "Bank:", "", false, 4, null);
+      Regex var18 = new Regex("\\s");
+      String var19 = "";
+      String var20 = var18.replace(var17, var19);
+      IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var31 = IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI;
+      var17 = StringsKt.replace$default(var15, "Bank:", "", false, 4, null);
+      var18 = new Regex("\\s");
+      var19 = "";
+      return var31.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e1605e51f4c04153(
+         var3, var18.replace(var17, var19)
+      );
+   }
+
+   @NotNull
+   public final BigDecimal IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e1605e51f4c04153(
+      long argument1Arg, @NotNull String balanceStrArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

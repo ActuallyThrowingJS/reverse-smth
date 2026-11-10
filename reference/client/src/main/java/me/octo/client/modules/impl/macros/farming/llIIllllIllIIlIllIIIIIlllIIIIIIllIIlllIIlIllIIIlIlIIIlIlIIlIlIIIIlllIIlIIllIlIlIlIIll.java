@@ -49,48 +49,40 @@ public enum llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlll
       String var5 = "\\®u-z\u0003!\u0097ØÌ\u0096\u001cõUE´\u0016hv8\u0004e\u0096ñ\b\u0001\u0003°É'j}\u001d\u00102Ù¥\u0085\u0090\u0097\u0099ë\u009f\u0014Ô\u0080\u001aÔ{v\b\u0083øÇ\u0094ãþÐu\u0018ªýâOò\u009b\u0018K\u0016\u008e5\u0006CÒï\u00074$»<²\u0090\u0016@\u0018\u000f¦ìk\u008f\u0092&ý\u0086\u0088ùÔG\fÜ$\u008fz\u0095\u0087ú`\u0084¿\baª<~\u0016z\u0011\u0094\u0010géRð\u008d~bGT\u000b%/kî)+";
       int var7 = "\\®u-z\u0003!\u0097ØÌ\u0096\u001cõUE´\u0016hv8\u0004e\u0096ñ\b\u0001\u0003°É'j}\u001d\u00102Ù¥\u0085\u0090\u0097\u0099ë\u009f\u0014Ô\u0080\u001aÔ{v\b\u0083øÇ\u0094ãþÐu\u0018ªýâOò\u009b\u0018K\u0016\u008e5\u0006CÒï\u00074$»<²\u0090\u0016@\u0018\u000f¦ìk\u008f\u0092&ý\u0086\u0088ùÔG\fÜ$\u008fz\u0095\u0087ú`\u0084¿\baª<~\u0016z\u0011\u0094\u0010géRð\u008d~bGT\u000b%/kî)+"
          .length();
-      char var4 = 24;
-      int var13 = -1;
+      char var4 = '\u0018';
+      int var3 = -1;
 
-      label32:
       while (true) {
-         String var14 = var5.substring(++var13, var13 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var22;
+         if ((var3 += var4) >= var7) {
+            var5 = "p\u0095©\u0004\u0094\u0014A\u0002\\\u0001úô\u00169\u0083{\u0082á\u008a\u0081\u009aÌ\u008bL\u0018p\t\u008e\u0098\u0090Ä\u0090$w\u001a\u007fÝ\\\u0099\u0094ê\u0081ûèá\u0089Q²3";
+            var7 = "p\u0095©\u0004\u0094\u0014A\u0002\\\u0001úô\u00169\u0083{\u0082á\u008a\u0081\u009aÌ\u008bL\u0018p\t\u008e\u0098\u0090Ä\u0090$w\u001a\u007fÝ\\\u0099\u0094ê\u0081ûèá\u0089Q²3"
+               .length();
+            var4 = '\u0018';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) >= var7) {
-                     WHEAT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[5], Blocks.WHEAT);
-                     CARROT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[8], Blocks.CARROTS);
-                     POTATO = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[0], Blocks.POTATOES);
-                     SUGAR_CANE = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[4], Blocks.SUGAR_CANE);
-                     NETHER_WART = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[9], Blocks.NETHER_WART);
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var0[var6++] = var24;
+               if ((var3 += var4) >= var7) {
+                  WHEAT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[5], Blocks.WHEAT);
+                  CARROT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[8], Blocks.CARROTS);
+                  POTATO = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[0], Blocks.POTATOES);
+                  SUGAR_CANE = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[4], Blocks.SUGAR_CANE);
+                  NETHER_WART = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[9], Blocks.NETHER_WART);
+                  return;
+               }
 
-                  var4 = var5.charAt(var13);
-                  break;
-               default:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) < var7) {
-                     var4 = var5.charAt(var13);
-                     continue label32;
-                  }
-
-                  var5 = "p\u0095©\u0004\u0094\u0014A\u0002\\\u0001úô\u00169\u0083{\u0082á\u008a\u0081\u009aÌ\u008bL\u0018p\t\u008e\u0098\u0090Ä\u0090$w\u001a\u007fÝ\\\u0099\u0094ê\u0081ûèá\u0089Q²3";
-                  var7 = "p\u0095©\u0004\u0094\u0014A\u0002\\\u0001úô\u00169\u0083{\u0082á\u008a\u0081\u009aÌ\u008bL\u0018p\t\u008e\u0098\u0090Ä\u0090$w\u001a\u007fÝ\\\u0099\u0094ê\u0081ûèá\u0089Q²3"
-                     .length();
-                  var4 = 24;
-                  var13 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var14 = var5.substring(++var13, var13 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

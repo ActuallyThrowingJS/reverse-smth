@@ -56,7 +56,7 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
       this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new ObjectArrayList();
       this.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new Object2ObjectOpenHashMap();
       this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new ObjectArrayList();
-      this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = me.octo.client.utils.IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      this.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = me.octo.client.utils.IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$40db4159fc39218d(
          (Map)(new Object2ObjectOpenHashMap()),
          IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll::IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI,
          var3
@@ -195,64 +195,56 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
       String var6 = "¹m¨y³W\u00adi\bbÎG\u0089VI+\u0017K¡ìºE\u0091\u009b(\u00ad<ÿ ·ÿ\u0005$L>4÷\u0093?ÄÃ}FÕó{Ù\bJÔø\u0081ÄB\u007fr¥\f%38¤\u0091Hz\u0018\u0087}q¤ÑÖ÷{-«\u00182\u0019-#ÔÛ¨ w<àæù(H\u008dÄQ\u0014µPêFx\u0091ÝÑ\u0088\u0093!ÃÛlxîè»ä\u008a¤X¨vÛH\u008cú\u008cVòÇQ\u0002¸\u0010A\u0017+ò¥¼\u0017ò4×A\u008b-\u008cP\u0017 à\u0085\u008f\u0005bíÅw|!x¹{ gh\u0087µýY\u001fPnÏoÀ9\u0000\u0011L° \u0018>mæDg×|\u0014\f±E+\u0099Æ$#/l\u0017ö«>ÈÜ(r=k¸\u0014\u008e\u0002uÚéÙà\u000fR+Ì¢\u009fÃ\u009bô\u0015<KÊ¢\u0093\u0011%\u0098\u000fÞ9»\u001aµ´\u0014Õ,\u0018ú\u0003\u0085k\u001eà»\u0090\u0090z;`Sôt\u0097ùNÁu·\u0099±x@\u0005\u009d\u007f^\u0006\u001e\t|ÿôª¢'UI\u00adñ\u0095/Ê¦\n×«*ùr\u000eZÅ\u0003\u0013DÚX³É\u001d§WÃ\tä\u008aÀ2L#\u008d\u0085\u0093#7/\u0094Óý{çÄ§<vl\u0018òs¶Ò\u0092°¸\u0085F\u009c\u0014ãTãº\u009f\u0095\u008cÙ\u0082I\u00adÞT\u0018íò\u0002_\"Éàxn\tÔÕ\u0093`\u0014Ü¿µV\u009e\u0017Ì\u0088\u009d";
       int var8 = "¹m¨y³W\u00adi\bbÎG\u0089VI+\u0017K¡ìºE\u0091\u009b(\u00ad<ÿ ·ÿ\u0005$L>4÷\u0093?ÄÃ}FÕó{Ù\bJÔø\u0081ÄB\u007fr¥\f%38¤\u0091Hz\u0018\u0087}q¤ÑÖ÷{-«\u00182\u0019-#ÔÛ¨ w<àæù(H\u008dÄQ\u0014µPêFx\u0091ÝÑ\u0088\u0093!ÃÛlxîè»ä\u008a¤X¨vÛH\u008cú\u008cVòÇQ\u0002¸\u0010A\u0017+ò¥¼\u0017ò4×A\u008b-\u008cP\u0017 à\u0085\u008f\u0005bíÅw|!x¹{ gh\u0087µýY\u001fPnÏoÀ9\u0000\u0011L° \u0018>mæDg×|\u0014\f±E+\u0099Æ$#/l\u0017ö«>ÈÜ(r=k¸\u0014\u008e\u0002uÚéÙà\u000fR+Ì¢\u009fÃ\u009bô\u0015<KÊ¢\u0093\u0011%\u0098\u000fÞ9»\u001aµ´\u0014Õ,\u0018ú\u0003\u0085k\u001eà»\u0090\u0090z;`Sôt\u0097ùNÁu·\u0099±x@\u0005\u009d\u007f^\u0006\u001e\t|ÿôª¢'UI\u00adñ\u0095/Ê¦\n×«*ùr\u000eZÅ\u0003\u0013DÚX³É\u001d§WÃ\tä\u008aÀ2L#\u008d\u0085\u0093#7/\u0094Óý{çÄ§<vl\u0018òs¶Ò\u0092°¸\u0085F\u009c\u0014ãTãº\u009f\u0095\u008cÙ\u0082I\u00adÞT\u0018íò\u0002_\"Éàxn\tÔÕ\u0093`\u0014Ü¿µV\u009e\u0017Ì\u0088\u009d"
          .length();
-      char var5 = 24;
-      int var12 = -1;
+      char var5 = '\u0018';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0092¼\u0095ü´O¢\u008få©\\\u0000{\u007fSÔ÷ì-\u001a@\u001e\u0087- ·#{qÄ#Àäl©\u0096/\u0013\u0081U2]Ë\u008c¼fà³\u001aFXÔm\" \u0019FCÄÆ¬Ê\u00897(\u0006Iû*=zÿÄÈæîWð\u0096ÓmM¥=y\"\u0093á\u001d-\u008cTÃPC-Øõ\u009fF\u001a1²54";
+            var8 = "\u0092¼\u0095ü´O¢\u008få©\\\u0000{\u007fSÔ÷ì-\u001a@\u001e\u0087- ·#{qÄ#Àäl©\u0096/\u0013\u0081U2]Ë\u008c¼fà³\u001aFXÔm\" \u0019FCÄÆ¬Ê\u00897(\u0006Iû*=zÿÄÈæîWð\u0096ÓmM¥=y\"\u0093á\u001d-\u008cTÃPC-Øõ\u009fF\u001a1²54"
+               .length();
+            var5 = '@';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var9;
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new String[14];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var9;
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new String[14];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = Comparator.<llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll>comparingInt(
+                        IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll::IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI
+                     )
+                     .thenComparingInt(
+                        IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll::llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI
+                     )
+                     .thenComparingInt(
+                        IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll::IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII
+                     )
+                     .thenComparingInt(
+                        IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll::IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl
                      );
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = Comparator.<llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll>comparingInt(
-                           IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll::IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI
-                        )
-                        .thenComparingInt(
-                           IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll::llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI
-                        )
-                        .thenComparingInt(
-                           IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll::IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII
-                        )
-                        .thenComparingInt(
-                           IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll::IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl
-                        );
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = Comparator.comparing(
-                        IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll::IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI,
-                        IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-                     );
-                     return;
-                  }
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = Comparator.comparing(
+                     IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll::IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI,
+                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+                  );
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0092¼\u0095ü´O¢\u008få©\\\u0000{\u007fSÔ÷ì-\u001a@\u001e\u0087- ·#{qÄ#Àäl©\u0096/\u0013\u0081U2]Ë\u008c¼fà³\u001aFXÔm\" \u0019FCÄÆ¬Ê\u00897(\u0006Iû*=zÿÄÈæîWð\u0096ÓmM¥=y\"\u0093á\u001d-\u008cTÃPC-Øõ\u009fF\u001a1²54";
-                  var8 = "\u0092¼\u0095ü´O¢\u008få©\\\u0000{\u007fSÔ÷ì-\u001a@\u001e\u0087- ·#{qÄ#Àäl©\u0096/\u0013\u0081U2]Ë\u008c¼fà³\u001aFXÔm\" \u0019FCÄÆ¬Ê\u00897(\u0006Iû*=zÿÄÈæîWð\u0096ÓmM¥=y\"\u0093á\u001d-\u008cTÃPC-Øõ\u009fF\u001a1²54"
-                     .length();
-                  var5 = '@';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -359,6 +351,38 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
             var5
          );
       }
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a6250295b4ea826f(
+      long var0,
+      IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var2,
+      RenderTarget var3,
+      GpuBufferSlice var4,
+      int var5,
+      Object var6
+   ) {
+      var0 = 91434578954552L;
+      var0 = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll ^ var0;
+      long var7 = (var0 ^ 82018636199197L) >>> 8;
+      int var9 = (int)((var0 ^ 82018636199197L) << 56 >>> 56);
+      long var10001 = var0 ^ 89062749170557L;
+      int var10 = (int)((var0 ^ 89062749170557L) >>> 32);
+      int var11 = (int)((var0 ^ 89062749170557L) << 32 >>> 48);
+      int var12 = (int)(var10001 << 48 >>> 48);
+      if ((var5 & 2) != 0) {
+         var4 = lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+            var10, (char)var11, null, null, 3, var12, null
+         );
+      }
+
+      var2.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$cd5ba47f79ae9370(var7, var3, var4, (byte)var9);
+   }
+
+   @JvmOverloads
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$cd5ba47f79ae9370(
+      long param1, @NotNull RenderTarget param3, @NotNull GpuBufferSlice param4, byte param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

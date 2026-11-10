@@ -28,9 +28,9 @@ public class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIll
 
       var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
       byte[] var15 = var13.doFinal("¼\u0082\t\\|ÉÊ!Ìÿü¤äU½WU8\u0083«\n§Þ³".getBytes("ISO-8859-1"));
-      String var28 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var15).intern();
+      String var32 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var15).intern();
       int var10001 = -1;
-      IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = var28;
+      IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = var32;
       Cipher var1;
       var10000 = var1 = Cipher.getInstance("DES/CBC/NoPadding");
       var10002 = SecretKeyFactory.getInstance("DES");
@@ -47,14 +47,12 @@ public class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIll
       int var6 = "&È2í÷P°\u009dì6°Pm:\u009f4Å¨I%C\u0005ð\r³\u009b`\u0017\u0012ßBú".length();
       byte var3 = 0;
 
-      label56:
-      while (true) {
+      do {
          var10001 = var3;
          var3 += 8;
          byte[] var7 = var5.substring(var10001, var3).getBytes("ISO-8859-1");
-         long[] var24 = var0;
          var10001 = var4++;
-         long var30 = (var7[0] & 255L) << 56
+         long var8 = (var7[0] & 255L) << 56
             | (var7[1] & 255L) << 48
             | (var7[2] & 255L) << 40
             | (var7[3] & 255L) << 32
@@ -62,94 +60,95 @@ public class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIll
             | (var7[5] & 255L) << 16
             | (var7[6] & 255L) << 8
             | var7[7] & 255L;
-         byte var33 = -1;
-
-         while (true) {
-            long var8 = var30;
-            byte[] var10 = var1.doFinal(
-               new byte[]{
-                  (byte)(var8 >>> 56),
-                  (byte)(var8 >>> 48),
-                  (byte)(var8 >>> 40),
-                  (byte)(var8 >>> 32),
-                  (byte)(var8 >>> 24),
-                  (byte)(var8 >>> 16),
-                  (byte)(var8 >>> 8),
-                  (byte)var8
-               }
-            );
-            long var35 = (var10[0] & 255L) << 56
-               | (var10[1] & 255L) << 48
-               | (var10[2] & 255L) << 40
-               | (var10[3] & 255L) << 32
-               | (var10[4] & 255L) << 24
-               | (var10[5] & 255L) << 16
-               | (var10[6] & 255L) << 8
-               | var10[7] & 255L;
-            switch (var33) {
-               case 0:
-                  var24[var10001] = var35;
-                  if (var3 >= var6) {
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = (char)((int)var0[2]);
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = (char)((int)var0[0]);
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = (char)((int)var0[1]);
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = (char)((int)var0[3]);
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = (char)((int)var0[5]);
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = (char)((int)var0[4]);
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new Color[32];
-
-                     for (int var16 = 0; var16 < lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll.length; var16++) {
-                        int var17 = (var16 >> 3 & 1) * 85;
-                        int var18 = (var16 >> 2 & 1) * 170 + var17;
-                        int var19 = (var16 >> 1 & 1) * 170 + var17;
-                        int var20 = (var16 & 1) * 170 + var17;
-
-                        try {
-                           if (var16 == 6) {
-                              var18 += 85;
-                           }
-                        } catch (MatchException var21) {
-                           throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var21);
-                        }
-
-                        if (var16 >= 16) {
-                           var18 /= 4;
-                           var19 /= 4;
-                           var20 /= 4;
-                        }
-
-                        lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll[var16] = new Color(var18, var19, var20);
-                     }
-
-                     return;
-                  }
-                  break;
-               default:
-                  var24[var10001] = var35;
-                  if (var3 < var6) {
-                     continue label56;
-                  }
-
-                  var5 = "\u0099'o»p\u0013I\u0000ü\u0002îÎ\\3ÀB";
-                  var6 = "\u0099'o»p\u0013I\u0000ü\u0002îÎ\\3ÀB".length();
-                  var3 = 0;
+         byte[] var10 = var1.doFinal(
+            new byte[]{
+               (byte)(var8 >>> 56),
+               (byte)(var8 >>> 48),
+               (byte)(var8 >>> 40),
+               (byte)(var8 >>> 32),
+               (byte)(var8 >>> 24),
+               (byte)(var8 >>> 16),
+               (byte)(var8 >>> 8),
+               (byte)var8
             }
+         );
+         long var10004 = (var10[0] & 255L) << 56
+            | (var10[1] & 255L) << 48
+            | (var10[2] & 255L) << 40
+            | (var10[3] & 255L) << 32
+            | (var10[4] & 255L) << 24
+            | (var10[5] & 255L) << 16
+            | (var10[6] & 255L) << 8
+            | var10[7] & 255L;
+         byte var35 = -1;
+         var0[var10001] = var10004;
+      } while (var3 < var6);
 
-            byte var27 = var3;
-            var3 += 8;
-            var7 = var5.substring(var27, var3).getBytes("ISO-8859-1");
-            var24 = var0;
-            var10001 = var4++;
-            var30 = (var7[0] & 255L) << 56
-               | (var7[1] & 255L) << 48
-               | (var7[2] & 255L) << 40
-               | (var7[3] & 255L) << 32
-               | (var7[4] & 255L) << 24
-               | (var7[5] & 255L) << 16
-               | (var7[6] & 255L) << 8
-               | var7[7] & 255L;
-            var33 = 0;
+      var5 = "\u0099'o»p\u0013I\u0000ü\u0002îÎ\\3ÀB";
+      var6 = "\u0099'o»p\u0013I\u0000ü\u0002îÎ\\3ÀB".length();
+      var3 = 0;
+
+      do {
+         int var30 = var3;
+         var3 += 8;
+         byte[] var24 = var5.substring(var30, var3).getBytes("ISO-8859-1");
+         var30 = var4++;
+         long var25 = (var24[0] & 255L) << 56
+            | (var24[1] & 255L) << 48
+            | (var24[2] & 255L) << 40
+            | (var24[3] & 255L) << 32
+            | (var24[4] & 255L) << 24
+            | (var24[5] & 255L) << 16
+            | (var24[6] & 255L) << 8
+            | var24[7] & 255L;
+         byte[] var26 = var1.doFinal(
+            new byte[]{
+               (byte)(var25 >>> 56),
+               (byte)(var25 >>> 48),
+               (byte)(var25 >>> 40),
+               (byte)(var25 >>> 32),
+               (byte)(var25 >>> 24),
+               (byte)(var25 >>> 16),
+               (byte)(var25 >>> 8),
+               (byte)var25
+            }
+         );
+         long var37 = (var26[0] & 255L) << 56
+            | (var26[1] & 255L) << 48
+            | (var26[2] & 255L) << 40
+            | (var26[3] & 255L) << 32
+            | (var26[4] & 255L) << 24
+            | (var26[5] & 255L) << 16
+            | (var26[6] & 255L) << 8
+            | var26[7] & 255L;
+         boolean var36 = false;
+         var0[var30] = var37;
+      } while (var3 < var6);
+
+      lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = (char)((int)var0[2]);
+      IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = (char)((int)var0[0]);
+      IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = (char)((int)var0[1]);
+      lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = (char)((int)var0[3]);
+      IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = (char)((int)var0[5]);
+      IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = (char)((int)var0[4]);
+      lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new Color[32];
+
+      for (int var16 = 0; var16 < lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll.length; var16++) {
+         int var17 = (var16 >> 3 & 1) * 85;
+         int var18 = (var16 >> 2 & 1) * 170 + var17;
+         int var19 = (var16 >> 1 & 1) * 170 + var17;
+         int var20 = (var16 & 1) * 170 + var17;
+         if (var16 == 6) {
+            var18 += 85;
          }
+
+         if (var16 >= 16) {
+            var18 /= 4;
+            var19 /= 4;
+            var20 /= 4;
+         }
+
+         lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll[var16] = new Color(var18, var19, var20);
       }
    }
 

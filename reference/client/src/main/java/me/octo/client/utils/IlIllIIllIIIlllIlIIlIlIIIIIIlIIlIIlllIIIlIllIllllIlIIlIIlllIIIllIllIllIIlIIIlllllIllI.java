@@ -545,6 +545,206 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       }
    }
 
+   @NotNull
+   public final synchronized List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2438e9dbfc6dbedf(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$bb60550d036552e3(
+      String var1, long var2
+   ) {
+      var2 = 106514424170235L;
+      var2 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var2;
+      long var4 = var2 ^ 20630365395699L;
+      int var6 = (int)((var2 ^ 57859463906235L) >>> 32);
+      int var7 = (int)((var2 ^ 57859463906235L) << 32 >>> 32);
+      long var8 = var2 ^ 25286242508343L;
+      long var10 = var2 ^ 99359995187367L;
+      String var12 = StringsKt.removePrefix(var1, "PNXA1:");
+      byte[] var13 = Base64.getDecoder().decode(var12);
+      Intrinsics.checkNotNull(var13);
+      byte[] var14 = ArraysKt.copyOfRange(var13, 0, 12);
+      byte[] var15 = ArraysKt.copyOfRange(var13, 12, var13.length);
+
+      IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var16;
+      try {
+         var16 = new IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+            this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4fe8228dc18198bd(
+               var10,
+               this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$8c36ba2576524782(
+                  var8, this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$b26355380d3bc7c8(var4)
+               ),
+               var14,
+               var15
+            ),
+            false
+         );
+      } catch (Exception var18) {
+         var16 = new IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+            this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4fe8228dc18198bd(
+               var10,
+               this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$8c36ba2576524782(
+                  var8, this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var6, var7)
+               ),
+               var14,
+               var15
+            ),
+            true
+         );
+      }
+
+      return var16;
+   }
+
+   private final List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2eb9cc5bea5b1d07(
+      long param1, String param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final synchronized void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8d0625e82b76ca4c(
+      long argument1Arg, @NotNull List accountsArg
+   ) {
+      argument1Arg = 2499725791065L;
+      argument1Arg = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ argument1Arg;
+      long var4 = argument1Arg ^ 62930810331046L;
+      long var6 = argument1Arg ^ 1067569943078L;
+      Intrinsics.checkNotNullParameter(accountsArg, "accounts");
+      IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = CollectionsKt.toMutableList(accountsArg);
+
+      try {
+         String var8 = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$23553125425dab1b(accountsArg, var6);
+         String var9 = this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$d298f019a6fda836(var4, var8);
+         File var10000 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+         Charset var10002 = StandardCharsets.UTF_8;
+         Intrinsics.checkNotNullExpressionValue(StandardCharsets.UTF_8, "UTF_8");
+         FilesKt.writeText(var10000, var9, var10002);
+      } catch (Exception var10) {
+         PolinexLogger.error("Failed to save accounts.json: " + var10.getMessage());
+      }
+   }
+
+   private final String llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$b26355380d3bc7c8(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final byte[] llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$8c36ba2576524782(long var1, String var3) {
+      var1 = 43063254890676L;
+      var1 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var1;
+      String var4 = "ed3c9307d187586b60fea3617c0ddb3f65d21baa9c9df2d67071420b3ac99d41";
+      MessageDigest var5 = MessageDigest.getInstance("SHA-256");
+      Charset var10001 = StandardCharsets.UTF_8;
+      Intrinsics.checkNotNullExpressionValue(StandardCharsets.UTF_8, "UTF_8");
+      byte[] var9 = var4.getBytes(var10001);
+      Intrinsics.checkNotNullExpressionValue(var9, "getBytes(...)");
+      var5.update(var9);
+      var10001 = StandardCharsets.UTF_8;
+      Intrinsics.checkNotNullExpressionValue(StandardCharsets.UTF_8, "UTF_8");
+      byte[] var11 = var3.getBytes(var10001);
+      Intrinsics.checkNotNullExpressionValue(var11, "getBytes(...)");
+      var5.update(var11);
+      String var12 = System.getProperty("user.name", "");
+      Intrinsics.checkNotNullExpressionValue(var12, "getProperty(...)");
+      String var6 = var12;
+      var10001 = StandardCharsets.UTF_8;
+      Intrinsics.checkNotNullExpressionValue(StandardCharsets.UTF_8, "UTF_8");
+      byte[] var14 = var6.getBytes(var10001);
+      Intrinsics.checkNotNullExpressionValue(var14, "getBytes(...)");
+      var5.update(var14);
+      byte[] var10000 = var5.digest();
+      Intrinsics.checkNotNullExpressionValue(var10000, "digest(...)");
+      return var10000;
+   }
+
+   private final String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4fe8228dc18198bd(
+      long var1, byte[] var3, byte[] var4, byte[] var5
+   ) {
+      var1 = 118245125649956L;
+      var1 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var1;
+      Cipher var6 = Cipher.getInstance("AES/GCM/NoPadding");
+      var6.init(2, new SecretKeySpec(var3, "AES"), new GCMParameterSpec(128, var4));
+      byte[] var10000 = var6.doFinal(var5);
+      Intrinsics.checkNotNullExpressionValue(var10000, "doFinal(...)");
+      byte[] var7 = var10000;
+      Charset var11 = StandardCharsets.UTF_8;
+      Intrinsics.checkNotNullExpressionValue(StandardCharsets.UTF_8, "UTF_8");
+      Charset var8 = var11;
+      return new String(var7, var8);
+   }
+
+   private final String llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$23553125425dab1b(List var1, long var2) {
+      var2 = 92034078391559L;
+      var2 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var2;
+      JsonArray var5 = new JsonArray();
+      Iterable var6 = var1;
+      int[] var10000 = llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI();
+      boolean var7 = false;
+      int[] var4 = var10000;
+
+      for (Object var9 : var6) {
+         var10000 = var4;
+         lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI var10 = (lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI)var9;
+         boolean var11 = false;
+         JsonObject var12 = new JsonObject();
+         JsonObject var13 = var12;
+         JsonArray var14 = var5;
+         boolean var15 = false;
+
+         try {
+            if (var10000 == null) {
+               var13.addProperty("uuid", var10.getUuid());
+               var13.addProperty("name", var10.getName());
+               var13.addProperty("msaRefreshToken", var10.getMsaRefreshToken());
+               var13.addProperty("isOriginal", var10.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl());
+               var14.add((JsonElement)var12);
+               if (var4 == null) {
+                  continue;
+               }
+            }
+            break;
+         } catch (MatchException var17) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
+         }
+      }
+
+      JsonObject var20 = new JsonObject();
+      boolean var21 = false;
+      var20.add("accounts", (JsonElement)var5);
+      String var23 = var20.toString();
+      Intrinsics.checkNotNullExpressionValue(var23, "toString(...)");
+      return var23;
+   }
+
+   private final String IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$d298f019a6fda836(long var1, String var3) {
+      var1 = 117033332404359L;
+      var1 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var1;
+      long var4 = var1 ^ 26853239106703L;
+      long var6 = var1 ^ 31131162273867L;
+      byte[] var9 = new byte[12];
+      boolean var11 = false;
+      new SecureRandom().nextBytes(var9);
+      Cipher var14 = Cipher.getInstance("AES/GCM/NoPadding");
+      var14.init(
+         1,
+         new SecretKeySpec(
+            this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$8c36ba2576524782(
+               var6, this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$b26355380d3bc7c8(var4)
+            ),
+            "AES"
+         ),
+         new GCMParameterSpec(128, var9)
+      );
+      Charset var10001 = StandardCharsets.UTF_8;
+      Intrinsics.checkNotNullExpressionValue(StandardCharsets.UTF_8, "UTF_8");
+      byte[] var16 = var3.getBytes(var10001);
+      Intrinsics.checkNotNullExpressionValue(var16, "getBytes(...)");
+      byte[] var10 = var14.doFinal(var16);
+      byte[] var15 = new byte[var9.length + var10.length];
+      System.arraycopy(var9, 0, var15, 0, var9.length);
+      System.arraycopy(var10, 0, var15, var9.length, var10.length);
+      return "PNXA1:" + Base64.getEncoder().encodeToString(var15);
+   }
+
    private static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
       @NotNull
       private final String json;
@@ -626,44 +826,36 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
          int var7 = 0;
          String var6 = "\u0083\u0083\u0099±\u0018\u008fp\u0098+#\u0019e\u0090¯\u0013\u0086\u000f1¼ûTþTM\u0010íEÞæ½ì£5¯h\u0013¯Bzn\u0015";
          int var8 = "\u0083\u0083\u0099±\u0018\u008fp\u0098+#\u0019e\u0090¯\u0013\u0086\u000f1¼ûTþTM\u0010íEÞæ½ì£5¯h\u0013¯Bzn\u0015".length();
-         char var5 = 24;
-         int var12 = -1;
+         char var5 = '\u0018';
+         int var4 = -1;
 
-         label27:
          while (true) {
-            String var13 = var6.substring(++var12, var12 + var5);
+            byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+            String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
             byte var10001 = -1;
+            var9[var7++] = var21;
+            if ((var4 += var5) >= var8) {
+               var6 = "Ê\u0018aÎ¨»Òã¹:{#\u0098\u009fÌ\u009e}\u0011$óoÂåZÿ»\u0014ª?U\u0091ìKèSÍnL½9\u0010\u001bä\u0013ÒK\u009cKNá®´¼n\"\u0014Á";
+               var8 = "Ê\u0018aÎ¨»Òã¹:{#\u0098\u009fÌ\u009e}\u0011$óoÂåZÿ»\u0014ª?U\u0091ìKèSÍnL½9\u0010\u001bä\u0013ÒK\u009cKNá®´¼n\"\u0014Á".length();
+               var5 = '(';
+               var4 = -1;
 
-            while (true) {
-               byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-               String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-               switch (var10001) {
-                  case 0:
-                     var9[var7++] = var19;
-                     if ((var12 += var5) >= var8) {
-                        lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var9;
-                        IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[4];
-                        return;
-                     }
+               while (true) {
+                  var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+                  String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+                  boolean var19 = false;
+                  var9[var7++] = var23;
+                  if ((var4 += var5) >= var8) {
+                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var9;
+                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[4];
+                     return;
+                  }
 
-                     var5 = var6.charAt(var12);
-                     break;
-                  default:
-                     var9[var7++] = var19;
-                     if ((var12 += var5) < var8) {
-                        var5 = var6.charAt(var12);
-                        continue label27;
-                     }
-
-                     var6 = "Ê\u0018aÎ¨»Òã¹:{#\u0098\u009fÌ\u009e}\u0011$óoÂåZÿ»\u0014ª?U\u0091ìKèSÍnL½9\u0010\u001bä\u0013ÒK\u009cKNá®´¼n\"\u0014Á";
-                     var8 = "Ê\u0018aÎ¨»Òã¹:{#\u0098\u009fÌ\u009e}\u0011$óoÂåZÿ»\u0014ª?U\u0091ìKèSÍnL½9\u0010\u001bä\u0013ÒK\u009cKNá®´¼n\"\u0014Á".length();
-                     var5 = '(';
-                     var12 = -1;
+                  var5 = var6.charAt(var4);
                }
-
-               var13 = var6.substring(++var12, var12 + var5);
-               var10001 = 0;
             }
+
+            var5 = var6.charAt(var4);
          }
       }
 

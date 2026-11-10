@@ -337,44 +337,36 @@ public class lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlII
       String var6 = "Ê\u001bÞ\u0098ÝdgHÊ¤õ7²V.® æ\nö3@l2\u0012ê\u0010ô\bÈ\u0012Igê\u0004\u0099hâqX2a\u008cÇ³Î\u0015Ø\u0090\u0010í\u0081°\u008e¦,\u008d\u0095Ú\u0000\u008b\u0095¢&c\u0098\u0018A¾\u0080æÆ\u0019\u0085ö\u0014Jj]\u0000!iÇC@1\u0004\u0093¾Xõ Ø\u009b.9¸/\u0003I§õáÙ)ß\u0016!û`xf\u001f\u0003E\u009e\t57\u008cõf\u008fE\u0010U\u008e\u0083\u00032~ÿY,9\u00824Ûx\u0094\u0013\u0018f\u0085\u008751\u0095ò\u0004¼<Óã\u0007J§rÄ{·É\u0001\u0084\u009bm";
       int var8 = "Ê\u001bÞ\u0098ÝdgHÊ¤õ7²V.® æ\nö3@l2\u0012ê\u0010ô\bÈ\u0012Igê\u0004\u0099hâqX2a\u008cÇ³Î\u0015Ø\u0090\u0010í\u0081°\u008e¦,\u008d\u0095Ú\u0000\u008b\u0095¢&c\u0098\u0018A¾\u0080æÆ\u0019\u0085ö\u0014Jj]\u0000!iÇC@1\u0004\u0093¾Xõ Ø\u009b.9¸/\u0003I§õáÙ)ß\u0016!û`xf\u001f\u0003E\u009e\t57\u008cõf\u008fE\u0010U\u008e\u0083\u00032~ÿY,9\u00824Ûx\u0094\u0013\u0018f\u0085\u008751\u0095ò\u0004¼<Óã\u0007J§rÄ{·É\u0001\u0084\u009bm"
          .length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u007f\u0012\u0092\u008c\u0006ª´e\u0019ôU¡±Ym¥qËv}\\Mì\u0080\u0081]\u0099\u0080; ¼ \u0010Vb\u008döDÐÖè\u0019ø¯\u0099sVÎm";
+            var8 = "\u007f\u0012\u0092\u008c\u0006ª´e\u0019ôU¡±Ym¥qËv}\\Mì\u0080\u0081]\u0099\u0080; ¼ \u0010Vb\u008döDÐÖè\u0019ø¯\u0099sVÎm".length();
+            var5 = ' ';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var9;
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[9];
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var9;
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[9];
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u007f\u0012\u0092\u008c\u0006ª´e\u0019ôU¡±Ym¥qËv}\\Mì\u0080\u0081]\u0099\u0080; ¼ \u0010Vb\u008döDÐÖè\u0019ø¯\u0099sVÎm";
-                  var8 = "\u007f\u0012\u0092\u008c\u0006ª´e\u0019ôU¡±Ym¥qËv}\\Mì\u0080\u0081]\u0099\u0080; ¼ \u0010Vb\u008döDÐÖè\u0019ø¯\u0099sVÎm".length();
-                  var5 = ' ';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

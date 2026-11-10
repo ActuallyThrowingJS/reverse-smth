@@ -154,20 +154,14 @@ public final class Freecam extends BooleanModule {
    }
 
    public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(double var1, double var3) {
-      try {
-         if (!this.isSimulationActive()) {
-            return;
-         }
-      } catch (MatchException var7) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var7);
+      if (this.isSimulationActive()) {
+         float var5 = (float)var3 * 0.15F;
+         float var6 = (float)var1 * 0.15F;
+         this.IIlllllIlIIlIllIllllIlIIlIIIlllllIIllIlIlIlIIIIlllIIlllIllIllIIIIIllllIIIIllllIIlIlII += var6;
+         this.IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll = Mth.clamp(
+            this.IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll + var5, -90.0F, 90.0F
+         );
       }
-
-      float var5 = (float)var3 * 0.15F;
-      float var6 = (float)var1 * 0.15F;
-      this.IIlllllIlIIlIllIllllIlIIlIIIlllllIIllIlIlIlIIIIlllIIlllIllIllIIIIIllllIIIIllllIIlIlII += var6;
-      this.IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll = Mth.clamp(
-         this.IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll + var5, -90.0F, 90.0F
-      );
    }
 
    public final void turnCameraFromMouse(double param1, double param3) {
@@ -175,24 +169,17 @@ public final class Freecam extends BooleanModule {
    }
 
    public final void lllIIllllllIlIIIIIIlIlIlIlIllllIlIlllIllIIIIllIIllllIIllIlIlIlIIlIIIIIllIIIIIIllIIllI() {
-      Options var10000;
-      try {
-         var10000 = this.lIlIlIIIIlIIllllIlIlIIIIIlIIIIIllIIlIllIIllIllIlIIlIIIIlIIlIIIIlIlIlIlIIlIlIIIllllllI().options;
-         if (var10000 == null) {
-            return;
-         }
-      } catch (MatchException var2) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var2);
+      Options var10000 = this.lIlIlIIIIlIIllllIlIlIIIIIlIIIIIllIIlIllIIllIllIlIIlIIIIlIIlIIIIlIlIlIlIIlIlIIIllllllI().options;
+      if (var10000 != null) {
+         Options var1 = var10000;
+         var1.keyUp.setDown(false);
+         var1.keyDown.setDown(false);
+         var1.keyLeft.setDown(false);
+         var1.keyRight.setDown(false);
+         var1.keyJump.setDown(false);
+         var1.keyShift.setDown(false);
+         var1.keySprint.setDown(false);
       }
-
-      Options var1 = var10000;
-      var1.keyUp.setDown(false);
-      var1.keyDown.setDown(false);
-      var1.keyLeft.setDown(false);
-      var1.keyRight.setDown(false);
-      var1.keyJump.setDown(false);
-      var1.keyShift.setDown(false);
-      var1.keySprint.setDown(false);
    }
 
    public final boolean shouldBlockMovementKey(@NotNull KeyEvent keyInputArg) {
@@ -318,12 +305,12 @@ public final class Freecam extends BooleanModule {
    }
 
    @SubscribeEvent
-   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketReceivedEvent eArg) {
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketReceivedEvent param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    @SubscribeEvent
-   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketSendEvent packetArg) {
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketSendEvent param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
@@ -335,7 +322,7 @@ public final class Freecam extends BooleanModule {
       long var4 = (var2 ^ 139865237871470L) >>> 8;
       int var6 = (int)((var2 ^ 139865237871470L) << 56 >>> 56);
       Intrinsics.checkNotNullParameter(eArg, "e");
-      this.lIlIllIllIIIlllIIIIIlIllIIIIIlllllIIIIIIllIIllIIIIllIlIIlIlIIIIllIIllIIIIIIIlIlIIIIII(var4, (byte)var6);
+      this.lIlIllIllIIIlllIIIIIlIllIIIIIlllllIIIIIIllIIllIIIIllIlIIlIlIIIIllIIllIIIIIIIlIlIIIIII$recovered$135a96a934c0aff7(var4, (byte)var6);
    }
 
    @SubscribeEvent(priority = EventPriority.HIGHEST)
@@ -362,48 +349,40 @@ public final class Freecam extends BooleanModule {
       int var8 = "û\"e/Ö`(cúÀèÿSÄ4½ów wª8áaô\u0014gu`\u008cgÝ\u0010\u0084ó\u0094®h×@³¢\u008b\u0098ùï`m\u0094\u0010Qì\u0014¯ì\u0091Èa2Ð\u0095]x²\u0018\u0096 0J¶\u00ad\u0003Dn\u0003Ä\u0087\u0096æk\u0097\u0098û)èÜ\u009bõ\bvØz\u0015\u000b\u0095\u0090Bõä\u0010P2éÓá×®ß7ÔX¸\u008a=Ód\u0010î\u008d\u009a9rïµ\u0086\u0091\u0095 \u009c{ß \u008e\u0010}ó¿¸nÍÝûY'A&Zç4$\u0010r\u0006\n\u008a%NKtÌÍeçxu\u0010Å\u0010T±hÅF\u0007 ,ðOÏü\u001fÓ£\u0019\u0010¼§«c]Î\u009cEÀyi \u009eX:\u0005Hm-£Ï-cjâ!fýÒ+\u000fw&Ö@Ei\u0014'\u0002\u0089ÜYpéúB\u0089CÑlêb¹eEÒn¹\u009f¿±°>[vz\u000f`s^ÑÆsmCc¬#ò1<9ð($\u008b\u0002@HþØ î\u001b\u001e×SÁ\u001c\u001aQJf8b±\u0014X\u0012Q\u009a\u0004ÿ¹\u0011\u000f\u0010t4CkhÙÓg\u001d\u008c´vó\"§\u0015Ñ¦\bþ´pð.\u0011b\u009a}ù.\u0016ä\u008a):ÃÄ|~\u009b¦ívl\u00100×5\u007fRý»\u008a;K\u0098]wv£` £·êd\u00907\u0003N\u009c÷·\u008bZ`Í\u009c\u001fª¶\u009e\u001db@ªc\u009b\u0086ªÛyyà8k\u0098»\u0001\u0001`-ª\u009e\u00048¬Zfñì\u0015>VÁî¦\u0015öõ¡4 J/ip0êPÎt\u0083\rònL¿¶\u0003ÈþNøÍ')\ff®w\u00882¼ýv`!i«w\tg?ÊSY\u0006\u0097µ«\u009d\u0084×)ºÄðÒäB1g\u009d\u0007EçS]\"ryr\u0007Ý\u0016Ðóõ×\u0083úË0gk\u0087\u009c \u008f\u0015m±~:Y\u0092ÈRB|bæ\u0085õ\u0014qr\u007f\"î\u0093\u008cgU\b~\u0098\u0010j\u001bPLÁq³[ÂÃ^ý\u008cÊ1Á\u009f°\u009e\u008cgsJ\u0012\u000e¦ó¼\b\tÝ³Èß£ ;ñY¬³±lT3<!é\f \u00ad\u0081C[rm÷ðbÉò \u0002Ì\u001aá5è)Ë\bXÅ[dËNä\u009e¶·j\u0088\u0090.Mô}HKÈÎË\f&a¹wVªNFMÎ\u0080\u0089àTj0\u0011lj`kI\u001e\u00920\u0083©úwGDÓ\u0085>ýOÀ\u000e«Ã\f\u0091\u0006Y7ôe,Ç¶uJµ\u0018\u001cÐatÇ!\u0086\u009bã^Boý\u007f«BHÏùi+\u0007ë¬¼×Á\u0094k\u009càÚ¯n`@5\u000f´í?f»îK¤*O ¼ yß\u0083`ÜY\u000f\u0086 ëº\"IW¼\u001f¹ß\u0089\u0001 \u009e\u0005\u001f»HäuÔ\u0001m\u0090(÷Ä\\\u0090p\u0083ëAêHÊÙj\u000bO\u000eßÜ\u0080í"
          .length();
       char var5 = ' ';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "6\u009aECÎ\u0081I¦\u0087ï¢¡0¾áÌn\u0017\u001d=\u0096.\u0006C3èe\u001dÙ\u0083\u008f\u000eX1ö¶ZUzI×\u001cr\u0087\u0091\u0090é¾ü\n\u009b\u001a¨/Ö9e·ü(Ü2\u001a¤æÓ\u0015QLuÖÀècR.J9\\«×(A:bCö÷+çsbì=_¸%ßï¥\u008azv\u0087>\u0011*õX\u009a\u0015Ù¦\u0004¯m!\u008aä\u0098\u0010";
+            var8 = "6\u009aECÎ\u0081I¦\u0087ï¢¡0¾áÌn\u0017\u001d=\u0096.\u0006C3èe\u001dÙ\u0083\u008f\u000eX1ö¶ZUzI×\u001cr\u0087\u0091\u0090é¾ü\n\u009b\u001a¨/Ö9e·ü(Ü2\u001a¤æÓ\u0015QLuÖÀècR.J9\\«×(A:bCö÷+çsbì=_¸%ßï¥\u008azv\u0087>\u0011*õX\u009a\u0015Ù¦\u0004¯m!\u008aä\u0098\u0010"
+               .length();
+            var5 = ' ';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = var9;
-                     lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI = new String[21];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new Freecam.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     INSTANCE = new Freecam();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = var9;
+                  lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI = new String[21];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new Freecam.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  INSTANCE = new Freecam();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "6\u009aECÎ\u0081I¦\u0087ï¢¡0¾áÌn\u0017\u001d=\u0096.\u0006C3èe\u001dÙ\u0083\u008f\u000eX1ö¶ZUzI×\u001cr\u0087\u0091\u0090é¾ü\n\u009b\u001a¨/Ö9e·ü(Ü2\u001a¤æÓ\u0015QLuÖÀècR.J9\\«×(A:bCö÷+çsbì=_¸%ßï¥\u008azv\u0087>\u0011*õX\u009a\u0015Ù¦\u0004¯m!\u008aä\u0098\u0010";
-                  var8 = "6\u009aECÎ\u0081I¦\u0087ï¢¡0¾áÌn\u0017\u001d=\u0096.\u0006C3èe\u001dÙ\u0083\u008f\u000eX1ö¶ZUzI×\u001cr\u0087\u0091\u0090é¾ü\n\u009b\u001a¨/Ö9e·ü(Ü2\u001a¤æÓ\u0015QLuÖÀècR.J9\\«×(A:bCö÷+çsbì=_¸%ßï¥\u008azv\u0087>\u0011*õX\u009a\u0015Ù¦\u0004¯m!\u008aä\u0098\u0010"
-                     .length();
-                  var5 = ' ';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -503,6 +482,86 @@ public final class Freecam extends BooleanModule {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/modules/impl/features/misc/Freecam" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   private final Collection IllIIlIIlIlIIlIllIllIIIllIIIllIlIIllIlllIlllIIIlIlIlIIlIIIllIlIlIIIIlIllIIIlIIIlIIlII$recovered$c3cb92b89105e382(long var1) {
+      var1 = 90247167741353L;
+      var1 = IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll ^ var1;
+      long var3 = var1 ^ 103095213335048L;
+      Iterable var6 = this.IlIlIIIIllllIlIIlIlllllllllIlllIllIlIIIIllIIlIIlIlIlIIlllIIlIlllllIIIlIIlIIlIIlIIlIII$recovered$a1e12f3e9af5042b(var3);
+      boolean var7 = false;
+      boolean var10000 = Replay.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+      var var9 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var6, 10));
+      boolean var10 = false;
+      Iterator var11 = var6.iterator();
+      boolean var5 = var10000;
+
+      while (true) {
+         if (var11.hasNext()) {
+            Object var12 = var11.next();
+            var18 = var9;
+            if (!var5) {
+               break;
+            }
+
+            KeyMapping var13 = (KeyMapping)var12;
+            boolean var14 = false;
+            Intrinsics.checkNotNull(var13, "null cannot be cast to non-null type me.octo.client.mixin.accessors.KeyMappingAccessor");
+            var9.add(((KeyMappingAccessor)var13).getKey());
+            if (var5) {
+               continue;
+            }
+         }
+
+         var18 = var9;
+         break;
+      }
+
+      return (Collection)var18;
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$cafde4e33ded09b5(
+      long param1, double param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public void lIlIllIllIIIlllIIIIIlIllIIIIIlllllIIIIIIllIIllIIIIllIlIIlIlIIIIllIIllIIIIIIIlIlIIIIII$recovered$135a96a934c0aff7(long param1, byte param3) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final List IlIlIIIIllllIlIIlIlllllllllIlllIllIlIIIIllIIlIIlIlIlIIlllIIlIlllllIIIlIIlIIlIIlIIlIII$recovered$a1e12f3e9af5042b(long var1) {
+      var1 = 8754326373014L;
+      var1 = IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll ^ var1;
+      Options var10000 = this.lIlIlIIIIlIIllllIlIlIIIIIlIIIIIllIIlIllIIllIllIlIIlIIIIlIIlIIIIlIlIlIlIIlIlIIIllllllI().options;
+      Intrinsics.checkNotNullExpressionValue(var10000, "options");
+      Options var3 = var10000;
+      KeyMapping[] var4 = new KeyMapping[]{var3.keyUp, var3.keyDown, var3.keyLeft, var3.keyRight, var3.keyJump, var3.keyShift, var3.keySprint};
+      return CollectionsKt.listOf(var4);
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d6c8214a198c6fa3(
+      long var1, KeyMapping var3
+   ) {
+      var1 = 16264498989544L;
+      var1 = IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll ^ var1;
+      long var4 = var1 ^ 32351879314635L;
+      Intrinsics.checkNotNull(var3, "null cannot be cast to non-null type me.octo.client.mixin.accessors.KeyMappingAccessor");
+      Key var6 = ((KeyMappingAccessor)var3).getKey();
+      Intrinsics.checkNotNull(var6);
+      return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fdbab52750bb8ec6(var6, var4);
+   }
+
+   private final double IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7fd4ad8b311e4876(
+      long param1, boolean param3, boolean param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fdbab52750bb8ec6(
+      Key param1, long param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

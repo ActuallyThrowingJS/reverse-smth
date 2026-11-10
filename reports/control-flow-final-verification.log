@@ -1,0 +1,3 @@
+build/flow/native-java.jar: methods checked=49698, failures=0
+build/flow/final.jar: methods checked=49698, failures=0
+PASS no new BasicVerifier failures

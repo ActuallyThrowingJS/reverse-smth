@@ -282,48 +282,40 @@ public final class IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIll
       String var4 = "9þ\u0015£tâP\u008c¾\u0015¸áÀÚ¾\u0000ÎU\u0081Lµ\u001a±\u0000ö\u0003«îÝm\u0011ÏhZ\u001e4\u0004(o·GõÈ\u001e\u0004\u001e\u008d®Ù\u001d1ö\u0016Ïõw\u009aÚ\f\u0015\u0007'þ\u000f\u0095oFÉ5\u009c\u009aÆìIStb\u0097_·d?R\u0095Þ\u0019\fú\u0094\u0081ÅÜ÷\u001a\u0084\u0080Þ¹\nù¡ÑýB\u001av%p³)öÉÐU\u0001y~\u0093ÜÇxZ\u008eð/¶?Þ\u0010Ï?{\u000f\u0098\u0088\u0010\u0011tß\u000f\u000e\u0001ê8\u0010\u0010\u0003<\"Ç\u0000¥\u0004Qú\u0010\u009d(°\u0088z\u00148:rL\u001a\u001bH;\u0086ü\u001a·Ä-óÔwV\u008b²\u0085\u0089ßq\u0087»\u001b\u008bd\u000fÄ©u\u0097N\"\u0011\u0093*#ÉÖ_Ïüó\u0001GÐ\u0091\\\u0095f^Â;Ê aýà{ÁùÊÏ¥#\u0007nþ¤\u009c-¾·Ø\u008dþJÁ¼kH»Í\f\u009eE\u0088\u0010lÅ¬Z\t®\u009a÷\u001dà\u0010\u009aë\u001d\u0082â`\u009fr,ñ¢{ÂãMÏ¿9odi\u000b\u0012ã<]ÜR\\es5\u0087G-l\u001c\u0088«Ø\u001b\u0007þg\u001b8Fõ'#\u0090Q¼P\u0002²Ù|ê\u008dVã\\¬\u0090ÜªZ*\u0099BF\u0095i®\u0007ó\u000fA9\u009d>\u0013ªáÎ¸(\u0004\u0093N\u0090E\u0091»\u008aþñ~\u0095y\f ó\u0099ÿv\u001bnc\u008fÇ|uË\u008aâ½Þì\u001b\u0006\u009a\ft*zöKÙVºjµ\u0002\u0010\u001bxôÆ:^\u008e\u009c´Ó\u0098í¼U·K bYN\u0012?ã\u0016\u0014³/\u0016\u0013\u0097©\u009dÕ Ü`)\\yß\u00adEÀÂ¾ì*dY\u0010pé2(·ïzú&\u0097õØõËêÜxF°ëÃ>]\u0002\u0088¿9þk_*éW¡Ä\u0001¤i\t\u0087>\u000b1\u0002³M\u008d:÷\u009bù\u0088N\u0013²%Ü\u0085\u008e\u009a80ÎèîM\u0097qP|\u0002h8s°Ðö\u008dº[ßÊQZÂ@\u001dl\u0016\u008brç\u0089\u0089g\u0085Úêõò$éÖ©ÝÞD\tðA\u0014¬1\u0016Éí7\u0015qW\u008agÍä½DÞ¨H\u008eÀÏÀ,\u001e«G Wñ1Xígr\u0083\rwOnÈ$m\u0083\u001c=¤qèI\u0002\u0096\u0005\u0000\r0î\u0005\u007f\u0088\u0018y4 F¤\u0085ô0U\u0088\u0016·â\u0092\u001d0BóÈQ*l®Cp-ß\u00078§}V¹ \u009dÐôÎ¬v}\u008a\u00ad|=%\u0013U\u0087ûÐ-\u0090\u0098Qâð®3XK\u0006\u0098\u0085\u0095o¯~B«\u001c\u0089OI\fä\u0099\u007f/°VN(¿òÝ¬\u00adíÀz\u0093ÎôÌ^B7J\u001c\u008b#J³\u0017h\u0007ÙS\u0088\u0015\u000bÅáõr;\u0011\u0094%Ì\u0096\u0006ÞT\u0010êòRÊ]p¸\u0083°\u0001Ã\u0010\u001df¡?\u0010Á¤Ç\u000e\u000eÁsU\u008d}GhÇªfD¿Ç\u0089ÅU\u0010É®hW>\u0017\u0090i\u0085ìÆ:\u009b\u0011\u0004ìÎy\u0005VþÐöÂÏýü·\u0089q¤\u0095 (xv\u0018ò³\u0091\u0088(´Z) \u001e\u0002ó3Ó\u0007`ÿ\u0098Ú¦Jk´Ê\r±Â\r\u0003¨\\R·w\u0013XÇW¹\r9\u0092d<m\u009a~Æ\u0016\b=¦ª(d\u0097\u0088 ÈPÑÕH¢FBè$¼¢\u0004ÁÛµéÈ¯\u0094$a\u0018Éè*@XE«á\"\u0010âß¼\u0082Õhj¢¬5\u0099\u007fº¶ã\u0015\u0010ö\nÖ`Z\u0096¿~\u0015P\u001a3%v\u0003Kh\u0013nuú15k´Úõ\u0097Õ\u00adÏ\u0003\u0097÷Ó0\u0098álfÒábûCýïù\u0080%/¢\u0015&\u0019½¿K\u0016©\u0012NPfäØÎë\u0015e\u0010Ðg\u0090Ï\u001aåûu\u0082Ç¢$³\u0081\u0097|lý\u0017W\u0003³\u008eK.\f\u00926\u0004¬úô#Xëk9:òÀëNr#óðy\u0097\f\u0089 %ã\u0083*f\f\u0084ÙÜ\u009càÞ'Uv?ÖE í\u0019pÄQL\u008f¸\u008e\u001f]¼ª\u0010F\u0019\u0014~8!2ä¥S\u000e\u001eª^±r\u0010Q\u0094¸Êø\u0081ö=ÁN¢\u0080ê½¸D\u0010£ý\u008f\u0093WvÏþ*\u007fâòP©ÝQhßÐ¥»hf\u0086ÎÚx\u0016\u0018o9´©B°>G«\rÄX\u0000\u0085\u0094ÌOÌÃ\u00995ÁMÊÅz;¯û¸{F\u0000\u0082Õ\u0018ÚÈ&ù\u0016º÷ø´Iyñ\u0083þ9Ð®ÙáÐ\\ó\u008dc³¼s\u0016Î5f³_ú\u0095þ\n\u0081æ'[ÞÊx â.\u009c¦IÉtP79«hÜØéUÂ\u0011ä\u0094w Eæ\b¤ÂÝ´xVZ\u0012\u0085ú\u008f\u008a|XQ)XÂ\u008eL\u0083ßXò®âäm¥Çµ©ìrÞ\r \u00ad?U»£\u0091\u0081÷2ú0j^v'\u0080k\u008a}\u001f\u001eu=ÍrìóÇâ\u0001Ë\u0003æ,¹ú\u0097\u008ac[\u0084\u009d\u001dß\u008d\u0017à\u0088ÀÂáü\u001e\u0082\u0010']2Cä\u0007¹+!YIªèdig\u0010Ú\u0000ÖOAÿ¯õ%[\u008d\u0099ö\u007f/ï\u0010¥\u0001V©£ùâ\u001dL\u0002\u001dV\u0090#4BX¯ÂTÒ\u008a§f['KóÓ*?æ¥!\u00920¬·°ÁíÆÖD\u001d\u0081ÅÛ+v\u009d\u0012ð\u0090èÈ\"^_\u0004r[QJ½¢\"\u0088\u001c82*æê]+ÎÝzì\u0016\u008d¾°©Ý\u0014\f\u0085)0\u008f\u001dðL \u0082Ò¨¤+Â=þ%\u0010Â½æA\u000fL\u0019IO-d®çû19\u0010¯Z\u009bd¯Ò0.Ì\u0093\u0002[d¬\u0089Ø\u0010_Õ?dD\u0098ÍùºK\u0012\nïÞ¯¦\u0018Ü\u0098\u0099I£\u0080\u0090´ý9\u000füíÏûÈ\u008e\f÷Ò£Øî±\u0018\u0005³ùi¡ûòg¾¥\u0001Þï\u0082õ3°\u0019Ó\u0092\u0010TCn";
       int var6 = "9þ\u0015£tâP\u008c¾\u0015¸áÀÚ¾\u0000ÎU\u0081Lµ\u001a±\u0000ö\u0003«îÝm\u0011ÏhZ\u001e4\u0004(o·GõÈ\u001e\u0004\u001e\u008d®Ù\u001d1ö\u0016Ïõw\u009aÚ\f\u0015\u0007'þ\u000f\u0095oFÉ5\u009c\u009aÆìIStb\u0097_·d?R\u0095Þ\u0019\fú\u0094\u0081ÅÜ÷\u001a\u0084\u0080Þ¹\nù¡ÑýB\u001av%p³)öÉÐU\u0001y~\u0093ÜÇxZ\u008eð/¶?Þ\u0010Ï?{\u000f\u0098\u0088\u0010\u0011tß\u000f\u000e\u0001ê8\u0010\u0010\u0003<\"Ç\u0000¥\u0004Qú\u0010\u009d(°\u0088z\u00148:rL\u001a\u001bH;\u0086ü\u001a·Ä-óÔwV\u008b²\u0085\u0089ßq\u0087»\u001b\u008bd\u000fÄ©u\u0097N\"\u0011\u0093*#ÉÖ_Ïüó\u0001GÐ\u0091\\\u0095f^Â;Ê aýà{ÁùÊÏ¥#\u0007nþ¤\u009c-¾·Ø\u008dþJÁ¼kH»Í\f\u009eE\u0088\u0010lÅ¬Z\t®\u009a÷\u001dà\u0010\u009aë\u001d\u0082â`\u009fr,ñ¢{ÂãMÏ¿9odi\u000b\u0012ã<]ÜR\\es5\u0087G-l\u001c\u0088«Ø\u001b\u0007þg\u001b8Fõ'#\u0090Q¼P\u0002²Ù|ê\u008dVã\\¬\u0090ÜªZ*\u0099BF\u0095i®\u0007ó\u000fA9\u009d>\u0013ªáÎ¸(\u0004\u0093N\u0090E\u0091»\u008aþñ~\u0095y\f ó\u0099ÿv\u001bnc\u008fÇ|uË\u008aâ½Þì\u001b\u0006\u009a\ft*zöKÙVºjµ\u0002\u0010\u001bxôÆ:^\u008e\u009c´Ó\u0098í¼U·K bYN\u0012?ã\u0016\u0014³/\u0016\u0013\u0097©\u009dÕ Ü`)\\yß\u00adEÀÂ¾ì*dY\u0010pé2(·ïzú&\u0097õØõËêÜxF°ëÃ>]\u0002\u0088¿9þk_*éW¡Ä\u0001¤i\t\u0087>\u000b1\u0002³M\u008d:÷\u009bù\u0088N\u0013²%Ü\u0085\u008e\u009a80ÎèîM\u0097qP|\u0002h8s°Ðö\u008dº[ßÊQZÂ@\u001dl\u0016\u008brç\u0089\u0089g\u0085Úêõò$éÖ©ÝÞD\tðA\u0014¬1\u0016Éí7\u0015qW\u008agÍä½DÞ¨H\u008eÀÏÀ,\u001e«G Wñ1Xígr\u0083\rwOnÈ$m\u0083\u001c=¤qèI\u0002\u0096\u0005\u0000\r0î\u0005\u007f\u0088\u0018y4 F¤\u0085ô0U\u0088\u0016·â\u0092\u001d0BóÈQ*l®Cp-ß\u00078§}V¹ \u009dÐôÎ¬v}\u008a\u00ad|=%\u0013U\u0087ûÐ-\u0090\u0098Qâð®3XK\u0006\u0098\u0085\u0095o¯~B«\u001c\u0089OI\fä\u0099\u007f/°VN(¿òÝ¬\u00adíÀz\u0093ÎôÌ^B7J\u001c\u008b#J³\u0017h\u0007ÙS\u0088\u0015\u000bÅáõr;\u0011\u0094%Ì\u0096\u0006ÞT\u0010êòRÊ]p¸\u0083°\u0001Ã\u0010\u001df¡?\u0010Á¤Ç\u000e\u000eÁsU\u008d}GhÇªfD¿Ç\u0089ÅU\u0010É®hW>\u0017\u0090i\u0085ìÆ:\u009b\u0011\u0004ìÎy\u0005VþÐöÂÏýü·\u0089q¤\u0095 (xv\u0018ò³\u0091\u0088(´Z) \u001e\u0002ó3Ó\u0007`ÿ\u0098Ú¦Jk´Ê\r±Â\r\u0003¨\\R·w\u0013XÇW¹\r9\u0092d<m\u009a~Æ\u0016\b=¦ª(d\u0097\u0088 ÈPÑÕH¢FBè$¼¢\u0004ÁÛµéÈ¯\u0094$a\u0018Éè*@XE«á\"\u0010âß¼\u0082Õhj¢¬5\u0099\u007fº¶ã\u0015\u0010ö\nÖ`Z\u0096¿~\u0015P\u001a3%v\u0003Kh\u0013nuú15k´Úõ\u0097Õ\u00adÏ\u0003\u0097÷Ó0\u0098álfÒábûCýïù\u0080%/¢\u0015&\u0019½¿K\u0016©\u0012NPfäØÎë\u0015e\u0010Ðg\u0090Ï\u001aåûu\u0082Ç¢$³\u0081\u0097|lý\u0017W\u0003³\u008eK.\f\u00926\u0004¬úô#Xëk9:òÀëNr#óðy\u0097\f\u0089 %ã\u0083*f\f\u0084ÙÜ\u009càÞ'Uv?ÖE í\u0019pÄQL\u008f¸\u008e\u001f]¼ª\u0010F\u0019\u0014~8!2ä¥S\u000e\u001eª^±r\u0010Q\u0094¸Êø\u0081ö=ÁN¢\u0080ê½¸D\u0010£ý\u008f\u0093WvÏþ*\u007fâòP©ÝQhßÐ¥»hf\u0086ÎÚx\u0016\u0018o9´©B°>G«\rÄX\u0000\u0085\u0094ÌOÌÃ\u00995ÁMÊÅz;¯û¸{F\u0000\u0082Õ\u0018ÚÈ&ù\u0016º÷ø´Iyñ\u0083þ9Ð®ÙáÐ\\ó\u008dc³¼s\u0016Î5f³_ú\u0095þ\n\u0081æ'[ÞÊx â.\u009c¦IÉtP79«hÜØéUÂ\u0011ä\u0094w Eæ\b¤ÂÝ´xVZ\u0012\u0085ú\u008f\u008a|XQ)XÂ\u008eL\u0083ßXò®âäm¥Çµ©ìrÞ\r \u00ad?U»£\u0091\u0081÷2ú0j^v'\u0080k\u008a}\u001f\u001eu=ÍrìóÇâ\u0001Ë\u0003æ,¹ú\u0097\u008ac[\u0084\u009d\u001dß\u008d\u0017à\u0088ÀÂáü\u001e\u0082\u0010']2Cä\u0007¹+!YIªèdig\u0010Ú\u0000ÖOAÿ¯õ%[\u008d\u0099ö\u007f/ï\u0010¥\u0001V©£ùâ\u001dL\u0002\u001dV\u0090#4BX¯ÂTÒ\u008a§f['KóÓ*?æ¥!\u00920¬·°ÁíÆÖD\u001d\u0081ÅÛ+v\u009d\u0012ð\u0090èÈ\"^_\u0004r[QJ½¢\"\u0088\u001c82*æê]+ÎÝzì\u0016\u008d¾°©Ý\u0014\f\u0085)0\u008f\u001dðL \u0082Ò¨¤+Â=þ%\u0010Â½æA\u000fL\u0019IO-d®çû19\u0010¯Z\u009bd¯Ò0.Ì\u0093\u0002[d¬\u0089Ø\u0010_Õ?dD\u0098ÍùºK\u0012\nïÞ¯¦\u0018Ü\u0098\u0099I£\u0080\u0090´ý9\u000füíÏûÈ\u008e\f÷Ò£Øî±\u0018\u0005³ùi¡ûòg¾¥\u0001Þï\u0082õ3°\u0019Ó\u0092\u0010TCn"
          .length();
-      char var3 = 128;
-      int var13 = -1;
+      char var3 = '\u0080';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var14 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "\u009d\u0003?è\u0005ñÿé%\u009fºhÑ`§\u0091\u0010âÔ\u001e\\\u0006g\u0098\u008e\u0018I\u0083ì\u0005ÏòÔ";
+            var6 = "\u009d\u0003?è\u0005ñÿé%\u009fºhÑ`§\u0091\u0010âÔ\u001e\\\u0006g\u0098\u008e\u0018I\u0083ì\u0005ÏòÔ".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) >= var6) {
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var7;
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new String[38];
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = "https://api.polinexclient.net/polinex/mod/fabric/routes";
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new Gson();
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new ConcurrentHashMap<>();
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var7;
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new String[38];
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = "https://api.polinexclient.net/polinex/mod/fabric/routes";
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new Gson();
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new ConcurrentHashMap<>();
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label27;
-                  }
-
-                  var4 = "\u009d\u0003?è\u0005ñÿé%\u009fºhÑ`§\u0091\u0010âÔ\u001e\\\u0006g\u0098\u008e\u0018I\u0083ì\u0005ÏòÔ";
-                  var6 = "\u009d\u0003?è\u0005ñÿé%\u009fºhÑ`§\u0091\u0010âÔ\u001e\\\u0006g\u0098\u008e\u0018I\u0083ì\u0005ÏòÔ".length();
-                  var3 = 16;
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var14 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

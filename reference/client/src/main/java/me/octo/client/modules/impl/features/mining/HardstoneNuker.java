@@ -141,7 +141,7 @@ public final class HardstoneNuker extends BooleanModule {
          2438513786840745090L, var5
       );
 
-      label63: {
+      label58: {
          try {
             boolean var10000 = lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl()
                .IIlIIllIlIIIIlIllIlIlllIllIIlIlIIlIlIIIlIlIIIlIIllIlIlIlllllIIlIlIIIlIllllIlIlIIIllll();
@@ -150,7 +150,7 @@ public final class HardstoneNuker extends BooleanModule {
             }
 
             if (var10000) {
-               break label63;
+               break label58;
             }
          } catch (MatchException var19) {
             throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
@@ -198,22 +198,11 @@ public final class HardstoneNuker extends BooleanModule {
       double var15 = Math.toDegrees(Math.acos(RangesKt.coerceIn(var13, -1.0, 1.0)));
 
       try {
-         double var26;
-         int var25 = (
-                  var26 = var15
-                     - lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll()
-                           .IIllIllIIlIIIlIlllIlIlllIIIlllIIIlIIIIIIIIllIlIIlIIIIllllllIllIIlllIIlIIIIIlIllllllIl()
-                        / 2.0
-               )
-               == 0.0
-            ? 0
-            : (var26 < 0.0 ? -1 : 1);
-         if (var7 == null) {
-            return (boolean)var25;
-         }
-
-         if (var25 <= 0) {
-            return (boolean)1;
+         if (var15
+            <= lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll()
+                  .IIllIllIIlIIIlIlllIlIlllIIIlllIIIlIIIIIIIIllIlIIlIIIIllllllIllIIlllIIlIIIIIlIllllllIl()
+               / 2.0) {
+            return true;
          }
       } catch (MatchException var17) {
          throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
@@ -221,7 +210,7 @@ public final class HardstoneNuker extends BooleanModule {
          );
       }
 
-      return (boolean)0;
+      return false;
    }
 
    private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(Block param1, long param2) {
@@ -263,82 +252,74 @@ public final class HardstoneNuker extends BooleanModule {
       String var11 = "¬öäÝÐÄu\\!\u0000\u0092¦/Úë\u0091Êf9ðÖ\u008d¿\u0000(ÍV.%Õ\u0002\u0082üøxÍ¨\u0002\u00153×²à:UÉù\u009büÍ\u0097 \t\u0081\u0086ÚÍ\u0016n\b[\u0089_@;\u0088Ð\u000f\u000f\u008e*\u0014Gh²+b×`\u0016ØëoßÁ\u0099ÁµyzrN2×?_Iì\"Ú«U²ªër|O\u001d²5®áêR{\u001e¡µúµ4}i0»y\u001eÑÀ\u009eÅÔz\u001f§\u0017©\u0098ià£ì\u0002ºdÈÁ\u0083\u0088î\u0083\u0016¤^ÝÇWÏ\r¯I]ÝÑìKb\u009aÏs\u007f&Ä\u0019\u008a:\u001dÑñÀpÿ\u0092\u00ad=-fÄDHr¾òãbÜ\u009eö¾¸4 ùM`\"ÚR;ÁÐl\u000bh½µ*º\u0015*Ùu\u0095¡«\u0085¹*w1\u0090N%þÝ8'ù,ÒÒ\u0088°Ñ¹\u0096rY\rÞq\u0001Ù%\u0004\u0014QÚX\u0006í¤C\u0004Ânº^íI¹¥\u0094Î\"AAdÚ\u009a\u0004ñy\u0088ÛâÔ,\"\u0012\u0099Xú\u0085\u0084\u0018ÐkP\u0081T\u0017\u0091¤í\u0098\b¸\u0097\u008c©¦¸6Çs\u0093 è¬:ÏlH÷\u0098\u0081{±hàV\u008f¸0Ó*+\u0016qÁy%ï#e\u009b\u0094[uq`\u0004\u001aÅÕ\u0082\u0093ÞqÀ2\u0010o«=»\u0084à\u009eQ,ð$}\u001fñÇ\u001e\u0018L\u0011ôÌÍ\r.8cJïÎ\u0000\u0000}~±emn\u000eÃ\u001ab\u0010\u0000\u007fÒ}Ä\u0017\u008a\u0004ñ¶v-\u008aFæü\u0018\u0014hF\u008fa¤f¹T7\u008bç\ne¾Ú\nÐÊXD\u0087\u0094\u0001\u0010º+¿lÞ\u0097«+\u009c\u0004îÿÛ\u0013Å\u0015(~\u00ad³'Ù!\u0096'ö\u0014ßU,@ó\u008eFÅ\f\u000b\u008a\u0007ð¢\u001bEHE®½Æñ Xn¢\u001d¢Â\u0013(Ê\u009aÆØ\b\u0018\u009f¬3©ý\u009f\u0085éÖ\b«À\u0017-¾¤4Ðí\u009a\u001eÁ(Ã½\u0011\t\t\u001bê~\u0010\u0097~\u0018y¢ïÁ\u009cÇ¨\u008dÆOl$ \u001f\u0015ò$-\u00ad Î\u0095®(\u0018\u009c»Ä\u009bÊ\u0092\u0083¬\u001c7ô\u0093}õ7^°\u001eÇ4ß \u008e\u0094 w²Åäi\u0096'EÞÌ²ÏzUM!m\t@¡ñ\u007f^8)\u0080Á~?ÿ¦Ð(\u008de¤\b\u009e\u0081\u008e g}qg\u0000ná\u000b¿C\u009c7\n`G¯\u00070´²*¥\u0001ge}¦\u008a¢õJ÷(±ðf³a]\u0086t®\u0007þ\u0004±}Û¥5íY^iv\u000f¡2\u0098UU²lx\u0089à¯ËI]\u001e\u008eó";
       int var13 = "¬öäÝÐÄu\\!\u0000\u0092¦/Úë\u0091Êf9ðÖ\u008d¿\u0000(ÍV.%Õ\u0002\u0082üøxÍ¨\u0002\u00153×²à:UÉù\u009büÍ\u0097 \t\u0081\u0086ÚÍ\u0016n\b[\u0089_@;\u0088Ð\u000f\u000f\u008e*\u0014Gh²+b×`\u0016ØëoßÁ\u0099ÁµyzrN2×?_Iì\"Ú«U²ªër|O\u001d²5®áêR{\u001e¡µúµ4}i0»y\u001eÑÀ\u009eÅÔz\u001f§\u0017©\u0098ià£ì\u0002ºdÈÁ\u0083\u0088î\u0083\u0016¤^ÝÇWÏ\r¯I]ÝÑìKb\u009aÏs\u007f&Ä\u0019\u008a:\u001dÑñÀpÿ\u0092\u00ad=-fÄDHr¾òãbÜ\u009eö¾¸4 ùM`\"ÚR;ÁÐl\u000bh½µ*º\u0015*Ùu\u0095¡«\u0085¹*w1\u0090N%þÝ8'ù,ÒÒ\u0088°Ñ¹\u0096rY\rÞq\u0001Ù%\u0004\u0014QÚX\u0006í¤C\u0004Ânº^íI¹¥\u0094Î\"AAdÚ\u009a\u0004ñy\u0088ÛâÔ,\"\u0012\u0099Xú\u0085\u0084\u0018ÐkP\u0081T\u0017\u0091¤í\u0098\b¸\u0097\u008c©¦¸6Çs\u0093 è¬:ÏlH÷\u0098\u0081{±hàV\u008f¸0Ó*+\u0016qÁy%ï#e\u009b\u0094[uq`\u0004\u001aÅÕ\u0082\u0093ÞqÀ2\u0010o«=»\u0084à\u009eQ,ð$}\u001fñÇ\u001e\u0018L\u0011ôÌÍ\r.8cJïÎ\u0000\u0000}~±emn\u000eÃ\u001ab\u0010\u0000\u007fÒ}Ä\u0017\u008a\u0004ñ¶v-\u008aFæü\u0018\u0014hF\u008fa¤f¹T7\u008bç\ne¾Ú\nÐÊXD\u0087\u0094\u0001\u0010º+¿lÞ\u0097«+\u009c\u0004îÿÛ\u0013Å\u0015(~\u00ad³'Ù!\u0096'ö\u0014ßU,@ó\u008eFÅ\f\u000b\u008a\u0007ð¢\u001bEHE®½Æñ Xn¢\u001d¢Â\u0013(Ê\u009aÆØ\b\u0018\u009f¬3©ý\u009f\u0085éÖ\b«À\u0017-¾¤4Ðí\u009a\u001eÁ(Ã½\u0011\t\t\u001bê~\u0010\u0097~\u0018y¢ïÁ\u009cÇ¨\u008dÆOl$ \u001f\u0015ò$-\u00ad Î\u0095®(\u0018\u009c»Ä\u009bÊ\u0092\u0083¬\u001c7ô\u0093}õ7^°\u001eÇ4ß \u008e\u0094 w²Åäi\u0096'EÞÌ²ÏzUM!m\t@¡ñ\u007f^8)\u0080Á~?ÿ¦Ð(\u008de¤\b\u009e\u0081\u008e g}qg\u0000ná\u000b¿C\u009c7\n`G¯\u00070´²*¥\u0001ge}¦\u008a¢õJ÷(±ðf³a]\u0086t®\u0007þ\u0004±}Û¥5íY^iv\u000f¡2\u0098UU²lx\u0089à¯ËI]\u001e\u008eó"
          .length();
-      char var10 = 24;
-      int var17 = -1;
+      char var10 = '\u0018';
+      int var9 = -1;
 
-      label37:
       while (true) {
-         String var18 = var11.substring(++var17, var17 + var10);
+         byte[] var15 = var7.doFinal(var11.substring(++var9, var9 + var10).getBytes("ISO-8859-1"));
+         String var28 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var15).intern();
          byte var10001 = -1;
+         var14[var12++] = var28;
+         if ((var9 += var10) >= var13) {
+            var11 = "Ù\u009bg£m1\u007fÏRuÍ\u0087©×\u0086öÆ\u0011ëëp0hÔ·\u007ftKÀà\u0013`©½\u001f\u0018ª*\u0088@(\u0003r\nËîU\u007fÒ\u001e\u00ad¸\u0099Lp\fÛè émß½[éLj\u0015+<r£?³\u0091\u008b7,OÇÌ";
+            var13 = "Ù\u009bg£m1\u007fÏRuÍ\u0087©×\u0086öÆ\u0011ëëp0hÔ·\u007ftKÀà\u0013`©½\u001f\u0018ª*\u0088@(\u0003r\nËîU\u007fÒ\u001e\u00ad¸\u0099Lp\fÛè émß½[éLj\u0015+<r£?³\u0091\u008b7,OÇÌ"
+               .length();
+            var10 = '(';
+            var9 = -1;
 
-         while (true) {
-            byte[] var15 = var7.doFinal(var18.getBytes("ISO-8859-1"));
-            String var26 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var15).intern();
-            switch (var10001) {
-               case 0:
-                  var14[var12++] = var26;
-                  if ((var17 += var10) >= var13) {
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var14;
-                     IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = new String[18];
-                     Cipher var0;
-                     var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
-                     var10002 = SecretKeyFactory.getInstance("DES");
-                     var10003 = new byte[]{(byte)(var5 >>> 56), 0, 0, 0, 0, 0, 0, 0};
+            while (true) {
+               var15 = var7.doFinal(var11.substring(++var9, var9 + var10).getBytes("ISO-8859-1"));
+               String var30 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var15).intern();
+               byte var25 = 0;
+               var14[var12++] = var30;
+               if ((var9 += var10) >= var13) {
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var14;
+                  IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = new String[18];
+                  Cipher var0;
+                  var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
+                  var10002 = SecretKeyFactory.getInstance("DES");
+                  var10003 = new byte[]{(byte)(var5 >>> 56), 0, 0, 0, 0, 0, 0, 0};
 
-                     for (int var1 = 1; var1 < 8; var1++) {
-                        var10003[var1] = (byte)(var5 << var1 * 8 >>> 56);
+                  for (int var1 = 1; var1 < 8; var1++) {
+                     var10003[var1] = (byte)(var5 << var1 * 8 >>> 56);
+                  }
+
+                  var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+                  long var2 = 1911474897702524297L;
+                  byte[] var4 = var0.doFinal(
+                     new byte[]{
+                        (byte)(var2 >>> 56),
+                        (byte)(var2 >>> 48),
+                        (byte)(var2 >>> 40),
+                        (byte)(var2 >>> 32),
+                        (byte)(var2 >>> 24),
+                        (byte)(var2 >>> 16),
+                        (byte)(var2 >>> 8),
+                        (byte)var2
                      }
+                  );
+                  long var33 = (var4[0] & 255L) << 56
+                     | (var4[1] & 255L) << 48
+                     | (var4[2] & 255L) << 40
+                     | (var4[3] & 255L) << 32
+                     | (var4[4] & 255L) << 24
+                     | (var4[5] & 255L) << 16
+                     | (var4[6] & 255L) << 8
+                     | var4[7] & 255L;
+                  var25 = -1;
+                  IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = var33;
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new HardstoneNuker();
+                  return;
+               }
 
-                     var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
-                     long var2 = 1911474897702524297L;
-                     byte[] var4 = var0.doFinal(
-                        new byte[]{
-                           (byte)(var2 >>> 56),
-                           (byte)(var2 >>> 48),
-                           (byte)(var2 >>> 40),
-                           (byte)(var2 >>> 32),
-                           (byte)(var2 >>> 24),
-                           (byte)(var2 >>> 16),
-                           (byte)(var2 >>> 8),
-                           (byte)var2
-                        }
-                     );
-                     long var30 = (var4[0] & 255L) << 56
-                        | (var4[1] & 255L) << 48
-                        | (var4[2] & 255L) << 40
-                        | (var4[3] & 255L) << 32
-                        | (var4[4] & 255L) << 24
-                        | (var4[5] & 255L) << 16
-                        | (var4[6] & 255L) << 8
-                        | var4[7] & 255L;
-                     var10001 = -1;
-                     IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = var30;
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new HardstoneNuker();
-                     return;
-                  }
-
-                  var10 = var11.charAt(var17);
-                  break;
-               default:
-                  var14[var12++] = var26;
-                  if ((var17 += var10) < var13) {
-                     var10 = var11.charAt(var17);
-                     continue label37;
-                  }
-
-                  var11 = "Ù\u009bg£m1\u007fÏRuÍ\u0087©×\u0086öÆ\u0011ëëp0hÔ·\u007ftKÀà\u0013`©½\u001f\u0018ª*\u0088@(\u0003r\nËîU\u007fÒ\u001e\u00ad¸\u0099Lp\fÛè émß½[éLj\u0015+<r£?³\u0091\u008b7,OÇÌ";
-                  var13 = "Ù\u009bg£m1\u007fÏRuÍ\u0087©×\u0086öÆ\u0011ëëp0hÔ·\u007ftKÀà\u0013`©½\u001f\u0018ª*\u0088@(\u0003r\nËîU\u007fÒ\u001e\u00ad¸\u0099Lp\fÛè émß½[éLj\u0015+<r£?³\u0091\u008b7,OÇÌ"
-                     .length();
-                  var10 = '(';
-                  var17 = -1;
+               var10 = var11.charAt(var9);
             }
-
-            var18 = var11.substring(++var17, var17 + var10);
-            var10001 = 0;
          }
+
+         var10 = var11.charAt(var9);
       }
    }
 
@@ -447,5 +428,116 @@ public final class HardstoneNuker extends BooleanModule {
             var5
          );
       }
+   }
+
+   private final BlockPos llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$a46a6656ef276081(
+      long param1, int param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e44455931cb83122(
+      long param1, BlockHitResult param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a75470a2622b82c2(
+      Block param1, long param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b665397eac1881f7(
+      short var1, BlockPos var2, long var3
+   ) {
+      var3 = 58853776233167L;
+      long var5 = ((long)var1 << 48 | var3 << 16 >>> 16) ^ IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var7 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         2438513786840745090L, var5
+      );
+
+      label58: {
+         try {
+            boolean var10000 = lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl()
+               .IIlIIllIlIIIIlIllIlIlllIllIIlIlIIlIlIIIlIlIIIlIIllIlIlIlllllIIlIlIIIlIllllIlIlIIIllll();
+            if (var7 == null) {
+               return var10000;
+            }
+
+            if (var10000) {
+               break label58;
+            }
+         } catch (MatchException var19) {
+            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               var19, 2397976652530268348L, var5
+            );
+         }
+
+         return true;
+      }
+
+      LocalPlayer var21;
+      try {
+         var21 = this.lIlIlIIIIlIIllllIlIlIIIIIlIIIIIllIIlIllIIllIllIlIIlIIIIlIIlIIIIlIlIlIlIIlIlIIIllllllI().player;
+         if (var21 == null) {
+            return false;
+         }
+      } catch (MatchException var18) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var18, 2397976652530268348L, var5
+         );
+      }
+
+      LocalPlayer var8 = var21;
+      Vec3 var22 = var8.getEyePosition();
+      Intrinsics.checkNotNullExpressionValue(
+         var22, IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"b">(1451, 3599029125120021501L ^ var5)
+      );
+      Vec3 var9 = var22;
+      Vec3 var23 = Vec3.atCenterOf((Vec3i)var2);
+      Intrinsics.checkNotNullExpressionValue(
+         var23, IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"b">(27028, 4559996255250792393L ^ var5)
+      );
+      Vec3 var10 = var23;
+      Vec3 var24 = var10.subtract(var9);
+      Intrinsics.checkNotNullExpressionValue(
+         var24, IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"b">(17100, 1849481321384940697L ^ var5)
+      );
+      Vec3 var11 = var24;
+      Vec3 var25 = var8.getLookAngle();
+      Intrinsics.checkNotNullExpressionValue(
+         var25, IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII<"b">(28353, 2471514030879717526L ^ var5)
+      );
+      Vec3 var12 = var25;
+      double var13 = var12.dot(var11.normalize());
+      double var15 = Math.toDegrees(Math.acos(RangesKt.coerceIn(var13, -1.0, 1.0)));
+
+      try {
+         if (var15
+            <= lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll()
+                  .IIllIllIIlIIIlIlllIlIlllIIIlllIIIlIIIIIIIIllIlIIlIIIIllllllIllIIlllIIlIIIIIlIllllllIl()
+               / 2.0) {
+            return true;
+         }
+      } catch (MatchException var17) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var17, 2397976652530268348L, var5
+         );
+      }
+
+      return false;
+   }
+
+   private final boolean llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$142a7a4f08fc09a1(
+      Block param1, long param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final boolean IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$cbc71423708c9c53(
+      long param1, Block param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

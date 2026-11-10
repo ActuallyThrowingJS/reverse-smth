@@ -339,19 +339,21 @@ public final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIII
       int var15 = RangesKt.coerceAtLeast((int)(var3 / var13), 1);
       int var16 = 0;
 
+      label37:
       while (var16 < var14) {
          int var17 = 0;
 
          while (true) {
-            if (var17 < var15) {
-               label31: {
+            label42: {
+               label31:
+               if (var17 < var15) {
                   try {
                      if (var11 == null) {
-                        break;
+                        break label31;
                      }
 
                      if ((var16 + var17) % 2 == 0) {
-                        break label31;
+                        break label42;
                      }
                   } catch (MatchException var22) {
                      throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
@@ -364,20 +366,18 @@ public final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIII
                   float var20 = Math.min(var13, var1 + var3 - var18);
                   float var21 = Math.min(var13, var2 + var4 - var19);
                   NVGRenderer.rect(var18, var19, var20, var21, new Color(60, 60, 60, 255), 0.0F);
+                  break label42;
+               } else {
+                  var16++;
                }
 
-               var17++;
-               if (var11 != null) {
-                  continue;
+               if (var11 == null) {
+                  break label37;
                }
+               break;
             }
 
-            var16++;
-            break;
-         }
-
-         if (var11 == null) {
-            break;
+            var17++;
          }
       }
 

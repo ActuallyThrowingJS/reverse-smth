@@ -1,0 +1,110 @@
+[
+  {
+    "label": "client",
+    "owner": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Ljava/lang/Exception;)Ljava/lang/Exception;",
+    "elfRva": "0x432030",
+    "unwindSize": "0x4",
+    "machineBytes": "4889d0c3",
+    "reconstruction": "identity-first-argument",
+    "elfSha256": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "fileOffset": 4395056
+  },
+  {
+    "label": "client",
+    "owner": "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Ljava/lang/MatchException;)Ljava/lang/MatchException;",
+    "elfRva": "0xc4de90",
+    "unwindSize": "0x4",
+    "machineBytes": "4889d0c3",
+    "reconstruction": "identity-first-argument",
+    "elfSha256": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "fileOffset": 12897936
+  },
+  {
+    "label": "client",
+    "owner": "me/octo/client/utils/network/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
+    "name": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
+    "descriptor": "(Lcom/google/gson/JsonObject;)V",
+    "elfRva": "0xd29c50",
+    "unwindSize": "0x1",
+    "machineBytes": "c3",
+    "reconstruction": "void",
+    "elfSha256": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "fileOffset": 13798480
+  },
+  {
+    "label": "client",
+    "owner": "me/octo/client/utils/security/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Ljava/lang/Exception;)Ljava/lang/Exception;",
+    "elfRva": "0xe01af0",
+    "unwindSize": "0x4",
+    "machineBytes": "4889d0c3",
+    "reconstruction": "identity-first-argument",
+    "elfSha256": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "fileOffset": 14682864
+  },
+  {
+    "label": "client",
+    "owner": "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Ljava/lang/Exception;)Ljava/lang/Exception;",
+    "elfRva": "0x2c72f0",
+    "unwindSize": "0x4",
+    "machineBytes": "4889d0c3",
+    "reconstruction": "identity-first-argument",
+    "elfSha256": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "fileOffset": 2908912
+  },
+  {
+    "label": "client",
+    "owner": "me/octo/client/utils/security/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Ljava/lang/Throwable;)Ljava/lang/Throwable;",
+    "elfRva": "0xe4e4c0",
+    "unwindSize": "0x4",
+    "machineBytes": "4889d0c3",
+    "reconstruction": "identity-first-argument",
+    "elfSha256": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "fileOffset": 14996672
+  },
+  {
+    "label": "client",
+    "owner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+    "name": "IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI",
+    "descriptor": "(Ljava/lang/String;)V",
+    "elfRva": "0x66c8e0",
+    "unwindSize": "0x1",
+    "machineBytes": "c3",
+    "reconstruction": "void",
+    "elfSha256": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "fileOffset": 6732000
+  },
+  {
+    "label": "client",
+    "owner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
+    "name": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
+    "descriptor": "(Ljava/lang/Throwable;)Ljava/lang/Throwable;",
+    "elfRva": "0x763090",
+    "unwindSize": "0x4",
+    "machineBytes": "4889d0c3",
+    "reconstruction": "identity-first-argument",
+    "elfSha256": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "fileOffset": 7741584
+  },
+  {
+    "label": "client",
+    "owner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
+    "name": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
+    "descriptor": "(Ljava/lang/Throwable;)Ljava/lang/Throwable;",
+    "elfRva": "0x7f6580",
+    "unwindSize": "0x4",
+    "machineBytes": "4889d0c3",
+    "reconstruction": "identity-first-argument",
+    "elfSha256": "d9579ee6f180cff451436b99186c804ad954ddb3a095782b122341cddc6eab34",
+    "fileOffset": 8344960
+  }
+]

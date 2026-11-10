@@ -57,21 +57,18 @@ public enum llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlll
       Iterator var8 = var1.iterator();
 
       while (true) {
-         if (var8.hasNext()) {
-            Direction var9 = (Direction)var8.next();
+         if (!var8.hasNext()) {
             var11 = var7;
-            if (var6 != null) {
-               break;
-            }
-
-            var7 |= this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4, var9);
-            if (var6 == null) {
-               continue;
-            }
+            break;
          }
 
+         Direction var9 = (Direction)var8.next();
          var11 = var7;
-         break;
+         if (var6 != null) {
+            break;
+         }
+
+         var7 |= this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4, var9);
       }
 
       return var11;
@@ -486,9 +483,9 @@ public enum llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlll
 
          while (true) {
             byte[] var21 = var13.doFinal(var17.substring(++var15, var15 + var16).getBytes("ISO-8859-1"));
-            String var30 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var21).intern();
+            String var35 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var21).intern();
             int var10001 = -1;
-            var20[var18++] = var30;
+            var20[var18++] = var35;
             if ((var15 += var16) >= var19) {
                IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var20;
                lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new String[3];
@@ -509,14 +506,12 @@ public enum llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlll
                int var5 = "-a\u008dBò\u0094p\u0087HZ·ÝµPL·jFÿÌé`ê¾".length();
                byte var2 = 0;
 
-               label32:
-               while (true) {
+               do {
                   var10001 = var2;
                   var2 += 8;
                   byte[] var7 = var4.substring(var10001, var2).getBytes("ISO-8859-1");
-                  long[] var25 = var6;
                   var10001 = var3++;
-                  long var33 = (var7[0] & 255L) << 56
+                  long var8 = (var7[0] & 255L) << 56
                      | (var7[1] & 255L) << 48
                      | (var7[2] & 255L) << 40
                      | (var7[3] & 255L) << 32
@@ -524,66 +519,74 @@ public enum llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlll
                      | (var7[5] & 255L) << 16
                      | (var7[6] & 255L) << 8
                      | var7[7] & 255L;
-                  byte var36 = -1;
-
-                  while (true) {
-                     long var8 = var33;
-                     byte[] var10 = var0.doFinal(
-                        new byte[]{
-                           (byte)(var8 >>> 56),
-                           (byte)(var8 >>> 48),
-                           (byte)(var8 >>> 40),
-                           (byte)(var8 >>> 32),
-                           (byte)(var8 >>> 24),
-                           (byte)(var8 >>> 16),
-                           (byte)(var8 >>> 8),
-                           (byte)var8
-                        }
-                     );
-                     long var38 = (var10[0] & 255L) << 56
-                        | (var10[1] & 255L) << 48
-                        | (var10[2] & 255L) << 40
-                        | (var10[3] & 255L) << 32
-                        | (var10[4] & 255L) << 24
-                        | (var10[5] & 255L) << 16
-                        | (var10[6] & 255L) << 8
-                        | var10[7] & 255L;
-                     switch (var36) {
-                        case 0:
-                           var25[var10001] = var38;
-                           if (var2 >= var5) {
-                              llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var6;
-                              lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new Integer[5];
-                              return;
-                           }
-                           break;
-                        default:
-                           var25[var10001] = var38;
-                           if (var2 < var5) {
-                              continue label32;
-                           }
-
-                           var4 = "\u009c'Y\u0095\u0088°=rÆN\t\u0013x¤,`";
-                           var5 = "\u009c'Y\u0095\u0088°=rÆN\t\u0013x¤,`".length();
-                           var2 = 0;
+                  byte[] var10 = var0.doFinal(
+                     new byte[]{
+                        (byte)(var8 >>> 56),
+                        (byte)(var8 >>> 48),
+                        (byte)(var8 >>> 40),
+                        (byte)(var8 >>> 32),
+                        (byte)(var8 >>> 24),
+                        (byte)(var8 >>> 16),
+                        (byte)(var8 >>> 8),
+                        (byte)var8
                      }
+                  );
+                  long var10004 = (var10[0] & 255L) << 56
+                     | (var10[1] & 255L) << 48
+                     | (var10[2] & 255L) << 40
+                     | (var10[3] & 255L) << 32
+                     | (var10[4] & 255L) << 24
+                     | (var10[5] & 255L) << 16
+                     | (var10[6] & 255L) << 8
+                     | var10[7] & 255L;
+                  byte var39 = -1;
+                  var6[var10001] = var10004;
+               } while (var2 < var5);
 
-                     byte var29 = var2;
-                     var2 += 8;
-                     var7 = var4.substring(var29, var2).getBytes("ISO-8859-1");
-                     var25 = var6;
-                     var10001 = var3++;
-                     var33 = (var7[0] & 255L) << 56
-                        | (var7[1] & 255L) << 48
-                        | (var7[2] & 255L) << 40
-                        | (var7[3] & 255L) << 32
-                        | (var7[4] & 255L) << 24
-                        | (var7[5] & 255L) << 16
-                        | (var7[6] & 255L) << 8
-                        | var7[7] & 255L;
-                     var36 = 0;
-                  }
-               }
+               var4 = "\u009c'Y\u0095\u0088°=rÆN\t\u0013x¤,`";
+               var5 = "\u009c'Y\u0095\u0088°=rÆN\t\u0013x¤,`".length();
+               var2 = 0;
+
+               do {
+                  int var33 = var2;
+                  var2 += 8;
+                  byte[] var25 = var4.substring(var33, var2).getBytes("ISO-8859-1");
+                  var33 = var3++;
+                  long var26 = (var25[0] & 255L) << 56
+                     | (var25[1] & 255L) << 48
+                     | (var25[2] & 255L) << 40
+                     | (var25[3] & 255L) << 32
+                     | (var25[4] & 255L) << 24
+                     | (var25[5] & 255L) << 16
+                     | (var25[6] & 255L) << 8
+                     | var25[7] & 255L;
+                  byte[] var27 = var0.doFinal(
+                     new byte[]{
+                        (byte)(var26 >>> 56),
+                        (byte)(var26 >>> 48),
+                        (byte)(var26 >>> 40),
+                        (byte)(var26 >>> 32),
+                        (byte)(var26 >>> 24),
+                        (byte)(var26 >>> 16),
+                        (byte)(var26 >>> 8),
+                        (byte)var26
+                     }
+                  );
+                  long var41 = (var27[0] & 255L) << 56
+                     | (var27[1] & 255L) << 48
+                     | (var27[2] & 255L) << 40
+                     | (var27[3] & 255L) << 32
+                     | (var27[4] & 255L) << 24
+                     | (var27[5] & 255L) << 16
+                     | (var27[6] & 255L) << 8
+                     | var27[7] & 255L;
+                  boolean var40 = false;
+                  var6[var33] = var41;
+               } while (var2 < var5);
+
+               llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var6;
+               lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new Integer[5];
+               return;
             }
 
             var16 = var17.charAt(var15);

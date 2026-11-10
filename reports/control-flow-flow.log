@@ -1,0 +1,1 @@
+classes=4385 changed=1519 rounds=3 failures=82 mode=safe identity_rethrows=removed exception_ranges=normalized zkm_shared_tails=normalized residual_stacks=materialized binary_sentinel_tails=specialized reference_sentinel_tails=specialized constant_residual_islands=preserved report=build/flow/flow.tsv

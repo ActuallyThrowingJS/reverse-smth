@@ -312,77 +312,69 @@ public class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllI
       int var11 = "<ý\u009b\u000e%w³µM¦±ÉLåµ´¦>)\\c|Ù\u001b¨\u0017¼\u0092\u0087\u008bó\u0084\u0010\u0003±,·ùW¸ø\u0097;cä\u009ag\u0017H |(\u0003`\u0097@×På\u0086÷]DÛiëÎá:\b½\u0016Þú\u0085{w¸¨fèU øh\u008eý\u008c\rÂ\u001a\u009a5x&x0\u0082\u0010~¾\u0088Z×Dãc\fI\u0092\u0091\u0007rW\u0006\u0010\u0084g\u008eé\u0010\u00ad\u0088z1\u0010\rn\u009bï\u0006\u0089\u0010\u009f\u0089\t@r°Uö\u008e\têº\u0085\u0097ïÐ\u0010\u0010\u0006(ù\u0002ÎG«ø®\f¾\u001d¯îÿ(_EÉå|0Ë\u0004a\u0002Ï\u0001ÚÄ\u0018-kó\u008br*»L¢\u0012\u001bè\u009cÛVÂÖ¯\u0015ëQ]¼åa Î\u0012~\u0093¬_L\u001f\"±\u000bV\t®â6y9(\u001c5\u000fØÒr¤ÓÞF¹³V\u0010Ä\u008eU\u0095\u001cÊ&[Gi\\)»¤Ú\u0084\u0010\u009aÆ`ßåÊ]\u001cÒ´>QhØ+o çp-\u0007P±TIQÜÈë¿ðUÖ)\u000bnF°8É7kt\u0098¡8~¢È(Å\u0088\u00adD\u0090¼!§_\u0017¿Æê\u0012Zfåù\u0086ÃvNUÐÝÞ^})êéõâ\u0018\u0003U\u0015|\u001dÙ g{\u0003*1\u0098y~3¸%Íí¯Å\u0004¦\u001f\u0091|\\VèE\u0019`\u0015/\u0099\u0007TB oû*\u0005Zsª4\u00adõLü»qµöÕA\u001b\u001a\r\u0092Ð\u0015ó#(!h6\u007f7"
          .length();
       char var8 = ' ';
-      int var18 = -1;
+      int var7 = -1;
 
-      label37:
       while (true) {
-         String var19 = var9.substring(++var18, var18 + var8);
+         byte[] var13 = var5.doFinal(var9.substring(++var7, var7 + var8).getBytes("ISO-8859-1"));
+         String var29 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13).intern();
          byte var10001 = -1;
+         var12[var10++] = var29;
+         if ((var7 += var8) >= var11) {
+            var9 = "\rÒ\u0001\u001a\u0017á²«|è\u001aâ~i}ì\u0095=¾\r1ÇdÜSÎXwfm¦x(S¦Þ\u00834\u000b0\u0010üuâ\u008dj\u0080\u0087FnÐ\u0093Õ\u0092\u0012¼F";
+            var11 = "\rÒ\u0001\u001a\u0017á²«|è\u001aâ~i}ì\u0095=¾\r1ÇdÜSÎXwfm¦x(S¦Þ\u00834\u000b0\u0010üuâ\u008dj\u0080\u0087FnÐ\u0093Õ\u0092\u0012¼F"
+               .length();
+            var8 = '(';
+            var7 = -1;
 
-         while (true) {
-            byte[] var13 = var5.doFinal(var19.getBytes("ISO-8859-1"));
-            String var27 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13).intern();
-            switch (var10001) {
-               case 0:
-                  var12[var10++] = var27;
-                  if ((var18 += var8) >= var11) {
-                     lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI = var12;
-                     lIlllllIIIIlllllIlIIIIIIIllllIlIllIllIIlIIIIIIIIIlIlIIIlIIlIlIIIlIlllIllIIllIllIllllI = new String[17];
-                     Cipher var0;
-                     var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
-                     var10002 = SecretKeyFactory.getInstance("DES");
-                     var10003 = new byte[]{(byte)(var14 >>> 56), 0, 0, 0, 0, 0, 0, 0};
+            while (true) {
+               var13 = var5.doFinal(var9.substring(++var7, var7 + var8).getBytes("ISO-8859-1"));
+               String var31 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13).intern();
+               byte var26 = 0;
+               var12[var10++] = var31;
+               if ((var7 += var8) >= var11) {
+                  lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI = var12;
+                  lIlllllIIIIlllllIlIIIIIIIllllIlIllIllIIlIIIIIIIIIlIlIIIlIIlIlIIIlIlllIllIIllIllIllllI = new String[17];
+                  Cipher var0;
+                  var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
+                  var10002 = SecretKeyFactory.getInstance("DES");
+                  var10003 = new byte[]{(byte)(var14 >>> 56), 0, 0, 0, 0, 0, 0, 0};
 
-                     for (int var1 = 1; var1 < 8; var1++) {
-                        var10003[var1] = (byte)(var14 << var1 * 8 >>> 56);
+                  for (int var1 = 1; var1 < 8; var1++) {
+                     var10003[var1] = (byte)(var14 << var1 * 8 >>> 56);
+                  }
+
+                  var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+                  long var2 = -5371496211435914552L;
+                  byte[] var4 = var0.doFinal(
+                     new byte[]{
+                        (byte)(var2 >>> 56),
+                        (byte)(var2 >>> 48),
+                        (byte)(var2 >>> 40),
+                        (byte)(var2 >>> 32),
+                        (byte)(var2 >>> 24),
+                        (byte)(var2 >>> 16),
+                        (byte)(var2 >>> 8),
+                        (byte)var2
                      }
+                  );
+                  long var34 = (var4[0] & 255L) << 56
+                     | (var4[1] & 255L) << 48
+                     | (var4[2] & 255L) << 40
+                     | (var4[3] & 255L) << 32
+                     | (var4[4] & 255L) << 24
+                     | (var4[5] & 255L) << 16
+                     | (var4[6] & 255L) << 8
+                     | var4[7] & 255L;
+                  var26 = -1;
+                  IIllllIllIlIIIIIllIIllIlllIIlIIIIlIllIIlllllIIlllIIIllIlllIIlIlIIlIIlIIIlIIlllIlIIIII = var34;
+                  return;
+               }
 
-                     var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
-                     long var2 = -5371496211435914552L;
-                     byte[] var4 = var0.doFinal(
-                        new byte[]{
-                           (byte)(var2 >>> 56),
-                           (byte)(var2 >>> 48),
-                           (byte)(var2 >>> 40),
-                           (byte)(var2 >>> 32),
-                           (byte)(var2 >>> 24),
-                           (byte)(var2 >>> 16),
-                           (byte)(var2 >>> 8),
-                           (byte)var2
-                        }
-                     );
-                     long var31 = (var4[0] & 255L) << 56
-                        | (var4[1] & 255L) << 48
-                        | (var4[2] & 255L) << 40
-                        | (var4[3] & 255L) << 32
-                        | (var4[4] & 255L) << 24
-                        | (var4[5] & 255L) << 16
-                        | (var4[6] & 255L) << 8
-                        | var4[7] & 255L;
-                     var10001 = -1;
-                     IIllllIllIlIIIIIllIIllIlllIIlIIIIlIllIIlllllIIlllIIIllIlllIIlIlIIlIIlIIIlIIlllIlIIIII = var31;
-                     return;
-                  }
-
-                  var8 = var9.charAt(var18);
-                  break;
-               default:
-                  var12[var10++] = var27;
-                  if ((var18 += var8) < var11) {
-                     var8 = var9.charAt(var18);
-                     continue label37;
-                  }
-
-                  var9 = "\rÒ\u0001\u001a\u0017á²«|è\u001aâ~i}ì\u0095=¾\r1ÇdÜSÎXwfm¦x(S¦Þ\u00834\u000b0\u0010üuâ\u008dj\u0080\u0087FnÐ\u0093Õ\u0092\u0012¼F";
-                  var11 = "\rÒ\u0001\u001a\u0017á²«|è\u001aâ~i}ì\u0095=¾\r1ÇdÜSÎXwfm¦x(S¦Þ\u00834\u000b0\u0010üuâ\u008dj\u0080\u0087FnÐ\u0093Õ\u0092\u0012¼F"
-                     .length();
-                  var8 = '(';
-                  var18 = -1;
+               var8 = var9.charAt(var7);
             }
-
-            var19 = var9.substring(++var18, var18 + var8);
-            var10001 = 0;
          }
+
+         var8 = var9.charAt(var7);
       }
    }
 
@@ -536,71 +528,63 @@ public class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllI
          int var7 = "òo\u0080\u0010\u008f\u001d]^\bÉ8øæ9\"a\u0003\b\u009cùå\bâ\u008f\u001a\u0085\b`E\u001b¯wÒ\u008bk\bÙ\u0098\u0013û\u001cHî\u0089\u0010½-\f\u0002$\u00055\u0083F¹\u009b5\u0095JN\\\bÉ8øæ9\"a\u0003\bòo\u0080\u0010\u008f\u001d]^\b`E\u001b¯wÒ\u008bk\b\u009cùå\bâ\u008f\u001a\u0085\u0010\u0084O5eÏ\u00adªæ\u0095³}@´¬\u0092\u008f\bDU\u0097¡ÑîjN\b{ÎeZ\u008aë#å\bÙ\u0098\u0013û\u001cHî\u0089\u0010\u0084O5eÏ\u00adªæ\u0095³}@´¬\u0092\u008f\u0010½-\f\u0002$\u00055\u0083F¹\u009b5\u0095JN\\"
             .length();
          char var4 = '\b';
-         int var12 = -1;
+         int var3 = -1;
 
-         label28:
          while (true) {
-            String var13 = var5.substring(++var12, var12 + var4);
+            byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+            String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
             byte var10001 = -1;
+            var0[var6++] = var21;
+            if ((var3 += var4) >= var7) {
+               var5 = "{ÎeZ\u008aë#å\bDU\u0097¡ÑîjN";
+               var7 = "{ÎeZ\u008aë#å\bDU\u0097¡ÑîjN".length();
+               var4 = '\b';
+               var3 = -1;
 
-            while (true) {
-               byte[] var8 = var1.doFinal(var13.getBytes("ISO-8859-1"));
-               String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-               switch (var10001) {
-                  case 0:
-                     var0[var6++] = var19;
-                     if ((var12 += var4) >= var7) {
-                        NONE = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                           var0[11]
-                        );
-                        TRAVEL = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                           var0[7]
-                        );
-                        NPC = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                           var0[4]
-                        );
-                        COMMAND = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                           var0[6]
-                        );
-                        BAZAAR = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                           var0[3]
-                        );
-                        INTERACT = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                           var0[5]
-                        );
-                        REFUEL = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                           var0[9]
-                        );
-                        CLAIM = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                           var0[16]
-                        );
-                        FORGE_ITEMS = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                           var0[10]
-                        );
-                        lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
-                           IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-                        );
-                        return;
-                     }
+               while (true) {
+                  var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+                  String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+                  boolean var19 = false;
+                  var0[var6++] = var23;
+                  if ((var3 += var4) >= var7) {
+                     NONE = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                        var0[11]
+                     );
+                     TRAVEL = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                        var0[7]
+                     );
+                     NPC = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                        var0[4]
+                     );
+                     COMMAND = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                        var0[6]
+                     );
+                     BAZAAR = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                        var0[3]
+                     );
+                     INTERACT = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                        var0[5]
+                     );
+                     REFUEL = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                        var0[9]
+                     );
+                     CLAIM = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                        var0[16]
+                     );
+                     FORGE_ITEMS = new IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                        var0[10]
+                     );
+                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
+                        IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                     );
+                     return;
+                  }
 
-                     var4 = var5.charAt(var12);
-                     break;
-                  default:
-                     var0[var6++] = var19;
-                     if ((var12 += var4) < var7) {
-                        var4 = var5.charAt(var12);
-                        continue label28;
-                     }
-
-                     var5 = "{ÎeZ\u008aë#å\bDU\u0097¡ÑîjN";
-                     var7 = "{ÎeZ\u008aë#å\bDU\u0097¡ÑîjN".length();
-                     var4 = '\b';
-                     var12 = -1;
+                  var4 = var5.charAt(var3);
                }
-
-               var13 = var5.substring(++var12, var12 + var4);
-               var10001 = 0;
             }
+
+            var4 = var5.charAt(var3);
          }
       }
 

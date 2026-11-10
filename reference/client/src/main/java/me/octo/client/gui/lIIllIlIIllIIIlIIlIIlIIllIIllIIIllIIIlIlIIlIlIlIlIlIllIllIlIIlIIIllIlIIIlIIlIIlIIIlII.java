@@ -15,6 +15,7 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
 import javax.crypto.spec.IvParameterSpec;
 import kotlin.jvm.internal.Intrinsics;
+import me.octo.client.modules.impl.macros.lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -274,43 +275,35 @@ public final class lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlII
       int var6 = "\u0088kNeX\u0098ÑÿÐ\u0090±õº¬>\u0012\u0086Ç\u000fÞò:\t\u0015g\u0086<\u0004hG¯S\u0010¨v»\u0082Ùà\u0093Ã\u001dV×LÚ¬¤^\u0010»Î\u0096â\u00adI©\u001fÞ\u0090U\u0096\u0096¾¬p\u0010\u0082é8é¦$\u0005\u0006\u0001wlwå¡Þ\u0089\u0010Ø\u008d¼5\u009d«9d£ÑU¼«w3%\u0010ÈÃ¼\u0018é\u0003E\u0087Zºáó\b\u0005ì\u00ad\u0018é(\u009dx\t\u0091®\u0098Ì\u00ad\u0098\u0003ÚTÖÌÕYÎ}\u008d\u0005øó ÎÈ\u0012üY¾\u0090\u0098%¢\u0007ô}«\u0082\u000e\u000eV\u001bõN×÷Ê\u009c\u008f*ùëvÛ;\u0010\u0083Võã\u0016>ÉE!b®«|-\rú\u0010Õ\u0091kdt\u0004?\u0086r\u008eï£8\u0095Í, U<\u008aå\u001b+GÏ\\`îè\u00913\u001dÞ°A\u0083H\u0010Ä\u008a«\u0091ÚËíC;Å[\u0010Ä%f\u009fîR[¸ÀtÔîd\u0016i\u0080\u0010x$N\u000fz\u009ddþ¥Q\u0017îQ\u008a\u0007ö «Ê\u001e<Xy\u0091\u001d¡\u0013\u0014T\u0018Ø$\u0005#ÎËFFÜótxÒHK6&Ö7 ^\u0089Þ%½ùÄH\u0012\u0083ÅHä{\u0095\u001c¹ã\u009bøÕË.\u0088ÿÑÄõV¯¾à åe\u0014=©´ \u0098M\u0092?\u0005&±\u0014WþWvð\u009b¬\u009déÎ«)ë\u001f\u0089|?"
          .length();
       char var3 = ' ';
-      int var13 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var14 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "\u008d\u0005NÍ¾\u009d<\u0083oRº\u00ad\u000e\u008f%e; *0½Z\u009f\u009b\u0010\u0002íC\u0084?UÆ\r¢\u001e\u0007\u0091Í>\u0084J";
+            var6 = "\u008d\u0005NÍ¾\u009d<\u0083oRº\u00ad\u000e\u008f%e; *0½Z\u009f\u009b\u0010\u0002íC\u0084?UÆ\r¢\u001e\u0007\u0091Í>\u0084J".length();
+            var3 = '\u0018';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) >= var6) {
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = var7;
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new String[18];
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = var7;
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new String[18];
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label27;
-                  }
-
-                  var4 = "\u008d\u0005NÍ¾\u009d<\u0083oRº\u00ad\u000e\u008f%e; *0½Z\u009f\u009b\u0010\u0002íC\u0084?UÆ\r¢\u001e\u0007\u0091Í>\u0084J";
-                  var6 = "\u008d\u0005NÍ¾\u009d<\u0083oRº\u00ad\u000e\u008f%e; *0½Z\u009f\u009b\u0010\u0002íC\u0084?UÆ\r¢\u001e\u0007\u0091Í>\u0084J".length();
-                  var3 = 24;
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var14 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -411,6 +404,248 @@ public final class lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlII
          throw new RuntimeException(
             "me/octo/client/gui/lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII" + " : " + var1 + " : " + var2.toString(),
             var5
+         );
+      }
+   }
+
+   public static lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$502ce41191efc34f(
+      lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII var0,
+      String var1,
+      String var2,
+      String var3,
+      int var4,
+      boolean var5,
+      String var6,
+      long var7,
+      int var9,
+      long var10,
+      Long var12,
+      Integer var13,
+      int var14,
+      Object var15
+   ) {
+      var10 = 0L;
+      var7 = lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI ^ var7;
+      long var16 = var7 ^ 107249842836400L;
+      int[] var18 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         -8466619192843314252L, var7
+      );
+
+      int var10000;
+      label146: {
+         int var19;
+         label145: {
+            label144: {
+               try {
+                  var19 = var14;
+                  if (var18 != null) {
+                     break label145;
+                  }
+
+                  if ((var14 & 1) == 0) {
+                     break label144;
+                  }
+               } catch (MatchException var35) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var35, -8501995695988113469L, var7
+                  );
+               }
+
+               var1 = var0.id;
+            }
+
+            try {
+               var10000 = var14 & 2;
+               break label146;
+            } catch (MatchException var30) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var30, -8501995695988113469L, var7
+               );
+            }
+         }
+
+         var10000 = var19;
+      }
+
+      if (var10000 != 0) {
+         var2 = var0.name;
+      }
+
+      byte var10001;
+      label134: {
+         int var20;
+         byte var21;
+         label150: {
+            try {
+               var21 = 4;
+               var20 = var14;
+               if (var18 != null) {
+                  break label150;
+               }
+
+               var10000 = var14 & var21;
+            } catch (MatchException var34) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var34, -8501995695988113469L, var7
+               );
+            }
+
+            if (var10000 != 0) {
+               var3 = var0.type;
+            }
+
+            try {
+               var10000 = var14;
+               var10001 = 8;
+               break label134;
+            } catch (MatchException var29) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var29, -8501995695988113469L, var7
+               );
+            }
+         }
+
+         var10000 = var20;
+         var10001 = var21;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var4 = var0.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      }
+
+      label125: {
+         int var22;
+         label151: {
+            try {
+               var22 = var14;
+               if (var18 != null) {
+                  break label151;
+               }
+
+               var10000 = var14 & 16;
+            } catch (MatchException var33) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var33, -8501995695988113469L, var7
+               );
+            }
+
+            if (var10000 != 0) {
+               var5 = var0.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII;
+            }
+
+            try {
+               var10000 = var14 & 32;
+               break label125;
+            } catch (MatchException var28) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var28, -8501995695988113469L, var7
+               );
+            }
+         }
+
+         var10000 = var22;
+      }
+
+      if (var10000 != 0) {
+         var6 = var0.author;
+      }
+
+      label116: {
+         int var23;
+         label152: {
+            try {
+               var23 = var14;
+               if (var18 != null) {
+                  break label152;
+               }
+
+               var10000 = var14;
+               var10001 = (byte)64;
+            } catch (MatchException var32) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var32, -8501995695988113469L, var7
+               );
+            }
+
+            if ((var10000 & var10001) != 0) {
+               var9 = var0.IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+            }
+
+            try {
+               var10000 = var14 & 128;
+               break label116;
+            } catch (MatchException var27) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var27, -8501995695988113469L, var7
+               );
+            }
+         }
+
+         var10000 = var23;
+      }
+
+      if (var10000 != 0) {
+         var10 = var0.lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll;
+      }
+
+      var10000 = var14;
+      var10001 = 256;
+
+      label105: {
+         label104: {
+            int var24;
+            short var25;
+            label103: {
+               try {
+                  var25 = var10001;
+                  var24 = var10000;
+                  if (var18 != null) {
+                     break label103;
+                  }
+
+                  if ((var24 & var25) == 0) {
+                     break label104;
+                  }
+               } catch (MatchException var31) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var31, -8501995695988113469L, var7
+                  );
+               }
+
+               var12 = var0.IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII;
+               break label104;
+            }
+
+            var10000 = var24;
+            var10001 = var25;
+            break label105;
+         }
+
+         var10000 = var14;
+         var10001 = 512;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var13 = var0.llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI;
+      }
+
+      try {
+         lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlIIlIIIllIlIIIlIIlIIlIIIlII var46 = var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+            var1, var2, var3, var4, var16, var5, var6, var9, var10, var12, var13
+         );
+         if (lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               -8502820835234695520L, var7
+            )
+            == null) {
+            lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               new int[4], -8442528630723908299L, var7
+            );
+         }
+
+         return var46;
+      } catch (MatchException var26) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var26, -8501995695988113469L, var7
          );
       }
    }

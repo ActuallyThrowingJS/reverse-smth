@@ -176,8 +176,6 @@ public final class Polinex implements ModInitializer {
             4307961411012207238L, var1
          );
          long var22 = 4321462410408305299L;
-         if (false) {
-         }
       }
    }
 
@@ -658,7 +656,7 @@ public final class Polinex implements ModInitializer {
          String[] var11 = var10000;
          llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var11);
          Cipher var0;
-         Cipher var14 = var0 = Cipher.getInstance("DES/CBC/PKCS5Padding");
+         Cipher var19 = var0 = Cipher.getInstance("DES/CBC/PKCS5Padding");
          SecretKeyFactory var10002 = SecretKeyFactory.getInstance("DES");
          byte[] var10003 = new byte[]{(byte)(var9 >>> 56), 0, 0, 0, 0, 0, 0, 0};
 
@@ -666,50 +664,42 @@ public final class Polinex implements ModInitializer {
             var10003[var1] = (byte)(var9 << var1 * 8 >>> 56);
          }
 
-         var14.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+         var19.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
          String[] var7 = new String[7];
          int var5 = 0;
          String var4 = "üGº\"?ù\u0086@uÆ¸\u008f\u009a¦$ûÖH\u001fû3\u0081p\u00990ØU¡öfo:5¶éÔ]\u008f\u001dÅ\tÙø0ZÈü\u001c\u0095\r9\u001bân>9\u000fÀ\u001a\u001b#\u001e\u0015\u009c£\t7Gk\u0097\u0011\u000bX\u0018³\u008aK\u0014=çí\u0017ï\tØ,<Q \u008b¾%\u0014Zß4©ü\u0010\u0011«\\[ÅäË\u001e\u000f\u0086*M\u001eM\u0017ó\u0010:E)»¦n; ãí\u0080±&ÕbH";
          int var6 = "üGº\"?ù\u0086@uÆ¸\u008f\u009a¦$ûÖH\u001fû3\u0081p\u00990ØU¡öfo:5¶éÔ]\u008f\u001dÅ\tÙø0ZÈü\u001c\u0095\r9\u001bân>9\u000fÀ\u001a\u001b#\u001e\u0015\u009c£\t7Gk\u0097\u0011\u000bX\u0018³\u008aK\u0014=çí\u0017ï\tØ,<Q \u008b¾%\u0014Zß4©ü\u0010\u0011«\\[ÅäË\u001e\u000f\u0086*M\u001eM\u0017ó\u0010:E)»¦n; ãí\u0080±&ÕbH"
             .length();
-         char var3 = 24;
-         int var13 = -1;
+         char var3 = '\u0018';
+         int var2 = -1;
 
-         label27:
          while (true) {
-            String var15 = var4.substring(++var13, var13 + var3);
+            byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+            String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
             byte var10001 = -1;
+            var7[var5++] = var23;
+            if ((var2 += var3) >= var6) {
+               var4 = "#¹Q\u009eÍ\u009e\u008eï\u001bPÙ\u008b_Ó¦\u0084(pÁÈÁÕ¸·êSÔ$m}ýK\u001ap\u008að\u009fs\u009b\fN½\u001eó\"¶%[È\u001aÃ¡ÛÕ¶ðZ";
+               var6 = "#¹Q\u009eÍ\u009e\u008eï\u001bPÙ\u008b_Ó¦\u0084(pÁÈÁÕ¸·êSÔ$m}ýK\u001ap\u008að\u009fs\u009b\fN½\u001eó\"¶%[È\u001aÃ¡ÛÕ¶ðZ".length();
+               var3 = '\u0010';
+               var2 = -1;
 
-            while (true) {
-               byte[] var8 = var0.doFinal(var15.getBytes("ISO-8859-1"));
-               String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-               switch (var10001) {
-                  case 0:
-                     var7[var5++] = var21;
-                     if ((var13 += var3) >= var6) {
-                        IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var7;
-                        lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[7];
-                        return;
-                     }
+               while (true) {
+                  var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+                  String var25 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+                  boolean var21 = false;
+                  var7[var5++] = var25;
+                  if ((var2 += var3) >= var6) {
+                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var7;
+                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[7];
+                     return;
+                  }
 
-                     var3 = var4.charAt(var13);
-                     break;
-                  default:
-                     var7[var5++] = var21;
-                     if ((var13 += var3) < var6) {
-                        var3 = var4.charAt(var13);
-                        continue label27;
-                     }
-
-                     var4 = "#¹Q\u009eÍ\u009e\u008eï\u001bPÙ\u008b_Ó¦\u0084(pÁÈÁÕ¸·êSÔ$m}ýK\u001ap\u008að\u009fs\u009b\fN½\u001eó\"¶%[È\u001aÃ¡ÛÕ¶ðZ";
-                     var6 = "#¹Q\u009eÍ\u009e\u008eï\u001bPÙ\u008b_Ó¦\u0084(pÁÈÁÕ¸·êSÔ$m}ýK\u001ap\u008að\u009fs\u009b\fN½\u001eó\"¶%[È\u001aÃ¡ÛÕ¶ðZ".length();
-                     var3 = 16;
-                     var13 = -1;
+                  var3 = var4.charAt(var2);
                }
-
-               var15 = var4.substring(++var13, var13 + var3);
-               var10001 = 0;
             }
+
+            var3 = var4.charAt(var2);
          }
       }
 
@@ -816,6 +806,19 @@ public final class Polinex implements ModInitializer {
                var5
             );
          }
+      }
+
+      @JvmStatic
+      @NotNull
+      public final Identifier IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e0d4825570f4c998(
+         @NotNull String pathArg, long argument2Arg
+      ) {
+         argument2Arg = 121811623234251L;
+         argument2Arg = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ argument2Arg;
+         Intrinsics.checkNotNullParameter(pathArg, "path");
+         Identifier var10000 = Identifier.fromNamespaceAndPath("polinex", pathArg);
+         Intrinsics.checkNotNullExpressionValue(var10000, "fromNamespaceAndPath(...)");
+         return var10000;
       }
    }
 }

@@ -119,48 +119,40 @@ public final class IgnoreOrbs extends BooleanModule {
       int var8 = "ÔyÄ\u0000zù\u0088ûPµ,RFrÎ\u009f¬¸àµs0 Ð\u008eÄ©Ïw\fì\u008c\u0010l«+íÓøR\u0083X53h'74Ô\u0010Ó\u008cÎo\u0096\u001c\u0005À\u001f\u001e\u0094\u001a\u0000\u008c¢â\u0018t\u0015ø;¢ýJûx\u0087X?ñ\u0013¨Ý«=´Tú¿®} 2Vc%ÜåÜ,_K,áÕjWç^\u0081å\u0091®´<\u0094\u0013©b\u0018Ò;\u0096\u0093\u0010F2³hàå\r\u0001\u009f\u0093\u000b7\u0002\u00ad\u008c\u0080\u0010©\u0012G\u001d7:\u008bó\u0019Ë\u0005ñ³çPà\u0010Ã¥Á¢¢ÕÀÄò¿\u0001a\u0019\u001b¬T Â\u008aò\f\u001b~3$|Cm;_$Ò\u0012\u008aQ\u0080²C\u008e<\u00adUZI+¬ÚébpÏô.P;Ä£°\u001dÛnDtEXiõ`mXÓÑ½ú\u0012©\u0005* ½\u008dv¤Æ©Ô\u001a\u0002Xoó¾_Q\u0092\u0080C1Pí\u008czu{\u000edH\næð\u000eçÍpÓ\u0013åB]y\u008e/xÞ\u008c¥Û»t\\H\u0019Ò\u0092N\u0015ðc\u0096Üp°Î\u001c\u008a0è\u0086ð\u0088\u008cð:×&\u0092¹\u0017ð?ï\u0081(ñô¢Ä³\u0085\u0014Þ\u001açõëWÜ\u0080Ý\u008d\u0013\u0016?¾ºÒ\u0081-`Z\u008f&Fc\u00871L\u001cú\u0003¸èÂ"
          .length();
       char var5 = ' ';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "Æ\u0094E#E½%å\u0004\u0019«z1{\u009cýîx\u0090ù\u0016éõ>\u0010\u0003£ßzmØÅ\u0010\u000ex©óô\u009d<g¤\u0005ãa°\u001fYe";
+            var8 = "Æ\u0094E#E½%å\u0004\u0019«z1{\u009cýîx\u0090ù\u0016éõ>\u0010\u0003£ßzmØÅ\u0010\u000ex©óô\u009d<g¤\u0005ãa°\u001fYe".length();
+            var5 = ' ';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var9;
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[13];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IgnoreOrbs.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     INSTANCE = new IgnoreOrbs();
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = SetsKt.emptySet();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var9;
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[13];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IgnoreOrbs.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  INSTANCE = new IgnoreOrbs();
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = SetsKt.emptySet();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "Æ\u0094E#E½%å\u0004\u0019«z1{\u009cýîx\u0090ù\u0016éõ>\u0010\u0003£ßzmØÅ\u0010\u000ex©óô\u009d<g¤\u0005ãa°\u001fYe";
-                  var8 = "Æ\u0094E#E½%å\u0004\u0019«z1{\u009cýîx\u0090ù\u0016éõ>\u0010\u0003£ßzmØÅ\u0010\u000ex©óô\u009d<g¤\u0005ãa°\u001fYe".length();
-                  var5 = ' ';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -260,6 +252,12 @@ public final class IgnoreOrbs extends BooleanModule {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/modules/impl/features/mining/IgnoreOrbs" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   private final boolean lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$59fe7e0222fbd263(
+      long param1, String param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

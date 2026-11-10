@@ -75,45 +75,37 @@ public class lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlII
       String var6 = "{sôÏWPVÁ´Ý\\g\u0016r516³\u0086ohãÖ¼\u0010é\u001d*éÌJ\u0010¨¼\u0017=I\u008eKFÚ\u0010\bK]Î\u0015\u00023W¼BæöÑóò\u009b ;\u0004YzmMáï}Oq¾\u001a\u001dÄD,ÕÌo\u0005{Åð³\u009f·?ezGb";
       int var8 = "{sôÏWPVÁ´Ý\\g\u0016r516³\u0086ohãÖ¼\u0010é\u001d*éÌJ\u0010¨¼\u0017=I\u008eKFÚ\u0010\bK]Î\u0015\u00023W¼BæöÑóò\u009b ;\u0004YzmMáï}Oq¾\u001a\u001dÄD,ÕÌo\u0005{Åð³\u009f·?ezGb"
          .length();
-      char var5 = 24;
-      int var12 = -1;
+      char var5 = '\u0018';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "ï¬¯RZ;(*Z\u009bL\u000f]òûª\u0010\u0090GåÆæÑYÞã\u009aô×¨VÎ\u0096";
+            var8 = "ï¬¯RZ;(*Z\u009bL\u000f]òûª\u0010\u0090GåÆæÑYÞã\u009aô×¨VÎ\u0096".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var9;
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[6];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new Vec3(-23.5, 31.0, 21.5);
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var9;
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[6];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new Vec3(-23.5, 31.0, 21.5);
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "ï¬¯RZ;(*Z\u009bL\u000f]òûª\u0010\u0090GåÆæÑYÞã\u009aô×¨VÎ\u0096";
-                  var8 = "ï¬¯RZ;(*Z\u009bL\u000f]òûª\u0010\u0090GåÆæÑYÞã\u009aô×¨VÎ\u0096".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -222,5 +214,19 @@ public class lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlII
             var5
          );
       }
+   }
+
+   public static boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d0cf40e95f5d06fe(
+      ClientboundPlayerPositionPacket param0, long param1
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static float IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$9b457612cce9f194(long param0) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private static float IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$7b7975271c796047(long param0) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

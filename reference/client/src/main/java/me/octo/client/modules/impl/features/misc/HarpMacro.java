@@ -48,7 +48,7 @@ public final class HarpMacro extends BooleanModule {
    }
 
    @SubscribeEvent
-   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull ChestBackgroundDrawnEvent eventArg) {
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull ChestBackgroundDrawnEvent param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
@@ -69,48 +69,40 @@ public final class HarpMacro extends BooleanModule {
       String var6 = "y\u0005%\u009eZ;\u0089i>\u0004Ø\u000f\u001dîJ\nÍ8\u009d?±\u001c\u0004+\u0010ñ`ñí:yXâÏÍ}wÄ\u0095\be\u0088Ä×(\u009e²¹ýBªÕ\f\u0089¯@P©Gö*\u0089û\u0085æH\u0095\u000b\u0004\u0018 »\u008f]ü\u000e¼S\u0005ðò\u0004\b5JÀS\u001bî{æ~éKF\u009e7¤\u0089áUZ\"G´\u0017s¼÷¸x}bô*nd Ve\u0090\u0013\u0013T\u0084*y!\u000f¤\u0097G¥\u009f|ë\u0080I-ÎtN|S\u0082\u00868ª\u001b\u0097^ÅEC\u0085\\ô\u0018ckKõnð§)æ\u0011öL\u00826p?ï\u0006V«\u0010O!R2Ú$\u009d,\u000fR\u0013dOJÀí";
       int var8 = "y\u0005%\u009eZ;\u0089i>\u0004Ø\u000f\u001dîJ\nÍ8\u009d?±\u001c\u0004+\u0010ñ`ñí:yXâÏÍ}wÄ\u0095\be\u0088Ä×(\u009e²¹ýBªÕ\f\u0089¯@P©Gö*\u0089û\u0085æH\u0095\u000b\u0004\u0018 »\u008f]ü\u000e¼S\u0005ðò\u0004\b5JÀS\u001bî{æ~éKF\u009e7¤\u0089áUZ\"G´\u0017s¼÷¸x}bô*nd Ve\u0090\u0013\u0013T\u0084*y!\u000f¤\u0097G¥\u009f|ë\u0080I-ÎtN|S\u0082\u00868ª\u001b\u0097^ÅEC\u0085\\ô\u0018ckKõnð§)æ\u0011öL\u00826p?ï\u0006V«\u0010O!R2Ú$\u009d,\u000fR\u0013dOJÀí"
          .length();
-      char var5 = 24;
-      int var12 = -1;
+      char var5 = '\u0018';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0004/\u0005\u0094\u0019Ë\u0005äÅpÜ\u0013Ì¢ \u0081\u0010¼22kuÓH~ûPt=\u0004\u008e\u001aÀ";
+            var8 = "\u0004/\u0005\u0094\u0019Ë\u0005äÅpÜ\u0013Ì¢ \u0081\u0010¼22kuÓH~ûPt=\u0004\u008e\u001aÀ".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var9;
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[6];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new HarpMacro();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var9;
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[6];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new HarpMacro();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0004/\u0005\u0094\u0019Ë\u0005äÅpÜ\u0013Ì¢ \u0081\u0010¼22kuÓH~ûPt=\u0004\u008e\u001aÀ";
-                  var8 = "\u0004/\u0005\u0094\u0019Ë\u0005äÅpÜ\u0013Ì¢ \u0081\u0010¼22kuÓH~ûPt=\u0004\u008e\u001aÀ".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

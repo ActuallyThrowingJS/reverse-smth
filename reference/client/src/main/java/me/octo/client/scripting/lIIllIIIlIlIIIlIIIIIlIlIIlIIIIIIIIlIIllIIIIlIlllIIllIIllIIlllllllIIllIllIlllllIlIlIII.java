@@ -247,46 +247,38 @@ public final class lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlll
       int var8 = "i\u008f\rzch3\u0090P\u0088\u0013\u0018I\u0012a\u0017];\u001c¨áÈ×\u0095öj\u0082\r\\Ò\u0089ÀÁJ¥bR\n\u0092\u009d \u0013\u00adÀ½ë]Ðmì\u008d§\u0098AJÔ\b6s9<\u009e\r\u009d\u0015Ê{ÕåY\u0090{X ô=S£1\u0018UQ\u00957\u0007íêÁ¹Lî`\\Ä\u0097ëWÊxÊÆ%ù\u008f\u0080\u009c\u0010R[¤º\u008f©$1o\u0095iiU\u0016\u0088¤\u0010\u0088¿Ý\u0015újöu;xø\u0003\u008fTûO\u0018\u0010«ºí$ryº¿øV\u0003\u00898+W\u009cÃÐO¯y\u0098]\u0018Ç/$4jÊÜ¦\u0089à\u0088t\u0093\u0016ß±\u0005>\u0006³:¹sp8æ\u0081\u009d\u0005Âg\u0003Ý\u009a\u008dà\u009f:\u00ad(K;hWpÙKØt\"PöµF\roäh\u0098Å\u009a\u0083Â\u0089R\u0012-\u0092uS#El\\×¨\u001aöµ\bÈ8à|UýD\u0002ð;rO4Æh.\"ä5Ù\u0013'b=\u0087ÞÁ(-£O\u0084l4îë\u0088\u001eà\u0006ñµÇé\u001bø¥÷Ê\u0014Íêd9\u0099q\u0085r89\u0007Ø¶0÷xK\u0002\u0095å\u00814\u0083ûø)1\u0092#A\u0000Ú\fB0Á£@É+\u001b|Oi}¡>\u0011üíÖ9Ô%\u0092Ã¿\u00906L\u001d±4(º \u00831ÿ¬Ú\u0089\u0090\u0088ÖÉwâJ¡'¤É\u0010í1:ú7.ÖU±Ö¤®)q8µ.iúJ\u0093æÖºØ*4húä\u008f\u0013§Dc/ÛÝçãvJP«ÇÔb*,ë©ª\u0018²b`û\u001eË%\nÚE\u009cõE]\u00866\u0006rX®bvü3Ü\u009c\t¾G\u0091àYç\u0083d \u0003lä\u0082t\t\u00adâT,©°\u008c\u001aFÈØÕ¡¾\u0091vÁ\u0001\u0093»m²\u008dd\u0093aBJ\u008c\u0006L\u0005}\u0001Ö\u009bs\u009c\u001f£\u009cQ¬ñØ\u0099V\u0098¿rGC¯D\u001d¤\u009c&®\u009ed\u0097kÿj (ø\\ÎËg\u009bÊö.W,ÜÔÄ¯XØë\u001a²¥{F\u008b3A½\f÷=[\u0010\u0089y)\u0082³k\u001e\u0003©Ï\u0081èI¤á«\u0018øÀ\u0091®hè²¡ö\u009e$RÐþ½;a¨ú\bÌ¹Z¢ \u0000N%\u0089iíáîQ^Sú\u0088\u0016ÿ\u0097?\u009cA\u0019\u0096Í\"Ð./PA´\u0012\u009e{\u0018®\"\u0083ºDB4b¼\u0089(I\u0013¦°\u009eÆúja\u0015¤ÚÄ\u0018\\ÌL\u0018W\u001b\"´Á\u0019n\u0006ÅÉ\u0098¸ÜW\u0010e\u0001h[\u0012(ÒãvcpK\u000f}H\u0092GÈ\u0016\u0097~\u001dÂÜ®±\u000bóÜ\u0094\u0006kþ\u0095FþÉ<^ÁÔü)º8M@.Õ×\"_¶Ú\u0012l~®&\u0090rb\u0013<Î\u0081ó\u0019è&@èîGeLÅZgm^±Ô\u0003×_¬.ê¢\u0005Ù /ÓÂ\u008c¡,\tGiG\u001f¹)S÷\u0019T6"
          .length();
       char var5 = '(';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "Öy«æ\"4=c!òôD©Þñ\u009b\u0010\u000bcTÇ\u0002?ñ*\u009dÓôËtÕ\u0007Ó";
+            var8 = "Öy«æ\"4=c!òôD©Þñ\u009b\u0010\u000bcTÇ\u0002?ñ*\u009dÓôËtÕ\u0007Ó".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var9;
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[23];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new ConcurrentHashMap<>();
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new ConcurrentHashMap<>();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var9;
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[23];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new ConcurrentHashMap<>();
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new ConcurrentHashMap<>();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "Öy«æ\"4=c!òôD©Þñ\u009b\u0010\u000bcTÇ\u0002?ñ*\u009dÓôËtÕ\u0007Ó";
-                  var8 = "Öy«æ\"4=c!òôD©Þñ\u009b\u0010\u000bcTÇ\u0002?ñ*\u009dÓôËtÕ\u0007Ó".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -393,5 +385,71 @@ public final class lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlll
             var5
          );
       }
+   }
+
+   @NotNull
+   public final List llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$a243a34600b8e95d(
+      @NotNull String scriptNameArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b87db2591f8138e6(
+      @NotNull IlllIlllllIIIlIIllIIIlIlIIlIIIlIlIIIlIllIIIIllllIIIIlIllIllllIlllIlIIlIllIIIlIIIlIlIl scriptModuleArg, long argument2Arg
+   ) {
+      argument2Arg = 124980965536963L;
+      argument2Arg = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ argument2Arg;
+      long var4 = argument2Arg ^ 121319955486179L;
+      Intrinsics.checkNotNullParameter(scriptModuleArg, "scriptModule");
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1cdf06f15a08d481(
+         var4, scriptModuleArg.getScriptName(), scriptModuleArg.IlIllllIIlIllIIllIIlIlIIIlllIlIIlIIIIIIlllIIIlIllIlIllIIIIIlllIIIlIllIlIIlIIllllIIIlI()
+      );
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1cdf06f15a08d481(
+      long param1, String param3, Module param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final int IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$eb8101d794814b4f(long var1) {
+      var1 = 135869521976431L;
+      var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
+      Collection var10000 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.values();
+      Intrinsics.checkNotNullExpressionValue(var10000, "<get-values>(...)");
+      Iterable var4 = var10000;
+      boolean var14 = IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
+      int var5 = 0;
+      boolean var3 = var14;
+      Iterator var6 = var4.iterator();
+
+      while (true) {
+         if (var6.hasNext()) {
+            Object var7 = var6.next();
+            var15 = var5;
+            if (var3) {
+               break;
+            }
+
+            List var8 = (List)var7;
+            boolean var9 = false;
+            int var11 = var8.size();
+            var5 += var11;
+            if (!var3) {
+               continue;
+            }
+         }
+
+         var15 = var5;
+         break;
+      }
+
+      return var15;
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$64452452940e5362(
+      @NotNull String scriptNameArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

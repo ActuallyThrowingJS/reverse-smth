@@ -281,62 +281,54 @@ public final class WorldText {
       String var4 = "\u0018¿Õ]/\u0083>{û7\u008cX\u0006\u0017/¯\u0010çÐ% mtÍaÕÅJ\u000b'z(O znî«!p\u008b\rý°ÞÈ¬ÁÆ\u0083V\u0016Ù\u0015mÈhØ\u0002^+x\u00852Ü\u009b\u0010ô¾ZN³å\fÊµÏ\u008a'.|1K\u0010c7TKÛ:{C¤ê\u0014w¨\u0013¬`\u0010ÃI\u000f²]ÔÁ\u000bÜ\u009fþÆ\u0096C\tÆ0\u0084\n~\u0082!Ïð\u0001àE'äF²C,FÒ´?Y\u008dÚ\u008f\fØÃ¶ùÜùEù´Ý\u0082âõsÛNü\u0003²)W¢H(Ht]ik°üz¤\u0015&E\u0010Þg<f\u0080\u008da'\u0086\u001e5¶&FtoE\u0015\"ò°N²ä\u000f^M\u0010Cr\u0099;Ê$EiÚ[ý\u0016Þ=T¡\u0010\u009b[\u009c¶\u0090ÐB\u0093á9Öw:(^ç\u0010©\u0099²\u0095(à\u001f_ø3n\u009cxÑm\u0086\u0010Ò¤à\u001a?~¶õÚÕÇÞkJ¡\u001f\u0018¸Ê\u0015$N\u0095çªO\u0015àtç\r5\u0088\u008bÛ\u0090\b'PåÎ 9w|0\u000eÎD\u009bgûB\u0081L\u0092á¢¥\u0091\u001bì®ý\u0096à\u0097öû\u0092 è=O\u0010\u0011èd\u008d\u009f\u0095øz?¥ÈÀ}\u0087\u0086I";
       int var6 = "\u0018¿Õ]/\u0083>{û7\u008cX\u0006\u0017/¯\u0010çÐ% mtÍaÕÅJ\u000b'z(O znî«!p\u008b\rý°ÞÈ¬ÁÆ\u0083V\u0016Ù\u0015mÈhØ\u0002^+x\u00852Ü\u009b\u0010ô¾ZN³å\fÊµÏ\u008a'.|1K\u0010c7TKÛ:{C¤ê\u0014w¨\u0013¬`\u0010ÃI\u000f²]ÔÁ\u000bÜ\u009fþÆ\u0096C\tÆ0\u0084\n~\u0082!Ïð\u0001àE'äF²C,FÒ´?Y\u008dÚ\u008f\fØÃ¶ùÜùEù´Ý\u0082âõsÛNü\u0003²)W¢H(Ht]ik°üz¤\u0015&E\u0010Þg<f\u0080\u008da'\u0086\u001e5¶&FtoE\u0015\"ò°N²ä\u000f^M\u0010Cr\u0099;Ê$EiÚ[ý\u0016Þ=T¡\u0010\u009b[\u009c¶\u0090ÐB\u0093á9Öw:(^ç\u0010©\u0099²\u0095(à\u001f_ø3n\u009cxÑm\u0086\u0010Ò¤à\u001a?~¶õÚÕÇÞkJ¡\u001f\u0018¸Ê\u0015$N\u0095çªO\u0015àtç\r5\u0088\u008bÛ\u0090\b'PåÎ 9w|0\u000eÎD\u009bgûB\u0081L\u0092á¢¥\u0091\u001bì®ý\u0096à\u0097öû\u0092 è=O\u0010\u0011èd\u008d\u009f\u0095øz?¥ÈÀ}\u0087\u0086I"
          .length();
-      char var3 = 16;
-      int var14 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var15 = var4.substring(++var14, var14 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var25 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var25;
+         if ((var2 += var3) >= var6) {
+            var4 = "tb\u0003üB\u0084OØÞ¬ý\u008926ðÏ\u0010p¬ \u0080\u001b\"¿\u0013áÒßjLz»\u0096";
+            var6 = "tb\u0003üB\u0084OØÞ¬ý\u008926ðÏ\u0010p¬ \u0080\u001b\"¿\u0013áÒßjLz»\u0096".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var15.getBytes("ISO-8859-1"));
-            String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var23;
-                  if ((var14 += var3) >= var6) {
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = var7;
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new String[17];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new WorldText();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new ObjectArrayList();
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new ObjectArrayList();
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new Object();
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new Matrix4f();
-                     String var17 = System.getProperty("os.name");
-                     Intrinsics.checkNotNullExpressionValue(var17, "getProperty(...)");
-                     String var18 = var17.toLowerCase(Locale.ROOT);
-                     Intrinsics.checkNotNullExpressionValue(var18, "toLowerCase(...)");
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = StringsKt.contains$default(
-                        var18, "mac", false, 2, null
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var27 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var23 = false;
+               var7[var5++] = var27;
+               if ((var2 += var3) >= var6) {
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = var7;
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new String[17];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new WorldText();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new ObjectArrayList();
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new ObjectArrayList();
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new Object();
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new Matrix4f();
+                  String var20 = System.getProperty("os.name");
+                  Intrinsics.checkNotNullExpressionValue(var20, "getProperty(...)");
+                  String var21 = var20.toLowerCase(Locale.ROOT);
+                  Intrinsics.checkNotNullExpressionValue(var21, "toLowerCase(...)");
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = StringsKt.contains$default(
+                     var21, "mac", false, 2, null
+                  );
+                  PolinexAccessor.INSTANCE
+                     .eventBus
+                     .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$864ed80a9d741ba9(
+                        IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl, var11
                      );
-                     PolinexAccessor.INSTANCE
-                        .eventBus
-                        .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                           IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl, var11
-                        );
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new Vector4f();
-                     return;
-                  }
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new Vector4f();
+                  return;
+               }
 
-                  var3 = var4.charAt(var14);
-                  break;
-               default:
-                  var7[var5++] = var23;
-                  if ((var14 += var3) < var6) {
-                     var3 = var4.charAt(var14);
-                     continue label27;
-                  }
-
-                  var4 = "tb\u0003üB\u0084OØÞ¬ý\u008926ðÏ\u0010p¬ \u0080\u001b\"¿\u0013áÒßjLz»\u0096";
-                  var6 = "tb\u0003üB\u0084OØÞ¬ý\u008926ðÏ\u0010p¬ \u0080\u001b\"¿\u0013áÒßjLz»\u0096".length();
-                  var3 = 16;
-                  var14 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var15 = var4.substring(++var14, var14 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -698,44 +690,36 @@ public final class WorldText {
          String var6 = "\u008eïÒ$\u00152¡\"\"]\u0092+\u0019Kª\u0092\u0010\u008aÊ\u001dÎ\u008cøì\u0014ù!rq\u0017aPº\u0010[\u0090C`\u000btê\u001e\u000ew\u0011±\u0003ì4g";
          int var8 = "\u008eïÒ$\u00152¡\"\"]\u0092+\u0019Kª\u0092\u0010\u008aÊ\u001dÎ\u008cøì\u0014ù!rq\u0017aPº\u0010[\u0090C`\u000btê\u001e\u000ew\u0011±\u0003ì4g"
             .length();
-         char var5 = 16;
-         int var12 = -1;
+         char var5 = '\u0010';
+         int var4 = -1;
 
-         label27:
          while (true) {
-            String var13 = var6.substring(++var12, var12 + var5);
+            byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+            String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
             byte var10001 = -1;
+            var9[var7++] = var21;
+            if ((var4 += var5) >= var8) {
+               var6 = "û\u001f¹M.ûÎJ\u0097\u00ad\u007fÏPÊ\u0084\u008d\u0010nXjSUØ¯3Ur\u0087~1{xB";
+               var8 = "û\u001f¹M.ûÎJ\u0097\u00ad\u007fÏPÊ\u0084\u008d\u0010nXjSUØ¯3Ur\u0087~1{xB".length();
+               var5 = '\u0010';
+               var4 = -1;
 
-            while (true) {
-               byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-               String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-               switch (var10001) {
-                  case 0:
-                     var9[var7++] = var19;
-                     if ((var12 += var5) >= var8) {
-                        lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var9;
-                        IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new String[5];
-                        return;
-                     }
+               while (true) {
+                  var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+                  String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+                  boolean var19 = false;
+                  var9[var7++] = var23;
+                  if ((var4 += var5) >= var8) {
+                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var9;
+                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new String[5];
+                     return;
+                  }
 
-                     var5 = var6.charAt(var12);
-                     break;
-                  default:
-                     var9[var7++] = var19;
-                     if ((var12 += var5) < var8) {
-                        var5 = var6.charAt(var12);
-                        continue label27;
-                     }
-
-                     var6 = "û\u001f¹M.ûÎJ\u0097\u00ad\u007fÏPÊ\u0084\u008d\u0010nXjSUØ¯3Ur\u0087~1{xB";
-                     var8 = "û\u001f¹M.ûÎJ\u0097\u00ad\u007fÏPÊ\u0084\u008d\u0010nXjSUØ¯3Ur\u0087~1{xB".length();
-                     var5 = 16;
-                     var12 = -1;
+                  var5 = var6.charAt(var4);
                }
-
-               var13 = var6.substring(++var12, var12 + var5);
-               var10001 = 0;
             }
+
+            var5 = var6.charAt(var4);
          }
       }
 

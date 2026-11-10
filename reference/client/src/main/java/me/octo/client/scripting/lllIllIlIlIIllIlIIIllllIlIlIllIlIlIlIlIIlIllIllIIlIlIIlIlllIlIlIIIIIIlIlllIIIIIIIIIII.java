@@ -91,7 +91,7 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             boolean var13 = false;
 
             try {
-               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$dd2496c720375ed5(
                   new BlockPos(var1, var2, var3),
                   var8,
                   null,
@@ -158,7 +158,7 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             boolean var13 = false;
 
             try {
-               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$dd2496c720375ed5(
                   new BlockPos(var1, var2, var3),
                   var8,
                   IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, var4),
@@ -225,7 +225,7 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             boolean var13 = false;
 
             try {
-               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$dd2496c720375ed5(
                   new BlockPos(var1, var2, var3),
                   var8,
                   null,
@@ -292,7 +292,7 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             boolean var22 = false;
 
             try {
-               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$30b485925c5759a2(
                   new AABB(var1, var3, var5, var7, var9, var11),
                   null,
                   IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, var13),
@@ -359,7 +359,7 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             boolean var22 = false;
 
             try {
-               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$30b485925c5759a2(
                   new AABB(var1, var3, var5, var7, var9, var11),
                   IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, var13),
                   null,
@@ -426,7 +426,7 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             boolean var22 = false;
 
             try {
-               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$30b485925c5759a2(
                   new AABB(var1, var3, var5, var7, var9, var11),
                   null,
                   null,
@@ -463,8 +463,6 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
          );
    }
 
-   // $VF: Handled exception range with multiple entry points by splitting it
-   // $VF: Duplicated exception handlers to handle obfuscated exceptions
    @Export
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
    public final void entityOutline(int var1, long var2) {
@@ -476,76 +474,64 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
       boolean var12 = false;
       me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10 = var10000;
 
-      label51: {
-         label56: {
+      label53: {
+         label40: {
             try {
-               var23 = var11;
+               var22 = var11;
                if (var10 != null) {
-                  break label51;
+                  break label53;
                }
 
-               if (!var11.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
-                  break label56;
+               if (var11.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
+                  break label40;
                }
-            } catch (MatchException var22) {
-               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var22);
-            }
-
-            boolean var13 = false;
-
-            label58: {
-               label40:
-               try {
-                  if (var10 == null) {
-                     var24 = me.octo.client.utils.player.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-                        .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8, var1);
-                     if (var24 != null) {
-                        break label40;
-                     }
-                  }
-                  break label58;
-               } catch (MatchException var21) {
-                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var21);
-               }
-
-               Entity var14 = var24;
-               boolean var15 = false;
-               me.octo.client.render.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                  var14,
-                  IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, var2),
-                  0.0F,
-                  null,
-                  var6,
-                  0.0F,
-                  0.0F,
-                  false,
-                  null,
-                  0.0F,
-                  0.0F,
-                  false,
-                  false,
-                  4092,
-                  null
-               );
+            } catch (MatchException var21) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var21);
             }
 
             try {
-               if (var10 == null) {
-                  return;
-               }
-            } catch (MatchException var20) {
-               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var20);
+               var22 = var11;
+               break label53;
+            } catch (MatchException var19) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19);
             }
          }
+
+         boolean var13 = false;
 
          try {
-            var23 = var11;
-         } catch (MatchException var19) {
-            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19);
+            var23 = me.octo.client.utils.player.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+               .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$4cd2bb95275b7bad(var8, var1);
+            if (var23 == null) {
+               return;
+            }
+         } catch (MatchException var20) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var20);
          }
+
+         Entity var14 = var23;
+         boolean var15 = false;
+         me.octo.client.render.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$58a00e3b81aee51a(
+            var14,
+            IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, var2),
+            0.0F,
+            null,
+            var6,
+            0.0F,
+            0.0F,
+            false,
+            null,
+            0.0F,
+            0.0F,
+            false,
+            false,
+            4092,
+            null
+         );
+         return;
       }
 
-      var23.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+      var22.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
          .execute(
             new lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII$lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI(
                var1, this, var2
@@ -553,8 +539,6 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
          );
    }
 
-   // $VF: Handled exception range with multiple entry points by splitting it
-   // $VF: Duplicated exception handlers to handle obfuscated exceptions
    @Export
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
    public final void entityGlow(int var1, long var2) {
@@ -566,76 +550,64 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
       boolean var12 = false;
       me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10 = var10000;
 
-      label51: {
-         label56: {
+      label53: {
+         label40: {
             try {
-               var23 = var11;
+               var22 = var11;
                if (var10 != null) {
-                  break label51;
+                  break label53;
                }
 
-               if (!var11.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
-                  break label56;
+               if (var11.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
+                  break label40;
                }
-            } catch (MatchException var22) {
-               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var22);
-            }
-
-            boolean var13 = false;
-
-            label58: {
-               label40:
-               try {
-                  if (var10 == null) {
-                     var24 = me.octo.client.utils.player.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-                        .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8, var1);
-                     if (var24 != null) {
-                        break label40;
-                     }
-                  }
-                  break label58;
-               } catch (MatchException var21) {
-                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var21);
-               }
-
-               Entity var14 = var24;
-               boolean var15 = false;
-               me.octo.client.render.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                  var14,
-                  null,
-                  0.0F,
-                  IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, var2),
-                  var6,
-                  0.0F,
-                  0.0F,
-                  false,
-                  null,
-                  0.0F,
-                  0.0F,
-                  false,
-                  false,
-                  4086,
-                  null
-               );
+            } catch (MatchException var21) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var21);
             }
 
             try {
-               if (var10 == null) {
-                  return;
-               }
-            } catch (MatchException var20) {
-               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var20);
+               var22 = var11;
+               break label53;
+            } catch (MatchException var19) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19);
             }
          }
+
+         boolean var13 = false;
 
          try {
-            var23 = var11;
-         } catch (MatchException var19) {
-            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19);
+            var23 = me.octo.client.utils.player.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+               .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$4cd2bb95275b7bad(var8, var1);
+            if (var23 == null) {
+               return;
+            }
+         } catch (MatchException var20) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var20);
          }
+
+         Entity var14 = var23;
+         boolean var15 = false;
+         me.octo.client.render.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$58a00e3b81aee51a(
+            var14,
+            null,
+            0.0F,
+            IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, var2),
+            var6,
+            0.0F,
+            0.0F,
+            false,
+            null,
+            0.0F,
+            0.0F,
+            false,
+            false,
+            4086,
+            null
+         );
+         return;
       }
 
-      var23.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+      var22.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
          .execute(
             new lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
                var1, this, var2
@@ -643,8 +615,6 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
          );
    }
 
-   // $VF: Handled exception range with multiple entry points by splitting it
-   // $VF: Duplicated exception handlers to handle obfuscated exceptions
    @Export
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
    public final void entityChams(int var1) {
@@ -656,62 +626,50 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
       me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var8 = var10000;
       boolean var10 = false;
 
-      label51: {
-         label56: {
+      label53: {
+         label40: {
             try {
-               var21 = var9;
+               var20 = var9;
                if (var8 != null) {
-                  break label51;
+                  break label53;
                }
 
-               if (!var9.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
-                  break label56;
+               if (var9.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
+                  break label40;
                }
-            } catch (MatchException var20) {
-               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var20);
-            }
-
-            boolean var11 = false;
-
-            label58: {
-               label40:
-               try {
-                  if (var8 == null) {
-                     var22 = me.octo.client.utils.player.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-                        .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var6, var1);
-                     if (var22 != null) {
-                        break label40;
-                     }
-                  }
-                  break label58;
-               } catch (MatchException var19) {
-                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19);
-               }
-
-               Entity var12 = var22;
-               boolean var13 = false;
-               me.octo.client.render.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                  var12, null, 0.0F, null, var4, 0.0F, 0.0F, false, null, 0.0F, 0.0F, false, true, 2046, null
-               );
+            } catch (MatchException var19) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19);
             }
 
             try {
-               if (var8 == null) {
-                  return;
-               }
-            } catch (MatchException var18) {
-               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var18);
+               var20 = var9;
+               break label53;
+            } catch (MatchException var17) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
             }
          }
+
+         boolean var11 = false;
 
          try {
-            var21 = var9;
-         } catch (MatchException var17) {
-            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
+            var21 = me.octo.client.utils.player.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+               .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$4cd2bb95275b7bad(var6, var1);
+            if (var21 == null) {
+               return;
+            }
+         } catch (MatchException var18) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var18);
          }
+
+         Entity var12 = var21;
+         boolean var13 = false;
+         me.octo.client.render.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$58a00e3b81aee51a(
+            var12, null, 0.0F, null, var4, 0.0F, 0.0F, false, null, 0.0F, 0.0F, false, true, 2046, null
+         );
+         return;
       }
 
-      var21.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+      var20.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
          .execute(
             new lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII$llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII(
                var1
@@ -757,7 +715,7 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             boolean var14 = false;
 
             try {
-               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8c308b998bd5eea4(
                   keyArg,
                   IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, argument2Arg, argument3Arg, argument4Arg),
                   null,
@@ -833,7 +791,7 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             boolean var14 = false;
 
             try {
-               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8c308b998bd5eea4(
                   keyArg,
                   IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, argument2Arg, argument3Arg, argument4Arg),
                   IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, argument5Arg),
@@ -877,8 +835,6 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
-   // $VF: Handled exception range with multiple entry points by splitting it
-   // $VF: Duplicated exception handlers to handle obfuscated exceptions
    @Export
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
    public final void clear() {
@@ -893,49 +849,48 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
       lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII var7 = this;
       boolean var8 = false;
 
-      label52: {
-         label59: {
+      label60: {
+         label47: {
             try {
-               var23 = var7;
+               var22 = var7;
                if (var5 != null) {
-                  break label52;
+                  break label60;
                }
 
-               if (!var7.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
-                  break label59;
+               if (var7.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
+                  break label47;
                }
-            } catch (MatchException var22) {
-               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var22);
-            }
-
-            boolean var9 = false;
-            Iterable var10 = var6;
-            boolean var11 = false;
-
-            for (Object var13 : var10) {
-               var10000 = var5;
-               String var14 = (String)var13;
-               boolean var15 = false;
-
-               try {
-                  if (var10000 != null) {
-                     break;
-                  }
-
-                  Intrinsics.checkNotNull(var14);
-                  me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                     var14, var3
-                  );
-                  if (var5 != null) {
-                     break;
-                  }
-               } catch (MatchException var21) {
-                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var21);
-               }
+            } catch (MatchException var21) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var21);
             }
 
             try {
-               if (var5 == null) {
+               var22 = var7;
+               break label60;
+            } catch (MatchException var19) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19);
+            }
+         }
+
+         boolean var9 = false;
+         Iterable var10 = var6;
+         boolean var11 = false;
+
+         for (Object var13 : var10) {
+            var10000 = var5;
+            String var14 = (String)var13;
+            boolean var15 = false;
+
+            try {
+               if (var10000 != null) {
+                  return;
+               }
+
+               Intrinsics.checkNotNull(var14);
+               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d1e520d120f535c2(
+                  var14, var3
+               );
+               if (var5 != null) {
                   return;
                }
             } catch (MatchException var20) {
@@ -943,14 +898,10 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             }
          }
 
-         try {
-            var23 = var7;
-         } catch (MatchException var19) {
-            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19);
-         }
+         return;
       }
 
-      var23.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+      var22.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
          .execute(
             new lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII$llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(
                var6
@@ -958,8 +909,6 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
          );
    }
 
-   // $VF: Handled exception range with multiple entry points by splitting it
-   // $VF: Duplicated exception handlers to handle obfuscated exceptions
    public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(int var1, int var2, byte var3) {
       long var4 = ((long)var1 << 32 | (long)var2 << 40 >>> 32 | (long)var3 << 56 >>> 56)
          ^ IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
@@ -976,49 +925,48 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
       lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII var10 = this;
       boolean var11 = false;
 
-      label52: {
-         label59: {
+      label57: {
+         label45: {
             try {
-               var23 = var10;
+               var22 = var10;
                if (var8 != null) {
-                  break label52;
+                  break label57;
                }
 
-               if (!var10.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
-                  break label59;
+               if (var10.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
+                  break label45;
                }
-            } catch (MatchException var22) {
+            } catch (MatchException var21) {
                throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  var22, -5055034259119845812L, var4
+                  var21, -5055034259119845812L, var4
                );
             }
 
-            boolean var12 = false;
-            Iterable var13 = var9;
-            boolean var14 = false;
-
-            for (Object var16 : var13) {
-               var10000 = var8;
-               String var17 = (String)var16;
-               boolean var18 = false;
-
-               try {
-                  Intrinsics.checkNotNull(var17);
-                  me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                     var17, var6
-                  );
-                  if (var10000 != null || var8 != null) {
-                     break;
-                  }
-               } catch (MatchException var21) {
-                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                     var21, -5055034259119845812L, var4
-                  );
-               }
+            try {
+               var22 = var10;
+               break label57;
+            } catch (MatchException var19) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var19, -5055034259119845812L, var4
+               );
             }
+         }
+
+         boolean var12 = false;
+         Iterable var13 = var9;
+         boolean var14 = false;
+
+         for (Object var16 : var13) {
+            var10000 = var8;
+            String var17 = (String)var16;
+            boolean var18 = false;
 
             try {
-               if (var8 == null) {
+               Intrinsics.checkNotNull(var17);
+               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                  var17, var6
+               );
+               if (var10000 != null) {
                   return;
                }
             } catch (MatchException var20) {
@@ -1028,16 +976,10 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             }
          }
 
-         try {
-            var23 = var10;
-         } catch (MatchException var19) {
-            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               var19, -5055034259119845812L, var4
-            );
-         }
+         return;
       }
 
-      var23.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+      var22.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
          .execute(
             new lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII$lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII(
                var9
@@ -1049,8 +991,6 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
-   // $VF: Handled exception range with multiple entry points by splitting it
-   // $VF: Duplicated exception handlers to handle obfuscated exceptions
    public final void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(short var1, short var2, int var3) {
       long var4 = ((long)var1 << 48 | (long)var2 << 48 >>> 16 | (long)var3 << 32 >>> 32)
          ^ IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
@@ -1068,49 +1008,48 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
       lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII var10 = this;
       boolean var11 = false;
 
-      label52: {
-         label59: {
+      label56: {
+         label44: {
             try {
-               var23 = var10;
+               var22 = var10;
                if (var8 != null) {
-                  break label52;
+                  break label56;
                }
 
-               if (!var10.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
-                  break label59;
+               if (var10.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.isSameThread()) {
+                  break label44;
                }
-            } catch (MatchException var22) {
+            } catch (MatchException var21) {
                throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  var22, 6730897498056010492L, var4
+                  var21, 6730897498056010492L, var4
                );
             }
 
-            boolean var12 = false;
-            Iterable var13 = var9;
-            boolean var14 = false;
-
-            for (Object var16 : var13) {
-               var10000 = var8;
-               String var17 = (String)var16;
-               boolean var18 = false;
-
-               try {
-                  Intrinsics.checkNotNull(var17);
-                  me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                     var17, var6
-                  );
-                  if (var10000 != null || var8 != null) {
-                     break;
-                  }
-               } catch (MatchException var21) {
-                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                     var21, 6730897498056010492L, var4
-                  );
-               }
+            try {
+               var22 = var10;
+               break label56;
+            } catch (MatchException var19) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var19, 6730897498056010492L, var4
+               );
             }
+         }
+
+         boolean var12 = false;
+         Iterable var13 = var9;
+         boolean var14 = false;
+
+         for (Object var16 : var13) {
+            var10000 = var8;
+            String var17 = (String)var16;
+            boolean var18 = false;
 
             try {
-               if (var8 == null) {
+               Intrinsics.checkNotNull(var17);
+               me.octo.client.render.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                  var17, var6
+               );
+               if (var10000 != null) {
                   return;
                }
             } catch (MatchException var20) {
@@ -1120,16 +1059,10 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             }
          }
 
-         try {
-            var23 = var10;
-         } catch (MatchException var19) {
-            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               var19, 6730897498056010492L, var4
-            );
-         }
+         return;
       }
 
-      var23.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+      var22.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
          .execute(
             new lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIIIIIlIlllIIIIIIIIIII$IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll(
                var9
@@ -1154,45 +1087,37 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
       String var6 = "±t\u009f[\u0010}\u001d\u0002ÙÆÄ4k¢¨²\u0013ü\u0007ñ\u0088«Ñð(\u007f×ô¬ied\u009eææeÌý~\u009cyøS»\u0007#\u00896\u009e\u000f\u008fµû!\u001dÌT\u0086e\u0004ÂT\u0089\u0012b\u0010\u0001kµ\u0000u8Æ\u0086B2¶ØI¶hJ(\u0093\u0015uÉÇJ¾«ç\u0004\\\u0083íXB?Ëg\u0098ð9\u0012Ò\u0094ÂÜç\u008dI\u0000×·ÚO£bë{\rK\u0018Ë\u0089^\u0093&Åò\rÔHøÖ\"ïÆGß?ê\u0097\u00ad£r©\u0010G\u0007¿ö¶\u001ckö\"@C\u007fæ\u0012bx";
       int var8 = "±t\u009f[\u0010}\u001d\u0002ÙÆÄ4k¢¨²\u0013ü\u0007ñ\u0088«Ñð(\u007f×ô¬ied\u009eææeÌý~\u009cyøS»\u0007#\u00896\u009e\u000f\u008fµû!\u001dÌT\u0086e\u0004ÂT\u0089\u0012b\u0010\u0001kµ\u0000u8Æ\u0086B2¶ØI¶hJ(\u0093\u0015uÉÇJ¾«ç\u0004\\\u0083íXB?Ëg\u0098ð9\u0012Ò\u0094ÂÜç\u008dI\u0000×·ÚO£bë{\rK\u0018Ë\u0089^\u0093&Åò\rÔHøÖ\"ïÆGß?ê\u0097\u00ad£r©\u0010G\u0007¿ö¶\u001ckö\"@C\u007fæ\u0012bx"
          .length();
-      char var5 = 24;
-      int var12 = -1;
+      char var5 = '\u0018';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0002\u008f%º\nn\u009f\u0018ÃL\u001d×ÄQ\u0085ñ\nr\u0013^Ç;Ê\u009f]\tï\u0091ÿ2\u0095ý\u0018o< ôïÛMí\u00adÃ@ìþ§Ì\\Î\u001anGN\u001fH\u001f";
+            var8 = "\u0002\u008f%º\nn\u009f\u0018ÃL\u001d×ÄQ\u0085ñ\nr\u0013^Ç;Ê\u009f]\tï\u0091ÿ2\u0095ý\u0018o< ôïÛMí\u00adÃ@ìþ§Ì\\Î\u001anGN\u001fH\u001f"
+               .length();
+            var5 = ' ';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var9;
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[8];
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var9;
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[8];
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0002\u008f%º\nn\u009f\u0018ÃL\u001d×ÄQ\u0085ñ\nr\u0013^Ç;Ê\u009f]\tï\u0091ÿ2\u0095ý\u0018o< ôïÛMí\u00adÃ@ìþ§Ì\\Î\u001anGN\u001fH\u001f";
-                  var8 = "\u0002\u008f%º\nn\u009f\u0018ÃL\u001d×ÄQ\u0085ñ\nr\u0013^Ç;Ê\u009f]\tï\u0091ÿ2\u0095ý\u0018o< ôïÛMí\u00adÃ@ìþ§Ì\\Î\u001anGN\u001fH\u001f"
-                     .length();
-                  var5 = ' ';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -1299,6 +1224,10 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
             var5
          );
       }
+   }
+
+   public final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$a4b9b0fc5848ff89(long param1, short param3) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    private static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
@@ -1416,44 +1345,36 @@ public final class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIl
          String var6 = "ôNS\u0089óÁmý\u0006\u0097j?îÐ£ç \u0094ÞüÍ\u0098Ü°_U\u0013\u0011ZÎ\u0007Â[æ¶öx·ïÂd\u0097øîF_Ìºþ\u00100s\u0017\u0017ê(×Ã<¬¸¡\u00950\u0092é";
          int var8 = "ôNS\u0089óÁmý\u0006\u0097j?îÐ£ç \u0094ÞüÍ\u0098Ü°_U\u0013\u0011ZÎ\u0007Â[æ¶öx·ïÂd\u0097øîF_Ìºþ\u00100s\u0017\u0017ê(×Ã<¬¸¡\u00950\u0092é"
             .length();
-         char var5 = 16;
-         int var12 = -1;
+         char var5 = '\u0010';
+         int var4 = -1;
 
-         label27:
          while (true) {
-            String var13 = var6.substring(++var12, var12 + var5);
+            byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+            String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
             byte var10001 = -1;
+            var9[var7++] = var21;
+            if ((var4 += var5) >= var8) {
+               var6 = "\u0085Û\u009a[~hl¬(\u009f<ç\u0091£M\u0089\u0018%¯J¥\u007fÀ\r\u0019\u009d£Áé\u001d%l¨·\u0002\u0004H\u0086\rrª";
+               var8 = "\u0085Û\u009a[~hl¬(\u009f<ç\u0091£M\u0089\u0018%¯J¥\u007fÀ\r\u0019\u009d£Áé\u001d%l¨·\u0002\u0004H\u0086\rrª".length();
+               var5 = '\u0010';
+               var4 = -1;
 
-            while (true) {
-               byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-               String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-               switch (var10001) {
-                  case 0:
-                     var9[var7++] = var19;
-                     if ((var12 += var5) >= var8) {
-                        IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var9;
-                        lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new String[5];
-                        return;
-                     }
+               while (true) {
+                  var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+                  String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+                  boolean var19 = false;
+                  var9[var7++] = var23;
+                  if ((var4 += var5) >= var8) {
+                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var9;
+                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new String[5];
+                     return;
+                  }
 
-                     var5 = var6.charAt(var12);
-                     break;
-                  default:
-                     var9[var7++] = var19;
-                     if ((var12 += var5) < var8) {
-                        var5 = var6.charAt(var12);
-                        continue label27;
-                     }
-
-                     var6 = "\u0085Û\u009a[~hl¬(\u009f<ç\u0091£M\u0089\u0018%¯J¥\u007fÀ\r\u0019\u009d£Áé\u001d%l¨·\u0002\u0004H\u0086\rrª";
-                     var8 = "\u0085Û\u009a[~hl¬(\u009f<ç\u0091£M\u0089\u0018%¯J¥\u007fÀ\r\u0019\u009d£Áé\u001d%l¨·\u0002\u0004H\u0086\rrª".length();
-                     var5 = 16;
-                     var12 = -1;
+                  var5 = var6.charAt(var4);
                }
-
-               var13 = var6.substring(++var12, var12 + var5);
-               var10001 = 0;
             }
+
+            var5 = var6.charAt(var4);
          }
       }
 

@@ -47,46 +47,38 @@ public final class GlowingMushroomMacroConfig {
       int var7 = "ã\u001e\u0090í\u0005J\t¿.iM$W!\u0092KÓ+Ö¾\u009c\u001cR.I¶éÛ½q±K¤Ñe[Ñ\u0090\u0007\u0097\u0084b[\u0092À¬4`¯\u00055ö\u009bªl\u0096\u0004.ã.®.\u0017nòå=\u008d¹}ô%06-`òå\u009c`æ¼¿zÕL¿K\u0085\u0083åÀ¡×YÔµãsJ8·v16qáz\u009dy\u001e©\u0083Ûø;\u0093µ¨\u0012r"
          .length();
       char var4 = 'H';
-      int var12 = -1;
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var13 = var5.substring(++var12, var12 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var21;
+         if ((var3 += var4) >= var7) {
+            var5 = "×ÝqR]\u0003Þòy|®®\u0095W<Rº@\u0095¹^^¸\u009a\u0018U*P1Ù\u00829T¤<\u001b\u0085Xêdm\u0005´iàÛ«7ø";
+            var7 = "×ÝqR]\u0003Þòy|®®\u0095W<Rº@\u0095¹^^¸\u009a\u0018U*P1Ù\u00829T¤<\u001b\u0085Xêdm\u0005´iàÛ«7ø".length();
+            var4 = '\u0018';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) >= var7) {
-                     INSTANCE = new GlowingMushroomMacroConfig();
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        var0[3], var0[1], 10, 100, 50, 1
-                     );
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new BooleanSetting(var0[2], var0[0], true);
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var19 = false;
+               var0[var6++] = var23;
+               if ((var3 += var4) >= var7) {
+                  INSTANCE = new GlowingMushroomMacroConfig();
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     var0[3], var0[1], 10, 100, 50, 1
+                  );
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new BooleanSetting(var0[2], var0[0], true);
+                  return;
+               }
 
-                  var4 = var5.charAt(var12);
-                  break;
-               default:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) < var7) {
-                     var4 = var5.charAt(var12);
-                     continue label28;
-                  }
-
-                  var5 = "×ÝqR]\u0003Þòy|®®\u0095W<Rº@\u0095¹^^¸\u009a\u0018U*P1Ù\u00829T¤<\u001b\u0085Xêdm\u0005´iàÛ«7ø";
-                  var7 = "×ÝqR]\u0003Þòy|®®\u0095W<Rº@\u0095¹^^¸\u009a\u0018U*P1Ù\u00829T¤<\u001b\u0085Xêdm\u0005´iàÛ«7ø".length();
-                  var4 = 24;
-                  var12 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var13 = var5.substring(++var12, var12 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

@@ -180,4 +180,16 @@ public final class lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIl
          );
       }
    }
+
+   public final Enum IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b96f4243b7593f9b(
+      long argument1Arg, String itArg
+   ) {
+      argument1Arg = 96738944699314L;
+      argument1Arg = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII ^ argument1Arg;
+      Intrinsics.checkNotNullParameter(itArg, "it");
+      Map var10000 = this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
+      String var10001 = itArg.toLowerCase(Locale.ROOT);
+      Intrinsics.checkNotNullExpressionValue(var10001, "toLowerCase(...)");
+      return (Enum)var10000.get(var10001);
+   }
 }

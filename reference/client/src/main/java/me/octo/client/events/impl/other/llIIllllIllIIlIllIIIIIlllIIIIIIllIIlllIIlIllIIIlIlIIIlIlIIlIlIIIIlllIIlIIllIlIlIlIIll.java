@@ -46,49 +46,41 @@ public enum llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlll
       String var5 = "Û@4\"\u001d(dUô6)ÞF}|¹\u0010Û@4\"\u001d(dUô6)ÞF}|¹\bÉÐ\u0092\u0081\u0007v¯k\bÉÐ\u0092\u0081\u0007v¯k\b\u0018xÕVªmÿC\b?ö\u0084\u000eÂÂ=\u008a";
       int var7 = "Û@4\"\u001d(dUô6)ÞF}|¹\u0010Û@4\"\u001d(dUô6)ÞF}|¹\bÉÐ\u0092\u0081\u0007v¯k\bÉÐ\u0092\u0081\u0007v¯k\b\u0018xÕVªmÿC\b?ö\u0084\u000eÂÂ=\u008a"
          .length();
-      char var4 = 16;
-      int var12 = -1;
+      char var4 = '\u0010';
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var13 = var5.substring(++var12, var12 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var21;
+         if ((var3 += var4) >= var7) {
+            var5 = "\u0018xÕVªmÿC\b?ö\u0084\u000eÂÂ=\u008a";
+            var7 = "\u0018xÕVªmÿC\b?ö\u0084\u000eÂÂ=\u008a".length();
+            var4 = '\b';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) >= var7) {
-                     SACKS = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[2]);
-                     INVENTORY = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[0]);
-                     CHAT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[6]);
-                     COMMAND = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[7]);
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
-                        IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var19 = false;
+               var0[var6++] = var23;
+               if ((var3 += var4) >= var7) {
+                  SACKS = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[2]);
+                  INVENTORY = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[0]);
+                  CHAT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[6]);
+                  COMMAND = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(var0[7]);
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
+                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                  );
+                  return;
+               }
 
-                  var4 = var5.charAt(var12);
-                  break;
-               default:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) < var7) {
-                     var4 = var5.charAt(var12);
-                     continue label28;
-                  }
-
-                  var5 = "\u0018xÕVªmÿC\b?ö\u0084\u000eÂÂ=\u008a";
-                  var7 = "\u0018xÕVªmÿC\b?ö\u0084\u000eÂÂ=\u008a".length();
-                  var4 = '\b';
-                  var12 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var13 = var5.substring(++var12, var12 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

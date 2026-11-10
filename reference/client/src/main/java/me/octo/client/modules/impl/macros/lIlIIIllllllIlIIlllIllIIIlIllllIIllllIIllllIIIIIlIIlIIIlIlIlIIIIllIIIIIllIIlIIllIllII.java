@@ -105,75 +105,67 @@ public final class lIlIIIllllllIlIIlllIllIIIlIllllIIllllIIllllIIIIIlIIlIIIlIlIlI
       String var4 = "y\u0087¢\u001a±\u0003ÛË\u008c\u008fÞ\u0087þ\u008cjK x²¸\r¹\u000b Óàß·/*g\u009a¯\u0084<ëu«Ô·Ó`»\u008dÇ_úÄS\u0010d\t\u008cû\u00adÛÐ1bÚä\u001eDw\u0002Ã";
       int var6 = "y\u0087¢\u001a±\u0003ÛË\u008c\u008fÞ\u0087þ\u008cjK x²¸\r¹\u000b Óàß·/*g\u009a¯\u0084<ëu«Ô·Ó`»\u008dÇ_úÄS\u0010d\t\u008cû\u00adÛÐ1bÚä\u001eDw\u0002Ã"
          .length();
-      char var3 = 16;
-      int var14 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var15 = var4.substring(++var14, var14 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var23 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var23;
+         if ((var2 += var3) >= var6) {
+            var4 = "Èµ\u0089´\u0086\u0099{eo4Ê\u001b\u0013îc0(.\fÿ\u008aúG¹y~;\u0092\u007f¹9Èwxp\u0091Ó\u0090½¾Ý\u0094ì\u008cWî+pô\u0012\u0089ö\u000fV\u0099\"7";
+            var6 = "Èµ\u0089´\u0086\u0099{eo4Ê\u001b\u0013îc0(.\fÿ\u008aúG¹y~;\u0092\u007f¹9Èwxp\u0091Ó\u0090½¾Ý\u0094ì\u008cWî+pô\u0012\u0089ö\u000fV\u0099\"7"
+               .length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var15.getBytes("ISO-8859-1"));
-            String var21 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var21;
-                  if ((var14 += var3) >= var6) {
-                     lIIIIlIIIIlIIllIlIlIIlIlIlIIlIIlIllIIllllIlIllIllIIllIIIIllllllIlIlIlIIllIIlIIIlIlllI = var7;
-                     llIlllIlIlllllllIlllIIlllIlIIIllllIIlIlIIIIIIIIlIIIIIIIIlIIllIIIIIIIIlIllllIlllIlllIl = new String[5];
-                     IllIllIIllIIIIlIIlIlIIlIllIIIlIIlllIlIllIIlIlIIlllllIIIlIlIlIllIIIIIIlIlIIIIlllIllllI = new lIlIIIllllllIlIIlllIllIIIlIllllIIllllIIllllIIIIIlIIlIIIlIlIlIIIIllIIIIIllIIlIIllIllII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     Class[] var11 = new Class[]{
-                        RemotePlayer.class,
-                        Zombie.class,
-                        Skeleton.class,
-                        Spider.class,
-                        EnderMan.class,
-                        Endermite.class,
-                        Blaze.class,
-                        Ghast.class,
-                        MagmaCube.class,
-                        Silverfish.class,
-                        Slime.class,
-                        Witch.class,
-                        Guardian.class,
-                        WitherSkeleton.class,
-                        ZombifiedPiglin.class,
-                        IronGolem.class,
-                        Wolf.class,
-                        Squid.class,
-                        Creeper.class,
-                        Ocelot.class,
-                        Sniffer.class,
-                        Tadpole.class,
-                        Guardian.class,
-                        Bogged.class
-                     };
-                     llIlllIlIIllIlIllIIIIIIlllllIlIlIllIlIllIIIlIIIIIlIllIlIllIIIlllIllIlIIIllIllIIlIlllI = CollectionsKt.listOf(var11);
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var25 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+               boolean var21 = false;
+               var7[var5++] = var25;
+               if ((var2 += var3) >= var6) {
+                  lIIIIlIIIIlIIllIlIlIIlIlIlIIlIIlIllIIllllIlIllIllIIllIIIIllllllIlIlIlIIllIIlIIIlIlllI = var7;
+                  llIlllIlIlllllllIlllIIlllIlIIIllllIIlIlIIIIIIIIlIIIIIIIIlIIllIIIIIIIIlIllllIlllIlllIl = new String[5];
+                  IllIllIIllIIIIlIIlIlIIlIllIIIlIIlllIlIllIIlIlIIlllllIIIlIlIlIllIIIIIIlIlIIIIlllIllllI = new lIlIIIllllllIlIIlllIllIIIlIllllIIllllIIllllIIIIIlIIlIIIlIlIlIIIIllIIIIIllIIlIIllIllII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  Class[] var11 = new Class[]{
+                     RemotePlayer.class,
+                     Zombie.class,
+                     Skeleton.class,
+                     Spider.class,
+                     EnderMan.class,
+                     Endermite.class,
+                     Blaze.class,
+                     Ghast.class,
+                     MagmaCube.class,
+                     Silverfish.class,
+                     Slime.class,
+                     Witch.class,
+                     Guardian.class,
+                     WitherSkeleton.class,
+                     ZombifiedPiglin.class,
+                     IronGolem.class,
+                     Wolf.class,
+                     Squid.class,
+                     Creeper.class,
+                     Ocelot.class,
+                     Sniffer.class,
+                     Tadpole.class,
+                     Guardian.class,
+                     Bogged.class
+                  };
+                  llIlllIlIIllIlIllIIIIIIlllllIlIlIllIlIllIIIlIIIIIlIllIlIllIIIlllIllIlIIIllIllIIlIlllI = CollectionsKt.listOf(var11);
+                  return;
+               }
 
-                  var3 = var4.charAt(var14);
-                  break;
-               default:
-                  var7[var5++] = var21;
-                  if ((var14 += var3) < var6) {
-                     var3 = var4.charAt(var14);
-                     continue label27;
-                  }
-
-                  var4 = "Èµ\u0089´\u0086\u0099{eo4Ê\u001b\u0013îc0(.\fÿ\u008aúG¹y~;\u0092\u007f¹9Èwxp\u0091Ó\u0090½¾Ý\u0094ì\u008cWî+pô\u0012\u0089ö\u000fV\u0099\"7";
-                  var6 = "Èµ\u0089´\u0086\u0099{eo4Ê\u001b\u0013îc0(.\fÿ\u008aúG¹y~;\u0092\u007f¹9Èwxp\u0091Ó\u0090½¾Ý\u0094ì\u008cWî+pô\u0012\u0089ö\u000fV\u0099\"7"
-                     .length();
-                  var3 = 16;
-                  var14 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var15 = var4.substring(++var14, var14 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

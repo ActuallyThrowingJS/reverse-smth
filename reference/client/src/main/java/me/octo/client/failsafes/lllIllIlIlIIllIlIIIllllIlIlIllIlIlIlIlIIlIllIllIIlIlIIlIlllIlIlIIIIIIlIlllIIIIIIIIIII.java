@@ -248,4 +248,65 @@ public class lllIllIlIlIIllIlIIIllllIlIlIllIlIlIlIlIIlIllIllIIlIlIIlIlllIlIlIIII
          );
       }
    }
+
+   public static boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$71995262b8e42418(
+      long param0, ClientboundPlayerPositionPacket param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static boolean llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$ccfe381ae94f65eb(
+      long var0, ClientboundPlayerPositionPacket var2
+   ) {
+      var0 = 80104438525848L;
+      var0 = IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl ^ var0;
+      long var3 = var0 ^ 43392264669412L;
+
+      try {
+         if (var2 == null) {
+            return false;
+         }
+      } catch (MatchException var6) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var6);
+      }
+
+      return lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI.IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII
+         .stream()
+         .anyMatch(
+            var3x -> {
+               var3 = IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl ^ var3;
+               long var4 = var3 ^ 11374730656158L;
+               int var6x = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  -1819846350732101004L, var3
+               );
+
+               try {
+                  double var9;
+                  int var10000 = (
+                           var9 = me.octo.client.utils.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                                 .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                                    new Vec3(var2.change().position().x(), var2.change().position().y(), var2.change().position().z()), var4, var3x
+                                 )
+                              - 1.0
+                        )
+                        == 0.0
+                     ? 0
+                     : (var9 < 0.0 ? -1 : 1);
+                  if (var6x == 0) {
+                     return (boolean)var10000;
+                  }
+
+                  if (var10000 < 0) {
+                     return (boolean)1;
+                  }
+               } catch (MatchException var7) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var7, -2003309575844162180L, var3
+                  );
+               }
+
+               return (boolean)0;
+            }
+         );
+   }
 }

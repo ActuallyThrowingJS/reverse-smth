@@ -61,48 +61,40 @@ public enum ProxyType {
       String var5 = "Ã«µ\u008dk\u0096SÖ\b\u0016?\u000fmÁ\u009c3\u0081\b%ù\u001bd\u000e\u0007¼á\b%ù\u001bd\u000e\u0007¼á";
       int var7 = "Ã«µ\u008dk\u0096SÖ\b\u0016?\u000fmÁ\u009c3\u0081\b%ù\u001bd\u000e\u0007¼á\b%ù\u001bd\u000e\u0007¼á".length();
       char var4 = '\b';
-      int var13 = -1;
+      int var3 = -1;
 
-      label32:
       while (true) {
-         String var14 = var5.substring(++var13, var13 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var22;
+         if ((var3 += var4) >= var7) {
+            var5 = "Ã«µ\u008dk\u0096SÖ\b\u0016?\u000fmÁ\u009c3\u0081";
+            var7 = "Ã«µ\u008dk\u0096SÖ\b\u0016?\u000fmÁ\u009c3\u0081".length();
+            var4 = '\b';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) >= var7) {
-                     SOCKS4 = new ProxyType(var0[5]);
-                     SOCKS5 = new ProxyType(var0[4]);
-                     INVALID = new ProxyType(var0[2]);
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = EnumEntriesKt.enumEntries(
-                        lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII
-                     );
-                     Companion = new ProxyType.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(null);
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var0[var6++] = var24;
+               if ((var3 += var4) >= var7) {
+                  SOCKS4 = new ProxyType(var0[5]);
+                  SOCKS5 = new ProxyType(var0[4]);
+                  INVALID = new ProxyType(var0[2]);
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = EnumEntriesKt.enumEntries(
+                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII
+                  );
+                  Companion = new ProxyType.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(null);
+                  return;
+               }
 
-                  var4 = var5.charAt(var13);
-                  break;
-               default:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) < var7) {
-                     var4 = var5.charAt(var13);
-                     continue label32;
-                  }
-
-                  var5 = "Ã«µ\u008dk\u0096SÖ\b\u0016?\u000fmÁ\u009c3\u0081";
-                  var7 = "Ã«µ\u008dk\u0096SÖ\b\u0016?\u000fmÁ\u009c3\u0081".length();
-                  var4 = '\b';
-                  var13 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var14 = var5.substring(++var13, var13 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 
@@ -116,7 +108,7 @@ public enum ProxyType {
 
    public static boolean lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll() {
       boolean var0 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl();
-      return !var0;
+      return true;
    }
 
    private static String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(byte[] var0) {

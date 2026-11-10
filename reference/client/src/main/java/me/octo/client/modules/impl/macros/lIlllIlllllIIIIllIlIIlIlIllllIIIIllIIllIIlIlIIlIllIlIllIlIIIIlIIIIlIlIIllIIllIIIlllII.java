@@ -110,53 +110,45 @@ public final class lIlllIlllllIIIIllIlIIlIlIllllIIIIllIIllIIlIlIIlIllIlIllIlIIII
       String var4 = "õwÊ\u0016E\u0094\u0095Û.i¯¾^\u0011gàU\u001dÃÿ(\u009b\u009aÖ\u0010Ü\u0005Óm5³u\fÝ0jt\u0089Wý\u0000\u0010TgJ¨?\u008c\u009cëÈ.x*\u0095\u0091 å\u0010¡\t7PÄq?îÂ\u0005\u008dªPc \u0012 ï\u0016ï÷\u0085\t0øAí[±U\u0095r!(@?ý\u0096\u0089oo\u0002%@7Po\u001dª\u0010h×§h\u008f¼\u0011oSð£\u0005ªBéÍ\u0010Ä~¸\u009dZ&U\u0013p\r\u0085îÇUÐ°\u0010!Å¸¸)\u009f!\u0082Á²áí\u0017>Ý\u008a\u0010ra\u009bÍåOÈ\t-\u0081è«\u00ad¿ïU )YËhv-Ê\u009eQ<s\u0007\t,\u009f\u008a\u0090\u0012ôìº\u0014A\u0096wûm~»?\u0090]\u0010Æ³È\u007f2\u00adÉç\fÞVÒèC\u0016w\u0010¬ÍMø\u009f\u0015øÆ!sÐgãÝÖÍ";
       int var6 = "õwÊ\u0016E\u0094\u0095Û.i¯¾^\u0011gàU\u001dÃÿ(\u009b\u009aÖ\u0010Ü\u0005Óm5³u\fÝ0jt\u0089Wý\u0000\u0010TgJ¨?\u008c\u009cëÈ.x*\u0095\u0091 å\u0010¡\t7PÄq?îÂ\u0005\u008dªPc \u0012 ï\u0016ï÷\u0085\t0øAí[±U\u0095r!(@?ý\u0096\u0089oo\u0002%@7Po\u001dª\u0010h×§h\u008f¼\u0011oSð£\u0005ªBéÍ\u0010Ä~¸\u009dZ&U\u0013p\r\u0085îÇUÐ°\u0010!Å¸¸)\u009f!\u0082Á²áí\u0017>Ý\u008a\u0010ra\u009bÍåOÈ\t-\u0081è«\u00ad¿ïU )YËhv-Ê\u009eQ<s\u0007\t,\u009f\u008a\u0090\u0012ôìº\u0014A\u0096wûm~»?\u0090]\u0010Æ³È\u007f2\u00adÉç\fÞVÒèC\u0016w\u0010¬ÍMø\u009f\u0015øÆ!sÐgãÝÖÍ"
          .length();
-      char var3 = 24;
-      int var13 = -1;
+      char var3 = '\u0018';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var15 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var23 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var23;
+         if ((var2 += var3) >= var6) {
+            var4 = "\u0001\b9\u008a¢Ù3û»DÊ?J ö\u0081 c²Q&Y£õ\u0019%sx?1µñ9W}ö\u009c\"5\u0083\u00186yÒ¢òÏ\u0004&";
+            var6 = "\u0001\b9\u008a¢Ù3û»DÊ?J ö\u0081 c²Q&Y£õ\u0019%sx?1µñ9W}ö\u009c\"5\u0083\u00186yÒ¢òÏ\u0004&".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var15.getBytes("ISO-8859-1"));
-            String var21 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var21;
-                  if ((var13 += var3) >= var6) {
-                     IIIllIIlIIlllllIlIlIIIIllIIIIlIlIlllIlIlIlIlIIlIIIlIIllIllIIIIIllllllIlIlIIIIIIIlllll = var7;
-                     lIIIIlIIIIlIIllIlIlIIlIlIlIIlIIlIllIIllllIlIllIllIIllIIIIllllllIlIlIlIIllIIlIIIlIlllI = new String[14];
-                     IllIllIIllIIIIlIIlIlIIlIllIIIlIIlllIlIllIIlIlIIlllllIIIlIlIlIllIIIIIIlIlIIIIlllIllllI = new lIlllIlllllIIIIllIlIIlIlIllllIIIIllIIllIIlIlIIlIllIlIllIlIIIIlIIIIlIlIIllIIllIIIlllII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     Class[] var11 = new Class[]{Cow.class, Pig.class, Sheep.class, Chicken.class, Rabbit.class, Horse.class};
-                     lIlIIIIIlIlIIIllIIIIlIlIllllllllllIIIIIIIIIIllIIlIlIIIlllIllIIlIIIlllIlIlIlIlllllIlII = CollectionsKt.listOf(var11);
-                     String[] var14 = new String[]{
-                        "Trackable", "Untrackable", "Undetected", "Endangered", "Elusive", "Cow", "Horse", "Sheep", "Pig", "Rabbit", "Chicken"
-                     };
-                     llIlllIlIIllIlIllIIIIIIlllllIlIlIllIlIllIIIlIIIIIlIllIlIllIIIlllIllIlIIIllIllIIlIlllI = CollectionsKt.listOf(var14);
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var25 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+               boolean var21 = false;
+               var7[var5++] = var25;
+               if ((var2 += var3) >= var6) {
+                  IIIllIIlIIlllllIlIlIIIIllIIIIlIlIlllIlIlIlIlIIlIIIlIIllIllIIIIIllllllIlIlIIIIIIIlllll = var7;
+                  lIIIIlIIIIlIIllIlIlIIlIlIlIIlIIlIllIIllllIlIllIllIIllIIIIllllllIlIlIlIIllIIlIIIlIlllI = new String[14];
+                  IllIllIIllIIIIlIIlIlIIlIllIIIlIIlllIlIllIIlIlIIlllllIIIlIlIlIllIIIIIIlIlIIIIlllIllllI = new lIlllIlllllIIIIllIlIIlIlIllllIIIIllIIllIIlIlIIlIllIlIllIlIIIIlIIIIlIlIIllIIllIIIlllII.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  Class[] var11 = new Class[]{Cow.class, Pig.class, Sheep.class, Chicken.class, Rabbit.class, Horse.class};
+                  lIlIIIIIlIlIIIllIIIIlIlIllllllllllIIIIIIIIIIllIIlIlIIIlllIllIIlIIIlllIlIlIlIlllllIlII = CollectionsKt.listOf(var11);
+                  String[] var19 = new String[]{
+                     "Trackable", "Untrackable", "Undetected", "Endangered", "Elusive", "Cow", "Horse", "Sheep", "Pig", "Rabbit", "Chicken"
+                  };
+                  llIlllIlIIllIlIllIIIIIIlllllIlIlIllIlIllIIIlIIIIIlIllIlIllIIIlllIllIlIIIllIllIIlIlllI = CollectionsKt.listOf(var19);
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var21;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label27;
-                  }
-
-                  var4 = "\u0001\b9\u008a¢Ù3û»DÊ?J ö\u0081 c²Q&Y£õ\u0019%sx?1µñ9W}ö\u009c\"5\u0083\u00186yÒ¢òÏ\u0004&";
-                  var6 = "\u0001\b9\u008a¢Ù3û»DÊ?J ö\u0081 c²Q&Y£õ\u0019%sx?1µñ9W}ö\u009c\"5\u0083\u00186yÒ¢òÏ\u0004&".length();
-                  var3 = 16;
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var15 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

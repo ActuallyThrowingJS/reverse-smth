@@ -77,4 +77,11 @@ public class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIll
 
       return new String(var3, 0, var1);
    }
+
+   private void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c226b17686b0126d(long var1, int var3) {
+      var1 = 94711704291452L;
+      var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
+      long var4 = var1 ^ 7595757682464L;
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4, "POSSIBLE SERVER-FORCED ITEM SWAP DETECTED: " + var3);
+   }
 }

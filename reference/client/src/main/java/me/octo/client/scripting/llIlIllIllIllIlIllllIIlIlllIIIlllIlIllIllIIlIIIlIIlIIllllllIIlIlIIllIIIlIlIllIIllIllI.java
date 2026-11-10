@@ -193,4 +193,23 @@ public final class llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllII
          );
       }
    }
+
+   @NotNull
+   public final HostAccess IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2b6caca8b2a47b71(long var1) {
+      var1 = 129527303793200L;
+      var1 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII ^ var1;
+      HostAccess var10000 = HostAccess.newBuilder()
+         .allowAccessAnnotatedBy(Export.class)
+         .allowImplementationsAnnotatedBy(Implementable.class)
+         .allowListAccess(true)
+         .allowMapAccess(true)
+         .allowArrayAccess(true)
+         .allowIterableAccess(true)
+         .allowIteratorAccess(true)
+         .allowBufferAccess(true)
+         .allowAccessInheritance(true)
+         .build();
+      Intrinsics.checkNotNullExpressionValue(var10000, "build(...)");
+      return var10000;
+   }
 }

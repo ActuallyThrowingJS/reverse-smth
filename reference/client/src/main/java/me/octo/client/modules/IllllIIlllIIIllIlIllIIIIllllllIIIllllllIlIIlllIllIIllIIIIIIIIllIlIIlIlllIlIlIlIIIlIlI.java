@@ -69,60 +69,52 @@ public enum IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIl
       String var5 = "\b\u0084xª\u0089£ñ\rêx\u0011iº/cÕ\bÐ°û\\L1.:\b@P¶¬K*\u0094æ\u0010mV_«× \u0084\u009bÇ«Ç\u0083¡\u0004Õ'\b¤ªug\u0092iLÒ\b.§ë®\u0006ý\u0010M\bï|[\u0011\u0083ó\u0003!\báú\u0011\u009eúàË\u000e\u0010mV_«× \u0084\u009bÇ«Ç\u0083¡\u0004Õ'\bï|[\u0011\u0083ó\u0003!\b\fhúØ\u007fÉ$¿\báú\u0011\u009eúàË\u000e\b·sñö\u0094m¡\u0017\bÐ°û\\L1.:\b\u008a1¿-4\u0002N\u009e\b¤ªug\u0092iLÒ\u0010\b\u0084xª\u0089£ñ\rêx\u0011iº/cÕ\b\u008a1¿-4\u0002N\u009e\b@P¶¬K*\u0094æ\b.§ë®\u0006ý\u0010M\u0010\u0016¬\u0013(O)\u008dÔhSi1ðMÐ \b\fhúØ\u007fÉ$¿";
       int var7 = "\b\u0084xª\u0089£ñ\rêx\u0011iº/cÕ\bÐ°û\\L1.:\b@P¶¬K*\u0094æ\u0010mV_«× \u0084\u009bÇ«Ç\u0083¡\u0004Õ'\b¤ªug\u0092iLÒ\b.§ë®\u0006ý\u0010M\bï|[\u0011\u0083ó\u0003!\báú\u0011\u009eúàË\u000e\u0010mV_«× \u0084\u009bÇ«Ç\u0083¡\u0004Õ'\bï|[\u0011\u0083ó\u0003!\b\fhúØ\u007fÉ$¿\báú\u0011\u009eúàË\u000e\b·sñö\u0094m¡\u0017\bÐ°û\\L1.:\b\u008a1¿-4\u0002N\u009e\b¤ªug\u0092iLÒ\u0010\b\u0084xª\u0089£ñ\rêx\u0011iº/cÕ\b\u008a1¿-4\u0002N\u009e\b@P¶¬K*\u0094æ\b.§ë®\u0006ý\u0010M\u0010\u0016¬\u0013(O)\u008dÔhSi1ðMÐ \b\fhúØ\u007fÉ$¿"
          .length();
-      char var4 = 16;
-      int var13 = -1;
+      char var4 = '\u0010';
+      int var3 = -1;
 
-      label32:
       while (true) {
-         String var14 = var5.substring(++var13, var13 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var22;
+         if ((var3 += var4) >= var7) {
+            var5 = "·sñö\u0094m¡\u0017\u0010\u0016¬\u0013(O)\u008dÔhSi1ðMÐ ";
+            var7 = "·sñö\u0094m¡\u0017\u0010\u0016¬\u0013(O)\u008dÔhSi1ðMÐ ".length();
+            var4 = '\b';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) >= var7) {
-                     MINE = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[19]);
-                     WARP = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[4]);
-                     WALK = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[10]);
-                     VEIN = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[6]);
-                     TREE = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[17]);
-                     HEAT = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[13]);
-                     LAST_MINE = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[20]);
-                     ROTATION = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[8]);
-                     LINE = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[11]);
-                     ORB = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[22]);
-                     LANTERN = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[2]);
-                     BLACKLIST = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[0]);
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = EnumEntriesKt.enumEntries(
-                        lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII
-                     );
-                     Companion = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var0[var6++] = var24;
+               if ((var3 += var4) >= var7) {
+                  MINE = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[19]);
+                  WARP = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[4]);
+                  WALK = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[10]);
+                  VEIN = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[6]);
+                  TREE = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[17]);
+                  HEAT = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[13]);
+                  LAST_MINE = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[20]);
+                  ROTATION = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[8]);
+                  LINE = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[11]);
+                  ORB = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[22]);
+                  LANTERN = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[2]);
+                  BLACKLIST = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[0]);
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = EnumEntriesKt.enumEntries(
+                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII
+                  );
+                  Companion = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  return;
+               }
 
-                  var4 = var5.charAt(var13);
-                  break;
-               default:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) < var7) {
-                     var4 = var5.charAt(var13);
-                     continue label32;
-                  }
-
-                  var5 = "·sñö\u0094m¡\u0017\u0010\u0016¬\u0013(O)\u008dÔhSi1ðMÐ ";
-                  var7 = "·sñö\u0094m¡\u0017\u0010\u0016¬\u0013(O)\u008dÔhSi1ðMÐ ".length();
-                  var4 = '\b';
-                  var13 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var14 = var5.substring(++var13, var13 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 
@@ -242,6 +234,36 @@ public enum IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIl
          }
 
          return new String(var3, 0, var1);
+      }
+
+      @Nullable
+      public final IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a3b05f37e4e48255(
+         long argument1Arg, @NotNull String valueArg
+      ) {
+         argument1Arg = 40766947385074L;
+         argument1Arg = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ argument1Arg;
+         boolean var10000 = me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll();
+         Intrinsics.checkNotNullParameter(valueArg, "value");
+         boolean var4 = var10000;
+
+         label20:
+         for (Object var7 : (Iterable)IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI()) {
+            Object var12 = var7;
+
+            do {
+               IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var8 = (IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI)var12;
+               boolean var9 = false;
+               if (!Intrinsics.areEqual(var8.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(), valueArg)) {
+                  continue label20;
+               }
+
+               var12 = var7;
+            } while (!var4);
+
+            return (IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI)var7;
+         }
+
+         return (IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI)null;
       }
    }
 }

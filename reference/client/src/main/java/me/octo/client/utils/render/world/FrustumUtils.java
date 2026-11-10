@@ -223,4 +223,17 @@ public final class FrustumUtils {
          throw new RuntimeException("me/octo/client/utils/render/world/FrustumUtils" + " : " + var1 + " : " + var2.toString(), var5);
       }
    }
+
+   @JvmStatic
+   public static final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$71bd562cb1d0eeac(
+      @NotNull AABB boxArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @JvmStatic
+   @Nullable
+   public static final Frustum llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$b874c6dc4084782b(long param0) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
 }

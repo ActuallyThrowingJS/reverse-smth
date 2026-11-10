@@ -47,58 +47,50 @@ public enum llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlll
       String var5 = "\f^a\u009cGÓÊ\u0011\u0002\u0007ò\u0003N\u0097\u0095<\u0010zHË\u0002°ßå\u009bËÛèzë\u000bû\u008d\u0010Uâ3\u008djy\u0018ö\u0004HÙþ\u0013k\u0091ù\u0010jõÒGå$çJPòKZ\u0083\u008f]¸\u0018ªÝ<ûÓPöL¼\\@.Q³\u0098¦\u009e¥mÄ¢M\u000eÁ\u0010´PC\u001a\u008d3\n&æV×[÷½F\u0017\u0010\u0001C\\\u001a\u0014\u0019ZÞæ\u00137H\u000bØï\u008c\u0010ûg=yµY\u0011X\u009dÆÚQfdJç\u0010\u0085V\u001a\u0000Õ£`,Øù \u0014ÌýêÏ\u0010=\u008a¼×½\u009dQ\u0086\u0012¿£)\u009aXÞe\u0010\u0095\u0087ñà©\u008aa\u0002ÚÈ\u008cÚå¸Óz";
       int var7 = "\f^a\u009cGÓÊ\u0011\u0002\u0007ò\u0003N\u0097\u0095<\u0010zHË\u0002°ßå\u009bËÛèzë\u000bû\u008d\u0010Uâ3\u008djy\u0018ö\u0004HÙþ\u0013k\u0091ù\u0010jõÒGå$çJPòKZ\u0083\u008f]¸\u0018ªÝ<ûÓPöL¼\\@.Q³\u0098¦\u009e¥mÄ¢M\u000eÁ\u0010´PC\u001a\u008d3\n&æV×[÷½F\u0017\u0010\u0001C\\\u001a\u0014\u0019ZÞæ\u00137H\u000bØï\u008c\u0010ûg=yµY\u0011X\u009dÆÚQfdJç\u0010\u0085V\u001a\u0000Õ£`,Øù \u0014ÌýêÏ\u0010=\u008a¼×½\u009dQ\u0086\u0012¿£)\u009aXÞe\u0010\u0095\u0087ñà©\u008aa\u0002ÚÈ\u008cÚå¸Óz"
          .length();
-      char var4 = 16;
-      int var12 = -1;
+      char var4 = '\u0010';
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var13 = var5.substring(++var12, var12 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var21;
+         if ((var3 += var4) >= var7) {
+            var5 = ".wº\u0082u\u001e©[\u0010E¸y\\N®òKÆ´Ás\u0089@ \u0019";
+            var7 = ".wº\u0082u\u001e©[\u0010E¸y\\N®òKÆ´Ás\u0089@ \u0019".length();
+            var4 = '\b';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) >= var7) {
-                     AUTO_SELL = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     SCHEDULER = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     AUTO_RECONNECT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     INTERRUPTION_FIXER = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     PLAYER_NOTIFIER = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     AUTO_REFUEL = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     AUTO_FORGE = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     SLAYER_STARTER = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     SCAN_BANK = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     SCAN_MUSEUM = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     BUY_BIN = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     AH_SEARCH = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     ADD_ITEM = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
-                        IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var19 = false;
+               var0[var6++] = var23;
+               if ((var3 += var4) >= var7) {
+                  AUTO_SELL = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  SCHEDULER = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  AUTO_RECONNECT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  INTERRUPTION_FIXER = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  PLAYER_NOTIFIER = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  AUTO_REFUEL = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  AUTO_FORGE = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  SLAYER_STARTER = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  SCAN_BANK = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  SCAN_MUSEUM = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  BUY_BIN = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  AH_SEARCH = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  ADD_ITEM = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
+                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                  );
+                  return;
+               }
 
-                  var4 = var5.charAt(var12);
-                  break;
-               default:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) < var7) {
-                     var4 = var5.charAt(var12);
-                     continue label28;
-                  }
-
-                  var5 = ".wº\u0082u\u001e©[\u0010E¸y\\N®òKÆ´Ás\u0089@ \u0019";
-                  var7 = ".wº\u0082u\u001e©[\u0010E¸y\\N®òKÆ´Ás\u0089@ \u0019".length();
-                  var4 = '\b';
-                  var12 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var13 = var5.substring(++var12, var12 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

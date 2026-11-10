@@ -53,23 +53,18 @@ public final class Font {
 
    @NotNull
    public final ByteBuffer IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII() {
-      InputStream var10000;
-      try {
-         var10000 = this.getClass().getResourceAsStream(this.resourcePath);
-         if (var10000 == null) {
-            throw new FileNotFoundException(this.resourcePath);
-         }
-      } catch (MatchException var4) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4);
+      InputStream var10000 = this.getClass().getResourceAsStream(this.resourcePath);
+      if (var10000 == null) {
+         throw new FileNotFoundException(this.resourcePath);
+      } else {
+         InputStream var1 = var10000;
+         byte[] var2 = ByteStreamsKt.readBytes(var1);
+         var1.close();
+         ByteBuffer var3 = ByteBuffer.allocateDirect(var2.length).order(ByteOrder.nativeOrder()).put(var2);
+         var3.flip();
+         Intrinsics.checkNotNull(var3);
+         return var3;
       }
-
-      InputStream var1 = var10000;
-      byte[] var2 = ByteStreamsKt.readBytes(var1);
-      var1.close();
-      ByteBuffer var3 = ByteBuffer.allocateDirect(var2.length).order(ByteOrder.nativeOrder()).put(var2);
-      var3.flip();
-      Intrinsics.checkNotNull(var3);
-      return var3;
    }
 
    @Override

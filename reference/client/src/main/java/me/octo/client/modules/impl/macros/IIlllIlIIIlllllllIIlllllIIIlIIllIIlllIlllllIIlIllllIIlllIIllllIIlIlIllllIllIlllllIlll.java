@@ -38,48 +38,40 @@ public enum IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlI
       String var5 = "q¼\u0092\u000b\u001e8KË\bÓ\u0090p#ÜÀmc";
       int var7 = "q¼\u0092\u000b\u001e8KË\bÓ\u0090p#ÜÀmc".length();
       char var4 = '\b';
-      int var12 = -1;
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var13 = var5.substring(++var12, var12 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var21;
+         if ((var3 += var4) >= var7) {
+            var5 = "\u0090,ÈY\u0087BS>\bå\u0081rÂ©e\u0083\u0085";
+            var7 = "\u0090,ÈY\u0087BS>\bå\u0081rÂ©e\u0083\u0085".length();
+            var4 = '\b';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) >= var7) {
-                     WALK = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
-                     AROUND = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
-                     TURN = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
-                     DOWN = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
-                        IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var19 = false;
+               var0[var6++] = var23;
+               if ((var3 += var4) >= var7) {
+                  WALK = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
+                  AROUND = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
+                  TURN = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
+                  DOWN = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
+                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                  );
+                  return;
+               }
 
-                  var4 = var5.charAt(var12);
-                  break;
-               default:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) < var7) {
-                     var4 = var5.charAt(var12);
-                     continue label28;
-                  }
-
-                  var5 = "\u0090,ÈY\u0087BS>\bå\u0081rÂ©e\u0083\u0085";
-                  var7 = "\u0090,ÈY\u0087BS>\bå\u0081rÂ©e\u0083\u0085".length();
-                  var4 = '\b';
-                  var12 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var13 = var5.substring(++var12, var12 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

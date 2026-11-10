@@ -70,17 +70,9 @@ public final class llIlIlIlIllllIlIIllIllIllllIIIllIIIIIIlllIIIIlIIllllIlIIIIlll
 
    @Override
    public boolean IIlIIIIllIlIIlIIIlllIlIlIIllllIlIIIllIIlIlllIlIlllIIlIIIIllIIllllIlIlllIlIlIIlllllIII(long var1) {
-      try {
-         if (me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-               .IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI()
-            == me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.DWARVEN_MINES) {
-            return true;
-         }
-      } catch (NoSuchElementException var3) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3);
-      }
-
-      return false;
+      return me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+            .IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI()
+         == me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.DWARVEN_MINES;
    }
 
    @Nullable
@@ -173,143 +165,135 @@ public final class llIlIlIlIllllIlIIllIllIllllIIIllIIIIIIlllIIIIlIIllllIlIIIIlll
       String var4 = "÷z;\byÑáuñGgp\u008d!\u0098¸Ö»¨&\u008aÉ\u0018ò(\u0003Ôò\u009cÝ+Êèw©Å×\u0014\u0013LT\u0083³8®\u0098Î\u0011'\u0004\u000e\u008f\u0013\u007fçE\u000b\u0002\u00173Cmè\u0084Í(k\u0005*#\u0085LS\u0013¬\u0090\täÉ\u001amé§ðZ\"ÙÎ9Ïâ iYõë5¤¯½ÎÞàT~N8Ñ\u0002õ]é\u008b÷³b\u007fj³$£U·|;§<ñÉF\u0082\b\"ä\u0080éQÆyÍ÷k.ô,ç\u000bKÅëùúÅûVB¸Æ\u0007\u008d\u0017ý®(\u001a\u008a\u0017qê\u0094\u00174\r\u0016Ý¸\u0097@ßÄÖhºV\u0092\u0094}«Ä\u0089G\u008aTÜþ\u0087n'\u0004ô\u008a\u001c®d !ðúäUòWïþcq*tàÈ\u0012^¤¾Êqß¬UÇO\u008c\u0007®l\u0082+(\u0015x¥B\u0081ÁQw\u0003y@ÛF7Röáº·d ßÈk\u007fr\u0086\\\u0089Õ\u001d\u001aèo[FïDÛÕ ùVEuá\u0098\u001b\u0094W1\u0007\u0012ÿ\u0093_£\u0089Äº\u0016aÃW\u0018RõÛ(E\u0019°»0T¾µ\u009d\u008fþÿÁ1Å\u001f,\u009bÆ0µ\u0004Pî\n\u008cÞ\\Bod\fÏ\u0091\u0088æ\u001c\u000e}\u0016à¼+M8{<Õ\u008f~\u0003\u0014· ê¿À}Ôb\u000fkÛ6hg¾`\nO\u0007IØèÿP,\u0081\"dãÍbãb\u0007 I¤\u001eÊ\fVÛâ_®*\u001a\u000e\u0092\bà§»\u0001`PÝªÑk|Ô¬\u0000õ\u0082\\\u0010(×MOÀ|nÌ\\\tä\u0010\u0091÷\u009ee(\u0089Ë D\u0088\u000f½\u0014êCþ½\rZ\u0003ZXï\u009e@ò\u00048Ã{T\u0083|É\u0097;ü¦\"\"3ç7Øø í\u001e\u0098\u00856]g6Â¼\u0098»»\u000e\b¢\u0002ÌÿH\u0000Úç(Éá_ï¸\u000e\u00937";
       int var6 = "÷z;\byÑáuñGgp\u008d!\u0098¸Ö»¨&\u008aÉ\u0018ò(\u0003Ôò\u009cÝ+Êèw©Å×\u0014\u0013LT\u0083³8®\u0098Î\u0011'\u0004\u000e\u008f\u0013\u007fçE\u000b\u0002\u00173Cmè\u0084Í(k\u0005*#\u0085LS\u0013¬\u0090\täÉ\u001amé§ðZ\"ÙÎ9Ïâ iYõë5¤¯½ÎÞàT~N8Ñ\u0002õ]é\u008b÷³b\u007fj³$£U·|;§<ñÉF\u0082\b\"ä\u0080éQÆyÍ÷k.ô,ç\u000bKÅëùúÅûVB¸Æ\u0007\u008d\u0017ý®(\u001a\u008a\u0017qê\u0094\u00174\r\u0016Ý¸\u0097@ßÄÖhºV\u0092\u0094}«Ä\u0089G\u008aTÜþ\u0087n'\u0004ô\u008a\u001c®d !ðúäUòWïþcq*tàÈ\u0012^¤¾Êqß¬UÇO\u008c\u0007®l\u0082+(\u0015x¥B\u0081ÁQw\u0003y@ÛF7Röáº·d ßÈk\u007fr\u0086\\\u0089Õ\u001d\u001aèo[FïDÛÕ ùVEuá\u0098\u001b\u0094W1\u0007\u0012ÿ\u0093_£\u0089Äº\u0016aÃW\u0018RõÛ(E\u0019°»0T¾µ\u009d\u008fþÿÁ1Å\u001f,\u009bÆ0µ\u0004Pî\n\u008cÞ\\Bod\fÏ\u0091\u0088æ\u001c\u000e}\u0016à¼+M8{<Õ\u008f~\u0003\u0014· ê¿À}Ôb\u000fkÛ6hg¾`\nO\u0007IØèÿP,\u0081\"dãÍbãb\u0007 I¤\u001eÊ\fVÛâ_®*\u001a\u000e\u0092\bà§»\u0001`PÝªÑk|Ô¬\u0000õ\u0082\\\u0010(×MOÀ|nÌ\\\tä\u0010\u0091÷\u009ee(\u0089Ë D\u0088\u000f½\u0014êCþ½\rZ\u0003ZXï\u009e@ò\u00048Ã{T\u0083|É\u0097;ü¦\"\"3ç7Øø í\u001e\u0098\u00856]g6Â¼\u0098»»\u000e\b¢\u0002ÌÿH\u0000Úç(Éá_ï¸\u000e\u00937"
          .length();
-      char var3 = 24;
-      int var31 = -1;
+      char var3 = '\u0018';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var51 = var4.substring(++var31, var31 + var3);
-         byte var54 = -1;
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var61 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+         byte var57 = -1;
+         var7[var5++] = var61;
+         if ((var2 += var3) >= var6) {
+            var4 = "Ãs\u0017º\u000e(@\u0001\u0006a\u0081ÙTÂ.¥76É Ý8äÃ\u0018e¿7\u0093@¡\u00919ø8±<\n.¦ñ\u009c\u0089È\u0005Z¬â`";
+            var6 = "Ãs\u0017º\u000e(@\u0001\u0006a\u0081ÙTÂ.¥76É Ý8äÃ\u0018e¿7\u0093@¡\u00919ø8±<\n.¦ñ\u009c\u0089È\u0005Z¬â`".length();
+            var3 = '\u0018';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var51.getBytes("ISO-8859-1"));
-            String var59 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
-            switch (var54) {
-               case 0:
-                  var7[var5++] = var59;
-                  if ((var31 += var3) >= var6) {
-                     IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = var7;
-                     lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI = new String[16];
-                     llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI = new llIlIlIlIllllIlIIllIllIllllIIIllIIIIIIlllIIIIlIIllllIlIIIIlllIIIIIIIIIIlIIIlIlIIIlIlI();
-                     lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII = new HashMap<>();
-                     Map var27 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
-                     Object var28 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0);
-                     String var62 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0);
-                     lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var67 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        new BlockPos(58, 197, -10), new Vec3(58.5, 199.52, -8.5)
-                     );
-                     BlockPos[] var29 = new BlockPos[]{new BlockPos(52, 197, -25), new BlockPos(43, 197, -19), new BlockPos(60, 220, -30)};
-                     List var10004 = CollectionsKt.listOf(var29);
-                     var29 = new BlockPos[]{new BlockPos(52, 214, -30), new BlockPos(52, 205, 16)};
-                     me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var41 = new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
-                        var62,
-                        var67,
-                        var10004,
-                        CollectionsKt.listOf(var29),
-                        me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll
-                     );
-                     var27.put(var28, var41);
-                     var27 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
-                     var28 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1);
-                     String var63 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1);
-                     lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var68 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        new BlockPos(-132, 173, -52), new Vec3(-132.5, 175.52, -50.5)
-                     );
-                     var29 = new BlockPos[]{new BlockPos(-111, 166, -75), new BlockPos(-124, 170, -74), new BlockPos(-77, 187, -71)};
-                     me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var43 = new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
-                        var63,
-                        var68,
-                        CollectionsKt.listOf(var29),
-                        CollectionsKt.emptyList(),
-                        me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl
-                     );
-                     var27.put(var28, var43);
-                     var27 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
-                     var28 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2);
-                     String var64 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2);
-                     lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var69 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        new BlockPos(170, 149, 32), new Vec3(171.5, 151.52, 31.5)
-                     );
-                     var29 = new BlockPos[]{new BlockPos(140, 152, 30), new BlockPos(141, 152, 26), new BlockPos(167, 148, 87)};
-                     var10004 = CollectionsKt.listOf(var29);
-                     var29 = new BlockPos[]{new BlockPos(114, 158, 23), new BlockPos(106, 163, 31)};
-                     me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var46 = new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
-                        var64,
-                        var69,
-                        var10004,
-                        CollectionsKt.listOf(var29),
-                        me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl
-                     );
-                     var27.put(var28, var46);
-                     var27 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
-                     var28 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3);
-                     String var65 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3);
-                     lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var70 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        new BlockPos(43, 134, 21), new Vec3(42.5, 136.02, 22.5)
-                     );
-                     var29 = new BlockPos[]{new BlockPos(13, 127, 37), new BlockPos(-14, 126, 34), new BlockPos(8, 128, 39)};
-                     me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var48 = new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
-                        var65,
-                        var70,
-                        CollectionsKt.listOf(var29),
-                        CollectionsKt.listOf(new BlockPos(-8, 135, 35)),
-                        me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IIIlllllIIIlIIllIllllIIllIIIlllllIlIlIllIIllIIllIlIIIlIlIIllIlIIlllIIIIlllIlIlllllllI
-                     );
-                     var27.put(var28, var48);
-                     var27 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
-                     var28 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4);
-                     String var66 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4);
-                     var10004 = CollectionsKt.listOf(new BlockPos(-89, 146, -13));
-                     var29 = new BlockPos[]{new BlockPos(-74, 169, -59), new BlockPos(-70, 178, -60)};
-                     me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var50 = new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
-                        var66,
-                        null,
-                        var10004,
-                        CollectionsKt.listOf(var29),
-                        me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII
-                     );
-                     var27.put(var28, var50);
-                     lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII.put(
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var63 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+               boolean var59 = false;
+               var7[var5++] = var63;
+               if ((var2 += var3) >= var6) {
+                  IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = var7;
+                  lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI = new String[16];
+                  llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI = new llIlIlIlIllllIlIIllIllIllllIIIllIIIIIIlllIIIIlIIllllIlIIIIlllIIIIIIIIIIlIIIlIlIIIlIlI();
+                  lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII = new HashMap<>();
+                  Map var27 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+                  Object var28 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0);
+                  String var65 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0);
+                  lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var70 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     new BlockPos(58, 197, -10), new Vec3(58.5, 199.52, -8.5)
+                  );
+                  BlockPos[] var29 = new BlockPos[]{new BlockPos(52, 197, -25), new BlockPos(43, 197, -19), new BlockPos(60, 220, -30)};
+                  List var10004 = CollectionsKt.listOf(var29);
+                  var29 = new BlockPos[]{new BlockPos(52, 214, -30), new BlockPos(52, 205, 16)};
+                  me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var46 = new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
+                     var65,
+                     var70,
+                     var10004,
+                     CollectionsKt.listOf(var29),
+                     me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll
+                  );
+                  var27.put(var28, var46);
+                  var27 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+                  var28 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1);
+                  String var66 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1);
+                  lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var71 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     new BlockPos(-132, 173, -52), new Vec3(-132.5, 175.52, -50.5)
+                  );
+                  var29 = new BlockPos[]{new BlockPos(-111, 166, -75), new BlockPos(-124, 170, -74), new BlockPos(-77, 187, -71)};
+                  me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var48 = new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
+                     var66,
+                     var71,
+                     CollectionsKt.listOf(var29),
+                     CollectionsKt.emptyList(),
+                     me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl
+                  );
+                  var27.put(var28, var48);
+                  var27 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+                  var28 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2);
+                  String var67 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2);
+                  lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var72 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     new BlockPos(170, 149, 32), new Vec3(171.5, 151.52, 31.5)
+                  );
+                  var29 = new BlockPos[]{new BlockPos(140, 152, 30), new BlockPos(141, 152, 26), new BlockPos(167, 148, 87)};
+                  var10004 = CollectionsKt.listOf(var29);
+                  var29 = new BlockPos[]{new BlockPos(114, 158, 23), new BlockPos(106, 163, 31)};
+                  me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var51 = new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
+                     var67,
+                     var72,
+                     var10004,
+                     CollectionsKt.listOf(var29),
+                     me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl
+                  );
+                  var27.put(var28, var51);
+                  var27 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+                  var28 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3);
+                  String var68 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3);
+                  lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var73 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     new BlockPos(43, 134, 21), new Vec3(42.5, 136.02, 22.5)
+                  );
+                  var29 = new BlockPos[]{new BlockPos(13, 127, 37), new BlockPos(-14, 126, 34), new BlockPos(8, 128, 39)};
+                  me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var53 = new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
+                     var68,
+                     var73,
+                     CollectionsKt.listOf(var29),
+                     CollectionsKt.listOf(new BlockPos(-8, 135, 35)),
+                     me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IIIlllllIIIlIIllIllllIIllIIIlllllIlIlIllIIllIIllIlIIIlIlIIllIlIIlllIIIIlllIlIlllllllI
+                  );
+                  var27.put(var28, var53);
+                  var27 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+                  var28 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4);
+                  String var69 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4);
+                  var10004 = CollectionsKt.listOf(new BlockPos(-89, 146, -13));
+                  var29 = new BlockPos[]{new BlockPos(-74, 169, -59), new BlockPos(-70, 178, -60)};
+                  me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var55 = new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
+                     var69,
+                     null,
+                     var10004,
+                     CollectionsKt.listOf(var29),
+                     me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII
+                  );
+                  var27.put(var28, var55);
+                  lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII.put(
+                     llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(5),
+                     new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
                         llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(5),
-                        new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(5),
-                           null,
-                           CollectionsKt.listOf(new BlockPos(-104, 144, 139)),
-                           CollectionsKt.emptyList(),
-                           me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IIIIIIlllIIlIIIIlllIIIlIIlIIlIllllIlllIlIIIllllIIlIIIIllIlIIIllllIllllIlIllIIllIIIIlI
-                        )
-                     );
-                     lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII.put(
+                        null,
+                        CollectionsKt.listOf(new BlockPos(-104, 144, 139)),
+                        CollectionsKt.emptyList(),
+                        me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IIIIIIlllIIlIIIIlllIIIlIIlIIlIllllIlllIlIIIllllIIlIIIIllIlIIIllllIllllIlIllIIllIIIIlI
+                     )
+                  );
+                  lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII.put(
+                     llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(6),
+                     new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
                         llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(6),
-                        new me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(6),
-                           null,
-                           CollectionsKt.listOf(new BlockPos(5, 127, 151)),
-                           CollectionsKt.emptyList(),
-                           me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IIlllIlIlIllIIlIlIlIlllIllIIllllIIllllllIlllIlIlIIllIlIIllllllIlIIIlllIIIIlllIIllIlII
-                        )
-                     );
-                     return;
-                  }
+                        null,
+                        CollectionsKt.listOf(new BlockPos(5, 127, 151)),
+                        CollectionsKt.emptyList(),
+                        me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI::IIlllIlIlIllIIlIlIlIlllIllIIllllIIllllllIlllIlIlIIllIlIIllllllIlIIIlllIIIIlllIIllIlII
+                     )
+                  );
+                  return;
+               }
 
-                  var3 = var4.charAt(var31);
-                  break;
-               default:
-                  var7[var5++] = var59;
-                  if ((var31 += var3) < var6) {
-                     var3 = var4.charAt(var31);
-                     continue label27;
-                  }
-
-                  var4 = "Ãs\u0017º\u000e(@\u0001\u0006a\u0081ÙTÂ.¥76É Ý8äÃ\u0018e¿7\u0093@¡\u00919ø8±<\n.¦ñ\u009c\u0089È\u0005Z¬â`";
-                  var6 = "Ãs\u0017º\u000e(@\u0001\u0006a\u0081ÙTÂ.¥76É Ý8äÃ\u0018e¿7\u0093@¡\u00919ø8±<\n.¦ñ\u009c\u0089È\u0005Z¬â`".length();
-                  var3 = 24;
-                  var31 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var51 = var4.substring(++var31, var31 + var3);
-            var54 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -418,5 +402,12 @@ public final class llIlIlIlIllllIlIIllIllIllllIIIllIIIIIIlllIIIIlIIllllIlIIIIlll
             var5
          );
       }
+   }
+
+   @Nullable
+   public final me.octo.client.utils.skyblock.mining.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI IIIIIIlllIIlIIIIlllIIIlIIlIIlIllllIlllIlIIIllllIIlIIIIllIlIIIllllIllllIlIllIIllIIIIlI$recovered$e2bf7048f1a92c2f(
+      @NotNull String commissionNameArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

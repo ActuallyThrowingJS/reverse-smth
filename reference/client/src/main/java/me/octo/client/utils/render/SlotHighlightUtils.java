@@ -98,7 +98,7 @@ public final class SlotHighlightUtils {
                Slot var17 = screenArg.getMenu().getSlot(var12.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI());
                Intrinsics.checkNotNullExpressionValue(var17, "getSlot(...)");
                Slot var14 = var17;
-               INSTANCE.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+               INSTANCE.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ba53c5525785bdb1(
                   contextArg, var5, screenArg, var14, var12.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI()
                );
             }
@@ -175,57 +175,62 @@ public final class SlotHighlightUtils {
 
       List var10000;
       try {
-         label77: {
+         label81: {
             Intrinsics.checkNotNullParameter(
                var1, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"i">(21683, 676051626559001509L ^ var2)
             );
             if (var5 != null) {
                var10000 = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.get(var1);
                if (var10000 != null) {
-                  break label77;
+                  break label81;
                }
             }
 
             return null;
          }
-      } catch (MatchException var12) {
+      } catch (MatchException var14) {
          throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-            var12, -2069539890614862466L, var2
+            var14, -2069539890614862466L, var2
          );
       }
 
-      label49:
       for (Object var8 : var10000) {
          var10000 = (List)var8;
 
-         do {
+         while (true) {
             SlotHighlightUtils.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var9 = (SlotHighlightUtils.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var10000;
             boolean var10 = false;
-            var16 = var9.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
-            label38:
+            int var11 = var9.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
+            label49:
             if (var5 != null) {
+               int var19 = var11;
+
                try {
-                  if (var16 == var4) {
-                     var16 = 1;
-                     break label38;
+                  if (var19 == var4) {
+                     var18 = 1;
+                     break label49;
                   }
-               } catch (MatchException var11) {
+               } catch (MatchException var13) {
                   throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                     var11, -2069539890614862466L, var2
+                     var13, -2069539890614862466L, var2
                   );
                }
 
-               var16 = 0;
+               var18 = 0;
+            } else {
+               var18 = var11;
             }
 
-            if (var16 == 0) {
-               continue label49;
+            if (var18 == 0) {
+               break;
+            }
+
+            if (var5 != null) {
+               return (SlotHighlightUtils.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var8;
             }
 
             var10000 = (List)var8;
-         } while (var5 == null);
-
-         return (SlotHighlightUtils.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var8;
+         }
       }
 
       return (SlotHighlightUtils.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)null;
@@ -252,46 +257,38 @@ public final class SlotHighlightUtils {
       String var6 = "\b\u0017w½\u008e\u0019\u001d\u0095\u0016\u0017é\u009aúÕfi¼µìòè·Íù\u0010x}\"UI\u009bô\u000e\f&V\u0082\u0016ë\u009aã\u0010Æ\u0007¤5\u0094)hç^\u001f\u0016ü\u009d#;,\u0010ÿ:¿\n\u0019óÇ\u008bë²ûÂ@Ð\u0017ô\u0010qÐ\u00ad+\u001f%¯µ%]çÝ&\u0099qg I«´£\u0001þ|\u0095Hãa\u0095\u0014ò¿~\u00883µ`6L8Õ\u009b\u0094«÷ý\u00ad\r¢\u0010\u009dL-¢wßjN*ÄûÐ\u009dO17\u0010\u0090éÔ¯4\u0002hY¥¾fYüöù0";
       int var8 = "\b\u0017w½\u008e\u0019\u001d\u0095\u0016\u0017é\u009aúÕfi¼µìòè·Íù\u0010x}\"UI\u009bô\u000e\f&V\u0082\u0016ë\u009aã\u0010Æ\u0007¤5\u0094)hç^\u001f\u0016ü\u009d#;,\u0010ÿ:¿\n\u0019óÇ\u008bë²ûÂ@Ð\u0017ô\u0010qÐ\u00ad+\u001f%¯µ%]çÝ&\u0099qg I«´£\u0001þ|\u0095Hãa\u0095\u0014ò¿~\u00883µ`6L8Õ\u009b\u0094«÷ý\u00ad\r¢\u0010\u009dL-¢wßjN*ÄûÐ\u009dO17\u0010\u0090éÔ¯4\u0002hY¥¾fYüöù0"
          .length();
-      char var5 = 24;
-      int var12 = -1;
+      char var5 = '\u0018';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0097Q»tp÷\u001do°_ÞH½]\u0017ª\u0010P\u009aà\u0099úh«ß=ª\u009a%ô`\u001d\u0097";
+            var8 = "\u0097Q»tp÷\u001do°_ÞH½]\u0017ª\u0010P\u009aà\u0099úh«ß=ª\u009a%ô`\u001d\u0097".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var9;
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[10];
-                     INSTANCE = new SlotHighlightUtils();
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new LinkedHashMap<>();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var9;
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[10];
+                  INSTANCE = new SlotHighlightUtils();
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new LinkedHashMap<>();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0097Q»tp÷\u001do°_ÞH½]\u0017ª\u0010P\u009aà\u0099úh«ß=ª\u009a%ô`\u001d\u0097";
-                  var8 = "\u0097Q»tp÷\u001do°_ÞH½]\u0017ª\u0010P\u009aà\u0099úh«ß=ª\u009a%ô`\u001d\u0097".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -391,6 +388,29 @@ public final class SlotHighlightUtils {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/utils/render/SlotHighlightUtils" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ae4c54f5756c7cae(
+      long argument1Arg, @NotNull String keyArg
+   ) {
+      argument1Arg = 123944458088324L;
+      argument1Arg = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII ^ argument1Arg;
+      Intrinsics.checkNotNullParameter(keyArg, "key");
+      IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.remove(keyArg);
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ba53c5525785bdb1(
+      @NotNull GuiGraphicsExtractor contextArg, long argument2Arg, @NotNull AbstractContainerScreen screenArg, @NotNull Slot slotArg, int argument5Arg
+   ) {
+      argument2Arg = 133912496131488L;
+      argument2Arg = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII ^ argument2Arg;
+      Intrinsics.checkNotNullParameter(contextArg, "context");
+      Intrinsics.checkNotNullParameter(screenArg, "screen");
+      Intrinsics.checkNotNullParameter(slotArg, "slot");
+      AbstractContainerScreenAccessor var7 = (AbstractContainerScreenAccessor)screenArg;
+      int var8 = slotArg.x + var7.getLeftPos();
+      int var9 = slotArg.y + var7.getTopPos();
+      contextArg.fill(var8, var9, var8 + 16, var9 + 16, argument5Arg);
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

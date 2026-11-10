@@ -48,7 +48,7 @@ public final class NoDrillReset extends BooleanModule {
    public static final boolean shouldContinueBreaking(@NotNull BlockPos var0, @Nullable ItemStack var1, @Nullable BlockPos var2) {
       long var3 = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ 93614647754953L;
       long var5 = var3 ^ 77743760647293L;
-      return lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      return lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$16e4fae1e097ecb3(
          var0, var1, var5, var2
       );
    }
@@ -274,43 +274,35 @@ public final class NoDrillReset extends BooleanModule {
          int var8 = "â5ôDÌ[o¤²ÉÇ\u00834S\rÂJ\u008eÛúr6Õ~Pëö&%\u000e\u0016£óTa\\&¾BC\u0018¨ÙI\u008f\u0094b\u0083D\u0014\u0090Q\u0082ö¿\u0016r+Ý\u008fÞ¨Ä³N(4ýW\u0092ÿaQ\\s\u0018ýr\u0093}f\u001bÂuç<\u0084»,\u009fNÃ»±_&Ð>¿p¢\u0085&0,M ô\tRú\u001c'½#¬±M«ñ\u0011rûA\u008e©kÌ\u0081aðóÌ\u0011ìLn\u0092ù\u0010Ùò_º\u00adiWj}´lFu!ã\u008c"
             .length();
          char var5 = '(';
-         int var12 = -1;
+         int var4 = -1;
 
-         label27:
          while (true) {
-            String var13 = var6.substring(++var12, var12 + var5);
+            byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+            String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
             byte var10001 = -1;
+            var9[var7++] = var21;
+            if ((var4 += var5) >= var8) {
+               var6 = "A\u0001\u008eÂÀk_}hñøøæÜ=\u0018(6Fo\baM\u0099/Æ\u00adhf\u009f]ÌðÉF¤Ãy\u001eÂ¨\u009f»ÚÇöâ^©ÌÁ\u008e.\u00ad¬\u000f¡";
+               var8 = "A\u0001\u008eÂÀk_}hñøøæÜ=\u0018(6Fo\baM\u0099/Æ\u00adhf\u009f]ÌðÉF¤Ãy\u001eÂ¨\u009f»ÚÇöâ^©ÌÁ\u008e.\u00ad¬\u000f¡".length();
+               var5 = '\u0010';
+               var4 = -1;
 
-            while (true) {
-               byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-               String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-               switch (var10001) {
-                  case 0:
-                     var9[var7++] = var19;
-                     if ((var12 += var5) >= var8) {
-                        lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var9;
-                        IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new String[7];
-                        return;
-                     }
+               while (true) {
+                  var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+                  String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+                  boolean var19 = false;
+                  var9[var7++] = var23;
+                  if ((var4 += var5) >= var8) {
+                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var9;
+                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new String[7];
+                     return;
+                  }
 
-                     var5 = var6.charAt(var12);
-                     break;
-                  default:
-                     var9[var7++] = var19;
-                     if ((var12 += var5) < var8) {
-                        var5 = var6.charAt(var12);
-                        continue label27;
-                     }
-
-                     var6 = "A\u0001\u008eÂÀk_}hñøøæÜ=\u0018(6Fo\baM\u0099/Æ\u00adhf\u009f]ÌðÉF¤Ãy\u001eÂ¨\u009f»ÚÇöâ^©ÌÁ\u008e.\u00ad¬\u000f¡";
-                     var8 = "A\u0001\u008eÂÀk_}hñøøæÜ=\u0018(6Fo\baM\u0099/Æ\u00adhf\u009f]ÌðÉF¤Ãy\u001eÂ¨\u009f»ÚÇöâ^©ÌÁ\u008e.\u00ad¬\u000f¡".length();
-                     var5 = 16;
-                     var12 = -1;
+                  var5 = var6.charAt(var4);
                }
-
-               var13 = var6.substring(++var12, var12 + var5);
-               var10001 = 0;
             }
+
+            var5 = var6.charAt(var4);
          }
       }
 
@@ -420,6 +412,62 @@ public final class NoDrillReset extends BooleanModule {
                var5
             );
          }
+      }
+
+      @JvmStatic
+      public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$16e4fae1e097ecb3(
+         @NotNull BlockPos blockPosArg, @Nullable ItemStack argument2Arg, long argument3Arg, @Nullable BlockPos argument4Arg
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      private final boolean llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$f1f5756029739569(
+         BlockPos param1, ItemStack param2, BlockPos param3, long param4
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      private final String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a7bb428036a06bc4(
+         long var1, ItemStack var3
+      ) {
+         var1 = 38577554022771L;
+         var1 = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ var1;
+         IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var4 = llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl();
+
+         ItemLore var10000;
+         try {
+            var10000 = (ItemLore)var3.get(DataComponents.LORE);
+            if (var10000 == null) {
+               return null;
+            }
+         } catch (MatchException var14) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var14);
+         }
+
+         ItemLore var5 = var10000;
+         StringBuilder var6 = new StringBuilder();
+         StringBuilder var7 = var6;
+         boolean var8 = false;
+
+         for (Object var17 : var5.lines()) {
+            Intrinsics.checkNotNullExpressionValue(var17, "next(...)");
+            Component var10 = (Component)var17;
+
+            try {
+               var7.append(var10.getString());
+               if (var4 != null) {
+                  var7.append(" ");
+                  if (var4 != null) {
+                     continue;
+                  }
+               }
+               break;
+            } catch (MatchException var13) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var13);
+            }
+         }
+
+         return var6.toString();
       }
    }
 }

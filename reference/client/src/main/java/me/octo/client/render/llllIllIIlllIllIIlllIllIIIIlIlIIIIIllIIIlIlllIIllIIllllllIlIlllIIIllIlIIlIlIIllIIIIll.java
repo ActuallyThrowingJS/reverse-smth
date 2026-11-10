@@ -1,6 +1,7 @@
 package me.octo.client.render;
 
 import com.mojang.blaze3d.buffers.GpuBufferSlice;
+import com.mojang.blaze3d.pipeline.RenderPipeline;
 import com.mojang.blaze3d.pipeline.RenderTarget;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.textures.FilterMode;
@@ -8,6 +9,7 @@ import com.mojang.blaze3d.textures.GpuSampler;
 import com.mojang.blaze3d.vertex.BufferBuilder;
 import com.mojang.blaze3d.vertex.ByteBufferBuilder;
 import com.mojang.blaze3d.vertex.MeshData;
+import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.VertexFormat;
 import com.mojang.blaze3d.vertex.VertexFormat.IndexType;
 import it.unimi.dsi.fastutil.ints.IntArrayList;
@@ -39,12 +41,14 @@ import me.octo.client.PolinexAccessor;
 import me.octo.client.events.impl.base.EventPriority;
 import me.octo.client.events.impl.base.annotations.SubscribeEvent;
 import me.octo.client.events.impl.render.WorldRenderEvent;
+import me.octo.client.modules.impl.macros.lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI;
 import me.octo.client.utils.PolinexLogger;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.phys.AABB;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.joml.Matrix4f;
+import org.joml.Matrix4fc;
 
 public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll {
    @NotNull
@@ -236,16 +240,250 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
          );
    }
 
+   // $VF: Could not verify finally blocks. A semaphore variable has been added to preserve control flow.
+   // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
    private final llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-      long param1, AABB[] param3, int[] param4, int param5, int param6
+      long var1, AABB[] var3, int[] var4, int var5, int var6
    ) {
-      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      var1 = lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll ^ var1;
+      long var7 = var1 ^ 125325745175746L;
+      String var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         2036645099467500509L, var1
+      );
+      int var10 = var6 << 24;
+      String var9 = var10000;
+      ByteBufferBuilder var11 = new ByteBufferBuilder(var5 * 24 * 16 + 64);
+      boolean var12 = false;
+      boolean var25 = false /* VF: Semaphore variable */;
+
+      Object var35;
+      label143: {
+         Object var38;
+         try {
+            var25 = true;
+            RenderPipeline var15 = llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI;
+            boolean var16 = false;
+            BufferBuilder var13 = new BufferBuilder(var11, var15.getVertexFormatMode(), var15.getVertexFormat());
+            boolean var14 = false;
+            int var33 = 0;
+
+            while (true) {
+               if (var33 >= var5) {
+                  if (!var14) {
+                     var35 = null;
+                     var25 = false;
+                     break label143;
+                  }
+                  break;
+               }
+
+               if (var9 != null) {
+                  break;
+               }
+
+               AABB var17 = var3[var33];
+
+               label118: {
+                  try {
+                     label115:
+                     try {
+                        var43 = var17;
+                        if (var17 != null) {
+                           break label115;
+                        }
+                        break label118;
+                     } catch (Throwable var29) {
+                        throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                           var29, 2297118725087888100L, var1
+                        );
+                     }
+                  } catch (Throwable var30) {
+                     throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                        var30, 2297118725087888100L, var1
+                     );
+                  }
+
+                  AABB var36 = var43;
+                  lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIllIllIllllIllIlIlIlIlIIIl.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+                     (VertexConsumer)var13,
+                     var7,
+                     (Matrix4fc)IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll,
+                     var36,
+                     new me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(
+                        var10
+                           | var4[var33]
+                              & llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"w">(27747, 4724337052314531710L ^ var1)
+                     ),
+                     0,
+                     8,
+                     null
+                  );
+                  var14 = true;
+               }
+
+               var33++;
+            }
+
+            MeshData var44 = var13.build();
+            if (var44 != null) {
+               MeshData var34 = var44;
+               var12 = true;
+               llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var37 = new llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                  var34, var11
+               );
+               var25 = false;
+               return var37;
+            }
+
+            var38 = null;
+            var25 = false;
+         } finally {
+            if (var25) {
+               if (var9 == null && !var12) {
+                  try {
+                     var11.close();
+                  } catch (Throwable var26) {
+                  }
+               }
+            }
+         }
+
+         try {
+            var11.close();
+         } catch (Throwable var28) {
+         }
+
+         return (llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var38;
+      }
+
+      try {
+         var11.close();
+      } catch (Throwable var27) {
+      }
+
+      return (llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var35;
    }
 
+   // $VF: Could not verify finally blocks. A semaphore variable has been added to preserve control flow.
+   // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
    private final llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-      AABB[] param1, int param2, long param3, int param5
+      AABB[] var1, int var2, long var3, int var5
    ) {
-      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      var3 = lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll ^ var3;
+      long var6 = var3 ^ 68030380149300L;
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var9 = new me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(
+         var5
+      );
+      ByteBufferBuilder var10 = new ByteBufferBuilder(var2 * 24 * 16 + 64);
+      String var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         3077596582761061675L, var3
+      );
+      boolean var11 = false;
+      String var8 = var10000;
+      boolean var24 = false /* VF: Semaphore variable */;
+
+      Object var34;
+      label143: {
+         Object var37;
+         try {
+            var24 = true;
+            RenderPipeline var14 = llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI;
+            boolean var15 = false;
+            BufferBuilder var12 = new BufferBuilder(var10, var14.getVertexFormatMode(), var14.getVertexFormat());
+            boolean var13 = false;
+            int var32 = 0;
+
+            while (true) {
+               if (var32 >= var2) {
+                  if (!var13) {
+                     var34 = null;
+                     var24 = false;
+                     break label143;
+                  }
+                  break;
+               }
+
+               if (var8 != null) {
+                  break;
+               }
+
+               AABB var16 = var1[var32];
+
+               label118: {
+                  try {
+                     label115:
+                     try {
+                        var42 = var16;
+                        if (var16 != null) {
+                           break label115;
+                        }
+                        break label118;
+                     } catch (Throwable var28) {
+                        throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                           var28, 2960920403819770898L, var3
+                        );
+                     }
+                  } catch (Throwable var29) {
+                     throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                        var29, 2960920403819770898L, var3
+                     );
+                  }
+
+                  AABB var35 = var42;
+                  lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIllIllIllllIllIlIlIlIlIIIl.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+                     (VertexConsumer)var12,
+                     var6,
+                     (Matrix4fc)IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll,
+                     var35,
+                     var9,
+                     0,
+                     8,
+                     null
+                  );
+                  var13 = true;
+               }
+
+               var32++;
+            }
+
+            MeshData var43 = var12.build();
+            if (var43 != null) {
+               MeshData var33 = var43;
+               var11 = true;
+               llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var36 = new llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                  var33, var10
+               );
+               var24 = false;
+               return var36;
+            }
+
+            var37 = null;
+            var24 = false;
+         } finally {
+            if (var24) {
+               if (var8 == null && !var11) {
+                  try {
+                     var10.close();
+                  } catch (Throwable var25) {
+                  }
+               }
+            }
+         }
+
+         try {
+            var10.close();
+         } catch (Throwable var27) {
+         }
+
+         return (llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var37;
+      }
+
+      try {
+         var10.close();
+      } catch (Throwable var26) {
+      }
+
+      return (llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)var34;
    }
 
    private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
@@ -286,12 +524,12 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
       long var7 = var2 ^ 65314301537574L;
       Intrinsics.checkNotNullParameter(eventArg, "event");
       IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
-      this.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var7);
+      this.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$0da559b1f8a9c1f1(var7);
 
       try {
          IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI.close();
       } catch (Throwable var10) {
-         PolinexLogger.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+         PolinexLogger.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$d74cc7cedfb6a782(
             var4, "[BlockFill] close failed: " + var10.getMessage(), (char)var6
          );
       }
@@ -381,227 +619,225 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
       String var26 = "ÏN6ùè+\u0010\u008aìÑýµ\u009fØ}\u0004\u0010\u008b\u0097d¨´èÓI.\u008be$2Ê0ë\u0018\\\u0007J}\tQ\u0015\u0086²Øèk2¦+ß\u001bÅáÒö<Fè0\u000e@°8}\u0093§éÏY®K\u009ef\u0092ïP:Û\u001fU%\u0011`\u009b\b\u0005O\u0017+r\u001e\u00adJærF\u0084r^¤(½îÎ~S&8Ìh\u0018fê3Ç\u0005\u008c\u009dø\rÇIáBÇÅÖ\rÀ¬Íb(a¦r´(\u0018Ãr3B0»\"\u0082{3Â`\u001fÐ£ô[\t\u0095\u0000uúk±\t\u0010\b7®\bf?\u008aæ\u0098T\u0002üN´7\b0\u0083Ò|´m»07R\u0016Ý\u008b\u0004ý\nyt\u0018b\u009a;E'\u0090jpæzPá¼bh\u0084ey·\u008f`\ta\u0099Âï¢ç3Ô\u0018\u001a\u0093¤É2µ×\u0016«íØüýOv·só\u0092ud:µ\u000b(1/Cº\u0099ãP\u0096\u0080\u009eÄ\u009bö\r·\u009d)Òêµ\u008f´K\u009cØ \u008e/\u0094NÓ\u0096l¡Ä5*£ÉS\u0010²å\u0096ÏüÄ\u0085\u008e\u008d²\u0094q\u008eyZf(+¾w[õ¿ ì®\u0002¬\u0006À«`\u0006 FÐ\u001a©gê÷[#³,ã¯ÈÚ\u0090Ì]\u0094\u009e5~\u001f\u0010Ûà_#pG?+ru8\u007f\u008bÛ5\u001c0obª\u000e\u00145gì=Ê\u008fíÊFÙûæ\u009f\u0015Í\u0084\u008cAG\u001få²1CWá_c\u0004&b'rQ£\u0095\"ûË'\u0096£x\u0010=Ô \r$ÒãÑ¡\u0093·]\u007fX\u008aÊ@|\u009a?g\u0097ÍX\u0007\u0083J&mP\u0006f\u0092=¯GK#äT½^ÌÕÀ\u0094\u0016¬\u0081\u00836\u001e\u00adß6\u0017á\u001f=u\u0016\u001d¢\u0002y\r\u001dßQ=||3w\u009a\u001f%ýre?\u0018ðMÞx/\u0092Ó_å3\u0001w\u0098áz¸Q¤>¹Yª- \u0018Þp\u0096\u0006àVDMù\u0001%\u0084=\u00879\u0001¦TÉó\u0016\u0090jÞ(ù\u0013Ôoh\u0095³UÔÌºM¦1ÅÂÚ<Õ!.\u0098\\Ð$\u0086öEÆ\u0019Ð8\u009b\u009e³s¦¯×N Þ\u0094\u0095H>F³YH\u008cô\u0093 Ì|\u0016\u0097^\u0084\"\ba\u0090ðÜ\u001a\u008b;\u0013@a±\u0018:¬iÎ\u0016\u0011àVvPöH¤§Ñ¹L¢ÀGC\u0011%ÿ\u0010wÅÓ×ª\u0006ö\u008b¢\f\u008c\u001dD\u0013ÕüH6\u001d\u0006\u007fX\u001a\u009eî(¼^§[ó_\u0093\u001a\u0004\n\u001b^#yÝuç`L\u0081»Î®õª§\u001c\u0087\u0000ôy!eÜ,©\u0094eù«\u009a\u0001\u0089åY|Ê+6Ãö\u008cËÎå:7\u000b\u0019|\u0013Â\u0013(\u001e¶\u0019\u00947«\u0086@¶\u008dç\u0080¨«Ö_\u009d\u0087B\u008ekl3ï¯ã*±÷¯«\u009egW×:ÿ8ÉD(u[Û´)Ë\u0002à\u00193\u0081\u009be±p\t\u0012õß_\u0096þ\u0092t \u0016gk\u0090)î2±N¡>\u0095\u0096CÞ\u0010ïWÝÛï?|Qp\u001fß\\\u0012.D\u0019\u0010Û\u008c\u00ad\u0017¢\u008eÐ E¹Ò\u0092bu\u0089s\u0010ê\u0081èÄ\\ü(\u0090²\u00035\u0082]pQ\u0097\u0010\u001cT\u0012Ûe\u0091d\u0087¾Rg\u009f`ú\u009e\u0088 àm¦\n\u008e:\u0017ÿ\u0083±úÑáj£!\u0096P\u0006(®^(\u0081¤ÿ\u008btà\u0017XÆ\u0010ç\u001b\u0093g\u0086\u0088\u008a2þ\u001cL<\u0003«\u0098À\u0010\u0094\u001e\u0017!\u008d\u0004ëÊ\u008e=b¿ÇM\u0083\u0088(C\u001fæ¾\u008a¢o@¶aK¤×.ð\u0095\u0094\u007fé\u001d@Uú\u0083g\u001d\u001bz \u0012Ió&\u000eÒÞªßa½ \u0093Ü\u001fx½Þ,G5Ôpó)0!q\u009eµýËøIB> Ùé\u0081f\u008fe\u0092\u0018\u0088\u0000L°e\u0094\u0004ìym\u001böö>¯W¾\u009e\u0012\u00169IôJ\u0010\u008cÀÓã\u008bIÚ«ªÙ·\u0080\u0099 ÀÈ8\u0084\t\t_'UÏ'\u0080ù\u000bÓ\u008e¾¾ÕTU2ª\u000f\u009a}õ\u0085(0 OÚø©D±\u0082½u\u001a\u0094ðt¢b8`«Ö¸RnæÄÏ8Þë8\u0083¡RÛãÛ.äT\u001aÖó#)aÏÝ!\u008dÎôîÁ}<êUu8\u001bB\u0011\u0082x\u0017HøÃÐä9±aÚ_\u008a\u0089Ð£nê\u0005Îñ·Ø";
       int var28 = "ÏN6ùè+\u0010\u008aìÑýµ\u009fØ}\u0004\u0010\u008b\u0097d¨´èÓI.\u008be$2Ê0ë\u0018\\\u0007J}\tQ\u0015\u0086²Øèk2¦+ß\u001bÅáÒö<Fè0\u000e@°8}\u0093§éÏY®K\u009ef\u0092ïP:Û\u001fU%\u0011`\u009b\b\u0005O\u0017+r\u001e\u00adJærF\u0084r^¤(½îÎ~S&8Ìh\u0018fê3Ç\u0005\u008c\u009dø\rÇIáBÇÅÖ\rÀ¬Íb(a¦r´(\u0018Ãr3B0»\"\u0082{3Â`\u001fÐ£ô[\t\u0095\u0000uúk±\t\u0010\b7®\bf?\u008aæ\u0098T\u0002üN´7\b0\u0083Ò|´m»07R\u0016Ý\u008b\u0004ý\nyt\u0018b\u009a;E'\u0090jpæzPá¼bh\u0084ey·\u008f`\ta\u0099Âï¢ç3Ô\u0018\u001a\u0093¤É2µ×\u0016«íØüýOv·só\u0092ud:µ\u000b(1/Cº\u0099ãP\u0096\u0080\u009eÄ\u009bö\r·\u009d)Òêµ\u008f´K\u009cØ \u008e/\u0094NÓ\u0096l¡Ä5*£ÉS\u0010²å\u0096ÏüÄ\u0085\u008e\u008d²\u0094q\u008eyZf(+¾w[õ¿ ì®\u0002¬\u0006À«`\u0006 FÐ\u001a©gê÷[#³,ã¯ÈÚ\u0090Ì]\u0094\u009e5~\u001f\u0010Ûà_#pG?+ru8\u007f\u008bÛ5\u001c0obª\u000e\u00145gì=Ê\u008fíÊFÙûæ\u009f\u0015Í\u0084\u008cAG\u001få²1CWá_c\u0004&b'rQ£\u0095\"ûË'\u0096£x\u0010=Ô \r$ÒãÑ¡\u0093·]\u007fX\u008aÊ@|\u009a?g\u0097ÍX\u0007\u0083J&mP\u0006f\u0092=¯GK#äT½^ÌÕÀ\u0094\u0016¬\u0081\u00836\u001e\u00adß6\u0017á\u001f=u\u0016\u001d¢\u0002y\r\u001dßQ=||3w\u009a\u001f%ýre?\u0018ðMÞx/\u0092Ó_å3\u0001w\u0098áz¸Q¤>¹Yª- \u0018Þp\u0096\u0006àVDMù\u0001%\u0084=\u00879\u0001¦TÉó\u0016\u0090jÞ(ù\u0013Ôoh\u0095³UÔÌºM¦1ÅÂÚ<Õ!.\u0098\\Ð$\u0086öEÆ\u0019Ð8\u009b\u009e³s¦¯×N Þ\u0094\u0095H>F³YH\u008cô\u0093 Ì|\u0016\u0097^\u0084\"\ba\u0090ðÜ\u001a\u008b;\u0013@a±\u0018:¬iÎ\u0016\u0011àVvPöH¤§Ñ¹L¢ÀGC\u0011%ÿ\u0010wÅÓ×ª\u0006ö\u008b¢\f\u008c\u001dD\u0013ÕüH6\u001d\u0006\u007fX\u001a\u009eî(¼^§[ó_\u0093\u001a\u0004\n\u001b^#yÝuç`L\u0081»Î®õª§\u001c\u0087\u0000ôy!eÜ,©\u0094eù«\u009a\u0001\u0089åY|Ê+6Ãö\u008cËÎå:7\u000b\u0019|\u0013Â\u0013(\u001e¶\u0019\u00947«\u0086@¶\u008dç\u0080¨«Ö_\u009d\u0087B\u008ekl3ï¯ã*±÷¯«\u009egW×:ÿ8ÉD(u[Û´)Ë\u0002à\u00193\u0081\u009be±p\t\u0012õß_\u0096þ\u0092t \u0016gk\u0090)î2±N¡>\u0095\u0096CÞ\u0010ïWÝÛï?|Qp\u001fß\\\u0012.D\u0019\u0010Û\u008c\u00ad\u0017¢\u008eÐ E¹Ò\u0092bu\u0089s\u0010ê\u0081èÄ\\ü(\u0090²\u00035\u0082]pQ\u0097\u0010\u001cT\u0012Ûe\u0091d\u0087¾Rg\u009f`ú\u009e\u0088 àm¦\n\u008e:\u0017ÿ\u0083±úÑáj£!\u0096P\u0006(®^(\u0081¤ÿ\u008btà\u0017XÆ\u0010ç\u001b\u0093g\u0086\u0088\u008a2þ\u001cL<\u0003«\u0098À\u0010\u0094\u001e\u0017!\u008d\u0004ëÊ\u008e=b¿ÇM\u0083\u0088(C\u001fæ¾\u008a¢o@¶aK¤×.ð\u0095\u0094\u007fé\u001d@Uú\u0083g\u001d\u001bz \u0012Ió&\u000eÒÞªßa½ \u0093Ü\u001fx½Þ,G5Ôpó)0!q\u009eµýËøIB> Ùé\u0081f\u008fe\u0092\u0018\u0088\u0000L°e\u0094\u0004ìym\u001böö>¯W¾\u009e\u0012\u00169IôJ\u0010\u008cÀÓã\u008bIÚ«ªÙ·\u0080\u0099 ÀÈ8\u0084\t\t_'UÏ'\u0080ù\u000bÓ\u008e¾¾ÕTU2ª\u000f\u009a}õ\u0085(0 OÚø©D±\u0082½u\u001a\u0094ðt¢b8`«Ö¸RnæÄÏ8Þë8\u0083¡RÛãÛ.äT\u001aÖó#)aÏÝ!\u008dÎôîÁ}<êUu8\u001bB\u0011\u0082x\u0017HøÃÐä9±aÚ_\u008a\u0089Ð£nê\u0005Îñ·Ø"
          .length();
-      char var25 = 16;
-      int var39 = -1;
+      char var25 = '\u0010';
+      int var24 = -1;
 
-      label72:
       while (true) {
-         String var40 = var26.substring(++var39, var39 + var25);
-         int var10001 = -1;
+         byte[] var30 = var22.doFinal(var26.substring(++var24, var24 + var25).getBytes("ISO-8859-1"));
+         String var61 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var30).intern();
+         byte var10001 = -1;
+         var29[var27++] = var61;
+         if ((var24 += var25) >= var28) {
+            var26 = "§ù\u0016\u0083\u0095\u001aô·ìG´\u009fé\u0081%º8¢\u008f}\u0084(uí\u000b>ý©\u009f\u009dÕÇ%ÍT\u0015:\u0019bx´ã\n\u0088\u0002]y\u0019;Ü\u001an\u0087)SæÐ~_\u009eÝ¢8#G\u0082\u001f\u001dB\u008d÷n\u001b";
+            var28 = "§ù\u0016\u0083\u0095\u001aô·ìG´\u009fé\u0081%º8¢\u008f}\u0084(uí\u000b>ý©\u009f\u009dÕÇ%ÍT\u0015:\u0019bx´ã\n\u0088\u0002]y\u0019;Ü\u001an\u0087)SæÐ~_\u009eÝ¢8#G\u0082\u001f\u001dB\u008d÷n\u001b"
+               .length();
+            var25 = '\u0010';
+            var24 = -1;
 
-         while (true) {
-            byte[] var30 = var22.doFinal(var40.getBytes("ISO-8859-1"));
-            String var54 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var30).intern();
-            switch (var10001) {
-               case 0:
-                  var29[var27++] = var54;
-                  if ((var39 += var25) >= var28) {
-                     llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = var29;
-                     lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll = new String[39];
-                     llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI = new HashMap(13);
-                     Cipher var11;
-                     var10000 = var11 = Cipher.getInstance("DES/CBC/NoPadding");
-                     var10002 = SecretKeyFactory.getInstance("DES");
-                     var10003 = new byte[]{(byte)(var31 >>> 56), 0, 0, 0, 0, 0, 0, 0};
+            while (true) {
+               var30 = var22.doFinal(var26.substring(++var24, var24 + var25).getBytes("ISO-8859-1"));
+               String var63 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var30).intern();
+               int var53 = 0;
+               var29[var27++] = var63;
+               if ((var24 += var25) >= var28) {
+                  llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = var29;
+                  lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll = new String[39];
+                  llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI = new HashMap(13);
+                  Cipher var11;
+                  var10000 = var11 = Cipher.getInstance("DES/CBC/NoPadding");
+                  var10002 = SecretKeyFactory.getInstance("DES");
+                  var10003 = new byte[]{(byte)(var31 >>> 56), 0, 0, 0, 0, 0, 0, 0};
 
-                     for (int var12 = 1; var12 < 8; var12++) {
-                        var10003[var12] = (byte)(var31 << var12 * 8 >>> 56);
-                     }
+                  for (int var12 = 1; var12 < 8; var12++) {
+                     var10003[var12] = (byte)(var31 << var12 * 8 >>> 56);
+                  }
 
-                     var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
-                     long[] var17 = new long[5];
-                     int var14 = 0;
-                     String var15 = "°\u008cÆ\u00adFu\u0094vÅL\u000f¹I\u0094Ð\u008f\u0088á\r\t\u009ej\u0015L";
-                     int var16 = "°\u008cÆ\u00adFu\u0094vÅL\u000f¹I\u0094Ð\u008f\u0088á\r\t\u009ej\u0015L".length();
-                     byte var13 = 0;
+                  var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+                  long[] var17 = new long[5];
+                  int var14 = 0;
+                  String var15 = "°\u008cÆ\u00adFu\u0094vÅL\u000f¹I\u0094Ð\u008f\u0088á\r\t\u009ej\u0015L";
+                  int var16 = "°\u008cÆ\u00adFu\u0094vÅL\u000f¹I\u0094Ð\u008f\u0088á\r\t\u009ej\u0015L".length();
+                  byte var13 = 0;
 
-                     label54:
-                     while (true) {
-                        var10001 = var13;
-                        var13 += 8;
-                        byte[] var18 = var15.substring(var10001, var13).getBytes("ISO-8859-1");
-                        long[] var43 = var17;
-                        var10001 = var14++;
-                        long var58 = (var18[0] & 255L) << 56
-                           | (var18[1] & 255L) << 48
-                           | (var18[2] & 255L) << 40
-                           | (var18[3] & 255L) << 32
-                           | (var18[4] & 255L) << 24
-                           | (var18[5] & 255L) << 16
-                           | (var18[6] & 255L) << 8
-                           | var18[7] & 255L;
-                        byte var62 = -1;
-
-                        while (true) {
-                           long var19 = var58;
-                           byte[] var21 = var11.doFinal(
-                              new byte[]{
-                                 (byte)(var19 >>> 56),
-                                 (byte)(var19 >>> 48),
-                                 (byte)(var19 >>> 40),
-                                 (byte)(var19 >>> 32),
-                                 (byte)(var19 >>> 24),
-                                 (byte)(var19 >>> 16),
-                                 (byte)(var19 >>> 8),
-                                 (byte)var19
-                              }
-                           );
-                           long var66 = (var21[0] & 255L) << 56
-                              | (var21[1] & 255L) << 48
-                              | (var21[2] & 255L) << 40
-                              | (var21[3] & 255L) << 32
-                              | (var21[4] & 255L) << 24
-                              | (var21[5] & 255L) << 16
-                              | (var21[6] & 255L) << 8
-                              | var21[7] & 255L;
-                           switch (var62) {
-                              case 0:
-                                 var43[var10001] = var66;
-                                 if (var13 >= var16) {
-                                    IIlllllIlIIlIllIllllIlIIlIIIlllllIIllIlIlIlIIIIlllIIlllIllIllIIIIIllllIIIIllllIIlIlII = var17;
-                                    IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll = new Integer[5];
-                                    IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"w">(
-                                       6026, var31 ^ 527152775203713470L
-                                    );
-                                    IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = new HashMap(13);
-                                    Cipher var0;
-                                    var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
-                                    var10002 = SecretKeyFactory.getInstance("DES");
-                                    var10003 = new byte[]{(byte)(var31 >>> 56), 0, 0, 0, 0, 0, 0, 0};
-
-                                    for (int var1 = 1; var1 < 8; var1++) {
-                                       var10003[var1] = (byte)(var31 << var1 * 8 >>> 56);
-                                    }
-
-                                    var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
-                                    long[] var6 = new long[2];
-                                    int var3 = 0;
-                                    String var4 = "\u0018Øª*ä\u001f7\u009a[lxE÷(Ãü";
-                                    int var5 = "\u0018Øª*ä\u001f7\u009a[lxE÷(Ãü".length();
-                                    byte var2 = 0;
-
-                                    do {
-                                       int var51 = var2;
-                                       var2 += 8;
-                                       byte[] var7 = var4.substring(var51, var2).getBytes("ISO-8859-1");
-                                       var51 = var3++;
-                                       long var8 = (var7[0] & 255L) << 56
-                                          | (var7[1] & 255L) << 48
-                                          | (var7[2] & 255L) << 40
-                                          | (var7[3] & 255L) << 32
-                                          | (var7[4] & 255L) << 24
-                                          | (var7[5] & 255L) << 16
-                                          | (var7[6] & 255L) << 8
-                                          | var7[7] & 255L;
-                                       byte[] var10 = var0.doFinal(
-                                          new byte[]{
-                                             (byte)(var8 >>> 56),
-                                             (byte)(var8 >>> 48),
-                                             (byte)(var8 >>> 40),
-                                             (byte)(var8 >>> 32),
-                                             (byte)(var8 >>> 24),
-                                             (byte)(var8 >>> 16),
-                                             (byte)(var8 >>> 8),
-                                             (byte)var8
-                                          }
-                                       );
-                                       var66 = (var10[0] & 255L) << 56
-                                          | (var10[1] & 255L) << 48
-                                          | (var10[2] & 255L) << 40
-                                          | (var10[3] & 255L) << 32
-                                          | (var10[4] & 255L) << 24
-                                          | (var10[5] & 255L) << 16
-                                          | (var10[6] & 255L) << 8
-                                          | var10[7] & 255L;
-                                       byte var65 = -1;
-                                       var6[var51] = var66;
-                                    } while (var2 < var5);
-
-                                    lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII = var6;
-                                    IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll = new Long[2];
-                                    IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll();
-                                    lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new ObjectArrayList();
-                                    IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new IntArrayList();
-                                    lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new IntArrayList();
-                                    IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new Object();
-                                    IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new me.octo.client.render.engine.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                                       "Polinex Block Fill Mask", false, 0, 4, null
-                                    );
-                                    IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = LazyKt.lazy(
-                                       llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll::IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI
-                                    );
-                                    lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = LazyKt.lazy(
-                                       llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll::IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI
-                                    );
-                                    PolinexAccessor.INSTANCE
-                                       .eventBus
-                                       .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                                          IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl, var33
-                                       );
-                                    llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new AABB[256];
-                                    lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new int[256];
-                                    lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new int[256];
-                                    lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new IntArrayList();
-                                    lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new ObjectArrayList();
-                                    IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new ObjectArrayList();
-                                    llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new ObjectArrayList();
-                                    IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new ObjectArrayList();
-                                    IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new Matrix4f();
-                                    IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new Object();
-                                    IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = new Object2ObjectOpenHashMap();
-                                    llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = new ObjectArrayList();
-                                    IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = new Matrix4f();
-                                    return;
-                                 }
-                                 break;
-                              default:
-                                 var43[var10001] = var66;
-                                 if (var13 < var16) {
-                                    continue label54;
-                                 }
-
-                                 var15 = "\u001dï:*\u0010\tS\u008e\u008b÷/²ÎÓ\u0018U";
-                                 var16 = "\u001dï:*\u0010\tS\u008e\u008b÷/²ÎÓ\u0018U".length();
-                                 var13 = 0;
-                           }
-
-                           byte var50 = var13;
-                           var13 += 8;
-                           var18 = var15.substring(var50, var13).getBytes("ISO-8859-1");
-                           var43 = var17;
-                           var10001 = var14++;
-                           var58 = (var18[0] & 255L) << 56
-                              | (var18[1] & 255L) << 48
-                              | (var18[2] & 255L) << 40
-                              | (var18[3] & 255L) << 32
-                              | (var18[4] & 255L) << 24
-                              | (var18[5] & 255L) << 16
-                              | (var18[6] & 255L) << 8
-                              | var18[7] & 255L;
-                           var62 = 0;
+                  do {
+                     var53 = var13;
+                     var13 += 8;
+                     byte[] var18 = var15.substring(var53, var13).getBytes("ISO-8859-1");
+                     var53 = var14++;
+                     long var19 = (var18[0] & 255L) << 56
+                        | (var18[1] & 255L) << 48
+                        | (var18[2] & 255L) << 40
+                        | (var18[3] & 255L) << 32
+                        | (var18[4] & 255L) << 24
+                        | (var18[5] & 255L) << 16
+                        | (var18[6] & 255L) << 8
+                        | var18[7] & 255L;
+                     byte[] var21 = var11.doFinal(
+                        new byte[]{
+                           (byte)(var19 >>> 56),
+                           (byte)(var19 >>> 48),
+                           (byte)(var19 >>> 40),
+                           (byte)(var19 >>> 32),
+                           (byte)(var19 >>> 24),
+                           (byte)(var19 >>> 16),
+                           (byte)(var19 >>> 8),
+                           (byte)var19
                         }
-                     }
+                     );
+                     long var10004 = (var21[0] & 255L) << 56
+                        | (var21[1] & 255L) << 48
+                        | (var21[2] & 255L) << 40
+                        | (var21[3] & 255L) << 32
+                        | (var21[4] & 255L) << 24
+                        | (var21[5] & 255L) << 16
+                        | (var21[6] & 255L) << 8
+                        | var21[7] & 255L;
+                     byte var68 = -1;
+                     var17[var53] = var10004;
+                  } while (var13 < var16);
+
+                  var15 = "\u001dï:*\u0010\tS\u008e\u008b÷/²ÎÓ\u0018U";
+                  var16 = "\u001dï:*\u0010\tS\u008e\u008b÷/²ÎÓ\u0018U".length();
+                  var13 = 0;
+
+                  do {
+                     int var57 = var13;
+                     var13 += 8;
+                     byte[] var40 = var15.substring(var57, var13).getBytes("ISO-8859-1");
+                     var57 = var14++;
+                     long var41 = (var40[0] & 255L) << 56
+                        | (var40[1] & 255L) << 48
+                        | (var40[2] & 255L) << 40
+                        | (var40[3] & 255L) << 32
+                        | (var40[4] & 255L) << 24
+                        | (var40[5] & 255L) << 16
+                        | (var40[6] & 255L) << 8
+                        | var40[7] & 255L;
+                     byte[] var42 = var11.doFinal(
+                        new byte[]{
+                           (byte)(var41 >>> 56),
+                           (byte)(var41 >>> 48),
+                           (byte)(var41 >>> 40),
+                           (byte)(var41 >>> 32),
+                           (byte)(var41 >>> 24),
+                           (byte)(var41 >>> 16),
+                           (byte)(var41 >>> 8),
+                           (byte)var41
+                        }
+                     );
+                     long var72 = (var42[0] & 255L) << 56
+                        | (var42[1] & 255L) << 48
+                        | (var42[2] & 255L) << 40
+                        | (var42[3] & 255L) << 32
+                        | (var42[4] & 255L) << 24
+                        | (var42[5] & 255L) << 16
+                        | (var42[6] & 255L) << 8
+                        | var42[7] & 255L;
+                     boolean var69 = false;
+                     var17[var57] = var72;
+                  } while (var13 < var16);
+
+                  IIlllllIlIIlIllIllllIlIIlIIIlllllIIllIlIlIlIIIIlllIIlllIllIllIIIIIllllIIIIllllIIlIlII = var17;
+                  IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll = new Integer[5];
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"w">(
+                     6026, var31 ^ 527152775203713470L
+                  );
+                  IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = new HashMap(13);
+                  Cipher var0;
+                  var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
+                  var10002 = SecretKeyFactory.getInstance("DES");
+                  var10003 = new byte[]{(byte)(var31 >>> 56), 0, 0, 0, 0, 0, 0, 0};
+
+                  for (int var1 = 1; var1 < 8; var1++) {
+                     var10003[var1] = (byte)(var31 << var1 * 8 >>> 56);
                   }
 
-                  var25 = var26.charAt(var39);
-                  break;
-               default:
-                  var29[var27++] = var54;
-                  if ((var39 += var25) < var28) {
-                     var25 = var26.charAt(var39);
-                     continue label72;
-                  }
+                  var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+                  long[] var6 = new long[2];
+                  int var3 = 0;
+                  String var4 = "\u0018Øª*ä\u001f7\u009a[lxE÷(Ãü";
+                  int var5 = "\u0018Øª*ä\u001f7\u009a[lxE÷(Ãü".length();
+                  byte var2 = 0;
 
-                  var26 = "§ù\u0016\u0083\u0095\u001aô·ìG´\u009fé\u0081%º8¢\u008f}\u0084(uí\u000b>ý©\u009f\u009dÕÇ%ÍT\u0015:\u0019bx´ã\n\u0088\u0002]y\u0019;Ü\u001an\u0087)SæÐ~_\u009eÝ¢8#G\u0082\u001f\u001dB\u008d÷n\u001b";
-                  var28 = "§ù\u0016\u0083\u0095\u001aô·ìG´\u009fé\u0081%º8¢\u008f}\u0084(uí\u000b>ý©\u009f\u009dÕÇ%ÍT\u0015:\u0019bx´ã\n\u0088\u0002]y\u0019;Ü\u001an\u0087)SæÐ~_\u009eÝ¢8#G\u0082\u001f\u001dB\u008d÷n\u001b"
-                     .length();
-                  var25 = 16;
-                  var39 = -1;
+                  do {
+                     int var59 = var2;
+                     var2 += 8;
+                     byte[] var7 = var4.substring(var59, var2).getBytes("ISO-8859-1");
+                     var59 = var3++;
+                     long var8 = (var7[0] & 255L) << 56
+                        | (var7[1] & 255L) << 48
+                        | (var7[2] & 255L) << 40
+                        | (var7[3] & 255L) << 32
+                        | (var7[4] & 255L) << 24
+                        | (var7[5] & 255L) << 16
+                        | (var7[6] & 255L) << 8
+                        | var7[7] & 255L;
+                     byte[] var10 = var0.doFinal(
+                        new byte[]{
+                           (byte)(var8 >>> 56),
+                           (byte)(var8 >>> 48),
+                           (byte)(var8 >>> 40),
+                           (byte)(var8 >>> 32),
+                           (byte)(var8 >>> 24),
+                           (byte)(var8 >>> 16),
+                           (byte)(var8 >>> 8),
+                           (byte)var8
+                        }
+                     );
+                     long var73 = (var10[0] & 255L) << 56
+                        | (var10[1] & 255L) << 48
+                        | (var10[2] & 255L) << 40
+                        | (var10[3] & 255L) << 32
+                        | (var10[4] & 255L) << 24
+                        | (var10[5] & 255L) << 16
+                        | (var10[6] & 255L) << 8
+                        | var10[7] & 255L;
+                     byte var71 = -1;
+                     var6[var59] = var73;
+                  } while (var2 < var5);
+
+                  lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII = var6;
+                  IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll = new Long[2];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new ObjectArrayList();
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new IntArrayList();
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new IntArrayList();
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new Object();
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new me.octo.client.render.engine.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     "Polinex Block Fill Mask", false, 0, 4, null
+                  );
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = LazyKt.lazy(
+                     llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll::IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI
+                  );
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = LazyKt.lazy(
+                     llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll::IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI
+                  );
+                  PolinexAccessor.INSTANCE
+                     .eventBus
+                     .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$864ed80a9d741ba9(
+                        IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl, var33
+                     );
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new AABB[256];
+                  lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new int[256];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new int[256];
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new IntArrayList();
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new ObjectArrayList();
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new ObjectArrayList();
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new ObjectArrayList();
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new ObjectArrayList();
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new Matrix4f();
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new Object();
+                  IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = new Object2ObjectOpenHashMap();
+                  llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = new ObjectArrayList();
+                  IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = new Matrix4f();
+                  return;
+               }
+
+               var25 = var26.charAt(var24);
             }
-
-            var40 = var26.substring(++var39, var39 + var25);
-            var10001 = 0;
          }
+
+         var25 = var26.charAt(var24);
       }
    }
 
@@ -895,6 +1131,48 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
             var5
          );
       }
+   }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$22d03e917c0d12cd(
+      @NotNull AABB[] param0, @NotNull int[] param1, long param2, @Nullable int[] param4, int param5, int param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a95987c762f7f6d8(
+      @NotNull AABB boxArg, long argument2Arg, int argument3Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$0da559b1f8a9c1f1(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$601ee12ab6cb5099(
+      long param1,
+      llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$bc25633f484c13d5(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$300b9ed83581b7c1(
+      RenderTarget param1, List param2, long param3, Matrix4f param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$254598bf23f2c78d(
+      long argument1Arg, @NotNull Object keyArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    private static final class IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {
@@ -1463,6 +1741,10 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
                var5
             );
          }
+      }
+
+      public final void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$d2aef44e829c5c31(long param1) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
       }
    }
 

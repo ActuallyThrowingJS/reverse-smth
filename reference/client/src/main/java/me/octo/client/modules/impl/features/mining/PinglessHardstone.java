@@ -115,48 +115,40 @@ public final class PinglessHardstone extends BooleanModule {
       String var6 = "Ô¾« ®%\u0080|¨c,S#¤\fé(ÎÑWX\u0096\u0098\u0000\u008c=(\u0016bÂ\u0096Çû\u001aX\u0083A\u0019\r\u0015©\u0099âW\u009fÞ'\u0097à«6_ÎÔ\u0004\u001d  á³ Úã\"\u00032$Ëb\u0099ØÝ\u008b¾-\u0019ÿê\u001a\u0090!\fxã'rýý\u001fU\u0018ËG{w\u009dÈ\u0005ðÓ¶\u0095Eå·\u0000c\\Tðn\n\u0081}ª(\u0094\u0093\u008d\u0018âMÑjðV±º}¢\u001cññÂûì¥\u009c×ªÔ\u0080?U%\u008e\u00add¼\t\u0091Ä\u00adtmV\u0018¡»Ãø¾\u0087C\u0011ì\u00ad\u0090bûH\u0015\u0013<Í\u0017\u00149\u0004óöHP4ûÄ ül<ÿCD.\u0087MÊ\u00ad\u0013\u0002$H{½\u008c·\u008d·dô\u001eTãZ|Ý°bØHc\u0084ý]F§ÞäÙ\u0098ÆÌhNª§©Ó¯Ø»ë6;a\u0091o{O8\u0010fÑ\u0013";
       int var8 = "Ô¾« ®%\u0080|¨c,S#¤\fé(ÎÑWX\u0096\u0098\u0000\u008c=(\u0016bÂ\u0096Çû\u001aX\u0083A\u0019\r\u0015©\u0099âW\u009fÞ'\u0097à«6_ÎÔ\u0004\u001d  á³ Úã\"\u00032$Ëb\u0099ØÝ\u008b¾-\u0019ÿê\u001a\u0090!\fxã'rýý\u001fU\u0018ËG{w\u009dÈ\u0005ðÓ¶\u0095Eå·\u0000c\\Tðn\n\u0081}ª(\u0094\u0093\u008d\u0018âMÑjðV±º}¢\u001cññÂûì¥\u009c×ªÔ\u0080?U%\u008e\u00add¼\t\u0091Ä\u00adtmV\u0018¡»Ãø¾\u0087C\u0011ì\u00ad\u0090bûH\u0015\u0013<Í\u0017\u00149\u0004óöHP4ûÄ ül<ÿCD.\u0087MÊ\u00ad\u0013\u0002$H{½\u008c·\u008d·dô\u001eTãZ|Ý°bØHc\u0084ý]F§ÞäÙ\u0098ÆÌhNª§©Ó¯Ø»ë6;a\u0091o{O8\u0010fÑ\u0013"
          .length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "X\u0098ª È\u0081IÄndáÎÛõ°\u008f(\u001fî£þêC#£\u0006NdÁD\u0001ÄHS:q\u0090Íà¸}SÇn_r©\f\u0080ósÙö·|²â";
+            var8 = "X\u0098ª È\u0081IÄndáÎÛõ°\u008f(\u001fî£þêC#£\u0006NdÁD\u0001ÄHS:q\u0090Íà¸}SÇn_r©\f\u0080ósÙö·|²â".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var9;
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[9];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new PinglessHardstone();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var9;
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[9];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new PinglessHardstone();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "X\u0098ª È\u0081IÄndáÎÛõ°\u008f(\u001fî£þêC#£\u0006NdÁD\u0001ÄHS:q\u0090Íà¸}SÇn_r©\f\u0080ósÙö·|²â";
-                  var8 = "X\u0098ª È\u0081IÄndáÎÛõ°\u008f(\u001fî£þêC#£\u0006NdÁD\u0001ÄHS:q\u0090Íà¸}SÇn_r©\f\u0080ósÙö·|²â".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -265,5 +257,23 @@ public final class PinglessHardstone extends BooleanModule {
             var5
          );
       }
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$dde74c502eeb537c(
+      long param1, Block param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final boolean llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$26f916ff20f6eb95(
+      Block param1, long param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final boolean IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$c55c031b1c520dbe(
+      long param1, Block param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

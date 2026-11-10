@@ -76,49 +76,41 @@ public final class ShowGhosts extends BooleanModule {
       int var7 = 0;
       String var6 = "{WM¤}\u008dï\u0017Û\u0015\u000fÉ\b ×]\u0018(\u0088³Æc¾¸ä\u0089p\\â·êËYMð_¢\u0013\u0081X¥";
       int var8 = "{WM¤}\u008dï\u0017Û\u0015\u000fÉ\b ×]\u0018(\u0088³Æc¾¸ä\u0089p\\â·êËYMð_¢\u0013\u0081X¥".length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0003û\u000eIÔôiaXîùº\u0001\u0019d\u008dÔõGdZÝ/\u0016K·Li¶Â\u001beü_Ë;\u0099uº\u008eY\u001fc·×Xîiì®²§\u008c\u008a¨¹1sh\u0017Ñç!Æ\u0018vÌåTêOª\u0014±Y\u0092@×\u0080PÜ& +ïÐ\u001fÇ£";
+            var8 = "\u0003û\u000eIÔôiaXîùº\u0001\u0019d\u008dÔõGdZÝ/\u0016K·Li¶Â\u001beü_Ë;\u0099uº\u008eY\u001fc·×Xîiì®²§\u008c\u008a¨¹1sh\u0017Ñç!Æ\u0018vÌåTêOª\u0014±Y\u0092@×\u0080PÜ& +ïÐ\u001fÇ£"
+               .length();
+            var5 = '@';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[4];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new ShowGhosts();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[4];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new ShowGhosts();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0003û\u000eIÔôiaXîùº\u0001\u0019d\u008dÔõGdZÝ/\u0016K·Li¶Â\u001beü_Ë;\u0099uº\u008eY\u001fc·×Xîiì®²§\u008c\u008a¨¹1sh\u0017Ñç!Æ\u0018vÌåTêOª\u0014±Y\u0092@×\u0080PÜ& +ïÐ\u001fÇ£";
-                  var8 = "\u0003û\u000eIÔôiaXîùº\u0001\u0019d\u008dÔõGdZÝ/\u0016K·Li¶Â\u001beü_Ë;\u0099uº\u008eY\u001fc·×Xîiì®²§\u008c\u008a¨¹1sh\u0017Ñç!Æ\u0018vÌåTêOª\u0014±Y\u0092@×\u0080PÜ& +ïÐ\u001fÇ£"
-                     .length();
-                  var5 = '@';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

@@ -64,17 +64,9 @@ public final class llllIIIlIIlIIIllllIllIIllIIIllIlIIllIIIIlllIIlllIlIIIIIIIlllI
 
    @Override
    public boolean IIlIIIIllIlIIlIIIlllIlIlIIllllIlIIIllIIlIlllIlIlllIIlIIIIllIIllllIlIlllIlIlIIlllllIII(long var1) {
-      try {
-         if (me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-               .IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI()
-            == me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.DWARVEN_MINES) {
-            return true;
-         }
-      } catch (MatchException var3) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3);
-      }
-
-      return false;
+      return me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+            .IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI()
+         == me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.DWARVEN_MINES;
    }
 
    @NotNull
@@ -103,143 +95,135 @@ public final class llllIIIlIIlIIIllllIllIIllIIIllIlIIllIIIIlllIIlllIlIIIIIIIlllI
       String var4 = "Þ\u0082âY\u0084½a\u001d£\u0000§\u001a!ÍØ¶U\u000eT²`\u0097\"00\u0002¶ñýÁøÅ0pE\u00adÁDs:ÓPI\u0001\u0000\u00ad\u0010:,\u0095Cr\u0000â\\ð\u0086\u0016£\u0093\tAÿÖ,?¿/ç\tð17(µf\u007fA>¢ö©^\u001dìM \u009fi*þU`$¹\u008c÷*káïx\u0087Ê¸\rß4üéq\u0019Áã\u0010î¯9<¸Í¯sÃ±\u0015\u0097\u00adÁòÓ Â%\u0083\u0082$éI\u0091XWì§Ë\u0094Ff\u0002³Õ/ÌTr¤fÅ¨Fs\u000bç;\u0010Æ'\\)wI/\u0005B:\u009d´\u009e\u001c\u0083k(§\u0095æ(=ãb\u009fÛx)÷\u008aYD\u008eç}Ëâ'É¸öÃïd\u0095\u0000p\u0004eùq\u008a÷\u0006R\u001d\u001a\u0018\u0095Ý£+{G\u001b¶\u0012\u0085g)²\u0096\u0098Õ÷\nMÜ\u0085$\u0003r(þ¢î\u009bÇMYç\u0082ç°ê~¸E]D!¼ð\u001d<£ü\u008f¬O³Ó\bÉÛ,Ä©s¡õb*";
       int var6 = "Þ\u0082âY\u0084½a\u001d£\u0000§\u001a!ÍØ¶U\u000eT²`\u0097\"00\u0002¶ñýÁøÅ0pE\u00adÁDs:ÓPI\u0001\u0000\u00ad\u0010:,\u0095Cr\u0000â\\ð\u0086\u0016£\u0093\tAÿÖ,?¿/ç\tð17(µf\u007fA>¢ö©^\u001dìM \u009fi*þU`$¹\u008c÷*káïx\u0087Ê¸\rß4üéq\u0019Áã\u0010î¯9<¸Í¯sÃ±\u0015\u0097\u00adÁòÓ Â%\u0083\u0082$éI\u0091XWì§Ë\u0094Ff\u0002³Õ/ÌTr¤fÅ¨Fs\u000bç;\u0010Æ'\\)wI/\u0005B:\u009d´\u009e\u001c\u0083k(§\u0095æ(=ãb\u009fÛx)÷\u008aYD\u008eç}Ëâ'É¸öÃïd\u0095\u0000p\u0004eùq\u008a÷\u0006R\u001d\u001a\u0018\u0095Ý£+{G\u001b¶\u0012\u0085g)²\u0096\u0098Õ÷\nMÜ\u0085$\u0003r(þ¢î\u009bÇMYç\u0082ç°ê~¸E]D!¼ð\u001d<£ü\u008f¬O³Ó\bÉÛ,Ä©s¡õb*"
          .length();
-      char var3 = 24;
-      int var16 = -1;
+      char var3 = '\u0018';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var19 = var4.substring(++var16, var16 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var30 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var30;
+         if ((var2 += var3) >= var6) {
+            var4 = "\u0081\u009aUò4|Nõ?\u0097\u001b³ª\u0007¡\u00adÀ¢AÔ¾DçE\u0006yC\u0001\u0094=ek(w\u001b{w\u0013\u0092§\u0099À\u00951Q\u000f\u0006p,\u0089\u001eØ×\u0089\u0082)\tl\u007fÀ\u000b\u0097;8÷Ë\u0084\u0011h®ÎPÈ";
+            var6 = "\u0081\u009aUò4|Nõ?\u0097\u001b³ª\u0007¡\u00adÀ¢AÔ¾DçE\u0006yC\u0001\u0094=ek(w\u001b{w\u0013\u0092§\u0099À\u00951Q\u000f\u0006p,\u0089\u001eØ×\u0089\u0082)\tl\u007fÀ\u000b\u0097;8÷Ë\u0084\u0011h®ÎPÈ"
+               .length();
+            var3 = ' ';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var19.getBytes("ISO-8859-1"));
-            String var28 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var28;
-                  if ((var16 += var3) >= var6) {
-                     IlllllIllIlIIlIllllIlIlIIlIIllIlIIlIIllIlllllllllIlIIlIIlIlIlIIIllIlIllllIIIlIIlllIIl = var7;
-                     IIllllIllIlIIIIIllIIllIlllIIlIIIIlIllIIlllllIIlllIIIllIlllIIlIlIIlIIlIIIlIIlllIlIIIII = new String[11];
-                     IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll = "Divan's Gateway Small";
-                     IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = "Cliffside Veins";
-                     lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII = "Divan's Gateway Big";
-                     llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI = new llllIIIlIIlIIIllllIllIIllIIIllIlIIllIIIIlllIIlllIlIIIIIIIlllIIllIlIllIlIlIIIIlIIlIlll();
-                     llllIIIlIIlIIIllllIllIIllIIIllIlIIllIIIIlllIIlllIlIIIIIIIlllIIllIlIllIlIlIIIIlIIlIlll var21 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI;
-                     me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl[] var14 = new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl[]{
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(2, 166, -11),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(8, 181, 19),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(27, 179, 67),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(-23, 167, 99),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(27, 179, 105),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(11, 225, 129),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(11, 225, 130),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WALK
-                        )
-                     };
-                     var21.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                        "Divan's Gateway Big", CollectionsKt.arrayListOf(var14), var11, var12
-                     );
-                     llllIIIlIIlIIIllllIllIIllIIIllIlIIllIIIIlllIIlllIlIIIIIIIlllIIllIlIllIlIlIIIIlIIlIlll var22 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI;
-                     var14 = new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl[]{
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(2, 165, -12),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(26, 176, 8),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(27, 179, 67),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(-8, 161, 106),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(-27, 179, 105),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(-16, 214, 136),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(-16, 214, 136),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WALK
-                        )
-                     };
-                     var22.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                        "Divan's Gateway Small", CollectionsKt.arrayListOf(var14), var11, var12
-                     );
-                     llllIIIlIIlIIIllllIllIIllIIIllIlIIllIIIIlllIIlllIlIIIIIIIlllIIllIlIllIlIlIIIIlIIlIlll var23 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI;
-                     var14 = new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl[]{
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(3, 165, -12),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(27, 178, 8),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(27, 169, 67),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(14, 168, 33),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
-                        ),
-                        new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
-                           new BlockPos(13, 168, 33),
-                           me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WALK
-                        )
-                     };
-                     var23.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                        "Cliffside Veins", CollectionsKt.arrayListOf(var14), var11, var12
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var32 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+               boolean var28 = false;
+               var7[var5++] = var32;
+               if ((var2 += var3) >= var6) {
+                  IlllllIllIlIIlIllllIlIlIIlIIllIlIIlIIllIlllllllllIlIIlIIlIlIlIIIllIlIllllIIIlIIlllIIl = var7;
+                  IIllllIllIlIIIIIllIIllIlllIIlIIIIlIllIIlllllIIlllIIIllIlllIIlIlIIlIIlIIIlIIlllIlIIIII = new String[11];
+                  IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll = "Divan's Gateway Small";
+                  IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = "Cliffside Veins";
+                  lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII = "Divan's Gateway Big";
+                  llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI = new llllIIIlIIlIIIllllIllIIllIIIllIlIIllIIIIlllIIlllIlIIIIIIIlllIIllIlIllIlIlIIIIlIIlIlll();
+                  llllIIIlIIlIIIllllIllIIllIIIllIlIIllIIIIlllIIlllIlIIIIIIIlllIIllIlIllIlIlIIIIlIIlIlll var24 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI;
+                  me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl[] var14 = new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl[]{
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(2, 166, -11),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(8, 181, 19),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(27, 179, 67),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(-23, 167, 99),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(27, 179, 105),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(11, 225, 129),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(11, 225, 130),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WALK
+                     )
+                  };
+                  var24.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                     "Divan's Gateway Big", CollectionsKt.arrayListOf(var14), var11, var12
+                  );
+                  llllIIIlIIlIIIllllIllIIllIIIllIlIIllIIIIlllIIlllIlIIIIIIIlllIIllIlIllIlIlIIIIlIIlIlll var25 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI;
+                  var14 = new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl[]{
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(2, 165, -12),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(26, 176, 8),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(27, 179, 67),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(-8, 161, 106),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(-27, 179, 105),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(-16, 214, 136),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(-16, 214, 136),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WALK
+                     )
+                  };
+                  var25.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                     "Divan's Gateway Small", CollectionsKt.arrayListOf(var14), var11, var12
+                  );
+                  llllIIIlIIlIIIllllIllIIllIIIllIlIIllIIIIlllIIlllIlIIIIIIIlllIIllIlIllIlIlIIIIlIIlIlll var26 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI;
+                  var14 = new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl[]{
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(3, 165, -12),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(27, 178, 8),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(27, 169, 67),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(14, 168, 33),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WARP
+                     ),
+                     new me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl(
+                        new BlockPos(13, 168, 33),
+                        me.octo.client.modules.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.WALK
+                     )
+                  };
+                  var26.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                     "Cliffside Veins", CollectionsKt.arrayListOf(var14), var11, var12
+                  );
+                  return;
+               }
 
-                  var3 = var4.charAt(var16);
-                  break;
-               default:
-                  var7[var5++] = var28;
-                  if ((var16 += var3) < var6) {
-                     var3 = var4.charAt(var16);
-                     continue label27;
-                  }
-
-                  var4 = "\u0081\u009aUò4|Nõ?\u0097\u001b³ª\u0007¡\u00adÀ¢AÔ¾DçE\u0006yC\u0001\u0094=ek(w\u001b{w\u0013\u0092§\u0099À\u00951Q\u000f\u0006p,\u0089\u001eØ×\u0089\u0082)\tl\u007fÀ\u000b\u0097;8÷Ë\u0084\u0011h®ÎPÈ";
-                  var6 = "\u0081\u009aUò4|Nõ?\u0097\u001b³ª\u0007¡\u00adÀ¢AÔ¾DçE\u0006yC\u0001\u0094=ek(w\u001b{w\u0013\u0092§\u0099À\u00951Q\u000f\u0006p,\u0089\u001eØ×\u0089\u0082)\tl\u007fÀ\u000b\u0097;8÷Ë\u0084\u0011h®ÎPÈ"
-                     .length();
-                  var3 = ' ';
-                  var16 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var19 = var4.substring(++var16, var16 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

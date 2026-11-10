@@ -26,7 +26,6 @@ import me.octo.client.modules.impl.macros.lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIl
 import net.fabricmc.fabric.api.client.rendering.v1.level.LevelRenderContext;
 import net.minecraft.client.renderer.MultiBufferSource.BufferSource;
 import net.minecraft.client.renderer.rendertype.RenderType;
-import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 
@@ -96,73 +95,58 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
       Iterator var11 = var2.iterator();
       int var12 = 0;
 
+      label32:
       while (true) {
          int var35 = var11.hasNext();
 
-         do {
-            if (var35 == 0) {
-               return;
-            }
-
+         while (var35 != 0) {
             var35 = var12;
-         } while (var8 == null);
-
-         int var13 = var12++;
-         Object var36 = var11.next();
-
-         label31:
-         while (true) {
-            List var14 = (List)var36;
-            if (var14.isEmpty()) {
-               break;
-            }
-
-            VertexConsumer var37 = var5.getBuffer((RenderType)var9.get(var13));
-            Intrinsics.checkNotNullExpressionValue(
-               var37, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"r">(21177, 616811133218565400L ^ var3)
-            );
-            VertexConsumer var15 = var37;
-
-            for (IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var17 : var14) {
-               double var18 = (var17.getBox().minX + var17.getBox().maxX) / 2.0;
-               var36 = var17.getBox();
-               if (var8 == null) {
-                  continue label31;
-               }
-
-               double var20 = (((AABB)var36).minY + var17.getBox().maxY) / 2.0;
-               double var22 = (var17.getBox().minZ + var17.getBox().maxZ) / 2.0;
-               double var24 = var18 - var34.x;
-               double var26 = var20 - var34.y;
-               double var28 = var22 - var34.z;
-               double var30 = Math.sqrt(var24 * var24 + var26 * var26 + var28 * var28);
-               float var32 = RangesKt.coerceIn(
-                  (float)(var17.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll() / (1.0 + var30 * 0.008)),
-                  0.0F,
-                  var17.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll()
-               );
-               me.octo.client.utils.render.world.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-                  .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
-                     var1,
-                     var15,
-                     var17.getBox(),
-                     var17.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(),
-                     var6,
-                     var17.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(),
-                     var17.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(),
-                     var32
+            if (var8 != null) {
+               int var13 = var12++;
+               List var14 = (List)var11.next();
+               if (!var14.isEmpty()) {
+                  VertexConsumer var36 = var5.getBuffer((RenderType)var9.get(var13));
+                  Intrinsics.checkNotNullExpressionValue(
+                     var36, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"r">(21177, 616811133218565400L ^ var3)
                   );
-               if (var8 == null) {
-                  break;
-               }
-            }
+                  VertexConsumer var15 = var36;
 
-            var5.endBatch((RenderType)var9.get(var13));
-            if (var8 == null) {
-               return;
+                  for (IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var17 : var14) {
+                     double var18 = (var17.getBox().minX + var17.getBox().maxX) / 2.0;
+                     double var20 = (var17.getBox().minY + var17.getBox().maxY) / 2.0;
+                     double var22 = (var17.getBox().minZ + var17.getBox().maxZ) / 2.0;
+                     double var24 = var18 - var34.x;
+                     double var26 = var20 - var34.y;
+                     double var28 = var22 - var34.z;
+                     double var30 = Math.sqrt(var24 * var24 + var26 * var26 + var28 * var28);
+                     float var32 = RangesKt.coerceIn(
+                        (float)(var17.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll() / (1.0 + var30 * 0.008)),
+                        0.0F,
+                        var17.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll()
+                     );
+                     me.octo.client.utils.render.world.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                        .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+                           var1,
+                           var15,
+                           var17.getBox(),
+                           var17.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(),
+                           var6,
+                           var17.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(),
+                           var17.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(),
+                           var32
+                        );
+                     if (var8 == null) {
+                        break;
+                     }
+                  }
+
+                  var5.endBatch((RenderType)var9.get(var13));
+               }
+               continue label32;
             }
-            break;
          }
+
+         return;
       }
    }
 
@@ -195,48 +179,40 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
       String var4 = "IÐ'Ö45\u0004%\n¹º8\u0006\u009b\u001bÿÙO\u008b`*'Òá\u0010ySFbÅà¨/LÖ¼\u0097ã\u0098]r\u0018×íz¯iÇ$4\u0002TÅ'ec]ý0§\u001d\\;,Æ\u000f É\u0088ªN;{À´¡ìPVpÍ÷\u007f\u001dÃ\u0085öOÃ\u0014Ìb\u0001Á£á$ì\u009f ÅÝÆ\u009d¼ZU\u0098\u0098\u00053î¦Ì=Ù$í?-\u000f\u0088;U/PéS\u0014\u0081\u0011\"";
       int var6 = "IÐ'Ö45\u0004%\n¹º8\u0006\u009b\u001bÿÙO\u008b`*'Òá\u0010ySFbÅà¨/LÖ¼\u0097ã\u0098]r\u0018×íz¯iÇ$4\u0002TÅ'ec]ý0§\u001d\\;,Æ\u000f É\u0088ªN;{À´¡ìPVpÍ÷\u007f\u001dÃ\u0085öOÃ\u0014Ìb\u0001Á£á$ì\u009f ÅÝÆ\u009d¼ZU\u0098\u0098\u00053î¦Ì=Ù$í?-\u000f\u0088;U/PéS\u0014\u0081\u0011\""
          .length();
-      char var3 = 24;
-      int var12 = -1;
+      char var3 = '\u0018';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var21 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var21;
+         if ((var2 += var3) >= var6) {
+            var4 = ")\u0089g\u009eZëaM>\u009b¦.üö\u0090û~\u0097K\u0004GÚLh-Y0{F\u0010;÷\u0018\u00019\u0015¯°\u009eÁ\u0091O\tí\u0004`çuñ4[Ø\u0014ãªó\u0095";
+            var6 = ")\u0089g\u009eZëaM>\u009b¦.üö\u0090û~\u0097K\u0004GÚLh-Y0{F\u0010;÷\u0018\u00019\u0015¯°\u009eÁ\u0091O\tí\u0004`çuñ4[Ø\u0014ãªó\u0095"
+               .length();
+            var3 = ' ';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) >= var6) {
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var7;
-                     lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new String[7];
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll();
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new Regex("§[0-9a-fk-or]");
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var23 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+               boolean var19 = false;
+               var7[var5++] = var23;
+               if ((var2 += var3) >= var6) {
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var7;
+                  lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new String[7];
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll();
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new Regex("§[0-9a-fk-or]");
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = ")\u0089g\u009eZëaM>\u009b¦.üö\u0090û~\u0097K\u0004GÚLh-Y0{F\u0010;÷\u0018\u00019\u0015¯°\u009eÁ\u0091O\tí\u0004`çuñ4[Ø\u0014ãªó\u0095";
-                  var6 = ")\u0089g\u009eZëaM>\u009b¦.üö\u0090û~\u0097K\u0004GÚLh-Y0{F\u0010;÷\u0018\u00019\u0015¯°\u009eÁ\u0091O\tí\u0004`çuñ4[Ø\u0014ãªó\u0095"
-                     .length();
-                  var3 = ' ';
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -345,5 +321,91 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
             var5
          );
       }
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fe90e2a9b31fbeab(
+      PoseStack param1, List param2, List param3, BufferSource param4, long param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a6ea1f66c2f8c4b3(
+      PoseStack var1, List var2, long var3, BufferSource var5
+   ) {
+      var3 = 100035899439057L;
+      var3 = IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII ^ var3;
+      long var6 = var3 ^ 115366713405514L;
+      RenderType[] var10 = new RenderType[]{
+         llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+            .lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl(),
+         llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+            .IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl()
+      };
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = PictureInPictureManager.IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII();
+      List var9 = CollectionsKt.listOf(var10);
+      Vec3 var10001 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI().gameRenderer.getMainCamera().position();
+      Intrinsics.checkNotNullExpressionValue(var10001, "position(...)");
+      Vec3 var35 = var10001;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var8 = var10000;
+      Iterator var11 = var2.iterator();
+      int var12 = 0;
+
+      label32:
+      while (true) {
+         int var36 = var11.hasNext();
+
+         while (var36 != 0) {
+            var36 = var12;
+            if (var8 != null) {
+               int var13 = var12++;
+               List var14 = (List)var11.next();
+               if (!var14.isEmpty()) {
+                  VertexConsumer var37 = var5.getBuffer((RenderType)var9.get(var13));
+                  Intrinsics.checkNotNullExpressionValue(var37, "getBuffer(...)");
+                  VertexConsumer var15 = var37;
+
+                  for (IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI var17 : var14) {
+                     double var18 = (var17.getBox().minX + var17.getBox().maxX) / 2.0;
+                     double var20 = (var17.getBox().minY + var17.getBox().maxY) / 2.0;
+                     double var22 = (var17.getBox().minZ + var17.getBox().maxZ) / 2.0;
+                     double var24 = var18 - var35.x;
+                     double var26 = var20 - var35.y;
+                     double var28 = var22 - var35.z;
+                     double var30 = Math.sqrt(var24 * var24 + var26 * var26 + var28 * var28);
+                     float var32 = RangesKt.coerceIn(
+                        (float)(var17.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll() / (1.0 + var30 * 0.008)),
+                        0.0F,
+                        var17.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll()
+                     );
+                     me.octo.client.utils.render.world.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                        .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$a42a33c598043e0c(
+                           var1,
+                           var15,
+                           var17.getBox(),
+                           var17.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(),
+                           var6,
+                           var17.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(),
+                           var17.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(),
+                           var32
+                        );
+                     if (var8 == null) {
+                        break;
+                     }
+                  }
+
+                  var5.endBatch((RenderType)var9.get(var13));
+               }
+               continue label32;
+            }
+         }
+
+         return;
+      }
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$9b2bb1bc72d0330e(
+      PoseStack param1, long param2, List param4, Vec3 param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

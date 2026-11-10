@@ -172,49 +172,41 @@ public final class RenderUtils extends me.octo.client.utils.IIIlIlllIlllIIIIlllI
       String var4 = "]M eÅºp\u0019\u0005#Öö4m¼\u001cöU]¼\t\u0080o\u0098\u0010å\u0082<\u001aàTTn[Ø\u0091Fþ\u0011Îû(¾:\u0017§\u0011Í+´-@ÙsNÀ\u008e¦ x\u0086\u009b@í\t\u007fmP ÷Ë\u001a²Õ~ÎM\t\u0006\u001b¡ÿ8ù¸?K\u0085\u0012\t1;\u0090×\u0093Mº\u0086\u0012ýS\u008fÊÔ7:VÇwÑ\u001d¶ÔA\u0005X\b\\ñh+¦OÅb©`Á´\u001753\u0083XHf \u0088\u000e\u0010¹E{\u0014\u0010QxÁ¤\u0094Lý\u0014T\u0092K(èO®8Ç¶xÐ\u0091¬8o}Ô¿\u0092\u000b\u0099£\u0097\u0015\r\u0089m¹\u0000I`\n%À\u0001!ê\u000f3O!\u0003\u001a\u0010+¸.°\u0087âÇõPÙüR\u0015|\u0083p ôò\u008d(c(Mr\u00913ª\u0088ÿ \b¦i\u0096ê\u0080VYZ0ûtÎ6ªßiV\u0018h½oolÀ\u0080[\u00072\bVÛ¦\u000f¢TU\u001e\u00823«ÊÚ0dfFV\u000b)QÛ\u0084\u007fôÓ\u0010æ>tv»<Í³\u0013/å÷Î±º\u0010¥á4\u0093\u001e^Dä\u007f\u0090!(\u0086R³\u0081G~è(!ð\b'áßë¡È\u001eâLé\u0010{\u00881ñv\u0006Ò\u0080\u009e¿BÙ\u0000\u00ad\u0019\u0002hÂ¼#a»þBª\u009e\u00189Æ.z\u008aÈ}ÐQ\u0085¦ÖþJêíF_\u0003à\u009fW·Ð";
       int var6 = "]M eÅºp\u0019\u0005#Öö4m¼\u001cöU]¼\t\u0080o\u0098\u0010å\u0082<\u001aàTTn[Ø\u0091Fþ\u0011Îû(¾:\u0017§\u0011Í+´-@ÙsNÀ\u008e¦ x\u0086\u009b@í\t\u007fmP ÷Ë\u001a²Õ~ÎM\t\u0006\u001b¡ÿ8ù¸?K\u0085\u0012\t1;\u0090×\u0093Mº\u0086\u0012ýS\u008fÊÔ7:VÇwÑ\u001d¶ÔA\u0005X\b\\ñh+¦OÅb©`Á´\u001753\u0083XHf \u0088\u000e\u0010¹E{\u0014\u0010QxÁ¤\u0094Lý\u0014T\u0092K(èO®8Ç¶xÐ\u0091¬8o}Ô¿\u0092\u000b\u0099£\u0097\u0015\r\u0089m¹\u0000I`\n%À\u0001!ê\u000f3O!\u0003\u001a\u0010+¸.°\u0087âÇõPÙüR\u0015|\u0083p ôò\u008d(c(Mr\u00913ª\u0088ÿ \b¦i\u0096ê\u0080VYZ0ûtÎ6ªßiV\u0018h½oolÀ\u0080[\u00072\bVÛ¦\u000f¢TU\u001e\u00823«ÊÚ0dfFV\u000b)QÛ\u0084\u007fôÓ\u0010æ>tv»<Í³\u0013/å÷Î±º\u0010¥á4\u0093\u001e^Dä\u007f\u0090!(\u0086R³\u0081G~è(!ð\b'áßë¡È\u001eâLé\u0010{\u00881ñv\u0006Ò\u0080\u009e¿BÙ\u0000\u00ad\u0019\u0002hÂ¼#a»þBª\u009e\u00189Æ.z\u008aÈ}ÐQ\u0085¦ÖþJêíF_\u0003à\u009fW·Ð"
          .length();
-      char var3 = 24;
-      int var12 = -1;
+      char var3 = '\u0018';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var21 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var21;
+         if ((var2 += var3) >= var6) {
+            var4 = "¶©¦=\u0000ó%a\u0003Y\u0081\u0005ð´\rr<ß´\u0094¼J\u0091á¾ú\u0082Ûüi0?»\u008e\u009a¹\u0003ÿB\u0080\u0018¬\fg¬\u009aÒ¦N3\u009a\u0004?µ\u0085ç|6\u001bV@¢ùx\u009a";
+            var6 = "¶©¦=\u0000ó%a\u0003Y\u0081\u0005ð´\rr<ß´\u0094¼J\u0091á¾ú\u0082Ûüi0?»\u008e\u009a¹\u0003ÿB\u0080\u0018¬\fg¬\u009aÒ¦N3\u009a\u0004?µ\u0085ç|6\u001bV@¢ùx\u009a"
+               .length();
+            var3 = '(';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) >= var6) {
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = var7;
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new String[14];
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new RenderUtils();
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = true;
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = "Unauthenticated";
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = "/assets/polinex/pfp.png";
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var23 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+               boolean var19 = false;
+               var7[var5++] = var23;
+               if ((var2 += var3) >= var6) {
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = var7;
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new String[14];
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new RenderUtils();
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = true;
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = "Unauthenticated";
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = "/assets/polinex/pfp.png";
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "¶©¦=\u0000ó%a\u0003Y\u0081\u0005ð´\rr<ß´\u0094¼J\u0091á¾ú\u0082Ûüi0?»\u008e\u009a¹\u0003ÿB\u0080\u0018¬\fg¬\u009aÒ¦N3\u009a\u0004?µ\u0085ç|6\u001bV@¢ùx\u009a";
-                  var6 = "¶©¦=\u0000ó%a\u0003Y\u0081\u0005ð´\rr<ß´\u0094¼J\u0091á¾ú\u0082Ûüi0?»\u008e\u009a¹\u0003ÿB\u0080\u0018¬\fg¬\u009aÒ¦N3\u009a\u0004?µ\u0085ç|6\u001bV@¢ùx\u009a"
-                     .length();
-                  var3 = '(';
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

@@ -47,17 +47,17 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
       String[] var4 = var10000;
 
       float var10001;
-      label34: {
-         label33: {
+      label29: {
+         label28: {
             try {
                var9 = var5;
                var10001 = 180.0F;
                if (var4 == null) {
-                  break label34;
+                  break label29;
                }
 
                if (!(var5 > 180.0F)) {
-                  break label33;
+                  break label28;
                }
             } catch (MatchException var7) {
                throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
@@ -70,10 +70,6 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
 
          try {
             var9 = var5;
-            if (var4 == null) {
-               return var5;
-            }
-
             var10001 = -180.0F;
          } catch (MatchException var6) {
             throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(

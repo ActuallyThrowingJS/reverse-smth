@@ -49,7 +49,7 @@ public final class StretchedRes extends BooleanModule {
    public static final boolean shouldApply() {
       long var0 = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ 18619504615226L;
       long var2 = var0 ^ 131149052603267L;
-      return lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      return lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0400cb70fe9f7646(
          var2
       );
    }
@@ -72,48 +72,39 @@ public final class StretchedRes extends BooleanModule {
       int var8 = "\u0082_U©,\u0018T\u0095Æã\u0013oÄÞÈÕ_U\u0089¹\u008cî\u001aâÔ\u008cê\u0018¸\u001bí+Ç\u000e!\u0006)\u0081\u0089\u001f\u0098BÙoÇ?Ís\fXx\u0092\u001eZé1ßÈ®\u0016JéÑH¡Á<)Í\u000eí®!\u0003¶UÂð-O\u0018\u0007ñ\u001eZ¿ú\u00adè\u001c\u001d:\u001f\u0015Xê]¥4\u009aÇöù¢Ò"
          .length();
       char var5 = 'P';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "¡I\u008d\u0011²\u008dÉÿ\u009b\u0004)\u0095\u0094¹\u00ad¦\u0018\u0004ø'>\u0006S]\u0007vHÈ\u001fì\u0085k15[\u009f\u0094¤8\u001aC";
+            var8 = "¡I\u008d\u0011²\u008dÉÿ\u009b\u0004)\u0095\u0094¹\u00ad¦\u0018\u0004ø'>\u0006S]\u0007vHÈ\u001fì\u0085k15[\u009f\u0094¤8\u001aC".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var9;
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new String[4];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new StretchedRes.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     INSTANCE = new StretchedRes();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var9;
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new String[4];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new StretchedRes.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  INSTANCE = new StretchedRes();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "¡I\u008d\u0011²\u008dÉÿ\u009b\u0004)\u0095\u0094¹\u00ad¦\u0018\u0004ø'>\u0006S]\u0007vHÈ\u001fì\u0085k15[\u009f\u0094¤8\u001aC";
-                  var8 = "¡I\u008d\u0011²\u008dÉÿ\u009b\u0004)\u0095\u0094¹\u00ad¦\u0018\u0004ø'>\u0006S]\u0007vHÈ\u001fì\u0085k15[\u009f\u0094¤8\u001aC"
-                     .length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -228,6 +219,11 @@ public final class StretchedRes extends BooleanModule {
 
       private static MatchException IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(MatchException var0) {
          return var0;
+      }
+
+      @JvmStatic
+      public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0400cb70fe9f7646(long param1) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
       }
    }
 }

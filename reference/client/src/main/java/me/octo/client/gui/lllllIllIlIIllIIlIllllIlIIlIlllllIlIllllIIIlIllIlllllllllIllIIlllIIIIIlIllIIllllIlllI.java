@@ -198,48 +198,40 @@ public final class lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllI
       int var8 = "zÒ\u001a])Üê(*\u0085_K[|\u0016:\u009b\u0015¾bmî\u001el«Qy\u008bU\u001c¬\u001b\u0010×\u0013À\u008a/ÿù¾\u009c7Ä¼èX\u0096\u000e\u0018\u009a\u0095N\fPbdñxºP\u0013\u0007\fÈÌjOKÊo\u0000ã\u000b"
          .length();
       char var5 = ' ';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "£?(iÝ×Ïx@\u009dÝo\b\u008a\u0083º6Ðµ\u0002õ\u0094\u009eAì3Ò¼×Ì\u0004$X\u009d³^>¯ø\u007f ´v£\\\u0015\u0001\u0006,,®Uà \u0093\u008cÏ\u001dü;\u008fPt\u0089`éÞ0\u0011&ºsÖ";
+            var8 = "£?(iÝ×Ïx@\u009dÝo\b\u008a\u0083º6Ðµ\u0002õ\u0094\u009eAì3Ò¼×Ì\u0004$X\u009d³^>¯ø\u007f ´v£\\\u0015\u0001\u0006,,®Uà \u0093\u008cÏ\u001dü;\u008fPt\u0089`éÞ0\u0011&ºsÖ"
+               .length();
+            var5 = '(';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = var9;
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new String[5];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new HashMap<>();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = var9;
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new String[5];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllIIlllIIIIIlIllIIllllIlllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new HashMap<>();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "£?(iÝ×Ïx@\u009dÝo\b\u008a\u0083º6Ðµ\u0002õ\u0094\u009eAì3Ò¼×Ì\u0004$X\u009d³^>¯ø\u007f ´v£\\\u0015\u0001\u0006,,®Uà \u0093\u008cÏ\u001dü;\u008fPt\u0089`éÞ0\u0011&ºsÖ";
-                  var8 = "£?(iÝ×Ïx@\u009dÝo\b\u008a\u0083º6Ðµ\u0002õ\u0094\u009eAì3Ò¼×Ì\u0004$X\u009d³^>¯ø\u007f ´v£\\\u0015\u0001\u0006,,®Uà \u0093\u008cÏ\u001dü;\u008fPt\u0089`éÞ0\u0011&ºsÖ"
-                     .length();
-                  var5 = '(';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

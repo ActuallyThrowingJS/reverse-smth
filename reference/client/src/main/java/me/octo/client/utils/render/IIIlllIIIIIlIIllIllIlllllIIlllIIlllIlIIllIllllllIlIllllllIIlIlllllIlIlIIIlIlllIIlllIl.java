@@ -36,49 +36,41 @@ public final class IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlI
       int var6 = 0;
       String var5 = "6÷µ¦\u000fØ\u009b¼\u0017\u0084^@\u009eê\u009f\u008e³¤E±\nNUª\bÊÎ÷°û\"7Ü";
       int var7 = "6÷µ¦\u000fØ\u009b¼\u0017\u0084^@\u009eê\u009f\u008e³¤E±\nNUª\bÊÎ÷°û\"7Ü".length();
-      char var4 = 24;
-      int var12 = -1;
+      char var4 = '\u0018';
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var13 = var5.substring(++var12, var12 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var23;
+         if ((var3 += var4) >= var7) {
+            var5 = "V_Å\u000fN¥ ½*ßÉ}\u009e\u0013Ú¬\u0010\u001c¡£°âEã\bú\u0006ëê]2ÆK";
+            var7 = "V_Å\u000fN¥ ½*ßÉ}\u009e\u0013Ú¬\u0010\u001c¡£°âEã\bú\u0006ëê]2ÆK".length();
+            var4 = '\u0018';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var13.getBytes("ISO-8859-1"));
-            String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var21;
-                  if ((var12 += var4) >= var7) {
-                     String var15 = System.getProperty(var0[3]);
-                     Intrinsics.checkNotNullExpressionValue(var15, var0[0]);
-                     String var16 = var15.toLowerCase(Locale.ROOT);
-                     Intrinsics.checkNotNullExpressionValue(var16, var0[2]);
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = StringsKt.contains$default(
-                        var16, var0[1], false, 2, null
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var25 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var21 = false;
+               var0[var6++] = var25;
+               if ((var3 += var4) >= var7) {
+                  String var18 = System.getProperty(var0[3]);
+                  Intrinsics.checkNotNullExpressionValue(var18, var0[0]);
+                  String var19 = var18.toLowerCase(Locale.ROOT);
+                  Intrinsics.checkNotNullExpressionValue(var19, var0[2]);
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = StringsKt.contains$default(
+                     var19, var0[1], false, 2, null
+                  );
+                  return;
+               }
 
-                  var4 = var5.charAt(var12);
-                  break;
-               default:
-                  var0[var6++] = var21;
-                  if ((var12 += var4) < var7) {
-                     var4 = var5.charAt(var12);
-                     continue label28;
-                  }
-
-                  var5 = "V_Å\u000fN¥ ½*ßÉ}\u009e\u0013Ú¬\u0010\u001c¡£°âEã\bú\u0006ëê]2ÆK";
-                  var7 = "V_Å\u000fN¥ ½*ßÉ}\u009e\u0013Ú¬\u0010\u001c¡£°âEã\bú\u0006ëê]2ÆK".length();
-                  var4 = 24;
-                  var12 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var13 = var5.substring(++var12, var12 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 
@@ -111,5 +103,16 @@ public final class IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlI
       }
 
       return new String(var3, 0, var1);
+   }
+
+   public static final float IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$1281030f6e828cf6(long var0) {
+      var0 = 107724685236597L;
+      var0 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII ^ var0;
+      long var2 = var0 ^ 99225686884503L;
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5244014fb0260637(var2);
+   }
+
+   private static final float IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5244014fb0260637(long param0) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

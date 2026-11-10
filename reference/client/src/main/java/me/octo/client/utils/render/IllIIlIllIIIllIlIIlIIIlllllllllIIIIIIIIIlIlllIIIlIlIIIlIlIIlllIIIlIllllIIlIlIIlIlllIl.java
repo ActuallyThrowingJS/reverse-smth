@@ -188,103 +188,94 @@ public final class IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIll
       String var4 = "t·\u0007#Wv\u008e³\u0006ï¶õð\u0093\u008b\u0083 lç?LTnë\u0094·íj6Û\u0018|.·cí\u008a\u001d\\&\u0087ä\u00ad+¬\u0003y\u009a\u0098(!\u009eÌôr3iÝ¸Èx\u008d\u0080 \u0003ßò\u0002Ñ\u0083ÊU\u0007àY®`\u0014,\u001a\u0010g\u0098¬Ø\u0088\u0099¥Y6\u0010\t6£´\u0015 \u0080¢{}Ì ù\u009f¦4 å/\u0089n¤\u009f3q®Ú\u001e\u000fÿ\u009cÓÎ\u000eÑMÆ$es°Â®×å`\u001d\"\t\u0010ÂSYz\u0011ÁÙPÛPp=\u0092ÑR>(<^¯úú3ú\u0018S\u009f+\u0096,ü\u000fÀWw¦KÄç)2\u000fÏ2\u001c°óÔ\u000eæê\u009dE\u00197\u0093ó(\u008e«crE;×\u008cx7!°ÄÌcÔ\u0013Ò\u0014\"\u0018ÁÐÁ\u0084¦\u0086\u008eýºPþ\u0082uU\u0080¡¹«\u0095(µ)\t·ûÓËì\u0087\u0015\u008f$ï\"m3\u0006n\nàk#G\u0015\u0017Fc)I\u008aÌXA\u0082©\u0012FuÛ`P¢/9òx©Ùã\u007fÖÓ`iáºz¥\u009f\u0001\nÁÀ\rì\u000f´ú$\u0010ãÉ9vWíèþ\u0087\"5\u0019)Qè´a\u008dKàÂ\u0081\u0089ÏyþX-¡©\u0002äOéÍ\u009e·<\u0005ÂßâÔ\u0019Èh\u008fØÏDÅ";
       int var6 = "t·\u0007#Wv\u008e³\u0006ï¶õð\u0093\u008b\u0083 lç?LTnë\u0094·íj6Û\u0018|.·cí\u008a\u001d\\&\u0087ä\u00ad+¬\u0003y\u009a\u0098(!\u009eÌôr3iÝ¸Èx\u008d\u0080 \u0003ßò\u0002Ñ\u0083ÊU\u0007àY®`\u0014,\u001a\u0010g\u0098¬Ø\u0088\u0099¥Y6\u0010\t6£´\u0015 \u0080¢{}Ì ù\u009f¦4 å/\u0089n¤\u009f3q®Ú\u001e\u000fÿ\u009cÓÎ\u000eÑMÆ$es°Â®×å`\u001d\"\t\u0010ÂSYz\u0011ÁÙPÛPp=\u0092ÑR>(<^¯úú3ú\u0018S\u009f+\u0096,ü\u000fÀWw¦KÄç)2\u000fÏ2\u001c°óÔ\u000eæê\u009dE\u00197\u0093ó(\u008e«crE;×\u008cx7!°ÄÌcÔ\u0013Ò\u0014\"\u0018ÁÐÁ\u0084¦\u0086\u008eýºPþ\u0082uU\u0080¡¹«\u0095(µ)\t·ûÓËì\u0087\u0015\u008f$ï\"m3\u0006n\nàk#G\u0015\u0017Fc)I\u008aÌXA\u0082©\u0012FuÛ`P¢/9òx©Ùã\u007fÖÓ`iáºz¥\u009f\u0001\nÁÀ\rì\u000f´ú$\u0010ãÉ9vWíèþ\u0087\"5\u0019)Qè´a\u008dKàÂ\u0081\u0089ÏyþX-¡©\u0002äOéÍ\u009e·<\u0005ÂßâÔ\u0019Èh\u008fØÏDÅ"
          .length();
-      char var3 = 16;
-      int var12 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var40 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var40;
+         if ((var2 += var3) >= var6) {
+            var4 = "\u0016üwÊ×ÖN\u0087lÃ\fïîQ`b¨æ®ªOéx+2ÃRó-7\u009a\b\u0016dÚ£5C\u009f2\u0010\u0091Ê \u0005\u008fpQÅ\u0094\u001e6·\u009b«Z\u0007";
+            var6 = "\u0016üwÊ×ÖN\u0087lÃ\fïîQ`b¨æ®ªOéx+2ÃRó-7\u009a\b\u0016dÚ£5C\u009f2\u0010\u0091Ê \u0005\u008fpQÅ\u0094\u001e6·\u009b«Z\u0007".length();
+            var3 = '(';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var38 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var38;
-                  if ((var12 += var3) >= var6) {
-                     IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = var7;
-                     lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll = new String[12];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl();
-                     RenderPipeline var15 = RenderPipelines.GUI;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.GUI, "GUI");
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var15;
-                     RenderPipeline var16 = RenderPipelines.GUI;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.GUI, "GUI");
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var16;
-                     RenderPipeline var17 = RenderPipelines.DEBUG_FILLED_BOX;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_FILLED_BOX, "DEBUG_FILLED_BOX");
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var17;
-                     RenderPipeline var18 = RenderPipelines.LINES_TRANSLUCENT;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES_TRANSLUCENT, "LINES_TRANSLUCENT");
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var18;
-                     RenderPipeline var19 = RenderPipelines.DEBUG_QUADS;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var19;
-                     RenderPipeline var20 = RenderPipelines.FIRE_SCREEN_EFFECT;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.FIRE_SCREEN_EFFECT, "FIRE_SCREEN_EFFECT");
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var20;
-                     RenderPipeline var21 = RenderPipelines.FIRE_SCREEN_EFFECT;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.FIRE_SCREEN_EFFECT, "FIRE_SCREEN_EFFECT");
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var21;
-                     RenderPipeline var22 = RenderPipelines.DEBUG_QUADS;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var22;
-                     RenderPipeline var23 = RenderPipelines.LINES;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES, "LINES");
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var23;
-                     RenderPipeline var24 = RenderPipelines.LINES_TRANSLUCENT;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES_TRANSLUCENT, "LINES_TRANSLUCENT");
-                     lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = var24;
-                     RenderPipeline var25 = RenderPipelines.DEBUG_QUADS;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = var25;
-                     RenderPipeline var26 = RenderPipelines.DEBUG_QUADS;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = var26;
-                     RenderPipeline var27 = RenderPipelines.LINES;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES, "LINES");
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var27;
-                     RenderPipeline var28 = RenderPipelines.LINES_TRANSLUCENT;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES_TRANSLUCENT, "LINES_TRANSLUCENT");
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var28;
-                     RenderPipeline var29 = RenderPipelines.LINES;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES, "LINES");
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var29;
-                     RenderPipeline var30 = RenderPipelines.LINES_TRANSLUCENT;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES_TRANSLUCENT, "LINES_TRANSLUCENT");
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var30;
-                     RenderPipeline var31 = RenderPipelines.DEBUG_QUADS;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var31;
-                     RenderPipeline var32 = RenderPipelines.DEBUG_QUADS;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var32;
-                     RenderPipeline var33 = RenderPipelines.DEBUG_QUADS;
-                     Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
-                     IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = var33;
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var42 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var38 = false;
+               var7[var5++] = var42;
+               if ((var2 += var3) >= var6) {
+                  IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = var7;
+                  lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll = new String[12];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl();
+                  RenderPipeline var18 = RenderPipelines.GUI;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.GUI, "GUI");
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var18;
+                  RenderPipeline var19 = RenderPipelines.GUI;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.GUI, "GUI");
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var19;
+                  RenderPipeline var20 = RenderPipelines.DEBUG_FILLED_BOX;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_FILLED_BOX, "DEBUG_FILLED_BOX");
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var20;
+                  RenderPipeline var21 = RenderPipelines.LINES_TRANSLUCENT;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES_TRANSLUCENT, "LINES_TRANSLUCENT");
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var21;
+                  RenderPipeline var22 = RenderPipelines.DEBUG_QUADS;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var22;
+                  RenderPipeline var23 = RenderPipelines.FIRE_SCREEN_EFFECT;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.FIRE_SCREEN_EFFECT, "FIRE_SCREEN_EFFECT");
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var23;
+                  RenderPipeline var24 = RenderPipelines.FIRE_SCREEN_EFFECT;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.FIRE_SCREEN_EFFECT, "FIRE_SCREEN_EFFECT");
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var24;
+                  RenderPipeline var25 = RenderPipelines.DEBUG_QUADS;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var25;
+                  RenderPipeline var26 = RenderPipelines.LINES;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES, "LINES");
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var26;
+                  RenderPipeline var27 = RenderPipelines.LINES_TRANSLUCENT;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES_TRANSLUCENT, "LINES_TRANSLUCENT");
+                  lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = var27;
+                  RenderPipeline var28 = RenderPipelines.DEBUG_QUADS;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = var28;
+                  RenderPipeline var29 = RenderPipelines.DEBUG_QUADS;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = var29;
+                  RenderPipeline var30 = RenderPipelines.LINES;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES, "LINES");
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var30;
+                  RenderPipeline var31 = RenderPipelines.LINES_TRANSLUCENT;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES_TRANSLUCENT, "LINES_TRANSLUCENT");
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var31;
+                  RenderPipeline var32 = RenderPipelines.LINES;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES, "LINES");
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var32;
+                  RenderPipeline var33 = RenderPipelines.LINES_TRANSLUCENT;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.LINES_TRANSLUCENT, "LINES_TRANSLUCENT");
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var33;
+                  RenderPipeline var34 = RenderPipelines.DEBUG_QUADS;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var34;
+                  RenderPipeline var35 = RenderPipelines.DEBUG_QUADS;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var35;
+                  RenderPipeline var36 = RenderPipelines.DEBUG_QUADS;
+                  Intrinsics.checkNotNullExpressionValue(RenderPipelines.DEBUG_QUADS, "DEBUG_QUADS");
+                  IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = var36;
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var38;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "\u0016üwÊ×ÖN\u0087lÃ\fïîQ`b¨æ®ªOéx+2ÃRó-7\u009a\b\u0016dÚ£5C\u009f2\u0010\u0091Ê \u0005\u008fpQÅ\u0094\u001e6·\u009b«Z\u0007";
-                  var6 = "\u0016üwÊ×ÖN\u0087lÃ\fïîQ`b¨æ®ªOéx+2ÃRó-7\u009a\b\u0016dÚ£5C\u009f2\u0010\u0091Ê \u0005\u008fpQÅ\u0094\u001e6·\u009b«Z\u0007"
-                     .length();
-                  var3 = '(';
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

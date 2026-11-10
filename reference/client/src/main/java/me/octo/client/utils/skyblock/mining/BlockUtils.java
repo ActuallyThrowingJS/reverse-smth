@@ -254,28 +254,16 @@ public final class BlockUtils {
    }
 
    private final Color IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(DyeColor var1) {
-      try {
-         switch (BlockUtils.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl[var1.ordinal()]) {
-            case 1:
-               return new Color(255, 110, 0);
-            case 2:
-               return new Color(250, 0, 250);
-            case 3:
-               return new Color(102, 178, 255);
-            case 4:
-               return new Color(255, 210, 0);
-            case 5:
-               return new Color(160, 255, 47);
-            case 6:
-               return new Color(153, 50, 204);
-            case 7:
-               return new Color(200, 15, 45);
-         }
-      } catch (MatchException var2) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var2);
-      }
-
-      return null;
+      return switch (BlockUtils.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl[var1.ordinal()]) {
+         case 1 -> new Color(255, 110, 0);
+         case 2 -> new Color(250, 0, 250);
+         case 3 -> new Color(102, 178, 255);
+         case 4 -> new Color(255, 210, 0);
+         case 5 -> new Color(160, 255, 47);
+         case 6 -> new Color(153, 50, 204);
+         case 7 -> new Color(200, 15, 45);
+         default -> null;
+      };
    }
 
    private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
@@ -324,94 +312,86 @@ public final class BlockUtils {
       String var4 = "îy>ð\u0080Ý&\u0091.P$\u0082[q!Ó\u0088\u008a\u00adÕÔ³Ip\u0083DÞ§\u001cØ\u0016i\u0005\u000f?\u0086\u001b×~SÏ{\u0016*%\u008c¼²Ï^t§ÅcÉ?(÷\u008f¾Z»W\u0099¶2Í\u007fö+áqÄ{Þ?\u0017\u0015(À\u001c¹'*\u0089\u009d\u008bâØuÞ§\u000e_´¡c\r\u0010^\u008er\u0088ûB+ü\u0086.TiSã\u000b\u0001Udì\"j\u0082ýí\u008fÕ)¤`m\u0085\u0001½u\u008bRúõõñ\u0019ì\b\u0006¡'$YÛæzI¥V\u0098½¸Ø\u009f\u009eðg\u000eQf×\u0098NÜç\u0001*ÆÞ\u0003Å(\u009f/¥\bV\u0001wëÚZÞÓ\u0089\u001a¸Ie±ø6\u0099vÎÍJTÿ6>§\u0018\u0014`|»èæÀQ\u0016Vv\u009féZ\u00103¥ª\u008aû¡»ï)ùxeãÓz\u0080ànÜ¹íp#\u001e0\u0013Õ\u0016à\u009dH?Éy\u001aC[¼ºP\u0095\u0019ðQäZ\u0018\u009c$|yã\u0019l\u0098iúp\u0087\u0001ÌñSgû Û}\u0095kÉH\u0013¦#'n)6\u0098gðV\b ò¹iK»È\u0082ZÙ\u0019\u008bSíò4£Ú±õÿ×£<Á³ö\u0005àHÓÀ#\u0018lÝ»!\u0003o\u0006\u001a\u008a\u0083´@¬æ®.\u0011z\u008bB´ì\u000e\u0002\u0018\u0095ÚCq\u0019·v\u001by8¥%\u0018U^\u008f\u001b~\u0091(T4cS\u0010\u0017ÑéÕ>ý\u0098\u001c\u000f½ÐËïÏ¸#\u0010\tÜ\u0090ÔÐ!á3OZQ;.->õ";
       int var6 = "îy>ð\u0080Ý&\u0091.P$\u0082[q!Ó\u0088\u008a\u00adÕÔ³Ip\u0083DÞ§\u001cØ\u0016i\u0005\u000f?\u0086\u001b×~SÏ{\u0016*%\u008c¼²Ï^t§ÅcÉ?(÷\u008f¾Z»W\u0099¶2Í\u007fö+áqÄ{Þ?\u0017\u0015(À\u001c¹'*\u0089\u009d\u008bâØuÞ§\u000e_´¡c\r\u0010^\u008er\u0088ûB+ü\u0086.TiSã\u000b\u0001Udì\"j\u0082ýí\u008fÕ)¤`m\u0085\u0001½u\u008bRúõõñ\u0019ì\b\u0006¡'$YÛæzI¥V\u0098½¸Ø\u009f\u009eðg\u000eQf×\u0098NÜç\u0001*ÆÞ\u0003Å(\u009f/¥\bV\u0001wëÚZÞÓ\u0089\u001a¸Ie±ø6\u0099vÎÍJTÿ6>§\u0018\u0014`|»èæÀQ\u0016Vv\u009féZ\u00103¥ª\u008aû¡»ï)ùxeãÓz\u0080ànÜ¹íp#\u001e0\u0013Õ\u0016à\u009dH?Éy\u001aC[¼ºP\u0095\u0019ðQäZ\u0018\u009c$|yã\u0019l\u0098iúp\u0087\u0001ÌñSgû Û}\u0095kÉH\u0013¦#'n)6\u0098gðV\b ò¹iK»È\u0082ZÙ\u0019\u008bSíò4£Ú±õÿ×£<Á³ö\u0005àHÓÀ#\u0018lÝ»!\u0003o\u0006\u001a\u008a\u0083´@¬æ®.\u0011z\u008bB´ì\u000e\u0002\u0018\u0095ÚCq\u0019·v\u001by8¥%\u0018U^\u008f\u001b~\u0091(T4cS\u0010\u0017ÑéÕ>ý\u0098\u001c\u000f½ÐËïÏ¸#\u0010\tÜ\u0090ÔÐ!á3OZQ;.->õ"
          .length();
-      char var3 = 16;
-      int var14 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var16 = var4.substring(++var14, var14 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var24;
+         if ((var2 += var3) >= var6) {
+            var4 = "$\u0099\u00996þ§s¶0\u0089ÙRû\t/Ü\u00ad\fª^]>ï}(\u0005\u0015 O¼wÞ\u007f\u0088;¡9\u000f\u0085¸µ+\u000f\u0002\u0091\u001f'\u0007«v\u0096'}\u0005\u008cøùËîÿ½\u009fôn\u009e";
+            var6 = "$\u0099\u00996þ§s¶0\u0089ÙRû\t/Ü\u00ad\fª^]>ï}(\u0005\u0015 O¼wÞ\u007f\u0088;¡9\u000f\u0085¸µ+\u000f\u0002\u0091\u001f'\u0007«v\u0096'}\u0005\u008cøùËîÿ½\u009fôn\u009e"
+               .length();
+            var3 = '\u0018';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var16.getBytes("ISO-8859-1"));
-            String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var22;
-                  if ((var14 += var3) >= var6) {
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var7;
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new String[10];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new BlockUtils();
-                     Pair[] var11 = new Pair[]{
-                        TuplesKt.to(Blocks.SAND, Blocks.SANDSTONE),
-                        TuplesKt.to(Blocks.RED_SAND, Blocks.RED_SANDSTONE),
-                        TuplesKt.to(Blocks.MYCELIUM, Blocks.BROWN_TERRACOTTA),
-                        TuplesKt.to(Blocks.END_STONE, Blocks.BEDROCK),
-                        TuplesKt.to(Blocks.OBSIDIAN, Blocks.BEDROCK)
-                     };
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = MapsKt.mapOf(var11);
-                     Block[] var15 = new Block[]{
-                        Blocks.INFESTED_STONE,
-                        Blocks.GOLD_ORE,
-                        Blocks.IRON_ORE,
-                        Blocks.COAL_ORE,
-                        Blocks.LAPIS_ORE,
-                        Blocks.DIAMOND_ORE,
-                        Blocks.REDSTONE_ORE,
-                        Blocks.EMERALD_ORE,
-                        Blocks.STONE,
-                        Blocks.WHITE_TERRACOTTA,
-                        Blocks.ORANGE_TERRACOTTA,
-                        Blocks.MAGENTA_TERRACOTTA,
-                        Blocks.LIGHT_BLUE_TERRACOTTA,
-                        Blocks.YELLOW_TERRACOTTA,
-                        Blocks.LIME_TERRACOTTA,
-                        Blocks.PINK_TERRACOTTA,
-                        Blocks.GRAY_TERRACOTTA,
-                        Blocks.LIGHT_GRAY_TERRACOTTA,
-                        Blocks.CYAN_TERRACOTTA,
-                        Blocks.PURPLE_TERRACOTTA,
-                        Blocks.BLUE_TERRACOTTA,
-                        Blocks.BROWN_TERRACOTTA,
-                        Blocks.GREEN_TERRACOTTA,
-                        Blocks.RED_TERRACOTTA,
-                        Blocks.BLACK_TERRACOTTA,
-                        Blocks.ORANGE_WOOL,
-                        Blocks.MAGENTA_WOOL,
-                        Blocks.LIGHT_BLUE_WOOL,
-                        Blocks.YELLOW_WOOL,
-                        Blocks.LIME_WOOL,
-                        Blocks.PINK_WOOL,
-                        Blocks.GRAY_WOOL,
-                        Blocks.CYAN_WOOL,
-                        Blocks.BLUE_WOOL,
-                        Blocks.BROWN_WOOL,
-                        Blocks.GREEN_WOOL,
-                        Blocks.BLACK_WOOL
-                     };
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = SetsKt.setOf(var15);
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var26 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var22 = false;
+               var7[var5++] = var26;
+               if ((var2 += var3) >= var6) {
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var7;
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new String[10];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new BlockUtils();
+                  Pair[] var11 = new Pair[]{
+                     TuplesKt.to(Blocks.SAND, Blocks.SANDSTONE),
+                     TuplesKt.to(Blocks.RED_SAND, Blocks.RED_SANDSTONE),
+                     TuplesKt.to(Blocks.MYCELIUM, Blocks.BROWN_TERRACOTTA),
+                     TuplesKt.to(Blocks.END_STONE, Blocks.BEDROCK),
+                     TuplesKt.to(Blocks.OBSIDIAN, Blocks.BEDROCK)
+                  };
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = MapsKt.mapOf(var11);
+                  Block[] var20 = new Block[]{
+                     Blocks.INFESTED_STONE,
+                     Blocks.GOLD_ORE,
+                     Blocks.IRON_ORE,
+                     Blocks.COAL_ORE,
+                     Blocks.LAPIS_ORE,
+                     Blocks.DIAMOND_ORE,
+                     Blocks.REDSTONE_ORE,
+                     Blocks.EMERALD_ORE,
+                     Blocks.STONE,
+                     Blocks.WHITE_TERRACOTTA,
+                     Blocks.ORANGE_TERRACOTTA,
+                     Blocks.MAGENTA_TERRACOTTA,
+                     Blocks.LIGHT_BLUE_TERRACOTTA,
+                     Blocks.YELLOW_TERRACOTTA,
+                     Blocks.LIME_TERRACOTTA,
+                     Blocks.PINK_TERRACOTTA,
+                     Blocks.GRAY_TERRACOTTA,
+                     Blocks.LIGHT_GRAY_TERRACOTTA,
+                     Blocks.CYAN_TERRACOTTA,
+                     Blocks.PURPLE_TERRACOTTA,
+                     Blocks.BLUE_TERRACOTTA,
+                     Blocks.BROWN_TERRACOTTA,
+                     Blocks.GREEN_TERRACOTTA,
+                     Blocks.RED_TERRACOTTA,
+                     Blocks.BLACK_TERRACOTTA,
+                     Blocks.ORANGE_WOOL,
+                     Blocks.MAGENTA_WOOL,
+                     Blocks.LIGHT_BLUE_WOOL,
+                     Blocks.YELLOW_WOOL,
+                     Blocks.LIME_WOOL,
+                     Blocks.PINK_WOOL,
+                     Blocks.GRAY_WOOL,
+                     Blocks.CYAN_WOOL,
+                     Blocks.BLUE_WOOL,
+                     Blocks.BROWN_WOOL,
+                     Blocks.GREEN_WOOL,
+                     Blocks.BLACK_WOOL
+                  };
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = SetsKt.setOf(var20);
+                  return;
+               }
 
-                  var3 = var4.charAt(var14);
-                  break;
-               default:
-                  var7[var5++] = var22;
-                  if ((var14 += var3) < var6) {
-                     var3 = var4.charAt(var14);
-                     continue label27;
-                  }
-
-                  var4 = "$\u0099\u00996þ§s¶0\u0089ÙRû\t/Ü\u00ad\fª^]>ï}(\u0005\u0015 O¼wÞ\u007f\u0088;¡9\u000f\u0085¸µ+\u000f\u0002\u0091\u001f'\u0007«v\u0096'}\u0005\u008cøùËîÿ½\u009fôn\u009e";
-                  var6 = "$\u0099\u00996þ§s¶0\u0089ÙRû\t/Ü\u00ad\fª^]>ï}(\u0005\u0015 O¼wÞ\u007f\u0088;¡9\u000f\u0085¸µ+\u000f\u0002\u0091\u001f'\u0007«v\u0096'}\u0005\u008cøùËîÿ½\u009fôn\u009e"
-                     .length();
-                  var3 = 24;
-                  var14 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var16 = var4.substring(++var14, var14 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -519,5 +499,170 @@ public final class BlockUtils {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/utils/skyblock/mining/BlockUtils" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   public final boolean IIlllIlIlIllIIlIlIlIlllIllIIllllIIllllllIlllIlIlIIllIlIIllllllIlIIIlllIIIIlllIIllIlII$recovered$036a215661489527(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6ae1a0a5a03ec781(
+      long argument1Arg, @NotNull Block blockArg
+   ) {
+      argument1Arg = 321861951439L;
+      argument1Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument1Arg;
+      Intrinsics.checkNotNullParameter(blockArg, "block");
+      return IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl.contains(blockArg);
+   }
+
+   public final boolean IIIlIIlIllIlllIIIIlllIlIIIlIIIlIIlIIlIIllIIIlIlIlIlllIllIlIllIllIIlIlIllIIIIIllIlllll$recovered$e02e95ac14986b55(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIIIIIlllIIlIIIIlllIIIlIIlIIlIllllIlllIlIIIllllIIlIIIIllIlIIIllllIllllIlIllIIllIIIIlI$recovered$0e8f2a70f692e4d7(
+      long argument1Arg, @NotNull BlockState stateArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$b0efc75384b53059(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      argument2Arg = 68983138951756L;
+      argument2Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument2Arg;
+      Intrinsics.checkNotNullParameter(stateArg, "state");
+      return stateArg.is(Blocks.LIGHT_BLUE_WOOL);
+   }
+
+   public final boolean IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl$recovered$fd5d78f17e0af68f(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$ae93d876f58193a5(
+      long argument1Arg, @NotNull BlockState stateArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$0d2df40190d6527a(
+      long argument1Arg, @NotNull BlockState stateArg
+   ) {
+      argument1Arg = 21957544881034L;
+      argument1Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument1Arg;
+      Intrinsics.checkNotNullParameter(stateArg, "state");
+      return stateArg.is(Blocks.SAND);
+   }
+
+   public final boolean IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$4dbbeb53d67353d5(
+      long argument1Arg, @NotNull BlockState stateArg
+   ) {
+      argument1Arg = 48876835354417L;
+      argument1Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument1Arg;
+      Intrinsics.checkNotNullParameter(stateArg, "state");
+      return stateArg.is(Blocks.RED_SAND);
+   }
+
+   public final boolean llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$fcdce642b6ba0574(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      argument2Arg = 13430457610586L;
+      argument2Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument2Arg;
+      Intrinsics.checkNotNullParameter(stateArg, "state");
+      return stateArg.is(Blocks.END_STONE);
+   }
+
+   public final boolean lIIIlIIlIllIlIIIIIllIlIllllIIlIlIIIlIlIIIIIlIlllllIllllIIIIlllIlIlIlIlIIllIlIIIIIIIII$recovered$34b5f09a992ffb75(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIIlllllIIIlIIllIllllIIllIIIlllllIlIlIllIIllIIllIlIIIlIlIIllIlIIlllIIIIlllIlIlllllllI$recovered$72c620c073716a37(
+      long argument1Arg, @NotNull BlockState stateArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII$recovered$967337380ec2ec38(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      argument2Arg = 103374380247970L;
+      argument2Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument2Arg;
+      Intrinsics.checkNotNullParameter(stateArg, "state");
+      return stateArg.is(Blocks.PACKED_ICE);
+   }
+
+   public final boolean IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$7e6875fbe967d39b(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      argument2Arg = 21141714440140L;
+      argument2Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument2Arg;
+      Intrinsics.checkNotNullParameter(stateArg, "state");
+      return stateArg.is(Blocks.COBBLESTONE);
+   }
+
+   public final boolean llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl$recovered$602df87a235676b0(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean lIIlIIIllIIIllIllIIlIIIIlllIllIIlIlIIlIllIlIllllllllIllIllllIlIIlIIIllIIllIIlllllIllI$recovered$d1db8907b0201e24(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IlIllIIIIllllIIlIlIlIlIlIllIIlIIIIlIIIlIIIllllIIIIlIlIlllIlIlIIIllIIllIllIIIllIIlllll$recovered$47db173a46d6220a(
+      long argument1Arg, @NotNull BlockState stateArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean lllIIllIIlIlIlIIIIIlIIIllIIlIlIIllIlIIIlIlIlIIIlIIlIlIlIllIllllIlllIIlIlIIllIlIlIllIl$recovered$2c47e7523278935e(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIlllIlllIlIIIlIIIlllIlllIlIIllIlIlIIIIIlIIIllIIlIllllllIlIllIIIlllIlllllIlIlllllllll$recovered$e3b9bbd9cb91371d(
+      long argument1Arg, @NotNull BlockState stateArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean llIIIllIIIIllllllIIIlIIIIIIIlllIIllllIlllIlIlIIlIIIIlIIIlllllIIllIllllllIlIIlIIlIlIII$recovered$84525547ff4083ec(
+      @NotNull BlockState stateArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIIlIlIllllIlIlIIIIIIlIIllllIllIllIlIllIlIIllIIIllIIIlllIllIIlIlllIIIllIIlIllIIllllIl$recovered$d88d5239e60ccc74(
+      long argument1Arg, @NotNull BlockState stateArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean lIlIlIlIIIlIlIIIIIIIIIIIlIllIIIIIIIllIIIIlIIIIIlIllIIIIlIIIIlIIlIllIllIlIlIllIIIlIlll$recovered$9d0efe8bac83b5fb(
+      long argument1Arg, @NotNull BlockState stateArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIIIIlIIlIlIlllIlIIlllIIIlIlllIllIllIllIllIlIIIIIIIIIlIlIlIllIlIlIlIllIlIIlIlIllIIIIl$recovered$43c065232c7a737e(
+      long argument1Arg, @NotNull BlockState stateArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IllIlllllIIlIIIIIIIllIllIlIllIIlllIIIIIlIlIIllIlIlIllIlIIIlIIIlllIlIlIlIlllIIllIlIIlI$recovered$ea131b4c44097fce(
+      long argument1Arg, @NotNull BlockState stateArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

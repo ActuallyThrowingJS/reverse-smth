@@ -185,87 +185,79 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       int var6 = "\u0013t}túÕÖQì\u008eRð\u009e6$+\u0087\u0089òE\u001f+a\u0085(\f-osÖ;ü,\u001f\u0007Äæ\u0001w\u0096\u00adj6Whâ\u0091ç/H«q\u0007\u0080I\u0085\u0086!Ë_\u008aÊM%PVà\u001aL \u0097ñ¡\t\u0085ßa?[\u009c@\u009c7 ¿!}\r\u0098\u009f\u0016ôj\u000b\u0092\u0093ëÏÚ1ä²»àKØñ·=K\u001eû\u0006ó\u009düÕ$àòf\u008f64vI©üÊ'\u0006å\u0098\b\u0093åáñ\u000e,B·Ôb×\u0018\u0005¯qÜ\u0011d~Ìe\u0084(\u009e)\u0004\u0095Þ&+\fÉ;\u0099?é(\u0015ú[ú\u000f\u009dØ\u008dÚR\u0006º;õ\u0087äf0y\u0084V\u0003;)&öÿE%Öx\u0010·+¨½\u0088ÓqI\u0010¡Zur\u0005\u0003ñ\u009e\u0012Önå\u0087'è®\u0018±ó²£\u009c?_Óç\f\u001bÛæ\u0098ôÀ3¡ú\u00017F]|\u0010åôÏ\u0015Í\u0092Q\u008bZ%\u0087\u0005©¿q\u0096\u0010Õ\u0096¶#q|\u009d¡§¼ÖT&²ö;\u0010\u000e*Ôn©ã?\b\u0087\u0095×.Wî\u0084H8÷ÿ×\u0087tÁ\u009c\u009f\u008d\u0003ó*\u0010åìµñm\u0099E=OåìÇ¬îMæ\u0083¿\u0099\u00ad{6ãU\u0081\u007f\u0007\u0003\u000e{+ã¸o×72!d\u009b\u0084\u008c*\u0010rNx\u00141\u001abv]©\u0096W\u00821G=\u00100}\u0087Ú\u0012Ì4\u0004òäîL %\u0010¡\u00108ê@¨eÎ¶Xp$@\u008eî\u000e¿T\u0010(~¼Í`Ô³\u0082\u007f\u0086V* 2Ãy\u0010()4¾iøðëßí\u0099+]ÿ³!\u00106ÉÙfãZcÖº`\u0086áØ\n`ð0½Ööûr½ß\u0082Ç-;I|\u009b\u000b\u0011@%\bü\u001eR\\sB\u0088a¹`~\u0015\u0003;7®°¯¨\u0013Ñ\u0082Vi\u009d£¶Ïj\u0010Q\u000fxÈ°Ò_H\u009aÈx·J\u0098\u0087n ºé%gÿI\u0012\u0017rÊæ»ÀÞ\u00adQ÷ß×\u008cÕ^\u008e'w[æ\u008eJ0ÍÛ8|()\u00984û\u0016~{è\u0080(Xòc±\u0017·1ö)ÍÖ)ÉÉ\u0086ÕH\r^\rd\u000e\r\nÕ7]\u0080¢ûéî£\n»\u000e\u0081&{Ä\u0003\u0018\u001bJ Ù±w\u0088ôääV©µp\u0080Ö\u0014%mØ=]á8\u0000\u000b\u008e\u009c\u0007Ç\n\u008eâcS ÿâã\u009fÝeÑ\u0089·ÿ¡@\u008aÍª\u0013'\tß\u008eJ\u0016EÃè:\u0005\u009a\u0088\u001a_~\u00101ðü=O\u0096Y3;Äm·ã^:ð\u0018G%\u008d\u0007ã\u0016Ø#(9j\u001eBçôV{M<\u0013\u000b¬i\u001c\u00107âÞê8Ö\u008b\u0095¥\r\u008d?\u0006æ\u008dÞ\u0010\u000bF´\u0096êêþB\u001eIo÷Ág\u0014ø /u\u009e\u0001÷4\u0093\u0007«\u0081nÚ\u009dñ©Õ«´/â uÌ\u009b(h¬\"n\u0007\u0089\u0085\u0010#\u000eG7\u0010¡\u009f\u007fA^©\u001d;@¿:\u0010\u0014[Ê\u0007¾ÃõzR\u0007dÌ6x\u0081ë\u0010¡Ú÷ö\u0094%»þ\u009e\u0000¯ \u0080\\yn\u0010üe\u008aç\u0082l\u0082.p\u009e×\u009e/l¤8\u0010½DæÊ£\u009f¿Y40 ÃÈU ¶8\u0010[(\u00155<\u000b\u001f\u009c\u0000Â\u001anÅV+õò\u0090JßÔµ®\u0080©~+\u008d¨¤Ã.u`\r\u008bz¼þè\u0017²])5j\u008d±ÎF5÷\u0087\u0080Æ\u0018N\u0019Çü\u0080\u0017\u000f~LÁ4M3üÈ\u007fËy½p(ÊÔ% úæ·ß^>Y\u0097\u0083è¸z\t\u0097\u0093\u0099`¶\u0080ì\u001cû\u0082³\u0015ÚÔ³\u0010\nÌu\u00183\u0093´ç(>\u007f PxïèZfföê\u0012nêF\u0091ìÃ\u0010\u0000ò\u0011\u0001&(uWJHLÑ|tLy\u0010\rqõ\u008bøÉ&Zm\u0081:~F\u0002\u0017®(G\u0005\u000e[»oôíÿ\u0007F\u0086w±ew\u0089bCr^ñ äÎ\u0016\u0085H\u009c\n¬è7·\u009d¥:ù\u008c&\u0018¦«Ì I}ùwh^%Ì?ëÖ@\u000bðG\u001còô\u008co"
          .length();
       char var3 = 'P';
-      int var13 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var14 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "\u007f\u000b\u0091\\\u0093}\u000e¸ô]V\u008fU\b-+PÛk\u001f¢\u009bÑ¬è\u0090!Jà,¸\u0018\u0005ú0:o£õm¼âöD\n;\u009bJ\u0019Ü\u008ds=M\u0098-\u0003Ì°GÚÊ¢æ\u0083\u0006 «5\u0010\u0004¢²\u000f\n=\u0080WBÏðF\u0097!¯\rE\u0092\u0003Ù\u001dcÆ³xP·";
+            var6 = "\u007f\u000b\u0091\\\u0093}\u000e¸ô]V\u008fU\b-+PÛk\u001f¢\u009bÑ¬è\u0090!Jà,¸\u0018\u0005ú0:o£õm¼âöD\n;\u009bJ\u0019Ü\u008ds=M\u0098-\u0003Ì°GÚÊ¢æ\u0083\u0006 «5\u0010\u0004¢²\u000f\n=\u0080WBÏðF\u0097!¯\rE\u0092\u0003Ù\u001dcÆ³xP·"
+               .length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) >= var6) {
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var7;
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new String[42];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new GsonBuilder().setPrettyPrinting().create();
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new File(
-                        me.octo.client.gui.clickgui.endgameGUI.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-                           .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(),
-                        "failsafe_messages.json"
-                     );
-                     String[] var11 = new String[]{
-                        "wth",
-                        "wtf",
-                        "huh",
-                        "lag?",
-                        "???",
-                        "server?",
-                        "wtf was that",
-                        "lagging",
-                        "what",
-                        "wtf",
-                        "wat",
-                        "bruh",
-                        "bro what",
-                        "hi admins",
-                        "admin?",
-                        "can u not lol",
-                        "wtf is this",
-                        "wtf is happening",
-                        "hi admins",
-                        "hello!!",
-                        "hiiii",
-                        "hi?",
-                        "WTF",
-                        "?",
-                        "why",
-                        "why tho",
-                        "no way",
-                        "seriously?",
-                        "come on",
-                        "lol what",
-                        "omg",
-                        "finally",
-                        "finally lol"
-                     };
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = CollectionsKt.listOf(var11);
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var7;
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new String[42];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new GsonBuilder().setPrettyPrinting().create();
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new File(
+                     me.octo.client.gui.clickgui.endgameGUI.IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                        .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(),
+                     "failsafe_messages.json"
+                  );
+                  String[] var11 = new String[]{
+                     "wth",
+                     "wtf",
+                     "huh",
+                     "lag?",
+                     "???",
+                     "server?",
+                     "wtf was that",
+                     "lagging",
+                     "what",
+                     "wtf",
+                     "wat",
+                     "bruh",
+                     "bro what",
+                     "hi admins",
+                     "admin?",
+                     "can u not lol",
+                     "wtf is this",
+                     "wtf is happening",
+                     "hi admins",
+                     "hello!!",
+                     "hiiii",
+                     "hi?",
+                     "WTF",
+                     "?",
+                     "why",
+                     "why tho",
+                     "no way",
+                     "seriously?",
+                     "come on",
+                     "lol what",
+                     "omg",
+                     "finally",
+                     "finally lol"
+                  };
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = CollectionsKt.listOf(var11);
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label27;
-                  }
-
-                  var4 = "\u007f\u000b\u0091\\\u0093}\u000e¸ô]V\u008fU\b-+PÛk\u001f¢\u009bÑ¬è\u0090!Jà,¸\u0018\u0005ú0:o£õm¼âöD\n;\u009bJ\u0019Ü\u008ds=M\u0098-\u0003Ì°GÚÊ¢æ\u0083\u0006 «5\u0010\u0004¢²\u000f\n=\u0080WBÏðF\u0097!¯\rE\u0092\u0003Ù\u001dcÆ³xP·";
-                  var6 = "\u007f\u000b\u0091\\\u0093}\u000e¸ô]V\u008fU\b-+PÛk\u001f¢\u009bÑ¬è\u0090!Jà,¸\u0018\u0005ú0:o£õm¼âöD\n;\u009bJ\u0019Ü\u008ds=M\u0098-\u0003Ì°GÚÊ¢æ\u0083\u0006 «5\u0010\u0004¢²\u000f\n=\u0080WBÏðF\u0097!¯\rE\u0092\u0003Ù\u001dcÆ³xP·"
-                     .length();
-                  var3 = 16;
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var14 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

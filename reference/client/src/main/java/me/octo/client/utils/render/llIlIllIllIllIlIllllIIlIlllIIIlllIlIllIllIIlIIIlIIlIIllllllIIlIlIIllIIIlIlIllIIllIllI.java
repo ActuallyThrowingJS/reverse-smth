@@ -271,90 +271,82 @@ public final class llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllII
       int var6 = "@]yoP4*1ËËñ\u0094\u0084¿\u0083×4×<\u0098\u0012â&6Ókr¨t\u0081¹¡\u0010\"N·}!óy¬H)(\u0097\u0099¦d^0ÚC¤\r3\u0081ò8>\u0096³ª\u008e$\u0098=ê¢=j]q6\u0090ù5Íå&RB\u008aÍÎDL4i\u0006½è3Ûfç\u008a{±(ó}\u0095\u001e{0i\u0095JbQë\u000fÕDå\u001eH»¬\u0081\u0002\"\u0086\u0012Ö6\u0005W¿ú\u0097 (±UWW³f(æâ'§\u0086\u0014s]\u0010Ó\u0090nÙÏ\u0006lý×QÓG\u009ck\u001e<tcÍ-T6;³e\u009aÍô+CG\u0010[ W)%yÁó³J¿ÚqqÔ\u0001(NÙ\u009f\u001e\u000bÎ\u008e\u001e¸¶ê6ÝéY«1\\¨e®ÒØ²\u008d\u009fr¨äD\u000e\u001d{\u0095±&õiAÌ\u0010w\u0097åÚh;\u0004\u0083Ì×Ïîô$½ý\u0010Å_ÆDdÕ_[ÞÂ\u009f~?\t¤\n «!¬B¤«í\u0014\u0007¾\u0016öÂ®bFèu\u009dÅ¸ùå\u008f\\\u0011È Ê\u0004+Ô oß½î`@ò£\n\u0088?»Þzòæå)EO¼\u001a)\u0007K'8©\u0006Û`D\u0010LÊ\u001e<G%\u0007Ç>Û\u0091|\u007fH¶P(Háp^K\\µnÂ\u00130KÍ\u001fÿ3+\u008fkz\u009eÑ\u008eê\u008e§Ú\u0001\u007fn\u0013+Ô:éò_þ\u008eæ(»pìm}\r]a\u009a¼-\u0090c¾Y\nËS÷²*ìD*NÄ\u001a\u000e÷õZ\u0082Öìè¢<\u0002.Y"
          .length();
       char var3 = ' ';
-      int var12 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var35 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var35;
+         if ((var2 += var3) >= var6) {
+            var4 = "ôÂJ\u0099eWÇña\u0097\u001cP5£X`\u0018Îh\u000bæsB\u0088J\u0099_1¸\u001dÁp\u0096ß5\u001c\u0080ôJt±";
+            var6 = "ôÂJ\u0099eWÇña\u0097\u001cP5£X`\u0018Îh\u000bæsB\u0088J\u0099_1¸\u001dÁp\u0096ß5\u001c\u0080ôJt±".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var33 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var33;
-                  if ((var12 += var3) >= var6) {
-                     llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = var7;
-                     IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = new String[16];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new LinkedHashMap<>();
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new LinkedHashMap<>();
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new LinkedHashMap<>();
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new LinkedHashMap<>();
-                     RenderType var15 = RenderTypes.debugFilledBox();
-                     Intrinsics.checkNotNullExpressionValue(var15, "debugFilledBox(...)");
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var15;
-                     RenderType var16 = RenderTypes.debugFilledBox();
-                     Intrinsics.checkNotNullExpressionValue(var16, "debugFilledBox(...)");
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var16;
-                     RenderType var17 = RenderTypes.debugQuads();
-                     Intrinsics.checkNotNullExpressionValue(var17, "debugQuads(...)");
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var17;
-                     RenderType var18 = RenderTypes.debugQuads();
-                     Intrinsics.checkNotNullExpressionValue(var18, "debugQuads(...)");
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var18;
-                     RenderType var19 = RenderTypes.debugQuads();
-                     Intrinsics.checkNotNullExpressionValue(var19, "debugQuads(...)");
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var19;
-                     RenderType var20 = RenderTypes.debugQuads();
-                     Intrinsics.checkNotNullExpressionValue(var20, "debugQuads(...)");
-                     lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = var20;
-                     RenderType var21 = RenderTypes.debugQuads();
-                     Intrinsics.checkNotNullExpressionValue(var21, "debugQuads(...)");
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = var21;
-                     RenderType var22 = RenderTypes.lines();
-                     Intrinsics.checkNotNullExpressionValue(var22, "lines(...)");
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = var22;
-                     RenderType var23 = RenderTypes.lines();
-                     Intrinsics.checkNotNullExpressionValue(var23, "lines(...)");
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var23;
-                     RenderType var24 = RenderTypes.linesTranslucent();
-                     Intrinsics.checkNotNullExpressionValue(var24, "linesTranslucent(...)");
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var24;
-                     RenderType var25 = RenderTypes.debugQuads();
-                     Intrinsics.checkNotNullExpressionValue(var25, "debugQuads(...)");
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var25;
-                     RenderType var26 = RenderTypes.debugQuads();
-                     Intrinsics.checkNotNullExpressionValue(var26, "debugQuads(...)");
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var26;
-                     RenderType var27 = RenderTypes.lines();
-                     Intrinsics.checkNotNullExpressionValue(var27, "lines(...)");
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var27;
-                     RenderType var28 = RenderTypes.linesTranslucent();
-                     Intrinsics.checkNotNullExpressionValue(var28, "linesTranslucent(...)");
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var28;
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var37 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var33 = false;
+               var7[var5++] = var37;
+               if ((var2 += var3) >= var6) {
+                  llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = var7;
+                  IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = new String[16];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new LinkedHashMap<>();
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new LinkedHashMap<>();
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new LinkedHashMap<>();
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new LinkedHashMap<>();
+                  RenderType var18 = RenderTypes.debugFilledBox();
+                  Intrinsics.checkNotNullExpressionValue(var18, "debugFilledBox(...)");
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var18;
+                  RenderType var19 = RenderTypes.debugFilledBox();
+                  Intrinsics.checkNotNullExpressionValue(var19, "debugFilledBox(...)");
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var19;
+                  RenderType var20 = RenderTypes.debugQuads();
+                  Intrinsics.checkNotNullExpressionValue(var20, "debugQuads(...)");
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var20;
+                  RenderType var21 = RenderTypes.debugQuads();
+                  Intrinsics.checkNotNullExpressionValue(var21, "debugQuads(...)");
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var21;
+                  RenderType var22 = RenderTypes.debugQuads();
+                  Intrinsics.checkNotNullExpressionValue(var22, "debugQuads(...)");
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var22;
+                  RenderType var23 = RenderTypes.debugQuads();
+                  Intrinsics.checkNotNullExpressionValue(var23, "debugQuads(...)");
+                  lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = var23;
+                  RenderType var24 = RenderTypes.debugQuads();
+                  Intrinsics.checkNotNullExpressionValue(var24, "debugQuads(...)");
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = var24;
+                  RenderType var25 = RenderTypes.lines();
+                  Intrinsics.checkNotNullExpressionValue(var25, "lines(...)");
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = var25;
+                  RenderType var26 = RenderTypes.lines();
+                  Intrinsics.checkNotNullExpressionValue(var26, "lines(...)");
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var26;
+                  RenderType var27 = RenderTypes.linesTranslucent();
+                  Intrinsics.checkNotNullExpressionValue(var27, "linesTranslucent(...)");
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var27;
+                  RenderType var28 = RenderTypes.debugQuads();
+                  Intrinsics.checkNotNullExpressionValue(var28, "debugQuads(...)");
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var28;
+                  RenderType var29 = RenderTypes.debugQuads();
+                  Intrinsics.checkNotNullExpressionValue(var29, "debugQuads(...)");
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var29;
+                  RenderType var30 = RenderTypes.lines();
+                  Intrinsics.checkNotNullExpressionValue(var30, "lines(...)");
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var30;
+                  RenderType var31 = RenderTypes.linesTranslucent();
+                  Intrinsics.checkNotNullExpressionValue(var31, "linesTranslucent(...)");
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var31;
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var33;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "ôÂJ\u0099eWÇña\u0097\u001cP5£X`\u0018Îh\u000bæsB\u0088J\u0099_1¸\u001dÁp\u0096ß5\u001c\u0080ôJt±";
-                  var6 = "ôÂJ\u0099eWÇña\u0097\u001cP5£X`\u0018Îh\u000bæsB\u0088J\u0099_1¸\u001dÁp\u0096ß5\u001c\u0080ôJt±".length();
-                  var3 = 16;
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

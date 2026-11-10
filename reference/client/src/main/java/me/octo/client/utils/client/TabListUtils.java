@@ -194,62 +194,53 @@ public final class TabListUtils extends me.octo.client.utils.IIIlIlllIlllIIIIlll
       String var4 = "Ûu\\ø\u008a\u0013í\u008b¥¬\u0099hç\bñh0\u0080#\u0018$õ/dte³Ì\u0097ö\u0087\u0019óÌ~\u008e\u0011j\u0001õ\u0001\u0088×Y\u0087Þ>Ñí5\u0093VP\u0002[F¶÷]M\u0010Fé)\u0018 «\u000b\u0003úl£0¤{0\u008bï\u0001\u009aa\u008c\u0010T\u0089¢\u0004Ïdó\u0005eo\u0000Ù-\u0089\u0013\u0010u3\"ª!Ó\u008b'\u0091o\u009fZ-\b\u008eo þ1\u0000èlÐ{<g\u0000ùï\u009c\u001eFÅ5wRöh\u001cNI¬ÍRY8!ç\u0007";
       int var6 = "Ûu\\ø\u008a\u0013í\u008b¥¬\u0099hç\bñh0\u0080#\u0018$õ/dte³Ì\u0097ö\u0087\u0019óÌ~\u008e\u0011j\u0001õ\u0001\u0088×Y\u0087Þ>Ñí5\u0093VP\u0002[F¶÷]M\u0010Fé)\u0018 «\u000b\u0003úl£0¤{0\u008bï\u0001\u009aa\u008c\u0010T\u0089¢\u0004Ïdó\u0005eo\u0000Ù-\u0089\u0013\u0010u3\"ª!Ó\u008b'\u0091o\u009fZ-\b\u008eo þ1\u0000èlÐ{<g\u0000ùï\u009c\u001eFÅ5wRöh\u001cNI¬ÍRY8!ç\u0007"
          .length();
-      char var3 = 16;
-      int var12 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "^ov¹ª*2ý\u0093£\u001ek2tµîÄ>Þ|.\u009dÛ\u0015¼\u0086å\u001a£/\u0081\u001f\u0018Ñ\t¨!\u008a\u009däñ½øÄ\b½Êðx\u0098us\u0003 ¤v*";
+            var6 = "^ov¹ª*2ý\u0093£\u001ek2tµîÄ>Þ|.\u009dÛ\u0015¼\u0086å\u001a£/\u0081\u001f\u0018Ñ\t¨!\u008a\u009däñ½øÄ\b½Êðx\u0098us\u0003 ¤v*".length();
+            var3 = ' ';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var20 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var12 += var3) >= var6) {
-                     lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = var7;
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new String[7];
-                     INSTANCE = new TabListUtils();
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new ConcurrentHashMap<>();
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = "";
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = "";
-                     Comparator var15 = Comparator.<Object>comparingInt(
-                           TabListUtils::IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI
-                        )
-                        .thenComparing(
-                           TabListUtils::llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI,
-                           StringsKt.getCASE_INSENSITIVE_ORDER(StringCompanionObject.INSTANCE)
-                        )
-                        .thenComparing(
-                           TabListUtils::IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII,
-                           StringsKt.getCASE_INSENSITIVE_ORDER(StringCompanionObject.INSTANCE)
-                        );
-                     Intrinsics.checkNotNullExpressionValue(var15, "thenComparing(...)");
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var15;
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = var7;
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new String[7];
+                  INSTANCE = new TabListUtils();
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new ConcurrentHashMap<>();
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = "";
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = "";
+                  Comparator var18 = Comparator.<Object>comparingInt(
+                        TabListUtils::IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI
+                     )
+                     .thenComparing(
+                        TabListUtils::llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI,
+                        StringsKt.getCASE_INSENSITIVE_ORDER(StringCompanionObject.INSTANCE)
+                     )
+                     .thenComparing(
+                        TabListUtils::IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII,
+                        StringsKt.getCASE_INSENSITIVE_ORDER(StringCompanionObject.INSTANCE)
+                     );
+                  Intrinsics.checkNotNullExpressionValue(var18, "thenComparing(...)");
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var18;
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "^ov¹ª*2ý\u0093£\u001ek2tµîÄ>Þ|.\u009dÛ\u0015¼\u0086å\u001a£/\u0081\u001f\u0018Ñ\t¨!\u008a\u009däñ½øÄ\b½Êðx\u0098us\u0003 ¤v*";
-                  var6 = "^ov¹ª*2ý\u0093£\u001ek2tµîÄ>Þ|.\u009dÛ\u0015¼\u0086å\u001a£/\u0081\u001f\u0018Ñ\t¨!\u008a\u009däñ½øÄ\b½Êðx\u0098us\u0003 ¤v*"
-                     .length();
-                  var3 = ' ';
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -349,5 +340,45 @@ public final class TabListUtils extends me.octo.client.utils.IIIlIlllIlllIIIIlll
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/utils/client/TabListUtils" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   @NotNull
+   public final List IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$883d03eb4821035b(char var1, long var2) {
+      var2 = 70650270738540L;
+      long var4 = ((long)var1 << 48 | var2 << 16 >>> 16) ^ llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI;
+      long var6 = var4 ^ 91729563527110L;
+      int var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         -5303345552310286939L, var4
+      );
+      Map var9 = IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI;
+      boolean var10 = false;
+      Collection var12 = new ArrayList(var9.size());
+      int var8 = var10000;
+      boolean var13 = false;
+      Iterator var14 = var9.entrySet().iterator();
+
+      while (true) {
+         if (var14.hasNext()) {
+            Entry var15 = (Entry)var14.next();
+            var20 = var12;
+            if (var8 == 0) {
+               break;
+            }
+
+            boolean var17 = false;
+            var12.add(
+               IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+                  .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((String)var15.getValue(), var6)
+            );
+            if (var8 != 0) {
+               continue;
+            }
+         }
+
+         var20 = var12;
+         break;
+      }
+
+      return (List)var20;
    }
 }

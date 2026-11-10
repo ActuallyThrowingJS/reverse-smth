@@ -122,48 +122,40 @@ public final class Camera extends BooleanModule {
       String var6 = "Ðÿ\u0080¡Ä0·\u0096\u008c_H,î\\}È@L,ë\u0093g\u0016ãçøXº]x¾´L¢í\u0082½\u0019t`NgZ(XP»tÂÌ¤w%*ÀãÄ\u0005½ ©3«çEäG ÙÕç¬¾\u0083\u0085Ü\u0000Ì&\u0080\u000e";
       int var8 = "Ðÿ\u0080¡Ä0·\u0096\u008c_H,î\\}È@L,ë\u0093g\u0016ãçøXº]x¾´L¢í\u0082½\u0019t`NgZ(XP»tÂÌ¤w%*ÀãÄ\u0005½ ©3«çEäG ÙÕç¬¾\u0083\u0085Ü\u0000Ì&\u0080\u000e"
          .length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0011\u0004\u0097B\u0089Ì\u0016\u0007ÿ3«åÙ®\u0086\u009a\u0010\u0012ë>¿\u0082Y\u0014\u0092¿Ê\u0097ÕI±\u0082\u0083";
+            var8 = "\u0011\u0004\u0097B\u0089Ì\u0016\u0007ÿ3«åÙ®\u0086\u009a\u0010\u0012ë>¿\u0082Y\u0014\u0092¿Ê\u0097ÕI±\u0082\u0083".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[4];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new Camera.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     INSTANCE = new Camera();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[4];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new Camera.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  INSTANCE = new Camera();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0011\u0004\u0097B\u0089Ì\u0016\u0007ÿ3«åÙ®\u0086\u009a\u0010\u0012ë>¿\u0082Y\u0014\u0092¿Ê\u0097ÕI±\u0082\u0083";
-                  var8 = "\u0011\u0004\u0097B\u0089Ì\u0016\u0007ÿ3«åÙ®\u0086\u009a\u0010\u0012ë>¿\u0082Y\u0014\u0092¿Ê\u0097ÕI±\u0082\u0083".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

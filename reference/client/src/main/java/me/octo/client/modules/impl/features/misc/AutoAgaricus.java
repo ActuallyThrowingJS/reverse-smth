@@ -99,49 +99,41 @@ public final class AutoAgaricus extends BooleanModule {
       String var6 = "\"Îñ2DÖùF\u0017cýf\u008aÀJM 0Ä\u0087Õ¢`xp-\u000b\u009cW\u009fZ¤\u0090j.\u0018O\u0013\u008b#ß-Õ\u009b\u001eÚ\u001ai\u00070\u0003\u0084hãüw3\u0085µ\u008d\u0094\u00925¨*Q\u0088Xz©\u009c\u009815\u0000Im=I¡F\u0088\u0010Ê¨\u0094ëF\tµÛ\u0088±\u0018\u0090fVM\u0010óú©p±\u000ef\u0093üè\u0093F'»\u0088Æ\u0088\u009cJ\u009f\f\tþG&ç©o2ßïî\u0091ÚY£ßúÐèrU\u0098\u0015æM[2@Èb`\u009eÈU\u0097\u0085\u0014Ì\u00144Ö÷~µ\u009fû\u001aVAëýDIá@\u0011\u0006\u0013ÜW!6O\u009f\u001dÛi_åÐø=2¨g×¶G¶\u000e¡.Ç\u0084Bi<\u0007\u00967iÌð\u0019ÿ\u0016Ö¬õ\u0084\u009d\u0090D{\u0094#²\u0007¦8!\nÅ\u000e\u000e\u00838ôE\tá\u0085ôM\u0095Êx\u0006ì&Ys";
       int var8 = "\"Îñ2DÖùF\u0017cýf\u008aÀJM 0Ä\u0087Õ¢`xp-\u000b\u009cW\u009fZ¤\u0090j.\u0018O\u0013\u008b#ß-Õ\u009b\u001eÚ\u001ai\u00070\u0003\u0084hãüw3\u0085µ\u008d\u0094\u00925¨*Q\u0088Xz©\u009c\u009815\u0000Im=I¡F\u0088\u0010Ê¨\u0094ëF\tµÛ\u0088±\u0018\u0090fVM\u0010óú©p±\u000ef\u0093üè\u0093F'»\u0088Æ\u0088\u009cJ\u009f\f\tþG&ç©o2ßïî\u0091ÚY£ßúÐèrU\u0098\u0015æM[2@Èb`\u009eÈU\u0097\u0085\u0014Ì\u00144Ö÷~µ\u009fû\u001aVAëýDIá@\u0011\u0006\u0013ÜW!6O\u009f\u001dÛi_åÐø=2¨g×¶G¶\u000e¡.Ç\u0084Bi<\u0007\u00967iÌð\u0019ÿ\u0016Ö¬õ\u0084\u009d\u0090D{\u0094#²\u0007¦8!\nÅ\u000e\u000e\u00838ôE\tá\u0085ôM\u0095Êx\u0006ì&Ys"
          .length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "Àº©\u009fá \u0080\u000fÚ/\u0003-±ô II\u001fâî\"kþ§Ò\tÊ\u0095¿ª\n\u0006´\u0015\u0010_\u0003\"UjÿNÏ\t+õÑ÷ 25²Øçn\u000e ØMÌÛ\u0093l\u0085¢ÉÁÿÕ4²\u001bR ¯´ÜöV¡½";
+            var8 = "Àº©\u009fá \u0080\u000fÚ/\u0003-±ô II\u001fâî\"kþ§Ò\tÊ\u0095¿ª\n\u0006´\u0015\u0010_\u0003\"UjÿNÏ\t+õÑ÷ 25²Øçn\u000e ØMÌÛ\u0093l\u0085¢ÉÁÿÕ4²\u001bR ¯´ÜöV¡½"
+               .length();
+            var5 = '0';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var9;
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[7];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new AutoAgaricus();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var9;
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[7];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new AutoAgaricus();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "Àº©\u009fá \u0080\u000fÚ/\u0003-±ô II\u001fâî\"kþ§Ò\tÊ\u0095¿ª\n\u0006´\u0015\u0010_\u0003\"UjÿNÏ\t+õÑ÷ 25²Øçn\u000e ØMÌÛ\u0093l\u0085¢ÉÁÿÕ4²\u001bR ¯´ÜöV¡½";
-                  var8 = "Àº©\u009fá \u0080\u000fÚ/\u0003-±ô II\u001fâî\"kþ§Ò\tÊ\u0095¿ª\n\u0006´\u0015\u0010_\u0003\"UjÿNÏ\t+õÑ÷ 25²Øçn\u000e ØMÌÛ\u0093l\u0085¢ÉÁÿÕ4²\u001bR ¯´ÜöV¡½"
-                     .length();
-                  var5 = '0';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

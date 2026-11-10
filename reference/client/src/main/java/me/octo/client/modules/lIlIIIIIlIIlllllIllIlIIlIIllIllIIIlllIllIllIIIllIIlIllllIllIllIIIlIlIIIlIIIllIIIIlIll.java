@@ -253,54 +253,46 @@ public final class lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIl
       String var4 = "ôn²7'\t\u0085¦Bï\u0083YØ\u0099ÔñÓä\n -ûõ¿\u0010/ØÛ§pÐß½Ôo/\u009f¨À\u0014G\u0010/32\u0017©\t\u0099O\r\u0014e©r°\u0087L g4\u008d\nßËõ\u0085¼\u008f\n\u008fqT=\"¸F°\u001aJ_`Ï³&¸\u0017ôetq\u0010ð¸ÅP]½Fåû\u0091AïLW±w(U§¢\tN\u0013ÐÄ\u001b\u0011,J$B\u0091ú´¥!\u000b\u008bkOÍðö!=Í\u0005¦bfáj\u0000ù\u00ad\u009d7 âÙßÀ|¼  e©>¾\u008b\u0005F\u0096z\u009c!U>ì<\nR¡_ÞÚÒ\u000eÃ (®Ûò&]õÊô\u0082ó\u0087b`q#,áj\u0091¼¥¡F\u008c9O\u001f\u001c\u0014q\u0094( \b\u009f3\u0017YT²Ë°Í\u000e\\Íq\u0012(\u008cÎDÎ\u0015©w\u008fM\"*\u0003\u0080ÿ\u008c{ÝVd\u001bÑ\u0016] à\u00adW½>oß\u0091\u0094/ÓÈj§ÅÍ\u0019²Ò8U\u000b@²\u0096;É\u0012\u0090\u0098\u0091\u008d\u0018©ºXlí\u0014\u0015Ö\u0082Çô+ÌôÂ+ü*ø¯+uùM(¬\u009e/\f0\u0000\u0094ß(\u008d\\S\u0090ßµ#L\u0092GDTÄe\u0013ÇæyÖóHÇABGÉ0;KêK\u0018ëTT\u000e\u00144§c@¨H&\u0015ð0\u0017è\u0012\u0097\nUkðö\u0018.\u0089!âEÈ-¸\u009dXá¤m\r\u009aã¶ ¿ºéTq| GÑvú}ïÇ\u009cÅ²N+_vX-\u000b\u001c\u0004åFO \u0010I\u0094É_pDàó\u0018³ñ!c\u0018¶\u0098l7\u0007×]\u0016R\u001b\u008dmuË øÆ#\u007f ·\tÏ\u009fbÞ{Ô@L\u007f\u009c +T\u000e\u0001ßñVH\u0085\u0000ü1fo´ráø\b\u0010Is\u0096Á;|ì»dD\u0018Ì3@¥ç ±kóÈä4¾\u0099\fv\u000b\u0019Z\u0016\u0097Xæ\u0000m\u0089M²\u0013S\u008aC«¿i°\u009fV\u0010±\u009c\u0019´«µK¬\u0003º\u0017;XUf\u009e";
       int var6 = "ôn²7'\t\u0085¦Bï\u0083YØ\u0099ÔñÓä\n -ûõ¿\u0010/ØÛ§pÐß½Ôo/\u009f¨À\u0014G\u0010/32\u0017©\t\u0099O\r\u0014e©r°\u0087L g4\u008d\nßËõ\u0085¼\u008f\n\u008fqT=\"¸F°\u001aJ_`Ï³&¸\u0017ôetq\u0010ð¸ÅP]½Fåû\u0091AïLW±w(U§¢\tN\u0013ÐÄ\u001b\u0011,J$B\u0091ú´¥!\u000b\u008bkOÍðö!=Í\u0005¦bfáj\u0000ù\u00ad\u009d7 âÙßÀ|¼  e©>¾\u008b\u0005F\u0096z\u009c!U>ì<\nR¡_ÞÚÒ\u000eÃ (®Ûò&]õÊô\u0082ó\u0087b`q#,áj\u0091¼¥¡F\u008c9O\u001f\u001c\u0014q\u0094( \b\u009f3\u0017YT²Ë°Í\u000e\\Íq\u0012(\u008cÎDÎ\u0015©w\u008fM\"*\u0003\u0080ÿ\u008c{ÝVd\u001bÑ\u0016] à\u00adW½>oß\u0091\u0094/ÓÈj§ÅÍ\u0019²Ò8U\u000b@²\u0096;É\u0012\u0090\u0098\u0091\u008d\u0018©ºXlí\u0014\u0015Ö\u0082Çô+ÌôÂ+ü*ø¯+uùM(¬\u009e/\f0\u0000\u0094ß(\u008d\\S\u0090ßµ#L\u0092GDTÄe\u0013ÇæyÖóHÇABGÉ0;KêK\u0018ëTT\u000e\u00144§c@¨H&\u0015ð0\u0017è\u0012\u0097\nUkðö\u0018.\u0089!âEÈ-¸\u009dXá¤m\r\u009aã¶ ¿ºéTq| GÑvú}ïÇ\u009cÅ²N+_vX-\u000b\u001c\u0004åFO \u0010I\u0094É_pDàó\u0018³ñ!c\u0018¶\u0098l7\u0007×]\u0016R\u001b\u008dmuË øÆ#\u007f ·\tÏ\u009fbÞ{Ô@L\u007f\u009c +T\u000e\u0001ßñVH\u0085\u0000ü1fo´ráø\b\u0010Is\u0096Á;|ì»dD\u0018Ì3@¥ç ±kóÈä4¾\u0099\fv\u000b\u0019Z\u0016\u0097Xæ\u0000m\u0089M²\u0013S\u008aC«¿i°\u009fV\u0010±\u009c\u0019´«µK¬\u0003º\u0017;XUf\u009e"
          .length();
-      char var3 = 24;
-      int var17 = -1;
+      char var3 = '\u0018';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var18 = var4.substring(++var17, var17 + var3);
-         byte var21 = -1;
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var28 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+         byte var24 = -1;
+         var7[var5++] = var28;
+         if ((var2 += var3) >= var6) {
+            var4 = "°Ål©·¿o¾ßäW\u0090 &4c\u0018N{Î:ä\u0005F²j\u0014?\u0012\u0006\u000e\u007fFÊ[T\u0082\t\u0094ã\u008c";
+            var6 = "°Ål©·¿o¾ßäW\u0090 &4c\u0018N{Î:ä\u0005F²j\u0014?\u0012\u0006\u000e\u007fFÊ[T\u0082\t\u0094ã\u008c".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var18.getBytes("ISO-8859-1"));
-            String var26 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var21) {
-               case 0:
-                  var7[var5++] = var26;
-                  if ((var17 += var3) >= var6) {
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var7;
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new String[22];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll();
-                     Minecraft var20 = Minecraft.getInstance();
-                     Intrinsics.checkNotNullExpressionValue(var20, "getInstance(...)");
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var20;
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = LazyKt.lazy(
-                        lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll::IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII
-                     );
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = LazyKt.lazy(
-                        lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll::IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var30 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var26 = false;
+               var7[var5++] = var30;
+               if ((var2 += var3) >= var6) {
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var7;
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new String[22];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll();
+                  Minecraft var23 = Minecraft.getInstance();
+                  Intrinsics.checkNotNullExpressionValue(var23, "getInstance(...)");
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var23;
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = LazyKt.lazy(
+                     lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll::IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII
+                  );
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = LazyKt.lazy(
+                     lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll::IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl
+                  );
+                  return;
+               }
 
-                  var3 = var4.charAt(var17);
-                  break;
-               default:
-                  var7[var5++] = var26;
-                  if ((var17 += var3) < var6) {
-                     var3 = var4.charAt(var17);
-                     continue label27;
-                  }
-
-                  var4 = "°Ål©·¿o¾ßäW\u0090 &4c\u0018N{Î:ä\u0005F²j\u0014?\u0012\u0006\u000e\u007fFÊ[T\u0082\t\u0094ã\u008c";
-                  var6 = "°Ål©·¿o¾ßäW\u0090 &4c\u0018N{Î:ä\u0005F²j\u0014?\u0012\u0006\u000e\u007fFÊ[T\u0082\t\u0094ã\u008c".length();
-                  var3 = 16;
-                  var17 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var18 = var4.substring(++var17, var17 + var3);
-            var21 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -407,5 +399,83 @@ public final class lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIl
             var5
          );
       }
+   }
+
+   @NotNull
+   public final Path llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$750faa0ca6fdbbff(
+      long argument1Arg, @NotNull String parentFolderArg, @NotNull String folderNameArg
+   ) {
+      argument1Arg = 51043171109355L;
+      argument1Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument1Arg;
+      long var10001 = argument1Arg ^ 119910915867105L;
+      int var5 = (int)((argument1Arg ^ 119910915867105L) >>> 48);
+      int var6 = (int)((argument1Arg ^ 119910915867105L) << 16 >>> 48);
+      int var7 = (int)(var10001 << 32 >>> 32);
+      Intrinsics.checkNotNullParameter(parentFolderArg, "parentFolder");
+      Intrinsics.checkNotNullParameter(folderNameArg, "folderName");
+      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(parentFolderArg, (char)var5, (short)var6, var7)
+         .resolve(folderNameArg);
+      Intrinsics.checkNotNullExpressionValue(var10000, "resolve(...)");
+      return var10000;
+   }
+
+   @NotNull
+   public final Path IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f72e6cdc0dbcf469(
+      @NotNull String parentFolderArg, @NotNull String fileNameArg, long argument3Arg
+   ) {
+      argument3Arg = 125268737313517L;
+      argument3Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument3Arg;
+      long var10001 = argument3Arg ^ 55580685779687L;
+      int var5 = (int)((argument3Arg ^ 55580685779687L) >>> 48);
+      int var6 = (int)((argument3Arg ^ 55580685779687L) << 16 >>> 48);
+      int var7 = (int)(var10001 << 32 >>> 32);
+      Intrinsics.checkNotNullParameter(parentFolderArg, "parentFolder");
+      Intrinsics.checkNotNullParameter(fileNameArg, "fileName");
+      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(parentFolderArg, (char)var5, (short)var6, var7)
+         .resolve(fileNameArg + ".json");
+      Intrinsics.checkNotNullExpressionValue(var10000, "resolve(...)");
+      return var10000;
+   }
+
+   @NotNull
+   public final Path IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fe6fbfd32bfd4498(
+      @NotNull String parentFolderArg, @NotNull String folderArg, @NotNull String fileNameArg, long argument4Arg
+   ) {
+      argument4Arg = 30965651276232L;
+      argument4Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument4Arg;
+      long var10001 = argument4Arg ^ 104776888715714L;
+      int var6 = (int)((argument4Arg ^ 104776888715714L) >>> 48);
+      int var7 = (int)((argument4Arg ^ 104776888715714L) << 16 >>> 48);
+      int var8 = (int)(var10001 << 32 >>> 32);
+      Intrinsics.checkNotNullParameter(parentFolderArg, "parentFolder");
+      Intrinsics.checkNotNullParameter(folderArg, "folder");
+      Intrinsics.checkNotNullParameter(fileNameArg, "fileName");
+      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(parentFolderArg, (char)var6, (short)var7, var8)
+         .resolve(folderArg)
+         .resolve(fileNameArg + ".json");
+      Intrinsics.checkNotNullExpressionValue(var10000, "resolve(...)");
+      return var10000;
+   }
+
+   @NotNull
+   public final Path IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$96d6991f99c6e932(
+      @NotNull String parentFolderArg, @NotNull String folderArg, @NotNull String subFolderArg, @NotNull String fileNameArg, long argument5Arg
+   ) {
+      argument5Arg = 82738519626638L;
+      argument5Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument5Arg;
+      long var10001 = argument5Arg ^ 8944630946692L;
+      int var7 = (int)((argument5Arg ^ 8944630946692L) >>> 48);
+      int var8 = (int)((argument5Arg ^ 8944630946692L) << 16 >>> 48);
+      int var9 = (int)(var10001 << 32 >>> 32);
+      Intrinsics.checkNotNullParameter(parentFolderArg, "parentFolder");
+      Intrinsics.checkNotNullParameter(folderArg, "folder");
+      Intrinsics.checkNotNullParameter(subFolderArg, "subFolder");
+      Intrinsics.checkNotNullParameter(fileNameArg, "fileName");
+      Path var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(parentFolderArg, (char)var7, (short)var8, var9)
+         .resolve(folderArg)
+         .resolve(subFolderArg)
+         .resolve(fileNameArg + ".json");
+      Intrinsics.checkNotNullExpressionValue(var10000, "resolve(...)");
+      return var10000;
    }
 }

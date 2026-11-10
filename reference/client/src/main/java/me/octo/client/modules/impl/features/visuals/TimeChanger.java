@@ -48,13 +48,9 @@ public final class TimeChanger extends BooleanModule {
 
    @SubscribeEvent
    public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketReceivedEvent eArg) {
-      try {
-         Intrinsics.checkNotNullParameter(eArg, "e");
-         if (eArg.packet instanceof ClientboundSetTimePacket) {
-            this.lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = ((ClientboundSetTimePacket)eArg.packet).gameTime();
-         }
-      } catch (MatchException var2) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var2);
+      Intrinsics.checkNotNullParameter(eArg, "e");
+      if (eArg.packet instanceof ClientboundSetTimePacket) {
+         this.lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = ((ClientboundSetTimePacket)eArg.packet).gameTime();
       }
    }
 

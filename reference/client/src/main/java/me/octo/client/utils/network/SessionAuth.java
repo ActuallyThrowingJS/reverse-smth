@@ -92,37 +92,42 @@ public final class SessionAuth extends me.octo.client.utils.IIIlIlllIlllIIIIlllI
       );
 
       String var10000;
-      label33: {
-         try {
-            var10000 = var2;
-            if (var6 != null) {
-               break label33;
+      label39: {
+         label38: {
+            String var7;
+            try {
+               var7 = var2;
+               if (var6 == null) {
+                  if (var2 == null) {
+                     return false;
+                  }
+                  break label38;
+               }
+            } catch (MatchException var10) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var10, 510482599405113152L, var4
+               );
             }
 
-            if (var2 == null) {
-               return false;
-            }
-         } catch (MatchException var8) {
-            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               var8, 510482599405113152L, var4
-            );
+            var10000 = var7;
+            break label39;
          }
 
          var10000 = var2;
       }
 
       try {
-         boolean var9 = Intrinsics.areEqual(var10000, IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl);
+         boolean var8 = Intrinsics.areEqual(var10000, IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl);
          if (var6 != null) {
-            return var9;
+            return var8;
          }
 
-         if (var9) {
+         if (var8) {
             return true;
          }
-      } catch (MatchException var7) {
+      } catch (MatchException var9) {
          throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-            var7, 510482599405113152L, var4
+            var9, 510482599405113152L, var4
          );
       }
 
@@ -318,17 +323,7 @@ public final class SessionAuth extends me.octo.client.utils.IIIlIlllIlllIIIIlllI
          var3 = Result.constructor-impl(ResultKt.createFailure(var5));
       }
 
-      var2 = (SessionAuth)var3;
-
-      try {
-         if (Result.isFailure-impl(var2)) {
-            return (JsonObject)null;
-         }
-      } catch (Throwable var6) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var6);
-      }
-
-      return (JsonObject)var3;
+      return (JsonObject)(Result.isFailure-impl(var3) ? null : var3);
    }
 
    private static final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(long param0, boolean param2) {

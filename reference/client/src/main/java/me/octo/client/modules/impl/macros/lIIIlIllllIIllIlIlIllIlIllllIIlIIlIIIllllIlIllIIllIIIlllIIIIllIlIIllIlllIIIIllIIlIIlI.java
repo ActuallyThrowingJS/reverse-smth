@@ -386,92 +386,84 @@ public final class lIIIlIllllIIllIlIlIllIlIllllIIlIIlIIIllllIlIllIIllIIIlllIIIIl
       String var11 = "5\u0097Á®Ùû3\u0013\u0017È\u0017\u00adÌâðb\t\u008aç\u0012Cæ^§\u0018t\u001a/\u0018ð\u0019-k\u008d\u009b\u000bffUÑq¹Î,íHzC©\u0010\u0012æÆ\u0019¿\u0091Äµø¿Ð´tõ1; qÝ\u0018¯rÜ\u0087;\u0090\u008d\u0014Øåäìy Y\u0005D\u0082Ê\u0090{EÆ\u0002ì\u008d\u0091z{(\u008e6aÉaþ\f\u0087÷XP%±Î\u0001Ñ\n\u0092\u000eÆÚ{\u00ad+ÍNKU\u000bÇ=ç¯¤k\u008f\u0005\u001e·é\u00109h&¾3Ö\u0095Ù5\u0000\u001c\u0015ÄD\u0010k\u0018zíPJïÉÑÏ\b\u0013E\u0002k\u0081ÍÁ%\tF Ýwòà ±å7\u0082_Î½oÖ\u0014\u0081'Å\u009a<F\u0092bJîsoÍê²û\u0080\u000f{®Ï0\u0010S\u0086À-V§\u00155uàÒÂý¿38\u0010³\u0086h\u008eêxµªª\u00176ò7»º?\u0018\t¹\r\u001f\u0006óÈ·{\u0011?æ\u0095]¯\u0099g¤\u0019\u0010\u0090i\u0007\u001a \u0019p\u009bkûÅN&\u009e%\u0087\u0011¹^+§î2ã$Vú¥\u0010E\u0014@\u0088ZD\rF\u0018-?¼A÷EÆ4\u0004\u001d\\Öì3\u0017\u0092æ~O\u008d ¡\u0093U ¨Ìôv×\u0001¸{´\u0019Ä\u0005+\u0004\u0080\t\u0095\fÊO7ö{«Iv\u0095\u0092bØ6\u0084\u0018®²ÌÕ\u0089\u008a¡\u0084y¤\tGq¥Y£¿\u0000\u0016ôÐ@^v Ê\u0000Á¡gU»I[Ï\u009b\bÇ{18éÿV\"\u0087\u0097\u0086èT¤Õ¸/Éßð\u0018BOBJ¿\u0096\u0099=8=\u000f°\u008b\u0095¿¬\u0019^ðw`:\u0080\n\u0010³aòu.\u0084µ£NÀ\u0090±#(ù\u0018 \u00132È\u0015|ÔIBÁ°\u00976b²\u0002h|±y\u0080ö\u001bm\u0004©\u001dN¼^\u008f5\u000e\u0018BíA\u0093Ð®6\u0004w¸n\u0098\u0011éë\u008d\u0019½L\u0006¢Ð¸a @í,§%ßÌ ¨\n\u0000oT?T3:\u009cëÞÍ¸Ê\u0002[\u007f\u0096\\1\r\u0019Ü \u008eWÞîl\u008eÒ¸nßâ\u0096\u0006\u001aT,3¨¯GeØØ\u0016Ê\u0019E:ä\\êJ\u0010øQÚ¯©ì*iO\u009e9%6t\b® xL7@ý{\u000fN\u008a\u0099v\u0010r×\"Ý\u0006è:\u0004eq.è¢\u008fU´¨)ä\"(\u0003\u0090\u0005\u000eGÈ\u0003\u0083&¼äQ\fþ\u0012CBæø\u0014~C)C\u0015¨j¤vå´ñU*\u008d9\u0011\u0004Ç³\u0010ë\u008fîôZØ\u0005\u0089\"\u0016jÿå\u0002)I\u0010 c©0úÿÜ5S\u009da®&Óé\u007f\u0018\u001dNÐK\u007fth\u0083\u000b%\u0086â\\Ý/î¨\u008e).@fã\u001f\u0018bÎ<Ñ{×¶äµ\tVl+-?Ñj\u000f7>\u0019d\u0080£\u0010Z\t\u0096²v¯!\u0093\u0083\u0089\u0092qÉ\u00882\u0018\u0018\u0097wó±=Û,YLC´R\u0082Õ\u009a>¬\f÷Ð\"j@\u008f\u0010$.ß\u0089*KÂ\u0006øá®òb£r»\u0010\u0001·Å\u0018\u0098º\u00ad¢\\m\u0012Øs\u000fÊ=";
       int var13 = "5\u0097Á®Ùû3\u0013\u0017È\u0017\u00adÌâðb\t\u008aç\u0012Cæ^§\u0018t\u001a/\u0018ð\u0019-k\u008d\u009b\u000bffUÑq¹Î,íHzC©\u0010\u0012æÆ\u0019¿\u0091Äµø¿Ð´tõ1; qÝ\u0018¯rÜ\u0087;\u0090\u008d\u0014Øåäìy Y\u0005D\u0082Ê\u0090{EÆ\u0002ì\u008d\u0091z{(\u008e6aÉaþ\f\u0087÷XP%±Î\u0001Ñ\n\u0092\u000eÆÚ{\u00ad+ÍNKU\u000bÇ=ç¯¤k\u008f\u0005\u001e·é\u00109h&¾3Ö\u0095Ù5\u0000\u001c\u0015ÄD\u0010k\u0018zíPJïÉÑÏ\b\u0013E\u0002k\u0081ÍÁ%\tF Ýwòà ±å7\u0082_Î½oÖ\u0014\u0081'Å\u009a<F\u0092bJîsoÍê²û\u0080\u000f{®Ï0\u0010S\u0086À-V§\u00155uàÒÂý¿38\u0010³\u0086h\u008eêxµªª\u00176ò7»º?\u0018\t¹\r\u001f\u0006óÈ·{\u0011?æ\u0095]¯\u0099g¤\u0019\u0010\u0090i\u0007\u001a \u0019p\u009bkûÅN&\u009e%\u0087\u0011¹^+§î2ã$Vú¥\u0010E\u0014@\u0088ZD\rF\u0018-?¼A÷EÆ4\u0004\u001d\\Öì3\u0017\u0092æ~O\u008d ¡\u0093U ¨Ìôv×\u0001¸{´\u0019Ä\u0005+\u0004\u0080\t\u0095\fÊO7ö{«Iv\u0095\u0092bØ6\u0084\u0018®²ÌÕ\u0089\u008a¡\u0084y¤\tGq¥Y£¿\u0000\u0016ôÐ@^v Ê\u0000Á¡gU»I[Ï\u009b\bÇ{18éÿV\"\u0087\u0097\u0086èT¤Õ¸/Éßð\u0018BOBJ¿\u0096\u0099=8=\u000f°\u008b\u0095¿¬\u0019^ðw`:\u0080\n\u0010³aòu.\u0084µ£NÀ\u0090±#(ù\u0018 \u00132È\u0015|ÔIBÁ°\u00976b²\u0002h|±y\u0080ö\u001bm\u0004©\u001dN¼^\u008f5\u000e\u0018BíA\u0093Ð®6\u0004w¸n\u0098\u0011éë\u008d\u0019½L\u0006¢Ð¸a @í,§%ßÌ ¨\n\u0000oT?T3:\u009cëÞÍ¸Ê\u0002[\u007f\u0096\\1\r\u0019Ü \u008eWÞîl\u008eÒ¸nßâ\u0096\u0006\u001aT,3¨¯GeØØ\u0016Ê\u0019E:ä\\êJ\u0010øQÚ¯©ì*iO\u009e9%6t\b® xL7@ý{\u000fN\u008a\u0099v\u0010r×\"Ý\u0006è:\u0004eq.è¢\u008fU´¨)ä\"(\u0003\u0090\u0005\u000eGÈ\u0003\u0083&¼äQ\fþ\u0012CBæø\u0014~C)C\u0015¨j¤vå´ñU*\u008d9\u0011\u0004Ç³\u0010ë\u008fîôZØ\u0005\u0089\"\u0016jÿå\u0002)I\u0010 c©0úÿÜ5S\u009da®&Óé\u007f\u0018\u001dNÐK\u007fth\u0083\u000b%\u0086â\\Ý/î¨\u008e).@fã\u001f\u0018bÎ<Ñ{×¶äµ\tVl+-?Ñj\u000f7>\u0019d\u0080£\u0010Z\t\u0096²v¯!\u0093\u0083\u0089\u0092qÉ\u00882\u0018\u0018\u0097wó±=Û,YLC´R\u0082Õ\u009a>¬\f÷Ð\"j@\u008f\u0010$.ß\u0089*KÂ\u0006øá®òb£r»\u0010\u0001·Å\u0018\u0098º\u00ad¢\\m\u0012Øs\u000fÊ="
          .length();
-      char var10 = 24;
-      int var18 = -1;
+      char var10 = '\u0018';
+      int var9 = -1;
 
-      label37:
       while (true) {
-         String var19 = var11.substring(++var18, var18 + var10);
+         byte[] var15 = var7.doFinal(var11.substring(++var9, var9 + var10).getBytes("ISO-8859-1"));
+         String var29 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var15).intern();
          byte var10001 = -1;
+         var14[var12++] = var29;
+         if ((var9 += var10) >= var13) {
+            var11 = "Ó2\u0004¡¸\u0001\u0091ø>Eµå7\u0080\u0010\u0011\u0010\u0015l\u001cªï7\u0002\u0086\r-5\u00144\u008d&ç";
+            var13 = "Ó2\u0004¡¸\u0001\u0091ø>Eµå7\u0080\u0010\u0011\u0010\u0015l\u001cªï7\u0002\u0086\r-5\u00144\u008d&ç".length();
+            var10 = '\u0010';
+            var9 = -1;
 
-         while (true) {
-            byte[] var15 = var7.doFinal(var19.getBytes("ISO-8859-1"));
-            String var27 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var15).intern();
-            switch (var10001) {
-               case 0:
-                  var14[var12++] = var27;
-                  if ((var18 += var10) >= var13) {
-                     IIIlIIIlIllIIIllIllIIlIlIlIIllIIllIIIlIIIlIIlllIIIlllIIIIIIIlIlIlIlIIlIlIIlllIIIllIll = var14;
-                     IlIllllIlIIIIlIIIIIIllIlIllIlIlIIllIlIIlllIIllllllIIIIlIlIlIIlIIlIlIlIlIlIIIIIlllIIlI = new String[35];
-                     Cipher var0;
-                     var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
-                     var10002 = SecretKeyFactory.getInstance("DES");
-                     var10003 = new byte[]{(byte)(var5 >>> 56), 0, 0, 0, 0, 0, 0, 0};
+            while (true) {
+               var15 = var7.doFinal(var11.substring(++var9, var9 + var10).getBytes("ISO-8859-1"));
+               String var31 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var15).intern();
+               byte var26 = 0;
+               var14[var12++] = var31;
+               if ((var9 += var10) >= var13) {
+                  IIIlIIIlIllIIIllIllIIlIlIlIIllIIllIIIlIIIlIIlllIIIlllIIIIIIIlIlIlIlIIlIlIIlllIIIllIll = var14;
+                  IlIllllIlIIIIlIIIIIIllIlIllIlIlIIllIlIIlllIIllllllIIIIlIlIlIIlIIlIlIlIlIlIIIIIlllIIlI = new String[35];
+                  Cipher var0;
+                  var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
+                  var10002 = SecretKeyFactory.getInstance("DES");
+                  var10003 = new byte[]{(byte)(var5 >>> 56), 0, 0, 0, 0, 0, 0, 0};
 
-                     for (int var1 = 1; var1 < 8; var1++) {
-                        var10003[var1] = (byte)(var5 << var1 * 8 >>> 56);
+                  for (int var1 = 1; var1 < 8; var1++) {
+                     var10003[var1] = (byte)(var5 << var1 * 8 >>> 56);
+                  }
+
+                  var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+                  long var2 = -900997394132776397L;
+                  byte[] var4 = var0.doFinal(
+                     new byte[]{
+                        (byte)(var2 >>> 56),
+                        (byte)(var2 >>> 48),
+                        (byte)(var2 >>> 40),
+                        (byte)(var2 >>> 32),
+                        (byte)(var2 >>> 24),
+                        (byte)(var2 >>> 16),
+                        (byte)(var2 >>> 8),
+                        (byte)var2
                      }
+                  );
+                  long var34 = (var4[0] & 255L) << 56
+                     | (var4[1] & 255L) << 48
+                     | (var4[2] & 255L) << 40
+                     | (var4[3] & 255L) << 32
+                     | (var4[4] & 255L) << 24
+                     | (var4[5] & 255L) << 16
+                     | (var4[6] & 255L) << 8
+                     | var4[7] & 255L;
+                  var26 = -1;
+                  lIllIIIllllllIIIIllIIlIllIlllllIIIIlIIlIIIlllIIIIlIIllIlIllllIlIIIlIIlllllllllllIIllI = var34;
+                  lIllIIllIIllIIIlIlIlIIlllllllIllIIllIlIlIIlIlIIlIIlllIIlIlIIlIllIlIllIllIIllIlllIIlII = new lIIIlIllllIIllIlIlIllIlIllllIIlIIlIIIllllIlIllIIllIIIlllIIIIllIlIIllIlllIIIIllIIlIIlI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  Block[] var16 = new Block[]{
+                     Blocks.STONE,
+                     Blocks.INFESTED_STONE,
+                     Blocks.GOLD_ORE,
+                     Blocks.IRON_ORE,
+                     Blocks.COAL_ORE,
+                     Blocks.LAPIS_ORE,
+                     Blocks.DIAMOND_ORE,
+                     Blocks.REDSTONE_ORE,
+                     Blocks.EMERALD_ORE
+                  };
+                  IIllIIIIIIllIlIlIIllIlIlIllIIIIlllIllllllIlllllIIlIIIlllIlIIIllIIIlIIIlllIllIIlIllllI = SetsKt.setOf(var16);
+                  return;
+               }
 
-                     var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
-                     long var2 = -900997394132776397L;
-                     byte[] var4 = var0.doFinal(
-                        new byte[]{
-                           (byte)(var2 >>> 56),
-                           (byte)(var2 >>> 48),
-                           (byte)(var2 >>> 40),
-                           (byte)(var2 >>> 32),
-                           (byte)(var2 >>> 24),
-                           (byte)(var2 >>> 16),
-                           (byte)(var2 >>> 8),
-                           (byte)var2
-                        }
-                     );
-                     long var31 = (var4[0] & 255L) << 56
-                        | (var4[1] & 255L) << 48
-                        | (var4[2] & 255L) << 40
-                        | (var4[3] & 255L) << 32
-                        | (var4[4] & 255L) << 24
-                        | (var4[5] & 255L) << 16
-                        | (var4[6] & 255L) << 8
-                        | var4[7] & 255L;
-                     var10001 = -1;
-                     lIllIIIllllllIIIIllIIlIllIlllllIIIIlIIlIIIlllIIIIlIIllIlIllllIlIIIlIIlllllllllllIIllI = var31;
-                     lIllIIllIIllIIIlIlIlIIlllllllIllIIllIlIlIIlIlIIlIIlllIIlIlIIlIllIlIllIllIIllIlllIIlII = new lIIIlIllllIIllIlIlIllIlIllllIIlIIlIIIllllIlIllIIllIIIlllIIIIllIlIIllIlllIIIIllIIlIIlI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     Block[] var16 = new Block[]{
-                        Blocks.STONE,
-                        Blocks.INFESTED_STONE,
-                        Blocks.GOLD_ORE,
-                        Blocks.IRON_ORE,
-                        Blocks.COAL_ORE,
-                        Blocks.LAPIS_ORE,
-                        Blocks.DIAMOND_ORE,
-                        Blocks.REDSTONE_ORE,
-                        Blocks.EMERALD_ORE
-                     };
-                     IIllIIIIIIllIlIlIIllIlIlIllIIIIlllIllllllIlllllIIlIIIlllIlIIIllIIIlIIIlllIllIIlIllllI = SetsKt.setOf(var16);
-                     return;
-                  }
-
-                  var10 = var11.charAt(var18);
-                  break;
-               default:
-                  var14[var12++] = var27;
-                  if ((var18 += var10) < var13) {
-                     var10 = var11.charAt(var18);
-                     continue label37;
-                  }
-
-                  var11 = "Ó2\u0004¡¸\u0001\u0091ø>Eµå7\u0080\u0010\u0011\u0010\u0015l\u001cªï7\u0002\u0086\r-5\u00144\u008d&ç";
-                  var13 = "Ó2\u0004¡¸\u0001\u0091ø>Eµå7\u0080\u0010\u0011\u0010\u0015l\u001cªï7\u0002\u0086\r-5\u00144\u008d&ç".length();
-                  var10 = 16;
-                  var18 = -1;
+               var10 = var11.charAt(var9);
             }
-
-            var19 = var11.substring(++var18, var18 + var10);
-            var10001 = 0;
          }
+
+         var10 = var11.charAt(var9);
       }
    }
 

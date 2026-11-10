@@ -190,74 +190,66 @@ public final class IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIII
       int var6 = "1b/*}?\u009c\u0094\u0011³½Jt\u0092Ðk\u000e!-\u0097L5*Aö\u001aÒãfî,\u009f\u0010.Ë\u0080\u0007ÏäXó:\u0092\u0007Øà\u0099ÖÈ\u0018×hb\u0004 \u0005\u0093\u0086\u0090=rþý\u0080Ò\u007fÛ\u0091exq\u000f@k ìÏ-è\u001cÌÞ\u001b\u0090ykEÌ\u0000ÐÀ¸ÛE£\u009c¼e-w \u008b0\u0010óI\u009b\u0018FM7¸k/ò»0\u0014\u001e´ô\u0096\u0089¨>Só«\u0090\u009d\u0093í Ê¯þw\u008a\u0003<$©8öÅD\u008a\u009f·55¼\u0002\u000b\u009e¸\u009f\u008a`Y\u001cZ\u007f3Q\u0010Æ\u0007^lG[\u0006\u0081\u0011qþïºFÑ\u007f\u0010\fÉ×\u0003\u0090HÔ\u0099q¾\u0089ïY&ÿÎ\u0018éêÜ\u008cÔ\u009c\u009aÇj\u008bSÈ\u0089^/´\u0017o5p}÷h\u008f\u0010¹P\u0083\u0016sßéÝKW o\u008f\u008b\u009a\u00948öèzÓ~õiöBqÄh¬\u009e\u001ea&íORÆNÝp\u0006¨GiÀé\u008d\u0010\u0089ã¶(W\u0086%ì÷gÃ\u0087ÑÍ\u0093\u009aM-à\u0019à;-w\u0018 ¾;;åM\u0012G\u009c=å\u009a©C· svÅ½GËöÃ yd\u0000!D.OÄÇ\u0099.K«ºL|+ôÀÅÁòµ´Å\u0004G\u001eAPáí"
          .length();
       char var3 = ' ';
-      int var13 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var14 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "\u007fP\u0002ôe\u0018á\u0002ï|«\u009d¸S\u0002¹ Å}Þ£S¿!e \u008c m\u0005\"\u008aÞ\u0018s+p¸¤$5\\«íÀûÍs_";
+            var6 = "\u007fP\u0002ôe\u0018á\u0002ï|«\u009d¸S\u0002¹ Å}Þ£S¿!e \u008c m\u0005\"\u008aÞ\u0018s+p¸¤$5\\«íÀûÍs_".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) >= var6) {
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var7;
-                     lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new String[15];
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll();
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new Regex("Sweep:\\s*(?:∮|§[0-9a-fk-or])*(\\d+)");
-                     BlockPos[] var11 = new BlockPos[]{
-                        new BlockPos(-1, -1, -1),
-                        new BlockPos(-1, -1, 0),
-                        new BlockPos(-1, -1, 1),
-                        new BlockPos(-1, 0, -1),
-                        new BlockPos(-1, 0, 0),
-                        new BlockPos(-1, 0, 1),
-                        new BlockPos(-1, 1, -1),
-                        new BlockPos(-1, 1, 0),
-                        new BlockPos(-1, 1, 1),
-                        new BlockPos(0, -1, -1),
-                        new BlockPos(0, -1, 0),
-                        new BlockPos(0, -1, 1),
-                        new BlockPos(0, 0, -1),
-                        new BlockPos(0, 0, 1),
-                        new BlockPos(0, 1, -1),
-                        new BlockPos(0, 1, 0),
-                        new BlockPos(0, 1, 1),
-                        new BlockPos(1, -1, -1),
-                        new BlockPos(1, -1, 0),
-                        new BlockPos(1, -1, 1),
-                        new BlockPos(1, 0, -1),
-                        new BlockPos(1, 0, 0),
-                        new BlockPos(1, 0, 1),
-                        new BlockPos(1, 1, -1),
-                        new BlockPos(1, 1, 0),
-                        new BlockPos(1, 1, 1)
-                     };
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var11;
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var7;
+                  lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new String[15];
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll();
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new Regex("Sweep:\\s*(?:∮|§[0-9a-fk-or])*(\\d+)");
+                  BlockPos[] var11 = new BlockPos[]{
+                     new BlockPos(-1, -1, -1),
+                     new BlockPos(-1, -1, 0),
+                     new BlockPos(-1, -1, 1),
+                     new BlockPos(-1, 0, -1),
+                     new BlockPos(-1, 0, 0),
+                     new BlockPos(-1, 0, 1),
+                     new BlockPos(-1, 1, -1),
+                     new BlockPos(-1, 1, 0),
+                     new BlockPos(-1, 1, 1),
+                     new BlockPos(0, -1, -1),
+                     new BlockPos(0, -1, 0),
+                     new BlockPos(0, -1, 1),
+                     new BlockPos(0, 0, -1),
+                     new BlockPos(0, 0, 1),
+                     new BlockPos(0, 1, -1),
+                     new BlockPos(0, 1, 0),
+                     new BlockPos(0, 1, 1),
+                     new BlockPos(1, -1, -1),
+                     new BlockPos(1, -1, 0),
+                     new BlockPos(1, -1, 1),
+                     new BlockPos(1, 0, -1),
+                     new BlockPos(1, 0, 0),
+                     new BlockPos(1, 0, 1),
+                     new BlockPos(1, 1, -1),
+                     new BlockPos(1, 1, 0),
+                     new BlockPos(1, 1, 1)
+                  };
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var11;
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label27;
-                  }
-
-                  var4 = "\u007fP\u0002ôe\u0018á\u0002ï|«\u009d¸S\u0002¹ Å}Þ£S¿!e \u008c m\u0005\"\u008aÞ\u0018s+p¸¤$5\\«íÀûÍs_";
-                  var6 = "\u007fP\u0002ôe\u0018á\u0002ï|«\u009d¸S\u0002¹ Å}Þ£S¿!e \u008c m\u0005\"\u008aÞ\u0018s+p¸¤$5\\«íÀûÍs_".length();
-                  var3 = 16;
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var14 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -368,5 +360,9 @@ public final class IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIII
             var5
          );
       }
+   }
+
+   public final int IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl$recovered$ac7f32206e531c89(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

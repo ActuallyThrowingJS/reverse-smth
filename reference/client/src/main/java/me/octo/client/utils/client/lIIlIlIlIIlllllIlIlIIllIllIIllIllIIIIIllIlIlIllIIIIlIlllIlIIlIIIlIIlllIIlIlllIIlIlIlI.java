@@ -124,17 +124,17 @@ public class lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlII
       int var2 = var10000;
 
       float var10001;
-      label34: {
-         label33: {
+      label29: {
+         label28: {
             try {
                var7 = var3;
                var10001 = 0.0F;
                if (var2 != 0) {
-                  break label34;
+                  break label29;
                }
 
                if (!(var3 < 0.0F)) {
-                  break label33;
+                  break label28;
                }
             } catch (MatchException var5) {
                throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
@@ -147,10 +147,6 @@ public class lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlII
 
          try {
             var7 = var3;
-            if (var2 != 0) {
-               return var3;
-            }
-
             var10001 = 1.0F;
          } catch (MatchException var4) {
             throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
@@ -340,5 +336,11 @@ public class lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlII
             var5
          );
       }
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$574d42d7d85d8a48(
+      long param0, short param2, Boolean param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

@@ -182,4 +182,14 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
          );
       }
    }
+
+   @NotNull
+   public static final Vec3 IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$03acd73a82914ac9(
+      @NotNull Entity var0, long var1
+   ) {
+      var1 = 75599246324335L;
+      var1 = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ var1;
+      Intrinsics.checkNotNullParameter(var0, "<this>");
+      return new Vec3(var0.getX(), var0.getY(), var0.getZ());
+   }
 }

@@ -376,4 +376,20 @@ public final class llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllII
          );
       }
    }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$32f97b067359699c(
+      long argument1Arg, @NotNull Iterable allocatorInUseArg
+   ) {
+      argument1Arg = 118337749933813L;
+      argument1Arg = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ argument1Arg;
+      long var10001 = argument1Arg ^ 21333642990370L;
+      int var3 = (int)((argument1Arg ^ 21333642990370L) >>> 48);
+      int var4 = (int)((argument1Arg ^ 21333642990370L) << 16 >>> 32);
+      int var5 = (int)(var10001 << 48 >>> 48);
+      Intrinsics.checkNotNullParameter(allocatorInUseArg, "allocatorInUse");
+      lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         (short)var3, allocatorInUseArg, var4, (char)var5
+      );
+   }
 }

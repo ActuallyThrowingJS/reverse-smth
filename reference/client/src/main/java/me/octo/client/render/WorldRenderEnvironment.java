@@ -254,7 +254,7 @@ public final class WorldRenderEnvironment {
    public static final void beginWorldFrame(@NotNull RenderTarget var0, @NotNull PoseStack var1, @NotNull Camera var2) {
       long var3 = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ 6251228879868L;
       long var5 = var3 ^ 54699672031794L;
-      IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$54d3abdf1e325d4d(
          var5, var0, var1, var2
       );
    }
@@ -263,7 +263,7 @@ public final class WorldRenderEnvironment {
    public static final void endWorldFrame() {
       long var0 = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ 124171415884595L;
       long var2 = var0 ^ 79558836341919L;
-      IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ea1bab066b1906a0(
          var2
       );
    }
@@ -299,52 +299,44 @@ public final class WorldRenderEnvironment {
       int var8 = "\u007f{®#\u0085\u0007;Ó, \u0005\u001a¤¶q\u0005ÑÇ\u0006§d/\u0019\u0014g¨\u0005SºÉ¹Û\u0018Ñ\u007f\u009cwK©¦\tÖØ\u001a³Jÿ\u0011[\u008935@\u0088\u0090ïô\u0018\u008a&\u008b\u0003?bç\u0084Çc\\\u0092\u0082H*\u0004IÅþQ§\u0095\u0094\u009d \u0087ñÁaÑ¥È \u0018V[È\u0001\u001c§|ÙÛg\u008eBöà#\n÷\u008cÖZP#3(\u0019\u009a\böÊ\u0086qÌ\u008d4\u0011ËÝ\u008epaÈ$bu9¨?ºp¶²\u0001\u0003\u001b\u009c6£ê\u0091S\u008c\u008cMXH©\u0082\u0085Ùè\u0081\u009d?.Ít\nÍ¬ëRßX:ª#\u009b5IíÌ\u0013¥5YËj\u001anÆ¶vN¾ß\u0094ß\u0095¶!\u0082\u0003Ç\u0096\u00adÐß\u0095\u0095MP\u0018F6Óá\u0006\u009c\u0091^ûü\u009fËsYÐ\u0010ïú\té\u008fè¹\u0094|÷_\rB¶\u008dû\u0010\u009aXÝôÇ\fMÅ è(¦¿K1\u0093 íÐ\u0012sñD\u008aÁCÇ\"Ät\u009e6Èlß´'\u0084þoëé\u0092P\u0097%Üà÷\u0010ûì\u001c¯{5ó\u0015ÅÕ\u0087Å\u0089uù3\u0010q)\u009e\u0083\u009cénÞE\u0010wªÆVÍn\u0010Um\u008eLùW\t`ÒQçòëè³} ³]Ó\u001eã?(ÁÅ?\u00150\u0097##U\u008c\u0095\u0003\u0099]Ò\u0017¬@\u008dHt\u0017\u0084aþ(û\u0017?*Ò\"¹C9îÅO8\u009e|ÕO\u0093jÎë\u0016}¾Å\u001en\u0093P\u0007/ÔÞó·\u0013ÑÀ\u001e5\u0010p\"\u001f²\u0090o÷¦\u0097\u0089/µ\u008a¹çX\u0018º°ô\u0095\u0097D@\u0011\u0080\u0087\u0082ÿÏ\u001cÙù§'\u0098ô?t*Î@\u000f\u007fn3\u0000\u0096{¡ò\u0083\u0083©÷D;µb\u008awøCwôÕ\u0084¶ë\u009ed\u008fIîÿ\u0006÷&©8\u000e\"oqc{û\u008cé1\u0096&1'\u009bµÛÆg\u0010\u0000\u0015`ñ\u0091Â"
          .length();
       char var5 = ' ';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "}H\u001eÍ\u0002¶-Å\u008al¸ö\u008c·\u0087dÓ\u0091\u0095\u007f2\bÆ2\u0010\u0014bUslÛÌ>÷5ÐË\u0016¡õ\u008d";
+            var8 = "}H\u001eÍ\u0002¶-Å\u008al¸ö\u008c·\u0087dÓ\u0091\u0095\u007f2\bÆ2\u0010\u0014bUslÛÌ>÷5ÐË\u0016¡õ\u008d".length();
+            var5 = '\u0018';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var9;
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new String[19];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new PoseStack();
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
-                     lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new Pool<>(
-                        <unrepresentable>.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl,
-                        <unrepresentable>.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-                     );
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var9;
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new String[19];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new PoseStack();
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
+                  lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new Pool<>(
+                     <unrepresentable>.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl,
+                     <unrepresentable>.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                  );
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "}H\u001eÍ\u0002¶-Å\u008al¸ö\u008c·\u0087dÓ\u0091\u0095\u007f2\bÆ2\u0010\u0014bUslÛÌ>÷5ÐË\u0016¡õ\u008d";
-                  var8 = "}H\u001eÍ\u0002¶-Å\u008al¸ö\u008c·\u0087dÓ\u0091\u0095\u007f2\bÆ2\u0010\u0014bUslÛÌ>÷5ÐË\u0016¡õ\u008d".length();
-                  var5 = 24;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -444,6 +436,40 @@ public final class WorldRenderEnvironment {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/render/WorldRenderEnvironment" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ec7027a0f8f1151c(
+      long var1, @NotNull IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll var3
+   ) {
+      var1 = 7042698503630L;
+      var1 = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      this.IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var3;
+   }
+
+   @NotNull
+   public final VertexConsumer IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$334ebc7c890d3977(
+      long param1, int param3, @NotNull RenderPipeline param4, @NotNull Map param5, @NotNull Map param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$9dcf30d416c94f58(
+      WorldRenderEnvironment param0, VertexConsumer param1, boolean param2, int param3, Object param4, long param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d0b9a4859d4815ff(
+      long argument1Arg, @NotNull VertexConsumer consumerArg, boolean argument3Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ca823ddf11185d1e(
+      llIIlIllIllllIIIIlllIlIllIlIIIlllIllIlllIIlIIllIlIllIlIIllIIlIIIIlIIlIlIllllIIIIIlIll param1, MeshData param2, long param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
@@ -597,44 +623,36 @@ public final class WorldRenderEnvironment {
          String var4 = ">\\¢Û'W\u0004jäqÒÖ¾\u000fõÇ\u0018dGz\u00897v4Ö\u0015?ûîFøq\u0015P\u0010VK\u0086óZi\u0018ùÐg#\u0088Ã¢H$j¦¶KÎ\u0093\u0096¼¹6%²g<\u0099 ¦ \u009aå@ÃéMãù¤Ãw°\u0003vÖæîj[{/×Ð®¢É|\u0098þÝ";
          int var6 = ">\\¢Û'W\u0004jäqÒÖ¾\u000fõÇ\u0018dGz\u00897v4Ö\u0015?ûîFøq\u0015P\u0010VK\u0086óZi\u0018ùÐg#\u0088Ã¢H$j¦¶KÎ\u0093\u0096¼¹6%²g<\u0099 ¦ \u009aå@ÃéMãù¤Ãw°\u0003vÖæîj[{/×Ð®¢É|\u0098þÝ"
             .length();
-         char var3 = 16;
-         int var13 = -1;
+         char var3 = '\u0010';
+         int var2 = -1;
 
-         label27:
          while (true) {
-            String var14 = var4.substring(++var13, var13 + var3);
+            byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+            String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
             byte var10001 = -1;
+            var7[var5++] = var22;
+            if ((var2 += var3) >= var6) {
+               var4 = " $Êç\u0014\u0085§â\u009c']iQ³8ñ9\u001e\u0085\u007fþÛ\u008f=\u0010\u001bH9\u008d9R\u0084\u0014\u0006TÅlúdç¼";
+               var6 = " $Êç\u0014\u0085§â\u009c']iQ³8ñ9\u001e\u0085\u007fþÛ\u008f=\u0010\u001bH9\u008d9R\u0084\u0014\u0006TÅlúdç¼".length();
+               var3 = '\u0018';
+               var2 = -1;
 
-            while (true) {
-               byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-               String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-               switch (var10001) {
-                  case 0:
-                     var7[var5++] = var20;
-                     if ((var13 += var3) >= var6) {
-                        IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var7;
-                        lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[6];
-                        return;
-                     }
+               while (true) {
+                  var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+                  String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+                  boolean var20 = false;
+                  var7[var5++] = var24;
+                  if ((var2 += var3) >= var6) {
+                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var7;
+                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[6];
+                     return;
+                  }
 
-                     var3 = var4.charAt(var13);
-                     break;
-                  default:
-                     var7[var5++] = var20;
-                     if ((var13 += var3) < var6) {
-                        var3 = var4.charAt(var13);
-                        continue label27;
-                     }
-
-                     var4 = " $Êç\u0014\u0085§â\u009c']iQ³8ñ9\u001e\u0085\u007fþÛ\u008f=\u0010\u001bH9\u008d9R\u0084\u0014\u0006TÅlúdç¼";
-                     var6 = " $Êç\u0014\u0085§â\u009c']iQ³8ñ9\u001e\u0085\u007fþÛ\u008f=\u0010\u001bH9\u008d9R\u0084\u0014\u0006TÅlúdç¼".length();
-                     var3 = 24;
-                     var13 = -1;
+                  var3 = var4.charAt(var2);
                }
-
-               var14 = var4.substring(++var13, var13 + var3);
-               var10001 = 0;
             }
+
+            var3 = var4.charAt(var2);
          }
       }
 
@@ -743,6 +761,109 @@ public final class WorldRenderEnvironment {
                var5
             );
          }
+      }
+
+      @JvmStatic
+      @PublishedApi
+      @NotNull
+      public final WorldRenderEnvironment llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$b054cc0d5b9700f7(
+         long argument1Arg, @NotNull RenderTarget renderTargetArg, @NotNull PoseStack poseStackArg, @NotNull Camera cameraArg
+      ) {
+         argument1Arg = 43982154210192L;
+         argument1Arg = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ argument1Arg;
+         String var10000 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+         Intrinsics.checkNotNullParameter(renderTargetArg, "renderTarget");
+         Intrinsics.checkNotNullParameter(poseStackArg, "poseStack");
+         Intrinsics.checkNotNullParameter(cameraArg, "camera");
+         String var6 = var10000;
+         WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var7 = WorldRenderEnvironment.lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI;
+
+         label25: {
+            try {
+               var14 = var7;
+               if (var6 != null) {
+                  break label25;
+               }
+
+               if (var7 == null) {
+                  return new WorldRenderEnvironment(
+                     renderTargetArg,
+                     poseStackArg,
+                     cameraArg,
+                     new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(),
+                     false
+                  );
+               }
+            } catch (MatchException var11) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11);
+            }
+
+            var14 = var7;
+         }
+
+         try {
+            if (var14.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl() == renderTargetArg) {
+               return new WorldRenderEnvironment(
+                  renderTargetArg,
+                  var7.getPoseStack(),
+                  var7.IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII(),
+                  var7.getCollector(),
+                  true
+               );
+            }
+         } catch (MatchException var10) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10);
+         }
+
+         return new WorldRenderEnvironment(
+            renderTargetArg, poseStackArg, cameraArg, new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(), false
+         );
+      }
+
+      @JvmStatic
+      public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$54d3abdf1e325d4d(
+         long argument1Arg, @NotNull RenderTarget renderTargetArg, @NotNull PoseStack eventPoseStackArg, @NotNull Camera cameraArg
+      ) {
+         argument1Arg = 119465345574670L;
+         argument1Arg = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ argument1Arg;
+         long var6 = argument1Arg ^ 111038031008181L;
+         long var8 = argument1Arg ^ 93978911756352L;
+         Intrinsics.checkNotNullParameter(renderTargetArg, "renderTarget");
+         Intrinsics.checkNotNullParameter(eventPoseStackArg, "eventPoseStack");
+         Intrinsics.checkNotNullParameter(cameraArg, "camera");
+         this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ea1bab066b1906a0(var8);
+         IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$118d020aa66708d9(
+            WorldRenderEnvironment.IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII, var6, eventPoseStackArg
+         );
+         WorldRenderEnvironment.lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
+            renderTargetArg,
+            WorldRenderEnvironment.IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII,
+            cameraArg,
+            WorldRenderEnvironment.llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI
+         );
+      }
+
+      @JvmStatic
+      public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ea1bab066b1906a0(long var1) {
+         var1 = 105565408768364L;
+         var1 = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ var1;
+         long var3 = var1 ^ 117608540274294L;
+
+         WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var10000;
+         try {
+            var10000 = WorldRenderEnvironment.lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI;
+            if (var10000 == null) {
+               return;
+            }
+         } catch (MatchException var7) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var7);
+         }
+
+         WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var5 = var10000;
+         IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a6250295b4ea826f(
+            var3, var5.getCollector(), var5.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(), null, 2, null
+         );
+         WorldRenderEnvironment.lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = null;
       }
 
       private record IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
@@ -866,44 +987,36 @@ public final class WorldRenderEnvironment {
             String var6 = "@\u00adµ\u0016´NXã¯\u001e»ú3ìvg]än'\u001cë÷Ê\u0018u?\u009f\nÉQÌ\u0085ª¡¤ªeÅ~#T\u0080\u007fàv^¶u\u0018ùò \u008arÒÒ\u001c3\u00972Bæ®X:ë\u0082Ï\u0086LO\u009d\u0096 ÂZ\u008e\u0012Q~\u0010è¸¥\u0012\u0084º57\b»\u001aÌ\u0017\n\u009aí¿Á\u009f\u0099WÇ\u008c\u0013\u009c\u0018\u0093B\u000b\u0013ïñTú³½Ç\u0099.~%åñnzé)%gÞ\u0010\u0018ÅacÀH:\u0016\u0085AWGêçÒ[\u0010Âº\u0095\b\u0088ä\u0092Å\u0011iB¦ë\u000e\u0014\u00108À¢(\u001cç6L\"´6D[Q]ÒD\u0095Bð)\tâ|Z\rL$\u0016\u0015\u009cäG\u0015$ÐUV\u001b1PA,±¬ùf®\u001em\u0089\u009e+Ï¡ Z æË)\u001f_Èè\u0002¤R\u0017º_\u007f ¥häÖïÒ\u0090ê°ÿ\u0086QÐî\u0080ß\u008a }#»Û\u008cNà\u0014,§Ú\u008eÝ\u0082ìý\u0083¨hÙÞ\"\u0017\u0095\u0001Ø´¦\u0016UTH";
             int var8 = "@\u00adµ\u0016´NXã¯\u001e»ú3ìvg]än'\u001cë÷Ê\u0018u?\u009f\nÉQÌ\u0085ª¡¤ªeÅ~#T\u0080\u007fàv^¶u\u0018ùò \u008arÒÒ\u001c3\u00972Bæ®X:ë\u0082Ï\u0086LO\u009d\u0096 ÂZ\u008e\u0012Q~\u0010è¸¥\u0012\u0084º57\b»\u001aÌ\u0017\n\u009aí¿Á\u009f\u0099WÇ\u008c\u0013\u009c\u0018\u0093B\u000b\u0013ïñTú³½Ç\u0099.~%åñnzé)%gÞ\u0010\u0018ÅacÀH:\u0016\u0085AWGêçÒ[\u0010Âº\u0095\b\u0088ä\u0092Å\u0011iB¦ë\u000e\u0014\u00108À¢(\u001cç6L\"´6D[Q]ÒD\u0095Bð)\tâ|Z\rL$\u0016\u0015\u009cäG\u0015$ÐUV\u001b1PA,±¬ùf®\u001em\u0089\u009e+Ï¡ Z æË)\u001f_Èè\u0002¤R\u0017º_\u007f ¥häÖïÒ\u0090ê°ÿ\u0086QÐî\u0080ß\u008a }#»Û\u008cNà\u0014,§Ú\u008eÝ\u0082ìý\u0083¨hÙÞ\"\u0017\u0095\u0001Ø´¦\u0016UTH"
                .length();
-            char var5 = 24;
-            int var12 = -1;
+            char var5 = '\u0018';
+            int var4 = -1;
 
-            label27:
             while (true) {
-               String var13 = var6.substring(++var12, var12 + var5);
+               byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
                byte var10001 = -1;
+               var9[var7++] = var21;
+               if ((var4 += var5) >= var8) {
+                  var6 = "\n\u0015\u0016U+Ð%^\u008a\u0000·\bd\u0015è¿Y©b%!Öî\n\u0018dè\u0091eG9#\u0018Û«ÆB\r\u0011ëvh^> À\u0018´x5]a\u009f\blÆl";
+                  var8 = "\n\u0015\u0016U+Ð%^\u008a\u0000·\bd\u0015è¿Y©b%!Öî\n\u0018dè\u0091eG9#\u0018Û«ÆB\r\u0011ëvh^> À\u0018´x5]a\u009f\blÆl".length();
+                  var5 = ' ';
+                  var4 = -1;
 
-               while (true) {
-                  byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-                  String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-                  switch (var10001) {
-                     case 0:
-                        var9[var7++] = var19;
-                        if ((var12 += var5) >= var8) {
-                           lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var9;
-                           IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new String[12];
-                           return;
-                        }
+                  while (true) {
+                     var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+                     String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+                     boolean var19 = false;
+                     var9[var7++] = var23;
+                     if ((var4 += var5) >= var8) {
+                        lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var9;
+                        IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new String[12];
+                        return;
+                     }
 
-                        var5 = var6.charAt(var12);
-                        break;
-                     default:
-                        var9[var7++] = var19;
-                        if ((var12 += var5) < var8) {
-                           var5 = var6.charAt(var12);
-                           continue label27;
-                        }
-
-                        var6 = "\n\u0015\u0016U+Ð%^\u008a\u0000·\bd\u0015è¿Y©b%!Öî\n\u0018dè\u0091eG9#\u0018Û«ÆB\r\u0011ëvh^> À\u0018´x5]a\u009f\blÆl";
-                        var8 = "\n\u0015\u0016U+Ð%^\u008a\u0000·\bd\u0015è¿Y©b%!Öî\n\u0018dè\u0091eG9#\u0018Û«ÆB\r\u0011ëvh^> À\u0018´x5]a\u009f\blÆl".length();
-                        var5 = ' ';
-                        var12 = -1;
+                     var5 = var6.charAt(var4);
                   }
-
-                  var13 = var6.substring(++var12, var12 + var5);
-                  var10001 = 0;
                }
+
+               var5 = var6.charAt(var4);
             }
          }
 

@@ -100,48 +100,40 @@ public final class PinglessCHGold extends BooleanModule {
       int var8 = "\u0096;§#{Â(ü\u000e|þ¼V!Ü`\u001dy\u0005·*9\u0014[ÎÇ\u001eúþò\u0017ÌÅN\u0094Þ\u008br\u000eï\u00187\u008aÿT@\u00836rÓoî\u008a\u0011ÆÔLr\b\u0081)&\u000eì\u008b(Z\u0097n+·\u0012ÊfáPY2\u0018z.\u0096Yz5â^Ì\u0094é\u009f<\u001a^r4¬¹¾ur\u009e\u001d=y\\\u0010w\\j\u0095\u0090\t\u0011p#ËM\"S¢\u008c\u0084\u0010ägÇ\u0084+'\u000e\u008e< \u0089êì\u0084\u0019O ñÞ\u0007\u0003\u0082ç-'¥*äæ\u009b3\u00158\u0011OÏ\u0005ñûAZ~ýI\u0086\u001b\u008a=Ç"
          .length();
       char var5 = '(';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "H\u008a=\u0086Ñ2ÈòÛñ¡\bQq½,æùaø$9Æ\u0086\u000bï\f6\u0004\u0014\u001c,Ï¯\u0088Þò\u008a\u0090[L\u0096)*³|\u0002\u00ad¥\u0096\u001b\u0001\u008eºç\u0098CÃcdDÎlXP«]þwÝk]\u001aüÊñR\u008a¸¶£\f#ôÛMý\u0003z\u0092\u008b9Ã\u0086×§\u008baznd\u0081\u001e\u001bÅ\u0097«;í©\u0084<(ç<\u0088\u001bÑ\u008c<¬«ñ½ªd¡O¶a1mQÁ¡M¯Ñùé&;báa)üÝ\u007f¬\u0085Ýi";
+            var8 = "H\u008a=\u0086Ñ2ÈòÛñ¡\bQq½,æùaø$9Æ\u0086\u000bï\f6\u0004\u0014\u001c,Ï¯\u0088Þò\u008a\u0090[L\u0096)*³|\u0002\u00ad¥\u0096\u001b\u0001\u008eºç\u0098CÃcdDÎlXP«]þwÝk]\u001aüÊñR\u008a¸¶£\f#ôÛMý\u0003z\u0092\u008b9Ã\u0086×§\u008baznd\u0081\u001e\u001bÅ\u0097«;í©\u0084<(ç<\u0088\u001bÑ\u008c<¬«ñ½ªd¡O¶a1mQÁ¡M¯Ñùé&;báa)üÝ\u007f¬\u0085Ýi"
+               .length();
+            var5 = 'p';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var9;
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[8];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new PinglessCHGold();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var9;
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[8];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new PinglessCHGold();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "H\u008a=\u0086Ñ2ÈòÛñ¡\bQq½,æùaø$9Æ\u0086\u000bï\f6\u0004\u0014\u001c,Ï¯\u0088Þò\u008a\u0090[L\u0096)*³|\u0002\u00ad¥\u0096\u001b\u0001\u008eºç\u0098CÃcdDÎlXP«]þwÝk]\u001aüÊñR\u008a¸¶£\f#ôÛMý\u0003z\u0092\u008b9Ã\u0086×§\u008baznd\u0081\u001e\u001bÅ\u0097«;í©\u0084<(ç<\u0088\u001bÑ\u008c<¬«ñ½ªd¡O¶a1mQÁ¡M¯Ñùé&;báa)üÝ\u007f¬\u0085Ýi";
-                  var8 = "H\u008a=\u0086Ñ2ÈòÛñ¡\bQq½,æùaø$9Æ\u0086\u000bï\f6\u0004\u0014\u001c,Ï¯\u0088Þò\u008a\u0090[L\u0096)*³|\u0002\u00ad¥\u0096\u001b\u0001\u008eºç\u0098CÃcdDÎlXP«]þwÝk]\u001aüÊñR\u008a¸¶£\f#ôÛMý\u0003z\u0092\u008b9Ã\u0086×§\u008baznd\u0081\u001e\u001bÅ\u0097«;í©\u0084<(ç<\u0088\u001bÑ\u008c<¬«ñ½ªd¡O¶a1mQÁ¡M¯Ñùé&;báa)üÝ\u007f¬\u0085Ýi"
-                     .length();
-                  var5 = 'p';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

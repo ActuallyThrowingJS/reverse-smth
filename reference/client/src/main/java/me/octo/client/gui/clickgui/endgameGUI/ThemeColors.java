@@ -1150,9 +1150,9 @@ public final class ThemeColors {
 
       while (true) {
          byte[] var19 = var11.doFinal(var15.substring(++var13, var13 + var14).getBytes("ISO-8859-1"));
-         String var35 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19).intern();
+         String var40 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19).intern();
          int var10001 = -1;
-         var18[var16++] = var35;
+         var18[var16++] = var40;
          if ((var13 += var14) >= var17) {
             IllIIlIlIlIlIIllIIllIIIIIIIIIlllIIlllIlIllIIlIlllIIIIIlIllllIIlIlIllllIllllllIIIIIllI = var18;
             IIIIIlIIIIllllIlIIIllIIIlIIllIIllIllIIlIIlIllIllIIIIlllIIIlIllIlIllIlllIllIlIllIlllll = new String[3];
@@ -1173,14 +1173,12 @@ public final class ThemeColors {
                .length();
             byte var3 = 0;
 
-            label37:
-            while (true) {
+            do {
                var10001 = var3;
                var3 += 8;
                byte[] var7 = var5.substring(var10001, var3).getBytes("ISO-8859-1");
-               long[] var30 = var0;
                var10001 = var4++;
-               long var38 = (var7[0] & 255L) << 56
+               long var8 = (var7[0] & 255L) << 56
                   | (var7[1] & 255L) << 48
                   | (var7[2] & 255L) << 40
                   | (var7[3] & 255L) << 32
@@ -1188,142 +1186,150 @@ public final class ThemeColors {
                   | (var7[5] & 255L) << 16
                   | (var7[6] & 255L) << 8
                   | var7[7] & 255L;
-               byte var41 = -1;
-
-               while (true) {
-                  long var8 = var38;
-                  byte[] var10 = var1.doFinal(
-                     new byte[]{
-                        (byte)(var8 >>> 56),
-                        (byte)(var8 >>> 48),
-                        (byte)(var8 >>> 40),
-                        (byte)(var8 >>> 32),
-                        (byte)(var8 >>> 24),
-                        (byte)(var8 >>> 16),
-                        (byte)(var8 >>> 8),
-                        (byte)var8
-                     }
-                  );
-                  long var43 = (var10[0] & 255L) << 56
-                     | (var10[1] & 255L) << 48
-                     | (var10[2] & 255L) << 40
-                     | (var10[3] & 255L) << 32
-                     | (var10[4] & 255L) << 24
-                     | (var10[5] & 255L) << 16
-                     | (var10[6] & 255L) << 8
-                     | var10[7] & 255L;
-                  switch (var41) {
-                     case 0:
-                        var30[var10001] = var43;
-                        if (var3 >= var6) {
-                           INSTANCE = new ThemeColors();
-                           IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
-                           lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new Color(255, 255, 255, 178);
-                           IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new Color(255, 255, 255, 127);
-                           textPlaceholder = new Color((int)var0[9]);
-                           lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new Color((int)var0[21]);
-                           IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new Color((int)var0[6]);
-                           IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new Color((int)var0[8]);
-                           IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new Color((int)var0[16]);
-                           lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new Color((int)var0[1]);
-                           IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new Color((int)var0[5]);
-                           llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new Color((int)var0[14]);
-                           lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
-                           lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new Color(10, 10, 10, 255);
-                           lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new Color(70, 70, 70, 255);
-                           lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new Color(165, 165, 165, 255);
-                           IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new Color(180, 180, 180, 255);
-                           llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new Color(0, 0, 0, 80);
-                           IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new Color(50, 50, 50, 255);
-                           IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new Color(165, 165, 165, 255);
-                           IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new Color(120, 120, 120, 255);
-                           IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = new Color(255, 255, 255, 255);
-                           llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = new Color(80, 80, 80, 255);
-                           IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = new Color((int)var0[18]);
-                           lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll = new Color((int)var0[20]);
-                           llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = new Color((int)var0[2]);
-                           lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll = new Color(60, 60, 60, 255);
-                           IIllIllIlllIlllIIllIlIIlllIlIIlIIIIIIIlIllIlIlIlIIIlIIIlllIIIIlIllIlIlIlllIIIllIllIll = new Color((int)var0[15]);
-                           IIlllllIlIIlIllIllllIlIIlIIIlllllIIllIlIlIlIIIIlllIIlllIllIllIIIIIllllIIIIllllIIlIlII = new Color((int)var0[20]);
-                           IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll = new Color(30, 30, 30, 255);
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI = new Color(40, 40, 40, 255);
-                           lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII = new Color(50, 50, 50, 255);
-                           IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll = new Color(45, 45, 45, 255);
-                           IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = new Color(180, 180, 180, 255);
-                           lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI = new Color(45, 45, 45, 255);
-                           lIlllllIIIIlllllIlIIIIIIIllllIlIllIllIIlIIIIIIIIIlIlIIIlIIlIlIIIlIlllIllIIllIllIllllI = new Color(64, 64, 64, 255);
-                           IlllllIllIlIIlIllllIlIlIIlIIllIlIIlIIllIlllllllllIlIIlIIlIlIlIIIllIlIllllIIIlIIlllIIl = Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
-                           IlllIIllIlIllIIllIIIIlIlIllIlIIlllIIIIlIIIIIIIIIIlIlIIlllIllIlIlIlIllIIllIIlIIlIllllI = new Color((int)var0[4]);
-                           IIllIlIlIIIIIIIIIlIlIlIIllllIIlllIlllIlIIIlIllIIIIIlllIIIlllIIIIllIlIlllIlIIllIIIlIlI = new Color((int)var0[7]);
-                           IIIllIllIllllIIlIIIIIIIlIlIIllIIlIlIIlIIlIllIllIIIlIIllIIlllIlIlllIlllIlIlIlIllIIIIII = new Color((int)var0[11]);
-                           IIllllIllIlIIIIIllIIllIlllIIlIIIIlIllIIlllllIIlllIIIllIlllIIlIlIIlIIlIIIlIIlllIlIIIII = new Color((int)var0[12]);
-                           lIIIIlllllIlIllIllllllllllllIIllIllIIlllllIlIIIlIlIIIIIIlIIllIIIIIlIIIllIIIIlIIlIIlII = new Color((int)var0[10]);
-                           lIllllIlllIIllIllllllIIIIIIIIIIllIIlllIIIlllIIlIIIIllIIllIIllIIllIIIIlllIIIlIlllIlIlI = new Color((int)var0[13]);
-                           lIlIllIlIlIIlIllIlllllIlIllIlIIllIlIIIIlllIIIIlIIIIIlllIIIlIIIIlIIIIllllllIIIIllIIllI = new Color(231, 76, 60);
-                           IIlIllIIlllllIlIlllllllIllllIIlIIIllIIllIIllIlIIIllllIIIlllIllIIIIlIlIIIllIllllIlIlll = new Color(35, 35, 35, 255);
-                           llllIIlIIIIlIIllIIIIIllIlIlIllIlIllllIlllIIlIllIIlIIIIllllllIllllIIllIIlIIlIlllIlllll = new Color(60, 60, 60, 255);
-                           llIlIIllIIllIIlIIlIlIlIIlIlllIlIlIIIIllIlllIlIllIIlIIIIIIIlIIllllIIIIlIIllIlIIIIIllll = new Color(25, 25, 25, 255);
-                           IIIlllIIlIIIIlIIIIIllIIIIlllIllIlIIIlllIlIlllllllllIlIIIllIIlIIlllIlIlllIllIllIIIIIII = new Color(25, 25, 25, 255);
-                           llIllIIIlllIlIIIIlIlIIlIlIllllIlIlllIIlllllIlIllllIIllIIllllIIIllIIIlIIlIIlllIlllllIl = Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
-                           float[] var22 = new float[]{0.36F, 0.36F, 0.4F};
-                           lIIIllIlIIIlllIIllIIlllIIIlIIIllIIlIlllllllllIIIIIIllllllIllIllIIlIIIIIllIIIllIIIIlIl = var22;
-                           var22 = new float[]{0.22F, 0.22F, 0.25F};
-                           IllIllIIllIIIIlIIlIlIIlIllIIIlIIlllIlIllIIlIlIIlllllIIIlIlIlIllIIIIIIlIlIIIIlllIllllI = var22;
-                           var22 = new float[]{0.18F, 0.19F, 0.22F};
-                           lIlIIIIIlIlIIIllIIIIlIlIllllllllllIIIIIIIIIIllIIlIlIIIlllIllIIlIIIlllIlIlIlIlllllIlII = var22;
-                           var22 = new float[]{0.1F, 0.1F, 0.12F};
-                           llIlllIlIIllIlIllIIIIIIlllllIlIlIllIlIllIIIlIIIIIlIllIlIllIIIlllIllIlIIIllIllIIlIlllI = var22;
-                           lIIIIIlIlIIIIIIlIIlIIIlIlIIIllIlIIlIlIlllIllIllIIIlIlIllIlIlIlIIIIIIIIIllIIIlIIIIllII = new Color((int)var0[10], true)
-                              .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(0.7F);
-                           lIllllIIIIIIlIlIIlIIlIlIllIIIlllllIlllIIIIlIlllIIIlIIlIIllllIllllIllIlIIllIlIllIIIlII = new Color((int)var0[22], true)
-                              .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(0.78F);
-                           IIIllIIlIIlllllIlIlIIIIllIIIIlIlIlllIlIlIlIlIIlIIIlIIllIllIIIIIllllllIlIlIIIIIIIlllll = new Color((int)var0[0]);
-                           lIIlIIIIIIIIIIlIlllIlIlIIlllIlIllIIIIIlllIlIlIlllIIIlIlllllllllllllllllllIIIllIIIlIIl = new Color(255, 255, 255, 12);
-                           IIllIIllIllIIlIlIlIllIlIIlIIlIIlIIIIIlIIIIIllIllIIIIIllllIIIlIIllllIIIIllIIllIllIllll = new Color(255, 255, 255, 22);
-                           IIIlIIllIIlIlIlIlllIIIIlIlIIIIlIllllllIIlllIllIlllIlIllIIllllIIIllllIIlIlIllIIIIllIll = new Color(255, 255, 255, 30);
-                           lIIIIlIIIIlIIllIlIlIIlIlIlIIlIIlIllIIllllIlIllIllIIllIIIIllllllIlIlIlIIllIIlIIIlIlllI = new Color(255, 255, 255, 35);
-                           llIlllIlIlllllllIlllIIlllIlIIIllllIIlIlIIIIIIIIlIIIIIIIIlIIllIIIIIIIIlIllllIlllIlllIl = new Color(255, 255, 255, 71);
-                           lIlIIlIIIlIllIIIlIIIIlllllllllIIlllIlIllllIIIIIIlIlIIlIIIIIllIllllIllllIlllIlIlIlllII = new Color(220, 220, 220);
-                           IIIIIIIIllIllIIIlIllIllllIlIIlIIIIllIIIIIllIIIllIIlllIIlIIIlIIllIIllIIlIlIIIIIIIlllII = new Color(255, 255, 255);
-                           lIlIlIIllIIIllIIlllllIlIIlIllIlIIlIllIIIlIIlllIlIllllllllllIIIIlIIIlIllIIlIlIlIlIlIIl = new Color(200, 200, 200);
-                           IllllIlIIllIlIlIlllIlllIIllIIlIllIIlIIIIllIllIIIIllIIlIlIlIIlIllIIIllIlIllIlIlllIlIll = new Color(220, 220, 220);
-                           lllIIllIIIlIllIllIlllIIlllIIIIlIIIllIIIlIlIIlIIlIllIlllIIllIlIllllIIlIIIllllIllIlIllI = new Color((int)var0[8]);
-                           lIIIIIIIllIllIlIIIlllIlIIlIIllIllllIlIlIIlIIllIIllIIIlIIlllIlIIIIIlllllIllllllIIlIllI = new Color((int)var0[19]);
-                           IllIIlIllIIIlIllIlIIlIIIIlllIIIIIIlIllIllIllIIlIIIIIlIIIlIIlllIlllIIlllIIIlIIlIlIlIII = new Color(50, 50, 50, 255);
-                           lIIIlIlIlIIlIIlIllIlIIlllIIIlIIlIlIIIlIlIIlIllIlllllIllIIIIlIlIlIIllIllIlIllIlIIIIIll = new Color((int)var0[3]);
-                           IIIIlIIIlIllllIlIIlIlIlllllIIlIllIIIlIlllIIllIIlIIIIlIIlIIIIIIlllIIlIlIllIIlIIIllllIl = new Color((int)var0[17]);
-                           lllIIllIIlIIIlllIIlllIIIlIlIllIIIlIIIllIlllIIlIIIlIlIlIIlllIIlllIlIlllIlIIlllIlIIIIIl = 12.0F;
-                           llIIIlIIlllllllllllIIllllIllIIIIlIlIIIlIlllIlIllIIlIlIllIlIIllllIllIIlllIlllllllIlIlI = 8.0F;
-                           return;
-                        }
-                        break;
-                     default:
-                        var30[var10001] = var43;
-                        if (var3 < var6) {
-                           continue label37;
-                        }
-
-                        var5 = "\u0019¤XPÍgqX\u001eßôC\u0011^Óù";
-                        var6 = "\u0019¤XPÍgqX\u001eßôC\u0011^Óù".length();
-                        var3 = 0;
+               byte[] var10 = var1.doFinal(
+                  new byte[]{
+                     (byte)(var8 >>> 56),
+                     (byte)(var8 >>> 48),
+                     (byte)(var8 >>> 40),
+                     (byte)(var8 >>> 32),
+                     (byte)(var8 >>> 24),
+                     (byte)(var8 >>> 16),
+                     (byte)(var8 >>> 8),
+                     (byte)var8
                   }
+               );
+               long var10004 = (var10[0] & 255L) << 56
+                  | (var10[1] & 255L) << 48
+                  | (var10[2] & 255L) << 40
+                  | (var10[3] & 255L) << 32
+                  | (var10[4] & 255L) << 24
+                  | (var10[5] & 255L) << 16
+                  | (var10[6] & 255L) << 8
+                  | var10[7] & 255L;
+               byte var44 = -1;
+               var0[var10001] = var10004;
+            } while (var3 < var6);
 
-                  byte var34 = var3;
-                  var3 += 8;
-                  var7 = var5.substring(var34, var3).getBytes("ISO-8859-1");
-                  var30 = var0;
-                  var10001 = var4++;
-                  var38 = (var7[0] & 255L) << 56
-                     | (var7[1] & 255L) << 48
-                     | (var7[2] & 255L) << 40
-                     | (var7[3] & 255L) << 32
-                     | (var7[4] & 255L) << 24
-                     | (var7[5] & 255L) << 16
-                     | (var7[6] & 255L) << 8
-                     | var7[7] & 255L;
-                  var41 = 0;
-               }
-            }
+            var5 = "\u0019¤XPÍgqX\u001eßôC\u0011^Óù";
+            var6 = "\u0019¤XPÍgqX\u001eßôC\u0011^Óù".length();
+            var3 = 0;
+
+            do {
+               int var38 = var3;
+               var3 += 8;
+               byte[] var27 = var5.substring(var38, var3).getBytes("ISO-8859-1");
+               var38 = var4++;
+               long var28 = (var27[0] & 255L) << 56
+                  | (var27[1] & 255L) << 48
+                  | (var27[2] & 255L) << 40
+                  | (var27[3] & 255L) << 32
+                  | (var27[4] & 255L) << 24
+                  | (var27[5] & 255L) << 16
+                  | (var27[6] & 255L) << 8
+                  | var27[7] & 255L;
+               byte[] var29 = var1.doFinal(
+                  new byte[]{
+                     (byte)(var28 >>> 56),
+                     (byte)(var28 >>> 48),
+                     (byte)(var28 >>> 40),
+                     (byte)(var28 >>> 32),
+                     (byte)(var28 >>> 24),
+                     (byte)(var28 >>> 16),
+                     (byte)(var28 >>> 8),
+                     (byte)var28
+                  }
+               );
+               long var46 = (var29[0] & 255L) << 56
+                  | (var29[1] & 255L) << 48
+                  | (var29[2] & 255L) << 40
+                  | (var29[3] & 255L) << 32
+                  | (var29[4] & 255L) << 24
+                  | (var29[5] & 255L) << 16
+                  | (var29[6] & 255L) << 8
+                  | var29[7] & 255L;
+               boolean var45 = false;
+               var0[var38] = var46;
+            } while (var3 < var6);
+
+            INSTANCE = new ThemeColors();
+            IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
+            lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new Color(255, 255, 255, 178);
+            IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new Color(255, 255, 255, 127);
+            textPlaceholder = new Color((int)var0[9]);
+            lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new Color((int)var0[21]);
+            IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new Color((int)var0[6]);
+            IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new Color((int)var0[8]);
+            IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new Color((int)var0[16]);
+            lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new Color((int)var0[1]);
+            IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new Color((int)var0[5]);
+            llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new Color((int)var0[14]);
+            lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
+            lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new Color(10, 10, 10, 255);
+            lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new Color(70, 70, 70, 255);
+            lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new Color(165, 165, 165, 255);
+            IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new Color(180, 180, 180, 255);
+            llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new Color(0, 0, 0, 80);
+            IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new Color(50, 50, 50, 255);
+            IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new Color(165, 165, 165, 255);
+            IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new Color(120, 120, 120, 255);
+            IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = new Color(255, 255, 255, 255);
+            llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = new Color(80, 80, 80, 255);
+            IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = new Color((int)var0[18]);
+            lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll = new Color((int)var0[20]);
+            llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = new Color((int)var0[2]);
+            lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll = new Color(60, 60, 60, 255);
+            IIllIllIlllIlllIIllIlIIlllIlIIlIIIIIIIlIllIlIlIlIIIlIIIlllIIIIlIllIlIlIlllIIIllIllIll = new Color((int)var0[15]);
+            IIlllllIlIIlIllIllllIlIIlIIIlllllIIllIlIlIlIIIIlllIIlllIllIllIIIIIllllIIIIllllIIlIlII = new Color((int)var0[20]);
+            IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll = new Color(30, 30, 30, 255);
+            llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI = new Color(40, 40, 40, 255);
+            lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII = new Color(50, 50, 50, 255);
+            IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll = new Color(45, 45, 45, 255);
+            IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = new Color(180, 180, 180, 255);
+            lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI = new Color(45, 45, 45, 255);
+            lIlllllIIIIlllllIlIIIIIIIllllIlIllIllIIlIIIIIIIIIlIlIIIlIIlIlIIIlIlllIllIIllIllIllllI = new Color(64, 64, 64, 255);
+            IlllllIllIlIIlIllllIlIlIIlIIllIlIIlIIllIlllllllllIlIIlIIlIlIlIIIllIlIllllIIIlIIlllIIl = Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
+            IlllIIllIlIllIIllIIIIlIlIllIlIIlllIIIIlIIIIIIIIIIlIlIIlllIllIlIlIlIllIIllIIlIIlIllllI = new Color((int)var0[4]);
+            IIllIlIlIIIIIIIIIlIlIlIIllllIIlllIlllIlIIIlIllIIIIIlllIIIlllIIIIllIlIlllIlIIllIIIlIlI = new Color((int)var0[7]);
+            IIIllIllIllllIIlIIIIIIIlIlIIllIIlIlIIlIIlIllIllIIIlIIllIIlllIlIlllIlllIlIlIlIllIIIIII = new Color((int)var0[11]);
+            IIllllIllIlIIIIIllIIllIlllIIlIIIIlIllIIlllllIIlllIIIllIlllIIlIlIIlIIlIIIlIIlllIlIIIII = new Color((int)var0[12]);
+            lIIIIlllllIlIllIllllllllllllIIllIllIIlllllIlIIIlIlIIIIIIlIIllIIIIIlIIIllIIIIlIIlIIlII = new Color((int)var0[10]);
+            lIllllIlllIIllIllllllIIIIIIIIIIllIIlllIIIlllIIlIIIIllIIllIIllIIllIIIIlllIIIlIlllIlIlI = new Color((int)var0[13]);
+            lIlIllIlIlIIlIllIlllllIlIllIlIIllIlIIIIlllIIIIlIIIIIlllIIIlIIIIlIIIIllllllIIIIllIIllI = new Color(231, 76, 60);
+            IIlIllIIlllllIlIlllllllIllllIIlIIIllIIllIIllIlIIIllllIIIlllIllIIIIlIlIIIllIllllIlIlll = new Color(35, 35, 35, 255);
+            llllIIlIIIIlIIllIIIIIllIlIlIllIlIllllIlllIIlIllIIlIIIIllllllIllllIIllIIlIIlIlllIlllll = new Color(60, 60, 60, 255);
+            llIlIIllIIllIIlIIlIlIlIIlIlllIlIlIIIIllIlllIlIllIIlIIIIIIIlIIllllIIIIlIIllIlIIIIIllll = new Color(25, 25, 25, 255);
+            IIIlllIIlIIIIlIIIIIllIIIIlllIllIlIIIlllIlIlllllllllIlIIIllIIlIIlllIlIlllIllIllIIIIIII = new Color(25, 25, 25, 255);
+            llIllIIIlllIlIIIIlIlIIlIlIllllIlIlllIIlllllIlIllllIIllIIllllIIIllIIIlIIlIIlllIlllllIl = Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
+            float[] var22 = new float[]{0.36F, 0.36F, 0.4F};
+            lIIIllIlIIIlllIIllIIlllIIIlIIIllIIlIlllllllllIIIIIIllllllIllIllIIlIIIIIllIIIllIIIIlIl = var22;
+            var22 = new float[]{0.22F, 0.22F, 0.25F};
+            IllIllIIllIIIIlIIlIlIIlIllIIIlIIlllIlIllIIlIlIIlllllIIIlIlIlIllIIIIIIlIlIIIIlllIllllI = var22;
+            var22 = new float[]{0.18F, 0.19F, 0.22F};
+            lIlIIIIIlIlIIIllIIIIlIlIllllllllllIIIIIIIIIIllIIlIlIIIlllIllIIlIIIlllIlIlIlIlllllIlII = var22;
+            var22 = new float[]{0.1F, 0.1F, 0.12F};
+            llIlllIlIIllIlIllIIIIIIlllllIlIlIllIlIllIIIlIIIIIlIllIlIllIIIlllIllIlIIIllIllIIlIlllI = var22;
+            lIIIIIlIlIIIIIIlIIlIIIlIlIIIllIlIIlIlIlllIllIllIIIlIlIllIlIlIlIIIIIIIIIllIIIlIIIIllII = new Color((int)var0[10], true)
+               .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(0.7F);
+            lIllllIIIIIIlIlIIlIIlIlIllIIIlllllIlllIIIIlIlllIIIlIIlIIllllIllllIllIlIIllIlIllIIIlII = new Color((int)var0[22], true)
+               .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(0.78F);
+            IIIllIIlIIlllllIlIlIIIIllIIIIlIlIlllIlIlIlIlIIlIIIlIIllIllIIIIIllllllIlIlIIIIIIIlllll = new Color((int)var0[0]);
+            lIIlIIIIIIIIIIlIlllIlIlIIlllIlIllIIIIIlllIlIlIlllIIIlIlllllllllllllllllllIIIllIIIlIIl = new Color(255, 255, 255, 12);
+            IIllIIllIllIIlIlIlIllIlIIlIIlIIlIIIIIlIIIIIllIllIIIIIllllIIIlIIllllIIIIllIIllIllIllll = new Color(255, 255, 255, 22);
+            IIIlIIllIIlIlIlIlllIIIIlIlIIIIlIllllllIIlllIllIlllIlIllIIllllIIIllllIIlIlIllIIIIllIll = new Color(255, 255, 255, 30);
+            lIIIIlIIIIlIIllIlIlIIlIlIlIIlIIlIllIIllllIlIllIllIIllIIIIllllllIlIlIlIIllIIlIIIlIlllI = new Color(255, 255, 255, 35);
+            llIlllIlIlllllllIlllIIlllIlIIIllllIIlIlIIIIIIIIlIIIIIIIIlIIllIIIIIIIIlIllllIlllIlllIl = new Color(255, 255, 255, 71);
+            lIlIIlIIIlIllIIIlIIIIlllllllllIIlllIlIllllIIIIIIlIlIIlIIIIIllIllllIllllIlllIlIlIlllII = new Color(220, 220, 220);
+            IIIIIIIIllIllIIIlIllIllllIlIIlIIIIllIIIIIllIIIllIIlllIIlIIIlIIllIIllIIlIlIIIIIIIlllII = new Color(255, 255, 255);
+            lIlIlIIllIIIllIIlllllIlIIlIllIlIIlIllIIIlIIlllIlIllllllllllIIIIlIIIlIllIIlIlIlIlIlIIl = new Color(200, 200, 200);
+            IllllIlIIllIlIlIlllIlllIIllIIlIllIIlIIIIllIllIIIIllIIlIlIlIIlIllIIIllIlIllIlIlllIlIll = new Color(220, 220, 220);
+            lllIIllIIIlIllIllIlllIIlllIIIIlIIIllIIIlIlIIlIIlIllIlllIIllIlIllllIIlIIIllllIllIlIllI = new Color((int)var0[8]);
+            lIIIIIIIllIllIlIIIlllIlIIlIIllIllllIlIlIIlIIllIIllIIIlIIlllIlIIIIIlllllIllllllIIlIllI = new Color((int)var0[19]);
+            IllIIlIllIIIlIllIlIIlIIIIlllIIIIIIlIllIllIllIIlIIIIIlIIIlIIlllIlllIIlllIIIlIIlIlIlIII = new Color(50, 50, 50, 255);
+            lIIIlIlIlIIlIIlIllIlIIlllIIIlIIlIlIIIlIlIIlIllIlllllIllIIIIlIlIlIIllIllIlIllIlIIIIIll = new Color((int)var0[3]);
+            IIIIlIIIlIllllIlIIlIlIlllllIIlIllIIIlIlllIIllIIlIIIIlIIlIIIIIIlllIIlIlIllIIlIIIllllIl = new Color((int)var0[17]);
+            lllIIllIIlIIIlllIIlllIIIlIlIllIIIlIIIllIlllIIlIIIlIlIlIIlllIIlllIlIlllIlIIlllIlIIIIIl = 12.0F;
+            llIIIlIIlllllllllllIIllllIllIIIIlIlIIIlIlllIlIllIIlIlIllIlIIllllIllIIlllIlllllllIlIlI = 8.0F;
+            return;
          }
 
          var14 = var15.charAt(var13);
@@ -1430,5 +1436,452 @@ public final class ThemeColors {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/gui/clickgui/endgameGUI/ThemeColors" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   public final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$29bde00b6a257901(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 88426793251286L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var3;
+   }
+
+   public final void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$d02cfa5b1a62d616(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 42015800539429L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var1;
+   }
+
+   public final void IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$38836371404d4697(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 115203743906237L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var1;
+   }
+
+   public final void IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$4e405a25d9136b21(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 139252409323531L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var3;
+   }
+
+   public final void IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$93faac56b7fc0790(
+      long var1, int var3, @NotNull Color var4
+   ) {
+      var1 = 17439L;
+      long var5 = (var1 << 32 | (long)var3 << 32 >>> 32) ^ IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll;
+      Intrinsics.checkNotNullParameter(
+         var4, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"c">(10793, 5477677717366450091L ^ var5)
+      );
+      IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var4;
+   }
+
+   public final void IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$dad462b0955d71b4(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 43880345882422L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var3;
+   }
+
+   public final void IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl$recovered$55f442910241920a(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 97722387592311L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var3;
+   }
+
+   public final void lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl$recovered$29809b59e843656e(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 99326545435593L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = var1;
+   }
+
+   public final void IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl$recovered$0f8d19e47cad7663(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 46649738614648L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = var3;
+   }
+
+   public final void IIIIIIlllIIlIIIIlllIIIlIIlIIlIllllIlllIlIIIllllIIlIIIIllIlIIIllllIllllIlIllIIllIIIIlI$recovered$8f5ec310c7034ae7(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 53089822609830L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var1;
+   }
+
+   public final void llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl$recovered$939b1fe1e04c27b2(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 88952445412739L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var3;
+   }
+
+   public final void lIIlIIIllIIIllIllIIlIIIIlllIllIIlIlIIlIllIlIllllllllIllIllllIlIIlIIIllIIllIIlllllIllI$recovered$3564cc3b43157bf0(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 2172256081684L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var3;
+   }
+
+   public final void IlIllIIIIllllIIlIlIlIlIlIllIIlIIIIlIIIlIIIllllIIIIlIlIlllIlIlIIIllIIllIllIIIllIIlllll$recovered$16493810eba6da3e(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 73019395173925L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var3;
+   }
+
+   public final void IIlIIIllllllIIIlllIlIIlIllIlIIllIlIIlIIIIIIIIlIIIlllIlllIIllllIIlIIIIlIlIIIllllIIlllI$recovered$54d4d8aa86bf0a94(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 62628663773942L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = var1;
+   }
+
+   public final void lllIIllIIlIlIlIIIIIlIIIllIIlIlIIllIlIIIlIlIlIIIlIIlIlIlIllIllllIlllIIlIlIIllIlIlIllIl$recovered$e798701118958b42(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 98995312493603L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = var1;
+   }
+
+   public final void lIlIIllIIlIIlIIlIlIllllllIlIlIlllIlIIIllIIIIlIlIllIllIIIlIIIIIIIlllIIllIIllIlIllIllIl$recovered$e8a81abb4663993f(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 111814070294090L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = var3;
+   }
+
+   public final void IIlllIlllIlIIIlIIIlllIlllIlIIllIlIlIIIIIlIIIllIIlIllllllIlIllIIIlllIlllllIlIlllllllll$recovered$da832583f5f421b1(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 32935396335966L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll = var3;
+   }
+
+   public final void llIIIllIIIIllllllIIIlIIIIIIIlllIIllllIlllIlIlIIlIIIIlIIIlllllIIllIllllllIlIIlIIlIlIII$recovered$a900df074c533440(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 121090968536353L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = var3;
+   }
+
+   public final void IlIlIlIlIlIlIlIlIllIIlIlIlIlIlIIIllllIlIIIlIIIIIIlIlIlIIllllIlIIIIlllIIlIIIlllIIIIlII$recovered$4fe51f5b055e9cf9(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 12083905597255L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      IIllIllIlllIlllIIllIlIIlllIlIIlIIIIIIIlIllIlIlIlIIIlIIIlllIIIIlIllIlIlIlllIIIllIllIll = var1;
+   }
+
+   public final void IIIIIlIIlIlIlllIlIIlllIIIlIlllIllIllIllIllIlIIIIIIIIIlIlIlIllIlIlIlIllIlIIlIlIllIIIIl$recovered$d60672db5ae0d2c2(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 51175157642517L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      IIlllllIlIlIIIIIlIIlllllIIIIllIlIIIIllIIllIIIIllIIIIIIIIlllIllIllIlIllIIlllIlllIlIlll = var1;
+   }
+
+   public final void IlllIllIIIIIlIIlIlIIIIlIIlIIIIIlIlIlIlIllIIIlIIlllllIIllIIlIlllIlIIIllIIlIlIIllllllll$recovered$91ef08e56da7cdd2(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 14715665139478L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI = var1;
+   }
+
+   public final void lIlllIIIIIIIIIIllIlIllIlIllIIlIIlIIIIlIllIllIlIIIllIlllIlIIlllIIlIIIllIllIlIIIIllIlll$recovered$6c4597e42741fc38(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 114566931563502L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll = var1;
+   }
+
+   public final void IllIlllllIIlIIIIIIIllIllIlIllIIlllIIIIIlIlIIllIlIlIllIlIIIlIIIlllIlIlIlIlllIIllIlIIlI$recovered$091af67491820950(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 112798585040021L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = var3;
+   }
+
+   public final void IIIlIIlIllIlllIIIIlllIlIIIlIIIlIIlIIlIIllIIIlIlIlIlllIllIlIllIllIIlIlIllIIIIIllIlllll$recovered$4c71d7bbd1f16c40(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 66265313071554L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI = var1;
+   }
+
+   public final void lllIIlIIIIIllIIlIllIIlIllllIlIIIIlIIlIlIIllIllIIIIIIlIlIlIIIlllllIIIIIIIllIIIlllIIIlI$recovered$4967074a1c055bf2(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 127915869419394L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      lIlllllIIIIlllllIlIIIIIIIllllIlIllIllIIlIIIIIIIIIlIlIIIlIIlIlIIIlIlllIllIIllIllIllllI = var1;
+   }
+
+   public final void IIlIIIIllIlIIlIIIlllIlIlIIllllIlIIIllIIlIlllIlIlllIIlIIIIllIIllllIlIlllIlIlIIlllllIII$recovered$efb541448bb2e144(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 51285307586382L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IlllllIllIlIIlIllllIlIlIIlIIllIlIIlIIllIlllllllllIlIIlIIlIlIlIIIllIlIllllIIIlIIlllIIl = var3;
+   }
+
+   public final void lIllIllIlIllIlIlIIIlllIlllIlllIIIIIIIlIllllIIlIIIlIllIllIlIlIIlIIIlIlIlllIlllIIIIlIII$recovered$694ae4ebbc7ee24f(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 51899086333702L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IlllIIllIlIllIIllIIIIlIlIllIlIIlllIIIIlIIIIIIIIIIlIlIIlllIllIlIlIlIllIIllIIlIIlIllllI = var3;
+   }
+
+   public final void IlIIIlIlIIIIllllllllIIllIIIlIIIIIIIlIllIIIllIIlIIIllllllllIllllIIllIlIllIIIIllIlIlIlI$recovered$f2b3115d0eff7af9(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 120076595376569L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      IIllllIllIlIIIIIllIIllIlllIIlIIIIlIllIIlllllIIlllIIIllIlllIIlIlIIlIIlIIIlIIlllIlIIIII = var1;
+   }
+
+   public final void IIllIllIIlIIIlIlllIlIlllIIIlllIIIlIIIIIIIIllIlIIlIIIIllllllIllIIlllIIlIIIIIlIllllllIl$recovered$8347b72cabc66d1f(
+      short var1, @NotNull Color var2, long var3
+   ) {
+      var3 = 104954617769904L;
+      long var5 = ((long)var1 << 48 | var3 << 16 >>> 16) ^ IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll;
+      Intrinsics.checkNotNullParameter(
+         var2, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"c">(10793, 5477650069006386498L ^ var5)
+      );
+      lIllllIlllIIllIllllllIIIIIIIIIIllIIlllIIIlllIIlIIIIllIIllIIllIIllIIIIlllIIIlIlllIlIlI = var2;
+   }
+
+   public final void lIIIlIlIllIIlIlIIllllIIlIlllIlIllllIIIllllIIllIIlIlllllllllIlIlIlIIllllIIlllllllllIII$recovered$6e79499c5cf6aced(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 55952161248167L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      IIlIllIIlllllIlIlllllllIllllIIlIIIllIIllIIllIlIIIllllIIIlllIllIIIIlIlIIIllIllllIlIlll = var1;
+   }
+
+   public final void llIllIllIllIlIIlIlIlIIllIIIlIlIlllIIlIlllIIlIllllIllIlIlIIIllIIlIIllIIIIlIIIlIIlIlIlI$recovered$fbe5fc838afa9498(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 10469093206029L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      llllIIlIIIIlIIllIIIIIllIlIlIllIlIllllIlllIIlIllIIlIIIIllllllIllllIIllIIlIIlIlllIlllll = var3;
+   }
+
+   public final void lIIlIllIlllIIIlllIIllIIlIllIllIllIIIIIllllllIllIllllIIIIlllIllIlIIIIlIIlIlllIlIIIllll$recovered$0ac8f4b7922d93c2(
+      short var1, @NotNull Color var2, long var3
+   ) {
+      var3 = 19633270399068L;
+      long var5 = ((long)var1 << 48 | var3 << 16 >>> 16) ^ IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll;
+      Intrinsics.checkNotNullParameter(
+         var2, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"c">(10793, 5477726354414439086L ^ var5)
+      );
+      llIlIIllIIllIIlIIlIlIlIIlIlllIlIlIIIIllIlllIlIllIIlIIIIIIIlIIllllIIIIlIIllIlIIIIIllll = var2;
+   }
+
+   public final void IlllIIIIIllIlllIIIIlIIlIIIlllIIlIIlIlllIllIIIIIlIllIIlIIIIllllIIIllIIllIIlllIIllIllll$recovered$7f38e1e86947a0c9(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 60061670678248L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      llIllIIIlllIlIIIIlIlIIlIlIllllIlIlllIIlllllIlIllllIIllIIllllIIIllIIIlIIlIIlllIlllllIl = var3;
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ef3a864b97fc8fe0(
+      long var1, @NotNull float[] var3
+   ) {
+      var1 = 128074912183551L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      lIIIllIlIIIlllIIllIIlllIIIlIIIllIIlIlllllllllIIIIIIllllllIllIllIIlIIIIIllIIIllIIIIlIl = var3;
+   }
+
+   public final void IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$32a054be4275135b(
+      long var1, @NotNull float[] var3
+   ) {
+      var1 = 77173164557713L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      llIlllIlIIllIlIllIIIIIIlllllIlIlIllIlIllIIIlIIIIIlIllIlIllIIIlllIllIlIIIllIllIIlIlllI = var3;
+   }
+
+   public final void IlIlIllIIlIIIlIIIIlIIIlllIIlIIllIIIIIlllIlIlllIllllIIIllIIIlIIIlIIlIllllIIIIlIllllIIl$recovered$5205177389961a53(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 137018907572506L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      lIllllIIIIIIlIlIIlIIlIlIllIIIlllllIlllIIIIlIlllIIIlIIlIIllllIllllIllIlIIllIlIllIIIlII = var1;
+   }
+
+   public final void IlIIIIIIlIIllIIIIlIllllIllIIlIlIllIIIllIIIIIllllIlllllllIIIlIllllIIlIIlIlIlIlIIIIllll$recovered$8a42f925c785815c(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 61134610328279L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IIIllIIlIIlllllIlIlIIIIllIIIIlIlIlllIlIlIlIlIIlIIIlIIllIllIIIIIllllllIlIlIIIIIIIlllll = var3;
+   }
+
+   public final void lIllIllIIlllIllIlIIlllIllIIllIIlIIIlIIIIlIIllIlIlllIIIIlIlIIllIllIIIlIIIIIlIIIIlllIII$recovered$4f3b68a5f89fbcfa(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 24855161029510L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      IIllIIllIllIIlIlIlIllIlIIlIIlIIlIIIIIlIIIIIllIllIIIIIllllIIIlIIllllIIIIllIIllIllIllll = var1;
+   }
+
+   public final void lIlIIIllIIlIlIlIlIlllIIIIlIIllIIIIIlIIlIlllIIIlIIlIlIllIIlllIIlIllIlllIllIlllIlllIllI$recovered$4ac6b967c8f8af50(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 103241048756220L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IIIlIIllIIlIlIlIlllIIIIlIlIIIIlIllllllIIlllIllIlllIlIllIIllllIIIllllIIlIlIllIIIIllIll = var3;
+   }
+
+   public final void lIIIIlIIIIIIIIIlIIllllIlIIIIllIlllIlIIIllIlIIlIlIlllllIIlllIlIIllIlllIlIIIIIllIlIIllI$recovered$9eaaeb821070f956(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 95851295012076L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      lIIIIlIIIIlIIllIlIlIIlIlIlIIlIIlIllIIllllIlIllIllIIllIIIIllllllIlIlIlIIllIIlIIIlIlllI = var1;
+   }
+
+   public final void IlIlIIIIIlIllllIIIIIllIIIIIlllIIlIllIIlIllIlIlIIIIllIlIlIlIIllIllIlllIlIlIllIIlllIIlI$recovered$adc9198aa02056c1(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 96973878418261L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      llIlllIlIlllllllIlllIIlllIlIIIllllIIlIlIIIIIIIIlIIIIIIIIlIIllIIIIIIIIlIllllIlllIlllIl = var1;
+   }
+
+   public final void IlllllllIlIlIllIlIlIlIllllIIIIIIllIllIlIIllIlIIlIIlIIIIlIIIlIIIlIlIIIIIIllIIlIIllllII$recovered$8583ae35c9cbca41(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 25012696451428L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IIIIIIIIllIllIIIlIllIllllIlIIlIIIIllIIIIIllIIIllIIlllIIlIIIlIIllIIllIIlIlIIIIIIIlllII = var3;
+   }
+
+   public final void IlllIIlllIIIIIlllIllIIIIIIlIIIIIIllIllIlIlIlIIlIllIlIlllIIIlIIllIlIIlllIIIIlIIIIlllII$recovered$addd4e83307390a6(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 51164923246057L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      lIlIlIIllIIIllIIlllllIlIIlIllIlIIlIllIIIlIIlllIlIllllllllllIIIIlIIIlIllIIlIlIlIlIlIIl = var1;
+   }
+
+   public final void IlIllllIIlIllIIllIIlIlIIIlllIlIIlIIIIIIlllIIIlIllIlIllIIIIIlllIIIlIllIlIIlIIllllIIIlI$recovered$dfeaaf70d3fd3063(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 85696018251405L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      lIIIlIlIlIIlIIlIllIlIIlllIIIlIIlIlIIIlIlIIlIllIlllllIllIIIIlIlIlIIllIllIlIllIlIIIIIll = var3;
+   }
+
+   public final void IIIIIIlIlIIIlIIIIIlllIIlIlIllIllIlllIIIIIllIlIIlIlIIIIIIllllIIIllIIllllIlIIlIIllllllI$recovered$37fddf48efc681c7(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 49176882086384L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      IIIIlIIIlIllllIlIIlIlIlllllIIlIllIIIlIlllIIllIIlIIIIlIIlIIIIIIlllIIlIlIllIIlIIIllllIl = var1;
+   }
+
+   public final void lllIIllllllIlIIIIIIlIlIlIlIllllIlIlllIllIIIIllIIllllIIllIlIlIlIIlIIIIIllIIIIIIllIIllI$recovered$07197f0e13ff63ad(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 106453025131595L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      IllllIlIIllIlIlIlllIlllIIllIIlIllIIlIIIIllIllIIIIllIIlIlIlIIlIllIIIllIlIllIlIlllIlIll = var3;
+   }
+
+   public final void IlIlIIIIllllIlIIlIlllllllllIlllIllIlIIIIllIIlIIlIlIlIIlllIIlIlllllIIIlIIlIIlIIlIIlIII$recovered$00cd12b953c0f125(
+      long var1, @NotNull Color var3
+   ) {
+      var1 = 132327137069556L;
+      var1 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      lllIIllIIIlIllIllIlllIIlllIIIIlIIIllIIIlIlIIlIIlIllIlllIIllIlIllllIIlIIIllllIllIlIllI = var3;
+   }
+
+   public final void IllIIlIIlIlIIlIllIllIIIllIIIllIlIIllIlllIlllIIIlIlIlIIlIIIllIlIlIIIIlIllIIIlIIIlIIlII$recovered$85d615950244c8eb(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 54786200386816L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      lIIIIIIIllIllIlIIIlllIlIIlIIllIllllIlIlIIlIIllIIllIIIlIIlllIlIIIIIlllllIllllllIIlIllI = var1;
+   }
+
+   public final void llIIllllllIIllIlIlllIIlIIIIIIllIlIIIlIlIlIIIlIIIIllIIlIllIIlIIllIIIIlIIIIIllIIIllIlII$recovered$0b37f89888bd4bb8(
+      @NotNull Color var1, long var2
+   ) {
+      var2 = 24056828209859L;
+      var2 = IllIllIIllIlllIIIllllIllIIIlIIIIllllIIllIlIIIIIIIIlIIllllllIIIllIIIIlIlIlIIlIlIlIlIll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      IllIIlIllIIIlIllIlIIlIIIIlllIIIIIIlIllIllIllIIlIIIIIlIIIlIIlllIlllIIlllIIIlIIlIlIlIII = var1;
    }
 }

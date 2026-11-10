@@ -52,61 +52,53 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       String var5 = "\u009f.åÒ¶à¼XQZ½\u0016â[§ð\u0010\u0088ºè\u0093ÿY\u0083\u0099\u0001\u000b\tow\u009fÃq Ï>ÄåLeÓ¬Çõ\u0093\u000e¤\u009bü\u0011\u00ad\u0081)gñ\u0089cÞ\fZ\u001fôj²\u0091ëHlq3Ù\u0081s6ÛÛYÊ#z«æàUOsïÿÿmiúÕ\u00adFÜ\r\u0087\u0010¸\u0082äü \u00adú\u000e\u0017L\u0018ö)ëã]¨æó\u00969Êê\u0004Ô¾M?ìÞ\u001e·©\\=â ²\u0006\u0095 õ\u0003ö5ÞW\u0012áóiÝßÑß8\u008dNÄ\u0010]±Ó'Ä\u0016'¼J/«\u0094F\b\u008d+\u0018\n\u0001¶.ø";
       int var7 = "\u009f.åÒ¶à¼XQZ½\u0016â[§ð\u0010\u0088ºè\u0093ÿY\u0083\u0099\u0001\u000b\tow\u009fÃq Ï>ÄåLeÓ¬Çõ\u0093\u000e¤\u009bü\u0011\u00ad\u0081)gñ\u0089cÞ\fZ\u001fôj²\u0091ëHlq3Ù\u0081s6ÛÛYÊ#z«æàUOsïÿÿmiúÕ\u00adFÜ\r\u0087\u0010¸\u0082äü \u00adú\u000e\u0017L\u0018ö)ëã]¨æó\u00969Êê\u0004Ô¾M?ìÞ\u001e·©\\=â ²\u0006\u0095 õ\u0003ö5ÞW\u0012áóiÝßÑß8\u008dNÄ\u0010]±Ó'Ä\u0016'¼J/«\u0094F\b\u008d+\u0018\n\u0001¶.ø"
          .length();
-      char var4 = 16;
-      int var13 = -1;
+      char var4 = '\u0010';
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var14 = var5.substring(++var13, var13 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var22;
+         if ((var3 += var4) >= var7) {
+            var5 = "iý\u0091çÀmÜç#\u0089éàlp1µÖ~z>l\u0092\u0007\u0018\u0010³':\u0088\u0005\u0004\f\u0091\u001a|i\u000f\u001c\u0003Åç";
+            var7 = "iý\u0091çÀmÜç#\u0089éàlp1µÖ~z>l\u0092\u0007\u0018\u0010³':\u0088\u0005\u0004\f\u0091\u001a|i\u000f\u001c\u0003Åç".length();
+            var4 = '\u0018';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) >= var7) {
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI();
-                     String var23 = var0[6];
-                     String var24 = var0[3];
-                     String[] var11 = new String[]{var0[5], var0[1]};
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new me.octo.client.gui.clickgui.settings.impl.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll(
-                        var23, var24, var11
-                     );
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new BooleanSetting(var0[0], var0[2], true);
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new me.octo.client.gui.clickgui.settings.impl.llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(
-                        var0[7],
-                        var0[4],
-                        IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI
-                           .getParentFolderName(),
-                        new String[0],
-                        0,
-                        null,
-                        48,
-                        null
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var0[var6++] = var24;
+               if ((var3 += var4) >= var7) {
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI();
+                  String var26 = var0[6];
+                  String var27 = var0[3];
+                  String[] var11 = new String[]{var0[5], var0[1]};
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new me.octo.client.gui.clickgui.settings.impl.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll(
+                     var26, var27, var11
+                  );
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new BooleanSetting(var0[0], var0[2], true);
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new me.octo.client.gui.clickgui.settings.impl.llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(
+                     var0[7],
+                     var0[4],
+                     IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI
+                        .getParentFolderName(),
+                     new String[0],
+                     0,
+                     null,
+                     48,
+                     null
+                  );
+                  return;
+               }
 
-                  var4 = var5.charAt(var13);
-                  break;
-               default:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) < var7) {
-                     var4 = var5.charAt(var13);
-                     continue label28;
-                  }
-
-                  var5 = "iý\u0091çÀmÜç#\u0089éàlp1µÖ~z>l\u0092\u0007\u0018\u0010³':\u0088\u0005\u0004\f\u0091\u001a|i\u000f\u001c\u0003Åç";
-                  var7 = "iý\u0091çÀmÜç#\u0089éàlp1µÖ~z>l\u0092\u0007\u0018\u0010³':\u0088\u0005\u0004\f\u0091\u001a|i\u000f\u001c\u0003Åç".length();
-                  var4 = 24;
-                  var13 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var14 = var5.substring(++var13, var13 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

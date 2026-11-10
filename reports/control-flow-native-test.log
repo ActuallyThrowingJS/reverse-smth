@@ -1,0 +1,2 @@
+Restored native Java bodies=9; exact ELF bytes verified; analysis artifact; original native registration must not run
+PASS 18 JVM cases across nine native bodies; static/instance locals, null/object identity, empty void and changed-image rejection

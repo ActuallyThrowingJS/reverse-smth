@@ -53,12 +53,8 @@ public final class lIIlllIlIlllllIlIIlIllIlIllIIlllIlIllIllIIIllllllIIIlIlllIlIl
    }
 
    private static final void IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl() {
-      try {
-         if (ModUtils.mc.player != null) {
-            ModUtils.mc.player.closeContainer();
-         }
-      } catch (MatchException var0) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var0);
+      if (ModUtils.mc.player != null) {
+         ModUtils.mc.player.closeContainer();
       }
    }
 

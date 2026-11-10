@@ -34,49 +34,41 @@ public final class llIlIIIIlIlllIIllllIIllIllIIIlIIIIIIIlIIIllIIllIllllllllllIll
       int var7 = "ò&|á\u000e+³5ºeF\u00824=\u0015 ?Ðù\u009b=ÎÄ\u009cÎ\u0093\u009a\u0016\u0086jA×\u007f\u008a*¢¬Ý´å\u0089\u001cÁSLH\u0006\u0013@ì) [obXí%â (%\u0090híR: ³3\u008a\u001b\bW#´@U\u000e§Ó\u0010 $¹I\u0013ù¯öV\u0091<Q¹ÄØÕ8[\"Àqs³\"ÈÒÚ\u0097F\u0013Å=f»U#t\u001di¼´\u008f]¸½~ðH\u000ezñ\u00ad4æà\u0087o¥\u0085\u008a\u009fhßÏM\rü¨Ý¡\u008eûË \u0081\u0092}ymrªÑ¦A»jî Ø}¬\u001cûl\u0092\u0080G\u001aëf\u0084\u0082,SR\u0006\b\u000b\u0099â¯AÄyÉ"
          .length();
       char var4 = 'H';
-      int var13 = -1;
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var14 = var5.substring(++var13, var13 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var22;
+         if ((var3 += var4) >= var7) {
+            var5 = "BoGÈ¦\u0081\u0003RÙ¢ò}ö¬ä&\u0010O\u0081\u000eS\u0013\u0092´\u001a\u0000v\u008a$)1!@";
+            var7 = "BoGÈ¦\u0081\u0003RÙ¢ò}ö¬ä&\u0010O\u0081\u000eS\u0013\u0092´\u001a\u0000v\u008a$)1!@".length();
+            var4 = '\u0010';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) >= var7) {
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new BooleanSetting(var0[2], var0[4], true);
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new BooleanSetting(var0[6], var0[3], true);
-                     String var23 = var0[7];
-                     String var24 = var0[0];
-                     String[] var11 = new String[]{var0[1], var0[5]};
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll(
-                        var23, var24, var11
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var0[var6++] = var24;
+               if ((var3 += var4) >= var7) {
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new BooleanSetting(var0[2], var0[4], true);
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new BooleanSetting(var0[6], var0[3], true);
+                  String var26 = var0[7];
+                  String var27 = var0[0];
+                  String[] var11 = new String[]{var0[1], var0[5]};
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll(
+                     var26, var27, var11
+                  );
+                  return;
+               }
 
-                  var4 = var5.charAt(var13);
-                  break;
-               default:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) < var7) {
-                     var4 = var5.charAt(var13);
-                     continue label28;
-                  }
-
-                  var5 = "BoGÈ¦\u0081\u0003RÙ¢ò}ö¬ä&\u0010O\u0081\u000eS\u0013\u0092´\u001a\u0000v\u008a$)1!@";
-                  var7 = "BoGÈ¦\u0081\u0003RÙ¢ò}ö¬ä&\u0010O\u0081\u000eS\u0013\u0092´\u001a\u0000v\u008a$)1!@".length();
-                  var4 = 16;
-                  var13 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var14 = var5.substring(++var13, var13 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

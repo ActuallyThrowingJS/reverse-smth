@@ -89,46 +89,38 @@ public final class PolinexLogger {
       String var4 = "`©dO\u001fÄ\u0083\u0014}\u000770ª\u001cÕ\u0098 \u0097ô\u000b\u001c@WÙr`¦À¸ÈIÁ\u008a\tñ\u0092ÞO'\u0012&Eo½\u00adEa\u001cR Rô;tA8§Ò\u0092Bñ\bj NpQ'\"\u0097\u0012¿87n\u000bÃ8$\bm\u0001(¶\u00167r\u001az\nOÆüà\u001d)éFUê(rÔgEµ;¯M7ÃH¾ÍT@¬\u008d\u0093\u000fÝÑI";
       int var6 = "`©dO\u001fÄ\u0083\u0014}\u000770ª\u001cÕ\u0098 \u0097ô\u000b\u001c@WÙr`¦À¸ÈIÁ\u008a\tñ\u0092ÞO'\u0012&Eo½\u00adEa\u001cR Rô;tA8§Ò\u0092Bñ\bj NpQ'\"\u0097\u0012¿87n\u000bÃ8$\bm\u0001(¶\u00167r\u001az\nOÆüà\u001d)éFUê(rÔgEµ;¯M7ÃH¾ÍT@¬\u008d\u0093\u000fÝÑI"
          .length();
-      char var3 = 16;
-      int var13 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var14 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "(çð\u00820aºG)\u009fª%cØ*v\u0010æ@s\u0014\u0081\u0012û8o\u001b\u0005kV\u009bkN";
+            var6 = "(çð\u00820aºG)\u009fª%cØ*v\u0010æ@s\u0014\u0081\u0012û8o\u001b\u0005kV\u009bkN".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) >= var6) {
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var7;
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[6];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new PolinexLogger();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = LogManager.getLogger("Polinex");
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var7;
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[6];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new PolinexLogger();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = LogManager.getLogger("Polinex");
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label27;
-                  }
-
-                  var4 = "(çð\u00820aºG)\u009fª%cØ*v\u0010æ@s\u0014\u0081\u0012û8o\u001b\u0005kV\u009bkN";
-                  var6 = "(çð\u00820aºG)\u009fª%cØ*v\u0010æ@s\u0014\u0081\u0012û8o\u001b\u0005kV\u009bkN".length();
-                  var3 = 16;
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var14 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -237,5 +229,19 @@ public final class PolinexLogger {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/utils/PolinexLogger" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   @JvmStatic
+   public static final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$d74cc7cedfb6a782(
+      long var0, @NotNull String var2, char var3
+   ) {
+      var0 = 1638122845L;
+      long var4 = (var0 << 16 | (long)var3 << 48 >>> 48) ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      Intrinsics.checkNotNullParameter(
+         var2, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"g">(13484, 8679370004958371830L ^ var4)
+      );
+      lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.warn(
+         IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"g">(8071, 4540387899974481116L ^ var4) + var2
+      );
    }
 }

@@ -50,57 +50,100 @@ public final class lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIl
       Double[] var10 = new Double[5];
       var10[0] = 8.0;
       String[] var8 = var10000;
-      var10[1] = 7.0;
-      var10[2] = 6.0;
-      var10[3] = 5.0;
-      var10[4] = 4.0;
-      Iterator var9 = CollectionsKt.listOf(var10).iterator();
+      if (var8 != null) {
+         var10[1] = 7.0;
+         var10[2] = 6.0;
+         var10[3] = 5.0;
+         var10[4] = 4.0;
+         Iterator var19 = CollectionsKt.listOf(var10).iterator();
 
-      while (var9.hasNext()) {
-         double var19 = ((Number)var9.next()).doubleValue();
-
-         while (this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var2, var6, var19)) {
-            if (var8 != null) {
+         while (var19.hasNext()) {
+            double var24 = ((Number)var19.next()).doubleValue();
+            if (this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var2, var6, var24)) {
                return TuplesKt.to(var1, var2);
             }
          }
-      }
 
-      Float[] var20 = new Float[]{0.0F, 5.0F, -5.0F, 10.0F, -10.0F, 15.0F, -15.0F, 20.0F, -20.0F};
-      List var18 = CollectionsKt.listOf(var20);
-      Float[] var11 = new Float[]{0.0F, 10.0F, -10.0F, 20.0F, -20.0F, 30.0F, -30.0F, 40.0F, -40.0F};
-      List var21 = CollectionsKt.listOf(var11);
-      Iterator var22 = var18.iterator();
+         Float[] var25 = new Float[]{0.0F, 5.0F, -5.0F, 10.0F, -10.0F, 15.0F, -15.0F, 20.0F, -20.0F};
+         List var20 = CollectionsKt.listOf(var25);
+         Float[] var28 = new Float[]{0.0F, 10.0F, -10.0F, 20.0F, -20.0F, 30.0F, -30.0F, 40.0F, -40.0F};
+         List var26 = CollectionsKt.listOf(var28);
+         Iterator var29 = var20.iterator();
 
-      label38:
-      while (var22.hasNext()) {
-         float var12 = ((Number)var22.next()).floatValue();
-         float var13 = RangesKt.coerceIn(var2 + var12, -90.0F, 90.0F);
+         label48:
+         while (var29.hasNext()) {
+            float var30 = ((Number)var29.next()).floatValue();
+            float var31 = RangesKt.coerceIn(var2 + var30, -90.0F, 90.0F);
 
-         while (true) {
-            Iterator var14 = var21.iterator();
+            label46:
+            while (true) {
+               Iterator var32 = var26.iterator();
+
+               float var34;
+               do {
+                  if (!var32.hasNext()) {
+                     continue label48;
+                  }
+
+                  float var33 = ((Number)var32.next()).floatValue();
+                  var34 = var1 + var33;
+                  if (var8 == null) {
+                     continue label46;
+                  }
+               } while (!this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var34, var31, var6, 6.0));
+
+               return TuplesKt.to(var34, var31);
+            }
+         }
+
+         return null;
+      } else {
+         var10[1] = 7.0;
+         var10[2] = 6.0;
+         var10[3] = 5.0;
+         var10[4] = 4.0;
+         Iterator var9 = CollectionsKt.listOf(var10).iterator();
+
+         while (var9.hasNext()) {
+            double var21 = ((Number)var9.next()).doubleValue();
+
+            while (this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var2, var6, var21)) {
+            }
+         }
+
+         Float[] var22 = new Float[]{0.0F, 5.0F, -5.0F, 10.0F, -10.0F, 15.0F, -15.0F, 20.0F, -20.0F};
+         List var18 = CollectionsKt.listOf(var22);
+         Float[] var11 = new Float[]{0.0F, 10.0F, -10.0F, 20.0F, -20.0F, 30.0F, -30.0F, 40.0F, -40.0F};
+         List var23 = CollectionsKt.listOf(var11);
+         Iterator var27 = var18.iterator();
+
+         label71:
+         while (var27.hasNext()) {
+            float var12 = ((Number)var27.next()).floatValue();
+            float var13 = RangesKt.coerceIn(var2 + var12, -90.0F, 90.0F);
 
             while (true) {
-               if (!var14.hasNext()) {
-                  continue label38;
-               }
+               Iterator var14 = var23.iterator();
 
-               float var15 = ((Number)var14.next()).floatValue();
-               float var16 = var1 + var15;
-               if (var8 == null) {
-                  break;
-               }
+               while (true) {
+                  if (!var14.hasNext()) {
+                     continue label71;
+                  }
 
-               while (this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var16, var13, var6, 6.0)) {
-                  if (var8 != null) {
-                     return TuplesKt.to(var16, var13);
+                  float var15 = ((Number)var14.next()).floatValue();
+                  float var16 = var1 + var15;
+                  if (var8 == null) {
+                     break;
+                  }
+
+                  while (this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var16, var13, var6, 6.0)) {
                   }
                }
             }
          }
-      }
 
-      return null;
+         return null;
+      }
    }
 
    public final double IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(long param1) {

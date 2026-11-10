@@ -75,49 +75,47 @@ public final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIl
          .size();
 
       while (true) {
-         if (var7 < var8) {
-            var18 = lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlIIlllIIlIlllIIlIlIlI.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-               .IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var7, var3);
-            if (var5 == null) {
-               break;
-            }
-
-            Iterator var9 = var18.iterator();
-
-            label34: {
-               while (var9.hasNext()) {
-                  lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlIIlllIIlIlllIIlIlIlI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var10 = (lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlIIlllIIlIlllIIlIlIlI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)((Pair)var9.next())
-                     .component2();
-                  llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = this;
-
-                  try {
-                     llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var16 = var11;
-                     if (var5 == null) {
-                        break label34;
-                     }
-
-                     boolean var13 = false;
-                     var16 = (llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)Result.constructor-impl(
-                        var6.add(var10.getTextProvider().invoke())
-                     );
-                  } catch (Throwable var14) {
-                     Object var12 = Result.constructor-impl(ResultKt.createFailure(var14));
-                     if (var5 == null) {
-                        break;
-                     }
-                  }
-               }
-
-               var7++;
-            }
-
-            if (var5 != null) {
-               continue;
-            }
+         if (var7 >= var8) {
+            var18 = var6;
+            break;
          }
 
-         var18 = var6;
-         break;
+         var18 = lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlIIlllIIlIlllIIlIlIlI.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+            .IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var7, var3);
+         if (var5 == null) {
+            break;
+         }
+
+         Iterator var9 = var18.iterator();
+
+         while (true) {
+            if (var9.hasNext()) {
+               lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlIIlllIIlIlllIIlIlIlI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var10 = (lIIlIlIlIIlllllIlIlIIllIllIIllIllIIIIIllIlIlIllIIIIlIlllIlIIlIIIlIIlllIIlIlllIIlIlIlI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)((Pair)var9.next())
+                  .component2();
+               llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var11 = this;
+
+               try {
+                  llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var16 = var11;
+                  if (var5 == null) {
+                     break;
+                  }
+
+                  boolean var13 = false;
+                  var16 = (llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)Result.constructor-impl(
+                     var6.add(var10.getTextProvider().invoke())
+                  );
+                  continue;
+               } catch (Throwable var14) {
+                  Object var12 = Result.constructor-impl(ResultKt.createFailure(var14));
+                  if (var5 != null) {
+                     continue;
+                  }
+               }
+            }
+
+            var7++;
+            break;
+         }
       }
 
       return var18;

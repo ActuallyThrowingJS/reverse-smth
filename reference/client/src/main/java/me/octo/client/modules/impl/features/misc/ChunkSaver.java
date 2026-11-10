@@ -123,7 +123,7 @@ public final class ChunkSaver extends BooleanModule {
       this.IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl.clear();
       this.llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI.clear();
       IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$05952d74e6d6458a(
             me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.UNKNOWN, var4
          );
    }
@@ -179,48 +179,40 @@ public final class ChunkSaver extends BooleanModule {
       int var6 = ".¬È©\u0085ª*.ñ0\u000e\u0005\u0095b>÷%\u0094áo\u0004jîÉöþ¾;G4Z\u0092\u0010<«'±\u001e\u001f\u0098\u009e;\u0007û§Ò¾RÚ\u0018¼Àßl\u0099k¿¦\u0002\u0006mò\u0013@#\u008a\u0017\bsºcig«\u0010ô\u009e\u0019L\u00193&Gf\u001dg®\u0004ab¯\u0018\u008b\u000e\u007fs\u0096À³4K\u008a\u001aÚèï\u0094¤ê\u009e\u0089~Yýr§ wÆ\u0087v§go_\u008f3¸\u0018|Dõr¤è\f\nw® &/\\4û\u008d5 «8\u00196©×Ñøo3â(® |¿a\u0001SÓj\u0003>s\u0082f¥ê»G;\u0016\u0084kQ{r¢\u0081výÌ\u000e8\u0098×ðÍÏh\u0013\u008f\u008aÈ-mÌW\u0010ö ~'¥\u0011\u0000\u0094\u0096\u0005\u008a²\u001e\bÜ\b\u0010Ñ.\u0002;\u0014õ\tÓpÛEZpK\u0087ï(\u0010LÚÞ>ê·N¬~å=ç ô\u0096\b°ô\u001cªFçº¼\u001aæÊJúÜ£ÙlØwC\u00027P âé\u0095½\u0002á\u0016\u009b)õ]QV¦ëÔà3ÕTí\u008b>\u009d@\u0089\b¢ãÄ.u\u0010´\u0085a)õFÇÛoMtÈ\u001fE×K\u0018 CR(ì{_@\u009d³\u0007å\u0018oy÷q-üß¯\u001e \u0093"
          .length();
       char var3 = ' ';
-      int var12 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var21;
+         if ((var2 += var3) >= var6) {
+            var4 = "\u0018ò\u0092Í\u009cjäF\u009dñÁÊHaìmªÒ\u0015\u0090+l\u0011\tÁÂ\u000e¢¦ºH\u009c\u0010ÙãHG:U4rãÒuüøÑiÓ";
+            var6 = "\u0018ò\u0092Í\u009cjäF\u009dñÁÊHaìmªÒ\u0015\u0090+l\u0011\tÁÂ\u000e¢¦ºH\u009c\u0010ÙãHG:U4rãÒuüøÑiÓ".length();
+            var3 = ' ';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) >= var6) {
-                     lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll = var7;
-                     llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = new String[15];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
-                        null
-                     );
-                     IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = "pathfind-cache";
-                     llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = new ChunkSaver();
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
+               boolean var19 = false;
+               var7[var5++] = var23;
+               if ((var2 += var3) >= var6) {
+                  lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll = var7;
+                  llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = new String[15];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
+                     null
+                  );
+                  IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = "pathfind-cache";
+                  llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = new ChunkSaver();
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "\u0018ò\u0092Í\u009cjäF\u009dñÁÊHaìmªÒ\u0015\u0090+l\u0011\tÁÂ\u000e¢¦ºH\u009c\u0010ÙãHG:U4rãÒuüøÑiÓ";
-                  var6 = "\u0018ò\u0092Í\u009cjäF\u009dñÁÊHaìmªÒ\u0015\u0090+l\u0011\tÁÂ\u000e¢¦ºH\u009c\u0010ÙãHG:U4rãÒuüøÑiÓ".length();
-                  var3 = ' ';
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

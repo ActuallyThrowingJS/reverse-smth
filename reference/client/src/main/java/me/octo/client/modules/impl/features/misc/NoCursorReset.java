@@ -49,7 +49,7 @@ public final class NoCursorReset extends BooleanModule {
    public static final boolean shouldHookMouse() {
       long var0 = llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI ^ 58650776579548L;
       long var2 = var0 ^ 73934453288782L;
-      return lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      return lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$9072354fda984e8c(
          var2
       );
    }
@@ -71,49 +71,41 @@ public final class NoCursorReset extends BooleanModule {
       String var6 = "\u0090\u001eÊÔÏmI¥g\u0092a\u001dB\u0088ÿ\u0091S\u0089ERü\\=?±éÎ³\u0093\n\u0016¥\u0010lº¡\bÞ\u008e!0\u0006ÜÔsË\u001ba®";
       int var8 = "\u0090\u001eÊÔÏmI¥g\u0092a\u001dB\u0088ÿ\u0091S\u0089ERü\\=?±éÎ³\u0093\n\u0016¥\u0010lº¡\bÞ\u008e!0\u0006ÜÔsË\u001ba®".length();
       char var5 = ' ';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0005aW\f¹FäN·$C³¢`3¶±¼é\u0090<C±Sñ \u008dê/áÞ%\u0096wåÐÿµnÌ\u0083ÀË\u0014\u0097¤\u0085\u0095ÅäcÅ{\u0091Ûdì»\u0016ö\u0093\u0012<¢û}\u0003\u009f¿\u009aîTd\u009bí\u0010P\u001bÓ\b\u009fPF\u0087Ú#:¾\bø®Ig\u0083þh ¶/Ô1}\u0013\u001a\u0010Ñ\u001c\u0090¬\u0081\"wob®\u000eÅ\u0019!7ô";
+            var8 = "\u0005aW\f¹FäN·$C³¢`3¶±¼é\u0090<C±Sñ \u008dê/áÞ%\u0096wåÐÿµnÌ\u0083ÀË\u0014\u0097¤\u0085\u0095ÅäcÅ{\u0091Ûdì»\u0016ö\u0093\u0012<¢û}\u0003\u009f¿\u009aîTd\u009bí\u0010P\u001bÓ\b\u009fPF\u0087Ú#:¾\bø®Ig\u0083þh ¶/Ô1}\u0013\u001a\u0010Ñ\u001c\u0090¬\u0081\"wob®\u000eÅ\u0019!7ô"
+               .length();
+            var5 = 'h';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var9;
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new String[4];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new NoCursorReset.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = System.currentTimeMillis();
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new NoCursorReset();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var9;
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new String[4];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new NoCursorReset.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = System.currentTimeMillis();
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new NoCursorReset();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0005aW\f¹FäN·$C³¢`3¶±¼é\u0090<C±Sñ \u008dê/áÞ%\u0096wåÐÿµnÌ\u0083ÀË\u0014\u0097¤\u0085\u0095ÅäcÅ{\u0091Ûdì»\u0016ö\u0093\u0012<¢û}\u0003\u009f¿\u009aîTd\u009bí\u0010P\u001bÓ\b\u009fPF\u0087Ú#:¾\bø®Ig\u0083þh ¶/Ô1}\u0013\u001a\u0010Ñ\u001c\u0090¬\u0081\"wob®\u000eÅ\u0019!7ô";
-                  var8 = "\u0005aW\f¹FäN·$C³¢`3¶±¼é\u0090<C±Sñ \u008dê/áÞ%\u0096wåÐÿµnÌ\u0083ÀË\u0014\u0097¤\u0085\u0095ÅäcÅ{\u0091Ûdì»\u0016ö\u0093\u0012<¢û}\u0003\u009f¿\u009aîTd\u009bí\u0010P\u001bÓ\b\u009fPF\u0087Ú#:¾\bø®Ig\u0083þh ¶/Ô1}\u0013\u001a\u0010Ñ\u001c\u0090¬\u0081\"wob®\u000eÅ\u0019!7ô"
-                     .length();
-                  var5 = 'h';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -266,6 +258,11 @@ public final class NoCursorReset extends BooleanModule {
 
       private static MatchException IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(MatchException var0) {
          return var0;
+      }
+
+      @JvmStatic
+      public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$9072354fda984e8c(long param1) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
       }
    }
 }

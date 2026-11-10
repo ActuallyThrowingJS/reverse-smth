@@ -1017,62 +1017,53 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
       String var4 = "?\u0084qs\u0004C\tÚ{\t\u0006î±\u001a\bé\u0018·ôõ\u009c~'Ó¾3\u000f¨\u0015nô,\u0011áiÛ÷o¿Ã\u0017 )k.\\ÕêÍÖ\u00119HÎÈ/(2Æ\f4\u001a~å´ÓCàÉ ïD1ù\u0010EÄ¢4\u008eA+'«¬*Å\u0083Ï4\u009f\u0010\u0081Þ\u00983·\u0084«$H\u0096\u0010#î)ò³ CÌÜ4dèáÝVí\u000fÈ°ÁHEq¸Ï\u0088\u0011\u009d¤×½\u00142»\u0007%\u009aV\u0010\u0088t\"wîe¯\n\\O\u0092\u009f/2-Å(ÞÔÍÑ'§'l°I\u001f´\fz\u009e,Iþ>á¹ú4ïæ\u0080\u00ad\u0011\u0001uûJáTh×ñS\u0087Ó\u0018{ö\\iH} ~_Åøé\u0094*\u0098T£;Ï\bF\u009f\u0085\u0088\u0010ë\u009eË5¾\u001bN\u008bí\u0012*\u0089Vù\u0011Ê0\u0014\u0088\u0098\u009búöéoå\u0093dä\u009fã0\u008e\u001b(xßa·n¹\u001fVû\u0011æ(\"\u0001Ê\u001a\u008e\u008b¼ßqÔÆ\u008b\u0014`²\u009e\u0080^\u0018¼Qk«UK\u0019\u0098³¿¨õ\u00948îå\u0089XÜ\t¤ðf6 áôÏ.\u0003Ç|]WjåxEê¦\u008dTÓ6Ú\u0003K%Ðª¬\t\u0085\u0000D=T )\u001a¨«_s\u0084ÖI\u0013zfØ\u009blR§È\u0090\u001b\u0015ìÎ»¼+Ë5Þ\u00ad¾c\u0010½¹\u0096¦\u0086Ý-axk Ç\u009bn\u001b\u0092\u0010ë`8\u0019\u009dy¢y\u0080h\u0006E½\u008ay~ 1ß\u0015\u0015öËdÌÜ\u009bê!»\u009f\u0083ù\u0096´Ù\u0001ÌÒ0\u008b×\u0094H\u009c\u0016\\\u001e6";
       int var6 = "?\u0084qs\u0004C\tÚ{\t\u0006î±\u001a\bé\u0018·ôõ\u009c~'Ó¾3\u000f¨\u0015nô,\u0011áiÛ÷o¿Ã\u0017 )k.\\ÕêÍÖ\u00119HÎÈ/(2Æ\f4\u001a~å´ÓCàÉ ïD1ù\u0010EÄ¢4\u008eA+'«¬*Å\u0083Ï4\u009f\u0010\u0081Þ\u00983·\u0084«$H\u0096\u0010#î)ò³ CÌÜ4dèáÝVí\u000fÈ°ÁHEq¸Ï\u0088\u0011\u009d¤×½\u00142»\u0007%\u009aV\u0010\u0088t\"wîe¯\n\\O\u0092\u009f/2-Å(ÞÔÍÑ'§'l°I\u001f´\fz\u009e,Iþ>á¹ú4ïæ\u0080\u00ad\u0011\u0001uûJáTh×ñS\u0087Ó\u0018{ö\\iH} ~_Åøé\u0094*\u0098T£;Ï\bF\u009f\u0085\u0088\u0010ë\u009eË5¾\u001bN\u008bí\u0012*\u0089Vù\u0011Ê0\u0014\u0088\u0098\u009búöéoå\u0093dä\u009fã0\u008e\u001b(xßa·n¹\u001fVû\u0011æ(\"\u0001Ê\u001a\u008e\u008b¼ßqÔÆ\u008b\u0014`²\u009e\u0080^\u0018¼Qk«UK\u0019\u0098³¿¨õ\u00948îå\u0089XÜ\t¤ðf6 áôÏ.\u0003Ç|]WjåxEê¦\u008dTÓ6Ú\u0003K%Ðª¬\t\u0085\u0000D=T )\u001a¨«_s\u0084ÖI\u0013zfØ\u009blR§È\u0090\u001b\u0015ìÎ»¼+Ë5Þ\u00ad¾c\u0010½¹\u0096¦\u0086Ý-axk Ç\u009bn\u001b\u0092\u0010ë`8\u0019\u009dy¢y\u0080h\u0006E½\u008ay~ 1ß\u0015\u0015öËdÌÜ\u009bê!»\u009f\u0083ù\u0096´Ù\u0001ÌÒ0\u008b×\u0094H\u009c\u0016\\\u001e6"
          .length();
-      char var3 = 16;
-      int var14 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var15 = var4.substring(++var14, var14 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var23;
+         if ((var2 += var3) >= var6) {
+            var4 = "/IÓõ\r÷òWJ=æ.KI®Ç(udM\u0000q«Ñ*\u00adf¨\u0081n\t:¥à\u0082Ë¦Ó\u0097j\u0004\u000e\u008cí\u0090¹Çw\u0080\u007fÏù\u0096ødÑ\u0089";
+            var6 = "/IÓõ\r÷òWJ=æ.KI®Ç(udM\u0000q«Ñ*\u00adf¨\u0081n\t:¥à\u0082Ë¦Ó\u0097j\u0004\u000e\u008cí\u0090¹Çw\u0080\u007fÏù\u0096ødÑ\u0089".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var15.getBytes("ISO-8859-1"));
-            String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var21;
-                  if ((var14 += var3) >= var6) {
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var7;
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new String[19];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new ObjectArrayList();
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new IntArrayList();
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new IntArrayList();
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new FloatArrayList();
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IntArrayList();
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new FloatArrayList();
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new BooleanArrayList();
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new FloatArrayList();
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new IntArrayList();
-                     lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new Object2ObjectOpenHashMap();
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new Object();
-                     PolinexAccessor.INSTANCE
-                        .eventBus
-                        .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                           IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl, var11
-                        );
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var25 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var21 = false;
+               var7[var5++] = var25;
+               if ((var2 += var3) >= var6) {
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var7;
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new String[19];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new ObjectArrayList();
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new IntArrayList();
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new IntArrayList();
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new FloatArrayList();
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IntArrayList();
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new FloatArrayList();
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new BooleanArrayList();
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new FloatArrayList();
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new IntArrayList();
+                  lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new Object2ObjectOpenHashMap();
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new Object();
+                  PolinexAccessor.INSTANCE
+                     .eventBus
+                     .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$864ed80a9d741ba9(
+                        IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl, var11
+                     );
+                  return;
+               }
 
-                  var3 = var4.charAt(var14);
-                  break;
-               default:
-                  var7[var5++] = var21;
-                  if ((var14 += var3) < var6) {
-                     var3 = var4.charAt(var14);
-                     continue label27;
-                  }
-
-                  var4 = "/IÓõ\r÷òWJ=æ.KI®Ç(udM\u0000q«Ñ*\u00adf¨\u0081n\t:¥à\u0082Ë¦Ó\u0097j\u0004\u000e\u008cí\u0090¹Çw\u0080\u007fÏù\u0096ødÑ\u0089";
-                  var6 = "/IÓõ\r÷òWJ=æ.KI®Ç(udM\u0000q«Ñ*\u00adf¨\u0081n\t:¥à\u0082Ë¦Ó\u0097j\u0004\u000e\u008cí\u0090¹Çw\u0080\u007fÏù\u0096ødÑ\u0089"
-                     .length();
-                  var3 = 16;
-                  var14 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var15 = var4.substring(++var14, var14 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -1180,6 +1171,652 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
                + var2.toString(),
             var5
          );
+      }
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$dd2496c720375ed5(
+      BlockPos var0,
+      long var1,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var3,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var4,
+      float var5,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var6,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var7,
+      float var8,
+      boolean var9,
+      float var10,
+      int var11,
+      Object var12
+   ) {
+      var1 = 55773016661661L;
+      var1 = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ var1;
+      long var13 = var1 ^ 37904026875974L;
+      String var15 = WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      int var10000;
+      label109: {
+         int var23;
+         label108: {
+            label107: {
+               try {
+                  var23 = var11;
+                  if (var15 != null) {
+                     break label108;
+                  }
+
+                  if ((var11 & 2) == 0) {
+                     break label107;
+                  }
+               } catch (NoWhenBranchMatchedException var34) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var34);
+               }
+
+               var3 = null;
+            }
+
+            try {
+               var10000 = var11 & 4;
+               break label109;
+            } catch (NoWhenBranchMatchedException var30) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var30);
+            }
+         }
+
+         var10000 = var23;
+      }
+
+      if (var10000 != 0) {
+         var4 = null;
+      }
+
+      label97: {
+         int var24;
+         label113: {
+            byte var10001;
+            try {
+               var24 = var11;
+               if (var15 != null) {
+                  break label113;
+               }
+
+               var10000 = var11;
+               var10001 = 8;
+            } catch (NoWhenBranchMatchedException var33) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var33);
+            }
+
+            if ((var10000 & var10001) != 0) {
+               var5 = 1.5F;
+            }
+
+            try {
+               var10000 = var11 & 16;
+               break label97;
+            } catch (NoWhenBranchMatchedException var29) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var29);
+            }
+         }
+
+         var10000 = var24;
+      }
+
+      if (var10000 != 0) {
+         var6 = null;
+      }
+
+      label88: {
+         int var25;
+         label114: {
+            try {
+               var25 = var11;
+               if (var15 != null) {
+                  break label114;
+               }
+
+               var10000 = var11 & 32;
+            } catch (NoWhenBranchMatchedException var32) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var32);
+            }
+
+            if (var10000 != 0) {
+               var7 = null;
+            }
+
+            try {
+               var10000 = var11 & 64;
+               break label88;
+            } catch (NoWhenBranchMatchedException var28) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var28);
+            }
+         }
+
+         var10000 = var25;
+      }
+
+      if (var10000 != 0) {
+         var8 = 18.0F;
+      }
+
+      short var43;
+      label79: {
+         int var26;
+         short var27;
+         label115: {
+            try {
+               var27 = 128;
+               var26 = var11;
+               if (var15 != null) {
+                  break label115;
+               }
+
+               var10000 = var11 & var27;
+            } catch (NoWhenBranchMatchedException var31) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var31);
+            }
+
+            if (var10000 != 0) {
+               var9 = true;
+            }
+
+            var10000 = var11;
+            var43 = 256;
+            break label79;
+         }
+
+         var10000 = var26;
+         var43 = var27;
+      }
+
+      if ((var10000 & var43) != 0) {
+         var10 = 1.5F;
+      }
+
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6d59eda000c21dea(
+         var0, var13, var3, var4, var5, var6, var7, var8, var9, var10
+      );
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$30b485925c5759a2(
+      AABB var0,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var1,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var2,
+      long var3,
+      float var5,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var6,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var7,
+      float var8,
+      boolean var9,
+      float var10,
+      int var11,
+      Object var12
+   ) {
+      var3 = 106344593287340L;
+      var3 = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ var3;
+      long var13 = var3 ^ 112250943813288L;
+      String var15 = WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      int var10000;
+      byte var10001;
+      label120: {
+         label119: {
+            int var23;
+            byte var24;
+            label118: {
+               try {
+                  var24 = 2;
+                  var23 = var11;
+                  if (var15 != null) {
+                     break label118;
+                  }
+
+                  if ((var11 & var24) == 0) {
+                     break label119;
+                  }
+               } catch (NoWhenBranchMatchedException var39) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var39);
+               }
+
+               var1 = null;
+               break label119;
+            }
+
+            var10000 = var23;
+            var10001 = var24;
+            break label120;
+         }
+
+         var10000 = var11;
+         var10001 = 4;
+      }
+
+      label109: {
+         label108: {
+            int var25;
+            byte var26;
+            label107: {
+               try {
+                  var26 = (byte)var10001;
+                  var25 = var10000;
+                  if (var15 != null) {
+                     break label107;
+                  }
+
+                  if ((var25 & var26) == 0) {
+                     break label108;
+                  }
+               } catch (NoWhenBranchMatchedException var38) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var38);
+               }
+
+               var2 = null;
+               break label108;
+            }
+
+            var10000 = var25;
+            var10001 = var26;
+            break label109;
+         }
+
+         var10000 = var11;
+         var10001 = (byte)8;
+      }
+
+      label98: {
+         int var27;
+         byte var28;
+         label97: {
+            label96: {
+               try {
+                  var28 = var10001;
+                  var27 = var10000;
+                  if (var15 != null) {
+                     break label97;
+                  }
+
+                  if ((var27 & var28) == 0) {
+                     break label96;
+                  }
+               } catch (NoWhenBranchMatchedException var37) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var37);
+               }
+
+               var5 = 1.5F;
+            }
+
+            try {
+               var10000 = var11;
+               var10001 = (byte)16;
+               break label98;
+            } catch (NoWhenBranchMatchedException var34) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var34);
+            }
+         }
+
+         var10000 = var27;
+         var10001 = var28;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var6 = null;
+      }
+
+      label86: {
+         int var29;
+         byte var30;
+         label124: {
+            try {
+               var30 = 32;
+               var29 = var11;
+               if (var15 != null) {
+                  break label124;
+               }
+
+               var10000 = var11 & var30;
+            } catch (NoWhenBranchMatchedException var36) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var36);
+            }
+
+            if (var10000 != 0) {
+               var7 = null;
+            }
+
+            try {
+               var10000 = var11;
+               var10001 = (byte)64;
+               break label86;
+            } catch (NoWhenBranchMatchedException var33) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var33);
+            }
+         }
+
+         var10000 = var29;
+         var10001 = var30;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var8 = 18.0F;
+      }
+
+      label77: {
+         int var31;
+         short var32;
+         label125: {
+            try {
+               var32 = 128;
+               var31 = var11;
+               if (var15 != null) {
+                  break label125;
+               }
+
+               var10000 = var11 & var32;
+            } catch (NoWhenBranchMatchedException var35) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var35);
+            }
+
+            if (var10000 != 0) {
+               var9 = true;
+            }
+
+            var10000 = var11;
+            var10001 = 256;
+            break label77;
+         }
+
+         var10000 = var31;
+         var10001 = var32;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var10 = 1.5F;
+      }
+
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b0bd89855c0e78a1(
+         var0, var1, var2, var5, var6, var7, var13, var8, var9, var10
+      );
+   }
+
+   @JvmStatic
+   @JvmOverloads
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6d59eda000c21dea(
+      @NotNull BlockPos posArg,
+      long argument2Arg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument3Arg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument4Arg,
+      float argument5Arg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument6Arg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument7Arg,
+      float argument8Arg,
+      boolean argument9Arg,
+      float argument10Arg
+   ) {
+      argument2Arg = 76851645265089L;
+      argument2Arg = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ argument2Arg;
+      long var11 = argument2Arg ^ 73986600954565L;
+      Intrinsics.checkNotNullParameter(posArg, "pos");
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b0bd89855c0e78a1(
+         new AABB(posArg.getX(), posArg.getY(), posArg.getZ(), posArg.getX() + 1.0, posArg.getY() + 1.0, posArg.getZ() + 1.0),
+         argument3Arg,
+         argument4Arg,
+         argument5Arg,
+         argument6Arg,
+         argument7Arg,
+         var11,
+         argument8Arg,
+         argument9Arg,
+         argument10Arg
+      );
+   }
+
+   @JvmStatic
+   @JvmOverloads
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b0bd89855c0e78a1(
+      @NotNull AABB boxArg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument2Arg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument3Arg,
+      float argument4Arg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument5Arg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument6Arg,
+      long argument7Arg,
+      float argument8Arg,
+      boolean argument9Arg,
+      float argument10Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8c308b998bd5eea4(
+      Object var0,
+      AABB var1,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var2,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var3,
+      float var4,
+      long var5,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var7,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var8,
+      float var9,
+      boolean var10,
+      float var11,
+      int var12,
+      Object var13
+   ) {
+      var5 = 120850520376904L;
+      var5 = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ var5;
+      long var14 = var5 ^ 44814926324474L;
+      String var16 = WorldRenderEnvironment.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      int var10000;
+      label109: {
+         int var24;
+         label108: {
+            label107: {
+               try {
+                  var24 = var12;
+                  if (var16 != null) {
+                     break label108;
+                  }
+
+                  if ((var12 & 4) == 0) {
+                     break label107;
+                  }
+               } catch (NoWhenBranchMatchedException var34) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var34);
+               }
+
+               var2 = null;
+            }
+
+            try {
+               var10000 = var12 & 8;
+               break label109;
+            } catch (NoWhenBranchMatchedException var30) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var30);
+            }
+         }
+
+         var10000 = var24;
+      }
+
+      if (var10000 != 0) {
+         var3 = null;
+      }
+
+      label97: {
+         int var25;
+         label113: {
+            byte var10001;
+            try {
+               var25 = var12;
+               if (var16 != null) {
+                  break label113;
+               }
+
+               var10000 = var12;
+               var10001 = 16;
+            } catch (NoWhenBranchMatchedException var33) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var33);
+            }
+
+            if ((var10000 & var10001) != 0) {
+               var4 = 1.5F;
+            }
+
+            try {
+               var10000 = var12 & 32;
+               break label97;
+            } catch (NoWhenBranchMatchedException var29) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var29);
+            }
+         }
+
+         var10000 = var25;
+      }
+
+      if (var10000 != 0) {
+         var7 = null;
+      }
+
+      label88: {
+         int var26;
+         label114: {
+            try {
+               var26 = var12;
+               if (var16 != null) {
+                  break label114;
+               }
+
+               var10000 = var12 & 64;
+            } catch (NoWhenBranchMatchedException var32) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var32);
+            }
+
+            if (var10000 != 0) {
+               var8 = null;
+            }
+
+            try {
+               var10000 = var12 & 128;
+               break label88;
+            } catch (NoWhenBranchMatchedException var28) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var28);
+            }
+         }
+
+         var10000 = var26;
+      }
+
+      if (var10000 != 0) {
+         var9 = 18.0F;
+      }
+
+      label79: {
+         int var27;
+         label115: {
+            try {
+               var27 = var12;
+               if (var16 != null) {
+                  break label115;
+               }
+
+               var10000 = var12 & 256;
+            } catch (NoWhenBranchMatchedException var31) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var31);
+            }
+
+            if (var10000 != 0) {
+               var10 = true;
+            }
+
+            var10000 = var12 & 512;
+            break label79;
+         }
+
+         var10000 = var27;
+      }
+
+      if (var10000 != 0) {
+         var11 = 1.5F;
+      }
+
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d758ec7babfd58ec(
+         var0, var1, var2, var3, var4, var7, var8, var9, var10, var14, var11
+      );
+   }
+
+   // $VF: Extended synchronized range to monitorexit
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d1e520d120f535c2(
+      @NotNull Object keyArg, long argument2Arg
+   ) {
+      argument2Arg = 99556608334882L;
+      argument2Arg = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ argument2Arg;
+      Intrinsics.checkNotNullParameter(keyArg, "key");
+      Object var3 = lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI;
+      synchronized (var3) {
+         boolean var4 = false;
+         IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var9 = (IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll)lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl.remove(
+            keyArg
+         );
+      }
+   }
+
+   @JvmStatic
+   @JvmOverloads
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d758ec7babfd58ec(
+      @NotNull Object keyArg,
+      @NotNull AABB boxArg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument3Arg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument4Arg,
+      float argument5Arg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument6Arg,
+      @Nullable me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll argument7Arg,
+      float argument8Arg,
+      boolean argument9Arg,
+      long argument10Arg,
+      float argument11Arg
+   ) {
+      argument10Arg = 17652387362472L;
+      argument10Arg = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ argument10Arg;
+      Intrinsics.checkNotNullParameter(keyArg, "key");
+      Intrinsics.checkNotNullParameter(boxArg, "box");
+      Object var12 = lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI;
+      synchronized (var12) {
+         boolean var13 = false;
+         Map var14 = (Map)lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
+
+         IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var10000;
+         IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var10001;
+         AABB var10002;
+         int var10003;
+         label38: {
+            try {
+               var10000 = new IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll;
+               var10001 = var10000;
+               var10002 = boxArg;
+               if (argument3Arg != null) {
+                  var10003 = argument3Arg.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI();
+                  break label38;
+               }
+            } catch (NoWhenBranchMatchedException var17) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
+            }
+
+            var10003 = 0;
+         }
+
+         var10001./* $VF: Unable to resugar constructor */<init>(
+            var10002,
+            var10003,
+            argument4Arg != null ? argument4Arg.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI() : 0,
+            argument5Arg,
+            argument6Arg != null ? argument6Arg.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI() : 0,
+            argument7Arg != null ? argument7Arg.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI() : 0,
+            argument8Arg,
+            argument9Arg,
+            argument11Arg
+         );
+         IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var15 = var10000;
+         var14.put(keyArg, var15);
+         Unit var21 = Unit.INSTANCE;
       }
    }
 

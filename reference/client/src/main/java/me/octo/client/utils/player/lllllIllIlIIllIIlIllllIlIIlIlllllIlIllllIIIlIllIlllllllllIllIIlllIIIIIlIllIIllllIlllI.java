@@ -158,44 +158,36 @@ public final class lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllI
       int var6 = "\u0080³\u0087Ù \u0001áò]%Q\u000e\u0016ûà¯\u0013ø\u0006\u008eú¢\u000e§j\u000f;à\u008f\u0097¥S£Ð{-ØS\u0090¤w}Oc]\u0080s\u001b °\u0019\fØ\u0092\u0007jð\u0015f·\u001fc/a\u0096!¸þ\u0005ÕXð\tì\u0007:\u001f*\u0083Õ*"
          .length();
       char var3 = '0';
-      int var13 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var14 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "?\u008aMâ+\u007f\u001djþ\u0010i\u0093\u0007ÒR)Ýâò¤\u001f\n\u0006Ú8m)\u0005a¯/\u0095\u000fÞ\u0007oìÑb\"\u007fæÊ#Ðºo.vþÓçÑû«#AhÚÝö$\u0097çÄ\u009e\u0012MMÇ!B#ö\u0096¾\"WðG\u0088";
+            var6 = "?\u008aMâ+\u007f\u001djþ\u0010i\u0093\u0007ÒR)Ýâò¤\u001f\n\u0006Ú8m)\u0005a¯/\u0095\u000fÞ\u0007oìÑb\"\u007fæÊ#Ðºo.vþÓçÑû«#AhÚÝö$\u0097çÄ\u009e\u0012MMÇ!B#ö\u0096¾\"WðG\u0088"
+               .length();
+            var3 = '\u0018';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) >= var6) {
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var7;
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[4];
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var7;
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[4];
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label27;
-                  }
-
-                  var4 = "?\u008aMâ+\u007f\u001djþ\u0010i\u0093\u0007ÒR)Ýâò¤\u001f\n\u0006Ú8m)\u0005a¯/\u0095\u000fÞ\u0007oìÑb\"\u007fæÊ#Ðºo.vþÓçÑû«#AhÚÝö$\u0097çÄ\u009e\u0012MMÇ!B#ö\u0096¾\"WðG\u0088";
-                  var6 = "?\u008aMâ+\u007f\u001djþ\u0010i\u0093\u0007ÒR)Ýâò¤\u001f\n\u0006Ú8m)\u0005a¯/\u0095\u000fÞ\u0007oìÑb\"\u007fæÊ#Ðºo.vþÓçÑû«#AhÚÝö$\u0097çÄ\u009e\u0012MMÇ!B#ö\u0096¾\"WðG\u0088"
-                     .length();
-                  var3 = 24;
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var14 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -304,5 +296,17 @@ public final class lllllIllIlIIllIIlIllllIlIIlIlllllIlIllllIIIlIllIlllllllllIllI
             var5
          );
       }
+   }
+
+   @NotNull
+   public final Vec3 lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$4b64b136bc0068ab(long var1) {
+      var1 = 52060789109738L;
+      var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
+      Vec3 var10000 = Vec3.directionFromRotation(
+         this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII,
+         this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl - 90.0F
+      );
+      Intrinsics.checkNotNullExpressionValue(var10000, "directionFromRotation(...)");
+      return var10000;
    }
 }

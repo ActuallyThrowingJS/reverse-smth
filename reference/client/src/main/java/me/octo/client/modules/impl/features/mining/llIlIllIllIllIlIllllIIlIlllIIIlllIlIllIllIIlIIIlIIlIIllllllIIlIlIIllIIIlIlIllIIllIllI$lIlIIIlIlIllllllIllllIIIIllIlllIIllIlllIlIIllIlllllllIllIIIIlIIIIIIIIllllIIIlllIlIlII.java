@@ -61,68 +61,60 @@ enum llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlI
       String var4 = "kæõj,þäqúG\u0084ëDÓ3ÕB\u001e\u0005\u0097\u0083q\u008d>\u0010\u0098\u001dúW\u0013\u0016\u001f\u0080)\u0004\u0015\u0000;\u0098º¬\u0010M|\u009f\u00876\u0086:\u001cÄö\u0002*\u0000tü\u0087 \u001c\u0003\u0015\u0000©\u008fOå\u001a[<Ù·D½I\u0004zKXÔéq\fE\u007f\u0015Õ#gÄÆ(ÔÞTAËu×\u009eÀ\u0017ÎtÄ\u0004w\u0080\u008eWÅF ÌÂ/\u0002è\u0004\u0006\u0002ÈÁyá¾áN¶éÇG\u0010¸P\u009bjà-a\u0081/qÜc'\u008aËî";
       int var6 = "kæõj,þäqúG\u0084ëDÓ3ÕB\u001e\u0005\u0097\u0083q\u008d>\u0010\u0098\u001dúW\u0013\u0016\u001f\u0080)\u0004\u0015\u0000;\u0098º¬\u0010M|\u009f\u00876\u0086:\u001cÄö\u0002*\u0000tü\u0087 \u001c\u0003\u0015\u0000©\u008fOå\u001a[<Ù·D½I\u0004zKXÔéq\fE\u007f\u0015Õ#gÄÆ(ÔÞTAËu×\u009eÀ\u0017ÎtÄ\u0004w\u0080\u008eWÅF ÌÂ/\u0002è\u0004\u0006\u0002ÈÁyá¾áN¶éÇG\u0010¸P\u009bjà-a\u0081/qÜc'\u008aËî"
          .length();
-      char var3 = 24;
-      int var12 = -1;
+      char var3 = '\u0018';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var21;
+         if ((var2 += var3) >= var6) {
+            var4 = "\u009e20\r*ç÷10\u0006Ñöç§s\u0097(y\u0014\u0086¿ êçåYÈeê\u0094\t\u0094Æm*\u001a+\u0082uÿÆ4ÒJ2ñ_Övë\n *¯\u0087\"\u0083";
+            var6 = "\u009e20\r*ç÷10\u0006Ñöç§s\u0097(y\u0014\u0086¿ êçåYÈeê\u0094\t\u0094Æm*\u001a+\u0082uÿÆ4ÒJ2ñ_Övë\n *¯\u0087\"\u0083".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) >= var6) {
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var7;
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[8];
-                     NUCLEUS = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var19 = false;
+               var7[var5++] = var23;
+               if ((var2 += var3) >= var6) {
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var7;
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[8];
+                  NUCLEUS = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
 
-                     );
-                     JUNGLE = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
+                  );
+                  JUNGLE = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
 
-                     );
-                     PRECURSOR_REMNANTS = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
+                  );
+                  PRECURSOR_REMNANTS = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
 
-                     );
-                     GOBLIN_HOLDOUT = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
+                  );
+                  GOBLIN_HOLDOUT = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
 
-                     );
-                     MITHRIL_DEPOSITS = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
+                  );
+                  MITHRIL_DEPOSITS = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
 
-                     );
-                     MAGMA_FIELDS = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
+                  );
+                  MAGMA_FIELDS = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
 
-                     );
-                     ANY = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
+                  );
+                  ANY = new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI$lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII(
 
-                     );
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
-                        IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-                     );
-                     return;
-                  }
+                  );
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
+                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                  );
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "\u009e20\r*ç÷10\u0006Ñöç§s\u0097(y\u0014\u0086¿ êçåYÈeê\u0094\t\u0094Æm*\u001a+\u0082uÿÆ4ÒJ2ñ_Övë\n *¯\u0087\"\u0083";
-                  var6 = "\u009e20\r*ç÷10\u0006Ñöç§s\u0097(y\u0014\u0086¿ êçåYÈeê\u0094\t\u0094Æm*\u001a+\u0082uÿÆ4ÒJ2ñ_Övë\n *¯\u0087\"\u0083".length();
-                  var3 = 16;
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

@@ -117,56 +117,48 @@ public class IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlI
       String var4 = "k\tê\nìAÛ¤\u0092¾'\u009e\u000f@¿¬(G¤\u0096\\\u0007\u0089P¨j\u0006Á\u001e$?\\Ê\bÚ\u008d\u009e(×õ«·\u008b\u001aÊÝ\u001e2Ñ¹¤KÕº.©bPñbÇ\u009eå\r0 ºhè4×Ï\r}ÿ?ÿ\u009cü\u009a=\u0013\u0017Â[ûÓîÄ0\u0099\u009c\u0084^\u008e÷\u009fs\u000fãìä\u0010\u009boÎ*!\u009eý\u0088õì½\u0095\u0092½\u007f\u0000û\u008cÅ8wÎÛ\u0001Î¬Aî]Â\u009báF=K\u0018ý(Õ\u000boÄ8-wL6r'x\u0005õ#´Q³P\u0000i\u0013 ¼\u009eË<ß]\u0011\u0084Þ\b\u009fü\u001c\u0019\u00973tj\u000f\u001a\u0007ðo\u0084åIjb\u008eöÙü`kGðÅ\u0012\u008dI¬\u0094\u0098\u009aaÀ\u0098¾\u00144°ïàôê¦cVJÂØ\u008eÁ<\u0017õÄ»\u009dEEñ6\tç\u0085U®ü\u0005wfI\u0011\"!1\u008aó\u008cí\u009ch\u001aÌÜ×\nþ÷\u009c\r%à<\u0084~v\u0000àD(\u009cyø\u000b\u0095\u0098q(o1\u0087°\u0001Ðib}\u0018C\u007fV]ñ»2º¦Ùt8sBõHP!ÔO>\u0005Ø) î\u009cõF8feAðVËza\u0014Ò\u001b\u00843.P3\u0007ÉÿÍÚ\u001b\u0013lÎÑ<HB¶\u0080NA.*W3\u0098kÈ£\u0090©\u0083!Æ\u0003.6tg\u0007È-·Í\u007fa1z-\u0098(B\u008eqë-¦ípJó\u0099H\u0010dâ\u0098ûP\u0004L\u0005J½\u0019i}õ\u0096TÀñ\u0098\u0001\u0012%ð\u00ad\u0018>0¨ëR³nóÏôÈ®¿¿¶c\u008f\u0095n[ÿ½SN0nY\u001c³h\u008b1\u0019\u001aA§wî)MF\u0016\u009a\u0016ç\u009eÉvÆ÷ðÀ¤\u00adt.¥uyKDD[\u008d;?b8xÁe\u009d8\u0010w\u0001ÿ\u0080\u0010Îc\u0004,Þ»\u0015\u0002Ù\u009fú";
       int var6 = "k\tê\nìAÛ¤\u0092¾'\u009e\u000f@¿¬(G¤\u0096\\\u0007\u0089P¨j\u0006Á\u001e$?\\Ê\bÚ\u008d\u009e(×õ«·\u008b\u001aÊÝ\u001e2Ñ¹¤KÕº.©bPñbÇ\u009eå\r0 ºhè4×Ï\r}ÿ?ÿ\u009cü\u009a=\u0013\u0017Â[ûÓîÄ0\u0099\u009c\u0084^\u008e÷\u009fs\u000fãìä\u0010\u009boÎ*!\u009eý\u0088õì½\u0095\u0092½\u007f\u0000û\u008cÅ8wÎÛ\u0001Î¬Aî]Â\u009báF=K\u0018ý(Õ\u000boÄ8-wL6r'x\u0005õ#´Q³P\u0000i\u0013 ¼\u009eË<ß]\u0011\u0084Þ\b\u009fü\u001c\u0019\u00973tj\u000f\u001a\u0007ðo\u0084åIjb\u008eöÙü`kGðÅ\u0012\u008dI¬\u0094\u0098\u009aaÀ\u0098¾\u00144°ïàôê¦cVJÂØ\u008eÁ<\u0017õÄ»\u009dEEñ6\tç\u0085U®ü\u0005wfI\u0011\"!1\u008aó\u008cí\u009ch\u001aÌÜ×\nþ÷\u009c\r%à<\u0084~v\u0000àD(\u009cyø\u000b\u0095\u0098q(o1\u0087°\u0001Ðib}\u0018C\u007fV]ñ»2º¦Ùt8sBõHP!ÔO>\u0005Ø) î\u009cõF8feAðVËza\u0014Ò\u001b\u00843.P3\u0007ÉÿÍÚ\u001b\u0013lÎÑ<HB¶\u0080NA.*W3\u0098kÈ£\u0090©\u0083!Æ\u0003.6tg\u0007È-·Í\u007fa1z-\u0098(B\u008eqë-¦ípJó\u0099H\u0010dâ\u0098ûP\u0004L\u0005J½\u0019i}õ\u0096TÀñ\u0098\u0001\u0012%ð\u00ad\u0018>0¨ëR³nóÏôÈ®¿¿¶c\u008f\u0095n[ÿ½SN0nY\u001c³h\u008b1\u0019\u001aA§wî)MF\u0016\u009a\u0016ç\u009eÉvÆ÷ðÀ¤\u00adt.¥uyKDD[\u008d;?b8xÁe\u009d8\u0010w\u0001ÿ\u0080\u0010Îc\u0004,Þ»\u0015\u0002Ù\u009fú"
          .length();
-      char var3 = 16;
-      int var12 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var21 = lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var21;
+         if ((var2 += var3) >= var6) {
+            var4 = "rGÏÇ\fö/>QÊ\u0017\f\u000b\u0012\u0092§6á\u0001m;vù)ÏÛxbï·ª°]\n\u0011Ê¡ÒË·\u00181\u0003©\tY\u009b£\tì\u008b'×Ñø\\yÿêè`-ý?¯";
+            var6 = "rGÏÇ\fö/>QÊ\u0017\f\u000b\u0012\u0092§6á\u0001m;vù)ÏÛxbï·ª°]\n\u0011Ê¡ÒË·\u00181\u0003©\tY\u009b£\tì\u008b'×Ñø\\yÿêè`-ý?¯".length();
+            var3 = '(';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) >= var6) {
-                     IIllIIllIllIIlIlIlIllIlIIlIIlIIlIIIIIlIIIIIllIllIIIIIllllIIIlIIllllIIIIllIIllIllIllll = var7;
-                     IIIlIIllIIlIlIlIlllIIIIlIlIIIIlIllllllIIlllIllIlllIlIllIIllllIIIllllIIlIlIllIIIIllIll = new String[14];
-                     lIllllIlllIIllIllllllIIIIIIIIIIllIIlllIIIlllIIlIIIIllIIllIIllIIllIIIIlllIIIlIlllIlIlI = new IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     IIlIllIIlllllIlIlllllllIllllIIlIIIllIIllIIllIlIIIllllIIIlllIllIIIIlIlIIIllIllllIlIlll = new BooleanSetting(
-                        "Auto Hyperion", "Automatically use Hyperion/Wither Impact at low health.", true
-                     );
-                     llllIIlIIIIlIIllIIIIIllIlIlIllIlIllllIlllIIlIllIIlIIIIllllllIllllIIllIIlIIlIlllIlllll = new BooleanSetting(
-                        "Auto Healing Wand", "Automatically use Healing Wand at low health.", true
-                     );
-                     llIlIIllIIllIIlIIlIlIlIIlIlllIlIlIIIIllIlllIlIllIIlIIIIIIIlIIllllIIIIlIIllIlIIIIIllll = new BooleanSetting(
-                        "Auto Florid Sword", "Automatically use Florid Zombie Sword at low health.", true
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var23 = lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(var8).intern();
+               boolean var19 = false;
+               var7[var5++] = var23;
+               if ((var2 += var3) >= var6) {
+                  IIllIIllIllIIlIlIlIllIlIIlIIlIIlIIIIIlIIIIIllIllIIIIIllllIIIlIIllllIIIIllIIllIllIllll = var7;
+                  IIIlIIllIIlIlIlIlllIIIIlIlIIIIlIllllllIIlllIllIlllIlIllIIllllIIIllllIIlIlIllIIIIllIll = new String[14];
+                  lIllllIlllIIllIllllllIIIIIIIIIIllIIlllIIIlllIIlIIIIllIIllIIllIIllIIIIlllIIIlIlllIlIlI = new IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  IIlIllIIlllllIlIlllllllIllllIIlIIIllIIllIIllIlIIIllllIIIlllIllIIIIlIlIIIllIllllIlIlll = new BooleanSetting(
+                     "Auto Hyperion", "Automatically use Hyperion/Wither Impact at low health.", true
+                  );
+                  llllIIlIIIIlIIllIIIIIllIlIlIllIlIllllIlllIIlIllIIlIIIIllllllIllllIIllIIlIIlIlllIlllll = new BooleanSetting(
+                     "Auto Healing Wand", "Automatically use Healing Wand at low health.", true
+                  );
+                  llIlIIllIIllIIlIIlIlIlIIlIlllIlIlIIIIllIlllIlIllIIlIIIIIIIlIIllllIIIIlIIllIlIIIIIllll = new BooleanSetting(
+                     "Auto Florid Sword", "Automatically use Florid Zombie Sword at low health.", true
+                  );
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "rGÏÇ\fö/>QÊ\u0017\f\u000b\u0012\u0092§6á\u0001m;vù)ÏÛxbï·ª°]\n\u0011Ê¡ÒË·\u00181\u0003©\tY\u009b£\tì\u008b'×Ñø\\yÿêè`-ý?¯";
-                  var6 = "rGÏÇ\fö/>QÊ\u0017\f\u000b\u0012\u0092§6á\u0001m;vù)ÏÛxbï·ª°]\n\u0011Ê¡ÒË·\u00181\u0003©\tY\u009b£\tì\u008b'×Ñø\\yÿêè`-ý?¯".length();
-                  var3 = '(';
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

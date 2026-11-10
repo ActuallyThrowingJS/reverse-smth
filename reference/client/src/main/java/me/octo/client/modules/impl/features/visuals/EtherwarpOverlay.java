@@ -21,6 +21,10 @@ import me.octo.client.gui.clickgui.ModuleCategory;
 import me.octo.client.gui.clickgui.modules.impl.BooleanModule;
 import me.octo.client.gui.clickgui.settings.Setting;
 import me.octo.client.utils.player.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll;
+import net.minecraft.client.multiplayer.ClientPacketListener;
+import net.minecraft.client.player.LocalPlayer;
+import net.minecraft.network.protocol.Packet;
+import net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.PosRot;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -62,8 +66,32 @@ public final class EtherwarpOverlay extends BooleanModule {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
-   private static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(EtherwarpOverlay param0, Vec3 param1) {
-      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   private static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(EtherwarpOverlay var0, Vec3 var1) {
+      LocalPlayer var10000 = var0.lIlIlIIIIlIIllllIlIlIIIIIlIIIIIllIIlIllIIllIllIlIIlIIIIlIIlIIIIlIlIlIlIIlIlIIIllllllI().player;
+      if (var10000 != null) {
+         ClientPacketListener var2 = var10000.connection;
+         if (var10000.connection != null) {
+            double var10003 = var1.x;
+            double var10004 = var1.y;
+            double var10005 = var1.z;
+            LocalPlayer var10006 = var0.lIlIlIIIIlIIllllIlIlIIIIIlIIIIIllIIlIllIIllIllIlIIlIIIIlIIlIIIIlIlIlIlIIlIlIIIllllllI().player;
+            float var5 = var10006 != null ? var10006.getYRot() : 0.0F;
+            LocalPlayer var10007 = var0.lIlIlIIIIlIIllllIlIlIIIIIlIIIIIllIIlIllIIllIllIlIIlIIIIlIIlIIIIlIlIlIlIIlIlIIIllllllI().player;
+            float var6 = var10007 != null ? var10007.getXRot() : 0.0F;
+            LocalPlayer var10008 = var0.lIlIlIIIIlIIllllIlIlIIIIIlIIIIIllIIlIllIIllIllIlIIlIIIIlIIlIIIIlIlIlIlIIlIlIIIllllllI().player;
+            var2.send((Packet)(new PosRot(var10003, var10004, var10005, var5, var6, var10008 != null ? var10008.onGround() : false, false)));
+         }
+      }
+
+      var10000 = var0.lIlIlIIIIlIIllllIlIlIIIIIlIIIIIllIIlIllIIllIllIlIIlIIIIlIIlIIIIlIlIlIlIIlIlIIIllllllI().player;
+      if (var10000 != null) {
+         var10000.setPos(var1.x, var1.y, var1.z);
+      }
+
+      var10000 = var0.lIlIlIIIIlIIllllIlIlIIIIIlIIIIIllIIlIllIIllIllIlIIlIIIIlIIlIIIIlIlIlIlIIlIlIIIllllllI().player;
+      if (var10000 != null) {
+         var10000.setDeltaMovement(0.0, 0.0, 0.0);
+      }
    }
 
    static {
@@ -84,48 +112,40 @@ public final class EtherwarpOverlay extends BooleanModule {
       int var8 = "íìå\u000f-3\u0097D·#9E\u0006dâ\u0080CuL&\u001cÑ\u0005\u00ad\u0099Û¬\u0011\u0091¦Ýw(l\u0010\u0099ç\u009c?µ:JµÓa\u001d}:7 ïÕ<pê\u0007I\u00ad£\u0081¾\u0097\büÿÙ%¼Vøa\u0007ü\u0010@[K\u0084\u008a\u001b\u0090ý8\u009cT\u000bß4\u0015\u0085\u0010Ü\u0091+N7.\u000e^Ä:\"à\u0086yT#(£Êuý?Ürâæ&_ãQY\u0005`´,\u0000×^j®&\u0099*©\u009eÂþtÿP\u0086\u009a\u009f\u0014Õf\u0010\u0018\n\u008c/\u0099É\u008a)úOJE ´;ÝÚÖCZ\u001e\u001d\u0087Té(ÛxXì¿ô³\f2m´Ø\u0082\t]\u001aÐË±\u0006F¬¡\f/í\u0003Ú\u0005\u0019õo8¬F\u0088É.ég\u0010\u0093\u0014A:Q!\u009c½ë¤6\u0004\u008cß\u0093\u0005X%6üÅ\u0098a¹Å¾w\u008e¾tº®\fà\u0012Ô\u0011hqõ9é\u0013y\u008d¬ \u001c·%1ÛôÆ\u001cCw\u0083Ôð\f\u0013z\u0003k\u0095âß½ÈvT\u009bÅã:\t\u0089\u008b\u0083\\iå\u0014\u0091\u0006\u009e§\u009e\u0085è\u00148\b\"Xá\u00808\u0014\u0093\u0000q}\u0018"
          .length();
       char var5 = ' ';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0090\u0010´¶À5ü\u0090¬¶\u0080Ú\u009e&#ð¡X\u0095u\u0012%\r`^puC¹£\u0018\u0096\u009f \u008bú\u009d)9ß\u0010üJöÌÙ4\u0013ÞÓÿ=\u008cã`\u0011{";
+            var8 = "\u0090\u0010´¶À5ü\u0090¬¶\u0080Ú\u009e&#ð¡X\u0095u\u0012%\r`^puC¹£\u0018\u0096\u009f \u008bú\u009d)9ß\u0010üJöÌÙ4\u0013ÞÓÿ=\u008cã`\u0011{"
+               .length();
+            var5 = '(';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var9;
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[11];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new EtherwarpOverlay();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var9;
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[11];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new EtherwarpOverlay();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0090\u0010´¶À5ü\u0090¬¶\u0080Ú\u009e&#ð¡X\u0095u\u0012%\r`^puC¹£\u0018\u0096\u009f \u008bú\u009d)9ß\u0010üJöÌÙ4\u0013ÞÓÿ=\u008cã`\u0011{";
-                  var8 = "\u0090\u0010´¶À5ü\u0090¬¶\u0080Ú\u009e&#ð¡X\u0095u\u0012%\r`^puC¹£\u0018\u0096\u009f \u008bú\u009d)9ß\u0010üJöÌÙ4\u0013ÞÓÿ=\u008cã`\u0011{"
-                     .length();
-                  var5 = '(';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -234,5 +254,9 @@ public final class EtherwarpOverlay extends BooleanModule {
             var5
          );
       }
+   }
+
+   private final boolean IlllIIlllIIIIIlllIllIIIIIIlIIIIIIllIllIlIlIlIIlIllIlIlllIIIlIIllIlIIlllIIIIlIIIIlllII$recovered$1d48ac5b9e675543(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

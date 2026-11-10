@@ -139,42 +139,35 @@ public final class CustomHotbar extends BooleanModule {
       String[] var5 = var10000;
 
       while (true) {
-         if (var6 < var7) {
-            try {
-               this.lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll[var6] = 1.0F;
-               if (var5 != null) {
-                  break;
-               }
-
-               var6++;
-               if (var5 == null) {
-                  continue;
-               }
-            } catch (MatchException var8) {
-               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  var8, 137667356668459019L, var1
-               );
-            }
-
-            lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               new int[5], 32418967238689843L, var1
-            );
+         if (var6 >= var7) {
+            this.IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = "";
+            this.llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = "";
+            this.IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = ThemeColors.INSTANCE
+               .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
+            this.IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = ThemeColors.INSTANCE
+               .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
+            this.IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = 0.0F;
+            this.IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = 0.0F;
+            this.lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll = -1.0F;
+            this.llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = -1.0F;
+            this.lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll = -1.0F;
+            this.IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = -1;
+            this.IIllIllIlllIlllIIllIlIIlllIlIIlIIIIIIIlIllIlIlIlIIIlIIIlllIIIIlIllIlIlIlllIIIllIllIll = 0L;
+            break;
          }
 
-         this.IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = "";
-         this.llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = "";
-         this.IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = ThemeColors.INSTANCE
-            .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
-         this.IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = ThemeColors.INSTANCE
-            .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
-         this.IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = 0.0F;
-         this.IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = 0.0F;
-         this.lllllIllllIlIIIIIIlllIIllllllIlIlIIlIIllIIlllllIIlIIIIIIlllllIIllllllllIIIlllIlllllll = -1.0F;
-         this.llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = -1.0F;
-         this.lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll = -1.0F;
-         this.IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = -1;
-         this.IIllIllIlllIlllIIllIlIIlllIlIIlIIIIIIIlIllIlIlIlIIIlIIIlllIIIIlIllIlIlIlllIIIllIllIll = 0L;
-         break;
+         try {
+            this.lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll[var6] = 1.0F;
+            if (var5 != null) {
+               break;
+            }
+
+            var6++;
+         } catch (MatchException var8) {
+            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               var8, 137667356668459019L, var1
+            );
+         }
       }
    }
 
@@ -329,7 +322,7 @@ public final class CustomHotbar extends BooleanModule {
       int var1, int var2, ItemStack var3, int var4, String var5
    ) {
       Color var23;
-      label68: {
+      label60: {
          long var6 = ((long)var1 << 32 | (long)var2 << 48 >>> 32 | (long)var4 << 48 >>> 48)
             ^ lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
          String[] var8 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
@@ -347,7 +340,7 @@ public final class CustomHotbar extends BooleanModule {
                      ((String)var11.getGroupValues().get(1)).charAt(0)
                   );
                   if (var23 != null) {
-                     break label68;
+                     break label60;
                   }
                }
             } catch (MatchException var16) {
@@ -359,16 +352,16 @@ public final class CustomHotbar extends BooleanModule {
 
          TextColor var9 = var3.getHoverName().getStyle().getColor();
 
-         label70: {
-            label48: {
+         label62: {
+            label41: {
                try {
                   var24 = var9;
                   if (var8 != null) {
-                     break label70;
+                     break label62;
                   }
 
                   if (var9 == null) {
-                     break label48;
+                     break label41;
                   }
                } catch (MatchException var15) {
                   throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
@@ -377,7 +370,7 @@ public final class CustomHotbar extends BooleanModule {
                }
 
                var24 = var9;
-               break label70;
+               break label62;
             }
 
             for (Object var25 : var3.getHoverName().getSiblings()) {
@@ -386,12 +379,9 @@ public final class CustomHotbar extends BooleanModule {
                );
                Component var10 = (Component)var25;
                TextColor var18 = var10.getStyle().getColor();
-
-               while (var18 != null) {
-                  if (var8 == null) {
-                     boolean var14 = false;
-                     return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var18.getValue());
-                  }
+               if (var18 != null) {
+                  boolean var14 = false;
+                  return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var18.getValue());
                }
             }
 
@@ -409,29 +399,18 @@ public final class CustomHotbar extends BooleanModule {
    }
 
    private final Color IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(char var1) {
-      ChatFormatting var10000;
-      try {
-         var10000 = ChatFormatting.getByCode(Character.toLowerCase(var1));
-         if (var10000 == null) {
+      ChatFormatting var10000 = ChatFormatting.getByCode(Character.toLowerCase(var1));
+      if (var10000 == null) {
+         return null;
+      } else {
+         Integer var3 = var10000.getColor();
+         if (var3 != null) {
+            int var2 = var3;
+            return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var2);
+         } else {
             return null;
          }
-      } catch (MatchException var3) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3);
       }
-
-      try {
-         Integer var5 = var10000.getColor();
-         if (var5 == null) {
-            return null;
-         }
-
-         var6 = var5;
-      } catch (MatchException var4) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4);
-      }
-
-      int var2 = var6;
-      return this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var2);
    }
 
    private final Color llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(int var1) {
@@ -531,80 +510,72 @@ public final class CustomHotbar extends BooleanModule {
       int var13 = "ÞÓn¡ú¦ô÷\u0093!ªeä1\u0000\u001f¾ú@\u009aç\u0011áfôÎ\u00ad«®ø ?\u0018Ö´\nAá\u0013\u0012\u00950\u007fl¯ÈÿC8ê\u00ad\u0096çZ\u0085  `a\u0088ñ\nÉÊµ UÃ]\u0010ý¥\u0018\u0098P\u0012=3bà\u0004Ü±û3ÒGÜìÙqf\u001e\u0090\u0000¨'\u001f\u008f\u001ds\u009d{À\u008ca~¦oÎxed¸Haj\nÊuÊP\u0093/8ç¯\u0005G\u0014Ì\u0099½¿ß|é\u007fW\u008e\u0018 &l\u000fÃpn+®\u0093øÆ6\u0010ý\u001c%+¼:|³\u000f\u0010-þq=/r\u0010Ñ¸©\u0006GYÍH&äf¬ÏÐ×Æ »\u000fÎä\u0010J\u0015\u0094¼}ÄÛ¦0\u0082\u0001\u009e\u0090¦\u0087kÜÄçd:\u0003Á0®\u0089Ï('\u0000N\u0002ú»4s÷øÿ\fYéD\u008ccUF\u0081 y\u000e¹\u0090ÏµÈÝýÙ&\u0014u©I\u001fr\u009b\u0085\u0018Ì\u0013.z*\u0093\u00801å\n\u0097\u0015\u001dk·ãOøì+ÿ\u0003P¶ Ä#ü»Ï³u\u00878¨¯uÅ\u0085jóÌ´èÍÏ³$\u009d\u008bùùj$\u008aq`"
          .length();
       char var10 = ' ';
-      int var17 = -1;
+      int var9 = -1;
 
-      label37:
       while (true) {
-         String var18 = var11.substring(++var17, var17 + var10);
+         byte[] var15 = var7.doFinal(var11.substring(++var9, var9 + var10).getBytes("ISO-8859-1"));
+         String var28 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var15).intern();
          byte var10001 = -1;
+         var14[var12++] = var28;
+         if ((var9 += var10) >= var13) {
+            var11 = "\u0002\u009c¢\u0001²EÝÊ9ö\u0083Å É\u009dû þÙ\u008c°±\u0098\u001feÁ\u008dóî¿L\u0002\u00115±y©\u009fe-¹\u0013Hø\f;ì\u0005Y";
+            var13 = "\u0002\u009c¢\u0001²EÝÊ9ö\u0083Å É\u009dû þÙ\u008c°±\u0098\u001feÁ\u008dóî¿L\u0002\u00115±y©\u009fe-¹\u0013Hø\f;ì\u0005Y".length();
+            var10 = '\u0010';
+            var9 = -1;
 
-         while (true) {
-            byte[] var15 = var7.doFinal(var18.getBytes("ISO-8859-1"));
-            String var26 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var15).intern();
-            switch (var10001) {
-               case 0:
-                  var14[var12++] = var26;
-                  if ((var17 += var10) >= var13) {
-                     IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll = var14;
-                     IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = new String[11];
-                     Cipher var0;
-                     var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
-                     var10002 = SecretKeyFactory.getInstance("DES");
-                     var10003 = new byte[]{(byte)(var5 >>> 56), 0, 0, 0, 0, 0, 0, 0};
+            while (true) {
+               var15 = var7.doFinal(var11.substring(++var9, var9 + var10).getBytes("ISO-8859-1"));
+               String var30 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var15).intern();
+               byte var25 = 0;
+               var14[var12++] = var30;
+               if ((var9 += var10) >= var13) {
+                  IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll = var14;
+                  IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = new String[11];
+                  Cipher var0;
+                  var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
+                  var10002 = SecretKeyFactory.getInstance("DES");
+                  var10003 = new byte[]{(byte)(var5 >>> 56), 0, 0, 0, 0, 0, 0, 0};
 
-                     for (int var1 = 1; var1 < 8; var1++) {
-                        var10003[var1] = (byte)(var5 << var1 * 8 >>> 56);
+                  for (int var1 = 1; var1 < 8; var1++) {
+                     var10003[var1] = (byte)(var5 << var1 * 8 >>> 56);
+                  }
+
+                  var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+                  long var2 = -9166286508875669921L;
+                  byte[] var4 = var0.doFinal(
+                     new byte[]{
+                        (byte)(var2 >>> 56),
+                        (byte)(var2 >>> 48),
+                        (byte)(var2 >>> 40),
+                        (byte)(var2 >>> 32),
+                        (byte)(var2 >>> 24),
+                        (byte)(var2 >>> 16),
+                        (byte)(var2 >>> 8),
+                        (byte)var2
                      }
+                  );
+                  long var33 = (var4[0] & 255L) << 56
+                     | (var4[1] & 255L) << 48
+                     | (var4[2] & 255L) << 40
+                     | (var4[3] & 255L) << 32
+                     | (var4[4] & 255L) << 24
+                     | (var4[5] & 255L) << 16
+                     | (var4[6] & 255L) << 8
+                     | var4[7] & 255L;
+                  var25 = -1;
+                  lIlllllIIIIlllllIlIIIIIIIllllIlIllIllIIlIIIIIIIIIlIlIIIlIIlIlIIIlIlllIllIIllIllIllllI = var33;
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new CustomHotbar.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  INSTANCE = new CustomHotbar();
+                  return;
+               }
 
-                     var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
-                     long var2 = -9166286508875669921L;
-                     byte[] var4 = var0.doFinal(
-                        new byte[]{
-                           (byte)(var2 >>> 56),
-                           (byte)(var2 >>> 48),
-                           (byte)(var2 >>> 40),
-                           (byte)(var2 >>> 32),
-                           (byte)(var2 >>> 24),
-                           (byte)(var2 >>> 16),
-                           (byte)(var2 >>> 8),
-                           (byte)var2
-                        }
-                     );
-                     long var30 = (var4[0] & 255L) << 56
-                        | (var4[1] & 255L) << 48
-                        | (var4[2] & 255L) << 40
-                        | (var4[3] & 255L) << 32
-                        | (var4[4] & 255L) << 24
-                        | (var4[5] & 255L) << 16
-                        | (var4[6] & 255L) << 8
-                        | var4[7] & 255L;
-                     var10001 = -1;
-                     lIlllllIIIIlllllIlIIIIIIIllllIlIllIllIIlIIIIIIIIIlIlIIIlIIlIlIIIlIlllIllIIllIllIllllI = var30;
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new CustomHotbar.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     INSTANCE = new CustomHotbar();
-                     return;
-                  }
-
-                  var10 = var11.charAt(var17);
-                  break;
-               default:
-                  var14[var12++] = var26;
-                  if ((var17 += var10) < var13) {
-                     var10 = var11.charAt(var17);
-                     continue label37;
-                  }
-
-                  var11 = "\u0002\u009c¢\u0001²EÝÊ9ö\u0083Å É\u009dû þÙ\u008c°±\u0098\u001feÁ\u008dóî¿L\u0002\u00115±y©\u009fe-¹\u0013Hø\f;ì\u0005Y";
-                  var13 = "\u0002\u009c¢\u0001²EÝÊ9ö\u0083Å É\u009dû þÙ\u008c°±\u0098\u001feÁ\u008dóî¿L\u0002\u00115±y©\u009fe-¹\u0013Hø\f;ì\u0005Y".length();
-                  var10 = 16;
-                  var17 = -1;
+               var10 = var11.charAt(var9);
             }
-
-            var18 = var11.substring(++var17, var17 + var10);
-            var10001 = 0;
          }
+
+         var10 = var11.charAt(var9);
       }
    }
 
@@ -703,6 +674,113 @@ public final class CustomHotbar extends BooleanModule {
          return var3;
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/modules/impl/features/visuals/CustomHotbar" + " : " + var1 + " : " + var2.toString(), var5);
+      }
+   }
+
+   private final float llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$a012a08c00eb896d(
+      float var1, float var2, float var3, long var4, float var6
+   ) {
+      var4 = 40181771248167L;
+      var4 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII ^ var4;
+      String[] var7 = IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl();
+
+      int var10000;
+      label32: {
+         label31: {
+            try {
+               float var15;
+               var10000 = (var15 = var1 - var2) == 0.0F ? 0 : (var15 < 0.0F ? -1 : 1);
+               if (var7 != null) {
+                  break label32;
+               }
+
+               if (!var10000) {
+                  break label31;
+               }
+            } catch (MatchException var12) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var12);
+            }
+
+            var10000 = 0;
+            break label32;
+         }
+
+         var10000 = 1;
+      }
+
+      try {
+         if (var10000) {
+            return var1;
+         }
+      } catch (MatchException var11) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11);
+      }
+
+      float var8 = 1.0F - (float)Math.exp(-var3 * var6);
+      return var1 + (var2 - var1) * var8;
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$98a6c40e2795ce17(
+      ItemStack param1, int param2, float param3, long param4, long param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$381087880ca6ade4(
+      GuiGraphicsExtractor var1, LocalPlayer var2, long var3, float var5, float var6, float var7, float var8, float var9
+   ) {
+      var3 = 69901109705038L;
+      var3 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII ^ var3;
+      String[] var10000 = IIllIIIlIllllIlIlIIIlIIIlIIIlIIllIIllIIlIllIIIIlIlIIllIIllIIllllIlIIllIIIIIIllIllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl();
+      Matrix3x2fStack var10001 = var1.pose();
+      Intrinsics.checkNotNullExpressionValue(var10001, "pose(...)");
+      Matrix3x2fStack var11 = var10001;
+      String[] var10 = var10000;
+      int var12 = 0;
+
+      while (var12 < 9) {
+         label38: {
+            label46: {
+               try {
+                  var23 = var2.getInventory().getItem(var12);
+                  if (var23 == null) {
+                     break label46;
+                  }
+               } catch (MatchException var20) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var20);
+               }
+
+               ItemStack var13 = var23;
+
+               try {
+                  if (var10 != null) {
+                     break label38;
+                  }
+
+                  if (var13.isEmpty()) {
+                     break label46;
+                  }
+               } catch (MatchException var19) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19);
+               }
+
+               float var14 = var5 + var8 * var12 + var8 / 2.0F;
+               float var15 = var6 + var7 / 2.0F;
+               float var16 = var9 * 0.92F * this.lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll[var12];
+               var11.pushMatrix();
+               var11.translate(var14, var15);
+               var11.scale(var16, var16);
+               var11.translate(-8.0F, -8.0F);
+               var1.item(var13, 0, 0);
+               var11.popMatrix();
+            }
+
+            var12++;
+         }
+
+         if (var10 != null) {
+            break;
+         }
       }
    }
 

@@ -47,7 +47,7 @@ public final class EtherwarpChime extends BooleanModule {
    }
 
    @SubscribeEvent
-   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketReceivedEvent eventArg) {
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketReceivedEvent param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
@@ -102,47 +102,39 @@ public final class EtherwarpChime extends BooleanModule {
       int var8 = "EÌÅÀÅNIÙ\u0093[Èµ¾\u0099\u0003áR>3\u008dxc\u0098¿\u0017\u0099N·\u0000jÿ¥ 3vóÞ±\u00810û®ùûBQ\u0080ó§*Ûv\u000ePu\u0081w\f\fm\u0087\u0093À\"Ì\u0010\u0091&r\u0007\u0089áJH>:\u0081óÄ\u008e\u0086Y8\u0094\u0087EX@\u001f;H\u008f¯\u0082êíê\r÷¯w¶ºo\u0012\u000f\u001dc6\nÃ¥\u0000\u001b\u0005Y\u0095`ß\u0003\u0080¬y\u0083n\" \u0096òz$+\u0086·X#\u008a\u0091dH\u0085\u0090vyéd\u008dÈ±UôÞEæ\u0010H1Y¨rÏ¾\u0087\u007fp6Ê éÙËa¬Ê\u008c\u009fÕp}í\u0005ßýÙÖ\u0094÷Âê\u00adY½\u0019{·NÕy8¢Íÿ\u0082~\u007fÞCß©Ì\u00074\u0018uú\u008aë6=\u001d/k\u0001\u0007ÔÙÎ¤Þ\u009c{hÈB\u001eÌ\u008a\u0010Qõ\u0005\u0083\u0096àrçÀ\u008bòé4\u0014\u0095="
          .length();
       char var5 = ' ';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u009eé\u0099¼%Yk!3À\b²y¾7º*å3VrjÔ@\"ÞZ¦Ñô_ç þ\tpwÉÑmÓ'$\tÿ%æic\u0097\u0004!¿$\u0098QÔ¥êP#_\u0081f\u0097";
+            var8 = "\u009eé\u0099¼%Yk!3À\b²y¾7º*å3VrjÔ@\"ÞZ¦Ñô_ç þ\tpwÉÑmÓ'$\tÿ%æic\u0097\u0004!¿$\u0098QÔ¥êP#_\u0081f\u0097".length();
+            var5 = ' ';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[9];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new EtherwarpChime();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[9];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new EtherwarpChime();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u009eé\u0099¼%Yk!3À\b²y¾7º*å3VrjÔ@\"ÞZ¦Ñô_ç þ\tpwÉÑmÓ'$\tÿ%æic\u0097\u0004!¿$\u0098QÔ¥êP#_\u0081f\u0097";
-                  var8 = "\u009eé\u0099¼%Yk!3À\b²y¾7º*å3VrjÔ@\"ÞZ¦Ñô_ç þ\tpwÉÑmÓ'$\tÿ%æic\u0097\u0004!¿$\u0098QÔ¥êP#_\u0081f\u0097".length();
-                  var5 = ' ';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

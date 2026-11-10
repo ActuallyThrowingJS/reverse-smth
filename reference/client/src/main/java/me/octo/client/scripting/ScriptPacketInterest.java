@@ -116,60 +116,52 @@ public final class ScriptPacketInterest {
       String var6 = "¿q\u0010o\u008e&\u009e3|\u0084Q\u009dý%\u0083\\\u0010\u008e*Î3\u0089>¢,\u0091gVM\u0003ôêt(è¬\u0004ØTÉ\u0085E07hãR%ýfú<IÛ\u00998FÈ\u0001\rÚAß\u00186ÕS³o\u009dËçÐ)\u0010Ú>üÍ\u007f\f\u001b\u0018\u0091â¨´ãßò¿";
       int var8 = "¿q\u0010o\u008e&\u009e3|\u0084Q\u009dý%\u0083\\\u0010\u008e*Î3\u0089>¢,\u0091gVM\u0003ôêt(è¬\u0004ØTÉ\u0085E07hãR%ýfú<IÛ\u00998FÈ\u0001\rÚAß\u00186ÕS³o\u009dËçÐ)\u0010Ú>üÍ\u007f\f\u001b\u0018\u0091â¨´ãßò¿"
          .length();
-      char var5 = 16;
-      int var13 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var14 = var6.substring(++var13, var13 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var22;
+         if ((var4 += var5) >= var8) {
+            var6 = "*\u0012T\u0016\u0092¡\u0003\u0018å\u001f÷ë\u001e\\A¹\u0010êÏ~\u0081ÖHi³\u0017htÏ£k:+";
+            var8 = "*\u0012T\u0016\u0092¡\u0003\u0018å\u001f÷ë\u001e\\A¹\u0010êÏ~\u0081ÖHi³\u0017htÏ£k:+".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var20;
-                  if ((var13 += var5) >= var8) {
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var9;
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[6];
-                     INSTANCE = new ScriptPacketInterest();
-                     Class[] var11 = new Class[]{
-                        ClientboundSetPlayerTeamPacket.class,
-                        ClientboundCustomPayloadPacket.class,
-                        ClientboundEntityEventPacket.class,
-                        ClientboundAnimatePacket.class,
-                        ClientboundEntityPositionSyncPacket.class,
-                        ClientboundRotateHeadPacket.class,
-                        Pos.class,
-                        Rot.class,
-                        PosRot.class,
-                        ClientboundSetEntityMotionPacket.class
-                     };
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = SetsKt.setOf(var11);
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new ConcurrentHashMap<>();
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = SetsKt.emptySet();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var20 = false;
+               var9[var7++] = var24;
+               if ((var4 += var5) >= var8) {
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var9;
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[6];
+                  INSTANCE = new ScriptPacketInterest();
+                  Class[] var11 = new Class[]{
+                     ClientboundSetPlayerTeamPacket.class,
+                     ClientboundCustomPayloadPacket.class,
+                     ClientboundEntityEventPacket.class,
+                     ClientboundAnimatePacket.class,
+                     ClientboundEntityPositionSyncPacket.class,
+                     ClientboundRotateHeadPacket.class,
+                     Pos.class,
+                     Rot.class,
+                     PosRot.class,
+                     ClientboundSetEntityMotionPacket.class
+                  };
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = SetsKt.setOf(var11);
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new ConcurrentHashMap<>();
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = SetsKt.emptySet();
+                  return;
+               }
 
-                  var5 = var6.charAt(var13);
-                  break;
-               default:
-                  var9[var7++] = var20;
-                  if ((var13 += var5) < var8) {
-                     var5 = var6.charAt(var13);
-                     continue label27;
-                  }
-
-                  var6 = "*\u0012T\u0016\u0092¡\u0003\u0018å\u001f÷ë\u001e\\A¹\u0010êÏ~\u0081ÖHi³\u0017htÏ£k:+";
-                  var8 = "*\u0012T\u0016\u0092¡\u0003\u0018å\u001f÷ë\u001e\\A¹\u0010êÏ~\u0081ÖHi³\u0017htÏ£k:+".length();
-                  var5 = 16;
-                  var13 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var14 = var6.substring(++var13, var13 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -265,5 +257,34 @@ public final class ScriptPacketInterest {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/scripting/ScriptPacketInterest" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5f66b9183d5d80fa(
+      @NotNull Class clsArg, long argument2Arg
+   ) {
+      argument2Arg = 88263676295406L;
+      argument2Arg = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ argument2Arg;
+      Intrinsics.checkNotNullParameter(clsArg, "cls");
+      return IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.contains(clsArg);
+   }
+
+   public final synchronized void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$9bd06f72f33e0e6a(
+      long argument1Arg, @NotNull String keyArg, @NotNull Set classesArg
+   ) {
+      argument1Arg = 36252756498164L;
+      argument1Arg = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ argument1Arg;
+      long var5 = argument1Arg ^ 80822866673349L;
+      Intrinsics.checkNotNullParameter(keyArg, "key");
+      Intrinsics.checkNotNullParameter(classesArg, "classes");
+      lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.put(keyArg, classesArg);
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f378832f1c6c73ce(var5);
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f378832f1c6c73ce(long var1) {
+      var1 = 24678483058863L;
+      var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
+      Collection var10000 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.values();
+      Intrinsics.checkNotNullExpressionValue(var10000, "<get-values>(...)");
+      IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = CollectionsKt.toHashSet(CollectionsKt.flatten(var10000));
    }
 }

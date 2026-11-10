@@ -45,7 +45,7 @@ public final class MouseUngrab extends BooleanModule {
    public static final void ungrabMouse() {
       long var0 = IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl ^ 67703061227169L;
       long var2 = var0 ^ 80893482218301L;
-      lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$604ac7bd4f16e976(
          var2
       );
    }
@@ -77,51 +77,42 @@ public final class MouseUngrab extends BooleanModule {
       int var6 = "{\u008d^Ü\u001dã\u000f}VÄ\u001f*øOÎÞÃò\u0081\u000f¶\u0084m\u0012¦Àl\u0084±7Þ\u00110\u0006\u008d;Zp»Xî<\u0088¹ÝÏi\u0096BIS\bÈ@\u0006\u001fß\u001d1<½\u008c¯?ã¡\u0001,!1èÓVò0·%\u007f\u0014ì\u0011\u001dªÞ\u0006©,¬\u0018\u0016\u0087ú\u0011O1\u0001u\u001b@\u009bFD²\t1ÂÍ\u0015W¨2u\u0082"
          .length();
       char var3 = 'X';
-      int var12 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "d/\u001e\u008bß\u0005\u008d}DI&¯\u0083^qØò\u009bÁæõþ+Ý\\\u0083\u008eY\u0013è?!v ù=\u008c\u0096Æn\u0010AåBMÔ\fW¢ñfÝkwc\u000fá";
+            var6 = "d/\u001e\u008bß\u0005\u008d}DI&¯\u0083^qØò\u009bÁæõþ+Ý\\\u0083\u008eY\u0013è?!v ù=\u008c\u0096Æn\u0010AåBMÔ\fW¢ñfÝkwc\u000fá".length();
+            var3 = '(';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var20 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var12 += var3) >= var6) {
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var7;
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[4];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new MouseUngrab.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     INSTANCE = new MouseUngrab();
-                     Minecraft var15 = Minecraft.getInstance();
-                     Intrinsics.checkNotNullExpressionValue(var15, "getInstance(...)");
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = var15;
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var7;
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[4];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new MouseUngrab.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  INSTANCE = new MouseUngrab();
+                  Minecraft var18 = Minecraft.getInstance();
+                  Intrinsics.checkNotNullExpressionValue(var18, "getInstance(...)");
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = var18;
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "d/\u001e\u008bß\u0005\u008d}DI&¯\u0083^qØò\u009bÁæõþ+Ý\\\u0083\u008eY\u0013è?!v ù=\u008c\u0096Æn\u0010AåBMÔ\fW¢ñfÝkwc\u000fá";
-                  var6 = "d/\u001e\u008bß\u0005\u008d}DI&¯\u0083^qØò\u009bÁæõþ+Ý\\\u0083\u008eY\u0013è?!v ù=\u008c\u0096Æn\u0010AåBMÔ\fW¢ñfÝkwc\u000fá"
-                     .length();
-                  var3 = '(';
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -253,7 +244,7 @@ public final class MouseUngrab extends BooleanModule {
          String[] var13 = var10000;
          llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var13);
          Cipher var0;
-         Cipher var15 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
+         Cipher var20 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
          SecretKeyFactory var10002 = SecretKeyFactory.getInstance("DES");
          byte[] var10003 = new byte[]{(byte)(var11 >>> 56), 0, 0, 0, 0, 0, 0, 0};
 
@@ -261,21 +252,19 @@ public final class MouseUngrab extends BooleanModule {
             var10003[var1] = (byte)(var11 << var1 * 8 >>> 56);
          }
 
-         var15.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+         var20.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
          long[] var6 = new long[6];
          int var3 = 0;
          String var4 = "Úé^pÖH\u0015Iæ\u0086«t´¤;\u0088¢p\u0085ðgÑ8Q \u0083\u0002çñkY\u0086";
          int var5 = "Úé^pÖH\u0015Iæ\u0086«t´¤;\u0088¢p\u0085ðgÑ8Q \u0083\u0002çñkY\u0086".length();
          byte var2 = 0;
 
-         label23:
-         while (true) {
+         do {
             int var10001 = var2;
             var2 += 8;
             byte[] var7 = var4.substring(var10001, var2).getBytes("ISO-8859-1");
-            long[] var16 = var6;
             var10001 = var3++;
-            long var19 = (var7[0] & 255L) << 56
+            long var8 = (var7[0] & 255L) << 56
                | (var7[1] & 255L) << 48
                | (var7[2] & 255L) << 40
                | (var7[3] & 255L) << 32
@@ -283,66 +272,73 @@ public final class MouseUngrab extends BooleanModule {
                | (var7[5] & 255L) << 16
                | (var7[6] & 255L) << 8
                | var7[7] & 255L;
-            byte var21 = -1;
-
-            while (true) {
-               long var8 = var19;
-               byte[] var10 = var0.doFinal(
-                  new byte[]{
-                     (byte)(var8 >>> 56),
-                     (byte)(var8 >>> 48),
-                     (byte)(var8 >>> 40),
-                     (byte)(var8 >>> 32),
-                     (byte)(var8 >>> 24),
-                     (byte)(var8 >>> 16),
-                     (byte)(var8 >>> 8),
-                     (byte)var8
-                  }
-               );
-               long var23 = (var10[0] & 255L) << 56
-                  | (var10[1] & 255L) << 48
-                  | (var10[2] & 255L) << 40
-                  | (var10[3] & 255L) << 32
-                  | (var10[4] & 255L) << 24
-                  | (var10[5] & 255L) << 16
-                  | (var10[6] & 255L) << 8
-                  | var10[7] & 255L;
-               switch (var21) {
-                  case 0:
-                     var16[var10001] = var23;
-                     if (var2 >= var5) {
-                        IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var6;
-                        lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new Integer[6];
-                        return;
-                     }
-                     break;
-                  default:
-                     var16[var10001] = var23;
-                     if (var2 < var5) {
-                        continue label23;
-                     }
-
-                     var4 = "Õm\u0013ö_\u001f \u0000[\u0088¡7µl\u008f$";
-                     var5 = "Õm\u0013ö_\u001f \u0000[\u0088¡7µl\u008f$".length();
-                     var2 = 0;
+            byte[] var10 = var0.doFinal(
+               new byte[]{
+                  (byte)(var8 >>> 56),
+                  (byte)(var8 >>> 48),
+                  (byte)(var8 >>> 40),
+                  (byte)(var8 >>> 32),
+                  (byte)(var8 >>> 24),
+                  (byte)(var8 >>> 16),
+                  (byte)(var8 >>> 8),
+                  (byte)var8
                }
+            );
+            long var10004 = (var10[0] & 255L) << 56
+               | (var10[1] & 255L) << 48
+               | (var10[2] & 255L) << 40
+               | (var10[3] & 255L) << 32
+               | (var10[4] & 255L) << 24
+               | (var10[5] & 255L) << 16
+               | (var10[6] & 255L) << 8
+               | var10[7] & 255L;
+            byte var24 = -1;
+            var6[var10001] = var10004;
+         } while (var2 < var5);
 
-               byte var18 = var2;
-               var2 += 8;
-               var7 = var4.substring(var18, var2).getBytes("ISO-8859-1");
-               var16 = var6;
-               var10001 = var3++;
-               var19 = (var7[0] & 255L) << 56
-                  | (var7[1] & 255L) << 48
-                  | (var7[2] & 255L) << 40
-                  | (var7[3] & 255L) << 32
-                  | (var7[4] & 255L) << 24
-                  | (var7[5] & 255L) << 16
-                  | (var7[6] & 255L) << 8
-                  | var7[7] & 255L;
-               var21 = 0;
-            }
-         }
+         var4 = "Õm\u0013ö_\u001f \u0000[\u0088¡7µl\u008f$";
+         var5 = "Õm\u0013ö_\u001f \u0000[\u0088¡7µl\u008f$".length();
+         var2 = 0;
+
+         do {
+            int var22 = var2;
+            var2 += 8;
+            byte[] var17 = var4.substring(var22, var2).getBytes("ISO-8859-1");
+            var22 = var3++;
+            long var18 = (var17[0] & 255L) << 56
+               | (var17[1] & 255L) << 48
+               | (var17[2] & 255L) << 40
+               | (var17[3] & 255L) << 32
+               | (var17[4] & 255L) << 24
+               | (var17[5] & 255L) << 16
+               | (var17[6] & 255L) << 8
+               | var17[7] & 255L;
+            byte[] var19 = var0.doFinal(
+               new byte[]{
+                  (byte)(var18 >>> 56),
+                  (byte)(var18 >>> 48),
+                  (byte)(var18 >>> 40),
+                  (byte)(var18 >>> 32),
+                  (byte)(var18 >>> 24),
+                  (byte)(var18 >>> 16),
+                  (byte)(var18 >>> 8),
+                  (byte)var18
+               }
+            );
+            long var26 = (var19[0] & 255L) << 56
+               | (var19[1] & 255L) << 48
+               | (var19[2] & 255L) << 40
+               | (var19[3] & 255L) << 32
+               | (var19[4] & 255L) << 24
+               | (var19[5] & 255L) << 16
+               | (var19[6] & 255L) << 8
+               | var19[7] & 255L;
+            boolean var25 = false;
+            var6[var22] = var26;
+         } while (var2 < var5);
+
+         IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var6;
+         lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new Integer[6];
       }
 
       private static MatchException IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(MatchException var0) {
@@ -440,6 +436,11 @@ public final class MouseUngrab extends BooleanModule {
                var5
             );
          }
+      }
+
+      @JvmStatic
+      public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$604ac7bd4f16e976(long param1) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
       }
    }
 }

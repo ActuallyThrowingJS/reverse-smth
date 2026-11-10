@@ -57,7 +57,7 @@ public final class Pool<T> {
       label44: {
          try {
             if (var5 != null) {
-               return (T)this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var3);
+               return (T)this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$916964e223e150f2(var3);
             }
 
             if (this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI) {
@@ -67,12 +67,12 @@ public final class Pool<T> {
             throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11);
          }
 
-         return (T)this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var3);
+         return (T)this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$916964e223e150f2(var3);
       }
 
       synchronized (this) {
          boolean var7 = false;
-         return (T)this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var3);
+         return (T)this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$916964e223e150f2(var3);
       }
    }
 
@@ -123,19 +123,19 @@ public final class Pool<T> {
       );
 
       Iterable var10000;
-      label81: {
-         label74: {
+      label77: {
+         label70: {
             try {
                var10000 = var2;
                if (var7 != null) {
-                  break label81;
+                  break label77;
                }
 
                Intrinsics.checkNotNullParameter(
                   var2, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"y">(3179, 1202472910174900658L ^ var5)
                );
                if (this.lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI) {
-                  break label74;
+                  break label70;
                }
             } catch (MatchException var19) {
                throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
@@ -144,7 +144,7 @@ public final class Pool<T> {
             }
 
             var10000 = var2;
-            break label81;
+            break label77;
          }
 
          synchronized (this) {
@@ -161,20 +161,11 @@ public final class Pool<T> {
                   if (var25 != null) {
                      break;
                   }
-
-                  if (var7 == null) {
-                     continue;
-                  }
                } catch (MatchException var17) {
                   throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
                      var17, -7566780550882123968L, var5
                   );
                }
-
-               lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  new int[4], -7523174275774950440L, var5
-               );
-               break;
             }
 
             Unit var20 = Unit.INSTANCE;
@@ -260,44 +251,36 @@ public final class Pool<T> {
       String var4 = "£\u0087ás\u0000\u0000\u001bè\u009c[MÍ^Ë;k\u0018\"öÙcE±\u0089Oj¹h{où_a\u0002l(ì3¢ìá ¯\n{\u008e<yO\u0086\u00ad\u009eÙS\u00116g-F\u0006\u0092;¢l\u0090¾\u0097\u008f2\u008eI\u0080bw\u0018,_EY¢È]\u0099úuúÖ\u0091¨âlnRP\u0018\u001e(I¼ ^cWé\u009d\u0013è\u009fj0ìEæn\u008b\u001fÕÝî\u0096\u008açZ\u0018e\u0091ÌJUáµi";
       int var6 = "£\u0087ás\u0000\u0000\u001bè\u009c[MÍ^Ë;k\u0018\"öÙcE±\u0089Oj¹h{où_a\u0002l(ì3¢ìá ¯\n{\u008e<yO\u0086\u00ad\u009eÙS\u00116g-F\u0006\u0092;¢l\u0090¾\u0097\u008f2\u008eI\u0080bw\u0018,_EY¢È]\u0099úuúÖ\u0091¨âlnRP\u0018\u001e(I¼ ^cWé\u009d\u0013è\u009fj0ìEæn\u008b\u001fÕÝî\u0096\u008açZ\u0018e\u0091ÌJUáµi"
          .length();
-      char var3 = 16;
-      int var13 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var14 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "]hÞ<ÄÜgÁ\u0095ôÙ\u009b8\u0097fF\u0010Ñ`Â÷Ñ'\u0010¥!«,BËû\u0013Ý";
+            var6 = "]hÞ<ÄÜgÁ\u0095ôÙ\u009b8\u0097fF\u0010Ñ`Â÷Ñ'\u0010¥!«,BËû\u0013Ý".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) >= var6) {
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var7;
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new String[7];
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var7;
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = new String[7];
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label27;
-                  }
-
-                  var4 = "]hÞ<ÄÜgÁ\u0095ôÙ\u009b8\u0097fF\u0010Ñ`Â÷Ñ'\u0010¥!«,BËû\u0013Ý";
-                  var6 = "]hÞ<ÄÜgÁ\u0095ôÙ\u009b8\u0097fF\u0010Ñ`Â÷Ñ'\u0010¥!«,BËû\u0013Ý".length();
-                  var3 = 16;
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var14 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -397,5 +380,9 @@ public final class Pool<T> {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/utils/fastutil/Pool" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   private final Object llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$916964e223e150f2(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

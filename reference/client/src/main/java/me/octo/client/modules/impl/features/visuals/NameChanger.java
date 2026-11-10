@@ -52,7 +52,7 @@ public final class NameChanger extends BooleanModule {
    public static final String modifyString(@Nullable String var0) {
       long var1 = llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI ^ 88934891741953L;
       long var3 = var1 ^ 118325253769730L;
-      return lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+      return lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7fe24236db57d8e9(
          var3, var0
       );
    }
@@ -369,6 +369,29 @@ public final class NameChanger extends BooleanModule {
                var5
             );
          }
+      }
+
+      @JvmStatic
+      @Nullable
+      public final String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7fe24236db57d8e9(
+         long param1, @Nullable String param3
+      ) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      private final String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$ac3a79e2c1719a24(long param1) {
+         // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+      }
+
+      @JvmStatic
+      @NotNull
+      public final String llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$8e451d1e7d9fb1fa(
+         long argument1Arg, @NotNull String stringArg
+      ) {
+         argument1Arg = 68081901565473L;
+         argument1Arg = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ argument1Arg;
+         Intrinsics.checkNotNullParameter(stringArg, "string");
+         return StringsKt.replace$default(StringsKt.replace$default(stringArg, "&", "§", false, 4, null), "$", "", false, 4, null);
       }
    }
 }

@@ -45,65 +45,57 @@ public final class IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlI
       int var7 = "êªÍSc©\u008cz\b\u000f\u000fýó\u0088²\u000f\b\u0010¨ê²u¨ i!:RA\u008bK\u0099DÃ\u0018¨ê²u¨ i!\u0005Í\u0095m¹G`\u0002\u000f\u0096ÃZÄBù)\bæ\u0010\u0082«¼\u0081\u0088\u0095\u0018¨ê²u¨ i!\u0000\u0092}\u0092¼Uì\u0081\u008e\t\u0006ôç.x\u0017\u0010\u0016¨\u00160\u0097òê\u0081O©\u0015\u0081&UðB\u0010Åz³ßÙ±xÒ\u0012\"U\u0087\u0018\u008a·N\u0010àm,¤Î?Ù\u0002SLP³B#ú\u0091 A|\u009e\u0092)òBk)1Ø!ÊCÇ\"V»Q£{Ìæ©ÇkFÿOÏÕg\b\u0091D\u0014ÿÊÓ\u008cÓ Br\u0006>AµÎÙ)>\u0095Mù\fCÁ´\u0011lz<\u008fé1³F(äEZg\u0004\u0010.f\u001d²V÷\u009aÆN· x-(&\u0083\u0010¨ê²u¨ i!Z\u0080\r¨JT\u001e(\b\u0086VoQ\u008eá²@\u0018ä²¥O\u0015Â\u008cÇ\u0018R]\u0088§öÜ\u001d«LP<4¶\u0007Ì"
          .length();
       char var4 = '\b';
-      int var13 = -1;
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var14 = var5.substring(++var13, var13 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var22;
+         if ((var3 += var4) >= var7) {
+            var5 = "\u00adoL²@¢¶\u0002Åx£K\u0093ÛøÒ´Æ¾Ö\u0011Ñ\u0091¯\u0018À3£ÞMJáBÏøÕ15?×Y³\u0005}\u0091pA2%";
+            var7 = "\u00adoL²@¢¶\u0002Åx£K\u0093ÛøÒ´Æ¾Ö\u0011Ñ\u0091¯\u0018À3£ÞMJáBÏøÕ15?×Y³\u0005}\u0091pA2%".length();
+            var4 = '\u0018';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) >= var7) {
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        var0[8], var0[17], 1, 8, 3, 0, 32, null
-                     );
-                     String var23 = var0[0];
-                     String var24 = var0[11];
-                     String[] var11 = new String[]{var0[6], var0[14], var0[1], var0[4]};
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll(
-                        var23, var24, 0, var11
-                     );
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
-                        var0[10], var0[9], new Color(0, 255, 255).getColorAsInt()
-                     );
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(
-                        var0[12], var0[16], 0.0F, 1.0F, 0.35F, 0.05F, 0, 64, null
-                     );
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(
-                        var0[13], var0[5], 1.0F, 24.0F, 2.0F, 0.5F, 0, 64, null
-                     );
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(
-                        var0[2], var0[3], 0.0F, 1.0F, 1.0F, 0.05F, 0, 64, null
-                     );
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(
-                        var0[7], var0[15], 0.0F, 1.0F, 0.5F, 0.05F, 0, 64, null
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var0[var6++] = var24;
+               if ((var3 += var4) >= var7) {
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     var0[8], var0[17], 1, 8, 3, 0, 32, null
+                  );
+                  String var26 = var0[0];
+                  String var27 = var0[11];
+                  String[] var11 = new String[]{var0[6], var0[14], var0[1], var0[4]};
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll(
+                     var26, var27, 0, var11
+                  );
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
+                     var0[10], var0[9], new Color(0, 255, 255).getColorAsInt()
+                  );
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(
+                     var0[12], var0[16], 0.0F, 1.0F, 0.35F, 0.05F, 0, 64, null
+                  );
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(
+                     var0[13], var0[5], 1.0F, 24.0F, 2.0F, 0.5F, 0, 64, null
+                  );
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(
+                     var0[2], var0[3], 0.0F, 1.0F, 1.0F, 0.05F, 0, 64, null
+                  );
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll(
+                     var0[7], var0[15], 0.0F, 1.0F, 0.5F, 0.05F, 0, 64, null
+                  );
+                  return;
+               }
 
-                  var4 = var5.charAt(var13);
-                  break;
-               default:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) < var7) {
-                     var4 = var5.charAt(var13);
-                     continue label28;
-                  }
-
-                  var5 = "\u00adoL²@¢¶\u0002Åx£K\u0093ÛøÒ´Æ¾Ö\u0011Ñ\u0091¯\u0018À3£ÞMJáBÏøÕ15?×Y³\u0005}\u0091pA2%";
-                  var7 = "\u00adoL²@¢¶\u0002Åx£K\u0093ÛøÒ´Æ¾Ö\u0011Ñ\u0091¯\u0018À3£ÞMJáBÏøÕ15?×Y³\u0005}\u0091pA2%".length();
-                  var4 = 24;
-                  var13 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var14 = var5.substring(++var13, var13 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

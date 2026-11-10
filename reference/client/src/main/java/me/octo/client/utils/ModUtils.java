@@ -72,60 +72,52 @@ public final class ModUtils {
       int var6 = 0;
       String var5 = "?¤J\u0099ÎÍõÏ´\u0097*§kExB\b\u0081ßÀ\tÒ\u0091 >\u0018\u0017x{7Ð\u0096áÁ\fþ\u0006Ó#Äß\u0005\u00ad\u0091ÿ<WyÌ°";
       int var7 = "?¤J\u0099ÎÍõÏ´\u0097*§kExB\b\u0081ßÀ\tÒ\u0091 >\u0018\u0017x{7Ð\u0096áÁ\fþ\u0006Ó#Äß\u0005\u00ad\u0091ÿ<WyÌ°".length();
-      char var4 = 16;
-      int var13 = -1;
+      char var4 = '\u0010';
+      int var3 = -1;
 
-      label32:
       while (true) {
-         String var14 = var5.substring(++var13, var13 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var25 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var25;
+         if ((var3 += var4) >= var7) {
+            var5 = "\u0081ßÀ\tÒ\u0091 >\u0010¦\u0090©óL\u0003+Jg\u001aäU\faW\u0011";
+            var7 = "\u0081ßÀ\tÒ\u0091 >\u0010¦\u0090©óL\u0003+Jg\u001aäU\faW\u0011".length();
+            var4 = '\b';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var14.getBytes("ISO-8859-1"));
-            String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var23;
-                  if ((var13 += var4) >= var7) {
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new ModUtils();
-                     Minecraft var16 = Minecraft.getInstance();
-                     Intrinsics.checkNotNullExpressionValue(var16, var0[2]);
-                     mc = var16;
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new File(mc.gameDirectory, var0[3]);
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var0[1];
-                     Logger var17 = LoggerFactory.getLogger(IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl);
-                     Intrinsics.checkNotNullExpressionValue(var17, var0[0]);
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var17;
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new me.octo.client.utils.security.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null, 1, null
-                     );
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = System.currentTimeMillis();
-                     String var18 = UUID.randomUUID().toString();
-                     Intrinsics.checkNotNullExpressionValue(var18, var0[4]);
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var18;
-                     currentTPS = 20.0;
-                     smoothedTPS = 20.0;
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var27 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var23 = false;
+               var0[var6++] = var27;
+               if ((var3 += var4) >= var7) {
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new ModUtils();
+                  Minecraft var19 = Minecraft.getInstance();
+                  Intrinsics.checkNotNullExpressionValue(var19, var0[2]);
+                  mc = var19;
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new File(mc.gameDirectory, var0[3]);
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var0[1];
+                  Logger var20 = LoggerFactory.getLogger(IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl);
+                  Intrinsics.checkNotNullExpressionValue(var20, var0[0]);
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var20;
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new me.octo.client.utils.security.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null, 1, null
+                  );
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = System.currentTimeMillis();
+                  String var21 = UUID.randomUUID().toString();
+                  Intrinsics.checkNotNullExpressionValue(var21, var0[4]);
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = var21;
+                  currentTPS = 20.0;
+                  smoothedTPS = 20.0;
+                  return;
+               }
 
-                  var4 = var5.charAt(var13);
-                  break;
-               default:
-                  var0[var6++] = var23;
-                  if ((var13 += var4) < var7) {
-                     var4 = var5.charAt(var13);
-                     continue label32;
-                  }
-
-                  var5 = "\u0081ßÀ\tÒ\u0091 >\u0010¦\u0090©óL\u0003+Jg\u001aäU\faW\u0011";
-                  var7 = "\u0081ßÀ\tÒ\u0091 >\u0010¦\u0090©óL\u0003+Jg\u001aäU\faW\u0011".length();
-                  var4 = '\b';
-                  var13 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var14 = var5.substring(++var13, var13 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

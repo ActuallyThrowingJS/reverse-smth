@@ -57,40 +57,48 @@ public final class IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllII
       float var5 = var3 % 360.0F;
       String[] var4 = var10000;
 
-      label37: {
-         label36: {
-            try {
-               var9 = var5;
-               if (var4 == null) {
-                  break label37;
+      label43: {
+         label42: {
+            float var6;
+            label41: {
+               try {
+                  var6 = var5;
+                  if (var4 == null) {
+                     break label41;
+                  }
+
+                  if (!(var5 > 180.0F)) {
+                     break label42;
+                  }
+               } catch (MatchException var9) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var9, -3224106107396610843L, var1
+                  );
                }
 
-               if (!(var5 > 180.0F)) {
-                  break label36;
-               }
-            } catch (MatchException var7) {
-               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  var7, -3224106107396610843L, var1
-               );
+               var5 -= 360.0F;
+               break label42;
             }
 
-            var5 -= 360.0F;
+            var11 = var6;
+            break label43;
          }
 
-         var9 = var5;
+         var11 = var5;
       }
 
       try {
+         float var7 = var11;
          if (var4 == null) {
-            return var9;
+            return var7;
          }
 
-         if (!(var9 < -180.0F)) {
+         if (!(var7 < -180.0F)) {
             return var5;
          }
-      } catch (MatchException var6) {
+      } catch (MatchException var8) {
          throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-            var6, -3224106107396610843L, var1
+            var8, -3224106107396610843L, var1
          );
       }
 

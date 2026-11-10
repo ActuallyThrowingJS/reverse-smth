@@ -42,7 +42,7 @@ public final class AnnoyanceRemover extends BooleanModule {
    }
 
    @SubscribeEvent
-   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketReceivedEvent eventArg) {
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketReceivedEvent param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
@@ -63,49 +63,41 @@ public final class AnnoyanceRemover extends BooleanModule {
       String var6 = "ho\u009dÊ\u0014\u0016\u009aJnH=%f\n\u000eÂ8\u0098¥ê\u0000L÷í%ÞÓ2é\u0096\u009bO\u000b6Y\"8Ü3\u0003X¹f\n\u0006o|Gò\r¯ s¦¯ïHêTN\u0000\nF\u0017\u0081½5\u007fâà\u0095Æ\u0099(å\"\u0083²«®ïO\u009bö\u0000i\u001e>Zþ\u009a\u0006\u0085\u0092\u00adlxÎh}Î;$!©%m5Mßª\u0010·-HØ\u0086jS\u0093\u001f¹\u0080\u008b=1y\u009fÌÈøXUÓ¢Ës¢\u0007oæÉÒ\u001f\u009c\u0006òU÷\tÇ¼\u009a\u0011:\u0015Üæèd®TùCï\u0096×áOìú:\u0086w=ókñ\u0016¯ìÊð\u000b½\u0082ò\u0010¦\u008f©Ô\u001eÎ6èI}V\u001d¹\u0019\u0013\u00ad\u0010\u0098\u0019N\u0017âV®*\u0002ðÝ\f\u0088\u008eÜN";
       int var8 = "ho\u009dÊ\u0014\u0016\u009aJnH=%f\n\u000eÂ8\u0098¥ê\u0000L÷í%ÞÓ2é\u0096\u009bO\u000b6Y\"8Ü3\u0003X¹f\n\u0006o|Gò\r¯ s¦¯ïHêTN\u0000\nF\u0017\u0081½5\u007fâà\u0095Æ\u0099(å\"\u0083²«®ïO\u009bö\u0000i\u001e>Zþ\u009a\u0006\u0085\u0092\u00adlxÎh}Î;$!©%m5Mßª\u0010·-HØ\u0086jS\u0093\u001f¹\u0080\u008b=1y\u009fÌÈøXUÓ¢Ës¢\u0007oæÉÒ\u001f\u009c\u0006òU÷\tÇ¼\u009a\u0011:\u0015Üæèd®TùCï\u0096×áOìú:\u0086w=ókñ\u0016¯ìÊð\u000b½\u0082ò\u0010¦\u008f©Ô\u001eÎ6èI}V\u001d¹\u0019\u0013\u00ad\u0010\u0098\u0019N\u0017âV®*\u0002ðÝ\f\u0088\u008eÜN"
          .length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "Ö\u0099\u001a\r\u0003¤¤Ài\u001eðêQ}dG(\u007f¶P¯\u000eg«¶\u008aâtrÿÊÖ \u0006\u001e\u000b9xb\u001aÊ\u0096\u0090ÖHZü\u0011Ëd\u0001Ì©\u00107ø¾\u009cBC\u0014\u009cZÁö";
+            var8 = "Ö\u0099\u001a\r\u0003¤¤Ài\u001eðêQ}dG(\u007f¶P¯\u000eg«¶\u008aâtrÿÊÖ \u0006\u001e\u000b9xb\u001aÊ\u0096\u0090ÖHZü\u0011Ëd\u0001Ì©\u00107ø¾\u009cBC\u0014\u009cZÁö"
+               .length();
+            var5 = ' ';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[8];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
-                        null
-                     );
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new AnnoyanceRemover();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[8];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
+                     null
+                  );
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new AnnoyanceRemover();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "Ö\u0099\u001a\r\u0003¤¤Ài\u001eðêQ}dG(\u007f¶P¯\u000eg«¶\u008aâtrÿÊÖ \u0006\u001e\u000b9xb\u001aÊ\u0096\u0090ÖHZü\u0011Ëd\u0001Ì©\u00107ø¾\u009cBC\u0014\u009cZÁö";
-                  var8 = "Ö\u0099\u001a\r\u0003¤¤Ài\u001eðêQ}dG(\u007f¶P¯\u000eg«¶\u008aâtrÿÊÖ \u0006\u001e\u000b9xb\u001aÊ\u0096\u0090ÖHZü\u0011Ëd\u0001Ì©\u00107ø¾\u009cBC\u0014\u009cZÁö"
-                     .length();
-                  var5 = ' ';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

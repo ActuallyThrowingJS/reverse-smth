@@ -123,82 +123,74 @@ public final class NoHyperionExplosion extends BooleanModule {
       String var11 = "9&\u0084\u0095Ú\u008b¶\u001cµÉöõ·Ë·\u0014ãoH\u00981C\u0013ç\u0010Ç\u00adYÙOëo8\u0090Ö\u000e©\u0096É¤2(ðÝ§n®\u000fN¬\u0002WiÀÎvÏÐ\u0003ð\u008aGwÖ|\u0098%w\u0002AY¯5ZU8Ê\u008b\u009c}\u00ad\u0017\u0010{¯o\u0091l´Û\ntw7:Xµ\u0096Ë";
       int var13 = "9&\u0084\u0095Ú\u008b¶\u001cµÉöõ·Ë·\u0014ãoH\u00981C\u0013ç\u0010Ç\u00adYÙOëo8\u0090Ö\u000e©\u0096É¤2(ðÝ§n®\u000fN¬\u0002WiÀÎvÏÐ\u0003ð\u008aGwÖ|\u0098%w\u0002AY¯5ZU8Ê\u008b\u009c}\u00ad\u0017\u0010{¯o\u0091l´Û\ntw7:Xµ\u0096Ë"
          .length();
-      char var10 = 24;
-      int var17 = -1;
+      char var10 = '\u0018';
+      int var9 = -1;
 
-      label37:
       while (true) {
-         String var18 = var11.substring(++var17, var17 + var10);
+         byte[] var15 = var7.doFinal(var11.substring(++var9, var9 + var10).getBytes("ISO-8859-1"));
+         String var28 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var15).intern();
          byte var10001 = -1;
+         var14[var12++] = var28;
+         if ((var9 += var10) >= var13) {
+            var11 = "\"×°\u009b\r ;V¢09ôy\u0086ÈDhQºq®¿\u007fg9ªCý\u0089\u00004È»vÅJ«\u009d\u009aþ\u0081p¾RÀåÖ\u0010\u0004÷\u00121 ¼Ý/Òq÷3ö@mõ¦\u008cÓ³S\u009e\fþ\u008aØ\u0007©7q°òC\u009d\u009c¤î,\u0087Û\n\u001cmãø4\u0010ÓÔ@Uv9²\u0083\u007fóä8Zê3\b«g\u0090Qva\u0011\u000fè7";
+            var13 = "\"×°\u009b\r ;V¢09ôy\u0086ÈDhQºq®¿\u007fg9ªCý\u0089\u00004È»vÅJ«\u009d\u009aþ\u0081p¾RÀåÖ\u0010\u0004÷\u00121 ¼Ý/Òq÷3ö@mõ¦\u008cÓ³S\u009e\fþ\u008aØ\u0007©7q°òC\u009d\u009c¤î,\u0087Û\n\u001cmãø4\u0010ÓÔ@Uv9²\u0083\u007fóä8Zê3\b«g\u0090Qva\u0011\u000fè7"
+               .length();
+            var10 = '\u0010';
+            var9 = -1;
 
-         while (true) {
-            byte[] var15 = var7.doFinal(var18.getBytes("ISO-8859-1"));
-            String var26 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var15).intern();
-            switch (var10001) {
-               case 0:
-                  var14[var12++] = var26;
-                  if ((var17 += var10) >= var13) {
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var14;
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[6];
-                     Cipher var0;
-                     var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
-                     var10002 = SecretKeyFactory.getInstance("DES");
-                     var10003 = new byte[]{(byte)(var5 >>> 56), 0, 0, 0, 0, 0, 0, 0};
+            while (true) {
+               var15 = var7.doFinal(var11.substring(++var9, var9 + var10).getBytes("ISO-8859-1"));
+               String var30 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var15).intern();
+               byte var25 = 0;
+               var14[var12++] = var30;
+               if ((var9 += var10) >= var13) {
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var14;
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[6];
+                  Cipher var0;
+                  var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
+                  var10002 = SecretKeyFactory.getInstance("DES");
+                  var10003 = new byte[]{(byte)(var5 >>> 56), 0, 0, 0, 0, 0, 0, 0};
 
-                     for (int var1 = 1; var1 < 8; var1++) {
-                        var10003[var1] = (byte)(var5 << var1 * 8 >>> 56);
+                  for (int var1 = 1; var1 < 8; var1++) {
+                     var10003[var1] = (byte)(var5 << var1 * 8 >>> 56);
+                  }
+
+                  var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+                  long var2 = 2289080122156200805L;
+                  byte[] var4 = var0.doFinal(
+                     new byte[]{
+                        (byte)(var2 >>> 56),
+                        (byte)(var2 >>> 48),
+                        (byte)(var2 >>> 40),
+                        (byte)(var2 >>> 32),
+                        (byte)(var2 >>> 24),
+                        (byte)(var2 >>> 16),
+                        (byte)(var2 >>> 8),
+                        (byte)var2
                      }
+                  );
+                  long var33 = (var4[0] & 255L) << 56
+                     | (var4[1] & 255L) << 48
+                     | (var4[2] & 255L) << 40
+                     | (var4[3] & 255L) << 32
+                     | (var4[4] & 255L) << 24
+                     | (var4[5] & 255L) << 16
+                     | (var4[6] & 255L) << 8
+                     | var4[7] & 255L;
+                  var25 = -1;
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var33;
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new NoHyperionExplosion();
+                  return;
+               }
 
-                     var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
-                     long var2 = 2289080122156200805L;
-                     byte[] var4 = var0.doFinal(
-                        new byte[]{
-                           (byte)(var2 >>> 56),
-                           (byte)(var2 >>> 48),
-                           (byte)(var2 >>> 40),
-                           (byte)(var2 >>> 32),
-                           (byte)(var2 >>> 24),
-                           (byte)(var2 >>> 16),
-                           (byte)(var2 >>> 8),
-                           (byte)var2
-                        }
-                     );
-                     long var30 = (var4[0] & 255L) << 56
-                        | (var4[1] & 255L) << 48
-                        | (var4[2] & 255L) << 40
-                        | (var4[3] & 255L) << 32
-                        | (var4[4] & 255L) << 24
-                        | (var4[5] & 255L) << 16
-                        | (var4[6] & 255L) << 8
-                        | var4[7] & 255L;
-                     var10001 = -1;
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var30;
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new NoHyperionExplosion();
-                     return;
-                  }
-
-                  var10 = var11.charAt(var17);
-                  break;
-               default:
-                  var14[var12++] = var26;
-                  if ((var17 += var10) < var13) {
-                     var10 = var11.charAt(var17);
-                     continue label37;
-                  }
-
-                  var11 = "\"×°\u009b\r ;V¢09ôy\u0086ÈDhQºq®¿\u007fg9ªCý\u0089\u00004È»vÅJ«\u009d\u009aþ\u0081p¾RÀåÖ\u0010\u0004÷\u00121 ¼Ý/Òq÷3ö@mõ¦\u008cÓ³S\u009e\fþ\u008aØ\u0007©7q°òC\u009d\u009c¤î,\u0087Û\n\u001cmãø4\u0010ÓÔ@Uv9²\u0083\u007fóä8Zê3\b«g\u0090Qva\u0011\u000fè7";
-                  var13 = "\"×°\u009b\r ;V¢09ôy\u0086ÈDhQºq®¿\u007fg9ªCý\u0089\u00004È»vÅJ«\u009d\u009aþ\u0081p¾RÀåÖ\u0010\u0004÷\u00121 ¼Ý/Òq÷3ö@mõ¦\u008cÓ³S\u009e\fþ\u008aØ\u0007©7q°òC\u009d\u009c¤î,\u0087Û\n\u001cmãø4\u0010ÓÔ@Uv9²\u0083\u007fóä8Zê3\b«g\u0090Qva\u0011\u000fè7"
-                     .length();
-                  var10 = 16;
-                  var17 = -1;
+               var10 = var11.charAt(var9);
             }
-
-            var18 = var11.substring(++var17, var17 + var10);
-            var10001 = 0;
          }
+
+         var10 = var11.charAt(var9);
       }
    }
 

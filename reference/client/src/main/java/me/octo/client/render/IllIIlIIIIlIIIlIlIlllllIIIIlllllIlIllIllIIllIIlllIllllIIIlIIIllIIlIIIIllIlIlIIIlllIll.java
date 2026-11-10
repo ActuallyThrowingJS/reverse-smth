@@ -187,4 +187,13 @@ public final class IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIII
          );
       }
    }
+
+   @NotNull
+   public static final Builder IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$3a4f8a26ccb58849(long var0) {
+      var0 = 127940633237662L;
+      var0 = IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl ^ var0;
+      Builder var10000 = RenderPipelineBuilderInvoker.polinex$create();
+      Intrinsics.checkNotNullExpressionValue(var10000, "polinex$create(...)");
+      return var10000;
+   }
 }

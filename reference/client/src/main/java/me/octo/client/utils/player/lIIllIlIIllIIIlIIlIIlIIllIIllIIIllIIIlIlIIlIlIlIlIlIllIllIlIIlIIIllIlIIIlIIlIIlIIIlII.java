@@ -79,50 +79,63 @@ public final class lIIllIlIIllIIIlIIlIIlIIllIIllIIIllIIIlIlIIlIlIlIlIlIllIllIlII
       long var4 = System.currentTimeMillis();
       me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var3 = var10000;
 
-      label39: {
-         try {
-            long var10;
-            var9 = (var10 = var4 - IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl) == 0L ? 0 : (var10 < 0L ? -1 : 1);
-            if (var3 != null) {
-               break label39;
-            }
-
-            if (var9 < 0) {
-               return;
-            }
-         } catch (MatchException var7) {
-            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               var7, -357352727360342290L, var1
-            );
-         }
-
-         var9 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.nextBoolean();
-      }
-
-      label29: {
-         label28: {
+      label45: {
+         label44: {
+            int var6;
             try {
-               if (var3 != null) {
-                  break label29;
-               }
+               long var13;
+               var6 = (var13 = var4 - IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl) == 0L ? 0 : (var13 < 0L ? -1 : 1);
+               if (var3 == null) {
+                  if (var6 >= 0) {
+                     break label44;
+                  }
 
-               if (var9 != 0) {
-                  break label28;
+                  return;
                }
-            } catch (MatchException var6) {
+            } catch (MatchException var9) {
                throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  var6, -357352727360342290L, var1
+                  var9, -357352727360342290L, var1
                );
             }
 
-            var9 = -1;
-            break label29;
+            var11 = var6;
+            break label45;
          }
 
-         var9 = 1;
+         var11 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.nextBoolean();
       }
 
-      lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var9;
+      label33: {
+         label32: {
+            int var7;
+            label31: {
+               try {
+                  var7 = var11;
+                  if (var3 != null) {
+                     break label31;
+                  }
+
+                  if (var7 != 0) {
+                     break label32;
+                  }
+               } catch (MatchException var8) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var8, -357352727360342290L, var1
+                  );
+               }
+
+               var12 = -1;
+               break label33;
+            }
+
+            var12 = var7;
+            break label33;
+         }
+
+         var12 = 1;
+      }
+
+      lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var12;
       IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = 0.95F
          + lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.nextFloat() * 0.1F;
       IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = 0.95F

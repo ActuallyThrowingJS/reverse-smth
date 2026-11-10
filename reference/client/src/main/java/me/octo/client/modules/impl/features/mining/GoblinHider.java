@@ -80,48 +80,40 @@ public final class GoblinHider extends BooleanModule {
       String var6 = "+ñ\u0080\t ý\u0086®ÆP\u0019)¬¦Î~\u0018¦\u009b~\t_\u0004ø\u0014Ù\u008dÙy\u00196ycÆ\u001e\u0086{\u0098\u0097Q0\u0010^\u001cb¶föyG\u008e>\u0004uªéÌL \u008aó\u0002\nè\u001b\fþ\u0011.#UfícD\u0006,\u0018:Zyôûÿ\u0019\u000fÎ|R¹²(TãÐ\u0087?(3Zl\u0086) ¤]\u008c\u009c¢\u001c\u0004¤\u008a\u0080Ð;Ûï$ú\u0018ïSäDí[ÕÊl,\u000e8AòäÅÍ\u0098¨\u0007ÓoÒ\u0091Ñ&÷\u0010¯c N}í]ñ\" ½²aâ£q\u001bóÂ¤\u000bYÍ1Ä¢I<\u001bq\u0096 Ñ-/W\u0086U\u008bý\u0010~+ýÝ\u0088j\u0014z¬Û</äQÂ\u0080\u0010§?\u0012J\u009f\u0096\u0007\u009fß^<9Ó9\u000b4";
       int var8 = "+ñ\u0080\t ý\u0086®ÆP\u0019)¬¦Î~\u0018¦\u009b~\t_\u0004ø\u0014Ù\u008dÙy\u00196ycÆ\u001e\u0086{\u0098\u0097Q0\u0010^\u001cb¶föyG\u008e>\u0004uªéÌL \u008aó\u0002\nè\u001b\fþ\u0011.#UfícD\u0006,\u0018:Zyôûÿ\u0019\u000fÎ|R¹²(TãÐ\u0087?(3Zl\u0086) ¤]\u008c\u009c¢\u001c\u0004¤\u008a\u0080Ð;Ûï$ú\u0018ïSäDí[ÕÊl,\u000e8AòäÅÍ\u0098¨\u0007ÓoÒ\u0091Ñ&÷\u0010¯c N}í]ñ\" ½²aâ£q\u001bóÂ¤\u000bYÍ1Ä¢I<\u001bq\u0096 Ñ-/W\u0086U\u008bý\u0010~+ýÝ\u0088j\u0014z¬Û</äQÂ\u0080\u0010§?\u0012J\u009f\u0096\u0007\u009fß^<9Ó9\u000b4"
          .length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "ñ\u0082°Í¥\"0;6¬\bù[÷ª¬eèèþyFvuØãñ\u000b¸zé¡ T*\u00adç¯Ê·¶èú\u0005+@¢Ì(.9û?A\u0019\f\u0014\u009b\"\u008e\u008bÍ\u0089)h";
+            var8 = "ñ\u0082°Í¥\"0;6¬\bù[÷ª¬eèèþyFvuØãñ\u000b¸zé¡ T*\u00adç¯Ê·¶èú\u0005+@¢Ì(.9û?A\u0019\f\u0014\u009b\"\u008e\u008bÍ\u0089)h".length();
+            var5 = ' ';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[10];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new GoblinHider.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     INSTANCE = new GoblinHider();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[10];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new GoblinHider.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  INSTANCE = new GoblinHider();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "ñ\u0082°Í¥\"0;6¬\bù[÷ª¬eèèþyFvuØãñ\u000b¸zé¡ T*\u00adç¯Ê·¶èú\u0005+@¢Ì(.9û?A\u0019\f\u0014\u009b\"\u008e\u008bÍ\u0089)h";
-                  var8 = "ñ\u0082°Í¥\"0;6¬\bù[÷ª¬eèèþyFvuØãñ\u000b¸zé¡ T*\u00adç¯Ê·¶èú\u0005+@¢Ì(.9û?A\u0019\f\u0014\u009b\"\u008e\u008bÍ\u0089)h".length();
-                  var5 = ' ';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -221,6 +213,12 @@ public final class GoblinHider extends BooleanModule {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/modules/impl/features/mining/GoblinHider" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$dfa5a2f16c0d171f(
+      LivingEntity param1, long param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

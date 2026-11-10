@@ -48,51 +48,43 @@ public enum IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIl
       String var5 = "ä\u0010ÝC¸T±íZ\u0011ä\u000bï\u000fûÂ¨\u0099ñ[]\u009bÏv\u0010*?ÈpÒ\u009a\u001f-\u008eî-8^£å\u001e\u0018ä\u0010ÝC¸T±íZ\u0011ä\u000bï\u000fûÂ¨\u0099ñ[]\u009bÏv\u0018;æoÀ\u0097«ú\u008b\u0011\u0091h\u008c\u0007ðÓç\u0082·+[\u0006Sã²\u0010*?ÈpÒ\u009a\u001f-\u008eî-8^£å\u001e\u0018;æoÀ\u0097«ú\u008b\u0011\u0091h\u008c\u0007ðÓç\u0082·+[\u0006Sã²\u0010ùñ\u001a-P\u000f{\u00ad\u008c~y\u0084|ýwÿ\u0010ùñ\u001a-P\u000f{\u00ad\u008c~y\u0084|ýwÿ\u0010Ã5b\u0087|þ\u009e\fdVötÄ_Lü\u0010Ã5b\u0087|þ\u009e\fdVötÄ_Lü";
       int var7 = "ä\u0010ÝC¸T±íZ\u0011ä\u000bï\u000fûÂ¨\u0099ñ[]\u009bÏv\u0010*?ÈpÒ\u009a\u001f-\u008eî-8^£å\u001e\u0018ä\u0010ÝC¸T±íZ\u0011ä\u000bï\u000fûÂ¨\u0099ñ[]\u009bÏv\u0018;æoÀ\u0097«ú\u008b\u0011\u0091h\u008c\u0007ðÓç\u0082·+[\u0006Sã²\u0010*?ÈpÒ\u009a\u001f-\u008eî-8^£å\u001e\u0018;æoÀ\u0097«ú\u008b\u0011\u0091h\u008c\u0007ðÓç\u0082·+[\u0006Sã²\u0010ùñ\u001a-P\u000f{\u00ad\u008c~y\u0084|ýwÿ\u0010ùñ\u001a-P\u000f{\u00ad\u008c~y\u0084|ýwÿ\u0010Ã5b\u0087|þ\u009e\fdVötÄ_Lü\u0010Ã5b\u0087|þ\u009e\fdVötÄ_Lü"
          .length();
-      char var4 = 24;
-      int var12 = -1;
+      char var4 = '\u0018';
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var13 = var5.substring(++var12, var12 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var21;
+         if ((var3 += var4) >= var7) {
+            var5 = "8Óâý\u0085ú´\u0015\u008c¥7\u0005Õf1«\u00108Óâý\u0085ú´\u0015\u008c¥7\u0005Õf1«";
+            var7 = "8Óâý\u0085ú´\u0015\u008c¥7\u0005Õf1«\u00108Óâý\u0085ú´\u0015\u008c¥7\u0005Õf1«".length();
+            var4 = '\u0010';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) >= var7) {
-                     GAIN_MOB_KILL = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[4]);
-                     GAIN_TALISMAN_OF_COINS = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[5]);
-                     GAIN_DICE_ROLL = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[7]);
-                     GAIN_UNKNOWN = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[8]);
-                     LOSE_DICE_ROLL_COST = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[2]);
-                     LOSE_UNKNOWN = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[10]);
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
-                        IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var19 = false;
+               var0[var6++] = var23;
+               if ((var3 += var4) >= var7) {
+                  GAIN_MOB_KILL = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[4]);
+                  GAIN_TALISMAN_OF_COINS = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[5]);
+                  GAIN_DICE_ROLL = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[7]);
+                  GAIN_UNKNOWN = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[8]);
+                  LOSE_DICE_ROLL_COST = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[2]);
+                  LOSE_UNKNOWN = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(var0[10]);
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = EnumEntriesKt.enumEntries(
+                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                  );
+                  return;
+               }
 
-                  var4 = var5.charAt(var12);
-                  break;
-               default:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) < var7) {
-                     var4 = var5.charAt(var12);
-                     continue label28;
-                  }
-
-                  var5 = "8Óâý\u0085ú´\u0015\u008c¥7\u0005Õf1«\u00108Óâý\u0085ú´\u0015\u008c¥7\u0005Õf1«";
-                  var7 = "8Óâý\u0085ú´\u0015\u008c¥7\u0005Õf1«\u00108Óâý\u0085ú´\u0015\u008c¥7\u0005Õf1«".length();
-                  var4 = 16;
-                  var12 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var13 = var5.substring(++var12, var12 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

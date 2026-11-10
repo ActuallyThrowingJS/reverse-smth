@@ -348,46 +348,38 @@ public final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIl
       int var8 = "µLÿuÈã\b\u0014÷\u0001Cu\u000eEÖ«\u0001\u007fÁ\u001fûX£{ë\u009a\u000f\u009az´£Ï\u0018Y\u000eK\u009d\r\u0090\u001a\u0014¨M¨\u001ff|§Z_Ì\u0003v³8ß\u001f\u0010\ft¶«\u0090Wò©\u0014¾}ÝV¦sø \u000f!*Æ\u009fùlå¥\"\u0092\u0099,ÀÅ7Î\u008eß2}<(¥Ù\u001cû\u0088]Ôúp\u0010½@\"e#3\u0088\u009bÐT\u0000\u0013`oGK\u0010\u009f¦Ø\u007fêOX\u0087ªÔ`Ñ\u009ctx\u0012\u0018qßA@ÙY\u008dá[DËO \u001bË\u009fn\u009eëmÆÝ¦¹ \u008d_ ï\u0094\u000b7\u0007ØA°Ê\u000f6¾\u0084\u001eõw{\u008d-ÄÏA(,\u0082\\Èw×\u0018ç6¬þ9Û+øeÈê\u008cW\u0090 \u0080\u0007:&\u0019¼\u0092Qy\u0010\u008dÞ\u0002Äêð¤\u009f±\u0000\u0093â·¡{{\u0010\u0014C§r·(®\u0018©¹\u0007÷\u001a\"e9\u0018;R\u008dä\tÌ%¨÷\u001c&¹Ø0i¾\u0007õ\r%\u0096\u00ad8l Oä,°\u0019\u001aù3\u0006×J\u0018Ë\u0003\u0014\u0011+\u0015ß\u0096®ö\u0098¬1ófQe>B% \u008c0Õ=VZÆóhJ×°E\r\u0004\u0000\u00125{»a¯]ÄtqÜWÃ+\u000bÌ K\u0099Ì\u0010ß¨\u008eCxk\u009aØH\u0016P\u0097\u0099\u0086\u0003\u0089È\u0012\u0097\u0003ôö[à:\u001e\u0001k"
          .length();
       char var5 = ' ';
-      int var13 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var14 = var6.substring(++var13, var13 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var22;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u001a\u0095¾(ïª\u0000C±£\u0091gÈ\u0013z\u000bõBù:e§SX\u001f\u001b\u0003¥r\u00ad©Ê\u0010ÞèÂÃ¾.\u0010îI\"c\u001bË8u\u009c";
+            var8 = "\u001a\u0095¾(ïª\u0000C±£\u0091gÈ\u0013z\u000bõBù:e§SX\u001f\u001b\u0003¥r\u00ad©Ê\u0010ÞèÂÃ¾.\u0010îI\"c\u001bË8u\u009c".length();
+            var5 = ' ';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var20;
-                  if ((var13 += var5) >= var8) {
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var9;
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[17];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     int[] var11 = new int[]{0, 1, 1, 5, 5, 4, 4, 0, 3, 2, 2, 6, 6, 7, 7, 3, 0, 3, 1, 2, 5, 6, 4, 7};
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var11;
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var20 = false;
+               var9[var7++] = var24;
+               if ((var4 += var5) >= var8) {
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var9;
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[17];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  int[] var11 = new int[]{0, 1, 1, 5, 5, 4, 4, 0, 3, 2, 2, 6, 6, 7, 7, 3, 0, 3, 1, 2, 5, 6, 4, 7};
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var11;
+                  return;
+               }
 
-                  var5 = var6.charAt(var13);
-                  break;
-               default:
-                  var9[var7++] = var20;
-                  if ((var13 += var5) < var8) {
-                     var5 = var6.charAt(var13);
-                     continue label27;
-                  }
-
-                  var6 = "\u001a\u0095¾(ïª\u0000C±£\u0091gÈ\u0013z\u000bõBù:e§SX\u001f\u001b\u0003¥r\u00ad©Ê\u0010ÞèÂÃ¾.\u0010îI\"c\u001bË8u\u009c";
-                  var8 = "\u001a\u0095¾(ïª\u0000C±£\u0091gÈ\u0013z\u000bõBù:e§SX\u001f\u001b\u0003¥r\u00ad©Ê\u0010ÞèÂÃ¾.\u0010îI\"c\u001bË8u\u009c".length();
-                  var5 = ' ';
-                  var13 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var14 = var6.substring(++var13, var13 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -496,5 +488,209 @@ public final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIl
             var5
          );
       }
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f358511334ff5627(
+      @NotNull Pose param1, @NotNull VertexConsumer param2, @NotNull Vector3f param3, char param4, @NotNull Vec3 param5, long param6, int param8, int param9
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$936ed89feaf82666(
+      long argument1Arg,
+      @NotNull PoseStack matricesArg,
+      @NotNull VertexConsumer bufferArg,
+      @NotNull AABB boxArg,
+      float argument5Arg,
+      float argument6Arg,
+      float argument7Arg,
+      float argument8Arg
+   ) {
+      argument1Arg = 16393339735398L;
+      argument1Arg = IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl ^ argument1Arg;
+      long var10 = argument1Arg ^ 70701294566655L;
+      Intrinsics.checkNotNullParameter(matricesArg, "matrices");
+      Intrinsics.checkNotNullParameter(bufferArg, "buffer");
+      Intrinsics.checkNotNullParameter(boxArg, "box");
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$caf9363e2ff842a2(
+         matricesArg,
+         bufferArg,
+         boxArg.minX,
+         boxArg.minY,
+         boxArg.minZ,
+         boxArg.maxX,
+         boxArg.maxY,
+         var10,
+         boxArg.maxZ,
+         argument5Arg,
+         argument6Arg,
+         argument7Arg,
+         argument8Arg
+      );
+   }
+
+   public final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$a42a33c598043e0c(
+      @NotNull PoseStack matricesArg,
+      @NotNull VertexConsumer bufferArg,
+      @NotNull AABB boxArg,
+      float argument4Arg,
+      long argument5Arg,
+      float argument6Arg,
+      float argument7Arg,
+      float argument8Arg
+   ) {
+      argument5Arg = 49749447488819L;
+      argument5Arg = IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl ^ argument5Arg;
+      long var10 = argument5Arg ^ 35485283938873L;
+      Intrinsics.checkNotNullParameter(matricesArg, "matrices");
+      Intrinsics.checkNotNullParameter(bufferArg, "buffer");
+      Intrinsics.checkNotNullParameter(boxArg, "box");
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7a866328a771cdcc(
+         matricesArg,
+         bufferArg,
+         (float)boxArg.minX,
+         (float)boxArg.minY,
+         (float)boxArg.minZ,
+         (float)boxArg.maxX,
+         var10,
+         (float)boxArg.maxY,
+         (float)boxArg.maxZ,
+         argument4Arg,
+         argument6Arg,
+         argument7Arg,
+         argument8Arg
+      );
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$caf9363e2ff842a2(
+      @NotNull PoseStack matricesArg,
+      @NotNull VertexConsumer bufferArg,
+      double argument3Arg,
+      double argument4Arg,
+      double argument5Arg,
+      double argument6Arg,
+      double argument7Arg,
+      long argument8Arg,
+      double argument9Arg,
+      float argument10Arg,
+      float argument11Arg,
+      float argument12Arg,
+      float argument13Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$7a866328a771cdcc(
+      @NotNull PoseStack matricesArg,
+      @NotNull VertexConsumer bufferArg,
+      float argument3Arg,
+      float argument4Arg,
+      float argument5Arg,
+      float argument6Arg,
+      long argument7Arg,
+      float argument8Arg,
+      float argument9Arg,
+      float argument10Arg,
+      float argument11Arg,
+      float argument12Arg,
+      float argument13Arg
+   ) {
+      argument7Arg = 122964902347016L;
+      argument7Arg = IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl ^ argument7Arg;
+      Intrinsics.checkNotNullParameter(matricesArg, "matrices");
+      Intrinsics.checkNotNullParameter(bufferArg, "buffer");
+      Matrix4f var10000 = matricesArg.last().pose();
+      Intrinsics.checkNotNullExpressionValue(var10000, "pose(...)");
+      Matrix4f var15 = var10000;
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument4Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument4Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument4Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument4Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument8Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument8Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument8Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument4Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument8Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument4Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument4Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument4Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument8Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument8Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument8Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument4Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument8Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument4Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument4Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument4Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument4Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument4Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument4Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument8Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument8Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument3Arg, argument8Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument8Arg, argument5Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument8Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument8Arg, argument9Arg
+      );
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         bufferArg, var15, argument10Arg, argument11Arg, argument12Arg, argument13Arg, argument6Arg, argument8Arg, argument9Arg
+      );
    }
 }

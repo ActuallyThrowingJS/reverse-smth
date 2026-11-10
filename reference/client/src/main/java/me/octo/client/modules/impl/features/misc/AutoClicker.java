@@ -117,47 +117,39 @@ public final class AutoClicker extends BooleanModule {
       int var8 = "¿_,9ùÔ&{\u008aõ«\u0086t\u009f^\u0001vO§»ô¡Á^\"\u0010\u0006@à\",\u0094(\u009eA¯\u008aDMß=ÅðMÛ¯\u0091-Â\u0015[cÅ\"\u009cç\u008ekÕ\u0001èÚ\u0085\u0003$Ì½å\u0098\u009d\u001b*£\u0010ª\u0016øðñï6Áú Ø\fdAµ%\u0010\u001cÁä\u001f%yn_!=ÌÑî\u0011VÝPÓWvjø§\u001a\u0090\u0084Î/ë\u00934Ûa\u008acál³y¿`\u0014\u0011©G ÛGüþR×ð\u0018\u001dÓ4U*ZôD\u008aóøði¢ÛV\u008a4ñ#\u001f8\u0087\u0018¯\u001eØ¶zAGëi\u0083iYc:\u0091¥Þüu\u0010Ê\u001fýbñ' V EJ¶ZÆæÄ\u0010ú¦eÀ\u009d\r¹õ¯ù:~\u0013¦\u000e\u001f"
          .length();
       char var5 = ' ';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "Ä÷¡ÈB¢\u001c\u009d\bê`ud\u000fñ.\u0010gNê\f>\u0014mÅ²pKu-\u0000¹º";
+            var8 = "Ä÷¡ÈB¢\u001c\u009d\bê`ud\u000fñ.\u0010gNê\f>\u0014mÅ²pKu-\u0000¹º".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var9;
-                     IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = new String[9];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new AutoClicker.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     INSTANCE = new AutoClicker();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var9;
+                  IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = new String[9];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new AutoClicker.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  INSTANCE = new AutoClicker();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "Ä÷¡ÈB¢\u001c\u009d\bê`ud\u000fñ.\u0010gNê\f>\u0014mÅ²pKu-\u0000¹º";
-                  var8 = "Ä÷¡ÈB¢\u001c\u009d\bê`ud\u000fñ.\u0010gNê\f>\u0014mÅ²pKu-\u0000¹º".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -257,6 +249,10 @@ public final class AutoClicker extends BooleanModule {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/modules/impl/features/misc/AutoClicker" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   private final void IlllIIlllIIIIIlllIllIIIIIIlIIIIIIllIllIlIlIlIIlIllIlIlllIIIlIIllIlIIlllIIIIlIIIIlllII$recovered$a3fb69152c987189(int param1, long param2) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

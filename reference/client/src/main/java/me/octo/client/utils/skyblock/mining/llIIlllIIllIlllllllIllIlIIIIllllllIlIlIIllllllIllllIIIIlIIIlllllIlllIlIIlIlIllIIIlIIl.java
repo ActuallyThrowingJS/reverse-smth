@@ -98,8 +98,6 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
       return new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(var16);
    }
 
-   // $VF: Could not properly define all variable types!
-   // Please report this to the Vineflower issue tracker, at https://github.com/Vineflower/vineflower/issues with a copy of the class file (if you have the rights to distribute it!)
    @NotNull
    public final llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
       long var1, int var3
@@ -107,35 +105,85 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
       var1 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII ^ var1;
       long var4 = var1 ^ 124083119599608L;
       long var6 = var1 ^ 105881911569709L;
-      int var9 = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var6);
-      <unknown> var10000;
-      <unknown> var8 = var10000_1;
-      int var10 = this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var4);
-
-      lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+      int[] var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
          2246295676941394345L, var1
       );
-      return switch (var3) {
-         case 90 -> {
-            Iterable var26 = this.tiles;
-            boolean var28 = false;
-            Collection var30 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var26, 10));
-            boolean var32 = false;
+      int var9 = this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var6);
+      int[] var8 = var10000;
+      if (var8 != null) {
+         int var28 = this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var4);
 
-            Collection var44;
-            label55: {
-               for (Object var36 : var26) {
-                  var44 = var30;
-                  if (var8 != null) {
-                     break label55;
-                  }
+         return switch (var3) {
+            case 90 -> {
+               Iterable var33 = this.tiles;
+               boolean var38 = false;
+               Collection var43 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var33, 10));
+               boolean var48 = false;
+               Iterator var53 = var33.iterator();
+               Collection var70;
+               if (var53.hasNext()) {
+                  Object var58 = var53.next();
+                  var70 = var43;
+               } else {
+                  var70 = var43;
+               }
 
-                  llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII var38 = (llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII)var36;
-                  boolean var40 = false;
-                  var30.add(
+               List var63 = (List)var70;
+               yield new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(var63);
+            }
+            case 180 -> {
+               Iterable var32 = this.tiles;
+               boolean var37 = false;
+               Collection var42 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var32, 10));
+               boolean var47 = false;
+               Iterator var52 = var32.iterator();
+               Collection var69;
+               if (var52.hasNext()) {
+                  Object var57 = var52.next();
+                  var69 = var42;
+               } else {
+                  var69 = var42;
+               }
+
+               List var64 = (List)var69;
+               yield new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(var64);
+            }
+            case 270 -> {
+               Iterable var31 = this.tiles;
+               boolean var36 = false;
+               Collection var41 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var31, 10));
+               boolean var46 = false;
+               Iterator var51 = var31.iterator();
+               Collection var68;
+               if (var51.hasNext()) {
+                  Object var56 = var51.next();
+                  var68 = var41;
+               } else {
+                  var68 = var41;
+               }
+
+               List var65 = (List)var68;
+               yield new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(var65);
+            }
+            default -> this;
+         };
+      } else {
+         int var10 = this.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var4);
+
+         return switch (var3) {
+            case 90 -> {
+               Iterable var30 = this.tiles;
+               boolean var35 = false;
+               var var40 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var30, 10));
+               boolean var45 = false;
+
+               for (Object var55 : var30) {
+                  llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII var60 = (llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII)var55;
+                  boolean var62 = false;
+                  var40.add(
                      new llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII(
-                        var38.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(),
-                        var9 - var38.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI()
+                        var60.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(),
+                        var9 - var60.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI()
                      )
                   );
                   if (var8 != null) {
@@ -143,32 +191,22 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
                   }
                }
 
-               var44 = var30;
+               List var21 = var40;
+               yield new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(var21);
             }
+            case 180 -> {
+               Iterable var29 = this.tiles;
+               boolean var34 = false;
+               var var39 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var29, 10));
+               boolean var44 = false;
 
-            List var21 = (List)var44;
-            yield new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(var21);
-         }
-         case 180 -> {
-            Iterable var25 = this.tiles;
-            boolean var27 = false;
-            Collection var29 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var25, 10));
-            boolean var31 = false;
-
-            Collection var43;
-            label44: {
-               for (Object var35 : var25) {
-                  var43 = var29;
-                  if (var8 != null) {
-                     break label44;
-                  }
-
-                  llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII var37 = (llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII)var35;
-                  boolean var39 = false;
-                  var29.add(
+               for (Object var54 : var29) {
+                  llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII var59 = (llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII)var54;
+                  boolean var61 = false;
+                  var39.add(
                      new llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII(
-                        var9 - var37.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(),
-                        var10 - var37.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI()
+                        var9 - var59.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(),
+                        var10 - var59.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI()
                      )
                   );
                   if (var8 != null) {
@@ -176,26 +214,16 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
                   }
                }
 
-               var43 = var29;
+               List var22 = var39;
+               yield new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(var22);
             }
+            case 270 -> {
+               Iterable var11 = this.tiles;
+               boolean var12 = false;
+               var var14 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var11, 10));
+               boolean var15 = false;
 
-            List var22 = (List)var43;
-            yield new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(var22);
-         }
-         case 270 -> {
-            Iterable var11 = this.tiles;
-            boolean var12 = false;
-            Collection var14 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var11, 10));
-            boolean var15 = false;
-
-            Collection var42;
-            label33: {
                for (Object var17 : var11) {
-                  var42 = var14;
-                  if (var8 != null) {
-                     break label33;
-                  }
-
                   llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII var18 = (llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII)var17;
                   boolean var19 = false;
                   var14.add(
@@ -209,14 +237,12 @@ public final class llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIll
                   }
                }
 
-               var42 = var14;
+               List var23 = var14;
+               yield new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(var23);
             }
-
-            List var23 = (List)var42;
-            yield new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl(var23);
-         }
-         default -> this;
-      };
+            default -> this;
+         };
+      }
    }
 
    @NotNull

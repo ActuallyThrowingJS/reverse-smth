@@ -54,50 +54,42 @@ public final class FarmingSettings {
       int var7 = "\"\u000b\u001e\u001d7\u000b´\u009eÿð\u009e\u008et±j³®=)È7Ò\u0096¬*!\u0088\u0087\u000fÛ¶mö\u001cèª\u009d Ï\u0099\u0018]iÔ×m®ß^:§rÚÞY{\u0088\u001e=W14\rWå\u0010ÀÓÑ\u00ad¤wå\u0085Ù\u0014ÆhÕ\u0015Î§(\"\u000b\u001e\u001d7\u000b´\u009eÿð\u009e\u008et±j³®=)È7Ò\u0096¬hä\u0006\u0002Êâ\\¬ÖÝÇ\u0089HQÂ\u0002"
          .length();
       char var4 = '(';
-      int var12 = -1;
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var13 = var5.substring(++var12, var12 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var21;
+         if ((var3 += var4) >= var7) {
+            var5 = "A\u007fÀüÑ\u0017¹x\u00078ñ\nÅd\u001a\u00978Ô\u008dÝxÑ/n1.5\u0083þ\u00800=\u0012§Ãj+âs\u0082q £Ói\u008eaï\u0011\u008fçÝ\u000f\u0014Ý\u008dÍ#ûHò£i\u0080¶lÍ\u009a\u008e\u0012\u0005WV";
+            var7 = "A\u007fÀüÑ\u0017¹x\u00078ñ\nÅd\u001a\u00978Ô\u008dÝxÑ/n1.5\u0083þ\u00800=\u0012§Ãj+âs\u0082q £Ói\u008eaï\u0011\u008fçÝ\u000f\u0014Ý\u008dÍ#ûHò£i\u0080¶lÍ\u009a\u008e\u0012\u0005WV"
+               .length();
+            var4 = '\u0010';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) >= var7) {
-                     INSTANCE = new FarmingSettings();
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        var0[4], var0[3], 1, 6, 4, 0, 32, null
-                     );
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        var0[2], var0[0], 1, 8, 4, 0, 32, null
-                     );
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new BooleanSetting(var0[1], var0[5], true);
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var19 = false;
+               var0[var6++] = var23;
+               if ((var3 += var4) >= var7) {
+                  INSTANCE = new FarmingSettings();
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     var0[4], var0[3], 1, 6, 4, 0, 32, null
+                  );
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     var0[2], var0[0], 1, 8, 4, 0, 32, null
+                  );
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new BooleanSetting(var0[1], var0[5], true);
+                  return;
+               }
 
-                  var4 = var5.charAt(var12);
-                  break;
-               default:
-                  var0[var6++] = var19;
-                  if ((var12 += var4) < var7) {
-                     var4 = var5.charAt(var12);
-                     continue label28;
-                  }
-
-                  var5 = "A\u007fÀüÑ\u0017¹x\u00078ñ\nÅd\u001a\u00978Ô\u008dÝxÑ/n1.5\u0083þ\u00800=\u0012§Ãj+âs\u0082q £Ói\u008eaï\u0011\u008fçÝ\u000f\u0014Ý\u008dÍ#ûHò£i\u0080¶lÍ\u009a\u008e\u0012\u0005WV";
-                  var7 = "A\u007fÀüÑ\u0017¹x\u00078ñ\nÅd\u001a\u00978Ô\u008dÝxÑ/n1.5\u0083þ\u00800=\u0012§Ãj+âs\u0082q £Ói\u008eaï\u0011\u008fçÝ\u000f\u0014Ý\u008dÍ#ûHò£i\u0080¶lÍ\u009a\u008e\u0012\u0005WV"
-                     .length();
-                  var4 = 16;
-                  var12 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var13 = var5.substring(++var12, var12 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

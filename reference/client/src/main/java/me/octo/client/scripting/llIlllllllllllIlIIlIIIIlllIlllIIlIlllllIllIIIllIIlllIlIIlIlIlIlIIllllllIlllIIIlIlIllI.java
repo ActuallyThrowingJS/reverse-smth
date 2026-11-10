@@ -74,7 +74,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       long var4 = var2 ^ 108821917123605L;
       Intrinsics.checkNotNullParameter(typeArg, "type");
       IIIIlllIlllIllIlllIIlIlIlIIIlIlIlllIlIlIlIIIlIlIllIlllIlIllllIlIlIIllllIllIllIlIIlIIl var6 = IIIIlllIlllIllIlllIIlIlIlIIIlIlIlllIlIlIlIIIlIlIllIlllIlIllllIlIlIIllllIllIllIlIIlIIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var4, typeArg);
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$620572c839bae1bc(var4, typeArg);
       boolean var8 = false;
       this.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl.add(var6);
       return var6;
@@ -140,7 +140,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       long var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ 78520744866794L;
       long var3 = var1 ^ 67271513807408L;
       me.octo.client.utils.skyblock.mining.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .lIIIlIIlIllIlIIIIIllIlIllllIIlIlIIIlIlIIIIIlIlllllIllllIIIIlllIlIlIlIlIIllIlIIIIIIIII(var3);
+         .lIIIlIIlIllIlIIIIIllIlIllllIIlIlIIIlIlIIIIIlIlllllIllllIIIIlllIlIlIlIlIIllIlIIIIIIIII$recovered$7a384aca9d6d572e(var3);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -158,17 +158,9 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
    @Export
    public final int drillSlot() {
-      try {
-         me.octo.client.utils.player.llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var10000 = me.octo.client.utils.skyblock.mining.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-            .llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl();
-         if (var10000 != null) {
-            return var10000.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
-         }
-      } catch (MatchException var1) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1);
-      }
-
-      return -1;
+      me.octo.client.utils.player.llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll var10000 = me.octo.client.utils.skyblock.mining.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+         .llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl();
+      return var10000 != null ? var10000.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI() : -1;
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -195,7 +187,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       long var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ 84815141216426L;
       long var3 = var1 ^ 113838948654800L;
       this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII
-         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3);
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d071de42d3da131a(var3);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -246,43 +238,27 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       int var9 = 0;
       int var10 = -1;
 
-      label44:
       while (true) {
-         int var13 = var10;
-
-         label41:
-         while (var13 < 2) {
-            if (var7 != null) {
-               return -1;
-            }
-
-            int var11 = -1;
-
-            while (var11 < 2) {
-               var13 = var8.getBlockState(var4.offset(var10, 0, var11)).isAir();
-               if (var7 != null) {
-                  continue label41;
-               }
-
-               if (var13 == 0) {
-                  var9++;
-               }
-
-               var11++;
-               if (var7 != null) {
-                  break;
-               }
-            }
-
-            var10++;
-            if (var7 == null) {
-               continue label44;
-            }
+         if (var10 >= 2) {
+            var13 = var9;
             break;
          }
 
-         return var9;
+         var13 = -1;
+         if (var7 != null) {
+            break;
+         }
+
+         for (int var11 = -1; var11 < 2; var11++) {
+            if (!var8.getBlockState(var4.offset(var10, 0, var11)).isAir()) {
+               var9++;
+            }
+         }
+
+         var10++;
       }
+
+      return var13;
    }
 
    private final List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(int param1, long param2, double param4) {
@@ -345,76 +321,58 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       double var39 = 0.0;
       Iterator var26 = var23.iterator();
 
+      label45:
       while (true) {
          Iterator var40 = var26;
 
-         do {
-            if (!var40.hasNext()) {
-               return var39;
-            }
-
+         while (var40.hasNext()) {
             var40 = var26;
-         } while (var13 != null);
-
-         Triple var27 = (Triple)var26.next();
-         Vec3 var28 = (Vec3)var27.component1();
-         Vec3 var29 = (Vec3)var27.component2();
-         var10000 = (ClientLevel)var27.component3();
-         Intrinsics.checkNotNullExpressionValue(
-            var10000, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"a">(20219, 5887833712539758610L ^ var6)
-         );
-         BlockPos var30 = (BlockPos)var10000;
-         if (var14.getBlockState(var30).isAir()) {
-            Vec3 var42 = var29.subtract(var15);
-            Intrinsics.checkNotNullExpressionValue(
-               var42, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"a">(5031, 2688536936949362041L ^ var6)
-            );
-            Vec3 var31 = var42;
-            double var32 = var31.lengthSqr();
-
-            label49: {
-               try {
-                  var43 = var32;
-                  if (var13 != null) {
-                     break label49;
-                  }
-
-                  if (var32 < 1.0E-6) {
-                     continue;
-                  }
-               } catch (MatchException var37) {
-                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                     var37, 1091361297337008851L, var6
+            if (var13 == null) {
+               Triple var27 = (Triple)var26.next();
+               Vec3 var28 = (Vec3)var27.component1();
+               Vec3 var29 = (Vec3)var27.component2();
+               var10000 = (ClientLevel)var27.component3();
+               Intrinsics.checkNotNullExpressionValue(
+                  var10000, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"a">(20219, 5887833712539758610L ^ var6)
+               );
+               BlockPos var30 = (BlockPos)var10000;
+               if (var14.getBlockState(var30).isAir()) {
+                  Vec3 var42 = var29.subtract(var15);
+                  Intrinsics.checkNotNullExpressionValue(
+                     var42, IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"a">(5031, 2688536936949362041L ^ var6)
                   );
-               }
+                  Vec3 var31 = var42;
+                  double var32 = var31.lengthSqr();
 
-               var43 = Math.abs(var31.normalize().dot(var28)) / var32;
-            }
-
-            double var34 = var43;
-
-            label42: {
-               try {
-                  if (var13 != null) {
-                     break label42;
+                  try {
+                     if (var32 < 1.0E-6) {
+                        continue label45;
+                     }
+                  } catch (MatchException var37) {
+                     throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                        var37, 1091361297337008851L, var6
+                     );
                   }
 
-                  if (!(var34 > var39)) {
-                     continue;
+                  double var34 = Math.abs(var31.normalize().dot(var28)) / var32;
+
+                  try {
+                     if (!(var34 > var39)) {
+                        continue label45;
+                     }
+                  } catch (MatchException var36) {
+                     throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                        var36, 1091361297337008851L, var6
+                     );
                   }
-               } catch (MatchException var36) {
-                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                     var36, 1091361297337008851L, var6
-                  );
+
+                  var39 = var34;
                }
-
-               var39 = var34;
-            }
-
-            if (var13 != null) {
-               return var39;
+               continue label45;
             }
          }
+
+         return var39;
       }
    }
 
@@ -494,7 +452,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       long var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ 29100774836346L;
       long var3 = var1 ^ 119018686416845L;
       return me.octo.client.utils.skyblock.mining.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .lIlIlIlIIIlIlIIIIIIIIIIIlIllIIIIIIIllIIIIlIIIIIlIllIIIIlIIIIlIIlIllIllIlIlIllIIIlIlll(var3);
+         .lIlIlIlIIIlIlIIIIIIIIIIIlIllIIIIIIIllIIIIlIIIIIlIllIIIIlIIIIlIIlIllIllIlIlIllIIIlIlll$recovered$5826a75d04610734(var3);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -504,7 +462,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       int var3 = (int)((var1 ^ 25201183955582L) >>> 48);
       long var4 = (var1 ^ 25201183955582L) << 16 >>> 16;
       return me.octo.client.utils.skyblock.mining.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .lIlIlIlIIIlIlIIIIIIIIIIIlIllIIIIIIIllIIIIlIIIIIlIllIIIIlIIIIlIIlIllIllIlIlIllIIIlIlll((short)var3, var4);
+         .lIlIlIlIIIlIlIIIIIIIIIIIlIllIIIIIIIllIIIIlIIIIIlIllIIIIlIIIIlIIlIllIllIlIlIllIIIlIlll$recovered$1f817e4e02e797be((short)var3, var4);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -520,7 +478,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       long var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ 77134338455143L;
       long var3 = var1 ^ 15395720665783L;
       return me.octo.client.utils.skyblock.mining.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll(false, var3);
+         .lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$ff866b4d3ccbc6d2(false, var3);
    }
 
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
@@ -568,7 +526,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       int var7 = (int)((var1 ^ 23418174144790L) << 56 >>> 56);
       me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = lIllIllIIlIIlllIIIIIlIIlIlIIIIlIIlIllIIIIIIIIIlIIIIlIIlIlllIIIIIlIIIlIIIIIllIllIlIIIl.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll();
       Iterable var9 = me.octo.client.utils.skyblock.mining.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .lIlllIIIIIIIIIIllIlIllIlIllIIlIIlIIIIlIllIllIlIIIllIlllIlIIlllIIlIIIllIllIlIIIIllIlll(var5, (byte)var7);
+         .lIlllIIIIIIIIIIllIlIllIlIllIIlIIlIIIIlIllIllIlIIIllIlllIlIIlllIIlIIIllIllIlIIIIllIlll$recovered$84b9b2c1a154d222(var5, (byte)var7);
       boolean var10 = false;
       Collection var12 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var9, 10));
       boolean var13 = false;
@@ -585,7 +543,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
 
             Entity var16 = (Entity)var15;
             boolean var17 = false;
-            var12.add(this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3, var16));
+            var12.add(this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e38e18f3340fd377(var3, var16));
             if (var8 == null) {
                continue;
             }
@@ -606,7 +564,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       long var3 = var1 ^ 100674277385434L;
       long var5 = var1 ^ 66969116182060L;
       Iterable var8 = me.octo.client.utils.skyblock.mining.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .IllIlllllIIlIIIIIIIllIllIlIllIIlllIIIIIlIlIIllIlIlIllIlIIIlIIIlllIlIlIlIlllIIllIlIIlI(var3);
+         .IllIlllllIIlIIIIIIIllIllIlIllIIlllIIIIIlIlIIllIlIlIllIlIIIlIIIlllIlIlIlIlllIIllIlIIlI$recovered$af2080449edc4b09(var3);
       me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = lIllIllIIlIIlllIIIIIlIIlIlIIIIlIIlIllIIIIIIIIIlIIIIlIIlIlllIIIIIlIIIlIIIIIllIllIlIIIl.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll();
       boolean var9 = false;
       me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var7 = var10000;
@@ -624,7 +582,7 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
 
             Entity var15 = (Entity)var14;
             boolean var16 = false;
-            var11.add(this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var15));
+            var11.add(this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e38e18f3340fd377(var5, var15));
             if (var7 == null) {
                continue;
             }
@@ -805,44 +763,36 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
       String var6 = "~%ÇÒ\u0088\u0092\u000edu\u0086Çw (²\u008e\u0010\u0090÷DË/¥\u0092«\u001d\u0001<\u0019IO\u0086> \u001a4\u0011\u0094\u0015%+\u0088¶@wù-\u0001%÷\u009cº\u0006eJF&±»\u0015\u001cê?Öæ\u0090 `\tGÚ\u0001\u0001þ@\u009f;\u009bÕàEî\u009bÃ¬\u000b+\r½\u0095´Oþ¢ÇMók\u0099 ²Þú)\u0011; æ cÖ\u007fÜ\u009cÞå\u0083\u0082ä8* Ç6JpcÈ¥«Ò»\u0010±vô\u007f8:¢dåIÈ&úçúm\u0010N_½\u0089\u0085¬\u009fcßj4\u009faÓù½\u0010cáP5\u0083Ò©\u0012¹ô÷ªÖPÆÆ\u0018n\u0019WºåiNU\u008d3(8\u009eÄÀ\u000f&pt¨Óµ\u0000\u0085 Q\u0010º\u008d\u000eÛ±ÞkÚ^Úi\u0005[£6J$²ß\u009a\u00ad\u001cbè\u0014\u0091V\u001e\u009dÞ\u0018\u008f`Êì\u0018Í\u0091O:á\r\u0097ä=\u008a\u0019@Dß66òÛÊ\u0010A]@\u008aM,á\u0080\u008bA\r\fa60Ý\u0018¿MÁ_\u0012T\u008d\u000bc\u009a\txÌ\u007f²\u0086C \u0002Ö¢ô³\u000e [)¢MÒ¸\nú`× <ÑÞÑÕ¡3\u0007ík;©·Ü\\\\Ç\n\u001eÏ\u007f aOc{\u0011ê\u008e[°Ùl6Ö\u001f\u0091W\u007f&¿8g©î\u008cô\u0090\u0010û4§×* \u008at¡Z\u008b\u0015(¼W\u00995ý2©HªwqåÒ:?+\u00ad>Õ7}\t[)\u0085\u0010X\u007f}Òªr·°\u001f.q\u001cÜ\u0081\u009b\u001d ÆJ¥ýV«iÃ\u0086©>C÷ÔÈ\u009aó\u0016\nè\u000f¢îiÉÿXBî7\"\u008d\u0010Ô>¸E\u0096\u0011\\Üâ\u0010\u0018i\u000e«Ï¹(\u0091ít\u000b\u001e÷'&r\u0000þ\u0082wDËQþ!'è;\u0018q\u001e1©Ð\u0002ªíá7Þ¥\u0084Övà3ï ·æÓ÷wv1\u008aäoD&/ÿÖ\u0093!\u0015Î)\u001e\u0094zL\u0018ü\u0000®+âÜµ uc\u0019\u0016°¡ø<æ\u0005c´§æíÅÉJ´w\u000bs÷Ï-TÑ.¬\u000b\u009f¦\u00187ºô6\u001aa\u0095Á~(\u0011u\u0081¹\f¡\bÌÅ§\u009c}Ø³ £zno]å¸¸ò\u00997)I\u0001½¹Ë²\u008den¯\u008ez\u0095U¹¯+|Þ& \u008böá.zÀ ÆôFf¸[#DÏ\u0010\u0089?/âó2(u_»\ný\u00896ñ\u0010ië\u0006,+~´vbS\u0096tÙèóg\u0010Ü\u0098Ìö+é½\u0096)Å\u0082\u0001\u0016ï\u0085Ñ\u0010\u0092©¨\u0004ÑlýÊd®b\u008a;®´Ò ²\u009eÖ\u0090v?6Õ ¥\u001f\u0098\u0019\u001cÙã\u001f·UçJËC!ðÙ\u0006\u008dJ\u000e+Ä(Àº \\\u009bÍ¤q\n\u001b[\u0086\u009b\u00ad\u00ad®Þ\u001f¥ÐÄê'C\u000f¯Ii\rµo¤î\u0091²æ_\u00167\\ \u008b+oðcD \u0004±\u0082¥Ë·Ô#QÚAþÅZ\u0006ê]\u001d\u0015%è\u0011e\u0019*\u0010\u0088Ø\u0097¶\u001eÆ&;:\u0011×Vê\u0001Ö1\u0010éÖh¯\u008bQ¥Å!-\u001dQ5&¸¡\u0010\u008bö6üc§%Õ\u007f\u009b¾\u0092@Fº\u0017 Øn\r\u008b\u0013y½¨J`{®\u0090óz?ñÐùPÔ8Ç\u0004(9Ø\u007fhmßµ êþµÁÄ\u008c×ð \u008cn}/p\u0087\u0082\u0018d³í\u0006t4`«?áµwuÐ\u0088\u0010\u0093\u0002\u001e\n4li\u000b½u¡Ùc£Se §zTÃQ0#Ó!î\u0085\u0005m\u0002®Ú¤K\u0094ê:¶\u0096|àE\u0012ëIè\u0004\u0006 \u009eéÿe\n\u001fËt\\üàï,\rÄËº\u008fÈæe©B\u0005lt°[ÕÔáº\u0010¡Mk4\u0080Ö¥\u0006\u008fóFê\u008d\u008a{\u0092\u0018\u0090tq\"\u00068\u0082S¡Ï\u0017È\u008f*xÞb²yÐ¦8M  \b\\Ô\u0004¿Þ2dò\u0085ÒKe\u0016\u0017\u007fúÑÞÚÉ\u0019*¾ÌFý2ø\u0015È\u001f\u00103µW\u0004Pø¾lYý\u0095\u000eÆ\bòÑ\u0010\u0007qv\u0088ä\u0097<\u0090LÚ¦/À\u0002¨2\u0010&_Î\u007fZ\"\u001e\u0098Jâ¼¾â\u001dlE\u0010 \u0017¹ï\u0086M ¬[{zÒ7ôÚ[(r¾HÓz9oÓH\u0099. Þù\nÍnú¹ÊôqÍ\rÞ\u0012²Ó\u0085H\u000bæ\u0095ä¡Gô\u008aÙç\u0010Ð%\u008f\u0001QØ\tã3kF¯8^\u0093$(?ýv+³\u001eb-d\u0007M{¢\u001cG\u0098:!ø\u0083\u009f\u0013g+\u008c(±\u0090ÄLÄ\u00001Â;?Î]¤ñ";
       int var8 = "~%ÇÒ\u0088\u0092\u000edu\u0086Çw (²\u008e\u0010\u0090÷DË/¥\u0092«\u001d\u0001<\u0019IO\u0086> \u001a4\u0011\u0094\u0015%+\u0088¶@wù-\u0001%÷\u009cº\u0006eJF&±»\u0015\u001cê?Öæ\u0090 `\tGÚ\u0001\u0001þ@\u009f;\u009bÕàEî\u009bÃ¬\u000b+\r½\u0095´Oþ¢ÇMók\u0099 ²Þú)\u0011; æ cÖ\u007fÜ\u009cÞå\u0083\u0082ä8* Ç6JpcÈ¥«Ò»\u0010±vô\u007f8:¢dåIÈ&úçúm\u0010N_½\u0089\u0085¬\u009fcßj4\u009faÓù½\u0010cáP5\u0083Ò©\u0012¹ô÷ªÖPÆÆ\u0018n\u0019WºåiNU\u008d3(8\u009eÄÀ\u000f&pt¨Óµ\u0000\u0085 Q\u0010º\u008d\u000eÛ±ÞkÚ^Úi\u0005[£6J$²ß\u009a\u00ad\u001cbè\u0014\u0091V\u001e\u009dÞ\u0018\u008f`Êì\u0018Í\u0091O:á\r\u0097ä=\u008a\u0019@Dß66òÛÊ\u0010A]@\u008aM,á\u0080\u008bA\r\fa60Ý\u0018¿MÁ_\u0012T\u008d\u000bc\u009a\txÌ\u007f²\u0086C \u0002Ö¢ô³\u000e [)¢MÒ¸\nú`× <ÑÞÑÕ¡3\u0007ík;©·Ü\\\\Ç\n\u001eÏ\u007f aOc{\u0011ê\u008e[°Ùl6Ö\u001f\u0091W\u007f&¿8g©î\u008cô\u0090\u0010û4§×* \u008at¡Z\u008b\u0015(¼W\u00995ý2©HªwqåÒ:?+\u00ad>Õ7}\t[)\u0085\u0010X\u007f}Òªr·°\u001f.q\u001cÜ\u0081\u009b\u001d ÆJ¥ýV«iÃ\u0086©>C÷ÔÈ\u009aó\u0016\nè\u000f¢îiÉÿXBî7\"\u008d\u0010Ô>¸E\u0096\u0011\\Üâ\u0010\u0018i\u000e«Ï¹(\u0091ít\u000b\u001e÷'&r\u0000þ\u0082wDËQþ!'è;\u0018q\u001e1©Ð\u0002ªíá7Þ¥\u0084Övà3ï ·æÓ÷wv1\u008aäoD&/ÿÖ\u0093!\u0015Î)\u001e\u0094zL\u0018ü\u0000®+âÜµ uc\u0019\u0016°¡ø<æ\u0005c´§æíÅÉJ´w\u000bs÷Ï-TÑ.¬\u000b\u009f¦\u00187ºô6\u001aa\u0095Á~(\u0011u\u0081¹\f¡\bÌÅ§\u009c}Ø³ £zno]å¸¸ò\u00997)I\u0001½¹Ë²\u008den¯\u008ez\u0095U¹¯+|Þ& \u008böá.zÀ ÆôFf¸[#DÏ\u0010\u0089?/âó2(u_»\ný\u00896ñ\u0010ië\u0006,+~´vbS\u0096tÙèóg\u0010Ü\u0098Ìö+é½\u0096)Å\u0082\u0001\u0016ï\u0085Ñ\u0010\u0092©¨\u0004ÑlýÊd®b\u008a;®´Ò ²\u009eÖ\u0090v?6Õ ¥\u001f\u0098\u0019\u001cÙã\u001f·UçJËC!ðÙ\u0006\u008dJ\u000e+Ä(Àº \\\u009bÍ¤q\n\u001b[\u0086\u009b\u00ad\u00ad®Þ\u001f¥ÐÄê'C\u000f¯Ii\rµo¤î\u0091²æ_\u00167\\ \u008b+oðcD \u0004±\u0082¥Ë·Ô#QÚAþÅZ\u0006ê]\u001d\u0015%è\u0011e\u0019*\u0010\u0088Ø\u0097¶\u001eÆ&;:\u0011×Vê\u0001Ö1\u0010éÖh¯\u008bQ¥Å!-\u001dQ5&¸¡\u0010\u008bö6üc§%Õ\u007f\u009b¾\u0092@Fº\u0017 Øn\r\u008b\u0013y½¨J`{®\u0090óz?ñÐùPÔ8Ç\u0004(9Ø\u007fhmßµ êþµÁÄ\u008c×ð \u008cn}/p\u0087\u0082\u0018d³í\u0006t4`«?áµwuÐ\u0088\u0010\u0093\u0002\u001e\n4li\u000b½u¡Ùc£Se §zTÃQ0#Ó!î\u0085\u0005m\u0002®Ú¤K\u0094ê:¶\u0096|àE\u0012ëIè\u0004\u0006 \u009eéÿe\n\u001fËt\\üàï,\rÄËº\u008fÈæe©B\u0005lt°[ÕÔáº\u0010¡Mk4\u0080Ö¥\u0006\u008fóFê\u008d\u008a{\u0092\u0018\u0090tq\"\u00068\u0082S¡Ï\u0017È\u008f*xÞb²yÐ¦8M  \b\\Ô\u0004¿Þ2dò\u0085ÒKe\u0016\u0017\u007fúÑÞÚÉ\u0019*¾ÌFý2ø\u0015È\u001f\u00103µW\u0004Pø¾lYý\u0095\u000eÆ\bòÑ\u0010\u0007qv\u0088ä\u0097<\u0090LÚ¦/À\u0002¨2\u0010&_Î\u007fZ\"\u001e\u0098Jâ¼¾â\u001dlE\u0010 \u0017¹ï\u0086M ¬[{zÒ7ôÚ[(r¾HÓz9oÓH\u0099. Þù\nÍnú¹ÊôqÍ\rÞ\u0012²Ó\u0085H\u000bæ\u0095ä¡Gô\u008aÙç\u0010Ð%\u008f\u0001QØ\tã3kF¯8^\u0093$(?ýv+³\u001eb-d\u0007M{¢\u001cG\u0098:!ø\u0083\u009f\u0013g+\u008c(±\u0090ÄLÄ\u00001Â;?Î]¤ñ"
          .length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0086\u009aGÚRÃ*µ\u00959Ç\u0013ÚQG>âò°\\|jh\u009a\u0010GÙÔ\u001a/\u0003´]a KK\u001e$ ì";
+            var8 = "\u0086\u009aGÚRÃ*µ\u00959Ç\u0013ÚQG>âò°\\|jh\u009a\u0010GÙÔ\u001a/\u0003´]a KK\u001e$ ì".length();
+            var5 = '\u0018';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var9;
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[51];
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var9;
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[51];
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0086\u009aGÚRÃ*µ\u00959Ç\u0013ÚQG>âò°\\|jh\u009a\u0010GÙÔ\u001a/\u0003´]a KK\u001e$ ì";
-                  var8 = "\u0086\u009aGÚRÃ*µ\u00959Ç\u0013ÚQG>âò°\\|jh\u009a\u0010GÙÔ\u001a/\u0003´]a KK\u001e$ ì".length();
-                  var5 = 24;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -948,6 +898,158 @@ public final class llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIl
                + var2.toString(),
             var5
          );
+      }
+   }
+
+   private final double IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$9be54052ae7a6bca(
+      long var1, BlockPos var3, BlockState var4
+   ) {
+      var1 = 119971123123448L;
+      var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
+      long var10001 = var1 ^ 19539923654812L;
+      int var5 = (int)((var1 ^ 19539923654812L) >>> 32);
+      int var6 = (int)((var1 ^ 19539923654812L) << 32 >>> 48);
+      int var7 = (int)(var10001 << 48 >>> 48);
+      return RangesKt.coerceIn(
+         this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var3, var5, var4, (short)var6, (char)var7) / 0.05, 0.0, 1.0
+      );
+   }
+
+   private final Vec3 llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$bffc9576e0c2ed69(BlockPos var1, long var2) {
+      var2 = 33029363159228L;
+      var2 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var2;
+      long var4 = var2 ^ 128137534054969L;
+      long var6 = var2 ^ 90577636300609L;
+      return this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f892db8a2f1428bd(
+         var1,
+         me.octo.client.utils.IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+            .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$974d2a3425e3891d(var6),
+         var4
+      );
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$65177a34c21a133d(
+      long param1, RemotePlayer param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$3a62c5b6730f3452(
+      int param1, long param2, double param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final Vec3 IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f892db8a2f1428bd(
+      BlockPos param1, Vec3 param2, long param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final ProxyObject IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e38e18f3340fd377(
+      long var1, Entity var3
+   ) {
+      var1 = 72095116797650L;
+      var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
+      long var4 = var1 ^ 28169208108438L;
+      long var6 = var1 ^ 24001648537130L;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var8 = lIllIllIIlIIlllIIIIIlIIlIlIIIIlIIlIllIIIIIIIIIlIIIIlIIlIlllIIIIIlIIIlIIIIIllIllIlIIIl.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll();
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = var8;
+      Vec3 var9 = me.octo.client.utils.player.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5ff9129b844b6b61(
+         var3, var4
+      );
+
+      label24: {
+         label28: {
+            try {
+               if (var10000 == null) {
+                  var20 = this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.player;
+                  if (this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.player != null) {
+                     break label28;
+                  }
+               }
+            } catch (MatchException var17) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
+            }
+
+            var21 = 0.0;
+            break label24;
+         }
+
+         LocalPlayer var14 = var20;
+         boolean var15 = false;
+         var21 = Math.sqrt(var3.distanceToSqr((Entity)var14));
+      }
+
+      double var10 = var21;
+      Pair[] var13 = new Pair[]{
+         TuplesKt.to("id", var3.getId()),
+         TuplesKt.to("name", var3.getName().getString()),
+         TuplesKt.to("type", var3.getType().getDescriptionId()),
+         TuplesKt.to("x", var9.x),
+         TuplesKt.to("y", var9.y),
+         TuplesKt.to("z", var9.z),
+         TuplesKt.to("dist", var10),
+         TuplesKt.to(
+            "pos",
+            lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+               .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e377ab4ef24e01f6(
+                  var6, new Vec3(var9.x, var9.y, var9.z)
+               )
+         ),
+         TuplesKt.to("player", var3 instanceof RemotePlayer)
+      };
+      ProxyObject var12 = ProxyObject.fromMap(MapsKt.linkedMapOf(var13));
+      Intrinsics.checkNotNullExpressionValue(var12, "fromMap(...)");
+      return var12;
+   }
+
+   public final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$a0ecb259bd141067(long var1) {
+      var1 = 65295055669869L;
+      var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
+      long var3 = var1 ^ 17541580327914L;
+      this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2d59df4c952cbf90(var3);
+      this.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl.clear();
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2d59df4c952cbf90(long var1) {
+      var1 = 85373569406761L;
+      var1 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var1;
+      long var3 = var1 ^ 113315045091667L;
+      Iterable var6 = this.IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+      boolean var7 = false;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = lIllIllIIlIIlllIIIIIlIIlIlIIIIlIIlIllIIIIIIIIIlIIIIlIIlIlllIIIIIlIIIlIIIIIllIllIlIIIl.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll();
+      Iterator var8 = var6.iterator();
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var5 = var10000;
+
+      while (true) {
+         if (var8.hasNext()) {
+            Object var9 = var8.next();
+            if (var5 != null) {
+               break;
+            }
+
+            IIIIlllIlllIllIlllIIlIlIlIIIlIlIlllIlIlIlIIIlIlIllIlllIlIllllIlIlIIllllIllIllIlIIlIIl var10 = (IIIIlllIlllIllIlllIIlIlIlIIIlIlIlllIlIlIlIIIlIlIllIlllIlIllllIlIlIIllllIllIllIlIIlIIl)var9;
+            boolean var11 = false;
+            llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI var12 = this;
+
+            try {
+               llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI var18 = var12;
+               boolean var14 = false;
+               var10.stop();
+               var18 = (llIlllllllllllIlIIlIIIIlllIlllIIlIlllllIllIIIllIIlllIlIIlIlIlIlIIllllllIlllIIIlIlIllI)Result.constructor-impl(Unit.INSTANCE);
+            } catch (Throwable var15) {
+               Object var13 = Result.constructor-impl(ResultKt.createFailure(var15));
+            }
+
+            if (var5 == null) {
+               continue;
+            }
+         }
+
+         this.lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII
+            .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d071de42d3da131a(var3);
+         break;
       }
    }
 }

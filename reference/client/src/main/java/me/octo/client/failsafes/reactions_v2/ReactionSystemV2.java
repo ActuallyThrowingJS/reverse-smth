@@ -34,28 +34,16 @@ public final class ReactionSystemV2 {
    }
 
    public final boolean isActive() {
-      try {
-         if (IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl != null) {
-            return IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
-         }
-      } catch (MatchException var1) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1);
-      }
-
-      return false;
+      return IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl != null
+         ? IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII()
+         : false;
    }
 
    @Nullable
    public final String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI() {
-      try {
-         if (IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl != null) {
-            return IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
-         }
-      } catch (MatchException var1) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1);
-      }
-
-      return null;
+      return IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl != null
+         ? IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI()
+         : null;
    }
 
    public final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(long param1) {
@@ -105,46 +93,40 @@ public final class ReactionSystemV2 {
       String var4 = "\u0011n'|\tn\u0098:¾©µ\u0007!ØXK\u0087Ì\u001aw\u0091½\u00965\u0091|\u008aÊú·9\u0081\u0010^\" RYoÔÉ)\u008fDÿvs÷\u0015";
       int var6 = "\u0011n'|\tn\u0098:¾©µ\u0007!ØXK\u0087Ì\u001aw\u0091½\u00965\u0091|\u008aÊú·9\u0081\u0010^\" RYoÔÉ)\u008fDÿvs÷\u0015".length();
       char var3 = ' ';
-      int var14 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var15 = var4.substring(++var14, var14 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var23;
+         if ((var2 += var3) >= var6) {
+            var4 = "\u0019\u001c\u00054\nÈe4;Ì\u008eÆ\\¡ÒU@_íK\fT\u001e#\u0089U\u009acÎÔù\u001c¶9\u0089ßÎq¾\u009a çÂ\u008bd=¥\u008bÞ®ýY!bÎ©jÁÝ\u001fîK¶(NðîAvÄ\n}Ó";
+            var6 = "\u0019\u001c\u00054\nÈe4;Ì\u008eÆ\\¡ÒU@_íK\fT\u001e#\u0089U\u009acÎÔù\u001c¶9\u0089ßÎq¾\u009a çÂ\u008bd=¥\u008bÞ®ýY!bÎ©jÁÝ\u001fîK¶(NðîAvÄ\n}Ó"
+               .length();
+            var3 = '(';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var15.getBytes("ISO-8859-1"));
-            String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var21;
-                  if ((var14 += var3) >= var6) {
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var7;
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[4];
-                     INSTANCE = new ReactionSystemV2();
-                     PolinexAccessor.INSTANCE.eventBus.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(INSTANCE, var11);
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var25 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var21 = false;
+               var7[var5++] = var25;
+               if ((var2 += var3) >= var6) {
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var7;
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[4];
+                  INSTANCE = new ReactionSystemV2();
+                  PolinexAccessor.INSTANCE
+                     .eventBus
+                     .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$864ed80a9d741ba9(INSTANCE, var11);
+                  return;
+               }
 
-                  var3 = var4.charAt(var14);
-                  break;
-               default:
-                  var7[var5++] = var21;
-                  if ((var14 += var3) < var6) {
-                     var3 = var4.charAt(var14);
-                     continue label27;
-                  }
-
-                  var4 = "\u0019\u001c\u00054\nÈe4;Ì\u008eÆ\\¡ÒU@_íK\fT\u001e#\u0089U\u009acÎÔù\u001c¶9\u0089ßÎq¾\u009a çÂ\u008bd=¥\u008bÞ®ýY!bÎ©jÁÝ\u001fîK¶(NðîAvÄ\n}Ó";
-                  var6 = "\u0019\u001c\u00054\nÈe4;Ì\u008eÆ\\¡ÒU@_íK\fT\u001e#\u0089U\u009acÎÔù\u001c¶9\u0089ßÎq¾\u009a çÂ\u008bd=¥\u008bÞ®ýY!bÎ©jÁÝ\u001fîK¶(NðîAvÄ\n}Ó"
-                     .length();
-                  var3 = '(';
-                  var14 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var15 = var4.substring(++var14, var14 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -244,5 +226,9 @@ public final class ReactionSystemV2 {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/failsafes/reactions_v2/ReactionSystemV2" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   public final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$d2145814ffcad93f(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

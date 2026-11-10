@@ -113,7 +113,7 @@ public final class CustomScoreboard extends BooleanModule {
    }
 
    @SubscribeEvent
-   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull ScoreboardEvent eArg) {
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull ScoreboardEvent param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
@@ -169,52 +169,44 @@ public final class CustomScoreboard extends BooleanModule {
       int var6 = "Ó'\u0086ÄÒ\u001e»\u0087íþ\u0081D\u0007\u007fóàbiùøÇ\u009aÞ\u0088îô<¬ìCA\u0082¨-o%o\u001c`\u0004·\u0090\u0087\u0080¿\u0093\u001a\u0099Òò\u007fò`\u001dõ\u0001]à\u0002#è¤\u009f\u009c9Å#\u001fùûÇ×\u0082CJº0ÝÅ&\u0086±ZxheÂ\u0014\u0017\u000f\u001cÀJ\u009cõo!¸óS\u009c¥\u001f&\u001fl!Ï¯v\u000eº\u0094F³\b¡ùãÅ×\u0099%W|\u0099Æ£¡,â\u009awäÍUPüO¸\"H»u7nåx\u0095¯°Ã\u0096\u008fWY)í©ß\u0001]\u009bô!Ä&\u000f9àLé\u0006°\u0091zù7Évì\u0001ö\u008dxàÓ\u0083RHgõÜ\u0007`\u000f¨\u007fî»ñ é\u0007r\u0003\u0012\u0019Â0þ±[ùQÉ$`Ñ\u0093Y&\u0000µåï~Î*r\u0014g\u000bø(²z6\u0012\u0011¢(Oi\u009b5\u0013:k\u000eÑR=\u0083@¶ÄL\u009dO|de2\u00811Ù\u0087vO\u001b\u0096\u001a3k\u00101?»³\u008d\u008fËäÛR\u0088Ãñ \u0002¡\u0018\u0096Ö#¹\u007fF\u0002\u0086®qÌwÉ\u001f;Í¶ö\u001b|¶-\u008aÁ\u0010m@©\u000e¥=Þ\u0092*æð\u0097Å\rÈ\u0081(2.±´!|~AÓõ\u0080\u0092_â\u008aÙ¯N\u0005ÃyÚ?VvÚ\u009eëìÞõ\u001aÚ='ê\u0015HÄâ\u0010\bG3á\u0081¼B¢\u0086\u001a\u00950;\u000b¤K(¢A\u009fEEc\u0095#]\u0092eúqJ÷\u0015yîÙ\u007ffY3;Ý\u0018\u000eëï¢\u001eV.Ù(àg¾`¾8àÇ\u009aåt\u0094\u0018QÔ\u0081JÙ(\u009ebøý_/W\u0088³\u0004\u0015°I¢\u0011\u0006é{ó·¼jÉXÁÉ¡Ü^\u0087EÓØBkÊ¶x'y\u0093Î\u007f Ò«\u0098¦RM;@Í«!è2Çx\u001ep¡ì\fÁ¶ðí®Z¼û1\u009c\u0017\u0016\u0018£ï\u000fâ»Ñb´ÿT\u0018~ÐU´æºÜ,KqÓþµ(ó\u0012ÿ®\u00ad\u009fGàðÚ\u008eìÖ2á0Þ2ó\u009coj\nMå!bÒ\u0093\u000e\u0084\u0092Ì³Dy\u009e\u001eÌû"
          .length();
       char var3 = ' ';
-      int var12 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var21;
+         if ((var2 += var3) >= var6) {
+            var4 = "\u0095P&Íî\u000f\n$í`¢\u001d\u001a*æ¨ê\rî4ãwt·J\u009aÔ°\u0095\u0018\u0013¹(\ríl\u0018Ý\u001f¢M¡£ìàØe°öV\u0001ÜN\fLm\u0091æÓ\u0080Z&dÔXÌÞÔGL*w¦";
+            var6 = "\u0095P&Íî\u000f\n$í`¢\u001d\u001a*æ¨ê\rî4ãwt·J\u009aÔ°\u0095\u0018\u0013¹(\ríl\u0018Ý\u001f¢M¡£ìàØe°öV\u0001ÜN\fLm\u0091æÓ\u0080Z&dÔXÌÞÔGL*w¦"
+               .length();
+            var3 = ' ';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) >= var6) {
-                     llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = var7;
-                     IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = new String[16];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new CustomScoreboard();
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new Regex("§[0-9a-fk-or]");
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = StringsKt.toSet(
-                        "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()-_=+[]{};:'\",.<>?/|\\`~ §\n\r"
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
+               boolean var19 = false;
+               var7[var5++] = var23;
+               if ((var2 += var3) >= var6) {
+                  llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = var7;
+                  IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = new String[16];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new CustomScoreboard();
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new Regex("§[0-9a-fk-or]");
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = StringsKt.toSet(
+                     "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()-_=+[]{};:'\",.<>?/|\\`~ §\n\r"
+                  );
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "\u0095P&Íî\u000f\n$í`¢\u001d\u001a*æ¨ê\rî4ãwt·J\u009aÔ°\u0095\u0018\u0013¹(\ríl\u0018Ý\u001f¢M¡£ìàØe°öV\u0001ÜN\fLm\u0091æÓ\u0080Z&dÔXÌÞÔGL*w¦";
-                  var6 = "\u0095P&Íî\u000f\n$í`¢\u001d\u001a*æ¨ê\rî4ãwt·J\u009aÔ°\u0095\u0018\u0013¹(\ríl\u0018Ý\u001f¢M¡£ìàØe°öV\u0001ÜN\fLm\u0091æÓ\u0080Z&dÔXÌÞÔGL*w¦"
-                     .length();
-                  var3 = ' ';
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

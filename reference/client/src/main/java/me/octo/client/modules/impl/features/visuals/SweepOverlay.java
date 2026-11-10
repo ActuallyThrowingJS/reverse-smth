@@ -106,9 +106,9 @@ public final class SweepOverlay extends BooleanModule {
       long var7 = (var2 ^ 63001270408743L) << 16 >>> 16;
       Intrinsics.checkNotNullParameter(eventArg, "event");
       this.IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIIIllIIlIIIIllIlIlIIIlllIll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl(var4);
+         .IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl$recovered$ac7f32206e531c89(var4);
       this.llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-         .llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl((short)var6, var7);
+         .llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl$recovered$97a88d4e5ee89430((short)var6, var7);
    }
 
    @SubscribeEvent(priority = EventPriority.HIGH)
@@ -134,48 +134,40 @@ public final class SweepOverlay extends BooleanModule {
       int var8 = "\ní\u0095Ì\u0006\u0098.\b\u0017¡F[lÒêè\u0098\\\"/wïð\u009fpà\u00ad®à¶ê´\u0010\u0001\u009b)eïâ©}Yv\u009d¯\u0091\u001d;½\u0010(ÿÿÃúrçÞ\u001f\u0090Çû³méi OÁ\u0098\u001bß´\u0094?\u007fì£1 7\u009dÈ¡¹0Ì\u0087£D÷\u009c\u0014,\u008fªoÑó\u0010\u008a\u0018²\u0095Z¿ø÷\u000f\u008dN\u0080x'$z\u0018hp\u0005:?\u0080\u0005\u0017 \u001c$¼Báío\u0081±½\u008e=ß\u0017\b(+\u001aîØ5ªd`C?¦\u007fþþ÷Øø\rÅ\u0090ãf®áÒµ´n\u0088j%\u0088er+Ø6\"ú:\u0080\u0091\t\u009d\u001d2\u0099\u009b\u0007\u008d:\u0082\u00adØ\u0090×N\u00939Dþ\u0098¬êªð\u0085f\u0006îÿ¬¦\u008b\u008fR¾\u0002ã<\rëm\u001cô7\u0087sÂ\u0089ÿ£fÐ2\u0095?=$nî«\u009dE-\u001f\u0014=ùÉÝ¨Ù2\u009fáÊól[2Ð)s\u0015'è\u0085\rµí.±CR~\\\u0097ç3ÄËLfgí\u001a\f\u008cÝ\u0015gaúË\u008b©?'ÃvTE/Ô\\jþ\u0019(á\u0000\u008f\u008eb\u0011j§\u0086\u0080\u0012\u0093½\u0017ÙH7 ¸!gc\u008d\\¬\u0011Ê»©â¥\u0093ÿ\u0000C6\u0081mñª"
          .length();
       char var5 = ' ';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "¤Ä¼@¬^sPÂ)%ò@g\u009a\u007f¡\u009dy\u0096Wu\u008d,æ| ÷IJ°Ae _¿Å<U£¢\f\u008e\rKIñt[wDë\r|6¬\b-\f^Î¨\u0004wB\u0095e\u001cÀÀ\u001cvÀ8\u0016P>Y\u0082\n\u0010\u0010ø\u0097VÊ\u0002('8\u009aæ:\u0012\u0093\u0000²";
+            var8 = "¤Ä¼@¬^sPÂ)%ò@g\u009a\u007f¡\u009dy\u0096Wu\u008d,æ| ÷IJ°Ae _¿Å<U£¢\f\u008e\rKIñt[wDë\r|6¬\b-\f^Î¨\u0004wB\u0095e\u001cÀÀ\u001cvÀ8\u0016P>Y\u0082\n\u0010\u0010ø\u0097VÊ\u0002('8\u009aæ:\u0012\u0093\u0000²"
+               .length();
+            var5 = 'P';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var9;
-                     IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = new String[11];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new SweepOverlay();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = var9;
+                  IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl = new String[11];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new SweepOverlay();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "¤Ä¼@¬^sPÂ)%ò@g\u009a\u007f¡\u009dy\u0096Wu\u008d,æ| ÷IJ°Ae _¿Å<U£¢\f\u008e\rKIñt[wDë\r|6¬\b-\f^Î¨\u0004wB\u0095e\u001cÀÀ\u001cvÀ8\u0016P>Y\u0082\n\u0010\u0010ø\u0097VÊ\u0002('8\u009aæ:\u0012\u0093\u0000²";
-                  var8 = "¤Ä¼@¬^sPÂ)%ò@g\u009a\u007f¡\u009dy\u0096Wu\u008d,æ| ÷IJ°Ae _¿Å<U£¢\f\u008e\rKIñt[wDë\r|6¬\b-\f^Î¨\u0004wB\u0095e\u001cÀÀ\u001cvÀ8\u0016P>Y\u0082\n\u0010\u0010ø\u0097VÊ\u0002('8\u009aæ:\u0012\u0093\u0000²"
-                     .length();
-                  var5 = 'P';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -284,5 +276,24 @@ public final class SweepOverlay extends BooleanModule {
             var5
          );
       }
+   }
+
+   static BlockPos IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b5992f53bb547979(
+      SweepOverlay var0, LocalPlayer var1, int var2, long var3, double var5, int var7, Object var8
+   ) {
+      var3 = 1575167897L;
+      long var9 = ((long)var2 << 32 | var3 << 32 >>> 32) ^ IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl;
+      long var11 = var9 ^ 21219550456320L;
+      if ((var7 & 2) != 0) {
+         var5 = 5.0;
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var5, var11);
+   }
+
+   private final int IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2beec2605fe79142(
+      long param1, int param3, char param4, int param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

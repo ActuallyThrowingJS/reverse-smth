@@ -366,99 +366,91 @@ public final class llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllII
       int var19 = "à\u000fÙ\u007f¬\u001a¼¸/K^=N\u0004`-¥Ä\u0004\u0007\u0095\u0093-\u009d\u0087\u001f;p°ç)K\r\u0087þ¹ùNz(\u001dùÄOBÓ!ú\u008aF#\u008aïx\u001eK¤¾S\u001d\u0003ìÈ«T\u0085§\u00ad 8\u001fâ\u008cµ¾ö\u0016\u0093¯N¦\u0011\r¥¶\u0087/P(D».X®%Ò\u008b\u008d¥§eÜØ4\u0002wD¹\b?\u0086ÚÚ`Æ\u0098SÛÂZ¹¬w\u0083£°T\u0084D\u0010\u0086\u0083¦Z Ü\u007f©ÿä|S·\u0000Û¾0õ\u009d9n½\u0017\u0087\u00032ÿ×o¢\u0000JÚ¦\u0080×ð¨\\\u0088oÀKÆL@+õà±¶p´n19\"3&²T\u00858\u0084ì Z\u0089ã\u0005\u008bLþÁÚø}d-µF\u001ar´ÂFØ-âîaø\u0006¬yq\u009b¡\u0018\u009e|\u0000 ä\u0086\u0089LòY\u009cÁ]÷\fÅã¢È÷®Ò2#\u0010¡}=¥+\n]ÉU\u0093ü\u0090j\u001f\u001e@@\u0014Ày \u0002(\u001cª¶Ô\u00advÇî\u0019@nK×µE\u0090 ºÍpã+ãÌ\u0019ëD+\u0094!õ\r\u008e>¥Á¨ö\r\u0012Ø\u0019²ÙíQ{MI©Ù&bÌ¿©T\u000e\u0010\u009aK\u001eZK3\u0088_Ä£9\u0005¬\u0000\u000f» û\u000e\u001cPZ\u0086\ti\u001c\bVòò\u000eýù\u00adç\u009d%zä\\\u009fªù\u008f«\u009ci(Z\u0010ûõð\u00905?sKIj¸\\dúiC@$\u009e\\,\u0093#û*hÃNÙÐÏb\u0094\u009dCµT\u0015P\u0090Æ+!¼\u0091\u0010\u00adÌ\u0084\u007fî|²¥\u0087Ø§¥`bØï\u0004\u000eê\u0004\u0011ø_S±Ê%mZ¥\u001fG·>T\u0018\u0004óËÆÊ\u0087Å\u0080Y\fT ,\u008a[öA\u008aTt¶\u0012ù%\u0010«ß\u0081â)¢»¦ Q\u0088\u008d*\n-j\u0010QN%\u0007lÝÝ¨\nÉä)ßåÆO(õá\u0094\u009faè\u008b\u0010\u001fu\nYÂðí\u00197a\u0099ZÂ0¥Tñ\u008dâ\u0017é[ë3uµS¾â¬\u0016Ý\u0010M\u0012·\bòàçF^\u0018.!bå6°\u0010_ªý\u001a\u0096æ8\u000b\u0018ÛÀÎ\u0006\u001b\f\u001d \u0088\u0092ÔËez\u0082Ü\u0097§þ\u00910\u0018\u007fyf\u0007\u0086Ú.ì\u0015ï£±\u0089ÿúÄÒ{0\u008cð(0âßÜ!¾°V\u001bÏElNL-\u0017©\u0012_\u0016à¥ \u0082îL\u0085\u007ft^¯AÏn=îÆWÜPñB ´D0}Á\r\u0096k\u0004\u0012 L¼'¦¶ö\u000eo\r}\";\u009f\u00adª\u0002/V\r%;#ÄsIÆ\u009dÑÕÀäàk\b`´\u0001\u009bè» @Õã°ì¬ÜÊ|tUS]\u0097\u0018\n'\u0005'%\u001ca[ø\u001c\u0004êÝ²óQÑ"
          .length();
       char var16 = 'X';
-      int var23 = -1;
+      int var15 = -1;
 
-      label45:
       while (true) {
-         String var24 = var17.substring(++var23, var23 + var16);
-         int var10001 = -1;
+         byte[] var21 = var13.doFinal(var17.substring(++var15, var15 + var16).getBytes("ISO-8859-1"));
+         String var35 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var21).intern();
+         byte var10001 = -1;
+         var20[var18++] = var35;
+         if ((var15 += var16) >= var19) {
+            var17 = "ÁÛë¥ÏÌ\u001e(ì\u009a\u001a2íÖ\u008fZ \u009f\u001b\u0007õ\u0011ÓPeÓùP¨T×r\u008f£O\u0093n>v,å\u009d\u0097ô÷\u0090\be\u000b";
+            var19 = "ÁÛë¥ÏÌ\u001e(ì\u009a\u001a2íÖ\u008fZ \u009f\u001b\u0007õ\u0011ÓPeÓùP¨T×r\u008f£O\u0093n>v,å\u009d\u0097ô÷\u0090\be\u000b".length();
+            var16 = '\u0010';
+            var15 = -1;
 
-         while (true) {
-            byte[] var21 = var13.doFinal(var24.getBytes("ISO-8859-1"));
-            String var33 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var21).intern();
-            switch (var10001) {
-               case 0:
-                  var20[var18++] = var33;
-                  if ((var23 += var16) >= var19) {
-                     llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = var20;
-                     IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = new String[24];
-                     IIllIllIlllIlllIIllIlIIlllIlIIlIIIIIIIlIllIlIlIlIIIlIIIlllIIIIlIllIlIlIlllIIIllIllIll = new HashMap(13);
-                     Cipher var0;
-                     var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
-                     var10002 = SecretKeyFactory.getInstance("DES");
-                     var10003 = new byte[]{(byte)(var11 >>> 56), 0, 0, 0, 0, 0, 0, 0};
+            while (true) {
+               var21 = var13.doFinal(var17.substring(++var15, var15 + var16).getBytes("ISO-8859-1"));
+               String var37 = IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(var21).intern();
+               int var31 = 0;
+               var20[var18++] = var37;
+               if ((var15 += var16) >= var19) {
+                  llIIllIIllIlIIlIIllllIlIlIIllIlIIIlIIlIIIIlIIIIllIllllIIlIIlllIllIllIlIllIIlllIlIlIlI = var20;
+                  IllIIlllIIIlllllIlIIIllllIllIIlIIIIIlIIIIIIlIlllllllIIIlllIIllllIlIlIlIIlIlIIlllIllll = new String[24];
+                  IIllIllIlllIlllIIllIlIIlllIlIIlIIIIIIIlIllIlIlIlIIIlIIIlllIIIIlIllIlIlIlllIIIllIllIll = new HashMap(13);
+                  Cipher var0;
+                  var10000 = var0 = Cipher.getInstance("DES/CBC/NoPadding");
+                  var10002 = SecretKeyFactory.getInstance("DES");
+                  var10003 = new byte[]{(byte)(var11 >>> 56), 0, 0, 0, 0, 0, 0, 0};
 
-                     for (int var1 = 1; var1 < 8; var1++) {
-                        var10003[var1] = (byte)(var11 << var1 * 8 >>> 56);
-                     }
-
-                     var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
-                     long[] var6 = new long[2];
-                     int var3 = 0;
-                     String var4 = "ÄÉ\u0002Ç8@ß\f¨¿,ag¤Ïï";
-                     int var5 = "ÄÉ\u0002Ç8@ß\f¨¿,ag¤Ïï".length();
-                     byte var2 = 0;
-
-                     do {
-                        var10001 = var2;
-                        var2 += 8;
-                        byte[] var7 = var4.substring(var10001, var2).getBytes("ISO-8859-1");
-                        var10001 = var3++;
-                        long var8 = (var7[0] & 255L) << 56
-                           | (var7[1] & 255L) << 48
-                           | (var7[2] & 255L) << 40
-                           | (var7[3] & 255L) << 32
-                           | (var7[4] & 255L) << 24
-                           | (var7[5] & 255L) << 16
-                           | (var7[6] & 255L) << 8
-                           | var7[7] & 255L;
-                        byte[] var10 = var0.doFinal(
-                           new byte[]{
-                              (byte)(var8 >>> 56),
-                              (byte)(var8 >>> 48),
-                              (byte)(var8 >>> 40),
-                              (byte)(var8 >>> 32),
-                              (byte)(var8 >>> 24),
-                              (byte)(var8 >>> 16),
-                              (byte)(var8 >>> 8),
-                              (byte)var8
-                           }
-                        );
-                        long var10004 = (var10[0] & 255L) << 56
-                           | (var10[1] & 255L) << 48
-                           | (var10[2] & 255L) << 40
-                           | (var10[3] & 255L) << 32
-                           | (var10[4] & 255L) << 24
-                           | (var10[5] & 255L) << 16
-                           | (var10[6] & 255L) << 8
-                           | var10[7] & 255L;
-                        byte var38 = -1;
-                        var6[var10001] = var10004;
-                     } while (var2 < var5);
-
-                     llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = var6;
-                     lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll = new Integer[2];
-                     return;
+                  for (int var1 = 1; var1 < 8; var1++) {
+                     var10003[var1] = (byte)(var11 << var1 * 8 >>> 56);
                   }
 
-                  var16 = var17.charAt(var23);
-                  break;
-               default:
-                  var20[var18++] = var33;
-                  if ((var23 += var16) < var19) {
-                     var16 = var17.charAt(var23);
-                     continue label45;
-                  }
+                  var10000.init(2, var10002.generateSecret(new DESKeySpec(var10003)), new IvParameterSpec(new byte[8]));
+                  long[] var6 = new long[2];
+                  int var3 = 0;
+                  String var4 = "ÄÉ\u0002Ç8@ß\f¨¿,ag¤Ïï";
+                  int var5 = "ÄÉ\u0002Ç8@ß\f¨¿,ag¤Ïï".length();
+                  byte var2 = 0;
 
-                  var17 = "ÁÛë¥ÏÌ\u001e(ì\u009a\u001a2íÖ\u008fZ \u009f\u001b\u0007õ\u0011ÓPeÓùP¨T×r\u008f£O\u0093n>v,å\u009d\u0097ô÷\u0090\be\u000b";
-                  var19 = "ÁÛë¥ÏÌ\u001e(ì\u009a\u001a2íÖ\u008fZ \u009f\u001b\u0007õ\u0011ÓPeÓùP¨T×r\u008f£O\u0093n>v,å\u009d\u0097ô÷\u0090\be\u000b".length();
-                  var16 = 16;
-                  var23 = -1;
+                  do {
+                     var31 = var2;
+                     var2 += 8;
+                     byte[] var7 = var4.substring(var31, var2).getBytes("ISO-8859-1");
+                     var31 = var3++;
+                     long var8 = (var7[0] & 255L) << 56
+                        | (var7[1] & 255L) << 48
+                        | (var7[2] & 255L) << 40
+                        | (var7[3] & 255L) << 32
+                        | (var7[4] & 255L) << 24
+                        | (var7[5] & 255L) << 16
+                        | (var7[6] & 255L) << 8
+                        | var7[7] & 255L;
+                     byte[] var10 = var0.doFinal(
+                        new byte[]{
+                           (byte)(var8 >>> 56),
+                           (byte)(var8 >>> 48),
+                           (byte)(var8 >>> 40),
+                           (byte)(var8 >>> 32),
+                           (byte)(var8 >>> 24),
+                           (byte)(var8 >>> 16),
+                           (byte)(var8 >>> 8),
+                           (byte)var8
+                        }
+                     );
+                     long var10004 = (var10[0] & 255L) << 56
+                        | (var10[1] & 255L) << 48
+                        | (var10[2] & 255L) << 40
+                        | (var10[3] & 255L) << 32
+                        | (var10[4] & 255L) << 24
+                        | (var10[5] & 255L) << 16
+                        | (var10[6] & 255L) << 8
+                        | var10[7] & 255L;
+                     byte var41 = -1;
+                     var6[var31] = var10004;
+                  } while (var2 < var5);
+
+                  llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = var6;
+                  lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll = new Integer[2];
+                  return;
+               }
+
+               var16 = var17.charAt(var15);
             }
-
-            var24 = var17.substring(++var23, var23 + var16);
-            var10001 = 0;
          }
+
+         var16 = var17.charAt(var15);
       }
    }
 
@@ -661,6 +653,167 @@ public final class llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllII
             var5
          );
       }
+   }
+
+   private final float lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl$recovered$faa4a9e2a8275b6d(long var1) {
+      var1 = 58709026224018L;
+      var1 = IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl ^ var1;
+      long var10001 = var1 ^ 76707060383241L;
+      int var3 = (int)((var1 ^ 76707060383241L) >>> 48);
+      int var4 = (int)((var1 ^ 76707060383241L) << 16 >>> 48);
+      int var5 = (int)(var10001 << 32 >>> 32);
+      return this.IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl
+         + this.IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl((char)var3, (short)var4, var5)
+            * this.lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll
+         + this.IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll;
+   }
+
+   private final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4c745d71d38c2fba(
+      long param1, float param3, float param4
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6764a5131524269a(
+      llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI var0,
+      float var1,
+      float var2,
+      int var3,
+      long var4,
+      int var6,
+      String var7,
+      String var8,
+      ItemStack var9,
+      boolean var10,
+      boolean var11,
+      boolean var12,
+      Function0 var13,
+      Function0 var14
+   ) {
+      var4 = 16216548224324L;
+      var4 = IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl ^ var4;
+      long var15 = var4 ^ 90049817833006L;
+      float var17 = var0.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$c3d0e19f7ed8c9a6(var15);
+      float var18 = var1 + var3 * var17;
+      float var19 = var2 + var6 * var0.lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll;
+      float var20 = var18 + var17 / 2.0F - var0.llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI / 2.0F;
+
+      float var10000;
+      label17: {
+         try {
+            if (var7 != null) {
+               var10000 = var19 + 6.0F;
+               break label17;
+            }
+         } catch (NoWhenBranchMatchedException var23) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var23);
+         }
+
+         var10000 = var19
+            + (
+                  var0.lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll
+                     - var0.llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI
+               )
+               / 2.0F
+            - 1.0F;
+      }
+
+      float var21 = var10000;
+      var0.IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll
+         .add(
+            new llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
+               var18,
+               var19,
+               var17,
+               var0.lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll,
+               var20,
+               var21,
+               var7,
+               var8,
+               var9,
+               var10,
+               var11,
+               var12,
+               var13,
+               var14
+            )
+         );
+   }
+
+   private final int lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$1e387c490b2d5c04(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final String IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6fe2b98fc4f70117(
+      String param1, int param2, long param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$fe1ff0399a3a7237(
+      llIlIllIllIllIlIllllIIlIlllIIIlllIlIllIllIIlIIIlIIlIIllllllIIlIlIIllIIIlIlIllIIllIllI var0,
+      float var1,
+      byte var2,
+      float var3,
+      int var4,
+      int var5,
+      String var6,
+      String var7,
+      ItemStack var8,
+      boolean var9,
+      boolean var10,
+      boolean var11,
+      Function0 var12,
+      Function0 var13,
+      int var14,
+      long var15,
+      Object var17
+   ) {
+      var15 = 70843320044039L;
+      long var18 = ((long)var2 << 56 | var15 << 8 >>> 8) ^ IIllIlIlIlIIlIIIlIIIIlIlIllllIlIlIIIIlIIlIIlIIlllIllllllIlIIIlIllIllIlllIlIllIllIllIl;
+      long var20 = var18 ^ 127271223408989L;
+      int var22 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         1677033692198999901L, var18
+      );
+
+      int var10000;
+      short var10001;
+      label25: {
+         label24: {
+            try {
+               var10000 = var14;
+               var10001 = 1024;
+               if (var22 != 0) {
+                  break label25;
+               }
+
+               if ((var14 & 1024) == 0) {
+                  break label24;
+               }
+            } catch (NoWhenBranchMatchedException var23) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var23, 1590209816840481946L, var18
+               );
+            }
+
+            var11 = false;
+         }
+
+         var10000 = var14;
+         var10001 = 2048;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var12 = null;
+      }
+
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         var0, var1, var3, var4, var20, var5, var6, var7, var8, var9, var10, var11, var12, var13
+      );
+   }
+
+   private final float IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$c3d0e19f7ed8c9a6(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    private static enum IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll {

@@ -125,45 +125,37 @@ public final class llllllIIIllllIIlllIIIlIlIIlIIIIlIIllllIlllIllIIIIllIIIlllIIll
       String var6 = "\u0086n\u00045\u0017\u009ce~Þ#9\u0006Ä\u0001´®\u0018\u00ad\u0014%Fc\u0001\u008c`gÌej\u001a)äî:Õ\u0089ÊLcÑP(#\u008b\"®îÀ\u0093°Qëï\u007f.KÝ:ò@\u009d\u0007t\u0082¡\u0091Å@µo,k/:L\u0084ðY\u0019Ë6\u001b Än¤Éþ\u00974\u0017t¬8Ö\\}è=\u000e$¶G<\u0003}¸h@vUÂÌ~ö(6\\w8Bl¢³]z§\u009dF>Wãxâ®|Â\u0090`yjsé\u0084\u008dõsr\u00ad\u008f\u009c\u0085*ISC\u0010±Õ\u009aç¥å\u0084øYÆ5b°r*Ä !Üwj\u000b7 iz¥¸%Å&Ýá\\`N\u0085?§vAHCÐvM-Hü\u0018p\u0087ßÚ\u000e\u0003Þí\u0082\u001faa\u008dÞ\u009f\u0087o\"Â\u0099d«f\u0019\u0018¥ÙïÏßi\u0082d`Ç÷mô\u0084\u0000\u009f{\u001a\u0081ò\u009bl(½\u0018\u009b\u0019ËMX>\tíÆõÁ,Hë³b\u001d¼\u0094\u0095Ä\u000eÀ1\u0010\u0095ä\u0093J\u0014\u0088H¡%(@ê\u0096£ÇT(3÷¾»Èn\rK.\u000e:Ñ¯z\u0016\\r-Ügw#Cy\u008d\u001f\u001a\u0089\fSÐ´aØS\u0097r\u0017÷\u0096 ç\fbäo\u008d#Ã3|oûi\u009a\u0094ên\t\u008eToÕH\u008e\u001aÆüYtÆÝD\u0018\bó\u0087z4\u00175¨\u000f¼Rß\u0095WÚ]2&|\rÁ?Êè0É#j×ÔÖw\t7\u0086®vàç\u0082ôë\u008b\u001dâTc´½Ål\u007fS\u0094ñ©j¬\u001a¡\u0093é\u0089\u001b\u001bâr÷\u0000î\u0002ù3\u0018Í¥ÃÞ¸;\u001e?©9c\rEÿßÙb¤ÌÑ\u0093\u0013öË(²ÞÅ\u0081ñô<\u0013Q%Oï\u0014ù\u008a\u0084A4L\u0019\"j!Ã~_ËªGûâÝ©+ç9\u008aÎ\u008ey\u0010\u0005\u0098\u0098ô°\u0000°j_\u008c¼b\\Ákº\u0018\u009e×\u0097\u000bòºE¬\u0083Ü\u0091 lD9\u0003\u0003\u0088Ùã\u00adl\u0004/0E\u0085\u007f}\u001e¿¸V\u0017ú\u0010ÞMkÿl0\u009c\u0094¼\u0007\\¿¶\u000e&£ ãá>°ÊLº^³±ó¿¢\u001e¾\u009ei\u009cT\u009c\u0010ùÁö¶Ã©Àdø \u0092\rr\u0092\u009e\u0002H\u008cå×H~\u0016½ú&MnÐnß]#´~¬Êã\u0093\u00adKþB9ÂS\u0085È\u0083\u0091¥MÜ&0tÖÚ|ó¨f±1\u009a\u0007\u008aèâý/Ð|¡\u001fb\u0083nÓ:nÏºå\u0011C¯íp@J\u0014l6n\u001cïlëMQÖÈ\u0004p£\u008a/NÉE*\u0011<I_\u0016j\u000b5¥\u0081\u001d)|±+Õ|CîËÔ\u008f\u000e³¾\u0086Åb\u000b\u008aT$C/\u0012îp^5\u007f\u0098\u001a æ'Û×µ(Æy'¹^«\u0018}ë(l_Ðk\u009e\u007fè\u0086¨c5ß\u009eÃ\u0018»";
       int var8 = "\u0086n\u00045\u0017\u009ce~Þ#9\u0006Ä\u0001´®\u0018\u00ad\u0014%Fc\u0001\u008c`gÌej\u001a)äî:Õ\u0089ÊLcÑP(#\u008b\"®îÀ\u0093°Qëï\u007f.KÝ:ò@\u009d\u0007t\u0082¡\u0091Å@µo,k/:L\u0084ðY\u0019Ë6\u001b Än¤Éþ\u00974\u0017t¬8Ö\\}è=\u000e$¶G<\u0003}¸h@vUÂÌ~ö(6\\w8Bl¢³]z§\u009dF>Wãxâ®|Â\u0090`yjsé\u0084\u008dõsr\u00ad\u008f\u009c\u0085*ISC\u0010±Õ\u009aç¥å\u0084øYÆ5b°r*Ä !Üwj\u000b7 iz¥¸%Å&Ýá\\`N\u0085?§vAHCÐvM-Hü\u0018p\u0087ßÚ\u000e\u0003Þí\u0082\u001faa\u008dÞ\u009f\u0087o\"Â\u0099d«f\u0019\u0018¥ÙïÏßi\u0082d`Ç÷mô\u0084\u0000\u009f{\u001a\u0081ò\u009bl(½\u0018\u009b\u0019ËMX>\tíÆõÁ,Hë³b\u001d¼\u0094\u0095Ä\u000eÀ1\u0010\u0095ä\u0093J\u0014\u0088H¡%(@ê\u0096£ÇT(3÷¾»Èn\rK.\u000e:Ñ¯z\u0016\\r-Ügw#Cy\u008d\u001f\u001a\u0089\fSÐ´aØS\u0097r\u0017÷\u0096 ç\fbäo\u008d#Ã3|oûi\u009a\u0094ên\t\u008eToÕH\u008e\u001aÆüYtÆÝD\u0018\bó\u0087z4\u00175¨\u000f¼Rß\u0095WÚ]2&|\rÁ?Êè0É#j×ÔÖw\t7\u0086®vàç\u0082ôë\u008b\u001dâTc´½Ål\u007fS\u0094ñ©j¬\u001a¡\u0093é\u0089\u001b\u001bâr÷\u0000î\u0002ù3\u0018Í¥ÃÞ¸;\u001e?©9c\rEÿßÙb¤ÌÑ\u0093\u0013öË(²ÞÅ\u0081ñô<\u0013Q%Oï\u0014ù\u008a\u0084A4L\u0019\"j!Ã~_ËªGûâÝ©+ç9\u008aÎ\u008ey\u0010\u0005\u0098\u0098ô°\u0000°j_\u008c¼b\\Ákº\u0018\u009e×\u0097\u000bòºE¬\u0083Ü\u0091 lD9\u0003\u0003\u0088Ùã\u00adl\u0004/0E\u0085\u007f}\u001e¿¸V\u0017ú\u0010ÞMkÿl0\u009c\u0094¼\u0007\\¿¶\u000e&£ ãá>°ÊLº^³±ó¿¢\u001e¾\u009ei\u009cT\u009c\u0010ùÁö¶Ã©Àdø \u0092\rr\u0092\u009e\u0002H\u008cå×H~\u0016½ú&MnÐnß]#´~¬Êã\u0093\u00adKþB9ÂS\u0085È\u0083\u0091¥MÜ&0tÖÚ|ó¨f±1\u009a\u0007\u008aèâý/Ð|¡\u001fb\u0083nÓ:nÏºå\u0011C¯íp@J\u0014l6n\u001cïlëMQÖÈ\u0004p£\u008a/NÉE*\u0011<I_\u0016j\u000b5¥\u0081\u001d)|±+Õ|CîËÔ\u008f\u000e³¾\u0086Åb\u000b\u008aT$C/\u0012îp^5\u007f\u0098\u001a æ'Û×µ(Æy'¹^«\u0018}ë(l_Ðk\u009e\u007fè\u0086¨c5ß\u009eÃ\u0018»"
          .length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0085Qm¿ã\u0087I\u0007x\u008d\u009cb\"\u0019Y\u0019(+Ñ]Éåû.0\u0000³\u0004G^\u009eÚ\tòâ1%K¼«\u0080\u0010\u0015à\u0082\u008cfÜ\u00847>VÁ¸f[£¤ùð\u0015\f\u008c³¹Ç\u0093/ÖÓØÀÎ";
+            var8 = "\u0085Qm¿ã\u0087I\u0007x\u008d\u009cb\"\u0019Y\u0019(+Ñ]Éåû.0\u0000³\u0004G^\u009eÚ\tòâ1%K¼«\u0080\u0010\u0015à\u0082\u008cfÜ\u00847>VÁ¸f[£¤ùð\u0015\f\u008c³¹Ç\u0093/ÖÓØÀÎ"
+               .length();
+            var5 = '\u0018';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var9;
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new String[26];
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = var9;
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new String[26];
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0085Qm¿ã\u0087I\u0007x\u008d\u009cb\"\u0019Y\u0019(+Ñ]Éåû.0\u0000³\u0004G^\u009eÚ\tòâ1%K¼«\u0080\u0010\u0015à\u0082\u008cfÜ\u00847>VÁ¸f[£¤ùð\u0015\f\u008c³¹Ç\u0093/ÖÓØÀÎ";
-                  var8 = "\u0085Qm¿ã\u0087I\u0007x\u008d\u009cb\"\u0019Y\u0019(+Ñ]Éåû.0\u0000³\u0004G^\u009eÚ\tòâ1%K¼«\u0080\u0010\u0015à\u0082\u008cfÜ\u00847>VÁ¸f[£¤ùð\u0015\f\u008c³¹Ç\u0093/ÖÓØÀÎ"
-                     .length();
-                  var5 = 24;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -272,5 +264,35 @@ public final class llllllIIIllllIIlllIIIlIlIIlIIIIlIIllllIlllIllIIIIllIIIlllIIll
             var5
          );
       }
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6967d9519c5142f0(long var1, int var3) {
+      var1 = 102116492995518L;
+      var1 = lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl ^ var1;
+      long var4 = var1 ^ 28687931374876L;
+      long var10001 = var1 ^ 32144900914890L;
+      int var6 = (int)((var1 ^ 32144900914890L) >>> 32);
+      int var7 = (int)((var1 ^ 32144900914890L) << 32 >>> 48);
+      int var8 = (int)(var10001 << 48 >>> 48);
+      me.octo.client.utils.player.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var6, (char)var7, (short)var8, var3, 0, ContainerInput.PICKUP);
+      this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll()
+         .IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$1183759324039697(var4);
+   }
+
+   public void IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl$recovered$fc1670d2a5cb01c9(long var1) {
+      var1 = 46159058804680L;
+      long var3 = var1 ^ 0L;
+      int var5 = (int)((var1 ^ 131371598094042L) >>> 32);
+      int var6 = (int)((var1 ^ 131371598094042L) << 32 >>> 32);
+      this.lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll()
+         .IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var5, var6);
+      super.IIIIIllIIllIlIIllIllIIIIIIlllIlIIIIlllIlIIlIlIlIlIIllIlIllIlllIIllIIlIIlllIIllIIIIlIl(var3);
+   }
+
+   private final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$b78c8dc400f0bdad(
+      long param1, String param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

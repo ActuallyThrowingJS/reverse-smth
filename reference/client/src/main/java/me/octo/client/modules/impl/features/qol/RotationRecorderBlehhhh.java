@@ -73,49 +73,41 @@ public final class RotationRecorderBlehhhh extends BooleanModule {
       String var6 = "Ä\u0099ÅÒíD½.ø¢Ý8\f|G¹ÐÄ}BïFåZ\u0010ZV\u0091¿{S%\u009aUB³é\u001bT<\u00030Ì\u0007\u0015èªÞ+°L\u0005©.û\u001c\u001c¶Ñe¨gA \u009f{ûÖ\u008f#¶tô\u00ad¶3:hÜ}\u0004ÑR QYõ\b3»\u0010ÃUæ\u0081Ò\u0094R\u001c\"Ó\u0005#à\u0001§-0ö\u0001Ô£\u008bª§´q\u0013\u0089\u0015,\u008a3ÀUèI\u000fÐp\u0081élËýU\u0082Liøë×-\u0002Ê]\u009dÍ4ß2^Ïl7@\u0010\u001c®\u008f\u0006Ë\n\u0015% ÝMüå\u0005\u0006|\u0010rÅ\u0016Ñ\u0089`2MLN\u008ahA.ñ\u0099";
       int var8 = "Ä\u0099ÅÒíD½.ø¢Ý8\f|G¹ÐÄ}BïFåZ\u0010ZV\u0091¿{S%\u009aUB³é\u001bT<\u00030Ì\u0007\u0015èªÞ+°L\u0005©.û\u001c\u001c¶Ñe¨gA \u009f{ûÖ\u008f#¶tô\u00ad¶3:hÜ}\u0004ÑR QYõ\b3»\u0010ÃUæ\u0081Ò\u0094R\u001c\"Ó\u0005#à\u0001§-0ö\u0001Ô£\u008bª§´q\u0013\u0089\u0015,\u008a3ÀUèI\u000fÐp\u0081élËýU\u0082Liøë×-\u0002Ê]\u009dÍ4ß2^Ïl7@\u0010\u001c®\u008f\u0006Ë\n\u0015% ÝMüå\u0005\u0006|\u0010rÅ\u0016Ñ\u0089`2MLN\u008ahA.ñ\u0099"
          .length();
-      char var5 = 24;
-      int var12 = -1;
+      char var5 = '\u0018';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "t\u0011,Ã\n¸McÈÌ»q>ðÕ¢0øÇ\u0004ÇÉªw&6\u0096\nØ4\t\u001bû`½:E\u0089MY¼#z©\u0099|¾#\u0003L±\u009c9\u0081z\u001e`\u0086è¹×8\u0014\u0091÷";
+            var8 = "t\u0011,Ã\n¸McÈÌ»q>ðÕ¢0øÇ\u0004ÇÉªw&6\u0096\nØ4\t\u001bû`½:E\u0089MY¼#z©\u0099|¾#\u0003L±\u009c9\u0081z\u001e`\u0086è¹×8\u0014\u0091÷"
+               .length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var9;
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[9];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new RotationRecorderBlehhhh();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var9;
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[9];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new RotationRecorderBlehhhh();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "t\u0011,Ã\n¸McÈÌ»q>ðÕ¢0øÇ\u0004ÇÉªw&6\u0096\nØ4\t\u001bû`½:E\u0089MY¼#z©\u0099|¾#\u0003L±\u009c9\u0081z\u001e`\u0086è¹×8\u0014\u0091÷";
-                  var8 = "t\u0011,Ã\n¸McÈÌ»q>ðÕ¢0øÇ\u0004ÇÉªw&6\u0096\nØ4\t\u001bû`½:E\u0089MY¼#z©\u0099|¾#\u0003L±\u009c9\u0081z\u001e`\u0086è¹×8\u0014\u0091÷"
-                     .length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

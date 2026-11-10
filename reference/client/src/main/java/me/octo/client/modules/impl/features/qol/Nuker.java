@@ -62,7 +62,7 @@ public final class Nuker extends BooleanModule {
    }
 
    @SubscribeEvent
-   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull MotionUpdateEvent eArg) {
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull MotionUpdateEvent param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
@@ -101,7 +101,7 @@ public final class Nuker extends BooleanModule {
             throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
          }
 
-         var18 = llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.IIIlllllIIIlIIllIllllIIllIIIlllllIlIlIllIIllIIllIlIIIlIlIIllIlIIlllIIIIlllIlIlllllllI(
+         var18 = llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII.IIIlllllIIIlIIllIllllIIllIIIlllllIlIlIllIIllIIllIlIIIlIlIIllIlIIlllIIIIlllIlIlllllllI$recovered$cb45cbd332286064(
             var9
          );
       }
@@ -112,7 +112,7 @@ public final class Nuker extends BooleanModule {
             boolean var13 = false;
 
             try {
-               if (this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var4, var12)) {
+               if (this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$e0790aa46bdfa217(var4, var12)) {
                   eArg.setCanceled(var6, (char)var7, (short)var8, true);
                }
             } catch (MatchException var16) {
@@ -227,47 +227,39 @@ public final class Nuker extends BooleanModule {
       int var8 = "ÖÔm\u0019@fÂ¦:ý-ü$\u009f®\u0081ÿ¼öUÒ³¾¤\u008djrç\u0094\u0007\u008a.8¬Û¸m]0\u0006Ó\u008a®\u0005è\bDÜ\u009d#«æç\n QâÜ\u009d6Úÿ\u0094°J#\u0098ô\"!¾Ìó\u001b>qÑ¡û òºPNXøÑÊ² A\u0016\u000e4Ñ$b¡´Z4¬q]ß&Ù\u008fÄj8ÕKÌ\u0001\u000eV±(|µb\u0018î¼ýÃ\u0099r\u0080¶>gPý½xÀ\"\u0084çÖ¯\u0017ì\u001a`\u0010\u0086\u0097½\u0012\u0083\u008a\u000e\u0095¶\u001aá\u0083O\u009a\u008aÜ\u0010\u0088\u001a\u000fÌÍ\u008b¨8A\u0094ôÚs1Ú\u009b\u0010\u000eK;º<\u0019Æ'\u0097F7¯æGWÁ \u001bÙÃc9ÄØo\u0007\u0094ºB\u0081\u0089-\u0005\u0017:DH\u0090d\u001e-\u001cô¡\u0018$M;á \u008a<T\u0094Ä¾å\u0010\u000fËh§Ð\u0012I\u0006Ü\u008c\b¯Ë¼g£Oèv\u0005\rA|«($¢º\u000fH\u0012.×Bõô¢(s#\u0088v^ùL0ûùî\u0001\u008f\u009cFÅí _ü\u0092ùXFótÂ\u0010^\u0094Ò\u009e( +b·wÏKÆì\u000eD\u0010Ú\u0095Ì\u0011Täê~\u0086\u001c\b4S|\u0093n0\u0007<¢©+Pc\u0093\ridzt\u000eÈz\u001d\u0098\u0019q1\u008ej¥gè5\u0007Ã5P¶«>\u0013Þ[\tÔ\u001c¾\u008fwõùaT\u0005 \u0012\u0012\u008f\u0016Y\u0017Þ§.R\u0092\u0011ã\u001f·N\u0085\u008f¬áâg\u007fDÛ«Ôíð¶\u001fî\u0010\u007f9¦êÁN\u008f\u007fÂâ\n\u000b:\u008fö¾"
          .length();
       char var5 = ' ';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0081\u009be±lZ\u0091ÚÉ¹Y4»ïý!\u0010h\u00873Ð\u009cRMÝÓ~y¸òÇx\u0081";
+            var8 = "\u0081\u009be±lZ\u0091ÚÉ¹Y4»ïý!\u0010h\u00873Ð\u009cRMÝÓ~y¸òÇx\u0081".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var9;
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new String[17];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new Nuker();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var9;
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new String[17];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new Nuker();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0081\u009be±lZ\u0091ÚÉ¹Y4»ïý!\u0010h\u00873Ð\u009cRMÝÓ~y¸òÇx\u0081";
-                  var8 = "\u0081\u009be±lZ\u0091ÚÉ¹Y4»ïý!\u0010h\u00873Ð\u009cRMÝÓ~y¸òÇx\u0081".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -376,5 +368,60 @@ public final class Nuker extends BooleanModule {
             var5
          );
       }
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a2f106655138a300(
+      long var1, BlockPos var3
+   ) {
+      var1 = 121185975250277L;
+      var1 = llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI ^ var1;
+      String[] var10000 = MouseUngrab.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
+      Vec3 var10001 = Vec3.atCenterOf((Vec3i)var3);
+      Intrinsics.checkNotNullExpressionValue(var10001, "atCenterOf(...)");
+      Vec3 var5 = var10001;
+      String[] var4 = var10000;
+
+      try {
+         LocalPlayer var10 = this.lIlIlIIIIlIIllllIlIlIIIIIlIIIIIllIIlIllIIllIllIlIIlIIIIlIIlIIIIlIlIlIlIIlIlIIIllllllI().player;
+         Intrinsics.checkNotNull(var10);
+         double var12;
+         int var11 = (
+                  var12 = Math.sqrt(var10.distanceToSqr(var5))
+                     - IllIIlIllIIIllIlIIlIIIlllllllllIIIIIIIIIlIlllIIIlIlIIIlIlIIlllIIIlIllllIIlIlIIlIlllIl.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII()
+                        .llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl()
+               )
+               == 0.0
+            ? 0
+            : (var12 < 0.0 ? -1 : 1);
+         if (var4 == null) {
+            return (boolean)var11;
+         }
+
+         if (var11 < 0) {
+            return (boolean)1;
+         }
+      } catch (MatchException var7) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var7);
+      }
+
+      return (boolean)0;
+   }
+
+   private final void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$4bdd2710b2ccfd20(
+      long param1, boolean param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final boolean llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$e0790aa46bdfa217(
+      long param1, BlockPos param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b77a96b8f901856b(
+      Block param1, long param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

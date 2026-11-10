@@ -89,47 +89,39 @@ public final class ReactionRecorder extends BooleanModule {
       int var8 = "äÊ\u001fìg\u009b\u0091]L+mhª\nãA¼õ«#ugü\u0088\u0013\u0093\u0085\u0011î©A¡1ì\u00957\r[Ò%2´giæ¯¢ÛÇuÎLæ\u0083®l y\u0082\u0005±ÈÜs\u008bÈ\u0012Òö\u0087U\u001dùFâvd\u001f»¨\u000f\u001e\u008e\u007fî\u0017Å\u009eã\u0010¾Bö\u0091c\u008fF\u0016\u001ao1\u0019D\u0019XÀ0ÿ\"÷\u0015\u0002i«èYføA§+±ÑrÄ\u0004Ð³üAàJÈ\býîÕÆë/½3$a0\u0094 ÀË#\u0098rG»\u0097\u0018LË³\u0096l©=d\f!+\u001e\u0013-È1\u0002\u0002[Ï;Úë\u008c@0WÌ¸¯³ ñP\u001bÖ³\u001fÕ¾.fXÆb\u007f9YòA\u0096rÆßG\u008a}Bäõ\u008c\u0001g\t¦\u0090\u0090GJ>%©\u0016\u009eo\u0081\u0000¸\u0018\u008b-\\\u001bx\u0018a(Hó\u0010]I£¼çºmÞ²Ø°,Ã\u001f¡µ\u0010\u008eÂGæZ\fmÀÏ\u0095åIzG\u0087&\u0010\u00aduÃ\u0016«\u0087\u0004\u0010Ê(\u0096'Ïú\u009cç(êÓ4&³\u0082çÝ\u0016\u009f\u0097¦æ\u007fþê\u0084\u009açPtóç·4W\u009bP\u0004è%¿\u0099Ê}Kº\u0090¶l\u0018)þ0cè;\u0099uE1Óç\u000fS\\á{¨\u0093\u0093½ÄÓì\u0010FñJç|>\u0089m\u0085\u000f\u0001\u009dT\u009e\u0090A\u0010q;¸<°\u009c\"#ñ íJ\\Ç¿\u0019 \u0013ñgØÀu)[8>\u009e\u0003*\u0005Þ?¹½ï\u0012jØ2®\u0003\u0093ËkkÌ9\u0092\u0010-êw*\u009bâõ.ª'^ÁÊHà\u007f\u00109áÞ²è\u0016\u0019qïë\u001a\tgB!S\u00109í7U@¤'TZ\u0096í\u0007\u0014ó©d\u0010\u0082·¬J\u009cm´Ëæ¿$9\u009bÆ\u0085\u0015(ÙD\u0005=\tU¢¸²\u0091ìõ§ªÎ\u000b\u009eA\t\u00ad¬\u008f\u00803\u0082rÏ\u001a\u00ad\u0096þÁ7Çlê\bbêÍ\u0018\u0091îÈz,wt\u0093\u0099Jþ\u0005\u001cJ#\t\u0085å$×Ø\nHQ g<\u0096í`¼&Õþ}þ~C \u0088®2x\u0080m\u008eáµ\\O_^¡\u0005`0Þ D\u001dHýÀãÌ\u009c(n\u0082\u0095eÊ5ÄT¢R°5DÊAv\u001d+\u0081fma\u0003\u0010\u0001\u009bÅ\u000bÍm\u008b× Å\u0014 f\u00922\u009b(gÝà76\u009f\u0016\u009c\u00061Æ_X\u0087\u0080tÕ\n¹Ç²²y\u0086oÝÆ{\tEùW\u0089x6\u001a\u0005ZùPp£Ap\u00ad\u001f\u0012\u0005\u0019vï¤\u001bkt\u0000\u0098r\u00adýáÎ\u009fáZ@?Ü\u00972õã»\u008a{Ë\u0088î\u0082{\u0013\u0080âL²\u000eÌß£\u0010|Q\u0015ðÆÄÞðFø\u009d\r®K1\u009c1\u0006\u009f9©yÖ¿\u0090\u0096rÁ|Ài:}\u0015ÿ\u000eEÞÉF ÷9áûÛæ-\u0094Àõ¹\u0092D\u0095´Å ²+\u0013¿\u00ad\u0018Yo\u0091&AW\u0098`t¡Æ²TZ\u0094\u0088¥ìa«ÁKð\u0082 fÜ\u008dåï;Ý\u0097\u0013\u0089ç\u0005¿b\u0010,WqyNfb&\u0091\t\u0089\u009f%a¬ú\u008e <kwH>Ó'Ì_KBÆùE \u0004Ø±\u00936°x\u000e&²²³fN[y/"
          .length();
       char var5 = '8';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "ýö%Æ\"UeÃ;(\u008c\u0097\u009bUè§Ø\u009dYO1`b¶ß/¬\u0013MªÎ¨\u0010èçúQ\u0003Æ\u0000¢\u0003Õ<Ë\u0015B\u0010\u0017";
+            var8 = "ýö%Æ\"UeÃ;(\u008c\u0097\u009bUè§Ø\u009dYO1`b¶ß/¬\u0013MªÎ¨\u0010èçúQ\u0003Æ\u0000¢\u0003Õ<Ë\u0015B\u0010\u0017".length();
+            var5 = ' ';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var9;
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new String[30];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new ReactionRecorder();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var9;
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new String[30];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new ReactionRecorder();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "ýö%Æ\"UeÃ;(\u008c\u0097\u009bUè§Ø\u009dYO1`b¶ß/¬\u0013MªÎ¨\u0010èçúQ\u0003Æ\u0000¢\u0003Õ<Ë\u0015B\u0010\u0017";
-                  var8 = "ýö%Æ\"UeÃ;(\u008c\u0097\u009bUè§Ø\u009dYO1`b¶ß/¬\u0013MªÎ¨\u0010èçúQ\u0003Æ\u0000¢\u0003Õ<Ë\u0015B\u0010\u0017".length();
-                  var5 = ' ';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

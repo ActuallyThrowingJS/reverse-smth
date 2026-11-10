@@ -349,46 +349,38 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
       String var6 = "µ¾h'øqU\bé\u0011@\u0089ëU\u0099k\u0010î-lMàÈÿëDp¸~~H¾t@1\u0080\u0013D\u0093vµ\u0002ÆËQRô£¹\u00834mûO»û\u0098\u0093Kª\u0085jÑÎ\u009c@°P×\u001b¬\rT\u009f\u000eEyªr\fÖÖºêpv\u008f\u001c\u001cqÀî \u009b¤?\u008f\u0005\u0010´Ñ,òÏ\r1r¸ T»ë¸}\u0095 ®Ç¡:\u0093è\u0004`\u0010°¯M\u0086~öà*\u000f{(\u0013ä¡A\u0084\n\u0007\u0005©4§\u007f\u0010-}Ö,ÆX\u009dæ\u0017Ð\u0007\u0002\r\u000fÒ\u0014\u0010¿\u00147ª\u001eö?Ç\u0003Ñ\f\u008dF\u0084\u0019'\u0010FÁ¿I\u0016\u001f'S\u0018\u008dòö8\u009bAn\u0018\u0084è\u0015\u009cJñ0ù\u009bßZ\"ýVV¢ùÛßÔúZÃ8\u0010)¥\u0082´\u0085SÝ(ý\u0089!üJMÄ·\u0018óo\u001dó\u0099kp\u0018Ã\u0085Ö\u009c\u001a\u0099\u001b#É&\u0012s±tË¥ XË³n¹NbÒÜEÐþáOÿÓ\u000fé\u0096\n\u0004\u0006Ø\u0095>ê\u0017¯õnÑ\u0005\u0010\u0099\u00870ü\u008fË;Ì\u001fÔ6&hÈ5Ê\u0018©\u009aáÐª\u0005?o6X¡Ð\bÔãúà;¼\u0011ªóú\u001d\u0010Xc\b|ýO\u0011ÞK\u0091þ§KQ\u0013- )tL\u0082NÑ\u0088¤y¶9åÕ&lê:E\u0012/=\u0015ä\f  \u0012\u000b\u00150\u0018>\u0010&Ô\u0080\u0013¦\u008dÍ\u00adLíÉ¥êO¹$\u0010Cºß\u001c\u0001\u0005Í+t,!\u0086ó\u0004O\u001e\u0010\u0088M\u001fê\u001b\u00149\u008c\u001bm@RN)\u007fY\u0018ÿ@tFÙ² \u0003\ff¤\u0093mým# \u0093f¬\u0098%-Á@P1\u0014¦\u001f\u008e\u0082J\u0007Þµ/©P\u0091\u0082\fþ\\ï3{\u0005§\"q`c\u0016\u009d\u0016Ý\u0001\u0016s:\u0017²T¢rW\u00975rýÒ:\u001e\tªº\u0002Ùbh\u0084Ác\u0016§m\u0095Ó\u0010ÝÝòÃ³â\u0092TðÞ\u0019¡\u000f\u0088³û\u0010\u0088\u000f\u009f+21©Ï¶§ç/bò^S\u0018°\u001eth\u0095\u008fi\u009arÃ/\u008d\u0000áÀ5>\u001b\u0089#\u008f´+é\u0010Îå\u009fß£®Õ?îææÀvç\u0095¥";
       int var8 = "µ¾h'øqU\bé\u0011@\u0089ëU\u0099k\u0010î-lMàÈÿëDp¸~~H¾t@1\u0080\u0013D\u0093vµ\u0002ÆËQRô£¹\u00834mûO»û\u0098\u0093Kª\u0085jÑÎ\u009c@°P×\u001b¬\rT\u009f\u000eEyªr\fÖÖºêpv\u008f\u001c\u001cqÀî \u009b¤?\u008f\u0005\u0010´Ñ,òÏ\r1r¸ T»ë¸}\u0095 ®Ç¡:\u0093è\u0004`\u0010°¯M\u0086~öà*\u000f{(\u0013ä¡A\u0084\n\u0007\u0005©4§\u007f\u0010-}Ö,ÆX\u009dæ\u0017Ð\u0007\u0002\r\u000fÒ\u0014\u0010¿\u00147ª\u001eö?Ç\u0003Ñ\f\u008dF\u0084\u0019'\u0010FÁ¿I\u0016\u001f'S\u0018\u008dòö8\u009bAn\u0018\u0084è\u0015\u009cJñ0ù\u009bßZ\"ýVV¢ùÛßÔúZÃ8\u0010)¥\u0082´\u0085SÝ(ý\u0089!üJMÄ·\u0018óo\u001dó\u0099kp\u0018Ã\u0085Ö\u009c\u001a\u0099\u001b#É&\u0012s±tË¥ XË³n¹NbÒÜEÐþáOÿÓ\u000fé\u0096\n\u0004\u0006Ø\u0095>ê\u0017¯õnÑ\u0005\u0010\u0099\u00870ü\u008fË;Ì\u001fÔ6&hÈ5Ê\u0018©\u009aáÐª\u0005?o6X¡Ð\bÔãúà;¼\u0011ªóú\u001d\u0010Xc\b|ýO\u0011ÞK\u0091þ§KQ\u0013- )tL\u0082NÑ\u0088¤y¶9åÕ&lê:E\u0012/=\u0015ä\f  \u0012\u000b\u00150\u0018>\u0010&Ô\u0080\u0013¦\u008dÍ\u00adLíÉ¥êO¹$\u0010Cºß\u001c\u0001\u0005Í+t,!\u0086ó\u0004O\u001e\u0010\u0088M\u001fê\u001b\u00149\u008c\u001bm@RN)\u007fY\u0018ÿ@tFÙ² \u0003\ff¤\u0093mým# \u0093f¬\u0098%-Á@P1\u0014¦\u001f\u008e\u0082J\u0007Þµ/©P\u0091\u0082\fþ\\ï3{\u0005§\"q`c\u0016\u009d\u0016Ý\u0001\u0016s:\u0017²T¢rW\u00975rýÒ:\u001e\tªº\u0002Ùbh\u0084Ác\u0016§m\u0095Ó\u0010ÝÝòÃ³â\u0092TðÞ\u0019¡\u000f\u0088³û\u0010\u0088\u000f\u009f+21©Ï¶§ç/bò^S\u0018°\u001eth\u0095\u008fi\u009arÃ/\u008d\u0000áÀ5>\u001b\u0089#\u008f´+é\u0010Îå\u009fß£®Õ?îææÀvç\u0095¥"
          .length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "î\b\b>ð¨:k\u0005\u00ad1¯Ñ\u0013üÊ\u001c,\u000e®ÇÌ\u001fÞ\"N\u0095¯\u0000ºR\u000e\u0010W\u0001\té\u001cx\u009e\u001f\u008a\u0080\u0015CÂÚôM";
+            var8 = "î\b\b>ð¨:k\u0005\u00ad1¯Ñ\u0013üÊ\u001c,\u000e®ÇÌ\u001fÞ\"N\u0095¯\u0000ºR\u000e\u0010W\u0001\té\u001cx\u009e\u001f\u008a\u0080\u0015CÂÚôM"
+               .length();
+            var5 = ' ';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var9;
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new String[27];
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var9;
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new String[27];
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "î\b\b>ð¨:k\u0005\u00ad1¯Ñ\u0013üÊ\u001c,\u000e®ÇÌ\u001fÞ\"N\u0095¯\u0000ºR\u000e\u0010W\u0001\té\u001cx\u009e\u001f\u008a\u0080\u0015CÂÚôM";
-                  var8 = "î\b\b>ð¨:k\u0005\u00ad1¯Ñ\u0013üÊ\u001c,\u000e®ÇÌ\u001fÞ\"N\u0095¯\u0000ºR\u000e\u0010W\u0001\té\u001cx\u009e\u001f\u008a\u0080\u0015CÂÚôM"
-                     .length();
-                  var5 = ' ';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -495,5 +487,129 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
             var5
          );
       }
+   }
+
+   public final double llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$463f7fc24e7b0e7c(
+      @NotNull Vec3 argument1Arg, long argument2Arg, @NotNull Vec3 otherArg
+   ) {
+      argument2Arg = 39964747865663L;
+      argument2Arg = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ argument2Arg;
+      Intrinsics.checkNotNullParameter(argument1Arg, "<this>");
+      Intrinsics.checkNotNullParameter(otherArg, "other");
+      double var5 = argument1Arg.x - otherArg.x;
+      double var7 = argument1Arg.z - otherArg.z;
+      return Math.sqrt(var5 * var5 + var7 * var7);
+   }
+
+   public static ArrayList IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0f38cb7797374b54(
+      IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var0,
+      Vec3 var1,
+      Vec3 var2,
+      double var3,
+      long var5,
+      double var7,
+      int var9,
+      Object var10
+   ) {
+      var5 = 64519173705858L;
+      var5 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var5;
+      long var11 = var5 ^ 75630838832343L;
+      IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var13 = lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+
+      int var10000;
+      byte var10001;
+      label25: {
+         label24: {
+            try {
+               var10000 = var9;
+               var10001 = 4;
+               if (var13 != null) {
+                  break label25;
+               }
+
+               if ((var9 & 4) == 0) {
+                  break label24;
+               }
+            } catch (NumberFormatException var15) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var15);
+            }
+
+            var3 = 0.1;
+         }
+
+         var10000 = var9;
+         var10001 = 8;
+      }
+
+      if ((var10000 & var10001) != 0) {
+         var7 = 0.0;
+      }
+
+      return var0.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5e573d54f93f6798(
+         var1, var2, var3, var7, var11
+      );
+   }
+
+   public final double IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1b7777f92ce04f0c(
+      @NotNull Vec3 argument1Arg, long argument2Arg, @NotNull Vec3 vec2Arg, @NotNull Vec3 fromArg, boolean argument5Arg, boolean argument6Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final double IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6af7b8841764bbc1(
+      long var1, @NotNull Vec3 var3
+   ) {
+      var1 = 18614463308313L;
+      var1 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<this>");
+      return var3.x;
+   }
+
+   public final double llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$0d0d12988cd96fb4(
+      @NotNull Vec3 var1, long var2
+   ) {
+      var2 = 122306739772977L;
+      var2 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<this>");
+      return var1.y;
+   }
+
+   public final double IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$9a54b0fb57df8f81(
+      long var1, @NotNull Vec3 var3
+   ) {
+      var1 = 105324182787226L;
+      var1 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<this>");
+      return var3.z;
+   }
+
+   @NotNull
+   public final Vec3 lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$6220e9a478bc1dcd(
+      @NotNull Vec3 var1, long var2
+   ) {
+      var2 = 122382092254804L;
+      var2 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<this>");
+      return new Vec3(Math.floor(var1.x), Math.floor(var1.y), Math.floor(var1.z));
+   }
+
+   @NotNull
+   public final Vec3 IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$958d1848d91c3d5d(
+      long argument1Arg, @NotNull Vec3 argument2Arg, @NotNull Vec3 otherArg
+   ) {
+      argument1Arg = 73524672934016L;
+      argument1Arg = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ argument1Arg;
+      Intrinsics.checkNotNullParameter(argument2Arg, "<this>");
+      Intrinsics.checkNotNullParameter(otherArg, "other");
+      Vec3 var10000 = argument2Arg.subtract(otherArg);
+      Intrinsics.checkNotNullExpressionValue(var10000, "subtract(...)");
+      return var10000;
+   }
+
+   @NotNull
+   public final ArrayList IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5e573d54f93f6798(
+      @NotNull Vec3 fromArg, @NotNull Vec3 toArg, double argument3Arg, double argument4Arg, long argument5Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

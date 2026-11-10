@@ -42,7 +42,9 @@ public final class lIIllllIIlIIIIllIlIIIIIllIllllllIIIlIlIlIlIllIIlIlIllIlIIIIII
       Vec3 var10001 = this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
       Vec3 var10002 = var7.getCenter();
       Intrinsics.checkNotNullExpressionValue(var10002, "getCenter(...)");
-      Comparable var12 = var10000.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10001, var10002, var5);
+      Comparable var12 = var10000.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$e1fbc80d0bafca88(
+         var10001, var10002, var5
+      );
       var7 = (BlockPos)var2;
       Comparable var9 = var12;
       var8 = false;
@@ -51,7 +53,8 @@ public final class lIIllllIIlIIIIllIlIIIIIllIllllllIIIlIlIlIlIllIIlIlIllIlIIIIII
       var10002 = var7.getCenter();
       Intrinsics.checkNotNullExpressionValue(var10002, "getCenter(...)");
       return ComparisonsKt.compareValues(
-         var9, var10000.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10001, var10002, var5)
+         var9,
+         var10000.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$e1fbc80d0bafca88(var10001, var10002, var5)
       );
    }
 

@@ -372,7 +372,9 @@
     "readableOwner": "me/octo/client/utils/network/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/Exception;)Ljava/lang/Exception;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "identity-first-argument",
+    "bodyEvidence": "evidence/trivial-native-proof.json"
   },
   {
     "className": null,
@@ -582,7 +584,9 @@
     "readableOwner": "me/octo/client/utils/network/IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/MatchException;)Ljava/lang/MatchException;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "identity-first-argument",
+    "bodyEvidence": "evidence/trivial-native-proof.json"
   },
   {
     "className": null,
@@ -957,7 +961,9 @@
     "readableOwner": "me/octo/client/utils/network/IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI",
     "readableName": "IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll",
     "readableDescriptor": "(Lcom/google/gson/JsonObject;)V",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "void",
+    "bodyEvidence": "evidence/trivial-native-proof.json"
   },
   {
     "className": null,
@@ -2067,7 +2073,9 @@
     "readableOwner": "me/octo/client/utils/security/llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/Exception;)Ljava/lang/Exception;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "identity-first-argument",
+    "bodyEvidence": "evidence/trivial-native-proof.json"
   },
   {
     "className": null,
@@ -2247,7 +2255,9 @@
     "readableOwner": "me/octo/client/utils/security/llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/Exception;)Ljava/lang/Exception;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "identity-first-argument",
+    "bodyEvidence": "evidence/trivial-native-proof.json"
   },
   {
     "className": null,
@@ -4302,7 +4312,9 @@
     "readableOwner": "me/octo/client/utils/security/lllIlIIIIllIIIlIllIllIlIIlIllIIlIlllIIlllIlIllIllIllIIIlllIIlIIIlIIIlIllIlllIIllIIIlI",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/Throwable;)Ljava/lang/Throwable;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "identity-first-argument",
+    "bodyEvidence": "evidence/trivial-native-proof.json"
   },
   {
     "className": null,
@@ -4872,7 +4884,9 @@
     "readableOwner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
     "readableName": "IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI",
     "readableDescriptor": "(Ljava/lang/String;)V",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "void",
+    "bodyEvidence": "evidence/trivial-native-proof.json"
   },
   {
     "className": null,
@@ -5367,7 +5381,9 @@
     "readableOwner": "me/octo/client/utils/network/IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll",
     "readableName": "llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI",
     "readableDescriptor": "(Ljava/lang/Throwable;)Ljava/lang/Throwable;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "identity-first-argument",
+    "bodyEvidence": "evidence/trivial-native-proof.json"
   },
   {
     "className": null,
@@ -5832,7 +5848,9 @@
     "readableOwner": "me/octo/client/utils/security/IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI",
     "readableName": "IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI",
     "readableDescriptor": "(Ljava/lang/Throwable;)Ljava/lang/Throwable;",
-    "bodyRecovered": false
+    "bodyRecovered": true,
+    "reconstruction": "identity-first-argument",
+    "bodyEvidence": "evidence/trivial-native-proof.json"
   },
   {
     "className": null,

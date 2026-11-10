@@ -214,55 +214,47 @@ public final class PolinexGlow {
       int var5 = 0;
       String var4 = "ÂF4\u0011\u008f+!5¼ë»\u0011\"Ñ£\u0097\u0010¥lw;T`\u0097ë\u000b\u0092áae?Ö\u0018\u0010u\u001c\u00079$ùzéM:s¤7í¶÷";
       int var6 = "ÂF4\u0011\u008f+!5¼ë»\u0011\"Ñ£\u0097\u0010¥lw;T`\u0097ë\u000b\u0092áae?Ö\u0018\u0010u\u001c\u00079$ùzéM:s¤7í¶÷".length();
-      char var3 = 16;
-      int var17 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var18 = var4.substring(++var17, var17 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var26 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var26;
+         if ((var2 += var3) >= var6) {
+            var4 = "Ô¡F\u0086iG¸b_\u0082ô\u0001\u001fueh\u0010@°½¼º\u009f=ï9'HjXkí\n";
+            var6 = "Ô¡F\u0086iG¸b_\u0082ô\u0001\u001fueh\u0010@°½¼º\u009f=ï9'HjXkí\n".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var18.getBytes("ISO-8859-1"));
-            String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var24;
-                  if ((var17 += var3) >= var6) {
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var7;
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[5];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new PolinexGlow();
-                     Int2IntOpenHashMap var13 = new Int2IntOpenHashMap();
-                     boolean var15 = false;
-                     var13.defaultReturnValue(0);
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var13;
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new Object();
-                     PolinexAccessor.INSTANCE
-                        .eventBus
-                        .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                           IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl, var11
-                        );
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var28 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var24 = false;
+               var7[var5++] = var28;
+               if ((var2 += var3) >= var6) {
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var7;
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[5];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new PolinexGlow();
+                  Int2IntOpenHashMap var13 = new Int2IntOpenHashMap();
+                  boolean var15 = false;
+                  var13.defaultReturnValue(0);
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var13;
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new Object();
+                  PolinexAccessor.INSTANCE
+                     .eventBus
+                     .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$864ed80a9d741ba9(
+                        IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl, var11
+                     );
+                  return;
+               }
 
-                  var3 = var4.charAt(var17);
-                  break;
-               default:
-                  var7[var5++] = var24;
-                  if ((var17 += var3) < var6) {
-                     var3 = var4.charAt(var17);
-                     continue label27;
-                  }
-
-                  var4 = "Ô¡F\u0086iG¸b_\u0082ô\u0001\u001fueh\u0010@°½¼º\u009f=ï9'HjXkí\n";
-                  var6 = "Ô¡F\u0086iG¸b_\u0082ô\u0001\u001fueh\u0010@°½¼º\u009f=ï9'HjXkí\n".length();
-                  var3 = 16;
-                  var17 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var18 = var4.substring(++var17, var17 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -361,6 +353,21 @@ public final class PolinexGlow {
          return var3;
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/render/PolinexGlow" + " : " + var1 + " : " + var2.toString(), var5);
+      }
+   }
+
+   // $VF: Extended synchronized range to monitorexit
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$550ea2d0adc50806(
+      long argument1Arg, @NotNull Entity entityArg, int argument3Arg
+   ) {
+      argument1Arg = 76685706349296L;
+      argument1Arg = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ argument1Arg;
+      Intrinsics.checkNotNullParameter(entityArg, "entity");
+      Object var4 = IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl;
+      synchronized (var4) {
+         int var5 = 0;
+         var5 = lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII.put(entityArg.getId(), argument3Arg);
       }
    }
 }

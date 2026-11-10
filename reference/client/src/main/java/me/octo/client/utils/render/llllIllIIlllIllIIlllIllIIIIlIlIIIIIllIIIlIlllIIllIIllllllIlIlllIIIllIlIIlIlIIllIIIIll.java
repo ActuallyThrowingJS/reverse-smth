@@ -19,6 +19,7 @@ import kotlin.jvm.internal.Intrinsics;
 import me.octo.client.modules.impl.macros.lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI;
 import me.octo.client.utils.render.colors.Color;
 import me.octo.client.utils.render.shapes.Font;
+import me.octo.client.utils.render.shapes.NVGRenderer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.phys.AABB;
@@ -312,46 +313,38 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
       int var6 = "^½ÜB\u0093\u0085Å\u001cd\u001e±þ±õÔ\u0013©Â\u0096èîÈ\u009f\u0004y}fÀâl\u0098\u007fBgÆÑwOø¿3Ã\u009fÿùÎ\u008e\u0080\u008aÌü\u008cÐjÕà\u00100¶\u008b·\u0097Æ\u00ad´Õñ,\u0091\u000fõÁH\u0018¢#\u0015\u00844R¶±\u0012\u0000\u0019\u001d.0]\u0006Þã\u008c¼Fýpë(ÒR§1û\u000e\u0000åv\u001fllW\u001c¡8\fD\u0083\u0085:âª\u0098V}]oÔ \u008c¼\u0099Rî ñÌ:'\u0010ÅL(v\u0000\u000eâ®\u0095ù>â\u008dY\u001ar0óo\u0092\u001dþ@Gr|wÞÆ\u009d¥&ËêÓ\u0003ikÓhc[WëHrãt±eûùô\u0005Ësäu¢¤ÈA\u0096Q¿\u0010Îs\u001cý²N/,äñ)¨§\u0011\u0001o\u0010b\u0082\u0081\u0081:/K\u0084zfÎbÞ\"\u000bX\u0010\u0088\u000eúºÝ¼<Øq6M,¡\u001d\u0087Â Lq]\"\u0082Gÿ\u0092\u0095\u0094Ôã\u0083\u0015F\u0093\u008eÏ\u0082\f}\u0001kbH4\u0010Ù\u0001êbþ\u0010ªç\u0010qÀø¢\u0082oëÆE\u001eZä¿\u0018\u001d¢ÿ\u0092\u0089\u001a9÷9\fÀ+\u0014\u0093a¬Ûq\u008eT\u001cÕ:6\u0010|+øã¼+îû\u0099y¥\u0088#&Åþ\u00103(¯\u0084Ó\u009a\u001bÜ¢@\u0011H½\n!\u0099\u0010\u0087\u0086\f\u0003GÜ·qÒpE\rs ÀE\u0018<ý¸D|5\u0087\u0018|Á¦ó\u0081rÔ\u0010*\u008a{\u0010ëuÚ\u00ad\u0010\u0016Îm±\u000b\u0006¾Tß;Þmh\u0015\u008fC\u0010ñ\b\u001d´,^ÑÉI5\u009e¬\u0015\u0097\u001a?\u0010\u0012\u0001Þ\u009a\u0013ã\u0094ÿfû²\u0002Ô\u0094p¯(\u009dP§ØáB×,Jæ\u001a!ä\u0089îT\u000fÍ\u008e#Ò·\\\u009fÇ¶9ñ\u0085o\u0018#¶ðíû\u0011\u00ad¦F\u0010\u0002\u001b¯/÷?Òe\"[ÚPÖÓwP T\u0086*sQ=ª\u0080¤R¦¥Ys-üÓI;âN4@×²\u001bj_oaqÁ\u0010cÙH'_\u0014\u009ea©¢n\u009elÀ?Ê"
          .length();
       char var3 = '8';
-      int var12 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "1´\u0014¹î¶»³\u0000\u001aòñÃ\u00adhK\u0010 w\u0086ÃÇ\u0015ëU\u001eÕcN¸\u001aa\u000f";
+            var6 = "1´\u0014¹î¶»³\u0000\u001aòñÃ\u00adhK\u0010 w\u0086ÃÇ\u0015ëU\u001eÕcN¸\u001aa\u000f".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var12 += var3) >= var6) {
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var7;
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[25];
-                     Identifier var15 = Identifier.withDefaultNamespace("textures/entity/beacon_beam.png");
-                     Intrinsics.checkNotNullExpressionValue(var15, "withDefaultNamespace(...)");
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var15;
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var7;
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[25];
+                  Identifier var18 = Identifier.withDefaultNamespace("textures/entity/beacon_beam.png");
+                  Intrinsics.checkNotNullExpressionValue(var18, "withDefaultNamespace(...)");
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var18;
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "1´\u0014¹î¶»³\u0000\u001aòñÃ\u00adhK\u0010 w\u0086ÃÇ\u0015ëU\u001eÕcN¸\u001aa\u000f";
-                  var6 = "1´\u0014¹î¶»³\u0000\u001aòñÃ\u00adhK\u0010 w\u0086ÃÇ\u0015ëU\u001eÕcN¸\u001aa\u000f".length();
-                  var3 = 16;
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -460,5 +453,145 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
             var5
          );
       }
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e500cce6df8ca07d(
+      String var0, Vec3 var1, float var2, boolean var3, Color var4, Font var5, float var6, Float var7, int var8, long var9, Object var11
+   ) {
+      var9 = 15935934439918L;
+      var9 = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ var9;
+      long var10001 = var9 ^ 16886018512142L;
+      int var12 = (int)((var9 ^ 16886018512142L) >>> 32);
+      int var13 = (int)((var9 ^ 16886018512142L) << 32 >>> 48);
+      int var14 = (int)(var10001 << 48 >>> 48);
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var15 = PictureInPictureManager.IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII();
+
+      int var10000;
+      label57: {
+         int var19;
+         label56: {
+            label55: {
+               try {
+                  var19 = var8;
+                  if (var15 == null) {
+                     break label56;
+                  }
+
+                  if ((var8 & 16) == 0) {
+                     break label55;
+                  }
+               } catch (MatchException var24) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var24);
+               }
+
+               var4 = Color.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl;
+            }
+
+            try {
+               var10000 = var8 & 32;
+               break label57;
+            } catch (MatchException var22) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var22);
+            }
+         }
+
+         var10000 = var19;
+      }
+
+      if (var10000 != 0) {
+         var5 = NVGRenderer.defaultFont;
+      }
+
+      var10000 = var8;
+      byte var29 = 64;
+
+      label43: {
+         label42: {
+            int var20;
+            byte var21;
+            label41: {
+               try {
+                  var21 = var29;
+                  var20 = var10000;
+                  if (var15 == null) {
+                     break label41;
+                  }
+
+                  if ((var20 & var21) == 0) {
+                     break label42;
+                  }
+               } catch (MatchException var23) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var23);
+               }
+
+               var6 = 0.0F;
+               break label42;
+            }
+
+            var10000 = var20;
+            var30 = var21;
+            break label43;
+         }
+
+         var10000 = var8;
+         var30 = 128;
+      }
+
+      if ((var10000 & var30) != 0) {
+         var7 = null;
+      }
+
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         var0, var1, var2, var3, var4, var5, var12, var6, (short)var13, var7, (char)var14
+      );
+   }
+
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$57dc51daff2f4180(
+      @NotNull AABB boxArg, long argument2Arg, @NotNull Color colorArg, boolean argument4Arg
+   ) {
+      argument2Arg = 89491345424604L;
+      argument2Arg = lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI ^ argument2Arg;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = PictureInPictureManager.IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII();
+      Intrinsics.checkNotNullParameter(boxArg, "box");
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var5 = var10000;
+
+      byte var10001;
+      label22: {
+         label21: {
+            try {
+               Intrinsics.checkNotNullParameter(colorArg, "color");
+               var10 = IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+                  .IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI()
+                  .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI();
+               var10001 = argument4Arg;
+               if (var5 == null) {
+                  break label22;
+               }
+
+               if (argument4Arg != 0) {
+                  break label21;
+               }
+            } catch (MatchException var7) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var7);
+            }
+
+            var10001 = 1;
+            break label22;
+         }
+
+         var10001 = 0;
+      }
+
+      ((List)var10.get(var10001))
+         .add(
+            new IlIllIIllIIIlllIlIIlIlIIIIIIlIIlIIlllIIIlIllIllllIlIIlIIlllIIIllIllIllIIlIIIlllllIllI(
+               boxArg,
+               colorArg.IIIIIIlllIIlIIIIlllIIIlIIlIIlIllllIlllIlIIIllllIIlIIIIllIlIIIllllIllllIlIllIIllIIIIlI(),
+               colorArg.llllIIllIlIlIlIlllIIIIlIIllIlllIIIIIlllIlIIlIIIlllIIIlIlIIlIllIIlIIlIllIIIllIllIIIIIl(),
+               colorArg.lIIlIIIllIIIllIllIIlIIIIlllIllIIlIlIIlIllIlIllllllllIllIllllIlIIlIIIllIIllIIlllllIllI(),
+               colorArg.IlIllIIIIllllIIlIlIlIlIlIllIIlIIIIlIIIlIIIllllIIIIlIlIlllIlIlIIIllIIllIllIIIllIIlllll(),
+               3.0F
+            )
+         );
    }
 }

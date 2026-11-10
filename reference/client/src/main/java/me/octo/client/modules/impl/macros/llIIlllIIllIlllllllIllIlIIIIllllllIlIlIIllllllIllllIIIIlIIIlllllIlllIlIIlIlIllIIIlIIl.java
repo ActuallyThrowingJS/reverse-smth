@@ -117,39 +117,44 @@ public enum llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlll
          Iterator var6 = var5.iterator();
          int var4 = var10000;
 
-         label39:
          while (var6.hasNext()) {
             Object var7 = var6.next();
-            Object var12 = var7;
+            Object var14 = var7;
 
-            do {
-               llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl var8 = (llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl)var12;
+            while (true) {
+               llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl var8 = (llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl)var14;
                boolean var9 = false;
-               var10000 = var8.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
-               label28:
+               int var10 = var8.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
+               label39:
                if (var4 != 0) {
+                  var10000 = var10;
+
                   try {
                      if (var10000 == var3) {
                         var10000 = 1;
-                        break label28;
+                        break label39;
                      }
-                  } catch (MatchException var10) {
+                  } catch (MatchException var12) {
                      throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                        var10, 2301483262656879634L, var1
+                        var12, 2301483262656879634L, var1
                      );
                   }
 
                   var10000 = 0;
+               } else {
+                  var10000 = var10;
                }
 
                if (var10000 == 0) {
-                  continue label39;
+                  break;
                }
 
-               var12 = var7;
-            } while (var4 == 0);
+               if (var4 != 0) {
+                  return (llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl)var7;
+               }
 
-            return (llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl)var7;
+               var14 = var7;
+            }
          }
 
          return (llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl)null;

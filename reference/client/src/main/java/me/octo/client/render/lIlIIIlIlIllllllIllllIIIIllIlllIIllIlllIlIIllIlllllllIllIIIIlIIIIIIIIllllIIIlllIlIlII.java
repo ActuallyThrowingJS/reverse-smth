@@ -40,59 +40,51 @@ public final class lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIl
       String var5 = "o\u0082\u0002ñ¦xm\u0081\u001e\u008f\u008f´y?\u000f\u00ad\u0010%\u0019\u009eÎ\u0081wÚRQ\u0004òÆ®\u008c\u0003L\bèÆ\u008d;iÚM\u0015\u0010$Ä£2mj¼^\u008b ½¢ª\u0005÷<\u0010 Sõ¾\tM^ ¸H\në\u009c\u00ad\fÌ\u0010 Sõ¾\tM^ ¸H\në\u009c\u00ad\fÌ\u0010=²\u00add\u0005m\nþj\bI\u0097\u0082VX\u0081\b\u008b:\u001c<ÔQ3\u000f";
       int var7 = "o\u0082\u0002ñ¦xm\u0081\u001e\u008f\u008f´y?\u000f\u00ad\u0010%\u0019\u009eÎ\u0081wÚRQ\u0004òÆ®\u008c\u0003L\bèÆ\u008d;iÚM\u0015\u0010$Ä£2mj¼^\u008b ½¢ª\u0005÷<\u0010 Sõ¾\tM^ ¸H\në\u009c\u00ad\fÌ\u0010 Sõ¾\tM^ ¸H\në\u009c\u00ad\fÌ\u0010=²\u00add\u0005m\nþj\bI\u0097\u0082VX\u0081\b\u008b:\u001c<ÔQ3\u000f"
          .length();
-      char var4 = 16;
-      int var12 = -1;
+      char var4 = '\u0010';
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var13 = var5.substring(++var12, var12 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var23;
+         if ((var3 += var4) >= var7) {
+            var5 = "$Ä£2mj¼^\u008b ½¢ª\u0005÷<\b\u008b:\u001c<ÔQ3\u000f";
+            var7 = "$Ä£2mj¼^\u008b ½¢ª\u0005÷<\b\u008b:\u001c<ÔQ3\u000f".length();
+            var4 = '\u0010';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var13.getBytes("ISO-8859-1"));
-            String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var21;
-                  if ((var12 += var4) >= var7) {
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII();
-                     VertexFormat var15 = VertexFormat.builder()
-                        .add(var0[4], VertexFormatElement.POSITION)
-                        .add(var0[7], VertexFormatElement.UV0)
-                        .add(var0[2], VertexFormatElement.UV2)
-                        .build();
-                     Intrinsics.checkNotNullExpressionValue(var15, var0[8]);
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var15;
-                     VertexFormat var16 = VertexFormat.builder()
-                        .add(var0[5], VertexFormatElement.POSITION)
-                        .add(var0[9], VertexFormatElement.UV0)
-                        .add(var0[1], VertexFormatElement.UV1)
-                        .add(var0[6], VertexFormatElement.UV2)
-                        .add(var0[0], VertexFormatElement.LINE_WIDTH)
-                        .build();
-                     Intrinsics.checkNotNullExpressionValue(var16, var0[3]);
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var16;
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var25 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var21 = false;
+               var0[var6++] = var25;
+               if ((var3 += var4) >= var7) {
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII();
+                  VertexFormat var18 = VertexFormat.builder()
+                     .add(var0[4], VertexFormatElement.POSITION)
+                     .add(var0[7], VertexFormatElement.UV0)
+                     .add(var0[2], VertexFormatElement.UV2)
+                     .build();
+                  Intrinsics.checkNotNullExpressionValue(var18, var0[8]);
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = var18;
+                  VertexFormat var19 = VertexFormat.builder()
+                     .add(var0[5], VertexFormatElement.POSITION)
+                     .add(var0[9], VertexFormatElement.UV0)
+                     .add(var0[1], VertexFormatElement.UV1)
+                     .add(var0[6], VertexFormatElement.UV2)
+                     .add(var0[0], VertexFormatElement.LINE_WIDTH)
+                     .build();
+                  Intrinsics.checkNotNullExpressionValue(var19, var0[3]);
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var19;
+                  return;
+               }
 
-                  var4 = var5.charAt(var12);
-                  break;
-               default:
-                  var0[var6++] = var21;
-                  if ((var12 += var4) < var7) {
-                     var4 = var5.charAt(var12);
-                     continue label28;
-                  }
-
-                  var5 = "$Ä£2mj¼^\u008b ½¢ª\u0005÷<\b\u008b:\u001c<ÔQ3\u000f";
-                  var7 = "$Ä£2mj¼^\u008b ½¢ª\u0005÷<\b\u008b:\u001c<ÔQ3\u000f".length();
-                  var4 = 16;
-                  var12 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var13 = var5.substring(++var12, var12 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

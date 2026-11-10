@@ -75,17 +75,9 @@ public final class lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIll
 
    @Override
    public boolean IIlIIIIllIlIIlIIIlllIlIlIIllllIlIIIllIIlIlllIlIlllIIlIIIIllIIllllIlIlllIlIlIIlllllIII(long var1) {
-      try {
-         if (me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-               .IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI()
-            == me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.DWARVEN_MINES) {
-            return true;
-         }
-      } catch (NoSuchElementException var3) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var3);
-      }
-
-      return false;
+      return me.octo.client.utils.skyblock.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+            .IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI()
+         == me.octo.client.modules.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.DWARVEN_MINES;
    }
 
    @Nullable
@@ -157,7 +149,7 @@ public final class lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIll
       Iterable var14 = CollectionsKt.withIndex(this.getTargetNames());
       Iterator var15 = var14.iterator();
 
-      label171:
+      label175:
       while (true) {
          if (var15.hasNext()) {
             Object var16 = var15.next();
@@ -167,13 +159,15 @@ public final class lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIll
                IndexedValue var17 = (IndexedValue)var10000;
                boolean var18 = false;
                if (!StringsKt.contains$default(var1, (CharSequence)var17.getValue(), false, 2, null)) {
-                  continue label171;
+                  continue label175;
+               }
+
+               if (var10 != null) {
+                  var10000 = (int[])var16;
+                  break label175;
                }
 
                var10000 = (int[])var16;
-               if (var10 != null) {
-                  break label171;
-               }
             }
          }
 
@@ -181,31 +175,31 @@ public final class lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIll
          break;
       }
 
-      label161: {
+      label164: {
          try {
-            IndexedValue var64 = (IndexedValue)var10000;
+            IndexedValue var68 = (IndexedValue)var10000;
             if ((IndexedValue)var10000 != null) {
-               var65 = var64.getIndex();
-               break label161;
+               var69 = var68.getIndex();
+               break label164;
             }
-         } catch (NoSuchElementException var33) {
+         } catch (NoSuchElementException var36) {
             throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               var33, -607427421281939597L, var2
+               var36, -607427421281939597L, var2
             );
          }
 
-         var65 = null;
+         var69 = null;
       }
 
-      Integer var11 = var65;
+      Integer var11 = var69;
 
       try {
          if (var11 == null) {
             return null;
          }
-      } catch (NoSuchElementException var32) {
+      } catch (NoSuchElementException var35) {
          throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-            var32, -607427421281939597L, var2
+            var35, -607427421281939597L, var2
          );
       }
 
@@ -222,78 +216,78 @@ public final class lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIll
          )) {
             return var13;
          }
-      } catch (NoSuchElementException var31) {
+      } catch (NoSuchElementException var34) {
          throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-            var31, -607427421281939597L, var2
+            var34, -607427421281939597L, var2
          );
       }
 
-      Iterable var36 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11, var7, var8, (byte)var9);
-      boolean var38 = false;
-      Iterable var40 = var36;
-      Collection var43 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var36, 10));
+      Iterable var39 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11, var7, var8, (byte)var9);
+      boolean var41 = false;
+      Iterable var43 = var39;
+      Collection var46 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var39, 10));
       boolean var19 = false;
 
-      label138: {
-         for (Object var21 : var36) {
-            var67 = var43;
+      label141: {
+         for (Object var21 : var39) {
             if (var10 == null) {
-               break label138;
+               var71 = var46;
+               break label141;
             }
 
             me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl var22 = (me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl)var21;
             boolean var23 = false;
-            var43.add(var22.getPos());
+            var46.add(var22.getPos());
             if (var10 == null) {
                break;
             }
          }
 
-         var67 = var43;
+         var71 = var46;
       }
 
-      List var35 = (List)var67;
+      List var38 = (List)var71;
       var10000 = var10;
-      boolean var37 = var35.isEmpty();
+      boolean var40 = var38.isEmpty();
 
-      label177: {
-         label178: {
-            label125: {
+      label182: {
+         label183: {
+            label128: {
                try {
                   if (var10000 == null) {
-                     break label125;
+                     break label128;
                   }
 
-                  if (var37) {
-                     break label178;
+                  if (var40) {
+                     break label183;
                   }
-               } catch (NoSuchElementException var30) {
+               } catch (NoSuchElementException var33) {
                   throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                     var30, -607427421281939597L, var2
+                     var33, -607427421281939597L, var2
                   );
                }
 
-               var40 = var35;
+               var43 = var38;
             }
 
-            boolean var45 = false;
-            Collection var49 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var40, 10));
-            boolean var51 = false;
-            Iterator var54 = var40.iterator();
+            boolean var48 = false;
+            Collection var52 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var43, 10));
+            boolean var54 = false;
+            Iterator var57 = var43.iterator();
 
             while (true) {
-               if (var54.hasNext()) {
-                  Object var57 = var54.next();
-                  var71 = var49;
+               if (var57.hasNext()) {
+                  Object var60 = var57.next();
                   if (var10 == null) {
+                     var75 = var52;
                      break;
                   }
 
-                  BlockPos var59 = (BlockPos)var57;
-                  boolean var61 = false;
-                  var49.add(
+                  BlockPos var62 = (BlockPos)var60;
+                  boolean var64 = false;
+                  var52.add(
                      new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                        var59,
+                        var62,
                         me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
                         var13.getName()
                      )
@@ -303,96 +297,96 @@ public final class lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIll
                   }
                }
 
-               var71 = var49;
+               var75 = var52;
                break;
             }
 
-            var70 = (List)var71;
-            break label177;
+            var74 = (List)var75;
+            break label182;
          }
 
-         var40 = var13.getVeins();
-         boolean var44 = false;
-         var var48 = new ArrayList();
-         boolean var50 = false;
+         var43 = var13.getVeins();
+         boolean var47 = false;
+         var var51 = new ArrayList();
+         boolean var53 = false;
 
-         for (Object var56 : var40) {
-            IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll var24 = (IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll)var56;
+         for (Object var59 : var43) {
+            IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll var24 = (IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll)var59;
             boolean var25 = false;
 
-            label104: {
+            label107: {
                try {
                   if (var24.getReach()
                      == me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK) {
-                     var69 = true;
-                     break label104;
+                     var73 = true;
+                     break label107;
                   }
-               } catch (NoSuchElementException var29) {
+               } catch (NoSuchElementException var32) {
                   throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                     var29, -607427421281939597L, var2
+                     var32, -607427421281939597L, var2
                   );
                }
 
-               var69 = false;
+               var73 = false;
             }
 
-            if (var69) {
-               var48.add(var56);
+            if (var73) {
+               var51.add(var59);
                if (var10 == null) {
                   break;
                }
             }
          }
 
-         var70 = var48;
+         var74 = var51;
       }
 
-      List var39 = var70;
-      List var73;
-      if (!var37) {
-         var73 = CollectionsKt.emptyList();
+      List var42 = var74;
+      List var77;
+      if (!var40) {
+         var77 = CollectionsKt.emptyList();
       } else {
-         Iterable var46 = var13.getVeins();
+         Iterable var49 = var13.getVeins();
          var19 = false;
-         var var52 = new ArrayList();
-         boolean var55 = false;
+         var var55 = new ArrayList();
+         boolean var58 = false;
 
-         for (Object var60 : var46) {
-            IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll var62 = (IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll)var60;
+         for (Object var63 : var49) {
+            IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll var65 = (IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll)var63;
             boolean var26 = false;
 
-            label85: {
+            label88: {
                try {
-                  if (var62.getReach()
+                  if (var65.getReach()
                      == me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP) {
-                     var72 = true;
-                     break label85;
+                     var76 = true;
+                     break label88;
                   }
-               } catch (NoSuchElementException var28) {
+               } catch (NoSuchElementException var31) {
                   throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                     var28, -607427421281939597L, var2
+                     var31, -607427421281939597L, var2
                   );
                }
 
-               var72 = false;
+               var76 = false;
             }
 
-            if (var72) {
-               var52.add(var60);
+            if (var76) {
+               var55.add(var63);
                if (var10 == null) {
                   break;
                }
             }
          }
 
-         var73 = var52;
+         var77 = var55;
       }
 
-      List var42 = var73;
+      List var45 = var77;
       return new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
          var13.getName(),
          var13.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(),
-         CollectionsKt.plus(var39, var42),
+         CollectionsKt.plus(var42, var45),
          var13.getInArea()
       );
    }
@@ -484,341 +478,333 @@ public final class lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIll
       int var6 = "\u0000Á¯97\u0015U~_éy\u0099(\u0084\u0016Ø\u00957E|\u0010É·õ¸Ò\u009fsáÚÿ\u0084¦Wa 8P¸Â\u0080*Û\u009c\u0080Ý(ÅÈÏN¤\u0089\u0010?\u0084\u0018½Ñja¢\u0003ypÕ\u0011»\u008c\u001cçÏ{\u0099\fîæ\u0012øy'8p^\u0086ÇSëÞ\u008f³±¶ÛÈ\u001c\u008d\u009cÝÏ¸\u008f7/\r\u000f#çåt½Üaö\u0084jtJ-\u009d\tD\u008e\u0084f\u0096n\"¬P«\u000e1µ¦vðU(³v\u00061Î\r\u0081ÆÌ\u0006¦\u0083ë\u0017è`Ú1\u008a\u0081\u009f\u0016\u001cÊHÕu\u0013è\u008cä\u0011ÊVó¿þqE\u0086(;¿\u001a\u001b\u0018\u008fõ«±£ÌºÎïX\u0091¶á\u00adÿ\u000eÿþ\u0017Às\u009e\u0092Ük9c\u0019\u0006ñXD<÷n\u0018<\u0091Òoà)J`M\u00ad_ÎkI\u008a\u008c\u0087Á7\u001b\u0014\u0092ÿì\u0018.)\\¾ \u0019l%¢\u0012&Yõ]%¬;.ÙÖâRÑ\u009b0½¥Á£3Þ\brpD¡`K.ß\u0007ë\u0096³êÞ\\]pÛ_ÈOÇ\u009c\u009dÔ5à,C\rw\u001cé\u0082ü°gFPr] ØtO5KFµ\u0099PS§Îü7ÐOz]â`ËÊn6\u008bs0\u001d¶_\u009f0 @ä-úÐLÝib~V\u009bþ\u0001\u009bu¦µ³Ó´ûl\u001cL\u0000ò]°\u001a×¤ \u007f\u0005dY£\"ÓÁ^ú¼5Ú\u0003Wº\u0010\u009c\u008f\u0086øÛt»X8H86«ÙÊ8.xê_\u0089\tÜ\u00055ê\u009e\u0016\u007f\túå_ %0ûò\u0094\u009cÿç÷/Z\u0095j\u001d\t\u0000\u0000÷YÜ8\u001fë\u0000:16Ø\fVº\u0087\u0015z #\u001cE\u0010\u0092!jÎýz\u001bl\r\"æD£\t\u0091÷(\u0092Õ]\u001d¿r#E\u0097\u00115Î\u0007\u0018\u0084y\u007f§Â5ÿ\u008a#\u0003\u0090.ì®û¤Ì\u0001Ê\u0015ã§\u0097Ë¹P"
          .length();
       char var3 = '8';
-      int var29 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var47 = var4.substring(++var29, var29 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var55 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var55;
+         if ((var2 += var3) >= var6) {
+            var4 = "Þ\u0084\u0001mÛ\u0089\u009eÇq\u008cÿ\u0095*\u000bj*4Ö\u000fÑ\u0084EåJ ?æ;e¢øL:\u0098ÔU¡2*¬ã\b´\u0081\u0093×gÏ:ÂØIÍª©·\u009a";
+            var6 = "Þ\u0084\u0001mÛ\u0089\u009eÇq\u008cÿ\u0095*\u000bj*4Ö\u000fÑ\u0084EåJ ?æ;e¢øL:\u0098ÔU¡2*¬ã\b´\u0081\u0093×gÏ:ÂØIÍª©·\u009a".length();
+            var3 = '\u0018';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var47.getBytes("ISO-8859-1"));
-            String var53 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var53;
-                  if ((var29 += var3) >= var6) {
-                     IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = var7;
-                     lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI = new String[16];
-                     llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI = new lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl();
-                     lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII = new HashMap<>();
-                     Map var25 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
-                     Object var26 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0);
-                     String var56 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0);
-                     lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var60 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        new BlockPos(58, 197, -10), new Vec3(58.5, 199.52, -8.5)
-                     );
-                     IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[] var27 = new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[]{
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(53, 197, -24),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(43, 197, -19),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(41, 197, -12),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(51, 215, -30),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(53, 205, 16),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(43, 201, -24),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(69, 217, 8),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
-                        )
-                     };
-                     lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII var38 = new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
-                        var56,
-                        var60,
-                        CollectionsKt.listOf(var27),
-                        lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::lIIIlIIIllllllIllIlIIIIIIlIlllIIIlIlIIIIIlIlllIllIlIlIIIIllllIIlllIIlIIllIIIllIIIIIIl
-                     );
-                     var25.put(var26, var38);
-                     var25 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
-                     var26 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1);
-                     String var57 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1);
-                     lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var61 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        new BlockPos(-132, 173, -52), new Vec3(-132.5, 175.52, -50.5)
-                     );
-                     var27 = new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[]{
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-111, 166, -75),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-124, 170, -74),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-143, 167, -30),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-131, 167, -25),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-78, 187, -71),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-97, 194, -75),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-91, 201, -77),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
-                        )
-                     };
-                     lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII var40 = new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
-                        var57,
-                        var61,
-                        CollectionsKt.listOf(var27),
-                        lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::IlllIIIIIllIlllIIIIlIIlIIIlllIIlIIlIlllIllIIIIIlIllIIlIIIIllllIIIllIIllIIlllIIllIllll
-                     );
-                     var25.put(var26, var40);
-                     var25 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
-                     var26 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2);
-                     String var58 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2);
-                     lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var62 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        new BlockPos(170, 149, 32), new Vec3(171.5, 151.52, 31.5)
-                     );
-                     var27 = new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[]{
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(114, 153, 43),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(140, 152, 26),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(146, 151, 30),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(176, 151, 23),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(171, 149, 82),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(106, 163, 31),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(110, 159, 24),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(166, 160, 19),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
-                        )
-                     };
-                     lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII var42 = new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
-                        var58,
-                        var62,
-                        CollectionsKt.listOf(var27),
-                        lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::IlIlllIIIlIllIlIlIIlIlIIlllIIIIIIIIIlllIlIlIlllllIIIlIIIllIlIllllIlllllllIllIlIlllIll
-                     );
-                     var25.put(var26, var42);
-                     var25 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
-                     var26 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3);
-                     String var59 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3);
-                     lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var63 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
-                        new BlockPos(43, 134, 21), new Vec3(42.5, 136.02, 22.5)
-                     );
-                     var27 = new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[]{
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(24, 127, 33),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(14, 127, 37),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(7, 128, 39),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(67, 140, 21),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(51, 142, 6),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-8, 135, 35),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(27, 138, 22),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(16, 167, 34),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
-                        )
-                     };
-                     lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII var44 = new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
-                        var59,
-                        var63,
-                        CollectionsKt.listOf(var27),
-                        lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::IlIlIllIIlIIIlIIIIlIIIlllIIlIIllIIIIIlllIlIlllIllllIIIllIIIlIIIlIIlIllllIIIIlIllllIIl
-                     );
-                     var25.put(var26, var44);
-                     var25 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
-                     var26 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4);
-                     var27 = new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[]{
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-91, 146, -6),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-88, 146, -13),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-85, 153, -17),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-114, 151, -32),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-91, 159, -60),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-105, 148, 14),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-115, 150, -24),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-74, 169, -59),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
-                        ),
-                        new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                           new BlockPos(-69, 178, -60),
-                           me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
-                        )
-                     };
-                     lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII var46 = new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
-                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4),
-                        null,
-                        CollectionsKt.listOf(var27),
-                        lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::IlIIIIIIlIIllIIIIlIllllIllIIlIlIllIIIllIIIIIllllIlllllllIIIlIllllIIlIIlIlIlIlIIIIllll
-                     );
-                     var25.put(var26, var46);
-                     lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII.put(
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var57 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+               boolean var53 = false;
+               var7[var5++] = var57;
+               if ((var2 += var3) >= var6) {
+                  IIIlllIIIIlIIllIlIIIllIIIllllllIIIIIIlIIIlllllIIIlllllIIIIIlIIlIIlIIIIIIIIlIlllIIlIlI = var7;
+                  lIIlllIlIIlIIIllIllllllIIIIIIllIIllIIIIIllIllIllllllIIlIIlIIIlllIIIIIlIIllIlIIIIIIIlI = new String[16];
+                  llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI = new lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl();
+                  lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII = new HashMap<>();
+                  Map var25 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+                  Object var26 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0);
+                  String var59 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0);
+                  lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var63 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     new BlockPos(58, 197, -10), new Vec3(58.5, 199.52, -8.5)
+                  );
+                  IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[] var27 = new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[]{
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(53, 197, -24),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(43, 197, -19),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(41, 197, -12),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(51, 215, -30),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(53, 205, 16),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(43, 201, -24),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(69, 217, 8),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(0)
+                     )
+                  };
+                  lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII var43 = new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
+                     var59,
+                     var63,
+                     CollectionsKt.listOf(var27),
+                     lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::lIIIlIIIllllllIllIlIIIIIIlIlllIIIlIlIIIIIlIlllIllIlIlIIIIllllIIlllIIlIIllIIIllIIIIIIl
+                  );
+                  var25.put(var26, var43);
+                  var25 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+                  var26 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1);
+                  String var60 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1);
+                  lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var64 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     new BlockPos(-132, 173, -52), new Vec3(-132.5, 175.52, -50.5)
+                  );
+                  var27 = new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[]{
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-111, 166, -75),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-124, 170, -74),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-143, 167, -30),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-131, 167, -25),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-78, 187, -71),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-97, 194, -75),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-91, 201, -77),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(1)
+                     )
+                  };
+                  lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII var45 = new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
+                     var60,
+                     var64,
+                     CollectionsKt.listOf(var27),
+                     lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::IlllIIIIIllIlllIIIIlIIlIIIlllIIlIIlIlllIllIIIIIlIllIIlIIIIllllIIIllIIllIIlllIIllIllll
+                  );
+                  var25.put(var26, var45);
+                  var25 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+                  var26 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2);
+                  String var61 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2);
+                  lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var65 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     new BlockPos(170, 149, 32), new Vec3(171.5, 151.52, 31.5)
+                  );
+                  var27 = new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[]{
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(114, 153, 43),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(140, 152, 26),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(146, 151, 30),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(176, 151, 23),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(171, 149, 82),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(106, 163, 31),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(110, 159, 24),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(166, 160, 19),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(2)
+                     )
+                  };
+                  lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII var47 = new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
+                     var61,
+                     var65,
+                     CollectionsKt.listOf(var27),
+                     lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::IlIlllIIIlIllIlIlIIlIlIIlllIIIIIIIIIlllIlIlIlllllIIIlIIIllIlIllllIlllllllIllIlIlllIll
+                  );
+                  var25.put(var26, var47);
+                  var25 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+                  var26 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3);
+                  String var62 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3);
+                  lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll var66 = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll(
+                     new BlockPos(43, 134, 21), new Vec3(42.5, 136.02, 22.5)
+                  );
+                  var27 = new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[]{
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(24, 127, 33),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(14, 127, 37),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(7, 128, 39),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(67, 140, 21),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(51, 142, 6),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-8, 135, 35),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(27, 138, 22),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(16, 167, 34),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(3)
+                     )
+                  };
+                  lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII var49 = new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
+                     var62,
+                     var66,
+                     CollectionsKt.listOf(var27),
+                     lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::IlIlIllIIlIIIlIIIIlIIIlllIIlIIllIIIIIlllIlIlllIllllIIIllIIIlIIIlIIlIllllIIIIlIllllIIl
+                  );
+                  var25.put(var26, var49);
+                  var25 = lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII;
+                  var26 = llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4);
+                  var27 = new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll[]{
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-91, 146, -6),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-88, 146, -13),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-85, 153, -17),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-114, 151, -32),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-91, 159, -60),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-105, 148, 14),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-115, 150, -24),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-74, 169, -59),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
+                     ),
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        new BlockPos(-69, 178, -60),
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP,
+                        llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4)
+                     )
+                  };
+                  lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII var51 = new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
+                     llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(4),
+                     null,
+                     CollectionsKt.listOf(var27),
+                     lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::IlIIIIIIlIIllIIIIlIllllIllIIlIlIllIIIllIIIIIllllIlllllllIIIlIllllIIlIIlIlIlIlIIIIllll
+                  );
+                  var25.put(var26, var51);
+                  lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII.put(
+                     llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(5),
+                     new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
                         llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(5),
-                        new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(5),
-                           null,
-                           CollectionsKt.listOf(
-                              new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                                 new BlockPos(-104, 144, 139),
-                                 me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                                 llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(5)
-                              )
-                           ),
-                           lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::IIIIIIIIllIlIlIIllIlllIIIlllIIlllIIIIIlIIlIIIIlllIlIIIllllIllIIIIIlllIlIllllIllIlIlll
-                        )
-                     );
-                     lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII.put(
+                        null,
+                        CollectionsKt.listOf(
+                           new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                              new BlockPos(-104, 144, 139),
+                              me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                              llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(5)
+                           )
+                        ),
+                        lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::IIIIIIIIllIlIlIIllIlllIIIlllIIlllIIIIIlIIlIIIIlllIlIIIllllIllIIIIIlllIlIllllIllIlIlll
+                     )
+                  );
+                  lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII.put(
+                     llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(6),
+                     new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
                         llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(6),
-                        new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
-                           llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(6),
-                           null,
-                           CollectionsKt.listOf(
-                              new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
-                                 new BlockPos(5, 127, 151),
-                                 me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
-                                 llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(6)
-                              )
-                           ),
-                           lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::lIllIllIIlllIllIlIIlllIllIIllIIlIIIlIIIIlIIllIlIlllIIIIlIlIIllIllIIIlIIIIIlIIIIlllIII
-                        )
-                     );
-                     return;
-                  }
+                        null,
+                        CollectionsKt.listOf(
+                           new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                              new BlockPos(5, 127, 151),
+                              me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                              llIlIIlIlIIllIlIIIlIIlIlIIIlIlIIIIIIIIIllllIlIllIIlIIlIllIIIIIIlIlIllIIIllIlllllIlllI.getTargetNames().get(6)
+                           )
+                        ),
+                        lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIllIIIIIIlIllIIIIIlllIIIIIl::lIllIllIIlllIllIlIIlllIllIIllIIlIIIlIIIIlIIllIlIlllIIIIlIlIIllIllIIIlIIIIIlIIIIlllIII
+                     )
+                  );
+                  return;
+               }
 
-                  var3 = var4.charAt(var29);
-                  break;
-               default:
-                  var7[var5++] = var53;
-                  if ((var29 += var3) < var6) {
-                     var3 = var4.charAt(var29);
-                     continue label27;
-                  }
-
-                  var4 = "Þ\u0084\u0001mÛ\u0089\u009eÇq\u008cÿ\u0095*\u000bj*4Ö\u000fÑ\u0084EåJ ?æ;e¢øL:\u0098ÔU¡2*¬ã\b´\u0081\u0093×gÏ:ÂØIÍª©·\u009a";
-                  var6 = "Þ\u0084\u0001mÛ\u0089\u009eÇq\u008cÿ\u0095*\u000bj*4Ö\u000fÑ\u0084EåJ ?æ;e¢øL:\u0098ÔU¡2*¬ã\b´\u0081\u0093×gÏ:ÂØIÍª©·\u009a".length();
-                  var3 = 24;
-                  var29 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var47 = var4.substring(++var29, var29 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -927,5 +913,253 @@ public final class lllIlIllIIlllllllIIlllllIIIlIIIllIllIIIIIIlIllIlllIlllllIIIll
             var5
          );
       }
+   }
+
+   @Nullable
+   public final lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII IIIIIIlllIIlIIIIlllIIIlIIlIIlIllllIlllIlIIIllllIIlIIIIllIlIIIllllIllllIlIllIIllIIIIlI$recovered$3861d6348cb40112(
+      @NotNull String commissionNameArg, long argument2Arg
+   ) {
+      argument2Arg = 29934783565261L;
+      argument2Arg = IIIlIIIIIlIllIIllIlIIllIIllIlllIllIIIllIlIlIlIIIIIllIIIIlIlllIIIIIllIIlIIlIllIllIIIll ^ argument2Arg;
+      long var10001 = argument2Arg ^ 18975383804544L;
+      int var4 = (int)((argument2Arg ^ 18975383804544L) >>> 48);
+      int var5 = (int)((argument2Arg ^ 18975383804544L) << 16 >>> 48);
+      int var6 = (int)(var10001 << 32 >>> 32);
+      var10001 = argument2Arg ^ 131745837799449L;
+      int var7 = (int)((argument2Arg ^ 131745837799449L) >>> 32);
+      int var8 = (int)((argument2Arg ^ 131745837799449L) << 32 >>> 40);
+      int var9 = (int)(var10001 << 56 >>> 56);
+      int[] var10000 = <unrepresentable>.IlllIIlllIIIIIlllIllIIIIIIlIIIIIIllIllIlIlIlIIlIllIlIlllIIIlIIllIlIIlllIIIIlIIIIlllII();
+      Intrinsics.checkNotNullParameter(commissionNameArg, "commissionName");
+      int[] var10 = var10000;
+      Iterable var14 = CollectionsKt.withIndex(this.getTargetNames());
+      Iterator var15 = var14.iterator();
+
+      label175:
+      while (true) {
+         if (var15.hasNext()) {
+            Object var16 = var15.next();
+            var10000 = (int[])var16;
+
+            while (true) {
+               IndexedValue var17 = (IndexedValue)var10000;
+               boolean var18 = false;
+               if (!StringsKt.contains$default(commissionNameArg, (CharSequence)var17.getValue(), false, 2, null)) {
+                  continue label175;
+               }
+
+               if (var10 != null) {
+                  var10000 = (int[])var16;
+                  break label175;
+               }
+
+               var10000 = (int[])var16;
+            }
+         }
+
+         var10000 = null;
+         break;
+      }
+
+      label164: {
+         try {
+            IndexedValue var75 = (IndexedValue)var10000;
+            if ((IndexedValue)var10000 != null) {
+               var76 = var75.getIndex();
+               break label164;
+            }
+         } catch (NoSuchElementException var42) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var42);
+         }
+
+         var76 = null;
+      }
+
+      Integer var11 = var76;
+
+      try {
+         if (var11 == null) {
+            return null;
+         }
+      } catch (NoSuchElementException var41) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var41);
+      }
+
+      String var12 = IIlIlIlIlllIIlIIlIlIIlIIIllllIIlIlllIllIIIlIllIIIlIIlIlIIIIIllllllIIIlIlllIlIlIlllIll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+         .lIIIIIlIlIIlllIlIIIllIlIllIlIIllIlllIIllllIlIIllIlllIIIlIlIllllllIllIlllIllIlIIlIllIl()
+         .IlIIIIIIlIIllIIIIlIllllIllIIlIlIllIIIllIIIIIllllIlllllllIIIlIllllIIlIIlIlIlIlIIIIllll((char)var4, (short)var5, var6);
+      var10000 = (int[])lIllIIllIlllIlIlllIllIlIlIIIllllllllllIlllIllIlIIlIIlllIlIIlllIlIIIlllIIllIIllIllIlII.get(this.getTargetNames().get(var11));
+      Intrinsics.checkNotNull(var10000);
+      lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII var13 = (lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII)var10000;
+
+      try {
+         if (Intrinsics.areEqual(var12, "Polinex-Routes")) {
+            return var13;
+         }
+      } catch (NoSuchElementException var40) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var40);
+      }
+
+      Iterable var46 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11, var7, var8, (byte)var9);
+      boolean var48 = false;
+      Iterable var50 = var46;
+      Collection var53 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var46, 10));
+      boolean var19 = false;
+
+      label141: {
+         for (Object var21 : var46) {
+            if (var10 == null) {
+               var78 = var53;
+               break label141;
+            }
+
+            me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl var22 = (me.octo.client.modules.IIIlIlIIlIIIlIIIIIllIIllIIllllIIIIIIIIIlIIIlIIlIlIllIIIIIIIllllIlIlllIIlIlIlIIlIlIlIl)var21;
+            boolean var23 = false;
+            var53.add(var22.getPos());
+            if (var10 == null) {
+               break;
+            }
+         }
+
+         var78 = var53;
+      }
+
+      List var45 = (List)var78;
+      var10000 = var10;
+      boolean var47 = var45.isEmpty();
+
+      label182: {
+         label183: {
+            label128: {
+               try {
+                  if (var10000 == null) {
+                     break label128;
+                  }
+
+                  if (var47) {
+                     break label183;
+                  }
+               } catch (NoSuchElementException var39) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var39);
+               }
+
+               var50 = var45;
+            }
+
+            boolean var55 = false;
+            Collection var59 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var50, 10));
+            boolean var61 = false;
+            Iterator var64 = var50.iterator();
+
+            while (true) {
+               if (var64.hasNext()) {
+                  Object var67 = var64.next();
+                  if (var10 == null) {
+                     var82 = var59;
+                     break;
+                  }
+
+                  BlockPos var69 = (BlockPos)var67;
+                  boolean var71 = false;
+                  var59.add(
+                     new IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll(
+                        var69,
+                        me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK,
+                        var13.getName()
+                     )
+                  );
+                  if (var10 != null) {
+                     continue;
+                  }
+               }
+
+               var82 = var59;
+               break;
+            }
+
+            var81 = (List)var82;
+            break label182;
+         }
+
+         var50 = var13.getVeins();
+         boolean var54 = false;
+         var var58 = new ArrayList();
+         boolean var60 = false;
+
+         for (Object var66 : var50) {
+            IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll var24 = (IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll)var66;
+            boolean var25 = false;
+
+            label107: {
+               try {
+                  if (var24.getReach()
+                     == me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.WALK) {
+                     var80 = true;
+                     break label107;
+                  }
+               } catch (NoSuchElementException var38) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var38);
+               }
+
+               var80 = false;
+            }
+
+            if (var80) {
+               var58.add(var66);
+               if (var10 == null) {
+                  break;
+               }
+            }
+         }
+
+         var81 = var58;
+      }
+
+      List var49 = var81;
+      List var84;
+      if (!var47) {
+         var84 = CollectionsKt.emptyList();
+      } else {
+         Iterable var56 = var13.getVeins();
+         var19 = false;
+         var var62 = new ArrayList();
+         boolean var65 = false;
+
+         for (Object var70 : var56) {
+            IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll var72 = (IllIlIIllllllIIllllIIllIIIlIIllIlllllIIlllIlIlllIIlIIIllIlIIlllllIIIllIIlIIIllllIllll)var70;
+            boolean var26 = false;
+
+            label88: {
+               try {
+                  if (var72.getReach()
+                     == me.octo.client.modules.impl.macros.IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI.ETHERWARP) {
+                     var83 = true;
+                     break label88;
+                  }
+               } catch (NoSuchElementException var37) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var37);
+               }
+
+               var83 = false;
+            }
+
+            if (var83) {
+               var62.add(var70);
+               if (var10 == null) {
+                  break;
+               }
+            }
+         }
+
+         var84 = var62;
+      }
+
+      List var52 = var84;
+      return new lIIIIlllIllIlIlIlllIlllIlIlllIlIIlIlIIllIlllIllllIIllllIIIlIIlIllllIIIlIIIlIlIlIlIlII(
+         var13.getName(),
+         var13.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(),
+         CollectionsKt.plus(var49, var52),
+         var13.getInArea()
+      );
    }
 }

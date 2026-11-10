@@ -91,8 +91,9 @@ public final class PictureInPicture extends BooleanModule {
 
       try {
          if (lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI()
-            .IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII("Just Game", var4)) {
-            PictureInPictureManager.INSTANCE.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI(var6);
+            .IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$4105ae1d1ddb79d7("Just Game", var4)) {
+            PictureInPictureManager.INSTANCE
+               .IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$e4b7ccc809a4859d(var6);
          }
       } catch (MatchException var11) {
          throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11);
@@ -124,8 +125,9 @@ public final class PictureInPicture extends BooleanModule {
 
       try {
          if (lIlIIIIIlIIlllllIllIlIIlIIllIllIIIlllIllIllIIIllIIlIllllIllIllIIIlIlIIIlIIIllIIIIlIll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI()
-            .IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII("HUD", var4)) {
-            PictureInPictureManager.INSTANCE.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI(var6);
+            .IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$4105ae1d1ddb79d7("HUD", var4)) {
+            PictureInPictureManager.INSTANCE
+               .IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$e4b7ccc809a4859d(var6);
          }
       } catch (MatchException var11) {
          throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var11);
@@ -154,7 +156,7 @@ public final class PictureInPicture extends BooleanModule {
          throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var9);
       }
 
-      PictureInPictureManager.INSTANCE.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI(var4);
+      PictureInPictureManager.INSTANCE.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$e4b7ccc809a4859d(var4);
    }
 
    static {
@@ -175,47 +177,39 @@ public final class PictureInPicture extends BooleanModule {
       int var8 = "yw\u0002çÖ\u009f@\u009eÑqj@0\u0093\u0091¦PF¬ \u001eÈÇ\u0019Cs\u008bþØ84Cû\u0088Åp\u008bæÓÎ\u0010\u0091øÓèpóOm{H\u000f\u0082\u0000ý\u0086\u0007\u0010\u0083À\"wwç(Ü\u0005\u001dî\u009emëö\u0004p.Ä\u0096ùs\u000bÛ6ñÙ.ux\u001e\u0005\u001f\u0092\u0082\u0099éÎ±k\u0010·þþ\f»\u0092>AmãMÃ£d\u000e\u0013*'z\u0094\u0006UúÁ\u0000ô¿4ÕÑ\f\u0002Ê\u001bÍ\u001c\"@H\u007fÊÞo\u0092²ß3\u001d#ÙÆP\t·1Ü|Ïî\u0099M'\u0089eæZ³\u0015\u0004\u001fa\u000fjß\u0085\u0092\u00168NèYÏ¤Â\u0087\u0091W\bPÜ!\u0088QNó;\u0082©{\u009bë>\u000bi¥JjW\u0080½d\u0086ÆA£ô²]ñ\u008fZ\"q(\u008dTí\u000fU\u0081\"81\u0088»Ð<÷Á;¥7ùlþã\u008b\u0015fæ±\u009dÄþö¯à~y\u009f,\u00adc²Ìn\rÆã\u0010þl:\u0016¼û}\u001f$Ù;@¿\u0014A\u0003"
          .length();
       char var5 = '(';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "Û\u0003xÑyuýMy´Ì\u0010Û\u0007\u008d¸\u0018,¢¦àîf¦+\u001d\u0093_\u009dOô\u0093\u008aø\u008fÇMO*\nU";
+            var8 = "Û\u0003xÑyuýMy´Ì\u0010Û\u0007\u008d¸\u0018,¢¦àîf¦+\u001d\u0093_\u009dOô\u0093\u008aø\u008fÇMO*\nU".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[8];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new PictureInPicture();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = var9;
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new String[8];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new PictureInPicture();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "Û\u0003xÑyuýMy´Ì\u0010Û\u0007\u008d¸\u0018,¢¦àîf¦+\u001d\u0093_\u009dOô\u0093\u008aø\u008fÇMO*\nU";
-                  var8 = "Û\u0003xÑyuýMy´Ì\u0010Û\u0007\u008d¸\u0018,¢¦àîf¦+\u001d\u0093_\u009dOô\u0093\u008aø\u008fÇMO*\nU".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

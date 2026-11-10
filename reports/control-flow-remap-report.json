@@ -1,0 +1,13 @@
+{
+  "classes": 4385,
+  "classMappings": 81,
+  "fieldDeclarationsRenamed": 1059,
+  "methodDeclarationsRenamed": 1434,
+  "fieldReferencesRewritten": 15321,
+  "methodReferencesRewritten": 50437,
+  "resourceFilesRewritten": 0,
+  "identicalGettersCoalesced": 525,
+  "overrideNamesUnified": 0,
+  "nativeBindingsRewritten": false,
+  "artifactPurpose": "source recovery analysis; not verified runnable"
+}

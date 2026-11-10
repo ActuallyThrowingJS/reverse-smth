@@ -16,14 +16,18 @@ public final class lllIIlIIIIIIlIIlIlIllIllIlIIIlIllIllIlllIlllllllIIllIIIllIIll
       Pair var7 = (Pair)var1;
       boolean var8 = false;
       Comparable var10000 = me.octo.client.utils.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((BlockPos)var7.getFirst(), var5, true);
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4def4802dfd3519e(
+            (BlockPos)var7.getFirst(), var5, true
+         );
       var7 = (Pair)var2;
       Comparable var9 = var10000;
       var8 = false;
       return ComparisonsKt.compareValues(
          var9,
          me.octo.client.utils.lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-            .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((BlockPos)var7.getFirst(), var5, true)
+            .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$4def4802dfd3519e(
+               (BlockPos)var7.getFirst(), var5, true
+            )
       );
    }
 }

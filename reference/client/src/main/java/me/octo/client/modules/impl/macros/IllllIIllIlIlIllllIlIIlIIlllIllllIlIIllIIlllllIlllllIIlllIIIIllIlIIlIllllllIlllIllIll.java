@@ -232,16 +232,16 @@ public final class IllllIIllIlIlIllllIlIIlIIlllIllllIlIIllIIlllllIlllllIIlllIIII
          boolean var12 = false;
 
          Map var10000;
-         label54: {
+         label56: {
             for (Object var14 : var7) {
-               var10000 = var11;
                if (var5 == 0) {
-                  break label54;
+                  var10000 = var11;
+                  break label56;
                }
 
                IllIIIlIIIIllIIlIlIIIlllIIllllIllllllIlIlIlIIlllIlIlIllllIIlIlIIlIIIlIIIIlIIlIIIIlIIl var16 = (IllIIIlIIIIllIIlIlIIIlllIIllllIllllllIlIlIlIIlllIlIlIllllIIlIlIIlIIIlIIIIlIIlIIIIlIIl)var14;
                boolean var17 = false;
-               Pair var41 = TuplesKt.to(
+               Pair var43 = TuplesKt.to(
                   var16.getName(),
                   new IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII(
                      var16.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(),
@@ -250,7 +250,7 @@ public final class IllllIIllIlIlIllllIlIIlIIlllIllllIlIIllIIlllllIlllllIIlllIIII
                      CollectionsKt.toList(var16.getMissingItems())
                   )
                );
-               var11.put(var41.getFirst(), var41.getSecond());
+               var11.put(var43.getFirst(), var43.getSecond());
                if (var5 == 0) {
                   break;
                }
@@ -265,13 +265,13 @@ public final class IllllIIllIlIlIllllIlIIlIIlllIllllIlIIllIIlllllIlllllIIlllIIII
          IlIIIIIlIIlIIIIlIlIIllIlllIlllIllIlIlIllllIIllIIIIllIllIlIlIIIIIIIIIlIlIIlIlIlIlIllIl var6 = new IlIIIIIlIIlIIIIlIlIIllIlllIlllIllIlIlIllllIIllIIIIllIllIlIlIIIIIIIIIlIlIIlIlIlIlIllIl(
             var20, var22, var24, (DefaultConstructorMarker)var23
          );
-         File var30 = new File(
+         File var32 = new File(
             Minecraft.getInstance().gameDirectory,
             IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(8545, 4829800352589312133L ^ var1)
          );
-         var30.getParentFile().mkdirs();
+         var32.getParentFile().mkdirs();
          FilesKt.writeText$default(
-            var30,
+            var32,
             this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
                .encodeToString(
                   (SerializationStrategy)IlIIIIIlIIlIIIIlIlIIllIlllIlllIllIlIlIllllIIllIIIIllIllIlIlIIIIIIIIIlIlIIlIlIlIlIllIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
@@ -282,41 +282,41 @@ public final class IllllIIllIlIlIllllIlIIlIIlllIllllIlIIllIIlllllIlllllIIlllIIII
             2,
             null
          );
-         Iterable var31 = var6.getCategories().values();
+         Iterable var33 = var6.getCategories().values();
          var9 = 0;
 
-         label43: {
-            for (Object var35 : var31) {
-               var43 = var9;
+         label45: {
+            for (Object var37 : var33) {
                if (var5 == 0) {
-                  break label43;
+                  var45 = var9;
+                  break label45;
                }
 
-               IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII var37 = (IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII)var35;
-               boolean var39 = false;
-               int var19 = var37.getDonated().size();
+               IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII var39 = (IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII)var37;
+               boolean var41 = false;
+               int var19 = var39.getDonated().size();
                var9 += var19;
                if (var5 == 0) {
                   break;
                }
             }
 
-            var43 = var9;
-            var31 = var6.getCategories().values();
+            var45 = var9;
+            var33 = var6.getCategories().values();
          }
 
-         int var18 = var43;
+         int var18 = var45;
          var9 = 0;
 
-         for (Object var36 : var31) {
+         for (Object var38 : var33) {
             if (var5 == 0) {
                return;
             }
 
-            IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII var38 = (IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII)var36;
-            boolean var40 = false;
-            int var42 = var38.getMissing().size();
-            var9 += var42;
+            IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII var40 = (IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII)var38;
+            boolean var42 = false;
+            int var44 = var40.getMissing().size();
+            var9 += var44;
             if (var5 == 0) {
                break;
             }
@@ -330,10 +330,10 @@ public final class IllllIIllIlIlIllllIlIIlIIlllIllllIlIIllIIlllllIlllllIIlllIIII
                + var9
                + IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(7979, 3470527501307924168L ^ var1)
          );
-      } catch (Exception var28) {
+      } catch (Exception var30) {
          PolinexLogger.error(
             IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"s">(1145, 7047318109222425989L ^ var1)
-               + ExceptionsKt.stackTraceToString(var28)
+               + ExceptionsKt.stackTraceToString(var30)
          );
       }
    }
@@ -399,43 +399,35 @@ public final class IllllIIllIlIlIllllIlIIlIIlllIllllIlIIllIIlllllIlllllIIlllIIII
       int var6 = "5[&¹\u0000knö\u0089\u00833¤|Mñ\u001eE\u0013i\u0005A<\u009féÕ®\tov¥\u0085%[Sl@7\u001aðï\u0010ëÌÆ\u0097=\u0007xª®)ï\u008aè!d) \u0080;à\nÝtö\u0097ÈÍ`\u0018Í¬'D=\u0096DR\u009bæ(\u0015°þä*Ó!a\u0092(!Êj;V¹a¾îË.L\u001a\u001e=¯f:\u008c\u009a\u00ad8YÑ\u0014\f\u00ad¢Zð\u0000â1u9s«ÜÇ0 \u001cqÙ¹¤~Q\u0007Zå\n\u001dZ\f\u0096\u009cÿï@°ò¨+U\u0007Bß6\u0003^¨í\u0010)ÃÙSj\u009bTS¿@NA\u0019Õ\u007fÖ\u0010uÄîúÍ^g)x¯x:r{i´xØ¹\u0098É\n þP¾ºe\u0086w\u0004d\u009d?\u0098Þ\f#\u0082?\u0096ÏÇCYà\u009a¡*¤çptkúo\u001e`¿àÏ`Cê dG)tT#\u0091\u0081è\u009eümT\u0011\u0004¼Év¹ô\u0098ã\u0098\u0085P¢\u0006<Å\u0010²é\u0015<\u0014,åM\u009dy\u001b\u009f\u009eÝ}ÿ¸Ì7\u00108s\u0000ãU©:tÙ\u008e\u00880(?v¾Àú²\u0014\u0001\u0093\u0010\u009a\u0012\u0011\u0004ôí~¹/§\t÷Xð²®\u0010\u000e \u0019\u00adh#\u0003NÄø\u0091F\u0082ðj]\u0010\u00ad8Ï\u009apÑ¬Vûã\u0096\u0083C\u0003À;8Aç\u0093C9\u009fÕEÇ\u0014àÔð\u0011\u0005'?R]ïçµ¥\u0012*à\u0007§P$aÌ:(*\u001b\u0082W\u008a@ºï·T ºG|6\u0092_\u0086¾\"+\u0019 #-\u009eÁän¯\u0080>Ùù·\u008f²3C´ÐzjÓµ\r0ú¶\u0003Ä\u0091üàO\u0010°]×ÿ²ù\u009fóó\u00ad\"÷\n(×\u0005(â\u0083÷\u008bÈ\u000f\u009aI\u000bÄ\u000eLi\u0084\u001fßÂx\u0002ê±\u008eÙªs3úêÖ¾\u0017Áä\u0088Ã}uA\u0093\u0099 @µ\rM\u0010\"7)ë«ÒÛ(®ú¸öúrE\u009bÁÅ\u0004ENGà\u0010åX\u0086\u0010øx+ÜÁ\u008c>£\r\u009b\u0084:ª60þX\u0086Ý¦¿ª\u007fÁ\u0019ú¯È\u0084÷\u0017Ê\u0001>#\"\u0017£¾e;8hÅ¼\u0019\u0001»üêVK§ïâh¥ÕýuüòÏà\u0017\u001ebD\u0080\u00ad\u009aW\u0015¸2:\u00018°¥Õ\u0006Q6\u0086þ6(£\u0017BÔcE5I^ÖÙk\u0003¼oÅ\u0086 WÞÔÚu2.ÄòõÇîÅÆÕÖ*¯öÜ:;\u0080´ê\u001e>©X\u001b*n8ðQ\u0012KtÌ/È;p\rÍP²\u0010\u0088tcÒ\u0003 \u0012\u0013¨5abC\u001cºÝ\b\u0093¹\u0089;/gôº]\u0014gÊáå§ÞÉ\u009epÄ«\u0016Ár\u0018Cîõl§Üâ\u0010ÖÓ\u001b£\u008e<³z O\u0090R\u000bÊ\u0005\u0010\u0010\u0095\u000f\u0096\f½³\u0087Od6gÁaí\u0082Â ðân¥F\t\t[\u008e\u0097\u00076h\u000bê\u0095ÜîOj.íWzÐ\u0096dy\r\u00948m\u0010~EIJ7\u0086hZe}\u0096!lÑ©O\u0010ÿâ»@lÁC\u009f\u0081m³hÆ2f88rf`úÿCâ/ao\u0010]\u0015Ç×ó:_\u001a \u0015\u0001NX\u001d\n2C\u0083¬é§/fº\u0010\u001c$VÇí\u008c¾\u008c»ûù\u0019üI\u0086V<ï\u0095\u000e"
          .length();
       char var3 = '(';
-      int var13 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var14 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "HY\u0090\u009f\u009aÈN\u0091Ò\u0096\u0090QûÞëÕ Ý_Æ±\u0002Ý\u0097ÁÏ\u0015²\u001c\rÿ\u0090\u0092Ü|ûR\u0086UÄÿ\bÉàÚi\u008fLÛ";
+            var6 = "HY\u0090\u009f\u009aÈN\u0091Ò\u0096\u0090QûÞëÕ Ý_Æ±\u0002Ý\u0097ÁÏ\u0015²\u001c\rÿ\u0090\u0092Ü|ûR\u0086UÄÿ\bÉàÚi\u008fLÛ".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) >= var6) {
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var7;
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new String[28];
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var7;
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new String[28];
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label27;
-                  }
-
-                  var4 = "HY\u0090\u009f\u009aÈN\u0091Ò\u0096\u0090QûÞëÕ Ý_Æ±\u0002Ý\u0097ÁÏ\u0015²\u001c\rÿ\u0090\u0092Ü|ûR\u0086UÄÿ\bÉàÚi\u008fLÛ";
-                  var6 = "HY\u0090\u009f\u009aÈN\u0091Ò\u0096\u0090QûÞëÕ Ý_Æ±\u0002Ý\u0097ÁÏ\u0015²\u001c\rÿ\u0090\u0092Ü|ûR\u0086UÄÿ\bÉàÚi\u008fLÛ".length();
-                  var3 = 16;
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var14 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -543,6 +535,126 @@ public final class IllllIIllIlIlIllllIlIIlIIlllIllllIlIIllIIlllllIlllllIIlllIIII
                + var2.toString(),
             var5
          );
+      }
+   }
+
+   @NotNull
+   public final String llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$eb293c86418500aa(
+      long argument1Arg, @NotNull llIIlIlllIlllIlIlIlIlllllIlIlIIlllIIllIIllllllIlIlIIIlIllIllIlllIIIlIIIllllllllIIIIlI itemArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$6a9e9377d68f53e4(long var1) {
+      var1 = 136790968384885L;
+      var1 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var1;
+      long var3 = var1 ^ 15551493504294L;
+      int var5 = IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll();
+
+      try {
+         Iterable var7 = IllIIIIIIIlIIlIIIIlIllIIIIlIlIlIlIIIlllllIIllIIIIlIIlIIlIIIlllIlIIIIllIIlIlllllllIIlI.lIllllIlllIIllIllllllIIIIIIIIIIllIIlllIIIlllIIlIIIIllIIllIIllIIllIIIIlllIIIlIlllIlIlI
+            .IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII()
+            .getCategories()
+            .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI();
+         long var20 = 0L;
+         boolean var8 = false;
+         int var9 = RangesKt.coerceAtLeast(MapsKt.mapCapacity(CollectionsKt.collectionSizeOrDefault(var7, 10)), 16);
+         Map var11 = new LinkedHashMap(var9);
+         boolean var12 = false;
+
+         Map var10000;
+         label56: {
+            for (Object var14 : var7) {
+               if (var5 == 0) {
+                  var10000 = var11;
+                  break label56;
+               }
+
+               IllIIIlIIIIllIIlIlIIIlllIIllllIllllllIlIlIlIIlllIlIlIllllIIlIlIIlIIIlIIIIlIIlIIIIlIIl var16 = (IllIIIlIIIIllIIlIlIIIlllIIllllIllllllIlIlIlIIlllIlIlIllllIIlIlIIlIIIlIIIIlIIlIIIIlIIl)var14;
+               boolean var17 = false;
+               Pair var44 = TuplesKt.to(
+                  var16.getName(),
+                  new IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII(
+                     var16.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(),
+                     var16.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(),
+                     CollectionsKt.toList(var16.getDonatedItems()),
+                     CollectionsKt.toList(var16.getMissingItems())
+                  )
+               );
+               var11.put(var44.getFirst(), var44.getSecond());
+               if (var5 == 0) {
+                  break;
+               }
+            }
+
+            var10000 = var11;
+         }
+
+         Map var22 = var10000;
+         Object var23 = null;
+         byte var24 = 1;
+         IlIIIIIlIIlIIIIlIlIIllIlllIlllIllIlIlIllllIIllIIIIllIllIlIlIIIIIIIIIlIlIIlIlIlIlIllIl var6 = new IlIIIIIlIIlIIIIlIlIIllIlllIlllIllIlIlIllllIIllIIIIllIllIlIlIIIIIIIIIlIlIIlIlIlIlIllIl(
+            var20, var22, var24, (DefaultConstructorMarker)var23
+         );
+         File var33 = new File(Minecraft.getInstance().gameDirectory, "polinex/museum_scan.json");
+         var33.getParentFile().mkdirs();
+         FilesKt.writeText$default(
+            var33,
+            this.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+               .encodeToString(
+                  (SerializationStrategy)IlIIIIIlIIlIIIIlIlIIllIlllIlllIllIlIlIllllIIllIIIIllIllIlIlIIIIIIIIIlIlIIlIlIlIlIllIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
+                     .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(),
+                  var6
+               ),
+            null,
+            2,
+            null
+         );
+         Iterable var34 = var6.getCategories().values();
+         var9 = 0;
+
+         label45: {
+            for (Object var38 : var34) {
+               if (var5 == 0) {
+                  var46 = var9;
+                  break label45;
+               }
+
+               IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII var40 = (IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII)var38;
+               boolean var42 = false;
+               int var19 = var40.getDonated().size();
+               var9 += var19;
+               if (var5 == 0) {
+                  break;
+               }
+            }
+
+            var46 = var9;
+            var34 = var6.getCategories().values();
+         }
+
+         int var18 = var46;
+         var9 = 0;
+
+         for (Object var39 : var34) {
+            if (var5 == 0) {
+               return;
+            }
+
+            IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII var41 = (IlIIlIIIlIIlIlIIlllIlllIIIlIlIllIllIIIlIlIllIIlIIIlIIllIlllIIllIIIIlIlIlllIllllllIIII)var39;
+            boolean var43 = false;
+            int var45 = var41.getMissing().size();
+            var9 += var45;
+            if (var5 == 0) {
+               break;
+            }
+         }
+
+         me.octo.client.utils.player.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$cf2438d7b5c3e92e(
+            var3, "Museum scan saved (" + var18 + " donated, " + var9 + " missing)"
+         );
+      } catch (Exception var30) {
+         PolinexLogger.error("Failed to save museum scan: " + ExceptionsKt.stackTraceToString(var30));
       }
    }
 }

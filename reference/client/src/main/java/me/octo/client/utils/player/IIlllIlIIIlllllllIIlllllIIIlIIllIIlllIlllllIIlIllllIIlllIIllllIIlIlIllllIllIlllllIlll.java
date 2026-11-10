@@ -64,96 +64,92 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
          70625028964168209L, var1
       );
 
-      Entity var20;
-      label67: {
-         label71: {
-            try {
-               ClientLevel var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI().level;
-               if (var10000 == null) {
-                  break label71;
-               }
+      label79: {
+         Iterable var19;
+         try {
+            ClientLevel var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI().level;
+            if (var10000 == null) {
+               break label79;
+            }
 
-               var17 = var10000.entitiesForRendering();
-               if (var17 == null) {
-                  break label71;
+            var19 = var10000.entitiesForRendering();
+            if (var19 == null) {
+               break label79;
+            }
+         } catch (MatchException var16) {
+            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               var16, 60518710214790577L, var1
+            );
+         }
+
+         Iterable var5 = var19;
+         boolean var6 = false;
+         Iterator var7 = var5.iterator();
+
+         label72:
+         while (true) {
+            if (var7.hasNext()) {
+               Object var8 = var7.next();
+               var19 = (Iterable)var8;
+
+               while (true) {
+                  Entity var9 = (Entity)var19;
+                  boolean var10 = false;
+                  int var11 = var9.getId();
+                  label64:
+                  if (var4 != 0) {
+                     int var22 = var11;
+
+                     try {
+                        if (var22 == var3) {
+                           var21 = 1;
+                           break label64;
+                        }
+                     } catch (MatchException var17) {
+                        throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                           var17, 60518710214790577L, var1
+                        );
+                     }
+
+                     var21 = 0;
+                  } else {
+                     var21 = var11;
+                  }
+
+                  if (var21 == 0) {
+                     continue label72;
+                  }
+
+                  if (var4 != 0) {
+                     var19 = (Iterable)var8;
+                     break;
+                  }
+
+                  var19 = (Iterable)var8;
                }
+            } else {
+               var19 = null;
+            }
+
+            try {
+               Entity var13 = (Entity)var19;
+               if (var4 != 0) {
+                  return var13;
+               }
+               break;
             } catch (MatchException var15) {
                throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
                   var15, 60518710214790577L, var1
                );
             }
-
-            Iterable var5 = var17;
-            boolean var6 = false;
-            Iterator var7 = var5.iterator();
-
-            label58:
-            while (true) {
-               if (!var7.hasNext()) {
-                  var18 = null;
-                  break;
-               }
-
-               Object var8 = var7.next();
-               var18 = var8;
-
-               while (true) {
-                  Entity var9 = (Entity)var18;
-                  boolean var10 = false;
-                  var19 = var9.getId();
-                  label47:
-                  if (var4 != 0) {
-                     try {
-                        if (var19 == var3) {
-                           var19 = 1;
-                           break label47;
-                        }
-                     } catch (MatchException var14) {
-                        throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                           var14, 60518710214790577L, var1
-                        );
-                     }
-
-                     var19 = 0;
-                  }
-
-                  if (var19 == 0) {
-                     break;
-                  }
-
-                  var18 = var8;
-                  if (var4 != 0) {
-                     break label58;
-                  }
-               }
-            }
-
-            try {
-               var20 = (Entity)var18;
-               if (var4 != 0) {
-                  break label67;
-               }
-            } catch (MatchException var13) {
-               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  var13, 60518710214790577L, var1
-               );
-            }
-         }
-
-         try {
-            var20 = null;
-         } catch (MatchException var12) {
-            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               var12, 60518710214790577L, var1
-            );
          }
       }
 
       try {
-         return var20;
-      } catch (MatchException var11) {
+         return null;
+      } catch (MatchException var14) {
          throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-            var11, 60518710214790577L, var1
+            var14, 60518710214790577L, var1
          );
       }
    }
@@ -258,45 +254,37 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
       int var6 = "Aûìuir¢½Í\u0091K¼¢¡\u000fQåh\u0001\u0096´\u001dý\tV\u0003\\¾\u00882rW jWxÓÞkÙ|G£F\u008aó\u008eA\u0013\u0013\f¾É¤\u00adx\u0091¼äñsrÁA\t(þ8\u000bÔ¤t÷\u0080Øò$Z\u001c\u009dÁn¸7\u0018\u0091\u008f\u001e\u009b\u0018ð´Q¹ú\u0085\u009cóvV¥®\u0007¨K©\u0018¥\u0006Áºi\";ªÞå\u008feº\u001e7i¼Tßµ\u0007¶¤\u0014\u0010\u0088¾GT4\\¶<ö¥Uy=.8¿(ú\u009fc¸½02âEÄ\r\u0091\u00930Ð+2áz\u0004\nÿ\u0081N\u001aq\u0017_îs\u008di¬Iø\u0097tøtS \u0016Ôc\u008fÌ\nK\u0090É\u0084B|\bÜ\u0005õ®ÕÎ\u008atâ\u0096¿Zî¾ì\u009d~^\"8\u008c\u0006S*\u0015ó\u0080ÒÉU3 éÎ$$\u0099\u0080\u001b\u001cÔo\u0005\u0012\u009f5\u0013q§å9\u0083\u008d\u008cåg\u0099Tþ\b»P[\u0013Öò\u0005ÿ3\u009e«Ý\u0019FoA ãX4N\u001a\u0086gm4c5àr\u0085÷Ã\bÌ¤Î\u009e@[§Qý7b!È¦M\u0010\u007fX³;\u000f>«\fµ¢}¤ùwyÍ ¦[L)\u0086k¾a\"æiþó¶\u0000öô\n^{y\u0081ù§¸)YºÌp\u0010n \f\\)\u0013\u0017RÒ\b]ëÝ\u001f¶íã\u008cÂT\u0004§c\nbµx\u001c¹;óÅz\u001epKZZ¡\u008au×x:åÕaìý7 \u0081\u009fúk*\u0086\u009bî\u007fé»;K)J\u0004Î]p\u008er@úOÉ\u0084>ß\u00989â>¶Õ\u009b\u001e\tjêOïzò\u0096_Íª:\u0002TFnÇFî«P¥@0\u0093XúÆ\rçb:\t\\,±Å2¸\u009aJ¢É¶5&å<E\u0002æ;bYò4£¿Ê\u009e(\u0095\n\u009fÜ·s\u0007\u000e8îjÏÁ¥öF=¡¤kÏØ\u0003\u009f[ùSÐn A®yð¨2zêM³ n\u0084\u0082ÓÌ6f\u0005¶Óaí\u0005&T\u0099\u009dÝ?\u0017XY×ß\u0081J=U\u0014û±ï\u0010ÎÈæ\u0084K³\u009b\u008aÚí·È®.ùÌ"
          .length();
       char var3 = ' ';
-      int var13 = -1;
+      int var2 = -1;
 
-      label31:
       while (true) {
-         String var14 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "¬z\u0004\u008e)É\u008cy¾ELP\u0095èyá\u0080\t\u0083q\u008azí¼\u0080§B\u0087íÍþs\u0010ò¡\u0014\u0084\u009dýà\u0092L\u001an\u0000¹Ë}ü";
+            var6 = "¬z\u0004\u008e)É\u008cy¾ELP\u0095èyá\u0080\t\u0083q\u008azí¼\u0080§B\u0087íÍþs\u0010ò¡\u0014\u0084\u009dýà\u0092L\u001an\u0000¹Ë}ü"
+               .length();
+            var3 = ' ';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) >= var6) {
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var7;
-                     lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new String[18];
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = var7;
+                  lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = new String[18];
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll();
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label31;
-                  }
-
-                  var4 = "¬z\u0004\u008e)É\u008cy¾ELP\u0095èyá\u0080\t\u0083q\u008azí¼\u0080§B\u0087íÍþs\u0010ò¡\u0014\u0084\u009dýà\u0092L\u001an\u0000¹Ë}ü";
-                  var6 = "¬z\u0004\u008e)É\u008cy¾ELP\u0095èyá\u0080\t\u0083q\u008azí¼\u0080§B\u0087íÍþs\u0010ò¡\u0014\u0084\u009dýà\u0092L\u001an\u0000¹Ë}ü"
-                     .length();
-                  var3 = ' ';
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var14 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -412,6 +400,133 @@ public final class IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIlll
                + var2.toString(),
             var5
          );
+      }
+   }
+
+   @JvmStatic
+   @NotNull
+   public static final Vec3 IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$5ff9129b844b6b61(
+      @NotNull Entity var0, long var1
+   ) {
+      var1 = 36542756382186L;
+      var1 = IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII ^ var1;
+      Intrinsics.checkNotNullParameter(var0, "<this>");
+      return new Vec3(var0.getX(), var0.getY(), var0.getZ());
+   }
+
+   @JvmStatic
+   @NotNull
+   public static final HitResult IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$96a4dcafc67a6008(
+      @NotNull BlockPos posArg, long argument2Arg
+   ) {
+      argument2Arg = 20485462924974L;
+      argument2Arg = IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII ^ argument2Arg;
+      Intrinsics.checkNotNullParameter(posArg, "pos");
+      Vec3 var10002 = Vec3.atCenterOf((Vec3i)posArg);
+      LocalPlayer var10003 = IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI()
+         .player;
+      Intrinsics.checkNotNull(var10003);
+      return (HitResult)(new BlockHitResult(var10002, Direction.fromYRot(var10003.getYRot()), posArg, false));
+   }
+
+   public final void IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$ccf2672c992fd092(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$768e56f1cbda6889(
+      @NotNull List mobClassesArg, @NotNull List mobNamesArg, long argument3Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   // $VF: Handled exception range with multiple entry points by splitting it
+   // $VF: Duplicated exception handlers to handle obfuscated exceptions
+   @Nullable
+   public final Entity llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$4cd2bb95275b7bad(long var1, int var3) {
+      var1 = 51222992772890L;
+      var1 = IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII ^ var1;
+      int var4 = llIIlllIIllIlllllllIllIlIIIIllllllIlIlIIllllllIllllIIIIlIIIlllllIlllIlIIlIlIllIIIlIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI();
+
+      label79: {
+         Iterable var23;
+         try {
+            ClientLevel var10000 = this.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI().level;
+            if (var10000 == null) {
+               break label79;
+            }
+
+            var23 = var10000.entitiesForRendering();
+            if (var23 == null) {
+               break label79;
+            }
+         } catch (MatchException var19) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var19);
+         }
+
+         Iterable var5 = var23;
+         boolean var6 = false;
+         Iterator var7 = var5.iterator();
+
+         label72:
+         while (true) {
+            if (var7.hasNext()) {
+               Object var8 = var7.next();
+               var23 = (Iterable)var8;
+
+               while (true) {
+                  Entity var9 = (Entity)var23;
+                  boolean var10 = false;
+                  int var14 = var9.getId();
+                  label64:
+                  if (var4 != 0) {
+                     int var26 = var14;
+
+                     try {
+                        if (var26 == var3) {
+                           var25 = 1;
+                           break label64;
+                        }
+                     } catch (MatchException var20) {
+                        throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var20);
+                     }
+
+                     var25 = 0;
+                  } else {
+                     var25 = var14;
+                  }
+
+                  if (var25 == 0) {
+                     continue label72;
+                  }
+
+                  if (var4 != 0) {
+                     var23 = (Iterable)var8;
+                     break;
+                  }
+
+                  var23 = (Iterable)var8;
+               }
+            } else {
+               var23 = null;
+            }
+
+            try {
+               Entity var16 = (Entity)var23;
+               if (var4 != 0) {
+                  return var16;
+               }
+               break;
+            } catch (MatchException var18) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var18);
+            }
+         }
+      }
+
+      try {
+         return null;
+      } catch (MatchException var17) {
+         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
       }
    }
 }

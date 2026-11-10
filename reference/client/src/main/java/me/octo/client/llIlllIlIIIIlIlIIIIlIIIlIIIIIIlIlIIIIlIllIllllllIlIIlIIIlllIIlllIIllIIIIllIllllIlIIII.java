@@ -54,49 +54,41 @@ public final class llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllII
       String var4 = "3\u001ae\u00adq\u009f>ÁÐBT\u0018\t$\u0096, ¾÷\u0086\bÉ\u009f\u0004\t\u0016)÷\u009eø \u001d\u0097øÓP19\u0007\u0006\u009cÀ\u001b\u0011ÆÜÄ:\u0094\u0010\u0016'\u008e~Ý®U\u009a,\u0098ù\"\u0011\u001c3*\u0010è¢þÅ\u008dnÐ\u0087\u0095ÌÇÄ ßúF\u00104<Ð\u0092\u001b·\u008d-´\u0005\u0015\u001b\u0086²X\u0019\u0010\u0089$\u0088mB!g8§\u009e¾\u0013\u000bè\u001f)\u0010ØÕ¾\u009cÍb$t\u0090\n\u0085ÏQÍN·ŀC:¬\u0001Ò\u0080\u009eû5úè\u0087Ç»Ö6&ÛàæN\u0096\u001fw\u0016o¿=ñb¯m©\u0018³¶\u0014\u000f\u0090ë¹®\u000e÷eSt!¬G6yôô\u0003¶¸(uÛklË'Ê8QäðT\u0000öï°Â°:ù\u0088\u0092Ô\u0001ð)Ð²î\t\u00949;á¤(\u009aëà\u008a\u0000¸\u0087²#Ò\u0019ÞèT\u00926ÛA\u0013\u0094ê¯;H\u008eEÂz4Ä\u009a|ÆVã¿-D|¨+]T\u008c1¼QgÍ\t6î\u0010{\u0080\u008bsùhÓè\u001dÑåäµ\u0088W(\u0007£Zò\u001b\u008be\u0002\u007f$d\u0007§\u0094º\u0098J7U,»[ä\u000bÖ^\u00880³:ìE\u000eÒr\u0096\u007fËÒþ¢¨¹¶\u001b\u0086\u0013>×\n²ä\u0085oAÛÐÊUÅsfå|â¦ÇíM³8»¬;\u001e¡-\n\u0002<Ó¹ì<=e¡]gL\u0013\u0089Éy(Á»\u0084º:\u0085\b£EÆ¿wÑ2ñ\u0087\u008bI\u008e^\u0090\u001eP`(\u009dkÃ\u0086a\r¨~µ\u007f\u0080d\bö\u0014ß\u0002Ö\u0082¨\u00adt?P÷;\u0015Ò\u0012cVÃv\u0015;#%\u0010\u0084ã12\u0007OÆÙÝ¯iÍF\u00ad>\u0003 6Uk\u0097ÉÝ<\u0098\u009fû;\n\u001apÜc\u008dj0ë\u0085hÇ]\u0007µ\n\u008b\"Nk (\u0007%Ã\tÓÐñÉê6ì`ó)>ÿ\u008aO\u0003NÄÈ\nd\\¡!\u008c«aÇ©,}èF_.Z\u00120bög·«9°\u0012P\u0015\u0010\u00847|L\u0011\u0001×\u001c!\u000eð\u009föPF%\u001f¸ù©Rå@\u0004\u0085¬ë\u000eÇÕµ¹\u0015\u0018æ¨  üõ\u0081íü²\u0081 ×»»ßÈ\u0083KÑ ÓÂ\u001flzaï¹\u0096\"®-º\u009c#\u0010Y\u0084_4\u0014ÐøÏd\"BÝi\u0013\u0084¦\u0010E\u0003d\u009eBs}£\u0014\u0092\u0017Y\u008b8é\u0012\u0010É=óæVCX\u0007yTíIÐÇ\\3\u0018SàF;ã+Ø½\u008cMW\u0099Kf7\u00ad\u00944R\u0095&ª{Í(ÔgNâl\u0084óTóLÇOLV.¥hÇ\u0010\u001bM\u0097ßÐê/\u008aðîb\u0003a \u001aôeú¦!O\u0010+\u008då\u0010d\u0082C]m\u0083\u0011ü\u00970{& jà\u0003yê\u0083\u0081\u001b©<$\u0018àk\u000bL<\u0019t2\u0005>\u001eL\u0088Zæ±\u001d\u0016\u008dÆ\u0010\u0006øgðD%U\u0099ÙF*<\u0002®v¨0\u0090\rs¸¥.\u0087\u0019\u0099b\f~,£\u0084EÑL\bÿ$\u008a¦\u0085ûCá\u009e¾£\u0097\u00admø4¡e>ÊÄË \u0003º\u0007W@\u0004";
       int var6 = "3\u001ae\u00adq\u009f>ÁÐBT\u0018\t$\u0096, ¾÷\u0086\bÉ\u009f\u0004\t\u0016)÷\u009eø \u001d\u0097øÓP19\u0007\u0006\u009cÀ\u001b\u0011ÆÜÄ:\u0094\u0010\u0016'\u008e~Ý®U\u009a,\u0098ù\"\u0011\u001c3*\u0010è¢þÅ\u008dnÐ\u0087\u0095ÌÇÄ ßúF\u00104<Ð\u0092\u001b·\u008d-´\u0005\u0015\u001b\u0086²X\u0019\u0010\u0089$\u0088mB!g8§\u009e¾\u0013\u000bè\u001f)\u0010ØÕ¾\u009cÍb$t\u0090\n\u0085ÏQÍN·ŀC:¬\u0001Ò\u0080\u009eû5úè\u0087Ç»Ö6&ÛàæN\u0096\u001fw\u0016o¿=ñb¯m©\u0018³¶\u0014\u000f\u0090ë¹®\u000e÷eSt!¬G6yôô\u0003¶¸(uÛklË'Ê8QäðT\u0000öï°Â°:ù\u0088\u0092Ô\u0001ð)Ð²î\t\u00949;á¤(\u009aëà\u008a\u0000¸\u0087²#Ò\u0019ÞèT\u00926ÛA\u0013\u0094ê¯;H\u008eEÂz4Ä\u009a|ÆVã¿-D|¨+]T\u008c1¼QgÍ\t6î\u0010{\u0080\u008bsùhÓè\u001dÑåäµ\u0088W(\u0007£Zò\u001b\u008be\u0002\u007f$d\u0007§\u0094º\u0098J7U,»[ä\u000bÖ^\u00880³:ìE\u000eÒr\u0096\u007fËÒþ¢¨¹¶\u001b\u0086\u0013>×\n²ä\u0085oAÛÐÊUÅsfå|â¦ÇíM³8»¬;\u001e¡-\n\u0002<Ó¹ì<=e¡]gL\u0013\u0089Éy(Á»\u0084º:\u0085\b£EÆ¿wÑ2ñ\u0087\u008bI\u008e^\u0090\u001eP`(\u009dkÃ\u0086a\r¨~µ\u007f\u0080d\bö\u0014ß\u0002Ö\u0082¨\u00adt?P÷;\u0015Ò\u0012cVÃv\u0015;#%\u0010\u0084ã12\u0007OÆÙÝ¯iÍF\u00ad>\u0003 6Uk\u0097ÉÝ<\u0098\u009fû;\n\u001apÜc\u008dj0ë\u0085hÇ]\u0007µ\n\u008b\"Nk (\u0007%Ã\tÓÐñÉê6ì`ó)>ÿ\u008aO\u0003NÄÈ\nd\\¡!\u008c«aÇ©,}èF_.Z\u00120bög·«9°\u0012P\u0015\u0010\u00847|L\u0011\u0001×\u001c!\u000eð\u009föPF%\u001f¸ù©Rå@\u0004\u0085¬ë\u000eÇÕµ¹\u0015\u0018æ¨  üõ\u0081íü²\u0081 ×»»ßÈ\u0083KÑ ÓÂ\u001flzaï¹\u0096\"®-º\u009c#\u0010Y\u0084_4\u0014ÐøÏd\"BÝi\u0013\u0084¦\u0010E\u0003d\u009eBs}£\u0014\u0092\u0017Y\u008b8é\u0012\u0010É=óæVCX\u0007yTíIÐÇ\\3\u0018SàF;ã+Ø½\u008cMW\u0099Kf7\u00ad\u00944R\u0095&ª{Í(ÔgNâl\u0084óTóLÇOLV.¥hÇ\u0010\u001bM\u0097ßÐê/\u008aðîb\u0003a \u001aôeú¦!O\u0010+\u008då\u0010d\u0082C]m\u0083\u0011ü\u00970{& jà\u0003yê\u0083\u0081\u001b©<$\u0018àk\u000bL<\u0019t2\u0005>\u001eL\u0088Zæ±\u001d\u0016\u008dÆ\u0010\u0006øgðD%U\u0099ÙF*<\u0002®v¨0\u0090\rs¸¥.\u0087\u0019\u0099b\f~,£\u0084EÑL\bÿ$\u008a¦\u0085ûCá\u009e¾£\u0097\u00admø4¡e>ÊÄË \u0003º\u0007W@\u0004"
          .length();
-      char var3 = 16;
-      int var12 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var21;
+         if ((var2 += var3) >= var6) {
+            var4 = "É¢X\u0086ìPð\u00ad ¶\u009f\b\u008eó¢\u009dKì\u009d>H-Ãú\u0018\u001e\\]ÌÅôºs\u0097\b\u0019\u0088Ñ©\u001c\u0094@à¸ -ÿ\tU";
+            var6 = "É¢X\u0086ìPð\u00ad ¶\u009f\b\u008eó¢\u009dKì\u009d>H-Ãú\u0018\u001e\\]ÌÅôºs\u0097\b\u0019\u0088Ñ©\u001c\u0094@à¸ -ÿ\tU".length();
+            var3 = '\u0018';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) >= var6) {
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var7;
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[24];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new Regex(
-                        "You are temporarily banned for ([\\dhdms\\s]+) from this server!\\s+Reason: (.+?)\\.\\s+Find out more: https://www\\.hypixel\\.net/appeal\\s+Ban ID: #(\\w+)\\s+Sharing your Ban ID may affect the processing of your appeal!",
-                        RegexOption.DOT_MATCHES_ALL
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var19 = false;
+               var7[var5++] = var23;
+               if ((var2 += var3) >= var6) {
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var7;
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[24];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new Regex(
+                     "You are temporarily banned for ([\\dhdms\\s]+) from this server!\\s+Reason: (.+?)\\.\\s+Find out more: https://www\\.hypixel\\.net/appeal\\s+Ban ID: #(\\w+)\\s+Sharing your Ban ID may affect the processing of your appeal!",
+                     RegexOption.DOT_MATCHES_ALL
+                  );
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "É¢X\u0086ìPð\u00ad ¶\u009f\b\u008eó¢\u009dKì\u009d>H-Ãú\u0018\u001e\\]ÌÅôºs\u0097\b\u0019\u0088Ñ©\u001c\u0094@à¸ -ÿ\tU";
-                  var6 = "É¢X\u0086ìPð\u00ad ¶\u009f\b\u008eó¢\u009dKì\u009d>H-Ãú\u0018\u001e\\]ÌÅôºs\u0097\b\u0019\u0088Ñ©\u001c\u0094@à¸ -ÿ\tU".length();
-                  var3 = 24;
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

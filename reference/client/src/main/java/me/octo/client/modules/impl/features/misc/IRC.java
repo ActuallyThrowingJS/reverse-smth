@@ -45,7 +45,9 @@ public final class IRC extends BooleanModule {
          IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII()
       };
       super("IRC", "Connect to Polinex IRC chat.", var10003, "Misc", false, 1, var5);
-      PolinexAccessor.INSTANCE.eventBus.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(this, var3);
+      PolinexAccessor.INSTANCE
+         .eventBus
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$864ed80a9d741ba9(this, var3);
    }
 
    @Override
@@ -121,49 +123,41 @@ public final class IRC extends BooleanModule {
       String var6 = "¼\u0086I\u0099\u0003\u0014\u0017asDBPù\u0082_\u0007\u0010\u0086¬\u0084\u001aX\u0015O-è§\u0002\u001aÖ«% \u0010ú4\u0005Sy©¼\nO\u0097öM\u009cv§k";
       int var8 = "¼\u0086I\u0099\u0003\u0014\u0017asDBPù\u0082_\u0007\u0010\u0086¬\u0084\u001aX\u0015O-è§\u0002\u001aÖ«% \u0010ú4\u0005Sy©¼\nO\u0097öM\u009cv§k"
          .length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\"\u0005õµ\u008b§*\nÔÙº\u009f6ú\u0010¾A.ñJÆ;ª%ËÓ§rÙ·E»h#Bºb_\u0090Q¼¢\u0012\u0082_Þ³¡\u0010@\u0080\u0015ÿ\u000f\u0086>\u0083bÊÝz¦\u009d°Ö";
+            var8 = "\"\u0005õµ\u008b§*\nÔÙº\u009f6ú\u0010¾A.ñJÆ;ª%ËÓ§rÙ·E»h#Bºb_\u0090Q¼¢\u0012\u0082_Þ³¡\u0010@\u0080\u0015ÿ\u000f\u0086>\u0083bÊÝz¦\u009d°Ö"
+               .length();
+            var5 = '0';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var9;
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[5];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new IRC();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = var9;
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = new String[5];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new lIlIIIlIlIllllllIllllIIIIllIlllIIllIlllIlIIllIlllllllIllIIIIlIIIIIIIIllllIIIlllIlIlII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new IRC();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\"\u0005õµ\u008b§*\nÔÙº\u009f6ú\u0010¾A.ñJÆ;ª%ËÓ§rÙ·E»h#Bºb_\u0090Q¼¢\u0012\u0082_Þ³¡\u0010@\u0080\u0015ÿ\u000f\u0086>\u0083bÊÝz¦\u009d°Ö";
-                  var8 = "\"\u0005õµ\u008b§*\nÔÙº\u009f6ú\u0010¾A.ñJÆ;ª%ËÓ§rÙ·E»h#Bºb_\u0090Q¼¢\u0012\u0082_Þ³¡\u0010@\u0080\u0015ÿ\u000f\u0086>\u0083bÊÝz¦\u009d°Ö"
-                     .length();
-                  var5 = '0';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -272,5 +266,9 @@ public final class IRC extends BooleanModule {
             var5
          );
       }
+   }
+
+   public final void IlllIIlllIIIIIlllIllIIIIIIlIIIIIIllIllIlIlIlIIlIllIlIlllIIIlIIllIlIIlllIIIIlIIIIlllII$recovered$26e83b0bb833fdfc(long param1) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

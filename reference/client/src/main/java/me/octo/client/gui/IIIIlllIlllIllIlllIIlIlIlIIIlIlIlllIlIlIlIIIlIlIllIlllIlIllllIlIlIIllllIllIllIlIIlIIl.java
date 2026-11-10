@@ -49,16 +49,8 @@ public final class IIIIlllIlllIllIlllIIlIlIlIIIlIlIlllIlIlIlIIIlIlIllIlllIlIllll
    }
 
    public final float IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII() {
-      try {
-         Float var10000 = ArraysKt.lastOrNull(this.prefix);
-         if (var10000 != null) {
-            return var10000;
-         }
-      } catch (MatchException var1) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1);
-      }
-
-      return 0.0F;
+      Float var10000 = ArraysKt.lastOrNull(this.prefix);
+      return var10000 != null ? var10000 : 0.0F;
    }
 
    @NotNull
@@ -110,44 +102,36 @@ public final class IIIIlllIlllIllIlllIIlIlIlIIIlIlIlllIlIlIlIIIlIlIllIlllIlIllll
       String var6 = "S\u0000ìVvgý\u0004Ïÿ¹âÛ\b°$\u0018,µì\u000f\u009e\fv\u0084Å\t\u0011,µ®rÖÕUµ\u001d\u0093õ¸°(\tù&àHB\u008eeÓ\t\u008b\u0093`õÔÁÕð\\Þ'f9\u0004¢éI\u0010/s\u0090ÎÃ\u001brò¼\u0094\u0089F\u001062È.%ÞÜ\u0084ô\u00adÍc¥ìÕä";
       int var8 = "S\u0000ìVvgý\u0004Ïÿ¹âÛ\b°$\u0018,µì\u000f\u009e\fv\u0084Å\t\u0011,µ®rÖÕUµ\u001d\u0093õ¸°(\tù&àHB\u008eeÓ\t\u008b\u0093`õÔÁÕð\\Þ'f9\u0004¢éI\u0010/s\u0090ÎÃ\u001brò¼\u0094\u0089F\u001062È.%ÞÜ\u0084ô\u00adÍc¥ìÕä"
          .length();
-      char var5 = 16;
-      int var12 = -1;
+      char var5 = '\u0010';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0092Ç\u000bWÏÜãÇ³¦Ú)\u0085Ë\u0015¿\u0010\u000fÎáF\u0087\u0015zCÚb«ÃAÉWW";
+            var8 = "\u0092Ç\u000bWÏÜãÇ³¦Ú)\u0085Ë\u0015¿\u0010\u000fÎáF\u0087\u0015zCÚb«ÃAÉWW".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var9;
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[6];
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var9;
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[6];
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0092Ç\u000bWÏÜãÇ³¦Ú)\u0085Ë\u0015¿\u0010\u000fÎáF\u0087\u0015zCÚb«ÃAÉWW";
-                  var8 = "\u0092Ç\u000bWÏÜãÇ³¦Ú)\u0085Ë\u0015¿\u0010\u000fÎáF\u0087\u0015zCÚb«ÃAÉWW".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

@@ -53,53 +53,45 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
       int var7 = "\u000b*\u0000\u009dV·eÑ\u0018JC\u0082Ð±^>îEÛèùë,îÆc§\u001c\"ëàñ^\u0010]¡+®7i«\u0090\u0017º\u0093×þXÖÚ@¶¥Úb\u00adqäf\u0090:\tRHL¤\u007f\u0089ïàtD¥*\u0000åSÿ{p¯¯qæ(9Ó\u0083\u0086)´ \u0086\u0084\u0097f\u009bjeTè4¬Ä\u009b\u0086L=ñaí`ãq¶0ckwºým\b ü\u0015;\u0012AwÖ\u009cÉ¹\u0091Y 4«9çµ\u008a[\u000ea\u0092a\u0090â¤M\\\u0095>\u0084\tìbÜ?p\u001c\u009c"
          .length();
       char var4 = '\b';
-      int var13 = -1;
+      int var3 = -1;
 
-      label28:
       while (true) {
-         String var14 = var5.substring(++var13, var13 + var4);
+         byte[] var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var0[var6++] = var22;
+         if ((var3 += var4) >= var7) {
+            var5 = "\u0000\u0089TãÃ\u009f{ûTC2fTU\u009b°0¤½0?\u001ex\u0017UCú4\u0089\u0016\u009a^*;\u009b³\u0083\u009e\u008dµ\u0095\u0085^oÿ \u0081\"%T~×\u0089\u00adx)\u0090\u008b¾Ç³L\u009ayt";
+            var7 = "\u0000\u0089TãÃ\u009f{ûTC2fTU\u009b°0¤½0?\u001ex\u0017UCú4\u0089\u0016\u009a^*;\u009b³\u0083\u009e\u008dµ\u0095\u0085^oÿ \u0081\"%T~×\u0089\u00adx)\u0090\u008b¾Ç³L\u009ayt"
+               .length();
+            var4 = '\u0010';
+            var3 = -1;
 
-         while (true) {
-            byte[] var8 = var1.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) >= var7) {
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new BooleanSetting(var0[2], var0[4], true);
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new BooleanSetting(var0[1], var0[6], true);
-                     String var23 = var0[5];
-                     String var24 = var0[3];
-                     ModuleCategory var10004 = ModuleCategory.ADDONS;
-                     String var10005 = var0[0];
-                     Setting[] var11 = new Setting[]{lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII};
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new BooleanModule(
-                        var23, var24, var10004, var10005, true, var11
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var1.doFinal(var5.substring(++var3, var3 + var4).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var0[var6++] = var24;
+               if ((var3 += var4) >= var7) {
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new BooleanSetting(var0[2], var0[4], true);
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new BooleanSetting(var0[1], var0[6], true);
+                  String var26 = var0[5];
+                  String var27 = var0[3];
+                  ModuleCategory var10004 = ModuleCategory.ADDONS;
+                  String var10005 = var0[0];
+                  Setting[] var11 = new Setting[]{lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII};
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new BooleanModule(
+                     var26, var27, var10004, var10005, true, var11
+                  );
+                  return;
+               }
 
-                  var4 = var5.charAt(var13);
-                  break;
-               default:
-                  var0[var6++] = var20;
-                  if ((var13 += var4) < var7) {
-                     var4 = var5.charAt(var13);
-                     continue label28;
-                  }
-
-                  var5 = "\u0000\u0089TãÃ\u009f{ûTC2fTU\u009b°0¤½0?\u001ex\u0017UCú4\u0089\u0016\u009a^*;\u009b³\u0083\u009e\u008dµ\u0095\u0085^oÿ \u0081\"%T~×\u0089\u00adx)\u0090\u008b¾Ç³L\u009ayt";
-                  var7 = "\u0000\u0089TãÃ\u009f{ûTC2fTU\u009b°0¤½0?\u001ex\u0017UCú4\u0089\u0016\u009a^*;\u009b³\u0083\u009e\u008dµ\u0095\u0085^oÿ \u0081\"%T~×\u0089\u00adx)\u0090\u008b¾Ç³L\u009ayt"
-                     .length();
-                  var4 = 16;
-                  var13 = -1;
+               var4 = var5.charAt(var3);
             }
-
-            var14 = var5.substring(++var13, var13 + var4);
-            var10001 = 0;
          }
+
+         var4 = var5.charAt(var3);
       }
    }
 

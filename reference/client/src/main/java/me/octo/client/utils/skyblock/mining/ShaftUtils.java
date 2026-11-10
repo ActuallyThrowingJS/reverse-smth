@@ -65,49 +65,41 @@ public final class ShaftUtils {
       String var4 = "S×FZ-x\u0013Iå\u0099%âÓ|å\u000f0\u0007Ó3R\u0006ÕÏ\u0087¹\u008d\u0084µ]Äµ¸\u0002¿é\u009bBVFì\u0015@Ý\u0017Ì¾,¬\u008eh¢çývBz;¤åA\u0087zÂ\u001f TScÓà\u0016ø\u0002m\u009fê\u000eýÂ\u009f`A\fé?þWXeèÓs½\u009c*¡²(\u0003ma=\u0007ß{Ô&Z,®â§ê\u0081)\u0086w)ª×á=¿ÐsSú kÑµ½_þYv\u0095\u000f(!ü\u0086ÛÔ\u0015>þ9¶_B\u0012'-EP|·^\u00175¶¬ðSòº\u0090\u001a\u00adfëk°\u009b\\\u0099Rî";
       int var6 = "S×FZ-x\u0013Iå\u0099%âÓ|å\u000f0\u0007Ó3R\u0006ÕÏ\u0087¹\u008d\u0084µ]Äµ¸\u0002¿é\u009bBVFì\u0015@Ý\u0017Ì¾,¬\u008eh¢çývBz;¤åA\u0087zÂ\u001f TScÓà\u0016ø\u0002m\u009fê\u000eýÂ\u009f`A\fé?þWXeèÓs½\u009c*¡²(\u0003ma=\u0007ß{Ô&Z,®â§ê\u0081)\u0086w)ª×á=¿ÐsSú kÑµ½_þYv\u0095\u000f(!ü\u0086ÛÔ\u0015>þ9¶_B\u0012'-EP|·^\u00175¶¬ðSòº\u0090\u001a\u00adfëk°\u009b\\\u0099Rî"
          .length();
-      char var3 = 16;
-      int var12 = -1;
+      char var3 = '\u0010';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "1A¡Êc-Td¦×\u001dRÛpò+G\u0012c>Óo\u0085ÍÐÙ\u008a\u0083Í_\u0019$ \u0013\u0013Ä\u0092ä«G GP\u0001®òÀ-a\u0016ãè\u0099WÆÐ\u0097ë\ne\u008d{½Ù*";
+            var6 = "1A¡Êc-Td¦×\u001dRÛpò+G\u0012c>Óo\u0085ÍÐÙ\u008a\u0083Í_\u0019$ \u0013\u0013Ä\u0092ä«G GP\u0001®òÀ-a\u0016ãè\u0099WÆÐ\u0097ë\ne\u008d{½Ù*"
+               .length();
+            var3 = ' ';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var12 += var3) >= var6) {
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var7;
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[7];
-                     INSTANCE = new ShaftUtils();
-                     Minecraft var15 = Minecraft.getInstance();
-                     Intrinsics.checkNotNullExpressionValue(var15, "getInstance(...)");
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = var15;
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = var7;
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new String[7];
+                  INSTANCE = new ShaftUtils();
+                  Minecraft var18 = Minecraft.getInstance();
+                  Intrinsics.checkNotNullExpressionValue(var18, "getInstance(...)");
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = var18;
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "1A¡Êc-Td¦×\u001dRÛpò+G\u0012c>Óo\u0085ÍÐÙ\u008a\u0083Í_\u0019$ \u0013\u0013Ä\u0092ä«G GP\u0001®òÀ-a\u0016ãè\u0099WÆÐ\u0097ë\ne\u008d{½Ù*";
-                  var6 = "1A¡Êc-Td¦×\u001dRÛpò+G\u0012c>Óo\u0085ÍÐÙ\u008a\u0083Í_\u0019$ \u0013\u0013Ä\u0092ä«G GP\u0001®òÀ-a\u0016ãè\u0099WÆÐ\u0097ë\ne\u008d{½Ù*"
-                     .length();
-                  var3 = ' ';
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

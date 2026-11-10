@@ -1,0 +1,13 @@
+{
+  "analysisOnly": true,
+  "previouslyFailedGenericMethodsNowDecompiled": 41,
+  "newGenericDecompilerFailures": 0,
+  "genericMethodsPreserved": true,
+  "variantsGenerated": 1658,
+  "variantsWithJavaDeclarationsAndNoDecompilerFailure": 805,
+  "previouslyFailedOriginalMethodsWithReadableVariants": 6,
+  "failedMethodWarningsIncludingGenericAndVariantMethods": 5927,
+  "classWriteFailures": 24,
+  "sourceFiles": 1583,
+  "note": "A readable variant covers its recorded constant-key context, not all possible arguments. Decompiler success is not application behavior validation."
+}

@@ -385,45 +385,37 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
       String var4 = "C2\u008d¼L[}\u0012[ÇX\u008a³\u008a\u0084¹7W ×ì(6L\u0018\u0005þ\u00912\u001b^\u0092Q\u0083\u0095Ã\u0010\u000f \bhu®\u008dÞ\u0093Þ´ü\u0010iX±»jO\u0083\u0081\u008f]ý\u0091\u009dZ¸ÿ\u0010\u008bÇºFÆ^¼^Î+\u0084ã\u001c÷ß=\u0010p\u001f¿<Ñ&\u0094ª°\b}\u008dô@é³\u0018\u00830î½\u009d\u0012\u0091 ð\u001fñ\u0089¬FqªÎIÇÑ5\u008c\u00adË\u0018\u0096ìÁ/Ñy\u0014.ýB°üµ\f2,ºa\u0087(T\u0003Õ×\u0010hH\u0010POñ\u008fjO\u0096\u009a\nCá\u008a\u0086 1Y\u00803`\u000fÞ¼´XË\u001b\u009d\u0097\u0012(=¨\u0090X4\u0098\u0011y¾ß©¹ágÎL \u0080ó\u0080\u001d\u0087µ\u009aåÞ\rUJU²bê\u0017J%Î\u0092Ù¢¢\u0097Ë>C\u0001t{= \u0086G¥HútÓ¿½ÄÔ)\u0014%\u0081=@\u001d\u000f´D\u0013ç;Ìé£GÜú§\u0014\u0010ù\nç\u0006>6\rïÌÚû\u0007\u001ets\u0005\u0018+²ß\u0085ê±\u0002\u0093\u007fI\u0088\b\u0091\u0081¸S\u0086Qv \u0085\u009aÖ¸\u0010E{\u0003öD\u0004\u009d\u009ebÚ\u0080r\u0088Fg\u008f eR¢\u0092ñuNù\u0003§\"Û£qËi.´ëÊ¸\u0092\u008d¨\u0015ðÃÒ<ç&½\u0018o\u0006\u0088æV\u0003\\¬î§Ø\u008di\u008eÌÓ\u001c\u0018\u0013ùÊÛþ&\u0010àz\u0082ð¤v\u0094\u0011õÚ\u0005z¸e8Ù ×±\u0088Ü\u0087ùÇëÆz\b\u0000V\u0096\u008c)° Û\u0004.:Oò\u0004PuÛ\u0083î¿\u009c(`Û\bIµ`Èí^Þ\u0097OPâ÷\u0003ë}\n¾5\\¬\u0010\u0010\u009aS.ÄpÇ;þ\u0092%,-@Ç\u001d dHNõõ\u0081\u0005bü¿C\\V\u0089#_¸:5õ \u0016\u0089Û\u000eh#<!\u0086Ñð FåU\u0089G:PßS¶GÁÿ\u0090\u009b\u001fulxßFó\\\u009bGc \u009dÈ3Ãÿ\u0010Yêe7Qò0×5Ý!¿Óºd! Óã#\u0096Ðy\u0018bî\u0094\u0085\u0087ôJÑNÕ¬\u0002Z\u0010s8\u0084jOÜw:¶\u007f\u0084 ÌÐ\u00178ÌjõÉ\u000b0¾`1TqÐ\u009f^Ýá\u001dHýñ\u0019\b+P\u001e¿³\u0001 RÉh½·r\u001dhÒ}\u0093óª5à$ìÒqzï\u0080Ñ4{\u0083\u009b\u007f\f\u0019¥»\u0010~\n\fÚ\u0013\u0017'¬>\u0015yjÓ\u0014\u000f$\u0018»\u001d\bknéN\u008cÚ\u00ad\u0091b¢\u0080\u008fG\u009c?\u0096Q\u00819¥ö \u009d3µm SÖ\u0016^X1D\u0014ºùÊìÔ£\u0090:d[¹\u0001\u0001ºaô°\u009b×\u0010\u0004~ÚD\u0088Í3\u0092[\u00adSÙpC\u0098\u0099\u0010à¼ïY'¡ùùï¶\"\u008f{K\b\u008d\u0010]o\u0091ÛbW`?Bä\u0095\u001aÍ\u009aO\u009b \u0002úÞ.!M\fVfÂ\u0011¥\u0087£VÌ\bÛÕ\u008b¼âT\u007f×vzH\\¥Sø\u0010ôR\u009dn|(³N\u0018,¯\u001fÕ\u0082à»\u0010N\u009d\u0084Ù >èî¡±z*¦0¾ª ü\u0091$Û\\Q;ß©p:6\u0007\u0014OC\u008eRÔ»¸\u0006 \u0006bw§äPT\rÓ\u0010\u009dHd\u0001ü\u0012[ß\f?ãu¢''W\u0010\u0091)\u0098)Ä»\u001aÙ\u0011q\u0098ç×Ð\u0087p ¾¾s#\u0018¯\u0013\\õ®\u0083\"E]\u0085\u007fÝÁG\u0096¬«1\u009b«áô%Î\u0094@S \u0007+$xÖo4÷\u00981Ã½ÂÜp\u0017\u00128Xq©´vûüÞE6¤;ð.(\u0003\u009a\r¨\rcÆ\u001aF\u0094-åË°û\u0017\u0018×:úá×*Gö\tÃGvº\r±å¾ô¾ÈÖBý\u0010RZã8\u0016\u009a5êÝ·ì/\u0000(\u0000\u000f\u0010NW¹\f\u009dÄ\nWQÇ\u0019ºüBy\u0089";
       int var6 = "C2\u008d¼L[}\u0012[ÇX\u008a³\u008a\u0084¹7W ×ì(6L\u0018\u0005þ\u00912\u001b^\u0092Q\u0083\u0095Ã\u0010\u000f \bhu®\u008dÞ\u0093Þ´ü\u0010iX±»jO\u0083\u0081\u008f]ý\u0091\u009dZ¸ÿ\u0010\u008bÇºFÆ^¼^Î+\u0084ã\u001c÷ß=\u0010p\u001f¿<Ñ&\u0094ª°\b}\u008dô@é³\u0018\u00830î½\u009d\u0012\u0091 ð\u001fñ\u0089¬FqªÎIÇÑ5\u008c\u00adË\u0018\u0096ìÁ/Ñy\u0014.ýB°üµ\f2,ºa\u0087(T\u0003Õ×\u0010hH\u0010POñ\u008fjO\u0096\u009a\nCá\u008a\u0086 1Y\u00803`\u000fÞ¼´XË\u001b\u009d\u0097\u0012(=¨\u0090X4\u0098\u0011y¾ß©¹ágÎL \u0080ó\u0080\u001d\u0087µ\u009aåÞ\rUJU²bê\u0017J%Î\u0092Ù¢¢\u0097Ë>C\u0001t{= \u0086G¥HútÓ¿½ÄÔ)\u0014%\u0081=@\u001d\u000f´D\u0013ç;Ìé£GÜú§\u0014\u0010ù\nç\u0006>6\rïÌÚû\u0007\u001ets\u0005\u0018+²ß\u0085ê±\u0002\u0093\u007fI\u0088\b\u0091\u0081¸S\u0086Qv \u0085\u009aÖ¸\u0010E{\u0003öD\u0004\u009d\u009ebÚ\u0080r\u0088Fg\u008f eR¢\u0092ñuNù\u0003§\"Û£qËi.´ëÊ¸\u0092\u008d¨\u0015ðÃÒ<ç&½\u0018o\u0006\u0088æV\u0003\\¬î§Ø\u008di\u008eÌÓ\u001c\u0018\u0013ùÊÛþ&\u0010àz\u0082ð¤v\u0094\u0011õÚ\u0005z¸e8Ù ×±\u0088Ü\u0087ùÇëÆz\b\u0000V\u0096\u008c)° Û\u0004.:Oò\u0004PuÛ\u0083î¿\u009c(`Û\bIµ`Èí^Þ\u0097OPâ÷\u0003ë}\n¾5\\¬\u0010\u0010\u009aS.ÄpÇ;þ\u0092%,-@Ç\u001d dHNõõ\u0081\u0005bü¿C\\V\u0089#_¸:5õ \u0016\u0089Û\u000eh#<!\u0086Ñð FåU\u0089G:PßS¶GÁÿ\u0090\u009b\u001fulxßFó\\\u009bGc \u009dÈ3Ãÿ\u0010Yêe7Qò0×5Ý!¿Óºd! Óã#\u0096Ðy\u0018bî\u0094\u0085\u0087ôJÑNÕ¬\u0002Z\u0010s8\u0084jOÜw:¶\u007f\u0084 ÌÐ\u00178ÌjõÉ\u000b0¾`1TqÐ\u009f^Ýá\u001dHýñ\u0019\b+P\u001e¿³\u0001 RÉh½·r\u001dhÒ}\u0093óª5à$ìÒqzï\u0080Ñ4{\u0083\u009b\u007f\f\u0019¥»\u0010~\n\fÚ\u0013\u0017'¬>\u0015yjÓ\u0014\u000f$\u0018»\u001d\bknéN\u008cÚ\u00ad\u0091b¢\u0080\u008fG\u009c?\u0096Q\u00819¥ö \u009d3µm SÖ\u0016^X1D\u0014ºùÊìÔ£\u0090:d[¹\u0001\u0001ºaô°\u009b×\u0010\u0004~ÚD\u0088Í3\u0092[\u00adSÙpC\u0098\u0099\u0010à¼ïY'¡ùùï¶\"\u008f{K\b\u008d\u0010]o\u0091ÛbW`?Bä\u0095\u001aÍ\u009aO\u009b \u0002úÞ.!M\fVfÂ\u0011¥\u0087£VÌ\bÛÕ\u008b¼âT\u007f×vzH\\¥Sø\u0010ôR\u009dn|(³N\u0018,¯\u001fÕ\u0082à»\u0010N\u009d\u0084Ù >èî¡±z*¦0¾ª ü\u0091$Û\\Q;ß©p:6\u0007\u0014OC\u008eRÔ»¸\u0006 \u0006bw§äPT\rÓ\u0010\u009dHd\u0001ü\u0012[ß\f?ãu¢''W\u0010\u0091)\u0098)Ä»\u001aÙ\u0011q\u0098ç×Ð\u0087p ¾¾s#\u0018¯\u0013\\õ®\u0083\"E]\u0085\u007fÝÁG\u0096¬«1\u009b«áô%Î\u0094@S \u0007+$xÖo4÷\u00981Ã½ÂÜp\u0017\u00128Xq©´vûüÞE6¤;ð.(\u0003\u009a\r¨\rcÆ\u001aF\u0094-åË°û\u0017\u0018×:úá×*Gö\tÃGvº\r±å¾ô¾ÈÖBý\u0010RZã8\u0016\u009a5êÝ·ì/\u0000(\u0000\u000f\u0010NW¹\f\u009dÄ\nWQÇ\u0019ºüBy\u0089"
          .length();
-      char var3 = 24;
-      int var13 = -1;
+      char var3 = '\u0018';
+      int var2 = -1;
 
-      label31:
       while (true) {
-         String var14 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "åd¥_\rÓìÜä1U.}ðz,\u0010\u001c\u0097A\u0016,ÖìnúÄ\bf\u0087åo4";
+            var6 = "åd¥_\rÓìÜä1U.}ðz,\u0010\u001c\u0097A\u0016,ÖìnúÄ\bf\u0087åo4".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) >= var6) {
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var7;
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new String[44];
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI();
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var7;
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new String[44];
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI();
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label31;
-                  }
-
-                  var4 = "åd¥_\rÓìÜä1U.}ðz,\u0010\u001c\u0097A\u0016,ÖìnúÄ\bf\u0087åo4";
-                  var6 = "åd¥_\rÓìÜä1U.}ðz,\u0010\u001c\u0097A\u0016,ÖìnúÄ\bf\u0087åo4".length();
-                  var3 = 16;
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var14 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -542,6 +534,517 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
       }
    }
 
+   @NotNull
+   public final Vec3 IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl$recovered$43450947e2688741(
+      long argument1Arg, @NotNull BlockPos posArg
+   ) {
+      argument1Arg = 48962518225503L;
+      argument1Arg = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll ^ argument1Arg;
+      Intrinsics.checkNotNullParameter(posArg, "pos");
+      Vec3 var10000 = new Vec3((Vec3i)posArg).add(0.5, 0.5, 0.5);
+      Intrinsics.checkNotNullExpressionValue(var10000, "add(...)");
+      return var10000;
+   }
+
+   @NotNull
+   public final ArrayList llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$894aaa8f3f746d53(
+      @NotNull Vec3 param1, long param2, int param4, @NotNull Vec3 param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final Vec3 IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$9e7918847e5ea75f(
+      long argument1Arg, @NotNull BlockPos posArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a167b0e005e9a5b8(
+      long var0,
+      IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI var2,
+      Vec3 var3,
+      Vec3 var4,
+      Vec3 var5,
+      int var6,
+      boolean var7,
+      double var8,
+      boolean var10,
+      boolean var11,
+      double var12,
+      int var14,
+      Object var15
+   ) {
+      var0 = 4607685189395L;
+      var0 = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll ^ var0;
+      long var16 = var0 ^ 48129435520634L;
+      int[] var18 = IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
+
+      int var44;
+      byte var10001;
+      label116: {
+         label115: {
+            int var26;
+            byte var27;
+            label114: {
+               try {
+                  var27 = 4;
+                  var26 = var14;
+                  if (var18 == null) {
+                     break label114;
+                  }
+
+                  if ((var14 & var27) == 0) {
+                     break label115;
+                  }
+               } catch (NoWhenBranchMatchedException var41) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var41);
+               }
+
+               Vec3 var10000 = Vec3.ZERO;
+               Intrinsics.checkNotNullExpressionValue(Vec3.ZERO, "ZERO");
+               var5 = var10000;
+               break label115;
+            }
+
+            var44 = var26;
+            var10001 = var27;
+            break label116;
+         }
+
+         var44 = var14;
+         var10001 = 8;
+      }
+
+      label105: {
+         label104: {
+            int var28;
+            byte var29;
+            label103: {
+               try {
+                  var29 = var10001;
+                  var28 = var44;
+                  if (var18 == null) {
+                     break label103;
+                  }
+
+                  if ((var28 & var29) == 0) {
+                     break label104;
+                  }
+               } catch (NoWhenBranchMatchedException var40) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var40);
+               }
+
+               var6 = 100;
+               break label104;
+            }
+
+            var44 = var28;
+            var10001 = var29;
+            break label105;
+         }
+
+         var44 = var14;
+         var10001 = 16;
+      }
+
+      label94: {
+         label93: {
+            int var30;
+            byte var31;
+            label92: {
+               try {
+                  var31 = var10001;
+                  var30 = var44;
+                  if (var18 == null) {
+                     break label92;
+                  }
+
+                  if ((var30 & var31) == 0) {
+                     break label93;
+                  }
+               } catch (NoWhenBranchMatchedException var39) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var39);
+               }
+
+               var7 = false;
+               break label93;
+            }
+
+            var44 = var30;
+            var10001 = var31;
+            break label94;
+         }
+
+         var44 = var14;
+         var10001 = 32;
+      }
+
+      label83: {
+         int var32;
+         byte var33;
+         label82: {
+            label81: {
+               try {
+                  var33 = var10001;
+                  var32 = var44;
+                  if (var18 == null) {
+                     break label82;
+                  }
+
+                  if ((var32 & var33) == 0) {
+                     break label81;
+                  }
+               } catch (NoWhenBranchMatchedException var38) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var38);
+               }
+
+               var8 = 1.0;
+            }
+
+            try {
+               var44 = var14;
+               var10001 = 64;
+               break label83;
+            } catch (NoWhenBranchMatchedException var36) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var36);
+            }
+         }
+
+         var44 = var32;
+         var10001 = var33;
+      }
+
+      if ((var44 & var10001) != 0) {
+         var10 = false;
+      }
+
+      label71: {
+         int var34;
+         label120: {
+            try {
+               var34 = var14;
+               if (var18 == null) {
+                  break label120;
+               }
+
+               var44 = var14 & 128;
+            } catch (NoWhenBranchMatchedException var37) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var37);
+            }
+
+            if (var44 != 0) {
+               var11 = false;
+            }
+
+            try {
+               var44 = var14 & 256;
+               break label71;
+            } catch (NoWhenBranchMatchedException var35) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var35);
+            }
+         }
+
+         var44 = var34;
+      }
+
+      if (var44 != 0) {
+         var12 = 0.0;
+      }
+
+      return var2.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$338078059f55db8d(
+         var3, var4, var5, var16, var6, var7, var8, var10, var11, var12
+      );
+   }
+
+   public static ArrayList llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$90ffcf08e27b3587(
+      IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI var0,
+      long var1,
+      Vec3 var3,
+      Vec3 var4,
+      Vec3 var5,
+      int var6,
+      int var7,
+      boolean var8,
+      boolean var9,
+      int var10,
+      Object var11
+   ) {
+      var1 = 28530439250500L;
+      var1 = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll ^ var1;
+      long var12 = var1 ^ 114235625335357L;
+      int[] var14 = IIIlllIIIIIlIIllIllIlllllIIlllIIlllIlIIllIllllllIlIllllllIIlIlllllIlIlIIIlIlllIIlllIl.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII();
+
+      int var34;
+      byte var10001;
+      label91: {
+         label90: {
+            int var20;
+            byte var21;
+            label89: {
+               try {
+                  var21 = 4;
+                  var20 = var10;
+                  if (var14 == null) {
+                     break label89;
+                  }
+
+                  if ((var10 & var21) == 0) {
+                     break label90;
+                  }
+               } catch (NoWhenBranchMatchedException var31) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var31);
+               }
+
+               Vec3 var10000 = Vec3.ZERO;
+               Intrinsics.checkNotNullExpressionValue(Vec3.ZERO, "ZERO");
+               var5 = var10000;
+               break label90;
+            }
+
+            var34 = var20;
+            var10001 = var21;
+            break label91;
+         }
+
+         var34 = var10;
+         var10001 = 8;
+      }
+
+      label80: {
+         label79: {
+            int var22;
+            byte var23;
+            label78: {
+               try {
+                  var23 = var10001;
+                  var22 = var34;
+                  if (var14 == null) {
+                     break label78;
+                  }
+
+                  if ((var22 & var23) == 0) {
+                     break label79;
+                  }
+               } catch (NoWhenBranchMatchedException var30) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var30);
+               }
+
+               var6 = 100;
+               break label79;
+            }
+
+            var34 = var22;
+            var10001 = var23;
+            break label80;
+         }
+
+         var34 = var10;
+         var10001 = 16;
+      }
+
+      label69: {
+         int var24;
+         byte var25;
+         label68: {
+            label67: {
+               try {
+                  var25 = var10001;
+                  var24 = var34;
+                  if (var14 == null) {
+                     break label68;
+                  }
+
+                  if ((var24 & var25) == 0) {
+                     break label67;
+                  }
+               } catch (NoWhenBranchMatchedException var29) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var29);
+               }
+
+               var7 = 1;
+            }
+
+            try {
+               var34 = var10;
+               var10001 = 32;
+               break label69;
+            } catch (NoWhenBranchMatchedException var27) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var27);
+            }
+         }
+
+         var34 = var24;
+         var10001 = var25;
+      }
+
+      if ((var34 & var10001) != 0) {
+         var8 = true;
+      }
+
+      label56: {
+         int var26;
+         label95: {
+            try {
+               var26 = var10;
+               if (var14 == null) {
+                  break label95;
+               }
+
+               var34 = var10 & 64;
+            } catch (NoWhenBranchMatchedException var28) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var28);
+            }
+
+            if (var34 == 0) {
+               return var0.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$69ae757507f7798b(
+                  var3, var4, var5, var6, var7, var8, var12, (boolean)var9
+               );
+            }
+
+            var34 = 0;
+            break label56;
+         }
+
+         var34 = var26;
+      }
+
+      var9 = var34;
+      return var0.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$69ae757507f7798b(
+         var3, var4, var5, var6, var7, var8, var12, (boolean)var9
+      );
+   }
+
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$bd577eb1977c201d(
+      @NotNull Vec3 pointArg, @NotNull Vec3 playerPosArg, long argument3Arg, double argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIlIlIlllllIIlIllIllIlIlIlIllIIllIIlIlIllIlllIlllIIlIIIIIlIllllllIIIlllllIlllIIIIlIIl$recovered$a4606b705df0a7b8(
+      @NotNull BlockPos posArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final BlockPos IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$1e980e9d0b34f35f(
+      long argument1Arg, @NotNull BlockPos posArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final AABB IllIlllIlllIIllllIIlllIIlllIlIllIlllllIlIllIlllIIIIIIllIIlIlllIllIIlIIlllIllllIlIIIII$recovered$7218c6928bfb2d6e(
+      @NotNull BlockPos posArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final double IIIlIlIIlIllIIlIIIllIlIIIlIIllIIlIllIlIlllIIIIlllIllllIIIIIllIlIIllIIIlllIlIlIlIllIlI$recovered$c5011e851778c2b9(
+      @NotNull BlockPos posArg, long argument2Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final ArrayList IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6614f805936a05b6(
+      @NotNull Vec3 fromArg, long argument2Arg, @NotNull Vec3 toArg, int argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f386d4baa2b8abea(
+      double param1, long param3, double param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$338078059f55db8d(
+      @NotNull Vec3 fromArg,
+      @NotNull Vec3 toArg,
+      @NotNull Vec3 velocityArg,
+      long argument4Arg,
+      int argument5Arg,
+      boolean argument6Arg,
+      double argument7Arg,
+      boolean argument8Arg,
+      boolean argument9Arg,
+      double argument10Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @Nullable
+   public final ArrayList llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$69ae757507f7798b(
+      @NotNull Vec3 fromArg,
+      @NotNull Vec3 toArg,
+      @NotNull Vec3 velocityArg,
+      int argument4Arg,
+      int argument5Arg,
+      boolean argument6Arg,
+      long argument7Arg,
+      boolean argument8Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final AABB IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f82213220ef82775(
+      byte param1, long param2, @NotNull BlockPos param4, @NotNull BlockState param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$894710f7772d72ff(
+      double argument1Arg, double argument2Arg, @NotNull Vec3 playerPosArg, long argument4Arg, @NotNull BlockPos fromArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final BlockPos IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$99c17992930e5120(
+      long argument1Arg, @NotNull Vec3 vec3dArg
+   ) {
+      argument1Arg = 133055044868320L;
+      argument1Arg = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll ^ argument1Arg;
+      Intrinsics.checkNotNullParameter(vec3dArg, "vec3d");
+      return new BlockPos((int)Math.floor(vec3dArg.x), (int)Math.floor(vec3dArg.y), (int)Math.floor(vec3dArg.z));
+   }
+
+   private static final ArrayList IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$455ea4c12244480e(
+      List param0, Vec3 param1, double param2, ClientLevel param4, LocalPlayer param5, double param6, double param8, long param10, Pair param12
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @NotNull
+   public final List IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$6d3527ad57902ff0(
+      @NotNull BlockPos param1, int param2, long param3, int param5, short param6, int param7
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private static final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$8b408e9a6449d5a0(
+      long param0, ClientLevel param2, BlockPos param3
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static ArrayList IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c3f4c4cfe4e3bee4(
+      IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlIIlllIIlllIIIIIlIIIlIIllI param0,
+      Vec3 param1,
+      Vec3 param2,
+      int param3,
+      long param4,
+      int param6,
+      Object param7
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {
       private int IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl;
       private int lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII;
@@ -599,7 +1102,7 @@ public final class IIIIIIIIlIIIIIlIlllIllllIllllIlIlllIIllIIlllIIIlIIIlllIlIlIlI
          this.llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new ArrayList<>();
          this.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = (
                lIIllIIIlIlIIIlIIIIIlIlIIlIIIIIIIIlIIllIIIIlIlllIIllIIllIIlllllllIIllIllIlllllIlIlIII.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-                     .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(startArg, var5, endArg)
+                     .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$cfdbee177fb93dcf(startArg, var5, endArg)
                   + 1.0
             )
             * 5.0;

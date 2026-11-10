@@ -90,15 +90,65 @@ public final class IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIII
          .IlllIIlllIIIIIlllIllIIIIIIlIIIIIIllIllIlIlIlIIlIllIlIlllIIIlIIllIlIIlllIIIIlIIIIlllII();
       boolean var3 = (boolean)var10000;
 
-      label56: {
-         try {
-            var9 = var4;
-            if (var3) {
-               break label56;
+      label63: {
+         label62: {
+            me.octo.client.modules.impl.features.visuals.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI[] var5;
+            try {
+               var5 = var4;
+               if (!var3) {
+                  if (var4 == null) {
+                     return 0.0F;
+                  }
+                  break label62;
+               }
+            } catch (MatchException var10) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var10, 9076740259131158786L, var1
+               );
             }
 
-            if (var4 == null) {
-               return 0.0F;
+            var11 = var5;
+            break label63;
+         }
+
+         var11 = var4;
+      }
+
+      label52: {
+         label51: {
+            int var6;
+            label50: {
+               try {
+                  var6 = var11.length;
+                  if (var3) {
+                     break label50;
+                  }
+
+                  if (var6 == 0) {
+                     break label51;
+                  }
+               } catch (MatchException var9) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var9, 9076740259131158786L, var1
+                  );
+               }
+
+               var10000 = 0;
+               break label52;
+            }
+
+            var10000 = var6;
+            break label52;
+         }
+
+         var10000 = 1;
+      }
+
+      label41: {
+         try {
+            if (var10000 == 0) {
+               var13 = true;
+               break label41;
             }
          } catch (MatchException var8) {
             throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
@@ -106,55 +156,16 @@ public final class IllIIlIIIIlIIIlIlIlllllIIIIlllllIlIllIllIIllIIlllIllllIIIlIII
             );
          }
 
-         var9 = var4;
-      }
-
-      label48: {
-         label47: {
-            try {
-               var10000 = var9.length;
-               if (var3) {
-                  break label48;
-               }
-
-               if (var10000 == 0) {
-                  break label47;
-               }
-            } catch (MatchException var7) {
-               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  var7, 9076740259131158786L, var1
-               );
-            }
-
-            var10000 = 0;
-            break label48;
-         }
-
-         var10000 = 1;
-      }
-
-      label39: {
-         try {
-            if (var10000 == 0) {
-               var11 = true;
-               break label39;
-            }
-         } catch (MatchException var6) {
-            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               var6, 9076740259131158786L, var1
-            );
-         }
-
-         var11 = false;
+         var13 = false;
       }
 
       try {
-         if (var11) {
+         if (var13) {
             return 40.0F + var4.length * 20.0F;
          }
-      } catch (MatchException var5) {
+      } catch (MatchException var7) {
          throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-            var5, 9076740259131158786L, var1
+            var7, 9076740259131158786L, var1
          );
       }
 

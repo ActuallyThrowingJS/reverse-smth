@@ -50,13 +50,21 @@ public abstract class DisconnectedScreenMixin extends Screen {
    @Inject(method = "repositionElements", at = @At("TAIL"))
    private void polinex$refreshBanClipPromptLayout(CallbackInfo var1) {
       boolean var2 = Replay.INSTANCE.hasPendingDisconnectBanClipPrompt();
-      PolinexLogger.info("Clipping UI: DisconnectedScreen refreshWidgetPositions pendingPrompt=" + var2 + " buttonsAdded=" + this.polinex$banClipButtonsAdded);
-      if (var2 && !this.polinex$banClipButtonsAdded) {
-         this.polinex$addBanClipButtons();
-      } else {
-         if (var2 && this.polinex$banClipButtonsAdded) {
-            this.polinex$layoutBanClipWidgets();
+      if (var2) {
+         PolinexLogger.info(
+            "Clipping UI: DisconnectedScreen refreshWidgetPositions pendingPrompt=" + var2 + " buttonsAdded=" + this.polinex$banClipButtonsAdded
+         );
+         if (!this.polinex$banClipButtonsAdded) {
+            this.polinex$addBanClipButtons();
+         } else {
+            if (this.polinex$banClipButtonsAdded) {
+               this.polinex$layoutBanClipWidgets();
+            }
          }
+      } else {
+         PolinexLogger.info(
+            "Clipping UI: DisconnectedScreen refreshWidgetPositions pendingPrompt=" + var2 + " buttonsAdded=" + this.polinex$banClipButtonsAdded
+         );
       }
    }
 

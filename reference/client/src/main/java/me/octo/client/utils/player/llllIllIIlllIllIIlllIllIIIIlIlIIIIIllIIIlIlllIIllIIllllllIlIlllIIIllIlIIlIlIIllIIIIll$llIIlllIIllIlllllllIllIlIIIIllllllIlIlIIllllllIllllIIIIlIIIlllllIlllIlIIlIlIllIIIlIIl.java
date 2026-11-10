@@ -23,17 +23,17 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
       int var5 = var10000;
       boolean var7 = false;
 
-      label213: {
-         label221: {
-            label210:
+      label189: {
+         label197: {
+            label186:
             try {
                if (var5 == 0) {
                   var79 = var6.IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl();
                   if (var79 != null) {
-                     break label210;
+                     break label186;
                   }
                }
-               break label221;
+               break label197;
             } catch (MatchException var61) {
                throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var61);
             }
@@ -48,91 +48,73 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
             double var20 = Math.abs(var14 - 0.5);
             double var22 = Math.max(var16, Math.max(var18, var20));
 
-            label201: {
-               label200: {
+            label177: {
+               label176: {
                   try {
-                     double var94;
-                     var10000 = (var94 = var22 - var18) == 0.0 ? 0 : (var94 < 0.0 ? -1 : 1);
-                     if (var5 != 0) {
-                        break label201;
-                     }
-
-                     if (!var10000) {
-                        break label200;
+                     if (var22 == var18) {
+                        break label176;
                      }
                   } catch (MatchException var60) {
                      throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var60);
                   }
 
-                  var10000 = 0;
-                  break label201;
+                  var81 = false;
+                  break label177;
                }
 
-               var10000 = 1;
+               var81 = true;
             }
 
-            int var24 = var10000;
+            boolean var24 = var81;
 
-            label191: {
-               label190: {
+            label169: {
+               label168: {
                   try {
-                     double var95;
-                     var10000 = (var95 = var22 - var16) == 0.0 ? 0 : (var95 < 0.0 ? -1 : 1);
-                     if (var5 != 0) {
-                        break label191;
-                     }
-
-                     if (!var10000) {
-                        break label190;
+                     if (var22 == var16) {
+                        break label168;
                      }
                   } catch (MatchException var59) {
                      throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var59);
                   }
 
-                  var10000 = 0;
-                  break label191;
+                  var82 = false;
+                  break label169;
                }
 
-               var10000 = 1;
+               var82 = true;
             }
 
-            label218: {
+            label194: {
                try {
-                  if (var10000) {
+                  if (var82) {
                      var84 = var18 * var18 + var20 * var20;
-                     break label218;
+                     break label194;
                   }
                } catch (MatchException var56) {
                   throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var56);
                }
 
-               label180: {
-                  label179: {
+               label160: {
+                  label159: {
                      try {
-                        double var96;
-                        var10000 = (var96 = var22 - var18) == 0.0 ? 0 : (var96 < 0.0 ? -1 : 1);
-                        if (var5 != 0) {
-                           break label180;
-                        }
-
-                        if (!var10000) {
-                           break label179;
+                        if (var22 == var18) {
+                           break label159;
                         }
                      } catch (MatchException var58) {
                         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var58);
                      }
 
-                     var10000 = 0;
-                     break label180;
+                     var83 = false;
+                     break label160;
                   }
 
-                  var10000 = 1;
+                  var83 = true;
                }
 
                try {
-                  if (var10000) {
+                  if (var83) {
                      var84 = var16 * var16 + var20 * var20;
-                     break label218;
+                     break label194;
                   }
                } catch (MatchException var57) {
                   throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var57);
@@ -149,11 +131,11 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
             );
             double var29 = Math.max(0.0, 0.24 - var27) * 18.0;
 
-            label161: {
+            label143: {
                try {
                   if (var24) {
                      var85 = 0.35;
-                     break label161;
+                     break label143;
                   }
                } catch (MatchException var55) {
                   throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var55);
@@ -169,7 +151,7 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
                )
                * 1.25;
             var80 = var33 + var25 + var29 + var31;
-            break label213;
+            break label189;
          }
 
          var80 = Double.MAX_VALUE;
@@ -192,91 +174,73 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
             double var71 = Math.abs(var68 - 0.5);
             double var72 = Math.max(var69, Math.max(var70, var71));
 
-            label147: {
-               label146: {
+            label129: {
+               label128: {
                   try {
-                     double var97;
-                     var10000 = (var97 = var72 - var70) == 0.0 ? 0 : (var97 < 0.0 ? -1 : 1);
-                     if (var5 != 0) {
-                        break label147;
-                     }
-
-                     if (!var10000) {
-                        break label146;
+                     if (var72 == var70) {
+                        break label128;
                      }
                   } catch (MatchException var54) {
                      throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var54);
                   }
 
-                  var10000 = 0;
-                  break label147;
+                  var89 = false;
+                  break label129;
                }
 
-               var10000 = 1;
+               var89 = true;
             }
 
-            int var73 = var10000;
+            boolean var73 = var89;
 
-            label137: {
-               label136: {
+            label121: {
+               label120: {
                   try {
-                     double var98;
-                     var10000 = (var98 = var72 - var69) == 0.0 ? 0 : (var98 < 0.0 ? -1 : 1);
-                     if (var5 != 0) {
-                        break label137;
-                     }
-
-                     if (!var10000) {
-                        break label136;
+                     if (var72 == var69) {
+                        break label120;
                      }
                   } catch (MatchException var53) {
                      throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var53);
                   }
 
-                  var10000 = 0;
-                  break label137;
+                  var90 = false;
+                  break label121;
                }
 
-               var10000 = 1;
+               var90 = true;
             }
 
-            label220: {
+            label196: {
                try {
-                  if (var10000) {
+                  if (var90) {
                      var92 = var70 * var70 + var71 * var71;
-                     break label220;
+                     break label196;
                   }
                } catch (MatchException var50) {
                   throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var50);
                }
 
-               label126: {
-                  label125: {
+               label112: {
+                  label111: {
                      try {
-                        double var99;
-                        var10000 = (var99 = var72 - var70) == 0.0 ? 0 : (var99 < 0.0 ? -1 : 1);
-                        if (var5 != 0) {
-                           break label126;
-                        }
-
-                        if (!var10000) {
-                           break label125;
+                        if (var72 == var70) {
+                           break label111;
                         }
                      } catch (MatchException var52) {
                         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var52);
                      }
 
-                     var10000 = 0;
-                     break label126;
+                     var91 = false;
+                     break label112;
                   }
 
-                  var10000 = 1;
+                  var91 = true;
                }
 
                try {
-                  if (var10000) {
+                  if (var91) {
                      var92 = var69 * var69 + var71 * var71;
-                     break label220;
+                     break label196;
                   }
                } catch (MatchException var51) {
                   throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var51);
@@ -293,11 +257,11 @@ public final class llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIl
             );
             double var76 = Math.max(0.0, 0.24 - var75) * 18.0;
 
-            label107: {
+            label95: {
                try {
                   if (var73) {
                      var93 = 0.35;
-                     break label107;
+                     break label95;
                   }
                } catch (MatchException var49) {
                   throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var49);

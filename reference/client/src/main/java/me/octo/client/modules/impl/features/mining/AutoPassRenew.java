@@ -75,47 +75,39 @@ public final class AutoPassRenew extends BooleanModule {
       int var8 = "\u0083ç\u008fÞ{«\u0000ªßªC¬bÂ\u009d\u009arûÁáKf\u0097à\u0084»cÓZÆ\u0081``\fGß,pÊÄx\u001báÀ\u0098Í¦\u0010óYsJP1+\fj¶2±Tä\u00adM\u0000¡d`\u008c=µX¬8ì¬*\u0080\u0083Ë²ÕN¼¢\u0093`v3Ðîfi\u008a¾w¦\u0080\u000fh)\u0095µ¦+üCµÖ\u000b$\u009e_ \u001c[k=\u008eÂdg\u0004^VLÝ\u0090\u008219ó\u000b¢\u0016YðbyÍA·ß)\u0093\u0083ñeÔ\u001cÞæe\u0096¼Ä:r6ð\u000b\u0010×\t5\u00946\u0003Åu\"\u001f^\u0098\u0099\u0005\u0090\u0090\u0010\téàå\u0012õVÊÈñ\u0082@_\u0085\u009dA8Æ\u008b\\*ùR7ÞZÜ\u0082QdÁ\u0000CÁ\u000f-\u0014ËrYd®¦\u0018\u00892\u0000\u0000\u0016u¾w&+cT\b§JlÅ~\u0002/ôjTW\u0094\u0007\u00060\u0004\u0018Û\u0014!;\u0018°\u001e\u007fÙèe\u0006T,Ê\n\u0018Õ\u009a¥é\u0089j_ Ô\u0099.9\u008c\u0000¦\u0016 OÀpÞÕÙ,\u0083¥Ê\u0011\u0007\u0092\u0091¯\u0014\u009d¯ÍîqH\u0085\u0018°qøÒ0)z·¥\u0014\u008dCÄ\u0006dè\u0016M|äê²\u008dÂ(É;µ\u009dÍ\u008c4M\u008a\u009c\u0082â\ty\u0004c\u001fG\u0000×¶HmçþG\u0010¿]\u0088â&»ðªR\u0093\u001e\\\u00ad"
          .length();
       char var5 = '(';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "âP\b\u0018\u0018µd4J\u009bÊ\u0096;\u00165§OÎ\u009cífõF\u0082\u0010\u008a\u0018Í\u000eöPF\u0013~\u0090³+måo\u0085";
+            var8 = "âP\b\u0018\u0018µd4J\u009bÊ\u0096;\u00165§OÎ\u009cífõF\u0082\u0010\u008a\u0018Í\u000eöPF\u0013~\u0090³+måo\u0085".length();
+            var5 = '\u0018';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var9;
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new String[11];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new AutoPassRenew();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IllIlllIlIIlIlIllIlllIlIlIIIIIIIllllllIIIIIllIIIlIlIllllIlllIllIllllIllllIlllllIllIIl = var9;
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = new String[11];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new AutoPassRenew();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "âP\b\u0018\u0018µd4J\u009bÊ\u0096;\u00165§OÎ\u009cífõF\u0082\u0010\u008a\u0018Í\u000eöPF\u0013~\u0090³+måo\u0085";
-                  var8 = "âP\b\u0018\u0018µd4J\u009bÊ\u0096;\u00165§OÎ\u009cífõF\u0082\u0010\u008a\u0018Í\u000eöPF\u0013~\u0090³+måo\u0085".length();
-                  var5 = 24;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 

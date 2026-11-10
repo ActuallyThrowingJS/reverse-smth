@@ -21,6 +21,7 @@ import kotlin.jvm.internal.Intrinsics;
 import kotlin.jvm.internal.Ref.FloatRef;
 import me.octo.client.modules.impl.macros.lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI;
 import me.octo.client.render.engine.llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll;
+import me.octo.client.utils.ModUtils;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -73,186 +74,203 @@ public final class WorldToScreen {
    }
 
    private final Pair IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(long var1, Vector4f var3, Vector4f var4) {
-      long var5;
-      String[] var12;
-      FloatRef var13;
-      FloatRef var14;
-      float var15;
-      float var50;
-      label111: {
-         float var53;
-         FloatRef var10001;
-         FloatRef var10002;
-         label112: {
-            var1 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ var1;
-            var5 = var1 ^ 90164689213858L;
-            var13 = new FloatRef();
-            var14 = new FloatRef();
-            String[] var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               3262481296797648822L, var1
+      var1 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ var1;
+      long var5 = var1 ^ 90164689213858L;
+      FloatRef var13 = new FloatRef();
+      FloatRef var14 = new FloatRef();
+      String[] var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         3262481296797648822L, var1
+      );
+      var14.element = 1.0F;
+      String[] var12 = var10000;
+      float var15 = 1.0E-5F;
+      float var10003 = var3.x + var3.w;
+      float var20 = var4.x;
+      float var19 = var10003;
+      float var66;
+      FloatRef var10001;
+      FloatRef var10002;
+      float var10004;
+      Vector4f var10005;
+      if (var12 != null) {
+         float var7 = var20 + var4.w;
+         float var8 = var19;
+         FloatRef var9 = var14;
+         FloatRef var10 = var13;
+         float var11 = var15;
+
+         try {
+            if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var11, var10, var9, var8, var7)) {
+               return null;
+            }
+         } catch (MatchException var39) {
+            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               var39, 3276807128893012511L, var1
             );
-            var14.element = 1.0F;
-            var12 = var10000;
-            var15 = 1.0E-5F;
-            var50 = var15;
+         }
+
+         try {
+            var66 = var15;
             var10001 = var13;
             var10002 = var14;
-            var53 = var3.x + var3.w;
-            float var10004 = var4.x;
-            Vector4f var10005 = var4;
-            if (var12 != null) {
-               float var7 = var4.x + var4.w;
-               float var8 = var53;
-               FloatRef var9 = var14;
-               FloatRef var10 = var13;
-               float var11 = var15;
-
-               try {
-                  if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var11, var10, var9, var8, var7)) {
-                     return null;
-                  }
-               } catch (MatchException var17) {
-                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                     var17, 3276807128893012511L, var1
-                  );
-               }
-
-               try {
-                  var50 = var15;
-                  var10001 = var13;
-                  var10002 = var14;
-                  var53 = -var3.x;
-                  if (var12 == null) {
-                     break label112;
-                  }
-
-                  var53 += var3.w;
-                  var10004 = -var4.x;
-                  var10005 = var4;
-               } catch (MatchException var23) {
-                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                     var23, 3276807128893012511L, var1
-                  );
-               }
-            }
-
-            float var25 = var10004 + var10005.w;
-            float var30 = var53;
-            FloatRef var35 = var10002;
-            FloatRef var40 = var10001;
-            float var45 = var50;
-
-            try {
-               if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var45, var40, var35, var30, var25)) {
-                  return null;
-               }
-            } catch (MatchException var16) {
-               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  var16, 3276807128893012511L, var1
-               );
-            }
-
-            try {
-               var50 = var15;
-               if (var12 == null) {
-                  break label111;
-               }
-
-               var10001 = var13;
-               var10002 = var14;
-               var53 = var3.y + var3.w;
-            } catch (MatchException var21) {
-               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  var21, 3276807128893012511L, var1
-               );
-            }
-         }
-
-         float var26 = var4.y + var4.w;
-         float var31 = var53;
-         FloatRef var36 = var10002;
-         FloatRef var41 = var10001;
-         float var46 = var50;
-
-         try {
-            if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var46, var41, var36, var31, var26)) {
-               return null;
-            }
-         } catch (MatchException var22) {
+            var10003 = -var3.x + var3.w;
+            var10004 = -var4.x;
+            var10005 = var4;
+         } catch (MatchException var33) {
             throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               var22, 3276807128893012511L, var1
+               var33, 3276807128893012511L, var1
             );
          }
-
-         var50 = var15;
+      } else {
+         var66 = var15;
+         var10001 = var13;
+         var10002 = var14;
+         var10003 = var19;
+         var10004 = var20;
+         var10005 = var4;
       }
 
-      FloatRef var51 = var13;
-      FloatRef var52 = var14;
-      if (var12 != null) {
-         float var54 = -var3.y + var3.w;
-         float var27 = -var4.y + var4.w;
-         float var32 = var54;
-         FloatRef var37 = var14;
-         FloatRef var42 = var13;
-         float var47 = var50;
-
-         try {
-            if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var47, var42, var37, var32, var27)) {
-               return null;
-            }
-         } catch (MatchException var20) {
-            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               var20, 3276807128893012511L, var1
-            );
-         }
-
-         var50 = var15;
-         var51 = var13;
-         var52 = var14;
-      }
-
-      float var55 = var3.z + var3.w;
-      float var56 = var4.z;
-      float var57 = var4.w;
-      if (var12 != null) {
-         float var28 = var4.z + var4.w;
-         float var33 = var55;
-         FloatRef var38 = var52;
-         FloatRef var43 = var51;
-         float var48 = var50;
-
-         try {
-            if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var48, var43, var38, var33, var28)) {
-               return null;
-            }
-         } catch (MatchException var19) {
-            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-               var19, 3276807128893012511L, var1
-            );
-         }
-
-         var50 = var15;
-         var51 = var13;
-         var52 = var14;
-         var55 = -var3.z + var3.w;
-         var56 = -var4.z;
-         var57 = var4.w;
-      }
-
-      float var29 = var56 + var57;
-      float var34 = var55;
-      FloatRef var39 = var52;
-      FloatRef var44 = var51;
-      float var49 = var50;
+      float var41 = var10004 + var10005.w;
+      float var46 = var10003;
+      FloatRef var51 = var10002;
+      FloatRef var56 = var10001;
+      float var61 = var66;
 
       try {
-         if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var49, var44, var39, var34, var29)) {
+         if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var61, var56, var51, var46, var41)) {
             return null;
          }
-      } catch (MatchException var18) {
+      } catch (MatchException var32) {
          throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-            var18, 3276807128893012511L, var1
+            var32, 3276807128893012511L, var1
+         );
+      }
+
+      label104: {
+         float var22;
+         label120: {
+            try {
+               var22 = var15;
+               if (var12 == null) {
+                  break label120;
+               }
+
+               var67 = var15;
+               var10001 = var13;
+               var10002 = var14;
+               var10003 = var3.y + var3.w;
+            } catch (MatchException var38) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var38, 3276807128893012511L, var1
+               );
+            }
+
+            var41 = var4.y + var4.w;
+            var46 = var10003;
+            var51 = var10002;
+            var56 = var10001;
+            var61 = var67;
+
+            try {
+               if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var61, var56, var51, var46, var41)) {
+                  return null;
+               }
+            } catch (MatchException var37) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var37, 3276807128893012511L, var1
+               );
+            }
+
+            var68 = var15;
+            break label104;
+         }
+
+         var68 = var22;
+      }
+
+      float var23 = var68;
+      float var69;
+      if (var12 != null) {
+         var10003 = -var3.y + var3.w;
+         var41 = -var4.y + var4.w;
+         var46 = var10003;
+         var51 = var14;
+         var56 = var13;
+         var61 = var23;
+
+         try {
+            if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var61, var56, var51, var46, var41)) {
+               return null;
+            }
+         } catch (MatchException var36) {
+            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               var36, 3276807128893012511L, var1
+            );
+         }
+
+         var69 = var15;
+         var10001 = var13;
+         var10002 = var14;
+      } else {
+         var69 = var23;
+         var10001 = var13;
+         var10002 = var14;
+      }
+
+      var10003 = var3.z + var3.w;
+      float var31 = var4.w;
+      float var30 = var4.z;
+      float var29 = var10003;
+      FloatRef var28 = var10002;
+      FloatRef var27 = var10001;
+      float var26 = var69;
+      float var70;
+      float var83;
+      if (var12 != null) {
+         var41 = var30 + var31;
+         var46 = var29;
+         var51 = var28;
+         var56 = var27;
+         var61 = var26;
+
+         try {
+            if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var61, var56, var51, var46, var41)) {
+               return null;
+            }
+         } catch (MatchException var35) {
+            throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+               var35, 3276807128893012511L, var1
+            );
+         }
+
+         var70 = var15;
+         var10001 = var13;
+         var10002 = var14;
+         var10003 = -var3.z + var3.w;
+         var10004 = -var4.z;
+         var83 = var4.w;
+      } else {
+         var70 = var26;
+         var10001 = var27;
+         var10002 = var28;
+         var10003 = var29;
+         var10004 = var30;
+         var83 = var31;
+      }
+
+      var41 = var10004 + var83;
+      var46 = var10003;
+      var51 = var10002;
+      var56 = var10001;
+      var61 = var70;
+
+      try {
+         if (!IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var5, var61, var56, var51, var46, var41)) {
+            return null;
+         }
+      } catch (MatchException var34) {
+         throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+            var34, 3276807128893012511L, var1
          );
       }
 
@@ -347,48 +365,39 @@ public final class WorldToScreen {
       int var8 = "¾h\u001c\u0088\u0083§ú\u0091Üä\u0093\"XK\u0012\n`FÄX%áPÜþCÐ\u0081\u009dsõL:ª\u0094FK÷\u0097\u0096\u0010üA /,¹\u0002\u0094\u0005\u009açø2éïp\u0010¼:Ta.ò\u0098K\\ì\u0081$fgcG \u008e\u0011V\u001b2\u0007?ó=¢ßL|\u001eÕFÂ\u0010»$\u0084ñ+ø\f\u009c\u00ad*8ÕÁ\u0002 \u0095ø\u0097*ya5ðd\u009a8|>¦u\u0095Ô;oÏD\u0006+\u0007)\u009b69GK{E\u0010;G1QÂD´X\u0097Y\u001f\u008e\u009ej¦\u0092\u0018OçËÀ\u0085\u0001\u000fÁ\tóÎÍOÑé\u008c\u0019Ó¬\u001céÛp \u0010ns,¨ªViØ^ð$ã\u0090Ú!\u0089\u0010\u0018\u0001ürB×\u009aæ\u001b¯í¨¸nÿù\u0010$HçUN\u001dâB.ÉÖ\u0099uâ:q"
          .length();
       char var5 = '(';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "\u0017³\u000b\u0094qý/\rJ\u008cÌÔ^øJ÷\u001f§Ñ`Ç>Ù\u0082 H\u001fK]\t¶71ú\u0002\u0003\u0099I\u008eÐÇDô]ñ)\u000e\u009a^\u0085Qªúù^5<";
+            var8 = "\u0017³\u000b\u0094qý/\rJ\u008cÌÔ^øJ÷\u001f§Ñ`Ç>Ù\u0082 H\u001fK]\t¶71ú\u0002\u0003\u0099I\u008eÐÇDô]ñ)\u000e\u009a^\u0085Qªúù^5<".length();
+            var5 = '\u0018';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var9;
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new String[12];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new WorldToScreen();
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new Matrix4f();
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new Vector3f();
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new Vector3f();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var9;
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new String[12];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new WorldToScreen();
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new Matrix4f();
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new Vector3f();
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = new Vector3f();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "\u0017³\u000b\u0094qý/\rJ\u008cÌÔ^øJ÷\u001f§Ñ`Ç>Ù\u0082 H\u001fK]\t¶71ú\u0002\u0003\u0099I\u008eÐÇDô]ñ)\u000e\u009a^\u0085Qªúù^5<";
-                  var8 = "\u0017³\u000b\u0094qý/\rJ\u008cÌÔ^øJ÷\u001f§Ñ`Ç>Ù\u0082 H\u001fK]\t¶71ú\u0002\u0003\u0099I\u008eÐÇDô]ñ)\u000e\u009a^\u0085Qªúù^5<"
-                     .length();
-                  var5 = 24;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -488,5 +497,23 @@ public final class WorldToScreen {
       } catch (Exception var5) {
          throw new RuntimeException("me/octo/client/render/util/WorldToScreen" + " : " + var1 + " : " + var2.toString(), var5);
       }
+   }
+
+   public static Pair IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$e2d9d49292930125(
+      Vec3 var0, Vec3 var1, Vec3 var2, int var3, long var4, Object var6
+   ) {
+      var4 = 47687579613035L;
+      var4 = IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII ^ var4;
+      long var10001 = var4 ^ 116522635333340L;
+      int var7 = (int)((var4 ^ 116522635333340L) >>> 48);
+      int var8 = (int)((var4 ^ 116522635333340L) << 16 >>> 32);
+      int var9 = (int)(var10001 << 48 >>> 48);
+      if ((var3 & 4) != 0) {
+         Vec3 var10000 = ModUtils.mc.gameRenderer.getMainCamera().position();
+         Intrinsics.checkNotNullExpressionValue(var10000, "position(...)");
+         var2 = var10000;
+      }
+
+      return IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI((char)var7, var8, var0, var1, var9, var2);
    }
 }

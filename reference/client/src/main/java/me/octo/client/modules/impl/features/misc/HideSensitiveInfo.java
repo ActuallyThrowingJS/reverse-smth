@@ -25,6 +25,7 @@ import me.octo.client.gui.clickgui.modules.impl.BooleanModule;
 import me.octo.client.gui.clickgui.settings.Setting;
 import me.octo.client.modules.impl.macros.lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.components.ChatComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.network.chat.Style;
@@ -59,7 +60,7 @@ public final class HideSensitiveInfo extends BooleanModule {
    }
 
    @SubscribeEvent
-   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketReceivedEvent eventArg) {
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(@NotNull PacketReceivedEvent param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
@@ -133,8 +134,13 @@ public final class HideSensitiveInfo extends BooleanModule {
       return Optional.empty();
    }
 
-   private static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(Minecraft param0, MutableComponent param1) {
-      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   private static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(Minecraft var0, MutableComponent var1) {
+      if (var0.gui != null) {
+         ChatComponent var10000 = var0.gui.getChat();
+         if (var10000 != null) {
+            var10000.addClientSystemMessage((Component)var1);
+         }
+      }
    }
 
    static {
@@ -155,51 +161,43 @@ public final class HideSensitiveInfo extends BooleanModule {
       int var6 = "úØIÍ³\u0097÷\u009d\u001c³\u0013Û1¼\u0005¢¼FÌ\u0010°\u0015kõÌãz\u0014¹s5\u0017OL\bYòÕ¼¸8-¾ù\u008d\u0010¯\u007fm`3vÁÀ\u008f\u001bÙ\u0018ùÙ!7c\r#éøÙÙ\u0081xJ\u0098>Iî´ªNsÝgXè\u008aNÌ\"\u0085\u008f!C-©jé\u009d \u0094¡\u0018·ìj\u0096\u009e\u0002\u000bÏ¯\u0007s¼Èújì\u000eé\u000eÇ,½\u000eò\u0095k'ðt\u0010\u009b\u0005Xm+\tC4íÚ`oÛDÏã¸E¥\u0017Ï\u0001ö\u0099Kdpz¨J\"ÝçöLëÙy6[C\u00969(\u0014R\u0099;*%\u008caD±/÷nyo uO¯\u0083x:³ñ\u0097!¾\u0014\u0007þ\u008cêÍ\u009b1Á8»âÅ\u001a\u0015+P9ç¬}&¸\u0004\u008fê*Ù\u0006Úªü\u0086\u0016ÙÁ>\u0088q>\u0083 \u0017f¸øþ\u0007ì._kM¿©\u000fV\u009eè¨\u0080Pk\u009cúÜÉ7\u009a7$\u0019`&KóÓ\u001a\u0090d¬r¾¹Â¸á\u0088ðbNóÐ7Þ\u0084\u0014\u008a-+\u0004úÃ\u0002-\u0015\u0084\u008eúO\u0089à\u0081b3\u0085\u0093í¥A\u0012Kð;i¾Ö\u00938?\u0010öÁÁ^.\u008a§\u0099¯w\u000e\u007f\u0080é\u007f{\u0010¤\u00ad \fhw)C\u0088¦²±çA-Û\u0010\u0081;±\u009aä+B\u0089@ÃÑ\u0096'ÅbwP÷2X³\u0018j\u00040^î\u007f°GóÓ\u00976íËÇ'/=ÿPÞç\u0017\f\u00adË\u0089\u007f»´\u009e\u0081a\u0098£\u000b\u0091ÝËë\u0019Ùák'\u0005òv¯N÷ãH\u001a\u008eÅyë¡\u0080\u0007w^\u0003ÍB¸5\u009f¼Xvô½\u0080@Tb´}@ô\u0083IÁ\u0099w×Vïc³kc\u0000ðñ\u0001m'\u009d-`/§z\u0086µ\fËq\u009b,\u009cBÏ\u0084\r\u0099Ä©\u0016Fðè\u001d°àt\u001bùF\u009b\u001bÖÕv\u0010Ú\"\u0010\u0093\u001ewu\u0093z\u0016\u0018\u008bÅ\u0081\u00999Nde(Fí)!PJ\u0001B\u008f;Ã¸!\u0000\u009eÊÕ®C\u0018\u0012¬A\u007f\nÀô¨Z×\u0019såú»ô0R\r² 9àvþ\u001eæC\u00846¸ÔÇ\u0011\u0010J\u0097$NÐÑz¶\u008fg<^A\u0010êÀ;A S,ÍvnÙ¨æ\u00ad\nÁ\u0095\u0003!=ç\u0092Å\u0092·<·£\u0019\"\u00123\u009aùQo²\u0010ÎÝ\u001dIäYÜ\u0099ù#3ñ³ôÌ\u0096(Ò\u0017À9Ðé\u008b\u009f»dJ?BSõ\u0004ócðÔïµî\u0015_¼?b[×·\u0001ÈÕ\u0099þ{Ã¦A"
          .length();
       char var3 = '(';
-      int var12 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var13 = var4.substring(++var12, var12 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var21 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var21;
+         if ((var2 += var3) >= var6) {
+            var4 = "´wóØ/¢à\u0016\u0011ü\n\u001a´7á\u001aJé\u0005#z¡°0\"i_åV«º\u0015Ç\u000f±N½NÆh\u0019p3\u0083\u0006Î;:\u008büµN\u001f\u0011\u0006ø\u0018ûëP_\u0097Àþ .ë\u0001·KÓ\\éªz V°E1i";
+            var6 = "´wóØ/¢à\u0016\u0011ü\n\u001a´7á\u001aJé\u0005#z¡°0\"i_åV«º\u0015Ç\u000f±N½NÆh\u0019p3\u0083\u0006Î;:\u008büµN\u001f\u0011\u0006ø\u0018ûëP_\u0097Àþ .ë\u0001·KÓ\\éªz V°E1i"
+               .length();
+            var3 = '8';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) >= var6) {
-                     IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var7;
-                     IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[18];
-                     lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new HideSensitiveInfo();
-                     lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new Regex("Profile ID: [0-9a-fA-F-]{36}");
-                     IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new Regex("Sending to server \\S+\\.\\.\\.");
-                     llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new Regex("\\d{2}/\\d{2}/\\d{2}");
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var23 = IlIlllIllIIIIlIIllIlllIIIIlIIlIIIlIIIlIllllIIlIIIIIIIlIIIIllIllIlIlIIIIIIIIlIllIlIlIl(var8).intern();
+               boolean var19 = false;
+               var7[var5++] = var23;
+               if ((var2 += var3) >= var6) {
+                  IlIlIlIIIIIlIllllllIllIIIIllIlIIlIIIlllllIllIIlIIlIIIllIlIlIIllIlIIllIIllllIlIIllIlIl = var7;
+                  IIllllIllllIIIIllIIlIllIIlIllIlIlllIlIlIlIIIllIllIllIllIlIIIlllIlllIlIllllIlIIlIIllll = new String[18];
+                  lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = new llIlllIlIIIIlIlIIIIlIIIlIIIIIIlIlIIIIlIllIllllllIlIIlIIIlllIIlllIIllIIIIllIllllIlIIII$llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = new HideSensitiveInfo();
+                  lIlIIIlIlIllllIlIIllIIllIIIIllllIIlIIlllIlIIIlIIlIIIlllIlIllIIlIllllIIIlIlIllIIllIlll = new Regex("Profile ID: [0-9a-fA-F-]{36}");
+                  IIllIlIIIIlIllllllllllIlIIllIIIIllIlIllIlllIIlIIlIIIIIlIlIIlIlIIlIllIllIIIIIllllIlIIl = new Regex("Sending to server \\S+\\.\\.\\.");
+                  llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI = new Regex("\\d{2}/\\d{2}/\\d{2}");
+                  return;
+               }
 
-                  var3 = var4.charAt(var12);
-                  break;
-               default:
-                  var7[var5++] = var19;
-                  if ((var12 += var3) < var6) {
-                     var3 = var4.charAt(var12);
-                     continue label27;
-                  }
-
-                  var4 = "´wóØ/¢à\u0016\u0011ü\n\u001a´7á\u001aJé\u0005#z¡°0\"i_åV«º\u0015Ç\u000f±N½NÆh\u0019p3\u0083\u0006Î;:\u008büµN\u001f\u0011\u0006ø\u0018ûëP_\u0097Àþ .ë\u0001·KÓ\\éªz V°E1i";
-                  var6 = "´wóØ/¢à\u0016\u0011ü\n\u001a´7á\u001aJé\u0005#z¡°0\"i_åV«º\u0015Ç\u000f±N½NÆh\u0019p3\u0083\u0006Î;:\u008büµN\u001f\u0011\u0006ø\u0018ûëP_\u0097Àþ .ë\u0001·KÓ\\éªz V°E1i"
-                     .length();
-                  var3 = '8';
-                  var12 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var13 = var4.substring(++var12, var12 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

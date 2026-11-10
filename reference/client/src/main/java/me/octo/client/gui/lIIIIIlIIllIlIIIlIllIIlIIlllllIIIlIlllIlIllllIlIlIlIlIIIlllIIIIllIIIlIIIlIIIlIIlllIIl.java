@@ -294,7 +294,7 @@ public final class lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllII
       this.llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = 200.0F;
       this.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl = me.octo.client.utils.render.IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl.IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII;
       this.lllIlIIIIIllIIIIlllIlllIIIlllIllllIIIlIIlIlIIlllIIIIIlIllIlIlIlllIlIIlllIIlIlIIlllIlI = (float)(
-         me.octo.client.utils.render.IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         me.octo.client.utils.render.IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$529ea9e08d689438(
                var14, this.lIIIIIIlllIlllllIlllIllIIIlIlllIllIlIllIIIlllIlIllIlIllllllIIlIIlIlllIIIlIIIlIIlIlIIl, false, 1, null
             )
             + 6.0
@@ -350,9 +350,9 @@ public final class lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllII
       lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllIIIIllIIIlIIIlIIIlIIlllIIl var28 = this;
       Pair[] var27 = new Pair[6];
 
-      label39: {
-         label38: {
-            label37: {
+      label38: {
+         label37: {
+            label36: {
                try {
                   var27[0] = TuplesKt.to('(', ')');
                   var27[1] = TuplesKt.to('[', ']');
@@ -385,7 +385,7 @@ public final class lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllII
                   );
                   var29 = this;
                   if (var16 == null) {
-                     break label38;
+                     break label37;
                   }
 
                   this.lIIlIllllIlllllIllIIIIlIIIlllIIlIIIllIIlIIllIIIlIIIIlIIllllIlIIIIIlIlIllIIllIlIIIIIIl = new lIlllIlllllIIIIllIlIIlIlIllllIIIIllIIllIIlIlIIlIllIlIllIlIIIIlIIIIlIlIIllIIllIIIlllII(
@@ -409,43 +409,42 @@ public final class lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllII
                   this.IIIIlllIlllIlIIlIlIllIIlIIIIIIlIllIIIllllllIllIIllIIllIlIIllllllllIIIlIIlIIlIIlIllllI = new lIlIIIllllllIlIIlllIllIIIlIllllIIllllIIllllIIIIIlIIlIIIlIlIlIIIIllIIIIIllIIlIIllIllII(
                      this
                   );
-                  if (var1 == null) {
-                     break label37;
+                  if (var1 != null) {
+                     break label36;
                   }
                } catch (NoWhenBranchMatchedException var25) {
                   throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var25);
                }
 
                try {
-                  this.IlIlIlllIlllIIlIlIIIIIIllIIlIIIIIllIIlIlIlIIIIlIIIlIIIIlIlIllIlIIIIlIIIlIllllIIllllIl
-                     .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, true, var6);
-                  if (var16 != null) {
-                     break label39;
-                  }
-               } catch (NoWhenBranchMatchedException var24) {
-                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var24);
+                  var29 = this;
+                  break label37;
+               } catch (NoWhenBranchMatchedException var23) {
+                  throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var23);
                }
             }
 
             try {
-               var29 = this;
-            } catch (NoWhenBranchMatchedException var23) {
-               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var23);
+               this.IlIlIlllIlllIIlIlIIIIIIllIIlIIIIIllIIlIlIlIIIIlIIIlIIIIlIlIllIlIIIIlIIIlIllllIIllllIl
+                  .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$c4abdf0a81f6438d(var1, true, var6);
+               break label38;
+            } catch (NoWhenBranchMatchedException var24) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var24);
             }
          }
 
          var29.lIIIIIllIllIllIllllIIlllIlIlllIIIlIllIlIlIIIIIIIIlIIllllIIIIIIIllIlIlIIIlIlIllIllIlll
-            .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var12);
+            .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$8a1ba79695a585c5(var12);
       }
 
       try {
          me.octo.client.utils.IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-            .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+            .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$e4039d9bd968eda2(
                lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllIIIIllIIIlIIIlIIIlIIlllIIl::llIIlIlIllIIIlIIIIIIIIlIIIllIIllllIIlIIIlIIIIIIIllIlIIIIIIllIllIIlIlIIIIIlIIlIIlIIIIl,
                var8
             );
          me.octo.client.utils.IIllIlIllIllllIIllllllIIlIlIIIlllIlIIllIllIllIIlIIIlIlIIIllIIIllllIlIIIIllllIIlIlIlIl.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-            .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+            .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$e4039d9bd968eda2(
                lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllIIIIllIIIlIIIlIIIlIIlllIIl::IllllIlIlIIlllIIllIlIIIllIlllIIIIlIlIIllIlllIlIlIIlIlllIIIlIIlIIIlIlIIllllllIIlIIllII,
                var8
             );
@@ -1085,36 +1084,20 @@ public final class lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllII
 
    @Nullable
    public final IIllIlllIllIIlIIIIlIllIIlIlIIlIIlllllIlIlIllIIIllIIIIIIllllllllIIlIIllIIllIIllIlllIll llIlIIIIIllIIlIllIIlIIIIIIIIIlIlIlIllIlllllIlIllIIIIIllllllIIIllIIlIlIIlIIIlllllIlIlI() {
-      try {
-         IlllIlllllIIIlIIllIIIlIlIIlIIIlIlIIIlIllIIIIllllIIIIlIllIllllIlllIlIIlIllIIIlIIIlIlIl var10000 = (IlllIlllllIIIlIIllIIIlIlIIlIIIlIlIIIlIllIIIIllllIIIIlIllIllllIlllIlIIlIllIIIlIIIlIlIl)CollectionsKt.getOrNull(
-            IllllIlllllIIllIlIIIllllIllIllIllllIIIllIllIllIIIIIIIIlllllIIIlIIlllIIIIIllIIllIllIll,
-            lIlllIlIIIIlIIIIIIIIlIIIIlIllIllIlIlIIIlIIIIIIIlIIllllIllIIIIIlllllIllIlIlIIIlIlIIIlI
-         );
-         if (var10000 != null) {
-            return var10000.getEngine();
-         }
-      } catch (NoWhenBranchMatchedException var1) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1);
-      }
-
-      return null;
+      IlllIlllllIIIlIIllIIIlIlIIlIIIlIlIIIlIllIIIIllllIIIIlIllIllllIlllIlIIlIllIIIlIIIlIlIl var10000 = (IlllIlllllIIIlIIllIIIlIlIIlIIIlIlIIIlIllIIIIllllIIIIlIllIllllIlllIlIIlIllIIIlIIIlIlIl)CollectionsKt.getOrNull(
+         IllllIlllllIIllIlIIIllllIllIllIllllIIIllIllIllIIIIIIIIlllllIIIlIIlllIIIIIllIIllIllIll,
+         lIlllIlIIIIlIIIIIIIIlIIIIlIllIllIlIlIIIlIIIIIIIlIIllllIllIIIIIlllllIllIlIlIIIlIlIIIlI
+      );
+      return var10000 != null ? var10000.getEngine() : null;
    }
 
    @Nullable
    public final IlIIlllIlIIllIIIlIIlIIIlIIllllIllIllllIllIIllIIllIlIllIIIIIlllllIlllIlIllIIIIlIIlIlIl lIlIllIIIllllllIlIIlllIllIlIlllIlIlIlIllIIllllIIIlIIllIlllIlIlIIlIlllllIlIllIIlIIllIl() {
-      try {
-         IlllIlllllIIIlIIllIIIlIlIIlIIIlIlIIIlIllIIIIllllIIIIlIllIllllIlllIlIIlIllIIIlIIIlIlIl var10000 = (IlllIlllllIIIlIIllIIIlIlIIlIIIlIlIIIlIllIIIIllllIIIIlIllIllllIlllIlIIlIllIIIlIIIlIlIl)CollectionsKt.getOrNull(
-            IllllIlllllIIllIlIIIllllIllIllIllllIIIllIllIllIIIIIIIIlllllIIIlIIlllIIIIIllIIllIllIll,
-            lIlllIlIIIIlIIIIIIIIlIIIIlIllIllIlIlIIIlIIIIIIIlIIllllIllIIIIIlllllIllIlIlIIIlIlIIIlI
-         );
-         if (var10000 != null) {
-            return var10000.getScreen();
-         }
-      } catch (NoWhenBranchMatchedException var1) {
-         throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1);
-      }
-
-      return null;
+      IlllIlllllIIIlIIllIIIlIlIIlIIIlIlIIIlIllIIIIllllIIIIlIllIllllIlllIlIIlIllIIIlIIIlIlIl var10000 = (IlllIlllllIIIlIIllIIIlIlIIlIIIlIlIIIlIllIIIIllllIIIIlIllIllllIlllIlIIlIllIIIlIIIlIlIl)CollectionsKt.getOrNull(
+         IllllIlllllIIllIlIIIllllIllIllIllllIIIllIllIllIIIIIIIIlllllIIIlIIlllIIIIIllIIllIllIll,
+         lIlllIlIIIIlIIIIIIIIlIIIIlIllIllIlIlIIIlIIIIIIIlIIllllIllIIIIIlllllIllIlIlIIIlIlIIIlI
+      );
+      return var10000 != null ? var10000.getScreen() : null;
    }
 
    public final boolean lIllIIIIlllIllllIlIllIIlIllllIllIIllIllIIllIIIIllIllIIIlIllIllllIIIIllIIlllllllIlIIll() {
@@ -1778,12 +1761,12 @@ public final class lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllII
       long var5 = var1 ^ 38775273927961L;
       long var7 = var1 ^ 58468998028429L;
       this.lIIIlIllllllIIllIIlIlllIllllIlIlllllIIIllIlllIIlllllIlIIIlIlIIllllIIllIIIlllIllIIlIII
-         .lIlIlIlIIIlIlIIIIIIIIIIIlIllIIIIIIIllIIIIlIIIIIlIllIIIIlIIIIlIIlIllIllIlIlIllIIIlIlll(var3);
+         .lIlIlIlIIIlIlIIIIIIIIIIIlIllIIIIIIIllIIIIlIIIIIlIllIIIIlIIIIlIIlIllIllIlIlIllIIIlIlll$recovered$297888b1ff90019d(var3);
       this.llllllIIIlIlIIIllllIIIIllIIlIlIlIIIlIIlIlIIIlllIlIllIlllIIllIlIIIIIllIlIlIlIlllllllIl = true;
       this.IllIIIllIIllIlIIllIIlIIIIIllIlllIlllllIIIIlIIIIlIIIIlIIlIlIlIIIlIIllIlIlIlIlIllIIlllI
-         .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var5);
+         .llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$76dd4215358afa9f(var5);
       lIlIlIlIIIlIIIIIllIlIIIIllllIIIlllIIlllIllIlllllIIIllIIlllIllIlIlllIllIlIIlIIllllIlll.IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl
-         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(null, var7);
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$3360b2a12cd4cc0f(null, var7);
       super.onClose();
    }
 
@@ -1939,7 +1922,7 @@ public final class lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllII
       long var9 = lIIlllIIlIlllllIIIllIlIlIIlIlIlIlIIIllIlIlIIIIlllIIlIIIlllllIllllIIIIllllIIlIlIIllIII ^ 113827484090643L;
       long var11 = var9 ^ 76934243923644L;
       return this.IIIIlllIlllIlIIlIlIllIIlIIIIIIlIllIIIllllllIllIIllIIllIlIIllllllllIIIlIIlIIlIIlIllllI
-         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var3, var11, var5, var7);
+         .IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f6b7a8fde951b1a2(var1, var3, var11, var5, var7);
    }
 
    @Override
@@ -2507,6 +2490,48 @@ public final class lIIIIIlIIllIlIIIlIllIIlIIlllllIIIlIlllIlIllllIlIlIlIlIIIlllII
             var5
          );
       }
+   }
+
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2900b3a3499d7a1f(
+      long param1, int param3, int param4, float param5, float param6, float param7, float param8
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final void IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII$recovered$1c4d2e3963d685db(
+      @NotNull String var1, long var2
+   ) {
+      var2 = 111480778958173L;
+      var2 = lIIlllIIlIlllllIIIllIlIlIIlIlIlIlIIIllIlIlIIIIlllIIlIIIlllllIllllIIIIllllIIlIlIIllIII ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      this.IlIllIlIIIIIIIIllIlIIlIllllIIIIIlIlllIllllIIIlllIlIllllIlIllIIIIIIIlIllIlIIllIIIIIlll = var1;
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$f54eceff1496858c(
+      @NotNull IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll var1, long var2
+   ) {
+      var2 = 6848765763492L;
+      var2 = lIIlllIIlIlllllIIIllIlIlIIlIlIlIlIIIllIlIlIIIIlllIIlIIIlllllIllllIIIIllllIIlIlIIllIII ^ var2;
+      Intrinsics.checkNotNullParameter(var1, "<set-?>");
+      this.lIIlIlIlIllIlIIIlllIllllIllIIlllllIlIlIIlIIlIIlIIlllIlllIIllIIlllIIIIIlIIIIIlIlllllIl = var1;
+   }
+
+   public final void lIlIlIIlIIllllllIllIIIlIlIlIIllIIIllIIllIIIllllIllllIlllIlIlIllIlllIlIlIlIIlllIllllll$recovered$a83cd6cbf33da001(
+      long var1, @NotNull List var3
+   ) {
+      var1 = 68467291437320L;
+      var1 = lIIlllIIlIlllllIIIllIlIlIIlIlIlIlIIIllIlIlIIIIlllIIlIIIlllllIllllIIIIllllIIlIlIIllIII ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      this.IlIlIIlIIIIIIlllllllIIIllllIllIllIlIlIlllllIIIIlIIlllllIlIllIllllIllIlIIlllIIIIIIIIIl = var3;
+   }
+
+   public final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b007eb8d5cdcb1eb(
+      long var1, @NotNull Map var3
+   ) {
+      var1 = 129909164253921L;
+      var1 = lIIlllIIlIlllllIIIllIlIlIIlIlIlIlIIIllIlIlIIIIlllIIlIIIlllllIllllIIIIllllIIlIlIIllIII ^ var1;
+      Intrinsics.checkNotNullParameter(var3, "<set-?>");
+      this.lIIllllIlIIIIIIIlllIlIIIlIlIlIIlIlIlIIIIlIlIlIIlIIlIIlIllIlIIlIIIIIlIlllIlIllIIIlIlII = var3;
    }
 
    public static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

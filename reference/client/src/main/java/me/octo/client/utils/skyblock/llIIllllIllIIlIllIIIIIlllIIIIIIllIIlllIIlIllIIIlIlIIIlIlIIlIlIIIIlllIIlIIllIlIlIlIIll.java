@@ -118,104 +118,95 @@ public enum llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlll
       int var6 = "4Àâ¤ÐÞh\u0003ý>Yý\u000e9\u0003n\r/ÅË÷C\u001f«\u008au\u0093ë\u0017G\u0082\u000e\u0018øS©\u0085ãO'yë\u0095&\u001a\u0085yJ\u0010Õuxê\u0097\u0098Õ3\u00102z\u009d{\u008bR¥|;Þáû/\u0017÷ï\u0018ÚÇnj¡\u009eIVÕùzí\u0017nk/áÜßfÇ0\u008a\u0099\u0018ñ\u001cd\u008a£\u000f,\ní3XËäí,\u000bCÖ\u0084d3Qö£ \u0088* P\u008aû¯ºñÛUêåòx}/é\u0011àæ\\åÏþl´b\u0005\rÏÆ\u00102\u0094KPo©P»éµõöò¶³¡\u0010§£\r-\u0091\u0080Âm3lÝ ¢,\u001d_\u0010p>À\u009aß.°ñ£Vg\u001a±Õë¡\u0010>ð`¿\u0014ú:d¾¦y\u0081\u0011O§+(\u0004\u0093;=ä_±BÊÒ\u009c1}ÅMa\u0090ËM\u0017\u0019ì\u009f:è\u0001\u009a\u0089åKS$Ý<ïÇÛw\u0092C\u0010C¾\u008e\u0004\u007f7çh)Ôâ¾X\u009b?¿(\u0098ÖÍK5\u0095\u0005Uw£\u0084,é\u00ad¾|\u0081T)Ø:·Gbb\u0003þ2Q#²ëäÌ\u0000Ôá5å±\u0010rÓ\u009dÑ;û´z\u0089u´P\u0085\u0085¨t(\u0017>ÚE%E\u001d\n3>Ãº°7xÿ\u0087È×².á\u000f\u0096a\u001aºyÑ\u0080U\u0005¦1%:\u009aÎh·\u0010\u0090Ü\u00944¸?Ã\u000b'¡·W\rI\u001cþ\u0010Cuy.(W6T\u0013ìí\u0091eíx\u0002\u0018IL#µðMgPù=\u001e7þF[\u0095Ø\u0087è\tÄ\"Eò\u0018\t+«\u0080\u008e\u001c>ÙÌ¨Dfá~CU\u001eð|úÇ\u00815í \u0090ÖQ!iÆ6M£kNrÉTÌ\u009c\u0086¼MÑù¨ABæ\u000bH8\u0095Â¶$(\fbûgì9\u0018\u001dßÌ¦=©ÿWYM¥®ÑÜ<\u009c\u0002\u0017\f<i5xÎïxåf-\u001e¤)ç\u0010HÕ÷dV³\u0010·\u0098\u001c\u0088b¬~\u009d\u0094(\u0000àõqgã;²§/\u0097Ôt\u009eïêÎ\u0016\u0004òi8¨XHf\u0089¶°{F\u009f=P\u009flÉRe5"
          .length();
       char var3 = ' ';
-      int var13 = -1;
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var14 = var4.substring(++var13, var13 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var22 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var22;
+         if ((var2 += var3) >= var6) {
+            var4 = "®5Ú\u0006³5JÉàn\u0086\u0015®mH<\u0017C?5\u0084c\u009f\u008e¢\u001a¥ÄÀM1\u0082\u0010Â\u0004\u0005\"È\u0082òÀ®Áñr\u0089¹\u0095ã";
+            var6 = "®5Ú\u0006³5JÉàn\u0086\u0015®mH<\u0017C?5\u0084c\u009f\u008e¢\u001a¥ÄÀM1\u0082\u0010Â\u0004\u0005\"È\u0082òÀ®Áñr\u0089¹\u0095ã".length();
+            var3 = ' ';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var14.getBytes("ISO-8859-1"));
-            String var20 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) >= var6) {
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var7;
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new String[25];
-                     WHEAT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        "Wheat",
-                        me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.DROP,
-                        6,
-                        "Euclid's Wheat Hoe",
-                        CollectionsKt.listOf(Blocks.WHEAT)
-                     );
-                     CARROT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        "Carrot",
-                        me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.DROP,
-                        6,
-                        "Gauss Carrot Hoe",
-                        CollectionsKt.listOf(Blocks.CARROTS)
-                     );
-                     POTATO = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        "Potato",
-                        me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.DROP,
-                        6,
-                        "Pythagorean Potato Hoe",
-                        CollectionsKt.listOf(Blocks.POTATOES)
-                     );
-                     NETHER_WART = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        "Nether Wart",
-                        me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.DROP,
-                        0,
-                        "Newton Nether Warts Hoe",
-                        CollectionsKt.listOf(Blocks.NETHER_WART)
-                     );
-                     SUGAR_CANE = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        "Sugar Cane",
-                        me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.STEP_FORWARD,
-                        3,
-                        "Turing Sugar Cane Hoe",
-                        CollectionsKt.listOf(Blocks.SUGAR_CANE)
-                     );
-                     CACTUS = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        "Cactus",
-                        me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.STEP_FORWARD,
-                        0,
-                        "Cactus Knife",
-                        CollectionsKt.listOf(Blocks.CACTUS)
-                     );
-                     COCOA = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        "Cocoa",
-                        me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.STEP_FORWARD,
-                        45,
-                        "Cocoa Chopper",
-                        CollectionsKt.listOf(Blocks.COCOA)
-                     );
-                     me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var10005 = me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.DROP;
-                     Block[] var11 = new Block[]{Blocks.RED_MUSHROOM, Blocks.BROWN_MUSHROOM};
-                     MUSHROOM = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        "Mushroom", var10005, 6, "Fungi Cutter", CollectionsKt.listOf(var11)
-                     );
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = EnumEntriesKt.enumEntries(
-                        IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
-                     );
-                     Companion = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
-                        null
-                     );
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var24 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var20 = false;
+               var7[var5++] = var24;
+               if ((var2 += var3) >= var6) {
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var7;
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new String[25];
+                  WHEAT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     "Wheat",
+                     me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.DROP,
+                     6,
+                     "Euclid's Wheat Hoe",
+                     CollectionsKt.listOf(Blocks.WHEAT)
+                  );
+                  CARROT = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     "Carrot",
+                     me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.DROP,
+                     6,
+                     "Gauss Carrot Hoe",
+                     CollectionsKt.listOf(Blocks.CARROTS)
+                  );
+                  POTATO = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     "Potato",
+                     me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.DROP,
+                     6,
+                     "Pythagorean Potato Hoe",
+                     CollectionsKt.listOf(Blocks.POTATOES)
+                  );
+                  NETHER_WART = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     "Nether Wart",
+                     me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.DROP,
+                     0,
+                     "Newton Nether Warts Hoe",
+                     CollectionsKt.listOf(Blocks.NETHER_WART)
+                  );
+                  SUGAR_CANE = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     "Sugar Cane",
+                     me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.STEP_FORWARD,
+                     3,
+                     "Turing Sugar Cane Hoe",
+                     CollectionsKt.listOf(Blocks.SUGAR_CANE)
+                  );
+                  CACTUS = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     "Cactus",
+                     me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.STEP_FORWARD,
+                     0,
+                     "Cactus Knife",
+                     CollectionsKt.listOf(Blocks.CACTUS)
+                  );
+                  COCOA = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     "Cocoa",
+                     me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.STEP_FORWARD,
+                     45,
+                     "Cocoa Chopper",
+                     CollectionsKt.listOf(Blocks.COCOA)
+                  );
+                  me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI var10005 = me.octo.client.utils.skyblock.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI.DROP;
+                  Block[] var11 = new Block[]{Blocks.RED_MUSHROOM, Blocks.BROWN_MUSHROOM};
+                  MUSHROOM = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     "Mushroom", var10005, 6, "Fungi Cutter", CollectionsKt.listOf(var11)
+                  );
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = EnumEntriesKt.enumEntries(
+                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI
+                  );
+                  Companion = new llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll.IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI(
+                     null
+                  );
+                  return;
+               }
 
-                  var3 = var4.charAt(var13);
-                  break;
-               default:
-                  var7[var5++] = var20;
-                  if ((var13 += var3) < var6) {
-                     var3 = var4.charAt(var13);
-                     continue label27;
-                  }
-
-                  var4 = "®5Ú\u0006³5JÉàn\u0086\u0015®mH<\u0017C?5\u0084c\u009f\u008e¢\u001a¥ÄÀM1\u0082\u0010Â\u0004\u0005\"È\u0082òÀ®Áñr\u0089¹\u0095ã";
-                  var6 = "®5Ú\u0006³5JÉàn\u0086\u0015®mH<\u0017C?5\u0084c\u009f\u008e¢\u001a¥ÄÀM1\u0082\u0010Â\u0004\u0005\"È\u0082òÀ®Áñr\u0089¹\u0095ã"
-                     .length();
-                  var3 = ' ';
-                  var13 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var14 = var4.substring(++var13, var13 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 

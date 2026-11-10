@@ -223,47 +223,39 @@ public final class lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllI
       String var6 = "q\u0017\u0087BØ6¾\u0084\u0014\u0087\u0099BTôw6¬c$íù\u0091\u0094Ñ\u0010\u009f%\n#çý`Ð\f8¶i\u0011\u000f\u001d: Ö*\u0018\u0013\u007fÀk\u0087ðû!9fó\u0000\u001bÞTä ñFÄ³\n!\u0018\u0083c#\u0093å\u0010\u00960Õq×\u000f\u0090óÚow\u00059û\u0084\u001f Æ;\u0096«{:f\u009eá\u008dÝ¡\u0013üõC\u009a7\u0014@|\u009f§Ù\u0089\u008d\u0016ÏFÏÏç";
       int var8 = "q\u0017\u0087BØ6¾\u0084\u0014\u0087\u0099BTôw6¬c$íù\u0091\u0094Ñ\u0010\u009f%\n#çý`Ð\f8¶i\u0011\u000f\u001d: Ö*\u0018\u0013\u007fÀk\u0087ðû!9fó\u0000\u001bÞTä ñFÄ³\n!\u0018\u0083c#\u0093å\u0010\u00960Õq×\u000f\u0090óÚow\u00059û\u0084\u001f Æ;\u0096«{:f\u009eá\u008dÝ¡\u0013üõC\u009a7\u0014@|\u009f§Ù\u0089\u008d\u0016ÏFÏÏç"
          .length();
-      char var5 = 24;
-      int var12 = -1;
+      char var5 = '\u0018';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "QÈ\u0098)Rîâoíâw\u0006v£µ\u0082dÄa;Ò\u009c\u009e\u001bõ\\¬ñB\u008eh\u0097²b^I\u0084Û\u00894( Õ½H\u0089.¹~\u009c{K\u0096\u009cÌ\u001fEìÎý\u0016-È×\u0095{\u0087ÖcÖ<\u0004^\u0086\u0016Cì\u0087Ö\u0016)";
+            var8 = "QÈ\u0098)Rîâoíâw\u0006v£µ\u0082dÄa;Ò\u009c\u009e\u001bõ\\¬ñB\u008eh\u0097²b^I\u0084Û\u00894( Õ½H\u0089.¹~\u009c{K\u0096\u009cÌ\u001fEìÎý\u0016-È×\u0095{\u0087ÖcÖ<\u0004^\u0086\u0016Cì\u0087Ö\u0016)"
+               .length();
+            var5 = '(';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var9;
-                     llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new String[7];
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll();
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = var9;
+                  llIllIllIllllllIllIlIIIlIllIIlIlIllIllIllIIIllIIlIlIIIllllllllIllIlllllIlIIlIlIlllllI = new String[7];
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll();
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "QÈ\u0098)Rîâoíâw\u0006v£µ\u0082dÄa;Ò\u009c\u009e\u001bõ\\¬ñB\u008eh\u0097²b^I\u0084Û\u00894( Õ½H\u0089.¹~\u009c{K\u0096\u009cÌ\u001fEìÎý\u0016-È×\u0095{\u0087ÖcÖ<\u0004^\u0086\u0016Cì\u0087Ö\u0016)";
-                  var8 = "QÈ\u0098)Rîâoíâw\u0006v£µ\u0082dÄa;Ò\u009c\u009e\u001bõ\\¬ñB\u008eh\u0097²b^I\u0084Û\u00894( Õ½H\u0089.¹~\u009c{K\u0096\u009cÌ\u001fEìÎý\u0016-È×\u0095{\u0087ÖcÖ<\u0004^\u0086\u0016Cì\u0087Ö\u0016)"
-                     .length();
-                  var5 = '(';
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -372,6 +364,59 @@ public final class lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllI
             var5
          );
       }
+   }
+
+   @JvmStatic
+   public static final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$2cb896aba8bce9ad(
+      long argument1Arg, @NotNull Vec3 targetArg
+   ) {
+      argument1Arg = 140211110510019L;
+      argument1Arg = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll ^ argument1Arg;
+      long var3 = argument1Arg ^ 103351091977999L;
+      Intrinsics.checkNotNullParameter(targetArg, "target");
+      IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll.IlIllIlIIllIIIIllIIIIIllIlIllllllIlIIIIllIlllllllIIlIlIlllIIlllIlIIlIlllllIIlllllllII(
+         targetArg, var3
+      );
+   }
+
+   public final void IIlllllIIIlllIIllllIIlIlIIlllIIIIlllIlIIIlIlllIlIllIlIllIlIIIIlIIIllIIIlIlIllIIIIIllI$recovered$23b7a4862040234a(long var1) {
+      var1 = 10939980747931L;
+      var1 = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll ^ var1;
+      long var3 = (var1 ^ 42601277010987L) >>> 16;
+      int var5 = (int)((var1 ^ 42601277010987L) << 48 >>> 48);
+      IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll.IllIlllllIIlIIIIIIIllIllIlIllIIlllIIIIIlIlIIllIlIlIllIlIIIlIIIlllIlIlIlIlllIIllIlIIlI(
+         var3, (short)var5
+      );
+   }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$3810fe9e1ceb6125(
+      @NotNull Vec3 targetArg, long argument2Arg
+   ) {
+      argument2Arg = 91365782844304L;
+      argument2Arg = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll ^ argument2Arg;
+      long var3 = argument2Arg ^ 90651652570665L;
+      Intrinsics.checkNotNullParameter(targetArg, "target");
+      IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(
+         targetArg, var3
+      );
+   }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$d9a9496987bd6791(
+      @NotNull Vec3 targetArg, float argument2Arg, long argument3Arg, boolean argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @JvmStatic
+   public static final boolean IIlIllllIlIllIlIIIlIlllIlIIlIlIIIIIllIIIIllIIIIIlllIlIllllIIIlIlIllIlIIIIIIIllIlIIIll$recovered$832055b056193755(long var0) {
+      var0 = 97096200862477L;
+      var0 = lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll ^ var0;
+      long var2 = var0 ^ 126479848863782L;
+      return IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll.IIlIIIIllIlIIlIIIlllIlIlIIllllIlIIIllIIlIlllIlIlllIIlIIIIllIIllllIlIlllIlIlIIlllllIII(
+         var2
+      );
    }
 
    private static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll

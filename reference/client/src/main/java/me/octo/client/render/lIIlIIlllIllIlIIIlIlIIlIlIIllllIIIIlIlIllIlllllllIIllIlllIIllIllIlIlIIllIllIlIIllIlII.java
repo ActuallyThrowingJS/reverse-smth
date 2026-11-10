@@ -1062,50 +1062,41 @@ public final class lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIll
       String var4 = "6à\u0000ixgÄ\u0095+\\\u000fBl\u0002\u008d0fÐ\u0017M}çúh\u0010cY\u0013\u0005\u008b%ã§jq\u0003\u0089¯á´3 ¼\u0089\b\u009a¥k\u0080\u0010\u0096àú{\u0093\u008b[±rªÆ\u001dI\u0015g¿0È\\\u0014¦è°\u0097\u0018¢\u00ad\u0098v\u0006\r±\u008d\u009b\u0003ÃÆ\u0000NÉ\u0011³}PÙ\u0088\u0094t? F\u0084W\u0094Î!ò\u0082\u0083wvÞIï9Hè-Û_\u001aVÀ\u0017µ'\u0093ýIG)r\u0018i°¬OÍ¿;²E\u0099Ü\u0087Úc7\n\u0005±~xý>\u000e\u001f\u0010×mktO>ï\u009f°[\u0090Î¾âÚI ¦\u0014ß¢Îç\u0093\u0010@è×\u009f\u0003\u0084.\u0099®¾\u009d\u0092q\u0018\u008bz\"o§úzÏD\u0013\u0010&\u000f©2\b\u0085ÄlÕ3¦6\u0095\u007fC\u0085  éóy¯HÂ\u0099(Hyß/ïÙÁÉI\u0083kD²3*\u0099ù¬\u009aõTL\u0089 \u0003>G\u000e\u000e,ñ[²o¯D{$e\u0017´ÍÁoF¬\u008f\u0093 ¯'6ÊÇ{{(ÔnÄ·+£{\u0004{1\u009f ex\u000e8,\u0003á°+\u008cÕ%>\u000f\"\u0096ÌíÙ£c¶X\u000123¢\u009a\u0010ï3à ø\u0085t\u0088*\u008dÍ¯$Î«; ¨ö¬Þèq\u0007Bvp\u0014¯¯Õ\u0013 \u0083{\\Q\u0099Ö&\u0004n\u0087Z d\u0083ùY\u0010\u000e\u0089z^uõT¯¹Vd\u0004CÍê¼(0\u0011Â\u0015A:\u0014Ùñ\u0085Ê2\fCc\u0013é³\u00adl-è\u001c\u001ec|Ëtó ì©\u0004\r\u009bÃ®~Ô' ºqþ+Ô7ÙU\u0089Ý¸j´k6\u001cÜfE\u0099H:ú\u009c\u008b|³²Ç¢\u007f6 ë\u009fôïû»y\u0017\u0014\u0096\u0091íW¦\u0006ÛcéC\u0019Ö¾kVÿ©ðÎ\"¸¿å\u0010?7\u0093Â\u0085\u0018ÒµÏÜ1}WO\b%0Í+,D\u0006\u00010j-Vî¹ô/§I0\u008b\u0018\u0089L\u008cyý\u008cê\u0003¯¨2\u008fËêa\u000fÄx\u00859hoÞ\u0096LexÀÁ\u0010ÃKÊÛH[]\u008d8\u0090KK\u0017/IË\u0010yÒ\u009d\u0089ÌZaÈG\u0080gÖ\u00937½¼\u00101óxzýÁn\u0095\\Zð\u009b%µñ°\u0018)ºÄ»\u0001¿t\u0091\u001c§\u001f¥Vê¾\u0096ø}±\u0092 \u0092iÆ\u0018rD¸üxÓó ×çý4j\u0084\u0081\u0006o\u008dá\u001b\u009a\u00043n õ´û©âç]D\u009dÀ&-;óò%ñ\f\u0090º\"_±«\u0096#e\u001eL÷5Ã\u0018\u008cì\u000fK\u0082ß2\u009f\u0085üñÖÏ\u001cG¶D{U«\u0011w7g\u0010óç&>R+Y6Î-UçSêÅ\u0093\u0018\u0081G\"}\u001a°\u0016o\u0083U\u0096¶\u000e\u0097\u0019Ï H\u0094ö\u008dGiÖ(¯;ØÂ+AÈ|Ûý@MrEÕ \f¿A\u009aà\u008aa\u0093Úy;ZÒ*\u0095Æ\u0080¾òÏÓ\u0005²°\u0010É\u0099\u00adÌ¢\u0002¾ Uj~S4Áì¬\u0010\u009czÜÅ¬)þ$\u0001ÀÒâ\u0006]<\u0090\u0010Q\u008cHw\u008e>¹¯U\u0005\u00810|ã$P8I4!w=\u0084\u001bÕÜ\u009d`\u0002\u0018k\u0087ýe\u008f\u0010.Âºf¤°\u00adVáË\u0011{«Ç\u0084¡·r\u0093El\u0007Æ'H\u0018ýT¡f÷\u0018Ûàz¿\u0080\u0018L;J\u009b½åÊÛÌk\u008e²\u009aÕtúU\u0006D\u009bx¢j2 Gf\u007fÜ9\u001bê¢@Ç\u0010mo:\u000fräÞ).íò\u001beet*Õö\u008f\bø @ÔìGcã¦Ê\r\u0087@\u008fMW\u0089R\u001eÝ×Â8H´Eâ{ 5\u0000\u0081>§ GÑë\u0080é¾×¥\u0082ÚEì\u0081bÌéE¸=\u0014\u00924}F§Ò\u001cU\u0016¤è» '´Æ\u0092\u008e\u0096;Ä\u00adï\u0001mß|¢àóÃ\u0099Uõ\u0002\u009dõ\u0086\u00816Ðã MÕ\u0010|\u0012\u001b\u00072=\n.À\u0004a-ÕGÇ÷ \u0090Z\në\u000f\u0095&\u008a\u0012\u0014Ö\u008eä7`«\u0098Øýuíí\fP\u0011Þ¸ä0\u0013¨V \tg\u00043\u0086u¨¯\raÖbþûHÓ7\u0085Î2\u009bÄâV\u0019ãì\u009aSß\u0006> \u008d1\u0012C\\íë3h\u001c`ã|) òô+ÓÇ\"a»\u0081Opðþ*1J\u0089\u0018× Mh\u0005a?\u00adõ@\u008fÒ¾$\u008f?>-wþX\u008b\u009f=\u0010\u009b'«ß(\u001a\u0085üy/\u008cÍ6\u0081ÉW\u0010é\u001bµÃÙ\u0090<îc\"¹]\u0018Dá\u0013 ÊÑ_z\u0012¨ù\u0014DÒÏ\u001a\u0091¦ºJªJ4\u0093j\u009bõ\u001d0\u0012½¸\u0018\u009aSg\u0010´ÂÉÈ\u0092\u0082 \u0004F\tº\u000e\u008d.\rï\u0010ÖÄÓÄ{\u009fbÍ{ú1\u0091\u001dÆ~G\u0018\u0000\u0092\u0018X³ÍÏj¶`&C.ç7\u0084Û$Ï\u0094<+$ß\u0010G\r\u001e\b/¼ûx,Ì£\u0089ö\u0087At\u0018ô\"ÄB}«\u00967\u0006\u009eUW\u00927>@\u0086\u001fÆÌ\u0086®_J \u0092\tI5\u0012èê¬;\u009bÂe\u0093\u009eK·ä\u0084¹:\u0086\nÊ5\u008eö\u0092\u008e/aÍ® n?´>T%±,\u0011\u0080õ\u0099\"Ùjûrí\u0002\u009eÙAò\u007f¥\u000f\u001byh \u0096È\u0010e¯\u0003v\u009dÍ\u007fê\b]¸\u00ad\u008dI}Ì\u0010\u008a\u0084)\u0005ý\u009d,\u0099Òy\u0086ø\u001dzC}\u0010m@\u0017¨z¹\u0014\u009d\u001em÷¶¸l\u008d[ ³9fT3Ä\u007fsp£æµ¨Nü³Ãq\nWÙåÛ\tÚ\u0014øéîò\u0097g(Ð)\u0084lkN\u0010¢=½ËE@ý¬ùn\u0012F\u0007¡[Ï\u001a ¸àC\u0017B\u008d|\u0006\b½,.Ù^,\u0010\u0084´?\u0099*)úìï5½\u0013C û±\u0018ë´±»,§Ë\u0082,çúhZ\u0093\u0094g\u0003Ù\u000f-61ÁÒ";
       int var6 = "6à\u0000ixgÄ\u0095+\\\u000fBl\u0002\u008d0fÐ\u0017M}çúh\u0010cY\u0013\u0005\u008b%ã§jq\u0003\u0089¯á´3 ¼\u0089\b\u009a¥k\u0080\u0010\u0096àú{\u0093\u008b[±rªÆ\u001dI\u0015g¿0È\\\u0014¦è°\u0097\u0018¢\u00ad\u0098v\u0006\r±\u008d\u009b\u0003ÃÆ\u0000NÉ\u0011³}PÙ\u0088\u0094t? F\u0084W\u0094Î!ò\u0082\u0083wvÞIï9Hè-Û_\u001aVÀ\u0017µ'\u0093ýIG)r\u0018i°¬OÍ¿;²E\u0099Ü\u0087Úc7\n\u0005±~xý>\u000e\u001f\u0010×mktO>ï\u009f°[\u0090Î¾âÚI ¦\u0014ß¢Îç\u0093\u0010@è×\u009f\u0003\u0084.\u0099®¾\u009d\u0092q\u0018\u008bz\"o§úzÏD\u0013\u0010&\u000f©2\b\u0085ÄlÕ3¦6\u0095\u007fC\u0085  éóy¯HÂ\u0099(Hyß/ïÙÁÉI\u0083kD²3*\u0099ù¬\u009aõTL\u0089 \u0003>G\u000e\u000e,ñ[²o¯D{$e\u0017´ÍÁoF¬\u008f\u0093 ¯'6ÊÇ{{(ÔnÄ·+£{\u0004{1\u009f ex\u000e8,\u0003á°+\u008cÕ%>\u000f\"\u0096ÌíÙ£c¶X\u000123¢\u009a\u0010ï3à ø\u0085t\u0088*\u008dÍ¯$Î«; ¨ö¬Þèq\u0007Bvp\u0014¯¯Õ\u0013 \u0083{\\Q\u0099Ö&\u0004n\u0087Z d\u0083ùY\u0010\u000e\u0089z^uõT¯¹Vd\u0004CÍê¼(0\u0011Â\u0015A:\u0014Ùñ\u0085Ê2\fCc\u0013é³\u00adl-è\u001c\u001ec|Ëtó ì©\u0004\r\u009bÃ®~Ô' ºqþ+Ô7ÙU\u0089Ý¸j´k6\u001cÜfE\u0099H:ú\u009c\u008b|³²Ç¢\u007f6 ë\u009fôïû»y\u0017\u0014\u0096\u0091íW¦\u0006ÛcéC\u0019Ö¾kVÿ©ðÎ\"¸¿å\u0010?7\u0093Â\u0085\u0018ÒµÏÜ1}WO\b%0Í+,D\u0006\u00010j-Vî¹ô/§I0\u008b\u0018\u0089L\u008cyý\u008cê\u0003¯¨2\u008fËêa\u000fÄx\u00859hoÞ\u0096LexÀÁ\u0010ÃKÊÛH[]\u008d8\u0090KK\u0017/IË\u0010yÒ\u009d\u0089ÌZaÈG\u0080gÖ\u00937½¼\u00101óxzýÁn\u0095\\Zð\u009b%µñ°\u0018)ºÄ»\u0001¿t\u0091\u001c§\u001f¥Vê¾\u0096ø}±\u0092 \u0092iÆ\u0018rD¸üxÓó ×çý4j\u0084\u0081\u0006o\u008dá\u001b\u009a\u00043n õ´û©âç]D\u009dÀ&-;óò%ñ\f\u0090º\"_±«\u0096#e\u001eL÷5Ã\u0018\u008cì\u000fK\u0082ß2\u009f\u0085üñÖÏ\u001cG¶D{U«\u0011w7g\u0010óç&>R+Y6Î-UçSêÅ\u0093\u0018\u0081G\"}\u001a°\u0016o\u0083U\u0096¶\u000e\u0097\u0019Ï H\u0094ö\u008dGiÖ(¯;ØÂ+AÈ|Ûý@MrEÕ \f¿A\u009aà\u008aa\u0093Úy;ZÒ*\u0095Æ\u0080¾òÏÓ\u0005²°\u0010É\u0099\u00adÌ¢\u0002¾ Uj~S4Áì¬\u0010\u009czÜÅ¬)þ$\u0001ÀÒâ\u0006]<\u0090\u0010Q\u008cHw\u008e>¹¯U\u0005\u00810|ã$P8I4!w=\u0084\u001bÕÜ\u009d`\u0002\u0018k\u0087ýe\u008f\u0010.Âºf¤°\u00adVáË\u0011{«Ç\u0084¡·r\u0093El\u0007Æ'H\u0018ýT¡f÷\u0018Ûàz¿\u0080\u0018L;J\u009b½åÊÛÌk\u008e²\u009aÕtúU\u0006D\u009bx¢j2 Gf\u007fÜ9\u001bê¢@Ç\u0010mo:\u000fräÞ).íò\u001beet*Õö\u008f\bø @ÔìGcã¦Ê\r\u0087@\u008fMW\u0089R\u001eÝ×Â8H´Eâ{ 5\u0000\u0081>§ GÑë\u0080é¾×¥\u0082ÚEì\u0081bÌéE¸=\u0014\u00924}F§Ò\u001cU\u0016¤è» '´Æ\u0092\u008e\u0096;Ä\u00adï\u0001mß|¢àóÃ\u0099Uõ\u0002\u009dõ\u0086\u00816Ðã MÕ\u0010|\u0012\u001b\u00072=\n.À\u0004a-ÕGÇ÷ \u0090Z\në\u000f\u0095&\u008a\u0012\u0014Ö\u008eä7`«\u0098Øýuíí\fP\u0011Þ¸ä0\u0013¨V \tg\u00043\u0086u¨¯\raÖbþûHÓ7\u0085Î2\u009bÄâV\u0019ãì\u009aSß\u0006> \u008d1\u0012C\\íë3h\u001c`ã|) òô+ÓÇ\"a»\u0081Opðþ*1J\u0089\u0018× Mh\u0005a?\u00adõ@\u008fÒ¾$\u008f?>-wþX\u008b\u009f=\u0010\u009b'«ß(\u001a\u0085üy/\u008cÍ6\u0081ÉW\u0010é\u001bµÃÙ\u0090<îc\"¹]\u0018Dá\u0013 ÊÑ_z\u0012¨ù\u0014DÒÏ\u001a\u0091¦ºJªJ4\u0093j\u009bõ\u001d0\u0012½¸\u0018\u009aSg\u0010´ÂÉÈ\u0092\u0082 \u0004F\tº\u000e\u008d.\rï\u0010ÖÄÓÄ{\u009fbÍ{ú1\u0091\u001dÆ~G\u0018\u0000\u0092\u0018X³ÍÏj¶`&C.ç7\u0084Û$Ï\u0094<+$ß\u0010G\r\u001e\b/¼ûx,Ì£\u0089ö\u0087At\u0018ô\"ÄB}«\u00967\u0006\u009eUW\u00927>@\u0086\u001fÆÌ\u0086®_J \u0092\tI5\u0012èê¬;\u009bÂe\u0093\u009eK·ä\u0084¹:\u0086\nÊ5\u008eö\u0092\u008e/aÍ® n?´>T%±,\u0011\u0080õ\u0099\"Ùjûrí\u0002\u009eÙAò\u007f¥\u000f\u001byh \u0096È\u0010e¯\u0003v\u009dÍ\u007fê\b]¸\u00ad\u008dI}Ì\u0010\u008a\u0084)\u0005ý\u009d,\u0099Òy\u0086ø\u001dzC}\u0010m@\u0017¨z¹\u0014\u009d\u001em÷¶¸l\u008d[ ³9fT3Ä\u007fsp£æµ¨Nü³Ãq\nWÙåÛ\tÚ\u0014øéîò\u0097g(Ð)\u0084lkN\u0010¢=½ËE@ý¬ùn\u0012F\u0007¡[Ï\u001a ¸àC\u0017B\u008d|\u0006\b½,.Ù^,\u0010\u0084´?\u0099*)úìï5½\u0013C û±\u0018ë´±»,§Ë\u0082,çúhZ\u0093\u0094g\u0003Ù\u000f-61ÁÒ"
          .length();
-      char var3 = 24;
-      int var14 = -1;
+      char var3 = '\u0018';
+      int var2 = -1;
 
-      label27:
       while (true) {
-         String var15 = var4.substring(++var14, var14 + var3);
+         byte[] var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+         String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
          byte var10001 = -1;
+         var7[var5++] = var23;
+         if ((var2 += var3) >= var6) {
+            var4 = "$G\u0004¢\u001d]|u\u00ad\u0019\u0083\u0087\u001e«¶2 [êÈþíö9\u0018~\u001aÜ\u0080\u0017\u0014RÇeÝ¡½úé¼v?j\u0000¨\u0000\u008bªÜ";
+            var6 = "$G\u0004¢\u001d]|u\u00ad\u0019\u0083\u0087\u001e«¶2 [êÈþíö9\u0018~\u001aÜ\u0080\u0017\u0014RÇeÝ¡½úé¼v?j\u0000¨\u0000\u008bªÜ".length();
+            var3 = '\u0010';
+            var2 = -1;
 
-         while (true) {
-            byte[] var8 = var0.doFinal(var15.getBytes("ISO-8859-1"));
-            String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
-            switch (var10001) {
-               case 0:
-                  var7[var5++] = var21;
-                  if ((var14 += var3) >= var6) {
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var7;
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[63];
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = LazyKt.lazy(
-                        lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII::llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI
-                     );
-                     lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new AABB(0.0, 0.0, 0.0, 1.0, 1.0, 1.0);
-                     IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new AABB(0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
-                     return;
-                  }
+            while (true) {
+               var8 = var0.doFinal(var4.substring(++var2, var2 + var3).getBytes("ISO-8859-1"));
+               String var25 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var8).intern();
+               boolean var21 = false;
+               var7[var5++] = var25;
+               if ((var2 += var3) >= var6) {
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = var7;
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new String[63];
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = LazyKt.lazy(
+                     lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIllIllIlIlIIllIllIlIIllIlII::llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI
+                  );
+                  lIIIIIllIIlIlllIllIIIllllIIIIIlIlllllllIIIlIIIIllIlIllIlIIlIIllllIIlIlIIlIIlIIlIlIIII = new AABB(0.0, 0.0, 0.0, 1.0, 1.0, 1.0);
+                  IllllIlIIIlIlIIlIlIIIlIlIllllIIIlIllIIIIlllllIlIIIlIIlllIIIIlIIllIlIIlIlllIlIIIlIlIIl = new AABB(0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
+                  return;
+               }
 
-                  var3 = var4.charAt(var14);
-                  break;
-               default:
-                  var7[var5++] = var21;
-                  if ((var14 += var3) < var6) {
-                     var3 = var4.charAt(var14);
-                     continue label27;
-                  }
-
-                  var4 = "$G\u0004¢\u001d]|u\u00ad\u0019\u0083\u0087\u001e«¶2 [êÈþíö9\u0018~\u001aÜ\u0080\u0017\u0014RÇeÝ¡½úé¼v?j\u0000¨\u0000\u008bªÜ";
-                  var6 = "$G\u0004¢\u001d]|u\u00ad\u0019\u0083\u0087\u001e«¶2 [êÈþíö9\u0018~\u001aÜ\u0080\u0017\u0014RÇeÝ¡½úé¼v?j\u0000¨\u0000\u008bªÜ"
-                     .length();
-                  var3 = 16;
-                  var14 = -1;
+               var3 = var4.charAt(var2);
             }
-
-            var15 = var4.substring(++var14, var14 + var3);
-            var10001 = 0;
          }
+
+         var3 = var4.charAt(var2);
       }
    }
 
@@ -1214,5 +1205,181 @@ public final class lIIlIIlllIllIlIIIlIlIIlIlIIllllIIIIlIlIllIlllllllIIllIlllIIll
             var5
          );
       }
+   }
+
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$81185b40bed0eecf(
+      @NotNull WorldRenderEnvironment argument1Arg,
+      float argument2Arg,
+      float argument3Arg,
+      long argument4Arg,
+      float argument5Arg,
+      @NotNull Vec3 endWorldArg,
+      int argument7Arg,
+      float argument8Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static final void llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$82b03295536870ee(
+      @NotNull WorldRenderEnvironment argument1Arg,
+      @NotNull Vec3 p1WorldArg,
+      @NotNull Vec3 p2WorldArg,
+      int argument4Arg,
+      float argument5Arg,
+      long argument6Arg,
+      boolean argument7Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$764597c6c6339483(
+      short var0,
+      WorldRenderEnvironment var1,
+      AABB var2,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var3,
+      me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll var4,
+      int var5,
+      int var6,
+      long var7,
+      float var9,
+      int var10,
+      Object var11
+   ) {
+      var7 = 118973270598360L;
+      long var12 = ((long)var0 << 48 | var7 << 16 >>> 16) ^ lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI;
+      long var10001 = var12 ^ 26556288082748L;
+      int var14 = (int)((var12 ^ 26556288082748L) >>> 48);
+      int var15 = (int)((var12 ^ 26556288082748L) << 16 >>> 32);
+      int var16 = (int)(var10001 << 48 >>> 48);
+      String var17 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         8462465018362757870L, var12
+      );
+
+      int var10000;
+      label74: {
+         int var18;
+         byte var19;
+         label73: {
+            label72: {
+               try {
+                  var19 = 2;
+                  var18 = var10;
+                  if (var17 != null) {
+                     break label73;
+                  }
+
+                  if ((var10 & var19) == 0) {
+                     break label72;
+                  }
+               } catch (NoWhenBranchMatchedException var27) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var27, 8563822237716785841L, var12
+                  );
+               }
+
+               var3 = me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI;
+            }
+
+            try {
+               var10000 = var10;
+               var32 = 4;
+               break label74;
+            } catch (NoWhenBranchMatchedException var24) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var24, 8563822237716785841L, var12
+               );
+            }
+         }
+
+         var10000 = var18;
+         var32 = var19;
+      }
+
+      if ((var10000 & var32) != 0) {
+         var4 = me.octo.client.render.engine.IIlllIlIIIlllllllIIlllllIIIlIIllIIlllIlllllIIlIllllIIlllIIllllIIlIlIllllIllIlllllIlll.llIIlIIIlIlIlIIIllIlIlllllllllIllIlIlIIIlIlIllIllIIIllIIlllllIIllIlIIlIllllIlIllIlllI;
+      }
+
+      label62: {
+         int var20;
+         byte var21;
+         label78: {
+            try {
+               var21 = 8;
+               var20 = var10;
+               if (var17 != null) {
+                  break label78;
+               }
+
+               var10000 = var10 & var21;
+            } catch (NoWhenBranchMatchedException var26) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var26, 8563822237716785841L, var12
+               );
+            }
+
+            if (var10000 != 0) {
+               var5 = -1;
+            }
+
+            var10000 = var10;
+            var33 = 16;
+            break label62;
+         }
+
+         var10000 = var20;
+         var33 = var21;
+      }
+
+      label54: {
+         label53: {
+            int var22;
+            byte var23;
+            label52: {
+               try {
+                  var23 = var33;
+                  var22 = var10000;
+                  if (var17 != null) {
+                     break label52;
+                  }
+
+                  if ((var22 & var23) == 0) {
+                     break label53;
+                  }
+               } catch (NoWhenBranchMatchedException var25) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var25, 8563822237716785841L, var12
+                  );
+               }
+
+               var6 = -1;
+               break label53;
+            }
+
+            var10000 = var22;
+            var34 = var23;
+            break label54;
+         }
+
+         var10000 = var10;
+         var34 = 32;
+      }
+
+      if ((var10000 & var34) != 0) {
+         var9 = 1.0F;
+      }
+
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var1, var2, (char)var14, var3, var4, var5, var6, var15, var16, var9);
+   }
+
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$b410f98d6522321c(
+      @NotNull WorldRenderEnvironment argument1Arg,
+      @NotNull Vec3 p1WorldArg,
+      @NotNull Vec3 p2WorldArg,
+      long argument4Arg,
+      int argument5Arg,
+      float argument6Arg,
+      boolean argument7Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

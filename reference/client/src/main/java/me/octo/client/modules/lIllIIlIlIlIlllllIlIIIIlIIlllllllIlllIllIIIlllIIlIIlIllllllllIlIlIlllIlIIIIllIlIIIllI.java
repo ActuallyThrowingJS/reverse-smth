@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import javax.crypto.Cipher;
@@ -237,66 +238,57 @@ public final class lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllll
 
       List var4;
       try {
-         Iterable var17 = PathsKt.listDirectoryEntries$default(
+         Iterable var19 = PathsKt.listDirectoryEntries$default(
             this.llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(), null, 1, null
          );
          boolean var5 = false;
-         Iterable var6 = var17;
+         Iterable var6 = var19;
          var var7 = new ArrayList();
          boolean var8 = false;
+         Iterator var9 = var19.iterator();
 
-         label55: {
-            for (Object var10 : var17) {
-               Path var11 = (Path)var10;
+         while (true) {
+            if (!var9.hasNext()) {
+               var var20 = (Iterable & List)var7;
+               var5 = false;
+               var6 = var20;
+               var7 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var20, 10));
                boolean var10000 = false;
-               if (var3 != 0) {
-                  break label55;
-               }
-
-               boolean var12 = false;
-
-               label51: {
-                  try {
-                     if (var3 != 0) {
-                        break label51;
-                     }
-
-                     LinkOption[] var10001 = new LinkOption[0];
-                     if (!Files.isDirectory(var11, Arrays.copyOf(var10001, var10001.length))) {
-                        continue;
-                     }
-                  } catch (Exception var14) {
-                     throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                        var14, -7589214500293076046L, var1
-                     );
-                  }
-
-                  var7.add(var10);
-               }
-
-               if (var3 != 0) {
-                  break;
-               }
+               break;
             }
 
-            var var18 = (Iterable & List)var7;
-            var5 = false;
-            var6 = var18;
-            var7 = new ArrayList(CollectionsKt.collectionSizeOrDefault(var18, 10));
-            boolean var24 = false;
+            Object var10 = var9.next();
+            Path var11 = (Path)var10;
+            boolean var14 = false;
+            if (var3 != 0) {
+               break;
+            }
+
+            try {
+               LinkOption[] var10001 = new LinkOption[0];
+               if (!Files.isDirectory(var11, Arrays.copyOf(var10001, var10001.length))) {
+                  continue;
+               }
+            } catch (Exception var16) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var16, -7589214500293076046L, var1
+               );
+            }
+
+            var7.add(var10);
          }
 
          Object var25;
          label36: {
-            for (Object var21 : var6) {
-               var25 = var7;
+            for (Object var23 : var6) {
                if (var3 != 0) {
+                  var25 = var7;
                   break label36;
                }
 
-               Path var22 = (Path)var21;
-               boolean var23 = false;
-               var7.add(PathsKt.getName(var22));
+               Path var24 = (Path)var23;
+               boolean var12 = false;
+               var7.add(PathsKt.getName(var24));
                if (var3 != 0) {
                   break;
                }
@@ -306,7 +298,7 @@ public final class lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllll
          }
 
          var4 = (List)var25;
-      } catch (Exception var15) {
+      } catch (Exception var17) {
          var4 = CollectionsKt.emptyList();
       }
 
@@ -344,44 +336,36 @@ public final class lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllll
       int var8 = "M^C=[C\u001e\u001eC?f^\u009eÛk£\u0091îcý¦0B\u001d_¨·|Ñd°í\u009d\u0099u\u0099\u000b\u00807 \u0010O\u0006)\bÕc\\ò[\tï\u0006\u0092]£ü\u0010_!I~(\u0084+U-ï¯\u001eð?ñ\u0092\u0010ï=\u0089æ§\u0006#M~Q¨\u0004OÝ\u0002P \u0019SÊ\u0015\fçOG\u001cÚ5æâO?Q\u0019l©³¿4¸oÕ\u0011êZ\u008aÛð\u0002 L\u0099Ø\nÛ\u0080+i\u009bÇ¶å\u000fW¦Ìpêó\u001a*¯oÁÚ\u0005×Sònx3\u0018\nþâQl\u008b\u0084á5-PøGI\bö8?êlÌ#9Î([Lï\u0098º>^\u0085t\u0004\u0007j·%ÓPB¸þÌ\u008c\u0014\bçx\u009b>~ë>\u0002Ð·\u0093À\u008c0\n¸§\u0018@àãJÞ\u0089®Ø,\u0085bæ¡\u001d\u00101¦\u0010'Ï\u009cþý~ ÛÅæ°ÐP\u0096Ä Z65ê¨,\nW'Ø§ðwn\rd\u0082Ê0IpN\u0005(Ý|×Á\u0014³Ã\u009e\u009b\u0091¢ö\u0087\u0086Pú\u0092ïð@\u0091íå¼Â\u0019ïç\t©w\u0005ÒÂ\u001d7â\u0013\u0088O \nÿ$X¾¯U°µ®@Z22ÌwPA\u008fHbDµà6\u000e6éÁ1Üú\u0018×ä?MLß(¿\u0002Î\u00111Püþy\u009bÅ\u0086\u009fëÏoÈ\u0010\u0087ç (§å\u000bQ»l®\u008f&w_0"
          .length();
       char var5 = '(';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "Å\u001bÑ\u0011\u000f6þ#lO¹¦é1\b}\u008e¬`zk½Þâ`Ñ%\bÅôVDÙ\u000f\u009b@q\u0082#7.ë\u0089\u0007Áp\u0087ß·î*ë°\u009eXËñB)T\u00850)\u0005qêÊj\u008d\u0085\u0097,CX\u0014´¸\u001c°Ë\u0014ÜP\u009fu\u0085\u0089\u0099Öû\u0010xd©\u00859*D>||\u0090©\"Ï\u001d\u0003f\u0086^!H~\u0095àºKu\u0012Ñ\u008d";
+            var8 = "Å\u001bÑ\u0011\u000f6þ#lO¹¦é1\b}\u008e¬`zk½Þâ`Ñ%\bÅôVDÙ\u000f\u009b@q\u0082#7.ë\u0089\u0007Áp\u0087ß·î*ë°\u009eXËñB)T\u00850)\u0005qêÊj\u008d\u0085\u0097,CX\u0014´¸\u001c°Ë\u0014ÜP\u009fu\u0085\u0089\u0099Öû\u0010xd©\u00859*D>||\u0090©\"Ï\u001d\u0003f\u0086^!H~\u0095àºKu\u0012Ñ\u008d"
+               .length();
+            var5 = '\u0018';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var9;
-                     IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[16];
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = var9;
+                  IIIlIlIIlIIIIIIlIllIlllIIlIllllIllIIIIIIIIIlIllllllIIllIllIllIllIIlllIlllllIlIllIlIII = new String[16];
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "Å\u001bÑ\u0011\u000f6þ#lO¹¦é1\b}\u008e¬`zk½Þâ`Ñ%\bÅôVDÙ\u000f\u009b@q\u0082#7.ë\u0089\u0007Áp\u0087ß·î*ë°\u009eXËñB)T\u00850)\u0005qêÊj\u008d\u0085\u0097,CX\u0014´¸\u001c°Ë\u0014ÜP\u009fu\u0085\u0089\u0099Öû\u0010xd©\u00859*D>||\u0090©\"Ï\u001d\u0003f\u0086^!H~\u0095àºKu\u0012Ñ\u008d";
-                  var8 = "Å\u001bÑ\u0011\u000f6þ#lO¹¦é1\b}\u008e¬`zk½Þâ`Ñ%\bÅôVDÙ\u000f\u009b@q\u0082#7.ë\u0089\u0007Áp\u0087ß·î*ë°\u009eXËñB)T\u00850)\u0005qêÊj\u008d\u0085\u0097,CX\u0014´¸\u001c°Ë\u0014ÜP\u009fu\u0085\u0089\u0099Öû\u0010xd©\u00859*D>||\u0090©\"Ï\u001d\u0003f\u0086^!H~\u0095àºKu\u0012Ñ\u008d"
-                     .length();
-                  var5 = 24;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -488,5 +472,37 @@ public final class lIllIIlIlIlIlllllIlIIIIlIIlllllllIlllIllIIIlllIIlIIlIllllllll
             var5
          );
       }
+   }
+
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$963cec5b9933d358(
+      long argument1Arg, @NotNull String fileNameArg, @NotNull IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII routeArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @Nullable
+   public final IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$0b2ad8424050fd3d(
+      long argument1Arg, @NotNull String folderNameArg, @NotNull String fileNameArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$a7c2341ee2ae807b(
+      @NotNull String folderNameArg,
+      long argument2Arg,
+      @NotNull String fileNameArg,
+      @NotNull IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII routeArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public final boolean IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$275b03d99e45f502(
+      @NotNull String folderNameArg,
+      @NotNull String subFolderNameArg,
+      long argument3Arg,
+      @NotNull String fileNameArg,
+      @NotNull IIllIIIIllIlIIIlIIIIlIIlIIllIlIIlIIlIlIlIlIIIIlllIIIIlIllllIlIllIIIIIIlllIlllIIIIllII routeArg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 }

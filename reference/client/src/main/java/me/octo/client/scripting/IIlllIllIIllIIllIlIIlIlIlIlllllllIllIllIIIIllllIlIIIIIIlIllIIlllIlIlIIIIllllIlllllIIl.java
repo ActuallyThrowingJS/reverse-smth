@@ -46,14 +46,14 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
    @Export
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
    @NotNull
-   public final llIIlllIlIlllIIllIllIIIIIlIlIlIlIlIIlllIlllllIlIIlIIIlIlllllIIIIllIIIIllIIIlllIlllIIl create(@NotNull Value configArg) {
+   public final llIIlllIlIlllIIllIllIIIIIlIlIlIlIlIIlllIlllllIlIIlIIIlIlllllIIIIllIIIIllIIIlllIlllIIl create(@NotNull Value param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    @Export
    @me.octo.client.utils.lllIlIIllIlIIIIIllllIllIlllllIlIIIIIIlIlIllIIlIIlllIllIlllllIIIIIIlIIIIIlIllllIlllIll
    @NotNull
-   public final IlllllllIIIlIlllllIIIllIlIIIlIlIlIIllllIlIlIlIlllIIIIlIIlIlllIllllIlIlIIlIIIlIIIIIIll register(@NotNull Value configArg) {
+   public final IlllllllIIIlIlllllIIIllIlIIIlIlIlIIllllIlIlIlIlllIIIIlIIlIlllIllllIlIlIIlIIIlIIIIIIll register(@NotNull Value param1) {
       // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
@@ -114,47 +114,39 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
       int var8 = "Z¦É<@]\u0083x\u008c#ÖýÅa·ðSó/<w\u00962C\u0000\u0017ÏÌa¾âY0\u0086SZÂ\fT%õzO\u0084L\u009fGÖ\u009e=\u001fc:ó\u0083b_\u008dÆË}f\u0096¦da!¯&¸·\u0096Â¸C\u008cÃã,ØÜ \u001eâ¿e¢äªÆ\\aó\u0007\u0012\u009eëu\u009c\u0097\"Õ}0Ò\u001eSmÃþèÊ\u009a5\u0010\u008a\u0087Û<¿c\u000bPiIcMäw\u0093h\u0010»»\u009aâW\u00017!19g¨ó{¬e \u001cöÌj.\u0007\u0006Í\u0016ñ\u0086\u008f9£\u0017Âxõ¦\u009e9\u0019\u0092åW@\u0015´\u0094\u008fò\u0015 N\u0017#vÞpãð¥\u0091olÄ|ÄðÐ0Ð \u0085ÿ\u0005h4\u0089u3K«\u001b\u0000( vho\u0091ëf4?<$?n'Wo4ø\u0016ó\u0087¤î^Ò_È\u0086?Éwuj_¢®0ë/& ][\u0093ú\u009at¿\u0017Ë\u009cgq\u0099\u0005}bjL[½÷Ì\u000bv@<ÄvúÂ\u001cI Ð^¿\u0098\u0099¡~BùA:\u0081\u009a\u0097]©\\·Ä\t·áùY\u007f§¡3½\u0083Ñ, µÇ\u0002nÝVMû\u008fb¥%ë¬«ÂSú)&\u0093`\u009dÐu\u0016\u0092\u0091\u0085\u0004Á<\u0010TÖ?±ã=\u000b\\Y¥Î\u009bÌ\u009c\u0083¡\u0018+x±tn¯#ähsA\u008dY\u008e\u0092²ÔD\u0007\u0006Öú%Ç \u0007¾#ô\u0019¼\u0014ÿ\u0007\u0085\u0088\u0007ÎX(÷\u0004yÁF\u0089hÍ7\u001d\u0087\u001c<Ö\r\u0006\u0087\u0010Oå\u0089G¼\u0005Þ\u0084} ~H\u0001JÜm .~v\u0019ÊñË©|TrJúyþI\u0096\u0097ä¦o/\u0096\u0005sb\u0002\u001bè¬\u008dG(î{Ê®\u0004ÎgÐ^\u000fD\u0099\u00adò\u001e\u0015¶ð}Ò.\u0087\u0007ê\u0094^\u0082ñ\u008bZæüûÓ\u0093ö;R{´\u0010Äë'\u007fDÒ¤#¯¿\"<çù²}\u0018ä\u001dVçqYüà\u009a{S©²\u009c\u00123?ê#Àxl\u0003\u0089(}>èÖ,«\u0013\u0096g:Ì\"\"\u0085¹+$i\u00ada÷\u0000\u001d\bhÃ!_3*¯:mYzu*ÔC\u0094(Two~Múöiµ\u000f\u0094k\u009dÉ\u0090\u0012P\u000bÕNªe\u0091pý\tÆ!»Ï\u0016©\u0017in\u0006=5¶¿(§mé0\u0087ï\u0085@\u001a®w^ÅùEMÕ\u0001\u00178á¹\\\u0086\u0081np§~\u0015\u0010¬\u009f$\r,3µY\u008b \u001bã¬\u008fÀ\u001b¢UÛ\u0090êûas\u0016O6V_Û(\u0097\u007f·\u00022\u001eO\u0086·\u0091L \u0086\u0082î\u009cÇFþ\u0019+\u0003\"\u0091\u008bÍÙ³p{\u007f³6]IvÌ\tßwPkz\u0011 \b\u0002\u009ci\u0097(¤£[GéBÛµN¥$Z^\u00062\u0002\u0083\u009fÆ\u008f«±·\u0090ì\u0098HZ\u008e±\u0011BA\u001d\u0019ô9\u008cê{mzCíx2\u0088J\u0017À\u0087¤\u009cY\u0081ë¿@½'á\u0018\u001cý\u0094\u009aÜ×\u000fÊ%[>\u0096E\u0088Ò\u000f¢\u001a\u000b\u0006\u0081{mcÈ\u0013WÊ`Ö¥8Å¹]ÿ1\u0010®wM\u0000SRo.èV¦\u0004ÁÏçÙ\u0018ëÀMc\u009aj\u0002|RZ)\u001a\u0083gi\u0091Íò\u0081S\u0084gÀ\u009a\u0010o|üsè\u0003È\u0013¸+\u0010+µ\u009a\u001cö\u0010o@ ©\u008c9¬\u001bwÐð\u0015\u001e¿§n\u0010«\u0016tÊ¸áÕõ©^pK\u001f\u009b\u0004Ç\u0010Î\u0083^\u0084Q\u0010\u001dÅ\u001d)\u008c\u0086°þe#\u0010A¤ß»<\u000fÞ\u0019w×W\u0000\u000b¤Ú4\u0010×C»\u00832\u0087\u0097ð\u008a${òÖãÄ¡ øp¡À8\u0004©ìòÀ\u0001SmÖö\u008d\u0006ò,\u0085J)éÝ\u000bé\r-\u008bñ;õ8YtÞÄ\u0095æ3æ\u0085\tÇ ñ¢\u009b\u0084W9l\u008c;ñv/\u0084\u0010\u0083~6 \u0017b\u008b\u000b~Ó+Ä3sÖÿ\"ú²O\fÉ\u001cësðC\u007f.» \u0017\u009f\\\u0000\u0000\b\u007fÒrn\u001bûåb`ÿ\u009aPDsä>\u0002¸)ß¾V¡R\u0006\u001bÀH\u0088Ôsvâß<[\u009b\u0015¿Ù\u00adð\u0002\u0098!î\u0086Ê¬êL¾L\u001díÛ¸Õ\u0084U\u001bgý\u0000[\u0092û\u0003'\u008a¶'¸\u0006®/5\u008f7ÑIfäÞ*\u0086\u009eJé\u009caÄëv\u000b\u0092¿@\u009aG\u0083ýx6®0_\u001b%¸5!÷5\u009e\u008fu÷W|Em\u0092üý\u0001\u0019ñÓÀ\u008fÞ(Dýf\b»\u0081\u00adÔÂÌ¼ÈuYå\u0081\u001deFõ\u0010Í]%\u0083æRÓÆ#Ðê\u0012\u0082\u0015»\u008ex\u00962©\u0002\u0096Ì\u0019\u0015\u008dL\u000eæÓB\u009aTÿMó7¼\u0092î\u0010ßjÆqýt\u001a7\u0092\u000f¬8Qq\u001e¡ì¤ÚD:©\u0094\u0082\u0010_höQaVï\u007f\u000e¢R\u0004óS1y ì]\u000f@\u0088K\u0002\u0000Ãn\\\u0082\u0094>UºÁ\u008fjÏ\f÷`q<Nølñ\u0087Ù{\u0010Û\u0003£K¯\u008ce\u0091Çz>#\"\u0002¾Y\u0010\u0011b]\u009bsa\u0013_¼\u0090e\u0007û$ì\u0004\u0010o0d¡(ÍÌs\u00802ê|-ùP*\u0010k¸|Al2\u0002È>\u0005¹¶)Ï\u009c\u009cXi:@VÙÕÎ\u0095\u000bCY+°Um{ì\r\u00868ö\u0003ë]%\u0084\b#1/,É2fwz¸\u0015÷4õB\u0001ñ\u008f\u0000vå]Ó\u001f\u009e\u0016\u0097O\u008dc{X\u0094,\u0081Û8{\u00ad\u0088ÀÂYU=ø5K¼\u0002\u0083Ñv¤b\u0081C\u0001ç¾E \u001e\u0091È\u001dNóù>±\u000e\u008d\u0083À\u000bWlà¯§¾þ\u0002\u0094'(µ\u008a\u0018ã\"\u00adH@\fõ)óÕ\u0092Ö\u001c|\u008a\u0081x:\u0088idbÈs¨üi\u008ai07è Î\u008e\u001d\u000fÙ´?sjj\u000b´\u0081úé/$Cu\u007fG\b\u0080ûZ\u008ae\u0092²LÕÂh'$\u0097 ¡\nÞ\u00190h3?q\u008d\u009e\u0099óqV½\u0011«Òi~ª\u0018O³Êc=B(g´°[¹$\u001e\u009a¡à.%\f\u008aÌë\u0098ÉÂp'ÃY\u009fÚ;~jÑA\u009aNYx\u0006\u008fópÐV-\u0088½·\u0085(}·\u008f\"\u008c]âw\u0003)å°\u0011¹¼«Í&£Z\u001d\u001cÜ²V\u0086\u0011nÆ\u008bQù\u0017\u0019\u0015¯%\u0083óDÒ\u0002ì¬R.¬\u0091Ï\u0019¥çN·AÿI?ÙL©'I':6\ng\u008c\u001a³l×}²DÜ\u0000\u001a^¿\u0007r9HÔêZ,vwn¢ãvó+r/:Ñ <s\u009e)®Ú¬ÒZÝkpÈ\u008fÙÈ¬G\u0087Jê\u009cþ\u0013ÙCh\u0002¡7Õ\u0010=^\u001apÔ$ËD©I\u0085TLu\u000b\u0099\u00108\u0095<\u009aõ¸8÷ä&&\u000fi\u000b\u0085i\u0018h)w\u001d\u001b\u009aÜÁ8\u0093sÃ\u0081u\u0082d\u001d$\u0013Ã\u009déeI\u0010g±±\u0092Cõêß\u0090G @ô\u008e\u0099Ã\u0010xm´¼Ê\u0095O§\u0092\u009b\u0011\u009d¨2ºþ Ü_I\u001dPF\u001aîo\u008bPnÁÉEc°¹H*^\rw\u007f\u0017\u001ex¨\u009dJTT\u0018\u00adQkÔÞk\u007fè8\u0000\"ìùµ;¥\u0086AA\u0091#7Ór\u0018\u0099ì/¯½\u0003E¹É5\u0010\u000eáY2õ×¬xÉ\béx\u0007\u0010Õ¹K\u001få\u001bM«¥\u001bÖ\u0085ZUéö\u0010ée1§\u0093¿\u0012ö\u000e\u0097\u0003V\u0006J\u000f$\u0010çØ;§éuv=D+°9+s»Ò\u0018µÄµA\u000b\u008dX\u0096=<>'\u008aïÏ\u0006ÜÊs1<ß¡Å\u0010\u0083Pý<ò\u0005g|)ê\u0081\u009f¿P\u00823H\u0000ACMæ}êG\u000e$³Ýë6£\u000bêd5ÜP\u0014æ~â\u008d©\u00906\u0086·\u0000æaB>åY'i\u008cNÞßÓ\u000f\u0001f\\P¤g^ôß¥Í\u0014¿¦þ_¤\u001a\u001a\u000b\u008b\u0083ô¿ãH"
          .length();
       char var5 = ' ';
-      int var12 = -1;
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "1\u0092K¼/ËEhXêë¯oÏ9\u008a&\r£®r\u0012\u0011©\u0010ÐUbË\"Oåkÿm:í\u008d^À_";
+            var8 = "1\u0092K¼/ËEhXêë¯oÏ9\u008a&\r£®r\u0012\u0011©\u0010ÐUbË\"Oåkÿm:í\u008d^À_".length();
+            var5 = '\u0018';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var9;
-                     IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new String[65];
-                     lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = "autoSell, scheduler, autoReconnect, interruptionFixer, playerNotifier, autoRefuel, autoForge, slayerStarter";
-                     IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
-                        null
-                     );
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = var9;
+                  IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll = new String[65];
+                  lIIIlIIlIIIllIIIlIlllIIlllIlIlIIlIIlIIIllIlIlIIlIllIIllIlIlIIIlllIlIIIIIlIlIlIIlIlIlI = "autoSell, scheduler, autoReconnect, interruptionFixer, playerNotifier, autoRefuel, autoForge, slayerStarter";
+                  IIIIIIIIIllIlIllIIllIlIIIllIllIlIlIIIllllIlllIIlIllIIlllIIIIIIllIIlllIIIIlIIllIIlllIl = new IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllIIlllIlIlIIIIllllIlllllIIl.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll(
+                     null
+                  );
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "1\u0092K¼/ËEhXêë¯oÏ9\u008a&\r£®r\u0012\u0011©\u0010ÐUbË\"Oåkÿm:í\u008d^À_";
-                  var8 = "1\u0092K¼/ËEhXêë¯oÏ9\u008a&\r£®r\u0012\u0011©\u0010ÐUbË\"Oåkÿm:í\u008d^À_".length();
-                  var5 = 24;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -261,6 +253,18 @@ public final class IIlllIllIIllIIllIlIIlIlIlIlllllllIllIllIIIIllllIlIIIIIIlIllII
             var5
          );
       }
+   }
+
+   private final Value llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI$recovered$fa94eefde30523d6(
+      long param1, Value param3, String param4, String param5
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   private final me.octo.client.modules.helpers.llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$2a88785286c26e8f(
+      String param1, long param2
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
    }
 
    private static final class llIIllllIllIIlIllIIIIIlllIIIIIIllIIlllIIlIllIIIlIlIIIlIlIIlIlIIIIlllIIlIIllIlIlIlIIll {

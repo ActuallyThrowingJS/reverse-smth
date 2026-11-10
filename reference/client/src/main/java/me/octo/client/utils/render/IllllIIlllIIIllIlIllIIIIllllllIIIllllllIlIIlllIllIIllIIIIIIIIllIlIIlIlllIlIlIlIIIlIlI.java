@@ -474,68 +474,95 @@ public final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIII
 
       Color var10001;
       boolean var10002;
-      label39: {
-         label38: {
-            try {
-               var19 = var15;
-               var10001 = var2;
-               var10002 = var6;
-               if (var14 == null) {
-                  break label39;
+      label45: {
+         label44: {
+            AABB var16;
+            Color var17;
+            boolean var18;
+            label43: {
+               try {
+                  var18 = var6;
+                  var17 = var2;
+                  var16 = var15;
+                  if (var14 == null) {
+                     break label43;
+                  }
+
+                  var26 = var15;
+                  var10001 = var2;
+                  if (!var6) {
+                     break label44;
+                  }
+               } catch (MatchException var24) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var24, 4995841489737435181L, var4
+                  );
                }
 
-               if (!var6) {
-                  break label38;
-               }
-            } catch (MatchException var17) {
-               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  var17, 4995841489737435181L, var4
-               );
+               var10002 = false;
+               break label45;
             }
 
-            var10002 = false;
-            break label39;
+            var26 = var16;
+            var10001 = var17;
+            var10002 = var18;
+            break label45;
          }
 
          var10002 = true;
       }
 
       boolean var10003;
-      label30: {
-         label29: {
-            try {
-               llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-                  var19, var9, var10001, var10002
-               );
-               var20 = var15;
-               var10001 = var1;
-               var22 = var3;
-               var10003 = var6;
-               if (var14 == null) {
-                  break label30;
+      label34: {
+         label33: {
+            AABB var19;
+            Color var20;
+            float var21;
+            boolean var22;
+            label32: {
+               try {
+                  llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+                     var26, var9, var10001, var10002
+                  );
+                  var22 = var6;
+                  var21 = var3;
+                  var20 = var1;
+                  var19 = var15;
+                  if (var14 == null) {
+                     break label32;
+                  }
+
+                  var27 = var15;
+                  var10001 = var1;
+                  var29 = var3;
+                  if (!var6) {
+                     break label33;
+                  }
+               } catch (MatchException var23) {
+                  throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                     var23, 4995841489737435181L, var4
+                  );
                }
 
-               if (!var6) {
-                  break label29;
-               }
-            } catch (MatchException var16) {
-               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
-                  var16, 4995841489737435181L, var4
-               );
+               var10003 = false;
+               break label34;
             }
 
-            var10003 = false;
-            break label30;
+            var27 = var19;
+            var10001 = var20;
+            var29 = var21;
+            var10003 = var22;
+            break label34;
          }
 
          var10003 = true;
       }
 
       boolean var11 = var10003;
-      float var12 = var22;
+      float var12 = var29;
       Color var13 = var10001;
       llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
-         var20, var7, var13, var12, var11
+         var27, var7, var13, var12, var11
       );
    }
 
@@ -1294,45 +1321,37 @@ public final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIII
       String var6 = "\u001e };\u0011,{~~H\u0019+uË\u0001|EeZà\b\u0088\u0010Ô Wæü«\u0016\u001aow\u000bÁº\u0006Ò\u0002\u009c^\u0080xIô1\u0080\t¸1?Åë\u0089Q\u0018\u0000\u0010µÜßî\u0018|\u0090\u0003|,©Ø¨C\u000bo\u0010Ë©\u0082ÝU[oÙ\u0095Å\u0092_z\u0014B9\u0010blBÔ4D)+×Ì\u007f\u0094s}wF\u0018+ê\u0003\u008d\u008d\u0007\u009d\u008f4¶Õ\u009d¶lÇ>\u000eÅ¯hxæ¿' ËÇßNº\u0096\u0004\u0097ã|\u0005i´v[Å\u0010ÁG\u0004[c÷÷Âø|ø·\u0007\u0005ð\u0010Ýa\u0015\u008e\u0095\f!³à\u0000Í\u0096\u001fßæ* `}\u0089\u0091\u0089\"S½YÈ|sM\tè\u0088ßØ\u0086\u0007Þ~\u0087Ê\u0090ü\u00ad\u0015¾z®y\u0010Úf\u0013C?Y2üa\u008doãùL\nõ\u0010êØU»\u007fÞ\u0097ù\u0018ºJlÑªÒY\u0018«ñvá«*Î\u0085  u þr2>\u0083\u0005É¨î\u0015\u0083ç\u0010BDuLÐh\u009f¦)a§O\u0019\u0018\"m ßc\u009d?\u009f_Üõ\u0081äÍ\u0091âZåÎO}lQzc\u000e\u0004a>V(F\u008bAM";
       int var8 = "\u001e };\u0011,{~~H\u0019+uË\u0001|EeZà\b\u0088\u0010Ô Wæü«\u0016\u001aow\u000bÁº\u0006Ò\u0002\u009c^\u0080xIô1\u0080\t¸1?Åë\u0089Q\u0018\u0000\u0010µÜßî\u0018|\u0090\u0003|,©Ø¨C\u000bo\u0010Ë©\u0082ÝU[oÙ\u0095Å\u0092_z\u0014B9\u0010blBÔ4D)+×Ì\u007f\u0094s}wF\u0018+ê\u0003\u008d\u008d\u0007\u009d\u008f4¶Õ\u009d¶lÇ>\u000eÅ¯hxæ¿' ËÇßNº\u0096\u0004\u0097ã|\u0005i´v[Å\u0010ÁG\u0004[c÷÷Âø|ø·\u0007\u0005ð\u0010Ýa\u0015\u008e\u0095\f!³à\u0000Í\u0096\u001fßæ* `}\u0089\u0091\u0089\"S½YÈ|sM\tè\u0088ßØ\u0086\u0007Þ~\u0087Ê\u0090ü\u00ad\u0015¾z®y\u0010Úf\u0013C?Y2üa\u008doãùL\nõ\u0010êØU»\u007fÞ\u0097ù\u0018ºJlÑªÒY\u0018«ñvá«*Î\u0085  u þr2>\u0083\u0005É¨î\u0015\u0083ç\u0010BDuLÐh\u009f¦)a§O\u0019\u0018\"m ßc\u009d?\u009f_Üõ\u0081äÍ\u0091âZåÎO}lQzc\u000e\u0004a>V(F\u008bAM"
          .length();
-      char var5 = 24;
-      int var12 = -1;
+      char var5 = '\u0018';
+      int var4 = -1;
 
-      label27:
       while (true) {
-         String var13 = var6.substring(++var12, var12 + var5);
+         byte[] var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+         String var21 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
          byte var10001 = -1;
+         var9[var7++] = var21;
+         if ((var4 += var5) >= var8) {
+            var6 = "|ý\u009dàÓT\u0081uÕ\u0088\u0002ª\u0014öö©\u00186\u0019ÿ)\u0013Û¿ßâñh2Fµ'Þ\u009dÛFÏi\u0099cü";
+            var8 = "|ý\u009dàÓT\u0081uÕ\u0088\u0002ª\u0014öö©\u00186\u0019ÿ)\u0013Û¿ßâñh2Fµ'Þ\u009dÛFÏi\u0099cü".length();
+            var5 = '\u0010';
+            var4 = -1;
 
-         while (true) {
-            byte[] var10 = var2.doFinal(var13.getBytes("ISO-8859-1"));
-            String var19 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
-            switch (var10001) {
-               case 0:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) >= var8) {
-                     lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var9;
-                     IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new String[16];
-                     IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI();
-                     return;
-                  }
+            while (true) {
+               var10 = var2.doFinal(var6.substring(++var4, var4 + var5).getBytes("ISO-8859-1"));
+               String var23 = llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI(var10).intern();
+               boolean var19 = false;
+               var9[var7++] = var23;
+               if ((var4 += var5) >= var8) {
+                  lIlIIllIIIIIIIIlIllIllIllIIIlIlllIlIlIllIlIIlllIllIIIllllllIlIlIIlIIIllIIIlIIlIIIIlll = var9;
+                  IlIIlllIllIIlIlllIlIIlIIlIIIlllIIIllIlIllllllIlllIIIIIIlIlIIIIllIIlllIIlIlIIIIlllllII = new String[16];
+                  IIIIlIlllllIlIlIIIlllIlIIIllIlIIIIlIllllIlllIIlllIlllllIIIlIlIllllIlllllIllIlIIlllllI = new IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIIIllIlIIlIlllIlIlIlIIIlIlI();
+                  return;
+               }
 
-                  var5 = var6.charAt(var12);
-                  break;
-               default:
-                  var9[var7++] = var19;
-                  if ((var12 += var5) < var8) {
-                     var5 = var6.charAt(var12);
-                     continue label27;
-                  }
-
-                  var6 = "|ý\u009dàÓT\u0081uÕ\u0088\u0002ª\u0014öö©\u00186\u0019ÿ)\u0013Û¿ßâñh2Fµ'Þ\u009dÛFÏi\u0099cü";
-                  var8 = "|ý\u009dàÓT\u0081uÕ\u0088\u0002ª\u0014öö©\u00186\u0019ÿ)\u0013Û¿ßâñh2Fµ'Þ\u009dÛFÏi\u0099cü".length();
-                  var5 = 16;
-                  var12 = -1;
+               var5 = var6.charAt(var4);
             }
-
-            var13 = var6.substring(++var12, var12 + var5);
-            var10001 = 0;
          }
+
+         var5 = var6.charAt(var4);
       }
    }
 
@@ -1441,5 +1460,174 @@ public final class IllllIIlllIIIllIlIllIIIIllllllIIIllllllIlIIlllIllIIllIIIIIIII
             var5
          );
       }
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$3b499f444d8a31a9(
+      AABB param0, Color param1, boolean param2, long param3, int param5, Object param6
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   @JvmStatic
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$34371cd2c9f5c4ad(
+      @NotNull Vec3[] pointsArg, long argument2Arg, @NotNull Color colorArg, float argument4Arg
+   ) {
+      // UNRECOVERED: ZKM control flow; see reports/decompiler-failures.json.
+   }
+
+   public static void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$360671b7cd3ea88b(
+      AABB var0, long var1, Color var3, float var4, boolean var5, int var6, Object var7
+   ) {
+      var1 = 1404808269984L;
+      var1 = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ var1;
+      int var8 = (int)((var1 ^ 88868208351643L) >>> 48);
+      long var9 = (var1 ^ 88868208351643L) << 16 >>> 16;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var11 = PictureInPictureManager.IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII();
+
+      int var10000;
+      byte var10001;
+      label37: {
+         label36: {
+            try {
+               var10000 = var6;
+               var10001 = 4;
+               if (var11 == null) {
+                  break label37;
+               }
+
+               if ((var6 & 4) == 0) {
+                  break label36;
+               }
+            } catch (MatchException var17) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var17);
+            }
+
+            var4 = 3.0F;
+         }
+
+         try {
+            var10000 = var6;
+            var10001 = 8;
+         } catch (MatchException var15) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var15);
+         }
+      }
+
+      label28: {
+         try {
+            if ((var10000 & var10001) == 0) {
+               break label28;
+            }
+
+            var20 = true;
+         } catch (MatchException var16) {
+            throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var16);
+         }
+
+         var5 = var20;
+      }
+
+      IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$299f28cc6911c616(var0, var3, var4, (char)var8, var9, var5);
+   }
+
+   @JvmStatic
+   @JvmOverloads
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$95c1a5c33f78b175(
+      long argument1Arg, @NotNull AABB boxArg, @NotNull Color colorArg, boolean argument4Arg
+   ) {
+      argument1Arg = 85295891680144L;
+      argument1Arg = IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll ^ argument1Arg;
+      long var5 = argument1Arg ^ 82269569242142L;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = PictureInPictureManager.IlIllIIIIIlllIlllIlllIllIIIIIIIIlIIlIlllIIlllIIIIlIlIlIlIIlIllllIIllIIIlIlIlIIIIllIII();
+      Intrinsics.checkNotNullParameter(boxArg, "box");
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var7 = var10000;
+
+      Color var10001;
+      boolean var10002;
+      label22: {
+         label21: {
+            try {
+               Intrinsics.checkNotNullParameter(colorArg, "color");
+               var12 = boxArg;
+               var10001 = colorArg;
+               var10002 = argument4Arg;
+               if (var7 == null) {
+                  break label22;
+               }
+
+               if (!argument4Arg) {
+                  break label21;
+               }
+            } catch (MatchException var9) {
+               throw IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(var9);
+            }
+
+            var10002 = false;
+            break label22;
+         }
+
+         var10002 = true;
+      }
+
+      llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$57dc51daff2f4180(
+         var12, var5, var10001, var10002
+      );
+   }
+
+   @JvmStatic
+   @JvmOverloads
+   public static final void IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI$recovered$299f28cc6911c616(
+      @NotNull AABB var0, @NotNull Color var1, float var2, char var3, long var4, boolean var6
+   ) {
+      var4 = 8460617782889L;
+      long var7 = ((long)var3 << 48 | var4 << 16 >>> 16) ^ IIIIlIIIIlllllIlIllIllIIllIIlllllIlllIllllIlIllIIIIlIIIllIIIlIllIllIIlllIIIIIIIIlllll;
+      long var9 = var7 ^ 74318916153779L;
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var10000 = lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+         -8449261548308453967L, var7
+      );
+      Intrinsics.checkNotNullParameter(
+         var0, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"x">(691, 4076062571728985032L ^ var7)
+      );
+      Intrinsics.checkNotNullParameter(
+         var1, llIIlllIlIllIlIIllllIllllIIIlIIIIIllIIlIlIllIlIIllllIlllllllIlIIIlIllIlIIIlllllIIlIlI<"x">(17144, 7935442881779407744L ^ var7)
+      );
+      me.octo.client.utils.IIIlIlllIlllIIIIlllIIIlIIlIlIIlIlIlIlIIIllIIIlllllllIlIlIlIIIIllllIllIllIIIlllIlIIlll[] var14 = var10000;
+
+      Color var10001;
+      float var10002;
+      boolean var10003;
+      label22: {
+         label21: {
+            try {
+               var17 = var0;
+               var10001 = var1;
+               var10002 = var2;
+               var10003 = var6;
+               if (var14 == null) {
+                  break label22;
+               }
+
+               if (!var6) {
+                  break label21;
+               }
+            } catch (MatchException var15) {
+               throw lIIIllIIIllllIIllIlIlIlIllIIlIlllIIlIllIllIIlIlIIlIIIIlIIlIlIIlllIIlIIlIIlllIIlIllllI.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI<"Î">(
+                  var15, -8588176620204358231L, var7
+               );
+            }
+
+            var10003 = false;
+            break label22;
+         }
+
+         var10003 = true;
+      }
+
+      boolean var11 = var10003;
+      float var12 = var10002;
+      Color var13 = var10001;
+      llllIllIIlllIllIIlllIllIIIIlIlIIIIIllIIIlIlllIIllIIllllllIlIlllIIIllIlIIlIlIIllIIIIll.IIIlllIIIIIIIlIIlllIlIlIlIlIIIIIIIlllIIlllIlIllllIIIIIIIllIllIlIIIIIlllllllllllIIIIlI(
+         var17, var9, var13, var12, var11
+      );
    }
 }
